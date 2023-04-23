@@ -72,7 +72,7 @@ puts Date.civil(2016, 5, 13)
 Explanation:
 puts means put s which is put string which means print to the screen the string.
 Date is a class that provides methods for storing and manipulating calendar dates.
-.civil is a Date class method that creates a new Date object and with no arguments given it will return the date for 
+.civil is a Date class method that creates a new Date object and with no arguments given it will return the date for
 January 1, -4712.
 (2016, 5, 13) are integer argument representing the year 2016, the month 5, and the day 13 that is May 13, 2016.
 this means:
