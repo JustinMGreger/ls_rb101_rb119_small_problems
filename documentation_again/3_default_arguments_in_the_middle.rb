@@ -44,4 +44,10 @@ output the [a, b, c, d] array of parameter elements where the a parameter which 
 which is assigned the integer 2, the c parameter which is assigned the integer 3, and the d paramter which is not assigned 
 a value.
 
+syntax:
+end
+
+Explanation:
+this is the last line of the my_method method that is everything after this line is outside of the my_method method.
+
 =end
