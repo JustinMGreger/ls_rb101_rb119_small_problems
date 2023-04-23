@@ -31,4 +31,17 @@ the my_method method accepts the (a, b = 2, c = 3, d) parameters which contain: 
 value, the b parameter which is assigned the integer 2, the c parameter which is assigned the integer 3, and the d 
 paramter which is not assigned a value.
 
+Syntax:
+  p [a, b, c, d]
+
+Explanation:
+p means output.
+[a, b, c, d] are a array of parameter elements where the a parameter which is not assigned a value, the b parameter which 
+is assigned the integer 2, the c parameter which is assigned the integer 3, and the d paramter which is not assigned a 
+value.
+this means:
+output the [a, b, c, d] array of parameter elements where the a parameter which is not assigned a value, the b parameter 
+which is assigned the integer 2, the c parameter which is assigned the integer 3, and the d paramter which is not assigned 
+a value.
+
 =end
