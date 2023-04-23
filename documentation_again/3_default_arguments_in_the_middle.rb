@@ -18,6 +18,17 @@ Explanation of Initial Syntax Given:
 Syntax:
 def my_method(a, b = 2, c = 3, d)
 
-  Explanation:
+Explanation:
+def means definition.
+my_method is a method.
+(a, b = 2, c = 3, d) are parameters.
+a is a parameter without a assigned value.
+b is a parameter assigned the integer 2.
+c is a parameter assigned the integer 3.
+d is a paramter without a assigned value.
+this means: 
+the my_method method accepts the (a, b = 2, c = 3, d) parameters which contain: the a parameter which is not assigned a 
+value, the b parameter which is assigned the integer 2, the c parameter which is assigned the integer 3, and the d 
+paramter which is not assigned a value.
 
 =end
