@@ -13,4 +13,7 @@ a is a variable.
 [1, 4, 8, 11, 15, 19] is a array of integer elements.
 this means the variable a is assigned the [1, 4, 8, 11, 15, 19] array of integer elements.
 
+Description of Exercise:
+How would you search this Array to find the first element whose value exceeds 8?
+
 =end
