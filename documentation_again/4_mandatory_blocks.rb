@@ -16,4 +16,10 @@ this means the variable a is assigned the [1, 4, 8, 11, 15, 19] array of integer
 Description of Exercise:
 How would you search this Array to find the first element whose value exceeds 8?
 
+Syntax of Solution:
+a = [1, 4, 8, 11, 15, 19]
+value = a.bsearch { |element| element > 8 }
+puts value
+
+
 =end
