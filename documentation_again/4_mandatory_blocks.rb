@@ -97,5 +97,7 @@ where the binary search method searches for a specific element in a array by com
 array if the specific element does not equal the middle element then the half of the array that the specific element 
 cannot be in is discarded and the search continues in the remaining half by comparing the specific element to the middle 
 element this is repeated until the specific element is found or the specific element is not in the array.
+the output of which is:
+11
 
 =end
