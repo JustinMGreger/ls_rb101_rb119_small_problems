@@ -21,5 +21,26 @@ a = [1, 4, 8, 11, 15, 19]
 value = a.bsearch { |element| element > 8 }
 puts value
 
+Explanaiton of Syntax of Solution:
+
+Syntax:
+a = [1, 4, 8, 11, 15, 19]
+
+Explanation:
+a is a variable.
+= means assignment.
+[1, 4, 8, 11, 15, 19] is a array of integer elements.
+this means the variable a is assigned the [1, 4, 8, 11, 15, 19] array of integer elements.
+
+
+
+
+value = a.bsearch { |element| element > 8 }
+puts value
+
+
+
+
+
 
 =end
