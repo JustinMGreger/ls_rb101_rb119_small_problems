@@ -33,20 +33,9 @@ is the variable a which is assigned the [1, 4, 8, 11, 15, 19] array of integer e
 value is greater than 8.
 
 and Code.” Implementation of Algorithm:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a = [1, 4, 8, 11, 15, 19]
+value = a.bsearch { |element| element > 8 }
+puts value 
 
 Description of Exercise:
 The Array#bsearch method is used to search ordered Arrays more quickly than #find and #select can. 
@@ -69,6 +58,8 @@ Syntax of Solution:
 a = [1, 4, 8, 11, 15, 19]
 value = a.bsearch { |element| element > 8 }
 puts value
+
+output: 11
 
 Explanaiton of Syntax of Solution:
 
