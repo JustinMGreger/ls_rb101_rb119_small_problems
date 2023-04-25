@@ -3,22 +3,36 @@
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
 PEDAC stands for “[Understand the] Problem, 
- Identify expected input and output
- Make the requirements explicit
- Identify rules
- Mental model of the problem (optional)
+
+Identify expected input and output:
+
+Input: a = [1, 4, 8, 11, 15, 19]
+
+Output: the first element whose value exceeds 8.
+
+Make the requirements explicit:
+Use the Array#bsearch method to search the ordered Array to find the first element whose value exceeds 8.
+
+Identify rules Mental model of the problem:
+Array#bsearch method is used to search the ordered Array to find the first element whose value exceeds 8.
+a = [1, 4, 8, 11, 15, 19] is the sorted Array.
+the first element whose value exceeds 8 means the first element that is greater than 8.
 
 Examples / Test Cases, 
- Validate understanding of the problem
+If the code is correct then the answer will be greater than 8.
+The code will be wrong if the answer is less than or equal to 8.
 
-Data Structure, 
- How we represent data that we will work with when converting the input to output.
+Data Structure:
+the data structures are Arrays. 
+block of code will be passed to the Array#bsearch method which is used to search the ordered Array to find the first 
+element whose value exceeds 8.
 
-Algorithm, 
- Steps for converting input to output
+Algorithm Steps for converting input to output:
+output the value variable which is assigned the result of using the Array#bsearch method to search the ordered Array which 
+is the variable a which is assigned the [1, 4, 8, 11, 15, 19] array of integer elements to find the first element whose 
+value is greater than 8.
 
-and Code.” 
- Implementation of Algorithm
+and Code.” Implementation of Algorithm:
 
 
 
