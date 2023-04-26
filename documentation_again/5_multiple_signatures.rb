@@ -86,17 +86,10 @@ the result of which is:
 { |index| index**2 } is a block of code passed to the fetch method where index is the index of the elements which are
 then raised to the power of 2 that is multiplied by itself.
 this means:
-print to the screen
-
-
-
-
-the result of retrieving 
-the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
-
-the value of a specified key from a hash. 
-(7) is a integer argument to the fetch method.
-{ |index| index**2 } is a block of code passed to the fetch method where index is the index of the elements which are
-then raised to the power of 2 that is multiplied by itself.
+print to the screen the retrieved value of the element at index 7 for the variable a is assigned to the (a b c d e) array
+of string literals, where each string is separated by whitespace and if this fails then print to the screen the result of
+the index 7 raised to the power of 2 that is multiplied by itself which is the integer 49.
+the output of which is:
+49
 
 =end
