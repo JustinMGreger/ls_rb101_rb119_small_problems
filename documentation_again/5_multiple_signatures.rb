@@ -20,7 +20,7 @@ a is a variable.
 %w is used to create an array of string literals, where each string is separated by whitespace.
 (a b c d e) are string elements.
 this means: 
-the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
+the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace. 
 the result of which is:
 ["a", "b", "c", "d", "e"]
 
@@ -34,7 +34,9 @@ a is a variable.
 %w is used to create an array of string literals, where each string is separated by whitespace.
 (a b c d e) are string elements.
 this means: 
-the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
+the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace.
+the result of which is:
+["a", "b", "c", "d", "e"]
 .fetch method is used to retrieve the value of a specified key from a hash. 
 (7) is a integer argument to the fetch method.
 this means:
@@ -54,7 +56,9 @@ a is a variable.
 %w is used to create an array of string literals, where each string is separated by whitespace.
 (a b c d e) are string elements.
 this means: 
-the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
+the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace.
+the result of which is:
+["a", "b", "c", "d", "e"]
 .fetch method is used to retrieve the value of a specified key from a hash. 
 (7, 'beats me') are arguments to the fetch method where 7 is a integer and 'beats me' is a string.
 this means:
@@ -74,7 +78,9 @@ a is a variable.
 %w is used to create an array of string literals, where each string is separated by whitespace.
 (a b c d e) are string elements.
 this means: 
-the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
+the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace.
+the result of which is:
+["a", "b", "c", "d", "e"]
 .fetch method is used to retrieve the value of a specified key from a hash. 
 (7) is a integer argument to the fetch method.
 { |index| index**2 } is a block of code passed to the fetch method where index is the index of the elements which are
