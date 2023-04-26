@@ -54,10 +54,13 @@ a is a variable.
 this means: 
 the variable a is assigned to the (a b c d e) array of string literals, where each string is separated by whitespace 
 .fetch method is used to retrieve the value of a specified key from a hash. 
-(7, 'beats me') are arguments to the fetch method.
-
-
-
+(7, 'beats me') are arguments to the fetch method where 7 is a integer and 'beats me' is a string.
+this means:
+print to the screen the retrieved value of the element at index 7 for the variable a is assigned to the (a b c d e) array
+of string literals, where each string is separated by whitespace and if this fails then print to the screen the string
+'beats me'.
+the output of which is:
+beats me
 
 
 
