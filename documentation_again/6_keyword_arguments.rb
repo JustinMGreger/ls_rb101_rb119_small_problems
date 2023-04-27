@@ -11,6 +11,6 @@ Explanation:
 .step method is used to iterate over a range of numbers with a specific step value which follows the syntax:
 start_value.step(end_value, step_value) { |current_value| # code to be executed }
 to: means the exclusive limit of the range.
-
+10 is a integer.
 
 =end
