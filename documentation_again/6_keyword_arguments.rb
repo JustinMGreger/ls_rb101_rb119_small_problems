@@ -12,5 +12,6 @@ Explanation:
 start_value.step(end_value, step_value) { |current_value| # code to be executed }
 to: means the exclusive limit of the range.
 10 is a integer.
+by: specifies the step increment.
 
 =end
