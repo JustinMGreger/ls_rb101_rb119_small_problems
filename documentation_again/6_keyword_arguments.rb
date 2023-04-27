@@ -15,6 +15,11 @@ to: means the exclusive limit of the range.
 by: specifies the step increment.
 3 is a integer.
 { |value| puts value } is a block of code that means for value print value to the screen.
+this means:
+print to the screen the integer 5 up to and excluding the integer 10 by 3.
+
+
+
 
 
 
