@@ -98,19 +98,12 @@ If it does then my understanding and thus solution is correct.
 Data Structure,  How we represent data that we will work with when converting the input to output.
 The result will be an array.
 
+Algorithm,  Steps for converting input to output:
 
+print to the screen the variable s which is assigned the string 'abc' which the public_methods method accepts the argument 
+(false) returns as an array of all the public instance methods available for the class String and then returns as a 
+string representation of the class String.
 
-
-
-
-
-
-
-
-
-
-Algorithm, 
- Steps for converting input to output
 
 and Code.” 
  Implementation of Algorithm
