@@ -68,11 +68,18 @@ the result of which is:
 :define_singleton_method, :object_id, :send, :to_enum, :enum_for, :!, :equal?, :__send__, :!=, :instance_eval, 
 :instance_exec, :__id__]
 
+ Make the requirements explicit Identify rules:
+print just the public methods that are defined or overridden by the String class.
+Exclude all members that are only defined in Object, BasicObject, and Kernel.
 
 
 
- Make the requirements explicit
- Identify rules
+
+
+
+
+
+
  Mental model of the problem (optional)
 
 Examples / Test Cases, 
