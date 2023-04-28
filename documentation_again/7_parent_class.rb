@@ -34,7 +34,17 @@ s is variable.
 this means:
 the variable s is assigned the string 'abc'.
 
+Syntax:
+puts s.public_methods.inspect
 
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+s is variable.
+= means assigned.
+'abc' is a string.
+this means:
+the variable s is assigned the string 'abc'.
+.public_methods method returns an array of all the public instance methods available for an object.
 
  Make the requirements explicit
  Identify rules
