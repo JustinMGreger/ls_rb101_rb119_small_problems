@@ -105,8 +105,11 @@ print to the screen the variable s which is assigned the string 'abc' which the 
 string representation of the class String.
 
 
-and Code.” 
- Implementation of Algorithm
+and Code.” Implementation of Algorithm:
+
+puts s = 'abc'.public_methods(false).inspect
+
+
 
 
 =end
