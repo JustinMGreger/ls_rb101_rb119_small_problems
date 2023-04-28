@@ -122,5 +122,4 @@ the output of which is:
 :delete_suffix, :lstrip!, :rstrip!, :delete_prefix!, :delete_suffix!, :tr, :tr_s, :delete, :squeeze, :tr!, :tr_s!, 
 :delete!, :squeeze!, :each_line, :each_byte, :each_char, :each_codepoint]
 
-
 =end
