@@ -72,15 +72,28 @@ the result of which is:
 print just the public methods that are defined or overridden by the String class.
 Exclude all members that are only defined in Object, BasicObject, and Kernel.
 
+Mental model of the problem (optional):
+print just the public methods that are defined or overridden by the String class.
+Exclude all members that are only defined in Object, BasicObject, and Kernel.
+According to the Ruby Documentation:
+The class String has the Parent Object.
+I am looking for the .public_methods method.
+The .public_methods method is not in the class String.
+The .public_methods method is in the class Object.
+public_methods(all=true) → array
+Returns the list of public methods accessible to obj. 
+If the all parameter is set to false, only those methods in the receiver will be listed.
+The String class is the receiver.
+This means: 
+if public_methods(false) → array 
+Returns the list of public methods accessible to String.
+this would exclude all members that are only defined in Object, BasicObject, and Kernel.
 
 
 
 
 
 
-
-
- Mental model of the problem (optional)
 
 Examples / Test Cases, 
  Validate understanding of the problem
