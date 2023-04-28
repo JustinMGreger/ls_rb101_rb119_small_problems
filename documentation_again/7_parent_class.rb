@@ -95,6 +95,8 @@ does not return the list of public methods accessible to String and exclude all 
 BasicObject, and Kernel then my understanding is wrong.
 If it does then my understanding and thus solution is correct.
 
+Data Structure,  How we represent data that we will work with when converting the input to output.
+The result will be an array.
 
 
 
@@ -104,8 +106,8 @@ If it does then my understanding and thus solution is correct.
 
 
 
-Data Structure, 
- How we represent data that we will work with when converting the input to output.
+
+
 
 Algorithm, 
  Steps for converting input to output
