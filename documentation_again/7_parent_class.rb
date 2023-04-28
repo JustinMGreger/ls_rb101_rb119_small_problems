@@ -27,7 +27,12 @@ Exclude all members that are only defined in Object, BasicObject, and Kernel.
 Syntax:
 s = 'abc'
 
-
+Explanation:
+s is variable.
+= means assigned.
+'abc' is a string.
+this means:
+the variable s is assigned the string 'abc'.
 
 
 
