@@ -89,14 +89,20 @@ if public_methods(false) → array
 Returns the list of public methods accessible to String.
 this would exclude all members that are only defined in Object, BasicObject, and Kernel.
 
+Examples / Test Cases, Validate understanding of the problem:
+If public_methods(false) → array 
+does not return the list of public methods accessible to String and exclude all members that are only defined in Object, 
+BasicObject, and Kernel then my understanding is wrong.
+If it does then my understanding and thus solution is correct.
 
 
 
 
 
 
-Examples / Test Cases, 
- Validate understanding of the problem
+
+
+
 
 Data Structure, 
  How we represent data that we will work with when converting the input to output.
