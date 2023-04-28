@@ -45,6 +45,14 @@ s is variable.
 this means:
 the variable s is assigned the string 'abc'.
 .public_methods method returns an array of all the public instance methods available for an object.
+.inspect method return a string representation of the object.
+this means:
+print to the screen the variable s is assigned the string 'abc' which is returned as an array of all the public instance 
+methods available for an object and then returned as a string representation of the object.
+
+
+
+
 
  Make the requirements explicit
  Identify rules
