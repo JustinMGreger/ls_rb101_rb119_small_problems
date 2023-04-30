@@ -117,11 +117,13 @@ If this is not so then my then my understanding of the problem and solution is i
 Data Structure, How we represent data that we will work with when converting the input to output:
 Array.
 
-Algorithm, 
- Steps for converting input to output
+Algorithm, Steps for converting input to output:
+1. create the variable a.
+2. create a array of integer elements containting 5, 9, 3, 11.
+3. assignt that array to the variable a.
+4. print to the screen the minimum 2 elements as a array from the variable a.
 
-and Code.” 
- Implementation of Algorithm
+and Code.”  Implementation of Algorithm:
 
 
 
