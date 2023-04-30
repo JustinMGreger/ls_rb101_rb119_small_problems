@@ -29,8 +29,8 @@ a is a variable.
 this means:
 print to the screen the variable a which is assigned the [5, 9, 3, 11] array of integers that calls the .min method which 
 returns the minimum value.
-
-
+the output of which is:
+3
 
 
 
