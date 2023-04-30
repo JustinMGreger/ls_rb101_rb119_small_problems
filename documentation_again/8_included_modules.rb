@@ -16,6 +16,8 @@ Explanation:
 a is a variable.
 = means assignment.
 [5, 9, 3, 11] is a array of integers.
+this means: 
+the variable a is assigned the [5, 9, 3, 11] array of integers.
 
 Syntax:
 puts a.min
@@ -25,6 +27,8 @@ puts means put s which is put string which is print to the screen the string.
 a is a variable.
 = means assignment.
 [5, 9, 3, 11] is a array of integers.
+this means: 
+the variable a is assigned the [5, 9, 3, 11] array of integers.
 .min method returns the minimum value.
 this means:
 print to the screen the variable a which is assigned the [5, 9, 3, 11] array of integers that calls the .min method which 
@@ -51,12 +55,54 @@ a = [5, 9, 3, 11]
 puts a.min
 Find the documentation for the #min method and change the above code to print the two smallest values in the Array.
 
+Mental model of the problem (optional):
+the following code prints the smallest value in the Array.
+
+a = [5, 9, 3, 11]
+
+Syntax:
+a = [5, 9, 3, 11]
+
+Explanation:
+a is a variable.
+= means assignment.
+[5, 9, 3, 11] is a array of integers.
+this means: 
+the variable a is assigned the [5, 9, 3, 11] array of integers.
+
+Syntax:
+puts a.min
+
+Explanation:
+puts means put s which is put string which is print to the screen the string.
+a is a variable.
+= means assignment.
+[5, 9, 3, 11] is a array of integers.
+this means: 
+the variable a is assigned the [5, 9, 3, 11] array of integers.
+.min method returns the minimum value.
+this means:
+print to the screen the variable a which is assigned the [5, 9, 3, 11] array of integers that calls the .min method which 
+returns the minimum value.
+the output of which is:
+3
+
+Find the documentation for the #min method and change the above code to print the two smallest values in the Array.
+According to https://ruby-doc.org/core-2.3.0/Enumerable.html#method-i-min   :
+.min method is defined as:
+Returns the object in enum with the minimum value.
+If the n argument is given, minimum n elements are returned as an array.
+An example is given:
+a = %w[albatross dog horse]
+a.min(2)                                  #=> ["albatross", "dog"]
+
+potential solution:
+a = [5, 9, 3, 11]
+puts a.min(2)
+could print the two smallest values in the Array.
 
 
 
-
-
-Mental model of the problem (optional)
 
 Examples / Test Cases, 
  Validate understanding of the problem
