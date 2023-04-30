@@ -35,4 +35,31 @@ the output of which is:
 Description of Exercise:
 Find the documentation for the #min method and change the above code to print the two smallest values in the Array.
 
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+
+PEDAC stands for “[Understand the] Problem, 
+ Identify expected input and output
+ Make the requirements explicit
+ Identify rules
+ Mental model of the problem (optional)
+
+Examples / Test Cases, 
+ Validate understanding of the problem
+
+Data Structure, 
+ How we represent data that we will work with when converting the input to output.
+
+Algorithm, 
+ Steps for converting input to output
+
+and Code.” 
+ Implementation of Algorithm
+
+
+
+
+
+
+
+
 =end
