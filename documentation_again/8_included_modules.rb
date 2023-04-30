@@ -42,13 +42,8 @@ PEDAC stands for “[Understand the] Problem,
 a = [5, 9, 3, 11]
 puts a.min
  
-
-
-
-
-
- and output
-
+and output:
+print the two smallest values in the Array.
 
 
 
