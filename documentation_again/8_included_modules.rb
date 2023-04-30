@@ -32,6 +32,7 @@ returns the minimum value.
 the output of which is:
 3
 
-
+Description of Exercise:
+Find the documentation for the #min method and change the above code to print the two smallest values in the Array.
 
 =end
