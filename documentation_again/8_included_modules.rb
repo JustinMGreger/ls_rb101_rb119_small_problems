@@ -26,6 +26,9 @@ a is a variable.
 = means assignment.
 [5, 9, 3, 11] is a array of integers.
 .min method returns the minimum value.
+this means:
+print to the screen the variable a which is assigned the [5, 9, 3, 11] array of integers that calls the .min method which 
+returns the minimum value.
 
 
 
