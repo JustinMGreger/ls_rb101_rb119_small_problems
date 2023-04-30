@@ -101,11 +101,25 @@ a = [5, 9, 3, 11]
 puts a.min(2)
 could print the two smallest values in the Array.
 
+Examples / Test Cases, Validate understanding of the problem:
+If:
+a = [5, 9, 3, 11]
+puts a.min(1)
+prints the same result as the original code then my understanding of the problem is correct.
+If this is not so then my then my understanding of the problem is incorrect.
+
+If: 
+a = [5, 9, 3, 11]
+puts a.min(2)
+prints the two smallest values in the Array then my understanding of the problem and solution is correct.
+If this is not so then my then my understanding of the problem and solution is incorrect.
 
 
 
-Examples / Test Cases, 
- Validate understanding of the problem
+
+
+
+
 
 Data Structure, 
  How we represent data that we will work with when converting the input to output.
