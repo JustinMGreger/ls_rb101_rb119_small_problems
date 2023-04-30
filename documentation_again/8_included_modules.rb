@@ -114,15 +114,8 @@ puts a.min(2)
 prints the two smallest values in the Array then my understanding of the problem and solution is correct.
 If this is not so then my then my understanding of the problem and solution is incorrect.
 
-
-
-
-
-
-
-
-Data Structure, 
- How we represent data that we will work with when converting the input to output.
+Data Structure, How we represent data that we will work with when converting the input to output:
+Array.
 
 Algorithm, 
  Steps for converting input to output
