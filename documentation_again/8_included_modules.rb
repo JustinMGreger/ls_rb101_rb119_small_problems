@@ -38,7 +38,21 @@ Find the documentation for the #min method and change the above code to print th
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
 PEDAC stands for “[Understand the] Problem, 
- Identify expected input and output
+ Identify expected input:
+a = [5, 9, 3, 11]
+puts a.min
+ 
+
+
+
+
+
+ and output
+
+
+
+
+
  Make the requirements explicit
  Identify rules
  Mental model of the problem (optional)
