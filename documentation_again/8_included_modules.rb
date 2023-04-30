@@ -45,12 +45,18 @@ puts a.min
 and output:
 print the two smallest values in the Array.
 
+Make the requirements explicit Identify rules:
+the following code prints the smallest value in the Array.
+a = [5, 9, 3, 11]
+puts a.min
+Find the documentation for the #min method and change the above code to print the two smallest values in the Array.
 
 
 
- Make the requirements explicit
- Identify rules
- Mental model of the problem (optional)
+
+
+
+Mental model of the problem (optional)
 
 Examples / Test Cases, 
  Validate understanding of the problem
