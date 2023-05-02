@@ -5,5 +5,11 @@ Write a method that takes two arguments, a string and a positive integer, and pr
 integer indicates.
 
 Example:
+repeat('Hello', 3)
+
+Output:
+Hello
+Hello
+Hello
 
 =end
