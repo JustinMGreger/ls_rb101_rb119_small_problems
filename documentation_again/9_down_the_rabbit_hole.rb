@@ -41,5 +41,10 @@ find and load the YAML module.
 the constant MESSAGES is assigned the result of loading the calculator_messages.yml YAML file and using the YAML Ruby 
 module to provide a Ruby interface for data serialization in YAML format.
 
+the result of which is:
+:in `initialize': No such file or directory @ rb_sysopen - calculator_messages.yml (Errno::ENOENT)
+	from /opt/homebrew/Cellar/ruby/3.2.1/lib/ruby/3.2.0/psych.rb:670:in `open'
+	from /opt/homebrew/Cellar/ruby/3.2.1/lib/ruby/3.2.0/psych.rb:670:in `load_file'
+
 
 =end
