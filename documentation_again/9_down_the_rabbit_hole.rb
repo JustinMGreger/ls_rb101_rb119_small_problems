@@ -46,5 +46,7 @@ the result of which is:
 	from /opt/homebrew/Cellar/ruby/3.2.1/lib/ruby/3.2.0/psych.rb:670:in `open'
 	from /opt/homebrew/Cellar/ruby/3.2.1/lib/ruby/3.2.0/psych.rb:670:in `load_file'
 
+Description of Exercise:
+Find the documentation for YAML::load_file.
 
 =end
