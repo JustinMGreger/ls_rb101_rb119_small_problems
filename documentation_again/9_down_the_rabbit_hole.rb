@@ -36,8 +36,10 @@ this means:
 the constant MESSAGES is assigned the result of loading the calculator_messages.yml YAML file and using the YAML Ruby 
 module to provide a Ruby interface for data serialization in YAML format.
 
-
-
+this all means:
+find and load the YAML module.
+the constant MESSAGES is assigned the result of loading the calculator_messages.yml YAML file and using the YAML Ruby 
+module to provide a Ruby interface for data serialization in YAML format.
 
 
 =end
