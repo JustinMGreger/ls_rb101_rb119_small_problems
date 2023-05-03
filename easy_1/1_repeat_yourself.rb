@@ -103,4 +103,24 @@ Algorithm, Steps for converting input to output:
 2. define the repeat method as printing the string a integer amount of times.
 3. call the repeat method and pass th arguments ('Hello', 3).
 
+and Code.” Implementation of Algorithm:
+
+ def repeat(string, integer)
+  integer.times do
+    puts string
+  end
+end
+
+repeat('Hello', 3)
+
+the output of which is:
+Hello
+Hello
+Hello
+
+this matches the original output which is:
+Hello
+Hello
+Hello
+
 =end
