@@ -24,9 +24,9 @@ Write a method that takes two arguments, a string and a positive integer, and pr
 integer indicates.
 
 Mental model of the problem (optional):
-
 Example:
 repeat('Hello', 3)
+
 Output:
 Hello
 Hello
@@ -98,7 +98,6 @@ Data Structure, How we represent data that we will work with when converting the
 not determined.
 
 Algorithm, Steps for converting input to output:
-
 1. the repeat method accepts two parameters of which 1 is a string and 1 is a integer.
 2. define the repeat method as printing the string a integer amount of times.
 3. call the repeat method and pass th arguments ('Hello', 3).
