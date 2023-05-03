@@ -97,4 +97,10 @@ if this is correct then the output will match.
 Data Structure, How we represent data that we will work with when converting the input to output.
 not determined.
 
+Algorithm, Steps for converting input to output:
+
+1. the repeat method accepts two parameters of which 1 is a string and 1 is a integer.
+2. define the repeat method as printing the string a integer amount of times.
+3. call the repeat method and pass th arguments ('Hello', 3).
+
 =end
