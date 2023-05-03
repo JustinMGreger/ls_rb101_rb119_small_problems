@@ -19,8 +19,10 @@ Write a method that takes two arguments, a string and a positive integer
 and output:
 print the string as many times as the integer indicates.
  
- 
 Make the requirements explicit Identify rules:
+Write a method that takes two arguments, a string and a positive integer, and prints the string as many times as the 
+integer indicates.
+
 
 
 
