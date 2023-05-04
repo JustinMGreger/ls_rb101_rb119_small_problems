@@ -154,5 +154,11 @@ puts is_odd?(-8) == false same output of the code using integer % 2 == 1
 puts is_odd?(0) == false same output of the code using integer % 2 == 1 
 puts is_odd?(7) == true same output of the code using integer % 2 == 1 
 
+Explantion:
+the remainder(2) method being called on -17 has a remainder of -1.
+-1 is not equal to 1 which is why it returns false.
+the % method returns 1 on -17 % 2.
+1 is equal to 1 which is why it returns true.
+the way the % method and the remainder method are programmed are why they return different answers.
 
 =end
