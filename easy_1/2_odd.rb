@@ -106,4 +106,10 @@ true
 
 this was correct this code works.
 
+Description of Exercise:
+The Integer#remainder method performs a remainder operation in Ruby. 
+Rewrite #is_odd? to use Integer#remainder instead of %. 
+Note: before version 2.4, Ruby used the Numeric#remainder method instead.
+
+
 =end
