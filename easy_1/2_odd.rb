@@ -21,15 +21,13 @@ PEDAC has two primary objectives: process the problem (PEDA) and code with inten
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input:
 one integer argument, which may be positive, negative, or zero that is a valid integer value.
+ 
+and output:
+return true if the number's absolute value is odd. 
 
 
- 
- 
- 
- 
- 
- 
- and output
+
+
  Make the requirements explicit
  Identify rules
  Mental model of the problem (optional)
