@@ -138,13 +138,21 @@ def is_odd?(integer)
   integer.remainder(2) == 1
 end
 
-tests:
+tests:             original output of the code using integer % 2 == 1 
 puts is_odd?(2)    # => false
 puts is_odd?(5)    # => true
 puts is_odd?(-17)  # => true
 puts is_odd?(-8)   # => false
 puts is_odd?(0)    # => false
 puts is_odd?(7)    # => true
+
+The output of which are:
+puts is_odd?(2) == false same output of the code using integer % 2 == 1
+puts is_odd?(5) == true same output of the code using integer % 2 == 1 
+puts is_odd?(-17) == false difference detected the original output of the code using integer % 2 == 1 was true.
+puts is_odd?(-8) == false same output of the code using integer % 2 == 1 
+puts is_odd?(0) == false same output of the code using integer % 2 == 1 
+puts is_odd?(7) == true same output of the code using integer % 2 == 1 
 
 
 =end
