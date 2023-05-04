@@ -40,7 +40,13 @@ def method
   #stuff
 end
 
+Instruction:
+that takes one integer argument, which may be positive, negative, or zero. 
 
+Syntax:
+def method(integer)
+  #stuff
+end
 
 
 
