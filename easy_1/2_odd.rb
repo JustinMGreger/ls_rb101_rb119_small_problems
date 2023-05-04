@@ -48,7 +48,15 @@ def method(integer)
   #stuff
 end
 
+Instruction:
+This method returns true if the number's absolute value is odd. 
+You may assume that the argument is a valid integer value.
+Keep in mind that you're not allowed to use #odd? or #even? in your solution.
 
+Syntax:
+def is_odd?(integer)
+  integer % 2 == 1
+end
 
 
 Examples / Test Cases, 
