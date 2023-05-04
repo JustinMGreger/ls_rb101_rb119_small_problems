@@ -58,15 +58,31 @@ def is_odd?(integer)
   integer % 2 == 1
 end
 
+Examples / Test Cases, Validate understanding of the problem:
+If when I run the output of the code is the same as the following examples then I understand and have solved the problem:
+puts is_odd?(2)    # => false
+puts is_odd?(5)    # => true
+puts is_odd?(-17)  # => true
+puts is_odd?(-8)   # => false
+puts is_odd?(0)    # => false
+puts is_odd?(7)    # => true
 
-Examples / Test Cases, 
- Validate understanding of the problem
+The output of which are:
+false
+true
+true
+false
+false
+true
 
-Data Structure, 
- How we represent data that we will work with when converting the input to output.
+this was correct this code works.
 
-Algorithm, 
- Steps for converting input to output
+Data Structure, How we represent data that we will work with when converting the input to output.
+undetermined.
+
+Algorithm, Steps for converting input to output:
+
+
 
 and Code.” 
  Implementation of Algorithm
