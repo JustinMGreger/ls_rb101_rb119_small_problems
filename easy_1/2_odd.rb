@@ -19,7 +19,17 @@ Keep in mind that you're not allowed to use #odd? or #even? in your solution.
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
 PEDAC stands for “[Understand the] Problem, 
- Identify expected input and output
+Identify expected input:
+one integer argument, which may be positive, negative, or zero that is a valid integer value.
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ and output
  Make the requirements explicit
  Identify rules
  Mental model of the problem (optional)
