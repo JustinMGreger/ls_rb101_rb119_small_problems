@@ -81,6 +81,7 @@ Data Structure, How we represent data that we will work with when converting the
 undetermined.
 
 Algorithm, Steps for converting input to output:
+1. define the is_odd? method that accepts the integer parameter as returning true if the integer's absolute value is odd. 
 
 
 
