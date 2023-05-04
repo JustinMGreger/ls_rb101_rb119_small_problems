@@ -83,9 +83,27 @@ undetermined.
 Algorithm, Steps for converting input to output:
 1. define the is_odd? method that accepts the integer parameter as returning true if the integer's absolute value is odd. 
 
+and Code.” Implementation of Algorithm:
+def is_odd?(integer)
+  integer % 2 == 1
+end
 
+tests:
+puts is_odd?(2)    # => false
+puts is_odd?(5)    # => true
+puts is_odd?(-17)  # => true
+puts is_odd?(-8)   # => false
+puts is_odd?(0)    # => false
+puts is_odd?(7)    # => true
 
-and Code.” 
- Implementation of Algorithm
+The output of which are:
+false
+true
+true
+false
+false
+true
+
+this was correct this code works.
 
 =end
