@@ -116,5 +116,21 @@ def is_odd?(integer)
   integer % 2 == 1
 end
 
+according to the most recent Ruby documentation:
+https://ruby-doc.org/3.2.2/Integer.html#method-i-remainder
+there you will find:
+remainder(other) → real_number
+Returns the remainder after dividing self by other.
+Examples:
+11.remainder(4)              # => 3
+11.remainder(-4)             # => 3
+-11.remainder(4)             # => -3
+-11.remainder(-4)            # => -3
+12.remainder(4)              # => 0
+12.remainder(-4)             # => 0
+-12.remainder(4)             # => 0
+-12.remainder(-4)            # => 0
+13.remainder(4.0)            # => 1.0
+13.remainder(Rational(4, 1)) # => (1/1)
 
 =end
