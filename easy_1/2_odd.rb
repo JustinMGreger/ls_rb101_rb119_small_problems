@@ -13,4 +13,7 @@ puts is_odd?(-8)   # => false
 puts is_odd?(0)    # => false
 puts is_odd?(7)    # => true
 
+Description of Exercise:
+Keep in mind that you're not allowed to use #odd? or #even? in your solution.
+
 =end
