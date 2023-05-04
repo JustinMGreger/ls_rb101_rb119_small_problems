@@ -25,11 +25,17 @@ one integer argument, which may be positive, negative, or zero that is a valid i
 and output:
 return true if the number's absolute value is odd. 
 
+Make the requirements explicit Identify rules:
+Write a method that takes one integer argument, which may be positive, negative, or zero. 
+This method returns true if the number's absolute value is odd. 
+You may assume that the argument is a valid integer value.
+Keep in mind that you're not allowed to use #odd? or #even? in your solution.
 
 
 
- Make the requirements explicit
- Identify rules
+
+
+
  Mental model of the problem (optional)
 
 Examples / Test Cases, 
