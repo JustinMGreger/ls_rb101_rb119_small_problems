@@ -1,6 +1,6 @@
 =begin
 
-Descrsiption of Exercise:
+Description of Exercise:
 Write a method that takes one integer argument, which may be positive, negative, or zero. 
 This method returns true if the number's absolute value is odd. 
 You may assume that the argument is a valid integer value.
@@ -31,12 +31,19 @@ This method returns true if the number's absolute value is odd.
 You may assume that the argument is a valid integer value.
 Keep in mind that you're not allowed to use #odd? or #even? in your solution.
 
+Mental model of the problem (optional):
+Instruction:
+Write a method. 
+
+Syntax:
+def method
+  #stuff
+end
 
 
 
 
 
- Mental model of the problem (optional)
 
 Examples / Test Cases, 
  Validate understanding of the problem
