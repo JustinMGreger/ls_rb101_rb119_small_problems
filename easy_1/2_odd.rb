@@ -133,4 +133,9 @@ Examples:
 13.remainder(4.0)            # => 1.0
 13.remainder(Rational(4, 1)) # => (1/1)
 
+new answer:
+def is_odd?(integer)
+  integer.remainder(2) == 1
+end
+
 =end
