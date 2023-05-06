@@ -17,6 +17,7 @@ PEDAC has two primary objectives: process the problem (PEDA) and code with inten
 
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
+Write a method that takes one argument, a positive integer.
 
 and output:
 
