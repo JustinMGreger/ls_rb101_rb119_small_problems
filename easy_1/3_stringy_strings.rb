@@ -201,6 +201,13 @@ Data Structure, How we represent data that we will work with when converting the
 array.
 
 Algorithm, Steps for converting input to output:
+1. there is a empty array inside of the stringy method.
+2. the stringy method accepts a parameter and is defined as:
+3. for parameter times run the program
+4. integer is assigned if the index is even then 1 if the index if odd then 0.
+5. integer is passed to the empty array.
+6. what was the empty array that is now full is combined into a string.
+7. run tests to determine if the code works.
 
 and Code.” Implementation of Algorithm:
 
