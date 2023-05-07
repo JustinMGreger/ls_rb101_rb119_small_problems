@@ -211,4 +211,31 @@ Algorithm, Steps for converting input to output:
 
 and Code.” Implementation of Algorithm:
 
+def stringy(parameter)
+  integers_array = []
+
+  parameter.times do |index|
+    integer = index.even? ? 1 : 0
+    integers_array << integer
+  end
+  integers_array.join
+end
+
+tests:
+puts stringy(6) == '101010'
+puts stringy(9) == '101010101'
+puts stringy(4) == '1010'
+puts stringy(7) == '1010101'
+The tests above should print true.
+this means:
+if the output is not true for the tests run on the syntax then I do not understand the problem.
+
+the output of which is:
+true
+true
+true
+true
+
+the code works.
+
 =end
