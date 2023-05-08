@@ -240,8 +240,26 @@ the code works.
 
 Further Exploration:
 Modify stringy so it takes an additional optional argument that defaults to 1. 
-If the method is called with this argument set to 0, 
-the method should return a String of alternating 0s and 1s, 
+If the method is called with this argument set to 0, the method should return a String of alternating 0s and 1s, 
 but starting with 0 instead of 1.
+
+Instruction:
+Modify stringy so it takes an additional optional argument that defaults to 1. 
+
+Syntax:
+def stringy(parameter, optional_parameter=1)
+  integers_array = []
+
+  parameter.times do |index|
+    integer = index.even? ? 1 : 0
+    integers_array << integer
+  end
+  integers_array.join
+end
+
+Instruction:
+If the method is called with this argument set to 0, the method should return a String of alternating 0s and 1s, 
+but starting with 0 instead of 1.
+
 
 =end
