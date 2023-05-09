@@ -15,15 +15,21 @@ PEDAC has two primary objectives: process the problem (PEDA) and code with inten
 
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
-two arguments, a positive integer and a boolean, 
-
-
-
-
-
-
+two arguments, a positive integer and a boolean.
 
 and output:
+calculates the bonus for a given salary if the boolean is true, the bonus should be half of the salary. 
+If the boolean is false, the bonus should be 0.
+tests:
+puts calculate_bonus(2800, true) == 1400
+puts calculate_bonus(1000, false) == 0
+puts calculate_bonus(50000, true) == 25000
+The tests above should print true.
+
+
+
+
+
 
 Make the requirements explicit Identify rules:
 
