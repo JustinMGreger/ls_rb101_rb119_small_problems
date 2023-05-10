@@ -26,6 +26,7 @@ Identify expected input:
 a short line of text
 
 and output:
+print a short line of text within a box.
 
 Make the requirements explicit Identify rules:
 
