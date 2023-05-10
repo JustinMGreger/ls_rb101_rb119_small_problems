@@ -23,6 +23,7 @@ PEDAC has two primary objectives: process the problem (PEDA) and code with inten
 
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
+a short line of text
 
 and output:
 
