@@ -153,14 +153,33 @@ message is a parameter.
 this means:
 the variable horizontal_rule is assigned the result of the string interpolation where the number of how many elements are 
 in the message parameter plus 2 is how many times the string - will be printed with the string + at the ends of the string.
+the output of which is similair to:
++--+
 
-
-"+#{'-' * (message.size + 2)}+"
-
-
-
-
+Syntax:
    empty_line = "|#{' ' * (message.size + 2)}|"
+
+Explanation:
+empty_line is a variable.
+= means assignment.
+"|#{' ' * (message.size + 2)}|" is a string.
+| means |.
+#{' ' * (message.size + 2)} is string interpolation.
+' ' is a space.
+* means multiplication.
+.size method is used to determine how many elements in a collection such as a array or string.
++ 2 means add 2.
+this means:
+the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains #{' ' * (message.size + 2)}
+string interpolation where the ' ' space is multiplied by the result of determining how many elements are in the message 
+parameter string and then adding 2 with the string | on each end of the string.
+the output of which is similair to:
+|  |
+
+
+
+
+
 
    puts horizontal_rule
    puts empty_line
