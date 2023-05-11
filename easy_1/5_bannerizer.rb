@@ -336,4 +336,17 @@ string interpolation where the number of how many elements are in the message pa
 string - will be printed with the string + at the ends of the string and the output of which is similair to: +--+ and 
 this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
+test 01:
+print_in_box('To boldly go where no one has gone before.')
+
+Expected output:
++--------------------------------------------+
+|                                            |
+| To boldly go where no one has gone before. |
+|                                            |
++--------------------------------------------+
+
+actual output:
+
+result:
 =end
