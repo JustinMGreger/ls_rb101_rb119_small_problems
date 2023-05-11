@@ -138,8 +138,28 @@ print_in_box is the method name.
 this means:
 the print_in_box method accepts the (message) parameter and is defined as follows:
 
-
+Syntax:
    horizontal_rule = "+#{'-' * (message.size + 2)}+"
+
+Explanation:
+horizontal_rule is a variable.
+= means assignment.
+"+#{'-' * (message.size + 2)}+" is a string.
+#{'-' * (message.size + 2)} is string interpolation.
+- means -.
+* means multiplication.
+message is a parameter.
+.size method is used to determine how many elements in a collection such as a array or string.
+this means:
+the variable horizontal_rule is assigned the result of the string interpolation where the number of how many elements are 
+in the message parameter plus 2 is how many times the string - will be printed with the string + at the ends of the string.
+
+
+"+#{'-' * (message.size + 2)}+"
+
+
+
+
    empty_line = "|#{' ' * (message.size + 2)}|"
 
    puts horizontal_rule
