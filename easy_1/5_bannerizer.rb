@@ -18,7 +18,6 @@ print_in_box('')
 +--+
 You may assume that the input will always fit in your terminal window.
 
-
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
 PEDAC stands for “[Understand the] Problem, 
@@ -306,126 +305,35 @@ end
 
 Explanation:
 this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
-==========================
+
 this all means:
-Syntax:
-def print_in_box(message)
-(message) is a parameter.
-
-Explanation:
-def means definition.
-print_in_box is the method name.
-this means:
-the print_in_box method accepts the (message) parameter and is defined as follows:
-
-Syntax:
-   horizontal_rule = "+#{'-' * (message.size + 2)}+"
-
-Explanation:
-horizontal_rule is a variable.
-= means assignment.
-"+#{'-' * (message.size + 2)}+" is a string.
-#{'-' * (message.size + 2)} is string interpolation.
-- means -.
-* means multiplication.
-message is a parameter.
-.size method is used to determine how many elements in a collection such as a array or string.
-this means:
-the variable horizontal_rule is assigned the result of the string interpolation where the number of how many elements are 
-in the message parameter plus 2 is how many times the string - will be printed with the string + at the ends of the string.
-the output of which is similair to:
-+--+
-
-Syntax:
-   empty_line = "|#{' ' * (message.size + 2)}|"
-
-Explanation:
-empty_line is a variable.
-= means assignment.
-"|#{' ' * (message.size + 2)}|" is a string.
-| means |.
-#{' ' * (message.size + 2)} is string interpolation.
-' ' is a space.
-* means multiplication.
-message is a parameter.
-.size method is used to determine how many elements in a collection such as a array or string.
-+ 2 means add 2.
-this means:
-the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains #{' ' * (message.size + 2)}
-string interpolation where the ' ' space is multiplied by the result of determining how many elements are in the message 
-parameter string and then adding 2 with the string | on each end of the string.
-the output of which is similair to:
-|  |
-
-Syntax:
-   puts horizontal_rule
-
-Explanation:
-puts is put s which is put string which means print to the screen the string.
-horizontal_rule is a variable.
-= means assignment.
-"+#{'-' * (message.size + 2)}+" is a string.
-#{'-' * (message.size + 2)} is string interpolation.
-- means -.
-* means multiplication.
-message is a parameter.
-.size method is used to determine how many elements in a collection such as a array or string.
-this means:
-the variable horizontal_rule is assigned the result of the string interpolation where the number of how many elements are 
-in the message parameter plus 2 is how many times the string - will be printed with the string + at the ends of the string.
-the output of which is similair to:
-+--+
-this means: print to the screen the variable horizontal_rule is assigned the result of the string interpolation where the
-number of how many elements are in the message parameter plus 2 is how many times the string - will be printed with the 
-string + at the ends of the string.
-the output of which is similair to:
-+--+
-
-Syntax:
-   puts empty_line
-
-Explanation:
-puts is put s which is put string which means print to the screen the string.
-empty_line is a variable.
-= means assignment.
-"|#{' ' * (message.size + 2)}|" is a string.
-| means |.
-#{' ' * (message.size + 2)} is string interpolation.
-' ' is a space.
-* means multiplication.
-message is a parameter.
-.size method is used to determine how many elements in a collection such as a array or string.
-+ 2 means add 2.
-this means:
-the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains #{' ' * (message.size + 2)}
-string interpolation where the ' ' space is multiplied by the result of determining how many elements are in the message 
-parameter string and then adding 2 with the string | on each end of the string.
-the output of which is similair to:
-|  |
-this means:
-print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains 
+the print_in_box method accepts the (message) parameter and is defined as follows: the variable horizontal_rule is 
+assigned the result of the string interpolation where the number of how many elements are in the message parameter plus 2
+is how many times the string - will be printed with the string + at the ends of the string and the output of which is 
+similair to: +--+, the variable empty_line which is assigned the "|#{' ' * (message.size + 2)}|" string which contains 
 #{' ' * (message.size + 2)} string interpolation where the ' ' space is multiplied by the result of determining how many 
-elements are in the message parameter string and then adding 2 with the string | on each end of the string.
-the output of which is similair to:
-|  |
-
-print to the screen the string interpolation of the message parameter.
-the output of which is similair to:
+elements are in the message parameter string and then adding 2 with the string | on each end of the string and the output 
+of which is similair to: |  |, print to the screen the variable horizontal_rule is assigned the result of the string 
+interpolation where the number of how many elements are in the message parameter plus 2 is how many times the string - 
+will be printed with the string + at the ends of the string and the output of which is similair to: +--+, the variable 
+empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains #{' ' * (message.size + 2)} string 
+interpolation where the ' ' space is multiplied by the result of determining how many elements are in the message 
+parameter string and then adding 2 with the string | on each end of the string and the output of which is similair to: 
+|  |, print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains 
+#{' ' * (message.size + 2)} string interpolation where the ' ' space is multiplied by the result of determining how many 
+elements are in the message parameter string and then adding 2 with the string | on each end of the string and the output 
+of which is similair to: |  |, print to the screen the string interpolation of the message parameter and the output of 
+which is similair to:
 +--------+
 |        |
 | string |
 |        |
-+--------+
-print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains 
-#{' ' * (message.size + 2)} string interpolation where the ' ' space is multiplied by the result of determining how many 
-elements are in the message parameter string and then adding 2 with the string | on each end of the string.
-the output of which is similair to:
-|  |
-print to the screen the variable horizontal_rule is assigned the result of the string interpolation where the
-number of how many elements are in the message parameter plus 2 is how many times the string - will be printed with the 
-string + at the ends of the string. 
-the output of which is similair to:
-+--+
++--------+, print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which 
+contains #{' ' * (message.size + 2)} string interpolation where the ' ' space is multiplied by the result of determining 
+how many elements are in the message parameter string and then adding 2 with the string | on each end of the string and
+the output of which is similair to: |  |, print to the screen the variable horizontal_rule is assigned the result of the 
+string interpolation where the number of how many elements are in the message parameter plus 2 is how many times the 
+string - will be printed with the string + at the ends of the string and the output of which is similair to: +--+ and 
 this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
-===============================
+
 =end
