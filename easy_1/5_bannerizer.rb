@@ -360,4 +360,10 @@ test 02:
 print_in_box('')
 
 Expected output:
++--+
+|  |
+|  |
+|  |
++--+
+
 =end
