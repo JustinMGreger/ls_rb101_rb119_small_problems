@@ -109,17 +109,14 @@ print_in_box('')
 |  |
 +--+
 
-
-
-
-
-
-
-
 Data Structure, How we represent data that we will work with when converting the input to output:
+the box. not determined data structure no hashes or arrays are essential.
 
 Algorithm, Steps for converting input to output:
+1. Write a method that will take a short line of text, and print it within a box.
 
 and Code.” Implementation of Algorithm:
+
+
 
 =end
