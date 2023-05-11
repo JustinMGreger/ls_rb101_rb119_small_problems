@@ -117,6 +117,36 @@ Algorithm, Steps for converting input to output:
 
 and Code.” Implementation of Algorithm:
 
+def print_in_box(message)
+   horizontal_rule = "+#{'-' * (message.size + 2)}+"
+   empty_line = "|#{' ' * (message.size + 2)}|"
 
+   puts horizontal_rule
+   puts empty_line
+   puts "| #{message} |"
+   puts empty_line
+   puts horizontal_rule
+end
+
+Syntax:
+def print_in_box(message)
+(message) is a parameter.
+
+Explanation:
+def means definition.
+print_in_box is the method name.
+this means:
+the print_in_box method accepts the (message) parameter and is defined as follows:
+
+
+   horizontal_rule = "+#{'-' * (message.size + 2)}+"
+   empty_line = "|#{' ' * (message.size + 2)}|"
+
+   puts horizontal_rule
+   puts empty_line
+   puts "| #{message} |"
+   puts empty_line
+   puts horizontal_rule
+end
 
 =end
