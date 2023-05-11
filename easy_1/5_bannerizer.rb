@@ -374,5 +374,6 @@ actual output:
 +--+
 
 result:
+the code works.
 
 =end
