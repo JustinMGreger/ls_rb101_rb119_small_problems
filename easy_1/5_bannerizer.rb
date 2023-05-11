@@ -301,9 +301,10 @@ string + at the ends of the string.
 the output of which is similair to:
 +--+
 
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 =end
