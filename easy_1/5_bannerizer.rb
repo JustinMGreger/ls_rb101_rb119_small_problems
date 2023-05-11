@@ -366,4 +366,13 @@ Expected output:
 |  |
 +--+
 
+actual output:
++--+
+|  |
+|  |
+|  |
++--+
+
+result:
+
 =end
