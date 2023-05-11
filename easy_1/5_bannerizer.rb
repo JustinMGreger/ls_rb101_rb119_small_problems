@@ -356,4 +356,8 @@ actual output:
 result:
 the code works.
 
+test 02:
+print_in_box('')
+
+Expected output:
 =end
