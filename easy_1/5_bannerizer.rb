@@ -167,6 +167,7 @@ empty_line is a variable.
 #{' ' * (message.size + 2)} is string interpolation.
 ' ' is a space.
 * means multiplication.
+message is a parameter.
 .size method is used to determine how many elements in a collection such as a array or string.
 + 2 means add 2.
 this means:
@@ -212,6 +213,7 @@ empty_line is a variable.
 #{' ' * (message.size + 2)} is string interpolation.
 ' ' is a space.
 * means multiplication.
+message is a parameter.
 .size method is used to determine how many elements in a collection such as a array or string.
 + 2 means add 2.
 this means:
@@ -227,12 +229,26 @@ elements are in the message parameter string and then adding 2 with the string |
 the output of which is similair to:
 |  |
 
-
-
-
-
-
+Syntax:
    puts "| #{message} |"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"| #{message} |" is a string.
+#{message} is string interpolation.
+message is a parameter.
+this means:
+print to the screen the string interpolation of the message parameter.
+the output of which is similair to:
++--------+
+|        |
+| string |
+|        |
++--------+
+
+
+
+
    puts empty_line
    puts horizontal_rule
 end
