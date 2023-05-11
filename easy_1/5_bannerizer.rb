@@ -95,7 +95,19 @@ def print_in_box()
 end
 
 Examples / Test Cases, Validate understanding of the problem:
-
+Example:
+print_in_box('To boldly go where no one has gone before.')
++--------------------------------------------+
+|                                            |
+| To boldly go where no one has gone before. |
+|                                            |
++--------------------------------------------+
+print_in_box('')
++--+
+|  |
+|  |
+|  |
++--+
 
 
 
