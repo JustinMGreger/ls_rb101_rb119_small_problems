@@ -274,11 +274,36 @@ elements are in the message parameter string and then adding 2 with the string |
 the output of which is similair to:
 |  |
 
-
-
-
-
+Syntax:
    puts horizontal_rule
+
+Explanation:
+   puts horizontal_rule
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+horizontal_rule is a variable.
+= means assignment.
+"+#{'-' * (message.size + 2)}+" is a string.
+#{'-' * (message.size + 2)} is string interpolation.
+- means -.
+* means multiplication.
+message is a parameter.
+.size method is used to determine how many elements in a collection such as a array or string.
+this means:
+the variable horizontal_rule is assigned the result of the string interpolation where the number of how many elements are 
+in the message parameter plus 2 is how many times the string - will be printed with the string + at the ends of the string.
+the output of which is similair to:
++--+
+this means: print to the screen the variable horizontal_rule is assigned the result of the string interpolation where the
+number of how many elements are in the message parameter plus 2 is how many times the string - will be printed with the 
+string + at the ends of the string.
+the output of which is similair to:
++--+
+
+
+
+
 end
 
 =end
