@@ -200,8 +200,38 @@ string + at the ends of the string.
 the output of which is similair to:
 +--+
 
-
+Syntax:
    puts empty_line
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+empty_line is a variable.
+= means assignment.
+"|#{' ' * (message.size + 2)}|" is a string.
+| means |.
+#{' ' * (message.size + 2)} is string interpolation.
+' ' is a space.
+* means multiplication.
+.size method is used to determine how many elements in a collection such as a array or string.
++ 2 means add 2.
+this means:
+the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains #{' ' * (message.size + 2)}
+string interpolation where the ' ' space is multiplied by the result of determining how many elements are in the message 
+parameter string and then adding 2 with the string | on each end of the string.
+the output of which is similair to:
+|  |
+this means:
+print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains 
+#{' ' * (message.size + 2)} string interpolation where the ' ' space is multiplied by the result of determining how many 
+elements are in the message parameter string and then adding 2 with the string | on each end of the string.
+the output of which is similair to:
+|  |
+
+
+
+
+
+
    puts "| #{message} |"
    puts empty_line
    puts horizontal_rule
