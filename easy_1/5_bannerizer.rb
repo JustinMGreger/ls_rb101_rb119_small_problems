@@ -435,8 +435,29 @@ max_width is a varaible.
 this means:
 the variable max_width is assigned the integer 76.
 
-
+Syntax:
   if message.length > max_width
+
+Explanation:
+if means if a condition is true then execute the code.
+message is a parameter.
+.length method returns the count of elements.
+> means greater than.
+max_width is a varaible.
+= means assignment.
+76 is a integer.
+this means:
+the variable max_width is assigned the integer 76.
+this means:
+if the message parameter's count of elements is greater than the variable max_width which is assigned the integer 76
+then execute the code.
+
+
+
+
+
+
+
     message = message[0..(max_width-4)] + '...'
   end
 
