@@ -376,4 +376,77 @@ actual output:
 result:
 the code works.
 
+Further Exploration:
+Modify this method so it will truncate the message if it will be too wide to fit inside a standard terminal window 
+(80 columns, including the sides of the box). 
+For a real challenge, try word wrapping very long messages so they appear on multiple lines, but still within a box.
+
+2 columns on each side = 4 columns on the side.
+80 columns - 4 columns = 76 columns of the message.
+
+Syntax of Solution:
+def print_in_box(message)
+  max_width = 76 
+
+  if message.length > max_width
+    message = message[0..(max_width-4)] + '...'
+  end
+
+  if message.length > max_width
+    words = message.split(' ')
+    lines = ['']
+    words.each do |word|
+      if (lines[-1] + word).length > max_width
+        lines << ''
+      end
+      lines[-1] += word + ' '
+    end
+    message = lines.join("\n").strip
+  end
+
+  horizontal_rule = "+#{'-' * (message.size + 2)}+"
+  empty_line = "|#{' ' * (message.size + 2)}|"
+
+  puts horizontal_rule
+  puts empty_line
+  puts "| #{message} |"
+  puts empty_line
+  puts horizontal_rule
+end
+
+Explanation of Syntax of Solution:
+Syntax:
+def print_in_box(message)
+
+
+
+  
+  max_width = 76 
+
+  if message.length > max_width
+    message = message[0..(max_width-4)] + '...'
+  end
+
+  if message.length > max_width
+    words = message.split(' ')
+    lines = ['']
+    words.each do |word|
+      if (lines[-1] + word).length > max_width
+        lines << ''
+      end
+      lines[-1] += word + ' '
+    end
+    message = lines.join("\n").strip
+  end
+
+  horizontal_rule = "+#{'-' * (message.size + 2)}+"
+  empty_line = "|#{' ' * (message.size + 2)}|"
+
+  puts horizontal_rule
+  puts empty_line
+  puts "| #{message} |"
+  puts empty_line
+  puts horizontal_rule
+end
+
 =end
