@@ -474,18 +474,11 @@ the message parameter is assigned the result of the message parameter substring 
 the range of indices of the characters that should be included in the substring which are the variable max_width which is
 assigned the integer 76 subtracted by 4 which is 72 whose ending is concatenated with the '...'string.
 
-
-
-
-
-
-
-
-
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
   if message.length > max_width
     words = message.split(' ')
