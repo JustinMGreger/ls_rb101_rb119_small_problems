@@ -418,9 +418,15 @@ Explanation of Syntax of Solution:
 Syntax:
 def print_in_box(message)
 
+Explanation:
+def means definition.
+print_in_box is a method.
+(message) is a parameter.
+this means:
+the print_in_box method accepts the (message) parameter and is defined as:
 
 
-  
+
   max_width = 76 
 
   if message.length > max_width
