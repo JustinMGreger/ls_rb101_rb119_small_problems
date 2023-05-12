@@ -452,13 +452,39 @@ this means:
 if the message parameter's count of elements is greater than the variable max_width which is assigned the integer 76
 then execute the code.
 
-
-
-
-
-
-
+Syntax:
     message = message[0..(max_width-4)] + '...'
+
+Explanation:
+message is a parameter.
+= means assignment.
+message is a parameter.
+[0..(max_width-4)]
+.. means the range of indices of the characters that should be included in the substring.
+max_width is a varaible.
+= means assignment.
+76 is a integer.
+this means:
+the variable max_width is assigned the integer 76.
+- 4 means subtract 4.
++ means concatenate/
+'...' is a string.
+this means:
+the message parameter is assigned the result of the message parameter substring reduced to a count of elements equal to 
+the range of indices of the characters that should be included in the substring which are the variable max_width which is
+assigned the integer 76 subtracted by 4 which is 72 whose ending is concatenated with the '...'string.
+
+
+
+
+
+
+
+
+
+
+
+
   end
 
   if message.length > max_width
