@@ -497,12 +497,20 @@ this means:
 if the message parameter's count of elements is greater than the variable max_width which is assigned the integer 76
 then execute the code.
 
-
-
-
-
-
+Syntax:
     words = message.split(' ')
+
+Explanation:
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method means seperate the string into substrings based on a specific character.
+(' ') means split into an array of substrings where each substring is separated by a space character. 
+this means:
+the variable words is assigned the result of spliting the message parameter into an array of substrings where each 
+substring is separated by a space character.
+
+
     lines = ['']
     words.each do |word|
       if (lines[-1] + word).length > max_width
