@@ -510,8 +510,16 @@ this means:
 the variable words is assigned the result of spliting the message parameter into an array of substrings where each 
 substring is separated by a space character.
 
-
+Syntax:
     lines = ['']
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array with a empty string element.
+this means:
+the variable lines is assigned a array with a empty string element.
+
     words.each do |word|
       if (lines[-1] + word).length > max_width
         lines << ''
