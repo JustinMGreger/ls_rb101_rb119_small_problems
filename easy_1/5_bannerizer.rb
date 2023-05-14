@@ -539,7 +539,34 @@ this means:
 the variable words is assigned the result of spliting the message parameter into an array of substrings where each 
 substring is separated by a space character then apply the block of code to each word element in the words array.
 
+Syntax:
       if (lines[-1] + word).length > max_width
+
+Explanation:
+if statements mean if a condition is boolean true then execute the code.
+the condition being evaluated is (lines[-1] + word).length > max_width
+lines is a variable.
+= means assignment.
+[''] is a array with a empty string element.
+this means:
+the variable lines is assigned a array with a empty string element.
+[-1] means access the last element of an array.
++ means concatenation.
+|word| are the elements in the words array.
+.length method returns the amount of characters in a string or array.
+> greater than.
+max_width is a varaible.
+= means assignment.
+76 is a integer.
+this means:
+the variable max_width is assigned the integer 76.
+this means:
+determine if the variable lines which is assigned a array with a empty string element access the last element of that 
+array and concatenate the elements in the words array and return the amount of characters in this array is greater than 
+the variable max_width which is assigned the integer 76 and if that is true then execute the following code:
+
+
+
         lines << ''
       end
       lines[-1] += word + ' '
