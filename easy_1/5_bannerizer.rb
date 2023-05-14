@@ -520,7 +520,25 @@ lines is a variable.
 this means:
 the variable lines is assigned a array with a empty string element.
 
+Syntax:
     words.each do |word|
+
+Explanation
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method means seperate the string into substrings based on a specific character.
+(' ') means split into an array of substrings where each substring is separated by a space character. 
+this means:
+the variable words is assigned the result of spliting the message parameter into an array of substrings where each 
+substring is separated by a space character.
+.each method applies a block of code to each element in a collection.
+do means open block of code.
+|word| are the elements in the words array.
+this means:
+the variable words is assigned the result of spliting the message parameter into an array of substrings where each 
+substring is separated by a space character then apply the block of code to each word element in the words array.
+
       if (lines[-1] + word).length > max_width
         lines << ''
       end
