@@ -565,9 +565,24 @@ determine if the variable lines which is assigned a array with a empty string el
 array and concatenate the elements in the words array and return the amount of characters in this array is greater than 
 the variable max_width which is assigned the integer 76 and if that is true then execute the following code:
 
-
-
+Syntax:
         lines << ''
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array with a empty string element.
+this means:
+the variable lines is assigned a array with a empty string element.
+<< means append to the end of the array.
+'' means a empty string element.
+this means:
+append a empty string element to the end of the variable lines which is assigned a array with a empty string element.
+
+
+
+
+
       end
       lines[-1] += word + ' '
     end
