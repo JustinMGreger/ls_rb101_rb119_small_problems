@@ -629,12 +629,12 @@ the message parameter is assigned the variable lines which is assigned a array w
 the elements of a array into a single string and into multiple lines then remove the whitespace characters from the 
 beginning and end of the strings.
 
-
-
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
 
   horizontal_rule = "+#{'-' * (message.size + 2)}+"
   empty_line = "|#{' ' * (message.size + 2)}|"
