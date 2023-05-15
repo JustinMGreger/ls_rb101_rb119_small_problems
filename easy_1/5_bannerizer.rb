@@ -604,9 +604,16 @@ access the last element of the variable lines which is assigned a array with a e
 word elements in the words array and a string literal that represents a single space character to it and then assign the
 result back to the last element of the lines array.
 
-
-
+Syntax:
     end
+
+Explanation:
+this is the last line of the .each method that is everything after this is outside of the .each method.
+
+
+
+
+
     message = lines.join("\n").strip
   end
 
