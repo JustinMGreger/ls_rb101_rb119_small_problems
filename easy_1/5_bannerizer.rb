@@ -579,11 +579,12 @@ the variable lines is assigned a array with a empty string element.
 this means:
 append a empty string element to the end of the variable lines which is assigned a array with a empty string element.
 
-
-
-
-
+Syntax:
       end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+
       lines[-1] += word + ' '
     end
     message = lines.join("\n").strip
