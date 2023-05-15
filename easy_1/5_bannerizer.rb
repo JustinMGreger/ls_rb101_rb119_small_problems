@@ -635,8 +635,30 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
-
+Syntax:
   horizontal_rule = "+#{'-' * (message.size + 2)}+"
+
+Explanation:
+horizontal_rule is a variable.
+= means assignment.
+"+#{'-' * (message.size + 2)}+" is a string.
++ means concatenation.
+#{'-' * (message.size + 2)} is string interpolation.
+'-' is a hyphen.
+* means multiplication.
+(message.size + 2) is what is being used to multiply hyphen by.
+message is a parameter.
+.size method determines the amount of characters in a enumerable object.
++ is addition.
+2 is a integer.
++ means concatenation.
+this means:
+the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains string concatenation
+and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum of the amount of 
+characters in the message parameter which has the integer 2 is added to it which is then concatenated.
+
+
+
   empty_line = "|#{' ' * (message.size + 2)}|"
 
   puts horizontal_rule
