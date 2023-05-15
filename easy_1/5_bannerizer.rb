@@ -610,11 +610,30 @@ Syntax:
 Explanation:
 this is the last line of the .each method that is everything after this is outside of the .each method.
 
-
-
-
-
+Syntax:
     message = lines.join("\n").strip
+
+Explanation:
+message is a parameter.
+= means assignment.
+lines is a variable.
+= means assignment.
+[''] is a array with a empty string element.
+this means:
+the variable lines is assigned a array with a empty string element.
+.join method combines the elements of a array into a single string.
+("\n") means new line character specifically at the \ the following portion of the string is on a new line.
+.strip method removes whitespace characters from the beginning and end of a string. 
+this means:
+the message parameter is assigned the variable lines which is assigned a array with a empty string element which combines 
+the elements of a array into a single string and into multiple lines then remove the whitespace characters from the 
+beginning and end of the strings.
+
+
+
+
+
+
   end
 
   horizontal_rule = "+#{'-' * (message.size + 2)}+"
