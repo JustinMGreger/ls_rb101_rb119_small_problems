@@ -585,7 +585,27 @@ Syntax:
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
 
+Syntax:
       lines[-1] += word + ' '
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array with a empty string element.
+this means:
+the variable lines is assigned a array with a empty string element.
+[-1] means access the last element of an array.
++= means reassign a variable by adding or concatenating it with another value back to the original variable.
+|word| are the elements in the words array.
++ means concatenation.
+' ' is a string literal that represents a single space character.
+this means:
+access the last element of the variable lines which is assigned a array with a empty string element then concatenate the 
+word elements in the words array and a string literal that represents a single space character to it and then assign the
+result back to the last element of the lines array.
+
+
+
     end
     message = lines.join("\n").strip
   end
