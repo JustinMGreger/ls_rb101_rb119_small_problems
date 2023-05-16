@@ -806,6 +806,10 @@ print to the screen the variable horizontal_rule is assigned the "+#{'-' * (mess
 string concatenation and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum
 of the amount of characters in the message parameter which has the integer 2 is added to it which is then concatenated.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 =end
