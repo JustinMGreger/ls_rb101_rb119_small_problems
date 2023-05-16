@@ -736,8 +736,21 @@ frame string and #{' ' * (message.size + 2)} string interpolation which contains
 the result of determining the amount of characters in the message parameter which is increased by the integer 2 which has 
 the frame string at the end.
 
-
+Syntax:
   puts "| #{message} |"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"| #{message} |" is a string.
+| is a frame string.
+#{message} is string interpolation.
+message is a parameter.
+| is a frame string.
+this means:
+print to the screen the "| #{message} |" string which begins with a frame string and contains #{message} string 
+interpolation of which message is a parameter and ends with a frame string.
+
+
   puts empty_line
   puts horizontal_rule
 end
