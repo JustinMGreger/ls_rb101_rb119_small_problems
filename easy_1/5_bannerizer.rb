@@ -750,8 +750,38 @@ this means:
 print to the screen the "| #{message} |" string which begins with a frame string and contains #{message} string 
 interpolation of which message is a parameter and ends with a frame string.
 
-
+Syntax:
   puts empty_line
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+empty_line is a variable.
+= means assignment.
+"|#{' ' * (message.size + 2)}|" is a string.
+| is a frame string.
+#{' ' * (message.size + 2)} is string interpolation.
+' ' is a single space character.
+* means multiplication.
+(message.size + 2) is that which is being multiplied.
+message is a parameter.
+.size method determines the amount of characters in a enumerable object.
++ is addition.
+2 is a integer.
+| is a frame string.
+this means:
+the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains the frame string and
+#{' ' * (message.size + 2)} string interpolation which contains the single space character multiplied by the result of 
+determining the amount of characters in the message parameter which is increased by the integer 2 which has the frame 
+string at the end.
+this means:
+print to the screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains the 
+frame string and #{' ' * (message.size + 2)} string interpolation which contains the single space character multiplied by 
+the result of determining the amount of characters in the message parameter which is increased by the integer 2 which has 
+the frame string at the end.
+
+
+
+
   puts horizontal_rule
 end
 
