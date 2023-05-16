@@ -657,9 +657,28 @@ the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" str
 and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum of the amount of 
 characters in the message parameter which has the integer 2 is added to it which is then concatenated.
 
-
-
+Syntax:
   empty_line = "|#{' ' * (message.size + 2)}|"
+
+Explanation:
+empty_line is a variable.
+= means assignment.
+"|#{' ' * (message.size + 2)}|" is a string.
+| is a frame string.
+#{' ' * (message.size + 2)} is string interpolation.
+' ' is a single space character.
+* means multiplication.
+(message.size + 2) is that which is being multiplied.
+message is a parameter.
+.size method determines the amount of characters in a enumerable object.
++ is addition.
+2 is a integer.
+| is a frame string.
+this means:
+the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains the frame string and
+#{' ' * (message.size + 2)} string interpolation which contains the single space character multiplied by the result of 
+determining the amount of characters in the message parameter which is increased by the integer 2 which has the frame 
+string at the end.
 
   puts horizontal_rule
   puts empty_line
