@@ -859,5 +859,39 @@ is multiplied by sum of the amount of characters in the message parameter which 
 then concatenated and this is the last line of the print_in_box method that is everything after this line is outside of 
 the print_in_box method.
 
+test:
+def print_in_box(message)
+  max_width = 76 
+
+  if message.length > max_width
+    message = message[0..(max_width-4)] + '...'
+  end
+
+  if message.length > max_width
+    words = message.split(' ')
+    lines = ['']
+    words.each do |word|
+      if (lines[-1] + word).length > max_width
+        lines << ''
+      end
+      lines[-1] += word + ' '
+    end
+    message = lines.join("\n").strip
+  end
+
+  horizontal_rule = "+#{'-' * (message.size + 2)}+"
+  empty_line = "|#{' ' * (message.size + 2)}|"
+
+  puts horizontal_rule
+  puts empty_line
+  puts "| #{message} |"
+  puts empty_line
+  puts horizontal_rule
+end
+
+print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
+
+the output of which is:
+
 ==========================
 =end
