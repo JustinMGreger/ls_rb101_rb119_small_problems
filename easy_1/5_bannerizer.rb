@@ -76,6 +76,13 @@ print_in_box('To boldly go where no one has gone before.')
 +--------------------------------------------+ 5
 
 Syntax:
+print_in_box('To boldly go where no one has gone before.')
+
+Explanation:
+print_in_box is a method.
+('To boldly go where no one has gone before.') is a argument passed to the method.
+
+Syntax:
 +--------------------------------------------+
 +--------------------------------------------+
 
@@ -107,8 +114,18 @@ this means:
 print to the screen the |                                            | string which opens with the | character and ' ' is 
 the blank space character goes from one end of the string to the other and ends with the | character.
 
+Syntax:
+| To boldly go where no one has gone before. | 
 
-
+Explanation:
+this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
+string.
+this is row 3.
+| is the first character of the string.
+' ' is the blank space character.
+To boldly go where no one has gone before. is the main comp
+' ' is the blank space character.
+|is the last character of the string.
 
 
 
