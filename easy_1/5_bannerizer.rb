@@ -104,6 +104,7 @@ print to the screen the +--------------------------------------------+ string wh
 dash symbol that goes from one end of the string to the other and ends with the + character.
 
 the implied syntax:
+puts '+--------------------------------------------+'
 
 Syntax:
 |                                            |
