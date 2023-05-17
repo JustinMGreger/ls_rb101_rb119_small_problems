@@ -145,9 +145,7 @@ string and the ' ' blank space character and To boldly go where no one has gone 
 the method which is the paramter and the ' ' blank space character and the | which is the last character of the string.
 
 the implied syntax:
-
-
-
+puts '| To boldly go where no one has gone before. |'
 
 
 
