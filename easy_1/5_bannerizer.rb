@@ -148,11 +148,11 @@ puts '| To boldly go where no one has gone before. |'
 
 organized implied syntax:
 def print_in_box(parameter)
-puts '+--------------------------------------------+'
-2
+  puts '+--------------------------------------------+'
+  puts '|                                            |'
 3
-4
-puts '+--------------------------------------------+'
+  puts '|                                            |'
+  puts '+--------------------------------------------+'
 end
 
 
