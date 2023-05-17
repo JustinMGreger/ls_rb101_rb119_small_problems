@@ -123,6 +123,8 @@ print to the screen the |                                            | string wh
 the blank space character goes from one end of the string to the other and ends with the | character.
 
 the implied syntax:
+puts '|                                            |'
+
 
 Syntax:
 | To boldly go where no one has gone before. | 
