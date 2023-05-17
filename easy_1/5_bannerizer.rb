@@ -81,6 +81,10 @@ print_in_box('To boldly go where no one has gone before.')
 Explanation:
 print_in_box is a method.
 ('To boldly go where no one has gone before.') is a argument passed to the method.
+the implied syntax:
+def print_in_box(parameter)
+  stuff
+end
 
 Syntax:
 +--------------------------------------------+
@@ -121,11 +125,17 @@ Explanation:
 this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
 string.
 this is row 3.
+| To boldly go where no one has gone before. | is a string.
 | is the first character of the string.
 ' ' is the blank space character.
-To boldly go where no one has gone before. is the main comp
+To boldly go where no one has gone before. is the argument passed to the method which is the paramter.
 ' ' is the blank space character.
 |is the last character of the string.
+this means:
+print to the screen the | To boldly go where no one has gone before. | string which contains: the | first character of the
+string and the ' ' blank space character and To boldly go where no one has gone before. which is the argument passed to 
+the method which is the paramter and the ' ' blank space character and the | which is the last character of the string.
+
 
 
 
