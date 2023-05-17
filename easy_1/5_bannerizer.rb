@@ -148,7 +148,11 @@ puts '| To boldly go where no one has gone before. |'
 
 organized implied syntax:
 def print_in_box(parameter)
-  stuff
+1
+2
+3
+4
+5
 end
 
 
