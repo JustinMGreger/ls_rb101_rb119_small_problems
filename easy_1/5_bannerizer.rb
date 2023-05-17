@@ -78,6 +78,7 @@ print_in_box('To boldly go where no one has gone before.')
 Syntax:
 +--------------------------------------------+
 +--------------------------------------------+
+
 Explanation:
 rows 1 & 5 are the same.
 +--------------------------------------------+ is a string.
@@ -89,6 +90,11 @@ Syntax:
 |                                            |
 |                                            |
 
+Explanation:
+rows 2 & 4 are the same.
+| is the first character of the string.
+' ' is the blank space character goes from one end of the string to the other.
+|is the last character of the string.
 
 
 
