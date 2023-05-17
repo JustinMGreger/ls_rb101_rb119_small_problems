@@ -74,6 +74,28 @@ print_in_box('To boldly go where no one has gone before.')
 | To boldly go where no one has gone before. | 3
 |                                            | 4
 +--------------------------------------------+ 5
+
+Syntax:
++--------------------------------------------+
++--------------------------------------------+
+Explanation:
+rows 1 & 5 are the same.
++--------------------------------------------+ is a string.
++ is the first character of the string.
+- is a dash symbol that goes from one end of the string to the other.
++ is the last character of the string.
+
+Syntax:
+|                                            |
+|                                            |
+
+
+
+
+
+
+
+
 print_in_box('')
 +--+ 1
 |  | 2
@@ -92,6 +114,33 @@ Syntax:
 def print_in_box()
   take a short line of text, center and print it within a box.
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Examples / Test Cases, Validate understanding of the problem:
 Example:
