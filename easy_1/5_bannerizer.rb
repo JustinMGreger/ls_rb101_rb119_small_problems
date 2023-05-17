@@ -125,7 +125,6 @@ the blank space character goes from one end of the string to the other and ends 
 the implied syntax:
 puts '|                                            |'
 
-
 Syntax:
 | To boldly go where no one has gone before. | 
 
@@ -146,6 +145,15 @@ the method which is the paramter and the ' ' blank space character and the | whi
 
 the implied syntax:
 puts '| To boldly go where no one has gone before. |'
+
+organized implied syntax:
+def print_in_box(parameter)
+  stuff
+end
+
+
+
+
 
 
 
