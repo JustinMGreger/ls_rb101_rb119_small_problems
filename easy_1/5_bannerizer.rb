@@ -85,6 +85,9 @@ rows 1 & 5 are the same.
 + is the first character of the string.
 - is a dash symbol that goes from one end of the string to the other.
 + is the last character of the string.
+this means:
+rows 1 & 5 are the same and made up of the +--------------------------------------------+ string which opens with the +
+character and - is a dash symbol that goes from one end of the string to the other and ends with the + character.
 
 Syntax:
 |                                            |
