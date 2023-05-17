@@ -81,6 +81,7 @@ print_in_box('To boldly go where no one has gone before.')
 Explanation:
 print_in_box is a method.
 ('To boldly go where no one has gone before.') is a argument passed to the method.
+
 the implied syntax:
 def print_in_box(parameter)
   stuff
@@ -102,6 +103,8 @@ this means:
 print to the screen the +--------------------------------------------+ string which opens with the + character and - is a 
 dash symbol that goes from one end of the string to the other and ends with the + character.
 
+the implied syntax:
+
 Syntax:
 |                                            |
 |                                            |
@@ -117,6 +120,8 @@ rows 2 & 4 are the same.
 this means:
 print to the screen the |                                            | string which opens with the | character and ' ' is 
 the blank space character goes from one end of the string to the other and ends with the | character.
+
+the implied syntax:
 
 Syntax:
 | To boldly go where no one has gone before. | 
@@ -135,6 +140,17 @@ this means:
 print to the screen the | To boldly go where no one has gone before. | string which contains: the | first character of the
 string and the ' ' blank space character and To boldly go where no one has gone before. which is the argument passed to 
 the method which is the paramter and the ' ' blank space character and the | which is the last character of the string.
+
+the implied syntax:
+
+
+
+
+
+
+
+
+
 
 
 
