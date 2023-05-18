@@ -214,7 +214,8 @@ puts +--+
 
 organized implied syntax:
 def print_in_box(parameter)
-  stuff
+  puts +--+ 
+  puts +--+ 
 end
 
  
