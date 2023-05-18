@@ -165,7 +165,7 @@ def print_in_box(parameter)
 end
 
 notes:
-some how the box needs to fit around the argument.
+the box needs to fit around the argument.
 
 Syntax:
 print_in_box('')
@@ -290,8 +290,8 @@ def print_in_box(parameter)
   puts '+--+' 
 end
 
-
-
+notes:
+again the box needs to fit around the argument.
 
 
 
