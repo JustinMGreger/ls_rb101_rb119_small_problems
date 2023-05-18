@@ -179,6 +179,8 @@ Explanation:
 print_in_box is a method.
 ('') is a argument passed to the method.
 
+implied syntax:
+def print_in_box('')
 
 
 
