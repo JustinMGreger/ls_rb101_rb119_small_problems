@@ -1060,7 +1060,7 @@ is the last line of the print_in_box method that is everything after this line i
 
 test:
 def print_in_box(message)
-  max_width = 76 
+  max_width = 76
 
   if message.length > max_width
     message = message[0..(max_width-4)] + '...'
