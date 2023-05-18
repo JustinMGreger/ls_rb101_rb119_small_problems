@@ -293,28 +293,6 @@ end
 notes:
 again the box needs to fit around the argument.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Examples / Test Cases, Validate understanding of the problem:
 Example:
 print_in_box('To boldly go where no one has gone before.')
@@ -366,8 +344,7 @@ Explanation:
 horizontal_rule is a variable.
 = means assignment.
 "+#{'-' * (message.size + 2)}+" is a string.
-#{'-' * (message.size + 2)} is string interpolation.
-- means -.
+- is a dash symbol.
 * means multiplication.
 message is a parameter.
 .size method is used to determine how many elements in a collection such as a array or string.
@@ -407,7 +384,7 @@ horizontal_rule is a variable.
 = means assignment.
 "+#{'-' * (message.size + 2)}+" is a string.
 #{'-' * (message.size + 2)} is string interpolation.
-- means -.
+- is a dash symbol.
 * means multiplication.
 message is a parameter.
 .size method is used to determine how many elements in a collection such as a array or string.
@@ -507,7 +484,7 @@ horizontal_rule is a variable.
 = means assignment.
 "+#{'-' * (message.size + 2)}+" is a string.
 #{'-' * (message.size + 2)} is string interpolation.
-- means -.
+- is a dash symbol.
 * means multiplication.
 message is a parameter.
 .size method is used to determine how many elements in a collection such as a array or string.
@@ -866,7 +843,7 @@ horizontal_rule is a variable.
 "+#{'-' * (message.size + 2)}+" is a string.
 + means concatenation.
 #{'-' * (message.size + 2)} is string interpolation.
-'-' is a hyphen.
+'-' is a dash symbol.
 * means multiplication.
 (message.size + 2) is what is being used to multiply hyphen by.
 message is a parameter.
