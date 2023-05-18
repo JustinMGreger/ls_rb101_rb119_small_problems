@@ -1021,43 +1021,42 @@ variable max_width which is assigned the integer 76 subtracted by 4 which is 72 
 '...'string and this is the last line of the if statement that is everything after this line is outside of the if 
 statement and if the message parameter's count of elements is greater than the variable max_width which is assigned the 
 integer 76 then execute the code: the variable words is assigned the result of spliting the message parameter into an 
-array of substrings where each substring is separated by a space character and the variable lines is assigned a array with
-a empty string element and the variable words is assigned the result of spliting the message parameter into an array of 
-substrings where each substring is separated by a space character then apply the block of code to each word element in the
-words array and determine if the variable lines which is assigned a array with a empty string element access the last 
-element of that array and concatenate the elements in the words array and return the amount of characters in this array is
-greater than the variable max_width which is assigned the integer 76 and if that is true then execute the following code:
-append a empty string element to the end of the variable lines which is assigned a array with a empty string element and
-this is the last line of the if statement that is everything after this line is outside of the if statement and access the
-last element of the variable lines which is assigned a array with a empty string element then concatenate the word 
-elements in the words array and a string literal that represents a single space character to it and then assign the result
-back to the last element of the lines array and this is the last line of the .each method that is everything after this is
+array of substrings where each substring is separated by a space character and the variable lines is assigned a array 
+with a empty string element and the variable words is assigned the result of spliting the message parameter into an array
+of substrings where each substring is separated by a space character then apply the block of code to each word element in 
+the words array and determine if the variable lines which is assigned a array with a empty string element access the last 
+element of that array and concatenate the elements in the words array and return the amount of characters in this array 
+is greater than the variable max_width which is assigned the integer 76 and if that is true then execute the following 
+code: append a empty string element to the end of the variable lines which is assigned a array with a empty string 
+element and this is the last line of the if statement that is everything after this line is outside of the if statement 
+and access the last element of the variable lines which is assigned a array with a empty string element then concatenate 
+the word elements in the words array and a string literal that represents a single space character to it and then assign
+the result back to the last element of the lines array and this is the last line of the .each method that is everything after this is
 outside of the .each method and the message parameter is assigned the variable lines which is assigned a array with a 
 empty string element which combines the elements of a array into a single string and into multiple lines then remove the 
 whitespace characters from the beginning and end of the strings and this is the last line of the if statement that is 
 everything after this line is outside of the if statement and the variable horizontal_rule is assigned the 
-"+#{'-' * (message.size + 2)}+" string which contains string concatenation and #{'-' * (message.size + 2)} string 
-interpolation where the dash character is multiplied by sum of the amount of characters in the message parameter which 
-has the integer 2 is added to it which is then concatenated and the variable empty_line is assigned the 
+"+#{'-' * (message.size + 2)}+" string which contains #{'-' * (message.size + 2)} string interpolation where the dash 
+character is multiplied by sum of the amount of characters in the message parameter which has the integer 2 is added to 
+it which followed by the + character and the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string 
+which contains the frame string and #{' ' * (message.size + 2)} string interpolation which contains the single space 
+character multiplied by the result of determining the amount of characters in the message parameter which is increased by 
+the integer 2 which has the frame string at the end and print to the screen the variable horizontal_rule is assigned the
+"+#{'-' * (message.size + 2)}+" string which contains #{'-' * (message.size + 2)} string interpolation where the dash 
+character is multiplied by sum of the amount of characters in the message parameter which has the integer 2 is added to 
+it which is then concatenated and print to the screen the variable empty_line is assigned the 
 "|#{' ' * (message.size + 2)}|" string which contains the frame string and #{' ' * (message.size + 2)} string 
-interpolation which contains the single space character multiplied by the result of determining the amount of characters 
-in the message parameter which is increased by the integer 2 which has the frame string at the end and print to the screen
-the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains string concatenation 
-and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
-characters in the message parameter which has the integer 2 is added to it which is then concatenated and print to the 
-screen the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains the frame string and 
-#{' ' * (message.size + 2)} string interpolation which contains the single space character multiplied by the result of 
-determining the amount of characters in the message parameter which is increased by the integer 2 which has the frame 
-string at the end and print to the screen the "| #{message} |" string which begins with a frame string and contains 
-#{message} string interpolation of which message is a parameter and ends with a frame string and print to the screen the 
-variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string which contains the frame string and 
-#{' ' * (message.size + 2)} string interpolation which contains the single space character multiplied by the result of 
-determining the amount of characters in the message parameter which is increased by the integer 2 which has the frame 
-string at the end and print to the screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" 
-string which contains string concatenation and #{'-' * (message.size + 2)} string interpolation where the dash character 
-is multiplied by sum of the amount of characters in the message parameter which has the integer 2 is added to it which is
-then concatenated and this is the last line of the print_in_box method that is everything after this line is outside of 
-the print_in_box method.
+interpolation which contains the single space character multiplied by the result of determining the amount of characters
+in the message parameter which is increased by the integer 2 which has the frame string at the end and print to the 
+screen the "| #{message} |" string which begins with a frame string and contains #{message} string interpolation of which
+message is a parameter and ends with a frame string and print to the screen the variable empty_line is assigned the 
+"|#{' ' * (message.size + 2)}|" string which contains the frame string and #{' ' * (message.size + 2)} string 
+interpolation which contains the single space character multiplied by the result of determining the amount of characters
+in the message parameter which is increased by the integer 2 which has the frame string at the end and print to the 
+screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains 
+#{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
+characters in the message parameter which has the integer 2 is added to it which is then concatenated and this is the 
+last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 test:
 def print_in_box(message)
