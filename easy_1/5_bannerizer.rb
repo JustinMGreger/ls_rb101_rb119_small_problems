@@ -987,7 +987,7 @@ puts is put s which is put string which means print to the screen the string.
 horizontal_rule is a variable.
 = means assignment.
 "+#{'-' * (message.size + 2)}+" is a string.
-+ means concatenation.
++ is a character.
 #{'-' * (message.size + 2)} is string interpolation.
 '-' is a dash.
 * means multiplication.
@@ -996,15 +996,15 @@ message is a parameter.
 .size method determines the amount of characters in a enumerable object.
 + is addition.
 2 is a integer.
-+ means concatenation.
++ is a character.
 this means:
-the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains string concatenation
-and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
-characters in the message parameter which has the integer 2 is added to it which is then concatenated.
+the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains 
+#{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
+characters in the message parameter which has the integer 2 is added to it which is followed by the + character.
 this means:
 print to the screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains 
-string concatenation and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum
-of the amount of characters in the message parameter which has the integer 2 is added to it which is then concatenated.
+#{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
+characters in the message parameter which has the integer 2 is added to it which is followed by the + character.
 
 Syntax:
 end
