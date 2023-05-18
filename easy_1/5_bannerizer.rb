@@ -201,6 +201,30 @@ string to the other and ends with the + character.
 implied syntax:
 puts +--+ 
 
+Syntax:
+|  |
+
+Explanation:
+this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
+string.
+rows 2 & 4 are the same.
+|  | is a string.
+| is the first character of the string.
+' ' is the blank space character goes from one end of the string to the other.
+|is the last character of the string.
+this means:
+print to the screen the |  | string which opens with the | character and ' ' is 
+the blank space character goes from one end of the string to the other and ends with the | character.
+
+the implied syntax:
+puts '|  |'
+
+
+
+
+
+
+
 
 
 |  | 
