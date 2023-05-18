@@ -1011,7 +1011,7 @@ end
 
 Explanation:
 this is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
-hyphen
+
 this all means:
 the print_in_box method accepts the (message) parameter and is defined as: the variable max_width is assigned the integer
 76 and if the message parameter's count of elements is greater than the variable max_width which is assigned the integer 
@@ -1031,12 +1031,12 @@ code: append a empty string element to the end of the variable lines which is as
 element and this is the last line of the if statement that is everything after this line is outside of the if statement 
 and access the last element of the variable lines which is assigned a array with a empty string element then concatenate 
 the word elements in the words array and a string literal that represents a single space character to it and then assign
-the result back to the last element of the lines array and this is the last line of the .each method that is everything after this is
-outside of the .each method and the message parameter is assigned the variable lines which is assigned a array with a 
-empty string element which combines the elements of a array into a single string and into multiple lines then remove the 
-whitespace characters from the beginning and end of the strings and this is the last line of the if statement that is 
-everything after this line is outside of the if statement and the variable horizontal_rule is assigned the 
-"+#{'-' * (message.size + 2)}+" string which contains #{'-' * (message.size + 2)} string interpolation where the dash 
+the result back to the last element of the lines array and this is the last line of the .each method that is everything 
+after this is outside of the .each method and the message parameter is assigned the variable lines which is assigned a 
+array with a empty string element which combines the elements of a array into a single string and into multiple lines 
+then remove the whitespace characters from the beginning and end of the strings and this is the last line of the if 
+statement that is everything after this line is outside of the if statement and the variable horizontal_rule is assigned
+the "+#{'-' * (message.size + 2)}+" string which contains #{'-' * (message.size + 2)} string interpolation where the dash 
 character is multiplied by sum of the amount of characters in the message parameter which has the integer 2 is added to 
 it which followed by the + character and the variable empty_line is assigned the "|#{' ' * (message.size + 2)}|" string 
 which contains the frame string and #{' ' * (message.size + 2)} string interpolation which contains the single space 
@@ -1044,7 +1044,7 @@ character multiplied by the result of determining the amount of characters in th
 the integer 2 which has the frame string at the end and print to the screen the variable horizontal_rule is assigned the
 "+#{'-' * (message.size + 2)}+" string which contains #{'-' * (message.size + 2)} string interpolation where the dash 
 character is multiplied by sum of the amount of characters in the message parameter which has the integer 2 is added to 
-it which is then concatenated and print to the screen the variable empty_line is assigned the 
+it which is followed by the + character and print to the screen the variable empty_line is assigned the 
 "|#{' ' * (message.size + 2)}|" string which contains the frame string and #{' ' * (message.size + 2)} string 
 interpolation which contains the single space character multiplied by the result of determining the amount of characters
 in the message parameter which is increased by the integer 2 which has the frame string at the end and print to the 
@@ -1055,8 +1055,8 @@ interpolation which contains the single space character multiplied by the result
 in the message parameter which is increased by the integer 2 which has the frame string at the end and print to the 
 screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains 
 #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
-characters in the message parameter which has the integer 2 is added to it which is then concatenated and this is the 
-last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
+characters in the message parameter which has the integer 2 is added to it which is followed by the + character and this 
+is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 test:
 def print_in_box(message)
