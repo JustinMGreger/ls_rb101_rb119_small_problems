@@ -845,7 +845,7 @@ horizontal_rule is a variable.
 #{'-' * (message.size + 2)} is string interpolation.
 '-' is a dash symbol.
 * means multiplication.
-(message.size + 2) is what is being used to multiply hyphen by.
+(message.size + 2) is what is being used to multiply dash by.
 message is a parameter.
 .size method determines the amount of characters in a enumerable object.
 + is addition.
@@ -853,14 +853,14 @@ message is a parameter.
 + is a character.
 this means:
 the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains string concatenation
-and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum of the amount of 
+and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
 characters in the message parameter which has the integer 2 is added to it followed by the + character.
 
 Syntax:
   empty_line = "|#{' ' * (message.size + 2)}|"
 
 Explanation:
-empty_line is a variable.
+empty_line is a variable. 
 = means assignment.
 "|#{' ' * (message.size + 2)}|" is a string.
 | is a frame string.
@@ -880,7 +880,7 @@ determining the amount of characters in the message parameter which is increased
 string at the end.
 
 Syntax:
-  puts horizontal_rule
+  puts horizontal_rule 
 
 Explanation:
 puts is put s which is put string which means print to the screen the string.
@@ -891,7 +891,7 @@ horizontal_rule is a variable.
 #{'-' * (message.size + 2)} is string interpolation.
 '-' is a dash.
 * means multiplication.
-(message.size + 2) is what is being used to multiply hyphen by.
+(message.size + 2) is what is being used to multiply dash by.
 message is a parameter.
 .size method determines the amount of characters in a enumerable object.
 + is addition.
@@ -899,11 +899,11 @@ message is a parameter.
 + is a character.
 this means:
 the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains string concatenation
-and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum of the amount of 
+and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum of the amount of 
 characters in the message parameter which has the integer 2 is added to it followed by the + character.
 this means:
 print to the screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)}+" string which contains 
-string concatenation and #{'-' * (message.size + 2)} string interpolation where the hyphen character is multiplied by sum
+string concatenation and #{'-' * (message.size + 2)} string interpolation where the dash character is multiplied by sum
 of the amount of characters in the message parameter which has the integer 2 is added to it which is followed by the + 
 character.
 
