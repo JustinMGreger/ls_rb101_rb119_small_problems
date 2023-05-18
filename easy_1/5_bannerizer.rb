@@ -198,7 +198,8 @@ this means:
 print to the screen the +--+ string which opens with the + character and - is a dash symbol that goes from one end of the
 string to the other and ends with the + character.
 
-
+implied syntax:
+puts +--+ 
 
 
 
