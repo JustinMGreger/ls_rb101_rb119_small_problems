@@ -199,7 +199,7 @@ print to the screen the +--+ string which opens with the + character and - is a 
 string to the other and ends with the + character.
 
 implied syntax:
-puts +--+ 
+puts '+--+' 
 
 Syntax:
 |  |
@@ -219,17 +219,41 @@ the blank space character goes from one end of the string to the other and ends 
 the implied syntax:
 puts '|  |'
 
+Syntax:
+|  |
 
+Explanation:
+this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
+string.
+rows 2 & 4 are the same.
+|  | is a string.
+| is the first character of the string.
+' ' is the blank space character goes from one end of the string to the other.
+|is the last character of the string.
+this means:
+print to the screen the |  | string which opens with the | character and ' ' is 
+the blank space character goes from one end of the string to the other and ends with the | character.
 
+the implied syntax:
+puts '|  |'
 
+Syntax:
+|  |
 
+Explanation:
+this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
+string.
+rows 2 & 4 are the same.
+|  | is a string.
+| is the first character of the string.
+' ' is the blank space character goes from one end of the string to the other.
+|is the last character of the string.
+this means:
+print to the screen the |  | string which opens with the | character and ' ' is 
+the blank space character goes from one end of the string to the other and ends with the | character.
 
-
-
-
-|  | 
-|  | 
-|  | 
+the implied syntax:
+puts '|  |'
 
 Syntax:
 +--+ 
@@ -246,44 +270,25 @@ print to the screen the +--+ string which opens with the + character and - is a 
 string to the other and ends with the + character.
 
 implied syntax:
-puts +--+ 
-
-
-
-
+puts '+--+' 
 
 organized implied syntax:
+def print_in_box('')
+  puts '+--+'
+  puts '|  |'
+  puts '|  |'
+  puts '|  |'
+  puts '+--+' 
+end
+
+possible syntax:
 def print_in_box(parameter)
-  puts +--+ 
-  puts +--+ 
+  puts '+--+'
+  puts '|  |'
+  puts '| parameter |'
+  puts '|  |'
+  puts '+--+' 
 end
-
- 
-
-
-
-
-
-print_in_box('')
-+--+
-|  |
-|  |
-|  |
-+--+
-
-
-
-
-
-
-5 rows on third row so centered?
-
-Syntax:
-def print_in_box()
-  take a short line of text, center and print it within a box.
-end
-
-
 
 
 
