@@ -206,7 +206,23 @@ puts +--+
 |  | 
 |  | 
 |  | 
+
+Syntax:
 +--+ 
+
+Explanation:
+this is printed to the screen which means puts which is put s which is put string which means print to the screen the 
+string.
++--+ is a string.
++ is the first character of the string.
+- is a dash symbol that goes from one end of the string to the other.
++ is the last character of the string.
+this means:
+print to the screen the +--+ string which opens with the + character and - is a dash symbol that goes from one end of the
+string to the other and ends with the + character.
+
+implied syntax:
+puts +--+ 
 
 
 
