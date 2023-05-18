@@ -181,11 +181,11 @@ print_in_box is a method.
 
 implied syntax:
 def print_in_box('')
+  stuff
+end
 
 
-
-
-Syntax:
+organized implied syntax:
 def print_in_box(parameter)
   stuff
 end
