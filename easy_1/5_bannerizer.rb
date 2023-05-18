@@ -150,7 +150,7 @@ organized implied syntax:
 def print_in_box(parameter)
   puts '+--------------------------------------------+'
   puts '|                                            |'
-3
+  puts '| To boldly go where no one has gone before. |'
   puts '|                                            |'
   puts '+--------------------------------------------+'
 end
