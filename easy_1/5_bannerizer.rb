@@ -69,11 +69,11 @@ end
 Instruction:
 Example:
 print_in_box('To boldly go where no one has gone before.')
-+--------------------------------------------+ 1
-|                                            | 2
-| To boldly go where no one has gone before. | 3
-|                                            | 4
-+--------------------------------------------+ 5
++--------------------------------------------+ 
+|                                            | 
+| To boldly go where no one has gone before. | 
+|                                            | 
++--------------------------------------------+ 
 
 Syntax:
 print_in_box('To boldly go where no one has gone before.')
@@ -167,25 +167,44 @@ end
 notes:
 some how the box needs to fit around the argument.
 
+Syntax:
+print_in_box('')
++--+ 
+|  | 
+|  | 
+|  | 
++--+ 
+
+Explanation:
+print_in_box is a method.
+('') is a argument passed to the method.
 
 
 
+
+
+Syntax:
+def print_in_box(parameter)
+  stuff
+end
+
+ 
 
 
 
 
 
 print_in_box('')
-+--+ 1
-|  | 2
-|  | 3
-|  | 4
-+--+ 5
++--+
+|  |
+|  |
+|  |
++--+
 
-Syntax:
-def print_in_box()
-  take a short line of text, and print it within a box.
-end
+
+
+
+
 
 5 rows on third row so centered?
 
