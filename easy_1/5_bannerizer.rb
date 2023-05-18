@@ -155,10 +155,17 @@ def print_in_box(parameter)
   puts '+--------------------------------------------+'
 end
 
+possible syntax:
+def print_in_box(parameter)
+  puts '+--------------------------------------------+'
+  puts '|                                            |'
+  puts '| parameter |'
+  puts '|                                            |'
+  puts '+--------------------------------------------+'
+end
 
-
-
-
+notes:
+some how the box needs to fit around the argument.
 
 
 
