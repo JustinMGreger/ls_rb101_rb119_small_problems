@@ -1151,11 +1151,24 @@ max_width is a variable.
 this means:
 the max_width variable is assigned the integer 76. 
 
-
-
-
-
+Syntax:
   max_message_width = max_width - 4 
+
+Explanation:
+max_message_width is a variable.
+= means assignment.
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+- means subtraction.
+4 is a integer.
+this means:
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+
+
 
   words = message.split(' ')
   lines = ['']
