@@ -1181,10 +1181,19 @@ this means:
 the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
 space.
 
-
-
-
+Syntax:
   lines = ['']
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+
+
+
   words.each do |word|
     while word.length > max_message_width
       lines[-1] += word.slice!(0..max_message_width-1) + ' '
