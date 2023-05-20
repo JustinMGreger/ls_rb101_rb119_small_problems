@@ -1141,10 +1141,20 @@ print_in_box is a method.
 this means:
 the method print_in_box accepts the message parameter and is defined as the following:
 
-
-
-
+Syntax:
   max_width = 76
+
+Explanation:
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+
+
+
+
+
   max_message_width = max_width - 4 
 
   words = message.split(' ')
