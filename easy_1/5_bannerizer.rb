@@ -578,7 +578,6 @@ the code works.
 Further Exploration:
 Modify this method so it will truncate the message if it will be too wide to fit inside a standard terminal window 
 (80 columns, including the sides of the box). 
-For a real challenge, try word wrapping very long messages so they appear on multiple lines, but still within a box.
 
 2 columns on each side = 4 columns on the side.
 80 columns - 4 columns = 76 columns of the message.
@@ -1096,5 +1095,8 @@ the output of which is:
 | !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghi... |
 |                                                                              |
 +------------------------------------------------------------------------------+
+
+Further Exploration:
+For a real challenge, try word wrapping very long messages so they appear on multiple lines, but still within a box.
 
 =end
