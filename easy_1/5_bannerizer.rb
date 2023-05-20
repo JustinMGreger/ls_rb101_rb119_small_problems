@@ -1168,9 +1168,22 @@ this means:
 the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
 subtracted by the integer 4.
 
-
-
+Syntax:
   words = message.split(' ')
+
+Explanation:
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+
+
+
+
   lines = ['']
   words.each do |word|
     while word.length > max_message_width
