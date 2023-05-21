@@ -1226,6 +1226,9 @@ message is a parameter.
 this means:
 the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
 space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
 .length method returns how many characters are in the object.
 > means greater than.
 max_message_width is a variable.
@@ -1241,14 +1244,67 @@ this means:
 the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
 subtracted by the integer 4.
 this means:
-start a while loop that runs as long as the return value of how many characters are in word which is a block parameter 
-that represents each element in words where the words variable is assigned the result of splitting the message parameter 
-into an array of substrings at each single space is greater than the max_message_width variable which is assigned the 
-result of the max_width variable which assigned the integer 76 being subtracted by the integer 4.
+start a while loop that runs as long as the return value of how many characters are in word is a block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space is greater than the max_message_width variable which is assigned the result of 
+the max_width variable which assigned the integer 76 being subtracted by the integer 4.
+
+Syntax:
+      lines[-1] += word.slice!(0..max_message_width-1) + ' '
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+[-1] is the last element of the collection.
++= is the addition assignment operator that is add and reassign to the original value.
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
+.slice! method is a destructive method used to extract and remove a portion of the object based on a specified range or
+index.
+(0..max_message_width-1) is a argument passed to .slice!
+0 is a integer.
+.. is the inclusive range operator that includes both the starting and ending values.
+max_message_width is a variable.
+= means assignment.
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+- means subtraction.
+4 is a integer.
+this means:
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+-1 means subtract 1.
++ is string concatenation.
+' ' is a single space.
+this means:       
+access the last element of the lines variable which is assigned the [''] array which contains the '' empty string then
+concatenate and reassign to the last element of the lines variable the result of destructively extract and remove a 
+portion of the word block parameter that represents each element in the words variable which is assigned the result of
+splitting the message parameter into an array of substrings at each single space based on a specified range that includes
+both the starting 0 and ending with the max_message_width variable is assigned the result of the max_width variable which
+assigned the integer 76 being subtracted by the integer 4 which is then subtracted by 1 then concatenate the string with
+the ' ' single space.
 =======================
 
 
-      lines[-1] += word.slice!(0..max_message_width-1) + ' '
+
       lines << '' if word.length > 0
     end
     if (lines[-1] + word + ' ').length > max_message_width
