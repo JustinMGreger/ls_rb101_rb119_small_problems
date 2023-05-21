@@ -1212,9 +1212,42 @@ the words variable is assigned the result of splitting the message parameter int
 space then execute a block of at each element with the |word| block parameter that represents each element in words and 
 open the block.
 
-
-
+Syntax:
     while word.length > max_message_width
+
+Explanation:
+while is a start while loop which is while a condition is true then run the loop.
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+.length method returns how many characters are in the object.
+> means greater than.
+max_message_width is a variable.
+= means assignment.
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+- means subtraction.
+4 is a integer.
+this means:
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+this means:
+start a while loop that runs as long as the return value of how many characters are in word which is a block parameter 
+that represents each element in words where the words variable is assigned the result of splitting the message parameter 
+into an array of substrings at each single space is greater than the max_message_width variable which is assigned the 
+result of the max_width variable which assigned the integer 76 being subtracted by the integer 4.
+=======================
+
+
       lines[-1] += word.slice!(0..max_message_width-1) + ' '
       lines << '' if word.length > 0
     end
