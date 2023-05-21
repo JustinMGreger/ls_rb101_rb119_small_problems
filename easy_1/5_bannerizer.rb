@@ -1192,9 +1192,28 @@ lines is a variable.
 this means:
 the lines variable is assigned the [''] array which contains the '' empty string.
 
-
-
+Syntax:
   words.each do |word|
+
+Explanation:
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+.each method execute a block of at each element.
+do means open the block.
+|word| is a block parameter that represents each element in words.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space then execute a block of at each element with the |word| block parameter that represents each element in words and 
+open the block.
+
+
+
     while word.length > max_message_width
       lines[-1] += word.slice!(0..max_message_width-1) + ' '
       lines << '' if word.length > 0
