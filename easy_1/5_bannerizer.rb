@@ -1464,14 +1464,13 @@ which contains the '' empty string with the word block parameter that represents
 is assigned the result of splitting the message parameter into an array of substrings at each single space which is 
 concatenated with the ' ' single space.
 
+Syntax:
+  end
 
-
-
+Explanation:
+this is the last line of the .each method that is everything after this line is outside of the .each method.
 
 =======================
-
-
-  end
   message = lines.map(&:strip).join("\n")
 
   max_line_length = [max_message_width, message.split("\n").map(&:length).max].min
@@ -1527,5 +1526,6 @@ concatenate and reassign the result of accessing the last element of the lines v
 which contains the '' empty string with the word block parameter that represents each element in the words variable which
 is assigned the result of splitting the message parameter into an array of substrings at each single space which is 
 concatenated with the ' ' single space.
+this is the last line of the .each method that is everything after this line is outside of the .each method.
 
 =end
