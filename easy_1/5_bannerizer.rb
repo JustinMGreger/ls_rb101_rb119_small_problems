@@ -1301,6 +1301,41 @@ splitting the message parameter into an array of substrings at each single space
 both the starting 0 and ending with the max_message_width variable is assigned the result of the max_width variable which
 assigned the integer 76 being subtracted by the integer 4 which is then subtracted by 1 then concatenate the string with
 the ' ' single space.
+
+Syntax:
+      lines << '' if word.length > 0
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+<< append to the end.
+'' is a empty string.
+if means execute code if a condition is boolean true.
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
+.length method returns the number of elements in the object.
+> means greater than.
+0 is the integer 0.
+this means:    lines << '' if word.length > 0
+append a '' empty string to the end of the the lines variable is assigned the [''] array which contains the '' empty 
+string if the number of elements in the word block parameter that represents each element in the words variable which is
+assigned the result of splitting the message parameter into an array of substrings at each single space is greater than 
+the integer 0.
+
 =======================
 
 
