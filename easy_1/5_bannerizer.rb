@@ -1396,11 +1396,20 @@ Syntax:
       lines << ''
 
 Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+<< append to the end.
+'' is a empty string.
+this means:
+append '' empty string  to the end of the lines variable which is assigned the [''] array which contains the '' empty 
+string.
 
 
 =======================
-
-      lines << ''
     end
     lines[-1] += word + ' ' unless word.empty?
   end
@@ -1450,5 +1459,7 @@ represents each element in the words variable which is assigned the result of sp
 array of substrings at each single space which is concatenated with the ' ' single space is greater than the the 
 max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
 subtracted by the integer 4.
+append '' empty string  to the end of the lines variable which is assigned the [''] array which contains the '' empty 
+string.
 
 =end
