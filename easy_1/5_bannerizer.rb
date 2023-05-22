@@ -1391,6 +1391,13 @@ represents each element in the words variable which is assigned the result of sp
 array of substrings at each single space which is concatenated with the ' ' single space is greater than the the 
 max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
 subtracted by the integer 4.
+
+Syntax:
+      lines << ''
+
+Explanation:
+
+
 =======================
 
       lines << ''
@@ -1437,5 +1444,11 @@ string if the number of elements in the word block parameter that represents eac
 assigned the result of splitting the message parameter into an array of substrings at each single space is greater than 
 the integer 0.
 this is the last line of the while loop that is everything after this is outside of the while loop.
-  
+execute code if the number of elements in the result of accessing the last element of the lines variable which is 
+assigned the [''] array which contains the '' empty string which is concatenated with the word block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space which is concatenated with the ' ' single space is greater than the the 
+max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+
 =end
