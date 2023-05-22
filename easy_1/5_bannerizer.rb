@@ -1336,11 +1336,13 @@ string if the number of elements in the word block parameter that represents eac
 assigned the result of splitting the message parameter into an array of substrings at each single space is greater than 
 the integer 0.
 
-=======================
-
-
-
+Syntax:
     end
+    
+Explanation:
+this is the last line of the while loop that is everything after this is outside of the while loop.
+
+=======================
     if (lines[-1] + word + ' ').length > max_message_width
       lines << ''
     end
@@ -1385,6 +1387,6 @@ append a '' empty string to the end of the the lines variable is assigned the ['
 string if the number of elements in the word block parameter that represents each element in the words variable which is
 assigned the result of splitting the message parameter into an array of substrings at each single space is greater than 
 the integer 0.
-
+this is the last line of the while loop that is everything after this is outside of the while loop.
   
 =end
