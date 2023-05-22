@@ -1413,9 +1413,64 @@ Syntax:
 
 Explanation:
 this is the last line of the if statement that is everything after this line is outside of the if statement.
+
+Syntax:
+    lines[-1] += word + ' ' unless word.empty?
+
+Explanation:
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+[-1] is the last element of the collection.
++= is the addition assignment operator that is add and reassign to the original value.
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
++ is string concatenation.
+' ' is a single space.
+unless is a keyword that is used to construct a conditional statement that executes a block of code if a condition 
+evaluates to false or nil. 
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
+.empty? method in Ruby checks if a collection object is empty. It returns a boolean true if the object is empty and false
+if not empty.
+this means:      
+if the word block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space is not empty then execute the block of code:
+concatenate and reassign the result of accessing the last element of the lines variable which is assigned the [''] array
+which contains the '' empty string with the word block parameter that represents each element in the words variable which
+is assigned the result of splitting the message parameter into an array of substrings at each single space which is 
+concatenated with the ' ' single space.
+
+
+
+
+
 =======================
 
-    lines[-1] += word + ' ' unless word.empty?
+
   end
   message = lines.map(&:strip).join("\n")
 
@@ -1466,5 +1521,11 @@ subtracted by the integer 4.
 append '' empty string  to the end of the lines variable which is assigned the [''] array which contains the '' empty 
 string.
 this is the last line of the if statement that is everything after this line is outside of the if statement.
+if the word block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space is not empty then execute the block of code:
+concatenate and reassign the result of accessing the last element of the lines variable which is assigned the [''] array
+which contains the '' empty string with the word block parameter that represents each element in the words variable which
+is assigned the result of splitting the message parameter into an array of substrings at each single space which is 
+concatenated with the ' ' single space.
 
 =end
