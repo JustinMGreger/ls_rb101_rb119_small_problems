@@ -1340,7 +1340,6 @@ the integer 0.
 
 
 
-      lines << '' if word.length > 0
     end
     if (lines[-1] + word + ' ').length > max_message_width
       lines << ''
@@ -1359,5 +1358,33 @@ the integer 0.
   puts empty_line
   puts horizontal_rule
 end
+======================================
+this means compilation:
+the method print_in_box accepts the message parameter and is defined as the following:
+the max_width variable is assigned the integer 76. 
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+the lines variable is assigned the [''] array which contains the '' empty string.
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space then execute a block of at each element with the |word| block parameter that represents each element in words and 
+open the block.
+start a while loop that runs as long as the return value of how many characters are in word is a block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space is greater than the max_message_width variable which is assigned the result of 
+the max_width variable which assigned the integer 76 being subtracted by the integer 4.    
+access the last element of the lines variable which is assigned the [''] array which contains the '' empty string then
+concatenate and reassign to the last element of the lines variable the result of destructively extract and remove a 
+portion of the word block parameter that represents each element in the words variable which is assigned the result of
+splitting the message parameter into an array of substrings at each single space based on a specified range that includes
+both the starting 0 and ending with the max_message_width variable is assigned the result of the max_width variable which
+assigned the integer 76 being subtracted by the integer 4 which is then subtracted by 1 then concatenate the string with
+the ' ' single space.
+append a '' empty string to the end of the the lines variable is assigned the [''] array which contains the '' empty 
+string if the number of elements in the word block parameter that represents each element in the words variable which is
+assigned the result of splitting the message parameter into an array of substrings at each single space is greater than 
+the integer 0.
 
+  
 =end
