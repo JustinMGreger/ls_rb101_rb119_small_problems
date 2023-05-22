@@ -1408,9 +1408,13 @@ this means:
 append '' empty string  to the end of the lines variable which is assigned the [''] array which contains the '' empty 
 string.
 
-
-=======================
+Syntax:
     end
+
+Explanation:
+this is the last line of the if statement that is everything after this line is outside of the if statement.
+=======================
+
     lines[-1] += word + ' ' unless word.empty?
   end
   message = lines.map(&:strip).join("\n")
@@ -1461,5 +1465,6 @@ max_message_width variable which is assigned the result of the max_width variabl
 subtracted by the integer 4.
 append '' empty string  to the end of the lines variable which is assigned the [''] array which contains the '' empty 
 string.
+this is the last line of the if statement that is everything after this line is outside of the if statement.
 
 =end
