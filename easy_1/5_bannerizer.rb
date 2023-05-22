@@ -1338,12 +1338,61 @@ the integer 0.
 
 Syntax:
     end
-    
+
 Explanation:
 this is the last line of the while loop that is everything after this is outside of the while loop.
 
-=======================
+Syntax:
     if (lines[-1] + word + ' ').length > max_message_width
+
+Explanation:
+if means execute code if a condition is boolean true.
+(lines[-1] + word + ' ') is a argument.
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+[-1] is the last element of the collection.
++ is string concatenation.
+word is a block parameter that represents each element in words.
+words is a variable.
+= means assignment.
+message is a parameter.
+.split method splits a string into an array of substrings based on a delimiter.
+(' ') is the delimiter and a single space.
+this means:
+the words variable is assigned the result of splitting the message parameter into an array of substrings at each single 
+space.
+this means:
+word is a block parameter that represents each element in the words variable which is assigned the result of splitting 
+the message parameter into an array of substrings at each single space.
++ is string concatenation.
+' ' is a single space.
+.length method returns the number of elements in the object.
+> means greater than.
+max_message_width is a variable.
+= means assignment.
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+- means subtraction.
+4 is a integer.
+this means:
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+this means:     
+execute code if the number of elements in the result of accessing the last element of the lines variable which is 
+assigned the [''] array which contains the '' empty string which is concatenated with the word block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space which is concatenated with the ' ' single space is greater than the the 
+max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+=======================
+
       lines << ''
     end
     lines[-1] += word + ' ' unless word.empty?
