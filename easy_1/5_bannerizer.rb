@@ -1470,9 +1470,33 @@ Syntax:
 Explanation:
 this is the last line of the .each method that is everything after this line is outside of the .each method.
 
-=======================
+Syntax:
   message = lines.map(&:strip).join("\n")
 
+Explanation:
+message is a parameter.
+= means assignment.
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+.map method is used to transform each element of the collection based and return a new array with the transformed 
+elements.
+(&:strip) is an argument passed to the .map method.
+&: means symbol to proc.
+strip method removes leading and trailing whitespace from a string.
+.join method means concatenate the elements of an array into a single string.
+("\n") is an argument passed to the .join method.
+"\n" is a newline character means after the \ create a newline.
+this means:   
+the message parameter is assigned the result of remove leading and trailing whitespace from each element of the lines 
+variable which is assigned the [''] array which contains the '' empty string and return a new array then concatenate the
+elements of an array into a single string with a newline character seperating each element.
+
+
+=======================
   max_line_length = [max_message_width, message.split("\n").map(&:length).max].min
   horizontal_rule = "+#{'-' * (max_line_length + 2)}+"
   empty_line = "|#{' ' * (max_line_length + 2)}|"
@@ -1527,5 +1551,8 @@ which contains the '' empty string with the word block parameter that represents
 is assigned the result of splitting the message parameter into an array of substrings at each single space which is 
 concatenated with the ' ' single space.
 this is the last line of the .each method that is everything after this line is outside of the .each method.
+the message parameter is assigned the result of remove leading and trailing whitespace from each element of the lines 
+variable which is assigned the [''] array which contains the '' empty string and return a new array then concatenate the
+elements of an array into a single string with a newline character seperating each element.
 
 =end
