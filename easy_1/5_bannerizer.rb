@@ -1644,8 +1644,94 @@ newline character seperating each element then split the string into an array of
 character which means after the \ create a newline then return a new array containing the number of characters of each 
 line then return the element with the highest value in the array this is the end of the second element of the array which
 is now closed and is the end of the string interpolation which is followed by the + character.
-=======================
+
+Syntax:
   empty_line = "|#{' ' * (max_line_length + 2)}|"
+
+Explanation:
+empty_line is a variable.
+= means assignment. 
+"|#{' ' * (max_line_length + 2)}|" is a string.
+| is a character.
+#{' ' * (max_line_length + 2)} is string interpolation.
+' ' is a space string.
+* means multiplication.
+(max_line_length + 2) is the argument being multiplied.
+max_line_length is a variable.
+= means assignment.
+[max_message_width, message.split("\n").map(&:length).max] is an array of 2 elements.
+open array and the first element is:
+max_message_width is a variable.
+= means assignment.
+max_width is a variable.
+= means assignment.
+76 is a integer.
+this means:
+the max_width variable is assigned the integer 76. 
+- means subtraction.
+4 is a integer.
+this means:
+the max_message_width variable is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4.
+, and the second element in the array is:
+message is a parameter.
+= means assignment.
+lines is a variable.
+= means assignment.
+[''] is a array.
+'' is a empty string.
+this means:
+the lines variable is assigned the [''] array which contains the '' empty string.
+.map method is used to transform each element of the collection based and return a new array with the transformed 
+elements.
+(&:strip) is an argument passed to the .map method.
+&: means symbol to proc.
+strip method removes leading and trailing whitespace from a string.
+.join method means concatenate the elements of an array into a single string.
+("\n") is an argument passed to the .join method.
+"\n" is a newline character means after the \ create a newline.
+this means:   
+the message parameter is assigned the result of remove leading and trailing whitespace from each element of the lines 
+variable which is assigned the [''] array which contains the '' empty string and return a new array then concatenate the
+elements of an array into a single string with a newline character seperating each element.
+.split method splits a string into an array of substrings based on a delimiter.
+("\n") is a argument passed to the .split method.
+"\n" is a newline character means after the \ create a newline.
+.map method is used to transform each element of the collection based and return a new array with the transformed 
+elements.
+(&:length) is a argument passed to the .map method.
+&: means symbol to proc.
+.length method means return the number of elements in an array.
+.max method returns the element with the highest value based on comparison criterion in a array. 
+] and close the array.
+.min method returns the element with the lowest value based on a comparison criterion in a array.
+this means:   
+max_line_length is a variable assigned the result returning the element with the lowest value of the 2 elements in the 
+[max_message_width, message.split("\n").map(&:length).max] array whose first element is the max_message_width variable 
+which is assigned the result of the max_width variable which assigned the integer 76 being subtracted by the integer 4 
+and the second element in the array is the message parameter which is assigned the result of remove leading and trailing 
+whitespace from each element of the lines variable which is assigned the [''] array which contains the '' empty string 
+and return a new array then concatenate the elements of an array into a single string with a newline character seperating
+each element then split the string into an array of substrings based on the "\n" newline character which means after the
+\ create a newline then return a new array containing the number of characters of each line then return the element with 
+the highest value in the array this is the end of the second element of the array which is now closed.
++ 2 means add 2.
+| is a character.
+this means:   
+empty_line is a variable assigned the "|#{' ' * (max_line_length + 2)}|" string which contains: the | character and
+#{' ' * (max_line_length + 2)} string interpolation which contains: the ' ' space string multiplied by the result of 
+adding 2 to the max_line_length variable which is assigned the result returning the element with the lowest value of the
+2 elements in the [max_message_width, message.split("\n").map(&:length).max] array whose first element is the 
+max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4 and the second element in the array is the message parameter which is assigned the result of
+remove leading and trailing whitespace from each element of the lines variable which is assigned the [''] array which 
+contains the '' empty string and return a new array then concatenate the elements of an array into a single string with a
+newline character seperating each element then split the string into an array of substrings based on the "\n" newline 
+character which means after the \ create a newline then return a new array containing the number of characters of each 
+line then return the element with the highest value in the array this is the end of the second element of the array which
+is now closed and is the last part of the string interpolation and is followed by the | character.
+=======================
+
 
   puts horizontal_rule
   puts empty_line
@@ -1721,5 +1807,17 @@ newline character seperating each element then split the string into an array of
 character which means after the \ create a newline then return a new array containing the number of characters of each 
 line then return the element with the highest value in the array this is the end of the second element of the array which
 is now closed and is the end of the string interpolation which is followed by the + character.
+empty_line is a variable assigned the "|#{' ' * (max_line_length + 2)}|" string which contains: the | character and
+#{' ' * (max_line_length + 2)} string interpolation which contains: the ' ' space string multiplied by the result of 
+adding 2 to the max_line_length variable which is assigned the result returning the element with the lowest value of the
+2 elements in the [max_message_width, message.split("\n").map(&:length).max] array whose first element is the 
+max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4 and the second element in the array is the message parameter which is assigned the result of
+remove leading and trailing whitespace from each element of the lines variable which is assigned the [''] array which 
+contains the '' empty string and return a new array then concatenate the elements of an array into a single string with a
+newline character seperating each element then split the string into an array of substrings based on the "\n" newline 
+character which means after the \ create a newline then return a new array containing the number of characters of each 
+line then return the element with the highest value in the array this is the end of the second element of the array which
+is now closed and is the last part of the string interpolation and is followed by the | character.
 
 =end
