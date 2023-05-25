@@ -1814,10 +1814,10 @@ the max_message_width variable which is assigned the result of the max_width var
 subtracted by the integer 4 and the second element in the array is the message parameter which is assigned the result of 
 remove leading and trailing whitespace from each element of the lines variable which is assigned the [''] array which 
 contains the '' empty string and return a new array then concatenate the elements of an array into a single string with a
-newline character seperating each element then split the string into an array of substrings based on the "\n" newline 
-character which means after the \ create a newline then return a new array containing the number of characters of each 
-line then return the element with the highest value in the array this is the end of the second element of the array which
-is now closed and is the end of the string interpolation which is followed by the + character.
+newline character seperating each element then split the string into an array of substrings wherever the "\n" newline 
+character is found then return a new array containing the number of characters of each line then return the element with
+the highest value in the array this is the end of the second element of the array which is now closed and is the end of
+the string interpolation which is followed by the + character.
 this means:
 print to the screen the horizontal_rule variable which is assigned the "+#{'-' * (max_line_length + 2)}+" string which 
 contains the + character and #{'-' * (max_line_length + 2)} string interpolation which contains: the '-'  dash character
@@ -1828,10 +1828,9 @@ assigned the integer 76 being subtracted by the integer 4 and the second element
 which is assigned the result of remove leading and trailing whitespace from each element of the lines variable which is 
 assigned the [''] array which contains the '' empty string and return a new array then concatenate the elements of an 
 array into a single string with a newline character seperating each element then split the string into an array of 
-substrings based on the "\n" newline character which means after the \ create a newline then return a new array 
-containing the number of characters of each line then return the element with the highest value in the array this is the
-end of the second element of the array which is now closed and is the end of the string interpolation which is followed 
-by the + character.
+substrings wherever the "\n" newline character is found then return a new array containing the number of characters of 
+each line then return the element with the highest value in the array this is the end of the second element of the array
+which is now closed and is the end of the string interpolation which is followed by the + character.
 
 Syntax:
   puts empty_line
@@ -1901,9 +1900,9 @@ which is assigned the result of the max_width variable which assigned the intege
 and the second element in the array is the message parameter which is assigned the result of remove leading and trailing 
 whitespace from each element of the lines variable which is assigned the [''] array which contains the '' empty string 
 and return a new array then concatenate the elements of an array into a single string with a newline character seperating
-each element then split the string into an array of substrings based on the "\n" newline character which means after the
-\ create a newline then return a new array containing the number of characters of each line then return the element with 
-the highest value in the array this is the end of the second element of the array which is now closed.
+each element then split the string into an array of substrings wherever the "\n" newline character is found then return a
+new array containing the number of characters of each line then return the element with the highest value in the array 
+this is the end of the second element of the array which is now closed.
 + 2 means add 2.
 | is a character.
 this means:   
@@ -2130,8 +2129,8 @@ which is assigned the result of the max_width variable which assigned the intege
 and the second element in the array is the message parameter which is assigned the result of remove leading and trailing 
 whitespace from each element of the lines variable which is assigned the [''] array which contains the '' empty string 
 and return a new array then concatenate the elements of an array into a single string with a newline character seperating
-each element then split the string into an array of substrings based on the "\n" newline character which means after the
-\ create a newline then return a new array containing the number of characters of each line then return the element with 
+each element then split the string into an array of substrings wherever the "\n" newline character is found then return a 
+new array containing the number of characters of each line then return the element with 
 the highest value in the array this is the end of the second element of the array which is now closed.
 horizontal_rule is a variable assigned the "+#{'-' * (max_line_length + 2)}+" string which contains the + character and 
 #{'-' * (max_line_length + 2)} string interpolation which contains: the '-'  dash character string multiplied by the 
