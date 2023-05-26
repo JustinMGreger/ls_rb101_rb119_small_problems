@@ -2033,34 +2033,23 @@ new array containing the number of characters of each line then return the eleme
 this is the end of the second element of the array which is now closed.
 | is a character.
 } means close the block of code.
-this means:   message.split("\n").each { |line| puts "| #{line.ljust(max_line_length)} |" }
-
-
-  
-
-
-
-execute 
-the { |line| puts "| #{line.ljust(max_line_length)} |" } block of code which contains: the |line| block parameter that 
-represents each line of the message string after it has been split using the newline character ("\n") and print to the 
-screen the "| #{line.ljust(max_line_length)} |" string which contains: the | character and #{line.ljust(max_line_length)}
-string interpolation which contains: the result of returning a new string version of the |line| block parameter that 
-represents each line of the message string after it has been split using the newline character ("\n") that has been 
-left-justified and padded to the width of the max_line_length variable which is assigned the result returning the element 
-with the lowest value of the 2 elements in the [max_message_width, message.split("\n").map(&:length).max] array whose 
-first element is the max_message_width variable which is assigned the result of the max_width variable which assigned the
-integer 76 being subtracted by the integer 4 and the second element in the array is the message parameter which is 
-assigned the result of remove leading and trailing whitespace from each element of the lines variable which is assigned 
-the [''] array which contains the '' empty string and return a new array then concatenate the elements of an array into a
-single string with a newline character seperating each element then split the string into an array of substrings wherever the "\n" newline character is found
-
-
-then return a new array containing the number of 
-characters of each line then return the element with the highest value in the array this is the end of the second element
-of the array which is now closed which is the end of the string interpolation and is followed by the | character which is
-followed by } which closes the block of code.
-
-at each element of the result of:
+this means:   
+execute the { |line| puts "| #{line.ljust(max_line_length)} |" } block of code which contains: the |line| block parameter
+that represents each line of the message string after it has been split using the newline character ("\n") and print to 
+the screen the "| #{line.ljust(max_line_length)} |" string which contains: the | character and 
+#{line.ljust(max_line_length)} string interpolation which contains: the result of returning a new string version of the 
+|line| block parameter that represents each line of the message string after it has been split using the newline 
+character ("\n") that has been left-justified and padded to the width of the max_line_length variable which is assigned
+the result returning the element with the lowest value of the 2 elements in the 
+[max_message_width, message.split("\n").map(&:length).max] array whose first element is the max_message_width variable 
+which is assigned the result of the max_width variable which assigned the integer 76 being subtracted by the integer 4 
+and the second element in the array is the message parameter which is assigned the result of remove leading and trailing
+whitespace from each element of the lines variable which is assigned the [''] array which contains the '' empty string 
+and return a new array then concatenate the elements of an array into a single string with a newline character seperating
+each element then split the string into an array of substrings wherever the "\n" newline character is found then return a
+new array containing the number of characters of each line then return the element with the highest value in the array 
+this is the end of the second element of the array which is now closed which is the end of the string interpolation and 
+is followed by the | character which is followed by } which closes the block of code at each element of the result of: 
 splitting the message parameter is assigned the result of remove leading and trailing whitespace from each element of the 
 lines variable which is assigned the [''] array which contains the '' empty string and return a new array then 
 concatenate the elements of an array into a single string with a newline character seperating each element into an array 
@@ -2070,8 +2059,6 @@ of substrings wherever the "\n" newline character is found.
 
 
 
-
-based on  wherever the "\n" newline character is found
 =======================
   puts empty_line
   puts horizontal_rule
@@ -2180,5 +2167,25 @@ single string with a newline character seperating each element then split the st
 the "\n" newline character is found then return a new array containing the number of characters of each line then return
 the element with the highest value in the array this is the end of the second element of the array which is now closed 
 and is the last part of the string interpolation and is followed by the | character.
+execute the { |line| puts "| #{line.ljust(max_line_length)} |" } block of code which contains: the |line| block parameter
+that represents each line of the message string after it has been split using the newline character ("\n") and print to 
+the screen the "| #{line.ljust(max_line_length)} |" string which contains: the | character and 
+#{line.ljust(max_line_length)} string interpolation which contains: the result of returning a new string version of the 
+|line| block parameter that represents each line of the message string after it has been split using the newline 
+character ("\n") that has been left-justified and padded to the width of the max_line_length variable which is assigned
+the result returning the element with the lowest value of the 2 elements in the 
+[max_message_width, message.split("\n").map(&:length).max] array whose first element is the max_message_width variable 
+which is assigned the result of the max_width variable which assigned the integer 76 being subtracted by the integer 4 
+and the second element in the array is the message parameter which is assigned the result of remove leading and trailing
+whitespace from each element of the lines variable which is assigned the [''] array which contains the '' empty string 
+and return a new array then concatenate the elements of an array into a single string with a newline character seperating
+each element then split the string into an array of substrings wherever the "\n" newline character is found then return a
+new array containing the number of characters of each line then return the element with the highest value in the array 
+this is the end of the second element of the array which is now closed which is the end of the string interpolation and 
+is followed by the | character which is followed by } which closes the block of code at each element of the result of: 
+splitting the message parameter is assigned the result of remove leading and trailing whitespace from each element of the 
+lines variable which is assigned the [''] array which contains the '' empty string and return a new array then 
+concatenate the elements of an array into a single string with a newline character seperating each element into an array 
+of substrings wherever the "\n" newline character is found.
 
 =end
