@@ -2394,38 +2394,38 @@ which is now closed and is the end of the string interpolation which is followed
 this is the last line in the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 this means:
-the method print_in_box accepts the message parameter and is defined as the following:
-the max_width variable is assigned the integer 76 and the max_message_width variable is assigned the result of the 
-max_width variable which assigned the integer 76 being subtracted by the integer 4 and the words variable is assigned the 
-result of splitting the message parameter into an array of substrings at each single space and the lines variable is 
-assigned the [''] array which contains the '' empty string and the words variable is assigned the result of splitting the
-message parameter into an array of substrings at each single space then execute a block of at each element with the 
-|word| block parameter that represents each element in words and open the block and start a while loop that runs as long 
-as the return value of how many characters are in word is a block parameter that represents each element in the words 
-variable which is assigned the result of splitting the message parameter into an array of substrings at each single space 
-is greater than the max_message_width variable which is assigned the result of the max_width variable which assigned the
-integer 76 being subtracted by the integer 4 and access the last element of the lines variable which is assigned the ['']
-array which contains the '' empty string then concatenate and reassign to the last element of the lines variable the 
-result of destructively extract and remove a portion of the word block parameter that represents each element in the 
-words variable which is assigned the result of splitting the message parameter into an array of substrings at each single
-space based on a specified range that includes both the starting 0 and ending with the max_message_width variable is
-assigned the result of the max_width variable which is assigned the integer 76 being subtracted by the integer 4 which is
-then subtracted by 1 then concatenate the string with the ' ' single space and append a '' empty string to the end of the
-lines variable is assigned the [''] array which contains the '' empty string if the number of elements in the word block 
-parameter that represents each element in the words variable which is assigned the result of splitting the message 
-parameter into an array of substrings at each single space is greater than the integer 0 and this is the last line of the 
-while loop that is everything after this is outside of the while loop and execute code if the number of elements in the 
-result of accessing the last element of the lines variable which is assigned the [''] array which contains the '' empty 
-string which is concatenated with the word block parameter that represents each element in the words variable which is 
-assigned the result of splitting the message parameter into an array of substrings at each single space which is 
-concatenated with the ' ' single space is greater than the the max_message_width variable which is assigned the result of
-the max_width variable which assigned the integer 76 being subtracted by the integer 4 and append '' empty string  to the
-end of the lines variable which is assigned the [''] array which contains the '' empty string and this is the last line 
-of the if statement that is everything after this line is outside of the if statement and if the word block parameter 
-that represents each element in the words variable which is assigned the result of splitting the message parameter into 
-an array of substrings at each single space is not empty then execute the block of code: concatenate and reassign the 
-result of accessing the last element of the lines variable which is assigned the [''] array which contains the '' empty 
-string with the word block parameter that represents each element in the words variable which is assigned the result of 
+the method print_in_box accepts the message parameter and is defined as the following: the max_width variable is assigned
+the integer 76 and the max_message_width variable is assigned the result of the max_width variable which assigned the 
+integer 76 being subtracted by the integer 4 and the words variable is assigned the result of splitting the message 
+parameter into an array of substrings at each single space and the lines variable is assigned the [''] array which 
+contains the '' empty string and the words variable is assigned the result of splitting the message parameter into an 
+array of substrings at each single space then execute a block of at each element with the |word| block parameter that 
+represents each element in words and open the block and start a while loop that runs as long as the return value of how 
+many characters are in word is a block parameter that represents each element in the words variable which is assigned the
+result of splitting the message parameter into an array of substrings at each single space is greater than the 
+max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
+subtracted by the integer 4 and access the last element of the lines variable which is assigned the [''] array which 
+contains the '' empty string then concatenate and reassign to the last element of the lines variable the result of 
+destructively extract and remove a portion of the word block parameter that represents each element in the words variable
+which is assigned the result of splitting the message parameter into an array of substrings at each single space based on
+a specified range that includes both the starting 0 and ending with the max_message_width variable is assigned the result
+of the max_width variable which is assigned the integer 76 being subtracted by the integer 4 which is then subtracted by 
+1 then concatenate the string with the ' ' single space and append a '' empty string to the end of the lines variable is
+assigned the [''] array which contains the '' empty string if the number of elements in the word block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space is greater than the integer 0 and this is the last line of the while loop that 
+is everything after this is outside of the while loop and execute code if the number of elements in the result of 
+accessing the last element of the lines variable which is assigned the [''] array which contains the '' empty string 
+which is concatenated with the word block parameter that represents each element in the words variable which is assigned
+the result of splitting the message parameter into an array of substrings at each single space which is concatenated with
+the ' ' single space is greater than the the max_message_width variable which is assigned the result of the max_width 
+variable which assigned the integer 76 being subtracted by the integer 4 and append '' empty string  to the end of the 
+lines variable which is assigned the [''] array which contains the '' empty string and this is the last line of the if 
+statement that is everything after this line is outside of the if statement and if the word block parameter that 
+represents each element in the words variable which is assigned the result of splitting the message parameter into an 
+array of substrings at each single space is not empty then execute the block of code: concatenate and reassign the result
+of accessing the last element of the lines variable which is assigned the [''] array which contains the '' empty string 
+with the word block parameter that represents each element in the words variable which is assigned the result of 
 splitting the message parameter into an array of substrings at each single space which is concatenated with the ' ' 
 single space and this is the last line of the .each method that is everything after this line is outside of the .each 
 method and close the block and the message parameter is assigned the result of remove leading and trailing whitespace 
