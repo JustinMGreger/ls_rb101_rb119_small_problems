@@ -584,7 +584,7 @@ Modify this method so it will truncate the message if it will be too wide to fit
 
 Syntax of Solution:
 def print_in_box(message)
-  max_width = 76 
+  max_width = 76
 
   if message.length > max_width
     message = message[0..(max_width-4)] + '...'
@@ -611,6 +611,16 @@ def print_in_box(message)
   puts empty_line
   puts horizontal_rule
 end
+
+test:
+print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
+
+the output of which is:
++------------------------------------------------------------------------------+
+|                                                                              |
+| !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghi... |
+|                                                                              |
++------------------------------------------------------------------------------+
 
 Explanation of Syntax of Solution:
 Syntax:
@@ -1057,45 +1067,6 @@ screen the variable horizontal_rule is assigned the "+#{'-' * (message.size + 2)
 characters in the message parameter which has the integer 2 is added to it which is followed by the + character and this 
 is the last line of the print_in_box method that is everything after this line is outside of the print_in_box method.
 
-test:
-def print_in_box(message)
-  max_width = 76
-
-  if message.length > max_width
-    message = message[0..(max_width-4)] + '...'
-  end
-
-  if message.length > max_width
-    words = message.split(' ')
-    lines = ['']
-    words.each do |word|
-      if (lines[-1] + word).length > max_width
-        lines << ''
-      end
-      lines[-1] += word + ' '
-    end
-    message = lines.join("\n").strip
-  end
-
-  horizontal_rule = "+#{'-' * (message.size + 2)}+"
-  empty_line = "|#{' ' * (message.size + 2)}|"
-
-  puts horizontal_rule
-  puts empty_line
-  puts "| #{message} |"
-  puts empty_line
-  puts horizontal_rule
-end
-
-print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
-
-the output of which is:
-+------------------------------------------------------------------------------+
-|                                                                              |
-| !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghi... |
-|                                                                              |
-+------------------------------------------------------------------------------+
-
 Further Exploration:
 For a real challenge, try word wrapping very long messages so they appear on multiple lines, but still within a box.
 
@@ -1128,6 +1099,17 @@ def print_in_box(message)
   puts empty_line
   puts horizontal_rule
 end
+
+test:
+print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
+
+the output of which is:
++--------------------------------------------------------------------------+
+|                                                                          |
+| !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefgh |
+| ijklmnopqrstuvwxyz{|}~;                                                  |
+|                                                                          |
++--------------------------------------------------------------------------+
 
 Explanation of Syntax of Solution:
 
