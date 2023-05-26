@@ -2399,7 +2399,7 @@ the integer 76 and the max_message_width variable is assigned the result of the 
 integer 76 being subtracted by the integer 4 and the words variable is assigned the result of splitting the message 
 parameter into an array of substrings at each single space and the lines variable is assigned the [''] array which 
 contains the '' empty string and the words variable is assigned the result of splitting the message parameter into an 
-array of substrings at each single space then execute a block of at each element with the |word| block parameter that 
+array of substrings at each single space then execute a block at each element with the |word| block parameter that 
 represents each element in words and open the block and start a while loop that runs as long as the return value of how 
 many characters are in word is a block parameter that represents each element in the words variable which is assigned the
 result of splitting the message parameter into an array of substrings at each single space is greater than the 
