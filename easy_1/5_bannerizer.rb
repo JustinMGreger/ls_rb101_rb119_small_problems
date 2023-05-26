@@ -2431,7 +2431,7 @@ single space and this is the last line of the .each method that is everything af
 method and close the block and the message parameter is assigned the result of remove leading and trailing whitespace 
 from each element of the lines variable which is assigned the [''] array which contains the '' empty string and return a
 new array then concatenate the elements of an array into a single string with a newline character seperating each element
-and max_line_length is a variable assigned the result returning the element with the lowest value of the 2 elements in 
+and max_line_length is a variable assigned the result of returning the element with the lowest value of the 2 elements in 
 the [max_message_width, message.split("\n").map(&:length).max] array whose first element is the 
 max_message_width variable which is assigned the result of the max_width variable which assigned the integer 76 being 
 subtracted by the integer 4 and the second element in the array is the message parameter which is assigned the result of
