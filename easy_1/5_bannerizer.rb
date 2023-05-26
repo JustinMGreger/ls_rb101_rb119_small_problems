@@ -2256,8 +2256,11 @@ substrings wherever the "\n" newline character is found then return a new array 
 each line then return the element with the highest value in the array this is the end of the second element of the array
 which is now closed and is the end of the string interpolation which is followed by the + character.
 
-=======================
+Syntax:
 end
+
+Explanation:
+this is the last line in the print_in_box method that is everything after this line is outside of the print_in_box method.
 ======================================
 this means compilation:
 the method print_in_box accepts the message parameter and is defined as the following:
@@ -2406,5 +2409,6 @@ array into a single string with a newline character seperating each element then
 substrings wherever the "\n" newline character is found then return a new array containing the number of characters of 
 each line then return the element with the highest value in the array this is the end of the second element of the array
 which is now closed and is the end of the string interpolation which is followed by the + character.
+this is the last line in the print_in_box method that is everything after this line is outside of the print_in_box method.
 
 =end
