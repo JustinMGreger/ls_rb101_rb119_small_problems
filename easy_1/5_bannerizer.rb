@@ -139,12 +139,17 @@ To boldly go where no one has gone before. is the argument passed to the method 
 ' ' is the blank space character.
 |is the last character of the string.
 this means:
-print to the screen the | To boldly go where no one has gone before. | string which contains: the | first character of the
-string and the ' ' blank space character and To boldly go where no one has gone before. which is the argument passed to 
-the method which is the paramter and the ' ' blank space character and the | which is the last character of the string.
+print to the screen the | To boldly go where no one has gone before. | string which contains: the | first character of 
+the string and the ' ' blank space character and To boldly go where no one has gone before. which is the argument passed
+to the method which is the paramter and the ' ' blank space character and the | which is the last character of the string.
 
 the implied syntax:
 puts '| To boldly go where no one has gone before. |'
+
+however because ('To boldly go where no one has gone before.') is the arugment which implies the parameter that means
+that it is string interpolation:
+puts '| #{parameter} |'
+
 
 organized implied syntax:
 def print_in_box(parameter)
@@ -159,7 +164,7 @@ possible syntax:
 def print_in_box(parameter)
   puts '+--------------------------------------------+'
   puts '|                                            |'
-  puts '| parameter |'
+  puts '| #{parameter} |'
   puts '|                                            |'
   puts '+--------------------------------------------+'
 end
@@ -285,7 +290,7 @@ possible syntax:
 def print_in_box(parameter)
   puts '+--+'
   puts '|  |'
-  puts '| parameter |'
+  puts '| #{parameter} |'
   puts '|  |'
   puts '+--+' 
 end
