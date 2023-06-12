@@ -29,7 +29,7 @@ triangle(9)
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
 PEDAC stands for “[Understand the] Problem, 
-Identify expected input: 
+Identify expected input: a positive integer, n, as an argument
 
 and output:
 
