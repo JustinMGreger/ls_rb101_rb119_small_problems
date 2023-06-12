@@ -54,8 +54,8 @@ triangle(5)     this is the method name.
     *            1 stars  * is 5 spaces to the right.
    **            2 stars  * is 5 spaces to the right. * is 4 spaces to the right.
   ***            3 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
- ****            4 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
-*****            5 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
+ ****            4 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right. * is 2 spaces to the right. 
+*****            5 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right. * is 2 spaces to the right. * is 1 space to the right.
 12345
 
 Syntax so far:
@@ -63,7 +63,7 @@ def triangle(n)
   n is the number of lines
   n is the number of * printed.
 end
-somehow the first * is n spaces to the right.
+somehow the first * is n spaces to the right this mean it is r justified.
 
 
 triangle(9)
