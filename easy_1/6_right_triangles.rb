@@ -57,7 +57,10 @@ triangle(5)     this is the method name.
  ****            4 stars
 *****            5 stars
 
-
+Syntax so far:
+def triangle(n)
+  stuff
+end
 
 
 
