@@ -49,13 +49,17 @@ The hypotenuse of the triangle (the diagonal side in the images below) should ha
 triangle, and the other end at the upper-right.
 
 Examples:
-triangle(5)
+triangle(5)     this is the method name.
 
-    *
-   **
-  ***
- ****
-*****
+    *            1 stars
+   **            2 stars
+  ***            3 stars
+ ****            4 stars
+*****            5 stars
+
+
+
+
 
 triangle(9)
 
