@@ -31,7 +31,8 @@ PEDAC has two primary objectives: process the problem (PEDA) and code with inten
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: a positive integer, n, as an argument
 
-and output:
+and output: displays a right triangle whose sides each have n stars. The hypotenuse of the triangle (the diagonal side in
+the images below) should have one end at the lower-left of the triangle, and the other end at the upper-right.
 
 Make the requirements explicit Identify rules:
 
