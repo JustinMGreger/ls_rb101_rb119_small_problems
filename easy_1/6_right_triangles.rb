@@ -42,6 +42,45 @@ The hypotenuse of the triangle (the diagonal side in the images below) should ha
 triangle, and the other end at the upper-right.
 
 Mental model of the problem (optional):
+Description of Exercise:
+Write a method that takes a positive integer, n, as an argument, and displays a right triangle whose sides each have n 
+stars. 
+The hypotenuse of the triangle (the diagonal side in the images below) should have one end at the lower-left of the 
+triangle, and the other end at the upper-right.
+
+Examples:
+triangle(5)
+
+    *
+   **
+  ***
+ ****
+*****
+
+triangle(9)
+
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Examples / Test Cases, Validate understanding of the problem:
 
