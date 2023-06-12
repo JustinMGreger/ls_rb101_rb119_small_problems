@@ -53,9 +53,9 @@ triangle(5)     this is the method name.
 
     *            1 stars  * is 5 spaces to the right.
    **            2 stars  * is 5 spaces to the right. * is 4 spaces to the right.
-  ***            3 stars  * is 5 spaces to the right. * is 4 spaces to the right.
- ****            4 stars  * is 5 spaces to the right. * is 4 spaces to the right.
-*****            5 stars  * is 5 spaces to the right. * is 4 spaces to the right.
+  ***            3 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
+ ****            4 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
+*****            5 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
 12345
 
 Syntax so far:
