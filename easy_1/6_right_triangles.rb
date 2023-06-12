@@ -60,6 +60,7 @@ triangle(5)     this is the method name.
 Syntax so far:
 def triangle(n)
   n is the number of lines
+  n is the number of *
 end
 
 
