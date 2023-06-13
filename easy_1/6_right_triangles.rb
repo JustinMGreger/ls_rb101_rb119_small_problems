@@ -237,4 +237,12 @@ each time a block is called and padds it with the n parameter amount of whitespa
 this is the last line in the .times method that is everything after this line is outside of the .times method.
 this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
+all this means:
+the triangle method accepts the (n) parameter and is defined as the following: run the block of code n parameter times and
+print to the screen the result of: the .rjust method taking the ('*' * (i + 1)) string which contains the result of: the
+'*' string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a value 
+each time a block is called and padds it with the n parameter amount of whitespace and this is the last line in the .times 
+method that is everything after this line is outside of the .times method and this is the last line of the triangle method
+that is everything after this line is outside of the triangle method.
+
 =end
