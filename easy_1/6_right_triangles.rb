@@ -200,8 +200,21 @@ run the block of code n parameter times.
 Syntax:
     puts ('*' * (i + 1)).rjust(n)
 Explanation:
-
-
+puts is put s which is put string which is print to the screen the string.
+('*' * (i + 1)) is the string passed to .rjust.
+'*' is a * string.
+* means multiplication.
+(i + 1) is what is multiplied by the '*' string.
+i is the block parameter which recieves a value each time a block is called.
++ means addition.
+1 is a integer.
+.rjust takes a string and padds it with a specified character which defaults to whitespace.
+(n) is how many specified characters which defaults to whitespace to padd .rjust
+n is the parameter.
+this means:    
+print to the screen the result of: the .rjust method taking the ('*' * (i + 1)) string which contains the result of: the
+'*' string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a value 
+each time a block is called and padds it with the n parameter amount of whitespace.
 
 
 
@@ -211,6 +224,8 @@ end
 compilation of this means:
 the triangle method accepts the (n) parameter and is defined as the following:
 run the block of code n parameter times.
-
+print to the screen the result of: the .rjust method taking the ('*' * (i + 1)) string which contains the result of: the
+'*' string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a value 
+each time a block is called and padds it with the n parameter amount of whitespace.
 
 =end
