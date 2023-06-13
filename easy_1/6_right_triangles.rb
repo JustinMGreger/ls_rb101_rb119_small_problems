@@ -175,4 +175,29 @@ result:
 
 Success.
 
+Explanation of Syntax of Solution:
+Syntax:
+def triangle(n) 
+
+Explanation:
+def means definition.
+triangle is the method.
+(n) is the parameter.
+this means:
+the triangle method accepts the (n) parameter and is defined as the following:
+
+
+
+
+
+  n.times do |i|
+    puts ('*' * (i + 1)).rjust(n)
+  end
+end
+
+compilation of this means:
+the triangle method accepts the (n) parameter and is defined as the following:
+
+
+
 =end
