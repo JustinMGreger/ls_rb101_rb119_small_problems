@@ -303,4 +303,22 @@ output:
 result:
 success.
 
+Explanation of LS Solution Syntax:
+Syntax:
+def triangle(num)
+
+Explanation:
+  spaces = num - 1
+  stars = 1
+
+  num.times do |n|
+    puts (' ' * spaces) + ('*' * stars)
+    spaces -= 1
+    stars += 1
+  end
+end
+
+compilation of this means:
+
+
 =end
