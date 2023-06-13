@@ -120,10 +120,10 @@ Algorithm, Steps for converting input to output:
 
 and Code.” Implementation of Algorithm:
 
-
+Syntax of Solution:
 def triangle(n) 
-  n.times
-    puts '*' * (something).rjust(n)
+  n.times do |i|
+    puts ('*' * (i + 1)).rjust(n)
   end
 end
 
