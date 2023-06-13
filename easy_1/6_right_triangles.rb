@@ -222,8 +222,11 @@ Syntax:
 Explanation:
 this is the last line in the .times method that is everything after this line is outside of the .times method.
 
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
 compilation of this means:
 the triangle method accepts the (n) parameter and is defined as the following:
@@ -232,5 +235,6 @@ print to the screen the result of: the .rjust method taking the ('*' * (i + 1)) 
 '*' string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a value 
 each time a block is called and padds it with the n parameter amount of whitespace.
 this is the last line in the .times method that is everything after this line is outside of the .times method.
+this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
 =end
