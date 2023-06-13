@@ -51,7 +51,7 @@ triangle, and the other end at the upper-right.
 Examples:
 triangle(5)     this is the method name.
 
-    *            1 stars  * is 5 spaces to the right.
+    *            1 star  * is 5 spaces to the right.
    **            2 stars  * is 5 spaces to the right. * is 4 spaces to the right.
   ***            3 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right.
  ****            4 stars  * is 5 spaces to the right. * is 4 spaces to the right. * is 3 spaces to the right. * is 2 spaces to the right. 
@@ -68,30 +68,25 @@ somehow the first * is n spaces to the right this mean it is r justified.
 
 triangle(9)
 
-        *
-       **
-      ***
-     ****
-    *****
-   ******
-  *******
- ********
-*********
-
-
-
-
-
-
-
-
-
-
-
-
-
+        * 1 star * is 9 spaces to the right. 
+       ** 2 stars * is 9 spaces to the right. * is 8 spaces to the right.
+      *** 3 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right.
+     **** 4 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right.
+    ***** 5 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right.
+   ****** 6 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right. * is 4 spaces to the right.
+  ******* 7 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right. 
+ ******** 8 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right.
+********* 9 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right.
+123456789 10 stars * is 9 spaces to the right. * is 8 spaces to the right. * is 7 spaces to the right. * is 6 spaces to the right. * is 5 spaces to the right.
 
 Examples / Test Cases, Validate understanding of the problem:
+
+
+
+
+
+
+
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 
