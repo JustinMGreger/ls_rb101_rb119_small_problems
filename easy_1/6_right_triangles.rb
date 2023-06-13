@@ -245,4 +245,30 @@ each time a block is called and padds it with the n parameter amount of whitespa
 method that is everything after this line is outside of the .times method and this is the last line of the triangle method
 that is everything after this line is outside of the triangle method.
 
+LS Solution Syntax:
+def triangle(num)
+  spaces = num - 1
+  stars = 1
+
+  num.times do |n|
+    puts (' ' * spaces) + ('*' * stars)
+    spaces -= 1
+    stars += 1
+  end
+end
+
+test
+triangle(5)
+
+    *
+   **
+  ***
+ ****
+*****
+
+output:
+
+result:
+
+
 =end
