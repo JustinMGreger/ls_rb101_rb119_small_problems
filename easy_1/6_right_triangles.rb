@@ -127,12 +127,10 @@ def triangle(n)
   end
 end
 
-
-
 test:
 triangle(5)
 
-output:
+test output:
 
     *
    **
@@ -141,11 +139,18 @@ output:
 *****
 
 result:
+    *
+   **
+  ***
+ ****
+*****
+
+Success.
 
 test:
 triangle(9)
 
-output:
+test output:
 
         *
        **
@@ -158,5 +163,16 @@ output:
 *********
 
 result:
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+Success.
 
 =end
