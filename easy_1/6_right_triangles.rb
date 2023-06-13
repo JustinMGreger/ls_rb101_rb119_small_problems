@@ -122,7 +122,6 @@ and Code.” Implementation of Algorithm:
 
 
 def triangle(n) 
-2. the triangle method displays a right triangle whose sides each have n stars.
 puts '*' * (something).rjust(n)
 3. the hypotenuse of the triangle should have one end at the lower-left of the triangle, and the other end at the upper-right.
 
