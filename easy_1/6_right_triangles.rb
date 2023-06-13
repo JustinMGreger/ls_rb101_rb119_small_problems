@@ -123,7 +123,8 @@ and Code.” Implementation of Algorithm:
 
 def triangle(n) 
   n.times
-puts '*' * (something).rjust(n)
+    puts '*' * (something).rjust(n)
+  end
 end
 
 
