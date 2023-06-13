@@ -116,8 +116,45 @@ Algorithm, Steps for converting input to output:
 
 1. the triangle method accepts the positive integer n as an argument.
 2. the triangle method displays a right triangle whose sides each have n stars.
-3. The hypotenuse of the triangle should have one end at the lower-left of the triangle, and the other end at the upper-right.
+3. the hypotenuse of the triangle should have one end at the lower-left of the triangle, and the other end at the upper-right.
 
 and Code.” Implementation of Algorithm:
+
+
+def triangle(n) 
+2. the triangle method displays a right triangle whose sides each have n stars.
+puts '*' * (something).rjust(n)
+3. the hypotenuse of the triangle should have one end at the lower-left of the triangle, and the other end at the upper-right.
+
+
+test:
+triangle(5)
+
+output:
+
+    *
+   **
+  ***
+ ****
+*****
+
+result:
+
+test:
+triangle(9)
+
+output:
+
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+result:
 
 =end
