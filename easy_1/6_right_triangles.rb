@@ -308,6 +308,17 @@ Syntax:
 def triangle(num)
 
 Explanation:
+def means defintion.
+triangle is the method.
+(num) is the parameter.
+this means:
+the triangle method accepts the (num) parameter and is defined as:
+
+
+
+
+
+
   spaces = num - 1
   stars = 1
 
@@ -319,6 +330,7 @@ Explanation:
 end
 
 compilation of this means:
+the triangle method accepts the (num) parameter and is defined as:
 
 
 =end
