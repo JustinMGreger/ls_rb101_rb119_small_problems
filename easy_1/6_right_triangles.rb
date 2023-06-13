@@ -110,6 +110,7 @@ output:
 *********
 
 Data Structure, How we represent data that we will work with when converting the input to output:
+It looks like it will be strings.
 
 Algorithm, Steps for converting input to output:
 
