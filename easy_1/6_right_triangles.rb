@@ -186,18 +186,31 @@ triangle is the method.
 this means:
 the triangle method accepts the (n) parameter and is defined as the following:
 
-
-
-
-
+Syntax:
   n.times do |i|
+
+Explanation:
+n is the parameter.
+.times takes a integer and a block and runs the block as many times as the integer it was called on.
+do means open the block.
+|i| is the block parameter which recieves a value each time a block is called.
+this means:
+run the block of code n parameter times.
+
+Syntax:
     puts ('*' * (i + 1)).rjust(n)
+Explanation:
+
+
+
+
+
   end
 end
 
 compilation of this means:
 the triangle method accepts the (n) parameter and is defined as the following:
-
+run the block of code n parameter times.
 
 
 =end
