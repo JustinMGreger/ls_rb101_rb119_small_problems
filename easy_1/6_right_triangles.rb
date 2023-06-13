@@ -257,7 +257,7 @@ def triangle(num)
   end
 end
 
-test
+test:
 triangle(5)
 
     *
@@ -267,8 +267,40 @@ triangle(5)
 *****
 
 output:
+    *
+   **
+  ***
+ ****
+*****
 
 result:
+success.
 
+test:
+triangle(9)
+
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+output:
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+result:
+success.
 
 =end
