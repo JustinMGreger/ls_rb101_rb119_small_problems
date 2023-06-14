@@ -415,7 +415,11 @@ Syntax:
 Explanation:
 this is the last line of the .times method that is everything after this line is outside of the .times method.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
 compilation of this means:
 the triangle method accepts the (num) parameter and is defined as:
@@ -431,5 +435,6 @@ is assigned the result of: subtracting 1 from the the spaces variable.
 the stars variable is assigned the integer 1 then the stars variable is assigned the result of: adding 1 to the stars
 variable.
 this is the last line of the .times method that is everything after this line is outside of the .times method.
+this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
 =end
