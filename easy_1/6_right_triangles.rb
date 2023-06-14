@@ -450,7 +450,23 @@ the stars variable is assigned the result of: adding 1 to the stars variable and
 method that is everything after this line is outside of the .times method and this is the last line of the triangle method
 that is everything after this line is outside of the triangle method.
 
-Further Exploration
+Further Exploration:
 Try modifying your solution so it prints the triangle upside down from its current orientation.
+
+Syntax of the Solution:
+def triangle(num)
+  spaces = 0
+  stars = num
+
+  num.times do |n|
+    puts (' ' * spaces) + ('*' * stars)
+    spaces += 1
+    stars -= 1
+  end
+end
+
+test:
+
+test:
 
 =end
