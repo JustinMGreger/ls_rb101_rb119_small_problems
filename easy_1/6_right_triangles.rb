@@ -606,7 +606,11 @@ Syntax:
 Explanation:
 this is the last line in the .times method that is everything after this is outside of the .times method.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the triangle method that is everything after this is outside of the triangle method.
 
 compilation of this means:
 the triangle method accepts the (num) parameter and is defined as the following:
@@ -622,6 +626,7 @@ variable.
 the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
 the stars variable.
 this is the last line in the .times method that is everything after this is outside of the .times method.
+this is the last line of the triangle method that is everything after this is outside of the triangle method.
 
 all this means:
 the triangle method accepts the (num) parameter and is defined as the following:
@@ -637,5 +642,6 @@ variable.
 the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
 the stars variable.
 this is the last line in the .times method that is everything after this is outside of the .times method.
+this is the last line of the triangle method that is everything after this is outside of the triangle method.
 
 =end
