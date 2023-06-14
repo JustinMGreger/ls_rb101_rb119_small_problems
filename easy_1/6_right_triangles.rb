@@ -599,10 +599,13 @@ the stars variable is assigned the num paramater.
 this means:
 the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
 the stars variable.
-========================
 
-
+Syntax:
   end
+
+Explanation:
+this is the last line in the .times method that is everything after this is outside of the .times method.
+
 end
 
 compilation of this means:
@@ -618,6 +621,7 @@ the spaces variable is assigned the integer 0 then the spaces variable is assign
 variable.
 the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
 the stars variable.
+this is the last line in the .times method that is everything after this is outside of the .times method.
 
 all this means:
 the triangle method accepts the (num) parameter and is defined as the following:
@@ -632,5 +636,6 @@ the spaces variable is assigned the integer 0 then the spaces variable is assign
 variable.
 the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
 the stars variable.
+this is the last line in the .times method that is everything after this is outside of the .times method.
 
 =end
