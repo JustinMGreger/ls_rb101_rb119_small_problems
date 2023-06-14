@@ -516,11 +516,32 @@ spaces is a variable.
 0 is a integer.
 this means:
 the spaces variable is assigned the integer 0.
-========================
 
+Syntax:
   stars = num
 
+Explanation:
+stars is a variable.
+= means assignment.
+num is the paramater.
+this means:
+the stars variable is assigned the num paramater.
+
+Syntax:
   num.times do |n|
+
+Explanation:
+num is the parameter.
+.times method runs a loop for a specified amount of times.
+do means opent the block.
+|n| is the block parameter.
+this means:
+the .times method runs a loop for the num parameter amount of times.
+
+Syntax:
+
+Explanation:
+========================
     puts (' ' * spaces) + ('*' * stars)
     spaces += 1
     stars -= 1
@@ -530,9 +551,13 @@ end
 compilation of this means:
 the triangle method accepts the (num) parameter and is defined as the following:
 the spaces variable is assigned the integer 0.
+the stars variable is assigned the num paramater.
+the .times method runs a loop for the num parameter amount of times.
 
 all this means:
 the triangle method accepts the (num) parameter and is defined as the following:
 the spaces variable is assigned the integer 0.
+the stars variable is assigned the num paramater.
+the .times method runs a loop for the num parameter amount of times.
 
 =end
