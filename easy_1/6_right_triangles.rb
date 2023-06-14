@@ -413,7 +413,8 @@ Syntax:
   end
 
 Explanation:
-this is the
+this is the last line of the .times method that is everything after this line is outside of the .times method.
+
 end
 
 compilation of this means:
@@ -429,5 +430,6 @@ the spaces variable is assigned the result of: subtracting 1 from the value of t
 is assigned the result of: subtracting 1 from the the spaces variable.
 the stars variable is assigned the integer 1 then the stars variable is assigned the result of: adding 1 to the stars
 variable.
+this is the last line of the .times method that is everything after this line is outside of the .times method.
 
 =end
