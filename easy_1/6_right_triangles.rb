@@ -394,10 +394,26 @@ this means:
 the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable 
 is assigned the result of: subtracting 1 from the the spaces variable.
 
-
-=====================
+Syntax:
     stars += 1
+
+Explanation
+stars is a variable.
+= means assignment.
+1 is a integer.
+this means:
+the stars variable is assigned the integer 1.
++= is the addition assignment operator.
+1 is a integer.
+this means:
+the stars variable is assigned the integer 1 then the stars variable is assigned the result of: adding 1 to the stars
+variable.
+
+Syntax:
   end
+
+Explanation:
+this is the
 end
 
 compilation of this means:
@@ -411,5 +427,7 @@ which closes the string with the ('*' * stars) string which contains the result 
 stars variable which is assigned the integer 1 which closes the string.
 the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable 
 is assigned the result of: subtracting 1 from the the spaces variable.
+the stars variable is assigned the integer 1 then the stars variable is assigned the result of: adding 1 to the stars
+variable.
 
 =end
