@@ -314,23 +314,102 @@ triangle is the method.
 this means:
 the triangle method accepts the (num) parameter and is defined as:
 
-
-
-
-
-
+Syntax:
   spaces = num - 1
+
+Explanation:
+spaces is a variable.
+= means assignment.
+num is the parameter.
+- means subtraction.
+1 is a integer.
+this means:
+the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter.
+
+Syntax:
   stars = 1
 
+Explanation:
+stars is a variable.
+= means assignment.
+1 is a integer.
+this means:
+the stars variable is assigned the integer 1.
+
+Syntax:
   num.times do |n|
+
+Explanation:
+num is the parameter.
+.times method runs a loop for specified number of times.
+do means open the block.
+|n| is the block parameter.
+this means:
+.times method runs a loop for the num parameter number of times.
+
+Syntax:
     puts (' ' * spaces) + ('*' * stars)
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+(' ' * spaces) is a string.
+' ' is a space string.
+* means multiplication.
+spaces is a variable.
+= means assignment.
+num is the parameter.
+- means subtraction.
+1 is a integer.
+this means:
+the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter.
++ is concatenation.
+('*' * stars) is a string.
+'*' is a string.
+* means multiplication.
+stars is a variable.
+= means assignment.
+1 is a integer.
+this means:
+the stars variable is assigned the integer 1.
+this means:    
+print to the screen the result of: + concatenating the (' ' * spaces) string which contains the result of: multiplying
+the ' ' space string by the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter
+which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' string by the the
+stars variable which is assigned the integer 1 which closes the string.
+
+Syntax:
     spaces -= 1
+
+Explanation:
+spaces is a variable.
+= means assignment.
+num is the parameter.
+- means subtraction.
+1 is a integer.
+this means:
+the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter.
+-= is the subtraction assignment operator.
+1 is a integer.
+this means:
+the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable 
+is assigned the result of: subtracting 1 from the the spaces variable.
+
+
+=====================
     stars += 1
   end
 end
 
 compilation of this means:
 the triangle method accepts the (num) parameter and is defined as:
-
+the spaces variable is assigned the result of: subtracting 1 from the num parameter.
+the stars variable is assigned the integer 1.
+.times method runs a loop for the num parameter number of times.
+print to the screen the result of: + concatenating the (' ' * spaces) string which contains the result of: multiplying
+the ' ' space string by the the spaces variable which is assigned the result of: subtracting 1 from the num parameter 
+which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' string by the the
+stars variable which is assigned the integer 1 which closes the string.
+the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable 
+is assigned the result of: subtracting 1 from the the spaces variable.
 
 =end
