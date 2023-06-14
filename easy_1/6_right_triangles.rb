@@ -496,7 +496,18 @@ result:
 success.
 
 Explanation of Syntax of the Solution:
+
+Syntax:
 def triangle(num)
+
+Explanation:
+def means definition.
+triangle is the method.
+(num) is the paramater.
+this means:
+the triangle method accepts the (num) parameter and is defined as the following:
+
+========================
   spaces = 0
   stars = num
 
@@ -506,5 +517,11 @@ def triangle(num)
     stars -= 1
   end
 end
+
+compilation of this means:
+the triangle method accepts the (num) parameter and is defined as the following:
+
+all this means:
+the triangle method accepts the (num) parameter and is defined as the following:
 
 =end
