@@ -569,6 +569,21 @@ paramater which closes the string.
 Syntax:     
 spaces += 1
 
+Explanation:
+spaces is a variable.
+= means assignment.
+0 is a integer.
+this means:
+the spaces variable is assigned the integer 0.
++= is the addition assignment operator.
+1 is the integer 1.
+this means:
+the spaces is a variable.
+= means assignment.
+0 is a integer.
+this means:
+the spaces variable is assigned the integer 0 then the spaces variable is assigned the result of adding 1 to the spaces 
+variable.
 ========================
 
     stars -= 1
@@ -584,6 +599,8 @@ print to the screen the result of: concatenating the (' ' * spaces) string which
 ' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
 string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
 paramater which closes the string.
+the spaces variable is assigned the integer 0 then the spaces variable is assigned the result of adding 1 to the spaces 
+variable.
 
 all this means:
 the triangle method accepts the (num) parameter and is defined as the following:
@@ -594,5 +611,7 @@ print to the screen the result of: concatenating the (' ' * spaces) string which
 ' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
 string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
 paramater which closes the string.
+the spaces variable is assigned the integer 0 then the spaces variable is assigned the result of adding 1 to the spaces 
+variable.
 
 =end
