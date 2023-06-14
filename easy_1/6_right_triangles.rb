@@ -466,7 +466,23 @@ def triangle(num)
 end
 
 test:
+triangle(5)
+
+output:
+*****
+ ****
+  ***
+   **
+    *
+
+result:
+success.
 
 test:
+triangle(9)
+
+output:
+
+result:
 
 =end
