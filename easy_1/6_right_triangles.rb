@@ -450,5 +450,7 @@ the stars variable is assigned the result of: adding 1 to the stars variable and
 method that is everything after this line is outside of the .times method and this is the last line of the triangle method
 that is everything after this line is outside of the triangle method.
 
+Further Exploration
+Try modifying your solution so it prints the triangle upside down from its current orientation.
 
 =end
