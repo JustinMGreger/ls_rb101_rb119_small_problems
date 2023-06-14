@@ -437,4 +437,18 @@ variable.
 this is the last line of the .times method that is everything after this line is outside of the .times method.
 this is the last line of the triangle method that is everything after this line is outside of the triangle method.
 
+all this means:
+the triangle method accepts the (num) parameter and is defined as: the spaces variable is assigned the result of: 
+subtracting 1 from the num parameter and the stars variable is assigned the integer 1 and the .times method runs a loop 
+for the num parameter number of times and print to the screen the result of: + concatenating the (' ' * spaces) string 
+which contains the result of: multiplying the ' ' space string by the the spaces variable which is assigned the result of:
+subtracting 1 from the num parameter which closes the string with the ('*' * stars) string which contains the result of: 
+multiplying the '*' string by the the stars variable which is assigned the integer 1 which closes the string and the 
+spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable is 
+assigned the result of: subtracting 1 from the the spaces variable and the stars variable is assigned the integer 1 then
+the stars variable is assigned the result of: adding 1 to the stars variable and this is the last line of the .times 
+method that is everything after this line is outside of the .times method and this is the last line of the triangle method
+that is everything after this line is outside of the triangle method.
+
+
 =end
