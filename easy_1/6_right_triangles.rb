@@ -538,12 +538,39 @@ do means opent the block.
 this means:
 the .times method runs a loop for the num parameter amount of times.
 
-Syntax:
+Syntax:      
+puts (' ' * spaces) + ('*' * stars)
 
 Explanation:
+puts is put s which is put string which is print to the screen the string.
+(' ' * spaces) is a string.
+' ' is a space string.
+ * is multiplication.
+spaces is a variable.
+= means assignment.
+0 is a integer.
+this means:
+the spaces variable is assigned the integer 0.
++ is concatenation.
+('*' * stars) is a string.
+'*' is a * string.
+* is multiplication.
+stars is a variable.
+= means assignment.
+num is the paramater.
+this means:
+the stars variable is assigned the num paramater.
+this means:   
+print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
+' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
+string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
+paramater which closes the string.
+
+Syntax:     
+spaces += 1
+
 ========================
-    puts (' ' * spaces) + ('*' * stars)
-    spaces += 1
+
     stars -= 1
   end
 end
@@ -553,11 +580,19 @@ the triangle method accepts the (num) parameter and is defined as the following:
 the spaces variable is assigned the integer 0.
 the stars variable is assigned the num paramater.
 the .times method runs a loop for the num parameter amount of times.
+print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
+' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
+string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
+paramater which closes the string.
 
 all this means:
 the triangle method accepts the (num) parameter and is defined as the following:
 the spaces variable is assigned the integer 0.
 the stars variable is assigned the num paramater.
 the .times method runs a loop for the num parameter amount of times.
+print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
+' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
+string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
+paramater which closes the string.
 
 =end
