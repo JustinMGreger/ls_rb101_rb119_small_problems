@@ -640,4 +640,7 @@ then the stars variable is assigned the result of subtracting 1 from the stars v
 .times method that is everything after this is outside of the .times method and this is the last line of the triangle 
 method that is everything after this is outside of the triangle method.
 
+Further Exploration:
+Try modifying your solution again so that you can display the triangle with the right angle at any corner of the grid.
+
 =end
