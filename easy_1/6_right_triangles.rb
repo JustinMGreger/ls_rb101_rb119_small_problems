@@ -482,7 +482,29 @@ test:
 triangle(9)
 
 output:
+*********
+ ********
+  *******
+   ******
+    *****
+     ****
+      ***
+       **
+        *
 
 result:
+success.
+
+Explanation of Syntax of the Solution:
+def triangle(num)
+  spaces = 0
+  stars = num
+
+  num.times do |n|
+    puts (' ' * spaces) + ('*' * stars)
+    spaces += 1
+    stars -= 1
+  end
+end
 
 =end
