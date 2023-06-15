@@ -678,6 +678,8 @@ triangle()
 test:
 How many stars do you want?
 5
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+top_right  
 
 output:
 result:
@@ -685,6 +687,8 @@ result:
 test:
 How many stars do you want?
 5
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+top_left
 
 output:
 result:
@@ -692,6 +696,8 @@ result:
 test:
 How many stars do you want?
 5
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+bottom_right 
 
 output:
 result:
@@ -699,23 +705,34 @@ result:
 test:
 How many stars do you want?
 5
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+bottom_left
 
 output:
 result:
 
 test:
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+  
 output:
 result:
 
 test:
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+
 output:
 result:
 
 test:
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+
 output:
 result:
 
 test:
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+bottom_left
+
 output:
 result:
 
