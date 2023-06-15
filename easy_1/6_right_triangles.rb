@@ -743,6 +743,27 @@ test:
 How many stars do you want?
 9
 What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+top_right 
+
+output:
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+
+result:
+success.
+
+test:
+How many stars do you want?
+9
+What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+top_left 
 
 output:
 result:
@@ -751,14 +772,7 @@ test:
 How many stars do you want?
 9
 What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
-
-output:
-result:
-
-test:
-How many stars do you want?
-9
-What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?
+bottom_right 
 
 output:
 result:
