@@ -676,6 +676,34 @@ end
 triangle()
 
 test:
+How many stars do you want?
+5
+
+output:
+result:
+
+test:
+How many stars do you want?
+5
+
+output:
+result:
+
+test:
+How many stars do you want?
+5
+
+output:
+result:
+
+test:
+How many stars do you want?
+5
+
+output:
+result:
+
+test:
 output:
 result:
 
