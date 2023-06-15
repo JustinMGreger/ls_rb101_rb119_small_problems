@@ -766,7 +766,18 @@ What corner do you want the triangle to be in :top_right, :top_left, :bottom_rig
 top_left 
 
 output:
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+
 result:
+success.
 
 test:
 How many stars do you want?
