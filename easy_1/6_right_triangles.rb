@@ -676,10 +676,19 @@ end
 triangle()
 
 test:
+output:
+result:
 
 test:
+output:
+result:
 
 test:
+output:
+result:
 
 test:
+output:
+result:
+
 =end
