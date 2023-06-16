@@ -875,10 +875,26 @@ this means:
 the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
 
-
-
-
+Syntax:
   num.times do |n|
+
+Explanation:
+num is a variable.
+= means assignment.
+gets is get user input in string form.
+.to_i converts to integer form.
+this means:
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+.times means run a loop for a specified number of times.
+do means open the block.
+|n| is the block parameter.
+this means:
+run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
+integer form number of times and open the block of code and |n| is the block parameter.
+
+
+
+
     case corner
     when :top_right
       spaces = num - n - 1
@@ -911,6 +927,8 @@ print to the screen the "What corner do you want the triangle to be in :top_righ
 :bottom_left?" string.
 the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
+run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
+integer form number of times and open the block of code and |n| is the block parameter.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -920,5 +938,7 @@ print to the screen the "What corner do you want the triangle to be in :top_righ
 :bottom_left?" string.
 the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
+run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
+integer form number of times and open the block of code and |n| is the block parameter.
 
 =end
