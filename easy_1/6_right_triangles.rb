@@ -851,4 +851,10 @@ def triangle()
 end
 
 triangle()
+
+===============================
+compilation of this means:
+
+all this means:
+
 =end
