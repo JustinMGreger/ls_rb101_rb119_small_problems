@@ -852,9 +852,17 @@ gets is get user input in string form.
 this means:
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 
-
-
+Syntax:
   puts "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?" is a string.
+this means:
+print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
+:bottom_left?" string.
+
+
   corner = gets.strip.to_sym
 
   num.times do |n|
@@ -886,10 +894,14 @@ compilation of this means:
 the triangle method takes no parameters and is defined as the following:
 print to the screen the "How many stars do you want?" string.
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
+:bottom_left?" string.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
 print to the screen the "How many stars do you want?" string.
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
+:bottom_left?" string.
 
 =end
