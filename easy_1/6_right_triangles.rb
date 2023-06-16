@@ -841,8 +841,18 @@ puts is put s which is put string which means print to the screen the string.
 this means:
 print to the screen the "How many stars do you want?" string.
 
-
+Syntax:
   num = gets.to_i
+
+Explanation:
+num is a variable.
+= means assignment.
+gets is get user input in string form.
+.to_i converts to integer form.
+this means:
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+
+
 
   puts "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?"
   corner = gets.strip.to_sym
@@ -875,9 +885,11 @@ triangle()
 compilation of this means:
 the triangle method takes no parameters and is defined as the following:
 print to the screen the "How many stars do you want?" string.
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
 print to the screen the "How many stars do you want?" string.
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 
 =end
