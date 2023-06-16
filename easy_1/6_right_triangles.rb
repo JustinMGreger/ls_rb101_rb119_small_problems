@@ -862,8 +862,21 @@ this means:
 print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
 :bottom_left?" string.
 
-
+Syntax:
   corner = gets.strip.to_sym
+
+Explanation:
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+
+
+
 
   num.times do |n|
     case corner
@@ -896,6 +909,8 @@ print to the screen the "How many stars do you want?" string.
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
 :bottom_left?" string.
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -903,5 +918,7 @@ print to the screen the "How many stars do you want?" string.
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
 :bottom_left?" string.
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
 
 =end
