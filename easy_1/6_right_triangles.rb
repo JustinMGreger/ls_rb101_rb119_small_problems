@@ -821,8 +821,27 @@ success.
 
 
 Explanation of Syntax of Solution:
+
+Syntax:
 def triangle()
+
+Explanation:
+def means definition.
+triangle is the method.
+() the method takes no parameters.
+this means:
+the triangle method takes no parameters and is defined as the following:
+
+Syntax:
   puts "How many stars do you want?"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"How many stars do you want?" is a string.
+this means:
+print to the screen the "How many stars do you want?" string.
+
+
   num = gets.to_i
 
   puts "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?"
@@ -854,7 +873,11 @@ triangle()
 
 ===============================
 compilation of this means:
+the triangle method takes no parameters and is defined as the following:
+print to the screen the "How many stars do you want?" string.
 
 all this means:
+the triangle method takes no parameters and is defined as the following:
+print to the screen the "How many stars do you want?" string.
 
 =end
