@@ -892,11 +892,48 @@ this means:
 run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
 integer form number of times and open the block of code and |n| is the block parameter.
 
-
-
-
+Syntax:
     case corner
+
+Explanation:
+case statment is a control structure used to simplify complex if/elsif/else structures.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
+corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+
+Syntax:
     when :top_right
+
+Explanation:
+when means when the condition is the argument provided to case then execute the following code.
+:top_right is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
+removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
+statement then execute the following code:
+
+
+
+
+
+
       spaces = num - n - 1
       stars = n + 1
     when :top_left
@@ -929,6 +966,12 @@ the corner variable is assigned the result of: geting user input in string form 
 whitespaces from the string form then convert to symbol form.
 run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
 integer form number of times and open the block of code and |n| is the block parameter.
+the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
+corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
+removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
+statement then execute the following code:
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -940,5 +983,11 @@ the corner variable is assigned the result of: geting user input in string form 
 whitespaces from the string form then convert to symbol form.
 run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
 integer form number of times and open the block of code and |n| is the block parameter.
+the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
+corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
+removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
+statement then execute the following code:
 
 =end
