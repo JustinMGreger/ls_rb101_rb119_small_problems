@@ -352,7 +352,7 @@ Syntax:
 
 Explanation:
 puts is put s which is put string which means print to the screen the string.
-(' ' * spaces) is a string.
+(' ' * spaces) is a string which contains the result of:
 ' ' is a space string.
 * means multiplication.
 spaces is a variable.
@@ -363,8 +363,8 @@ num is the parameter.
 this means:
 the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter.
 + is concatenation.
-('*' * stars) is a string.
-'*' is a string.
+('*' * stars) is a string which contains the result of:
+'*' is a star string.
 * means multiplication.
 stars is a variable.
 = means assignment.
@@ -374,8 +374,8 @@ the stars variable is assigned the integer 1.
 this means:    
 print to the screen the result of: + concatenating the (' ' * spaces) string which contains the result of: multiplying
 the ' ' space string by the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter
-which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' string by the the
-stars variable which is assigned the integer 1 which closes the string.
+which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' star string by 
+the stars variable which is assigned the integer 1 which closes the string.
 
 Syntax:
     spaces -= 1
@@ -428,8 +428,8 @@ the stars variable is assigned the integer 1.
 .times method runs a loop for the num parameter number of times.
 print to the screen the result of: + concatenating the (' ' * spaces) string which contains the result of: multiplying
 the ' ' space string by the the spaces variable which is assigned the result of: subtracting 1 from the num parameter 
-which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' string by the the
-stars variable which is assigned the integer 1 which closes the string.
+which closes the string with the ('*' * stars) string which contains the result of: multiplying the '*' star string by 
+the stars variable which is assigned the integer 1 which closes the string.
 the spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable 
 is assigned the result of: subtracting 1 from the the spaces variable.
 the stars variable is assigned the integer 1 then the stars variable is assigned the result of: adding 1 to the stars
@@ -443,7 +443,7 @@ subtracting 1 from the num parameter and the stars variable is assigned the inte
 for the num parameter number of times and print to the screen the result of: + concatenating the (' ' * spaces) string 
 which contains the result of: multiplying the ' ' space string by the the spaces variable which is assigned the result of:
 subtracting 1 from the num parameter which closes the string with the ('*' * stars) string which contains the result of: 
-multiplying the '*' string by the the stars variable which is assigned the integer 1 which closes the string and the 
+multiplying the '*' star string by the the stars variable which is assigned the integer 1 which closes the string and the 
 spaces variable is assigned the result of: subtracting 1 from the value of the num parameter then the spaces variable is 
 assigned the result of: subtracting 1 from the the spaces variable and the stars variable is assigned the integer 1 then
 the stars variable is assigned the result of: adding 1 to the stars variable and this is the last line of the .times 
@@ -545,7 +545,7 @@ Explanation:
 puts is put s which is put string which is print to the screen the string.
 (' ' * spaces) is a string which contains the result of:
 ' ' is a space string.
- * is multiplication.
+* is multiplication.
 spaces is a variable.
 = means assignment.
 0 is a integer.
