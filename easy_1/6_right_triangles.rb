@@ -1118,9 +1118,14 @@ Syntax:
 Explanation:
 return means immediately exit the triangle method.
 
+Syntax:
+    end
+
+Explanation:
+this is the last line of the else clause that is everything after this line is outside of the else clause.
 ==============================
 
-    end
+
     puts (' ' * spaces) + ('*' * stars)
   end
 end
@@ -1168,6 +1173,7 @@ the result of: getting user input in string form and then converting to integer 
 else means if the above is not true then execute the following code:
 print to the screen the "Invalid corner!" string.
 return means immediately exit the triangle method.
+this is the last line of the else clause that is everything after this line is outside of the else clause.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1209,5 +1215,6 @@ the result of: getting user input in string form and then converting to integer 
 else means if the above is not true then execute the following code:
 print to the screen the "Invalid corner!" string.
 return means immediately exit the triangle method.
+this is the last line of the else clause that is everything after this line is outside of the else clause.
 
 =end
