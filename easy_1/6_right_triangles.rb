@@ -1096,8 +1096,13 @@ n is the block parameter.
 this means:
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
-==============================
+
+Syntax:
     else
+
+Explanation:
+else means if the above is not true then execute the following code:
+==============================
       puts "Invalid corner!"
       return
     end
@@ -1145,6 +1150,7 @@ case statement then execute the following code:
 the spaces variable is assigned the integer 0.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
+else means if the above is not true then execute the following code:
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1183,5 +1189,6 @@ case statement then execute the following code:
 the spaces variable is assigned the integer 0.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
+else means if the above is not true then execute the following code:
 
 =end
