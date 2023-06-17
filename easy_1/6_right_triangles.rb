@@ -1112,9 +1112,14 @@ puts is put s which is put string which means print to the screen the string.
 this means:
 print to the screen the "Invalid corner!" string.
 
+Syntax:
+      return
+
+Explanation:
+return means immediately exit the triangle method.
 
 ==============================
-      return
+
     end
     puts (' ' * spaces) + ('*' * stars)
   end
@@ -1162,6 +1167,7 @@ the stars variable is assigned the result of: subtracting the n block parameter 
 the result of: getting user input in string form and then converting to integer form.
 else means if the above is not true then execute the following code:
 print to the screen the "Invalid corner!" string.
+return means immediately exit the triangle method.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1202,5 +1208,6 @@ the stars variable is assigned the result of: subtracting the n block parameter 
 the result of: getting user input in string form and then converting to integer form.
 else means if the above is not true then execute the following code:
 print to the screen the "Invalid corner!" string.
+return means immediately exit the triangle method.
 
 =end
