@@ -1247,13 +1247,7 @@ which closes the string.
 ('*' * stars) is a string which contains the result of:
 '*' is a star string.
 * means multiplication.
-stars
-================================
-puts is put s which is put string which means print to the screen the string.
-(' ' * spaces) is a string which contains the result of:
-' ' is a space string.
-* means multiplication.
-spaces is a variable whose assignment is based on the result of the case corner:
+stars is a variable whose assignment is based on the result of the case corner:
 case statment is a control structure used to simplify complex if/elsif/else structures.
 corner is a variable.
 = means assignment.
@@ -1267,6 +1261,7 @@ this means:
 the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
+
     when :top_right
 
 when means when the condition is the argument provided to case then execute the following code.
@@ -1321,7 +1316,7 @@ case statement then execute the following code:
 
 
 when :bottom_left
-
+stars = num - n
 when means when the condition is the argument provided to case then execute the following code.
 :bottom_left is the condition that when checks.
 corner is a variable.
@@ -1336,7 +1331,19 @@ this means:
 when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-
+stars is a variable.
+= means assignment.
+num is a variable.
+= means assignment.
+gets is get user input in string form.
+.to_i converts to integer form.
+this means:
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+- means subtraction.
+n is the block parameter.
+this means:
+the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
+the result of: getting user input in string form and then converting to integer form.
 
  
 ==============================
