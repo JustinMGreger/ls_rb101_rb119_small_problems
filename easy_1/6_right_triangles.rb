@@ -202,7 +202,7 @@ Syntax:
 Explanation:
 puts is put s which is put string which is print to the screen the string.
 ('*' * (i + 1)) is the string passed to .rjust.
-'*' is a * string.
+'*' is a star string.
 * means multiplication.
 (i + 1) is what is multiplied by the '*' string.
 i is the block parameter which recieves a value each time a block is called.
@@ -213,8 +213,8 @@ i is the block parameter which recieves a value each time a block is called.
 n is the parameter.
 this means:    
 print to the screen the result of: the .rjust method taking the ('*' * (i + 1)) string which contains the result of: the
-'*' string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a value 
-each time a block is called and padds it with the n parameter amount of whitespace.
+'*' star string multiplied by (i + 1) which contains: the result of adding 1 to the i block parameter which recieves a 
+value each time a block is called and padds it with the n parameter amount of whitespace.
 
 Syntax:
   end
@@ -1245,7 +1245,7 @@ the spaces variable is assigned the integer 0.
 which closes the string.
 + means string concatenation.
 ('*' * stars) is a string which contains the result of:
-'*' is a apostrophe
+'*' is a star string.
 * means multiplication.
 stars
 
