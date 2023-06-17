@@ -1102,8 +1102,18 @@ Syntax:
 
 Explanation:
 else means if the above is not true then execute the following code:
-==============================
+
+Syntax:
       puts "Invalid corner!"
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+"Invalid corner!" is a string.
+this means:
+print to the screen the "Invalid corner!" string.
+
+
+==============================
       return
     end
     puts (' ' * spaces) + ('*' * stars)
@@ -1151,6 +1161,7 @@ the spaces variable is assigned the integer 0.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
 else means if the above is not true then execute the following code:
+print to the screen the "Invalid corner!" string.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1190,5 +1201,6 @@ the spaces variable is assigned the integer 0.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
 else means if the above is not true then execute the following code:
+print to the screen the "Invalid corner!" string.
 
 =end
