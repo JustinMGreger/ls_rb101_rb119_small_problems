@@ -543,7 +543,7 @@ puts (' ' * spaces) + ('*' * stars)
 
 Explanation:
 puts is put s which is put string which is print to the screen the string.
-(' ' * spaces) is a string.
+(' ' * spaces) is a string which contains the result of:
 ' ' is a space string.
  * is multiplication.
 spaces is a variable.
@@ -552,8 +552,8 @@ spaces is a variable.
 this means:
 the spaces variable is assigned the integer 0.
 + is concatenation.
-('*' * stars) is a string.
-'*' is a * string.
+('*' * stars) is a string which contains the result of:
+'*' is a star string.
 * is multiplication.
 stars is a variable.
 = means assignment.
@@ -563,7 +563,7 @@ the stars variable is assigned the num paramater.
 this means:   
 print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
 ' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
-string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
+string which contains the result of: multiplying the '*' star string by the stars variable which is assigned the num
 paramater which closes the string.
 
 Syntax:     
@@ -633,8 +633,8 @@ the triangle method accepts the (num) parameter and is defined as the following:
 integer 0 and the stars variable is assigned the num paramater and the .times method runs a loop for the num parameter 
 amount of times and print to the screen the result of: concatenating the (' ' * spaces) string which contains the result 
 of: multiplying the ' ' space string by the spaces variable which is assigned the integer 0 which closes the string with
-the ('*' * stars) string which contains the result of: multiplying the '*' apostrophe string by the stars variable which
-is assigned the num paramater which closes the string then the spaces variable is assigned the integer 0 then the spaces
+the ('*' * stars) string which contains the result of: multiplying the '*' star string by the stars variable which is 
+assigned the num paramater which closes the string then the spaces variable is assigned the integer 0 then the spaces
 variable is assigned the result of adding 1 to the spaces variable then the stars variable is assigned the num paramater 
 then the stars variable is assigned the result of subtracting 1 from the stars variable and this is the last line in the 
 .times method that is everything after this is outside of the .times method and this is the last line of the triangle 
@@ -1129,11 +1129,10 @@ Syntax:
 
 Explanation:
 puts is put s which is put string which means print to the screen the string.
-(' ' * spaces) is a string.
+(' ' * spaces) is a string which contains the result of:
 ' ' is a space string.
 * means multiplication.
-
-spaces is a variable whose assignment is based on the case corner.
+spaces is a variable whose assignment is based on the result of the case corner:
 case statment is a control structure used to simplify complex if/elsif/else structures.
 corner is a variable.
 = means assignment.
@@ -1147,8 +1146,6 @@ this means:
 the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
-
-
     when :top_right
             spaces = num - n - 1
 when means when the condition is the argument provided to case then execute the following code.
@@ -1245,21 +1242,12 @@ spaces is a variable.
 0 is a integer.
 this means:
 the spaces variable is assigned the integer 0.
-
-
-
-
-
-
-
-
-
-
-
-
+which closes the string.
 + means string concatenation.
-('*' * stars) is a string.
-
+('*' * stars) is a string which contains the result of:
+'*' is a apostrophe
+* means multiplication.
+stars
 
 ==============================
 
