@@ -1387,45 +1387,18 @@ provided to the case statement then execute the following code: the spaces varia
 when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the 
 case statement then execute the following code: the spaces variable is assigned the integer 0 which closes the string 
-with the ('*' * stars) string which contains the result of: the '*' star string multiplied by
+with the ('*' * stars) string which contains the result of: the '*' star string multiplied by the stars variable whose 
+assignment is based on the result of the case corner: where the case statement is a control structure used to simplify 
+complex if/elsif/else structures based on the value of the corner variable which is assigned the result of: geting user 
+input in string form then removing leading and tailing whitespaces from the string form then convert to symbol form which
+contains the results of: when the :top_right condition is the corner variable which is assigned the result of: geting 
+user input in string form then removing leading and tailing whitespaces from the string form then convert to symbol form 
+argument provided to the case statement then execute the following code: the stars variable is assigned the result of 
+adding 1 to the n block parameter or 
 
 
 
 
-
-
-
-the stars variable whose assignment is based on the result of the case corner: where the case statement is a control 
-structure used to simplify complex if/elsif/else structures based on the value of the corner variable which is assigned
-the result of: geting user input in string form then removing leading and tailing whitespaces from the string form then 
-convert to symbol form
-
-
-
-
-    when :top_right
-      stars = n + 1
-when means when the condition is the argument provided to case then execute the following code.
-:top_right is the condition that when checks.
-corner is a variable.
-= means assignment.
-gets is get user input in string form.
-.strip remove leading and tailing whitespaces on a string.
-.to_sym convert to symbol form.
-this means:
-the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
-whitespaces from the string form then convert to symbol form.
-this means:
-when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
-then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
-case statement then execute the following code:
-stars is a variable. 
-= means assignment.
-n is the block parameter.
-+ is addition.
-1 is a integer.
-this means:
-the stars variable is assigned the result of adding 1 to the n block parameter.
     when :top_left
         stars = n + 1
 when means when the condition is the argument provided to case then execute the following code.
