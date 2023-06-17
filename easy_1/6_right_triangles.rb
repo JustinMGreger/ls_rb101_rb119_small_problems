@@ -1123,10 +1123,99 @@ Syntax:
 
 Explanation:
 this is the last line of the else clause that is everything after this line is outside of the else clause.
+
+Syntax:
+    puts (' ' * spaces) + ('*' * stars)
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+(' ' * spaces) is a string.
+' ' is a space string.
+* means multiplication.
+
+spaces is a variable whose assignment is based on the case corner.
+case statment is a control structure used to simplify complex if/elsif/else structures.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
+corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+
+
+
+
+
+
+when :bottom_right
+        spaces = n
+when means when the condition is the argument provided to case then execute the following code.
+:bottom_right is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
+spaces is a variable. 
+= means assignment.
+n is the block parameter.
+this means:
+the spaces variable is assigned the n block parameter.
+when :bottom_left
+  spaces = 0
+when means when the condition is the argument provided to case then execute the following code.
+:bottom_left is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
+      spaces = 0
+spaces is a variable. 
+= means assignment.
+0 is a integer.
+this means:
+the spaces variable is assigned the integer 0.
+
+
+
+
+
+
+
+
+
+
+
+
++ means string concatenation.
+('*' * stars) is a string.
+
+
 ==============================
 
 
-    puts (' ' * spaces) + ('*' * stars)
+
   end
 end
 
