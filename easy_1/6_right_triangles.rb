@@ -925,9 +925,9 @@ this means:
 the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
 this means:
-when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
-removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
-statement then execute the following code:
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
 
 Syntax:
       spaces = num - n - 1
@@ -962,9 +962,32 @@ n is the block parameter.
 this means:
 the stars variable is assigned the result of adding 1 to the n block parameter.
 
-==============================
-
+Syntax:
     when :top_left
+
+Explanation:
+when means when the condition is the argument provided to case then execute the following code.
+:top_left is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
+
+
+
+
+
+
+
+==============================
       spaces = 0
       stars = n + 1
     when :bottom_right
@@ -997,13 +1020,16 @@ integer form number of times and open the block of code and |n| is the block par
 the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
-when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
-removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
-statement then execute the following code:
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the 
+case statement then execute the following code:
 the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
 the stars variable is assigned the result of adding 1 to the n block parameter.
+when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1018,12 +1044,15 @@ integer form number of times and open the block of code and |n| is the block par
 the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
-when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form then
-removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
-statement then execute the following code:
+when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the 
+case statement then execute the following code:
 the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
 the stars variable is assigned the result of adding 1 to the n block parameter.
+when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
 
 =end
