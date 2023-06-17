@@ -1050,11 +1050,29 @@ this means:
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
 
-
-
-
-==============================
+Syntax:
     when :bottom_left
+
+Explanation:
+when means when the condition is the argument provided to case then execute the following code.
+:bottom_left is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
+
+
+
+  
+==============================
       spaces = 0
       stars = num - n
     else
@@ -1099,6 +1117,9 @@ case statement then execute the following code:
 the spaces variable is assigned the n block parameter.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
+when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1131,5 +1152,8 @@ case statement then execute the following code:
 the spaces variable is assigned the n block parameter.
 the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
 the result of: getting user input in string form and then converting to integer form.
+when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
 
 =end
