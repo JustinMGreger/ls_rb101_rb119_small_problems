@@ -991,11 +991,20 @@ space is a variable.
 this means:
 the space variable is assigned the integer 0.
 
+Syntax:
+      stars = n + 1
+
+Explanation:
+stars is a variable.
+= means assignment.
+n is the block parameter.
++ is addition.
+1 is a integer.
+this means:
+the stars variable is assigned the result of: adding 1 to the n block parameter.
 
 
 ==============================
-
-      stars = n + 1
     when :bottom_right
       spaces = n
       stars = num - n
@@ -1037,6 +1046,7 @@ when the :top_left condition is the corner variable which is assigned the result
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
 the space variable is assigned the integer 0.
+the stars variable is assigned the result of: adding 1 to the n block parameter.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1062,5 +1072,6 @@ when the :top_left condition is the corner variable which is assigned the result
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
 the space variable is assigned the integer 0.
+the stars variable is assigned the result of: adding 1 to the n block parameter.
 
 =end
