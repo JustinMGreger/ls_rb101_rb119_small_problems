@@ -1280,7 +1280,7 @@ then removing leading and tailing whitespaces from the string form then convert 
 case statement then execute the following code:
 
     when :top_left
-
+        stars = n + 1
 when means when the condition is the argument provided to case then execute the following code.
 :top_left is the condition that when checks.
 corner is a variable.
@@ -1295,6 +1295,13 @@ this means:
 when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
+stars is a variable.
+= means assignment.
+n is the block parameter.
++ is addition.
+1 is a integer.
+this means:
+the stars variable is assigned the result of: adding 1 to the n block parameter.
 
 when :bottom_right
         stars = num - n
