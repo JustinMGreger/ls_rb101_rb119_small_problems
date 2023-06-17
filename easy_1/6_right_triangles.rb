@@ -1268,7 +1268,7 @@ the case statement is a control structure used to simplify complex if/elsif/else
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
 whitespaces from the string form then convert to symbol form.
     when :top_right
-            spaces = num - n - 1
+
 when means when the condition is the argument provided to case then execute the following code.
 :top_right is the condition that when checks.
 corner is a variable.
@@ -1283,22 +1283,6 @@ this means:
 when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-spaces is a variable.
-= means assignment.
-num is a variable.
-= means assignment.
-gets is get user input in string form.
-.to_i converts to integer form.
-this means:
-the num variable is assigned the result of: getting user input in string form and then converting to integer form.
-- means subtraction.
-n is the block parameter.
-- means subtraction.
-1 is a integer.
-this means:      
-the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
-string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
-the integer 1.
 
     when :top_left
 
