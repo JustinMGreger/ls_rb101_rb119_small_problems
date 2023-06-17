@@ -1297,7 +1297,7 @@ then removing leading and tailing whitespaces from the string form then convert 
 case statement then execute the following code:
 
 when :bottom_right
-
+        stars = num - n
 when means when the condition is the argument provided to case then execute the following code.
 :bottom_right is the condition that when checks.
 corner is a variable.
@@ -1312,9 +1312,19 @@ this means:
 when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-
-
-
+stars is a variable.
+= means assignment.
+num is a variable.
+= means assignment.
+gets is get user input in string form.
+.to_i converts to integer form.
+this means:
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+- means subtraction.
+n is the block parameter.
+this means:
+the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
+the result of: getting user input in string form and then converting to integer form.
 when :bottom_left
 stars = num - n
 when means when the condition is the argument provided to case then execute the following code.
