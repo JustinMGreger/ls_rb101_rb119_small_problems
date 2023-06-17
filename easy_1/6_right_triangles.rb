@@ -1299,8 +1299,9 @@ this means:
 the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
+
     when :top_left
-            spaces = 0
+
 when means when the condition is the argument provided to case then execute the following code.
 :top_left is the condition that when checks.
 corner is a variable.
@@ -1315,11 +1316,6 @@ this means:
 when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-space is a variable.
-= means assignment.
-0 in a integer.
-this means:
-the space variable is assigned the integer 0.
 
 when :bottom_right
 
