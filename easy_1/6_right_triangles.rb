@@ -1078,8 +1078,25 @@ spaces is a variable.
 0 is a integer.
 this means:
 the spaces variable is assigned the integer 0.
-==============================
+
+Syntax:
       stars = num - n
+
+Explanation:
+stars is a variable.
+= means assignment.
+num is a variable.
+= means assignment.
+gets is get user input in string form.
+.to_i converts to integer form.
+this means:
+the num variable is assigned the result of: getting user input in string form and then converting to integer form.
+- means subtraction.
+n is the block parameter.
+this means:
+the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
+the result of: getting user input in string form and then converting to integer form.
+==============================
     else
       puts "Invalid corner!"
       return
@@ -1126,6 +1143,8 @@ when the :bottom_left condition is the corner variable which is assigned the res
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
 the spaces variable is assigned the integer 0.
+the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
+the result of: getting user input in string form and then converting to integer form.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1162,5 +1181,7 @@ when the :bottom_left condition is the corner variable which is assigned the res
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
 the spaces variable is assigned the integer 0.
+the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
+the result of: getting user input in string form and then converting to integer form.
 
 =end
