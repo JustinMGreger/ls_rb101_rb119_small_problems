@@ -942,20 +942,7 @@ gets is get user input in string form.
 this means:
 the num variable is assigned the result of: getting user input in string form and then converting to integer form.
 - means subtraction.
-|n| is the block parameter.
-- means subtraction.
-1 is a integer.
-this means:
-spaces is a variable.
-= means assignment.
-num is a variable.
-= means assignment.
-gets is get user input in string form.
-.to_i converts to integer form.
-this means:
-the num variable is assigned the result of: getting user input in string form and then converting to integer form.
-- means subtraction.
-|n| is the block parameter.
+n is the block parameter.
 - means subtraction.
 1 is a integer.
 this means:      
@@ -963,11 +950,20 @@ the spaces variable is assigned the result of: the num variable which is assigne
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
 
+Syntax:
+      stars = n + 1
 
-
+Explanation:
+stars is a variable. 
+= means assignment.
+n is the block parameter.
++ is addition.
+1 is a integer.
+this means:
+the stars variable is assigned the result of adding 1 to the n block parameter.
 
 ==============================
-      stars = n + 1
+
     when :top_left
       spaces = 0
       stars = n + 1
@@ -1007,6 +1003,7 @@ statement then execute the following code:
 the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
+the stars variable is assigned the result of adding 1 to the n block parameter.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1027,5 +1024,6 @@ statement then execute the following code:
 the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
 string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
 the integer 1.
+the stars variable is assigned the result of adding 1 to the n block parameter.
 
 =end
