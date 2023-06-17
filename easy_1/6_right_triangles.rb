@@ -1320,8 +1320,9 @@ space is a variable.
 0 in a integer.
 this means:
 the space variable is assigned the integer 0.
+
 when :bottom_right
-        spaces = n
+
 when means when the condition is the argument provided to case then execute the following code.
 :bottom_right is the condition that when checks.
 corner is a variable.
@@ -1336,11 +1337,8 @@ this means:
 when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-spaces is a variable. 
-= means assignment.
-n is the block parameter.
-this means:
-the spaces variable is assigned the n block parameter.
+
+
 
 when :bottom_left
 
