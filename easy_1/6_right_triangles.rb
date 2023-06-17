@@ -1069,11 +1069,16 @@ when the :bottom_left condition is the corner variable which is assigned the res
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
 
-
-
-  
-==============================
+Syntax:
       spaces = 0
+
+Explanation:
+spaces is a variable. 
+= means assignment.
+0 is a integer.
+this means:
+the spaces variable is assigned the integer 0.
+==============================
       stars = num - n
     else
       puts "Invalid corner!"
@@ -1120,6 +1125,7 @@ the result of: getting user input in string form and then converting to integer 
 when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
+the spaces variable is assigned the integer 0.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1155,5 +1161,6 @@ the result of: getting user input in string form and then converting to integer 
 when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
+the spaces variable is assigned the integer 0.
 
 =end
