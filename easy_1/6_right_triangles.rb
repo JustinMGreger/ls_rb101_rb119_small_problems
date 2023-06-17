@@ -1021,9 +1021,18 @@ this means:
 when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
-==============================
 
+Syntax:
       spaces = n
+
+Explanation:
+spaces is a variable. 
+= means assignment.
+n is the block parameter.
+this means:
+the spaces variable is assigned the n block parameter.
+
+==============================
       stars = num - n
     when :bottom_left
       spaces = 0
@@ -1067,6 +1076,7 @@ the stars variable is assigned the result of: adding 1 to the n block parameter.
 when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
+the spaces variable is assigned the n block parameter.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1096,5 +1106,6 @@ the stars variable is assigned the result of: adding 1 to the n block parameter.
 when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
 then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
 case statement then execute the following code:
+the spaces variable is assigned the n block parameter.
 
 =end
