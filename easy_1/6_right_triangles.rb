@@ -1150,9 +1150,28 @@ whitespaces from the string form then convert to symbol form.
 
 
 
+    when :top_left
+            spaces = 0
 
-
-
+when means when the condition is the argument provided to case then execute the following code.
+:top_left is the condition that when checks.
+corner is a variable.
+= means assignment.
+gets is get user input in string form.
+.strip remove leading and tailing whitespaces on a string.
+.to_sym convert to symbol form.
+this means:
+the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
+whitespaces from the string form then convert to symbol form.
+this means:
+when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
+then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
+case statement then execute the following code:
+space is a variable.
+= means assignment.
+0 in a integer.
+this means:
+the space variable is assigned the integer 0.
 when :bottom_right
         spaces = n
 when means when the condition is the argument provided to case then execute the following code.
