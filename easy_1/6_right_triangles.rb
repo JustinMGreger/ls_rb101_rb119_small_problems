@@ -1414,7 +1414,7 @@ Syntax:
 end
 
 Explanation:
-
+this is the last line of the triangle method that is everything after this line is outisde of the triangle method.
 
 triangle()
 
@@ -1498,6 +1498,7 @@ string form then convert to symbol form argument provided to the case statement 
 stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned the 
 result of: getting user input in string form and then converting to integer form which ends the string.
 this is the last line of the .times method that is everything after this line is outside of the .times method.
+this is the last line of the triangle method that is everything after this line is outisde of the triangle method.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1578,5 +1579,6 @@ string form then convert to symbol form argument provided to the case statement 
 stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned the 
 result of: getting user input in string form and then converting to integer form which ends the string.
 this is the last line of the .times method that is everything after this line is outside of the .times method.
+this is the last line of the triangle method that is everything after this line is outisde of the triangle method.
 
 =end
