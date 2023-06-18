@@ -1404,11 +1404,17 @@ string form then convert to symbol form argument provided to the case statement 
 stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned the 
 result of: getting user input in string form and then converting to integer form which ends the string.
 
-
-
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the .times method that is everything after this line is outside of the .times method.
+
+Syntax:
 end
+
+Explanation:
+
 
 triangle()
 
@@ -1491,7 +1497,7 @@ which is assigned the result of: geting user input in string form then removing 
 string form then convert to symbol form argument provided to the case statement then execute the following code: the 
 stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned the 
 result of: getting user input in string form and then converting to integer form which ends the string.
-
+this is the last line of the .times method that is everything after this line is outside of the .times method.
 
 all this means:
 the triangle method takes no parameters and is defined as the following:
@@ -1571,6 +1577,6 @@ which is assigned the result of: geting user input in string form then removing 
 string form then convert to symbol form argument provided to the case statement then execute the following code: the 
 stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned the 
 result of: getting user input in string form and then converting to integer form which ends the string.
-
+this is the last line of the .times method that is everything after this line is outside of the .times method.
 
 =end
