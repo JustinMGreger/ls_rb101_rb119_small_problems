@@ -1416,7 +1416,13 @@ end
 Explanation:
 this is the last line of the triangle method that is everything after this line is outisde of the triangle method.
 
+Syntax:
 triangle()
+
+Explanation:
+this calls the triangle method which runs the code defined in the triangle method which is:
+================================================================================================================
+ 
 
 ===============================
 compilation of this means:
@@ -1501,48 +1507,39 @@ this is the last line of the .times method that is everything after this line is
 this is the last line of the triangle method that is everything after this line is outisde of the triangle method.
 
 all this means:
-the triangle method takes no parameters and is defined as the following:
-print to the screen the "How many stars do you want?" string.
-the num variable is assigned the result of: getting user input in string form and then converting to integer form.
-print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, 
-:bottom_left?" string.
-the corner variable is assigned the result of: geting user input in string form then removing leading and tailing 
-whitespaces from the string form then convert to symbol form.
-run a loop for the num variable which is assigned the result of: getting user input in string form and then converting to
-integer form number of times and open the block of code and |n| is the block parameter.
-the case statement is a control structure used to simplify complex if/elsif/else structures based on the value of the 
+the triangle method takes no parameters and is defined as the following: print to the screen the "How many stars do you 
+want?" string and the num variable is assigned the result of: getting user input in string form and then converting to 
+integer form and print to the screen the "What corner do you want the triangle to be in :top_right, :top_left, 
+:bottom_right, :bottom_left?" string and the corner variable is assigned the result of: geting user input in string form
+then removing leading and tailing whitespaces from the string form then convert to symbol form and run a loop for the num
+variable which is assigned the result of: getting user input in string form and then converting to integer form number of
+times and open the block of code and |n| is the block parameter and the case statement is a control structure used to 
+simplify complex if/elsif/else structures based on the value of the corner variable which is assigned the result of: 
+geting user input in string form then removing leading and tailing whitespaces from the string form then convert to 
+symbol form which contains the results of: when the :top_right condition is the corner variable which is assigned the 
+result of: geting user input in string form then removing leading and tailing whitespaces from the string form then 
+convert to symbol form argument provided to the case statement then execute the following code: the spaces variable is 
+assigned the result of: the num variable which is assigned the result of: getting user input in string form and then 
+converting to integer form which is subtracted by the |n| block parameter which is subtracted by the integer 1 and
+the stars variable is assigned the result of adding 1 to the n block parameter or when the :top_left condition is the 
 corner variable which is assigned the result of: geting user input in string form then removing leading and tailing 
-whitespaces from the string form then convert to symbol form.
-when the :top_righ condition is the corner variable which is assigned the result of: geting user input in string form 
-then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the 
-case statement then execute the following code:
-the spaces variable is assigned the result of: the num variable which is assigned the result of: getting user input in 
-string form and then converting to integer form which is subtracted by the |n| block parameter which is subtracted by the
-the integer 1.
-the stars variable is assigned the result of adding 1 to the n block parameter.
-when the :top_left condition is the corner variable which is assigned the result of: geting user input in string form 
-then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
-case statement then execute the following code:
-the space variable is assigned the integer 0.
-the stars variable is assigned the result of: adding 1 to the n block parameter.
-when the :bottom_right condition is the corner variable which is assigned the result of: geting user input in string form 
-then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
-case statement then execute the following code:
-the spaces variable is assigned the n block parameter.
-the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
-the result of: getting user input in string form and then converting to integer form.
-when the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form 
-then removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the
-case statement then execute the following code:
-the spaces variable is assigned the integer 0.
-the stars variable is assigned the result of: subtracting the n block parameter from the num variable which is assigned
-the result of: getting user input in string form and then converting to integer form.
-else means if the above is not true then execute the following code:
-print to the screen the "Invalid corner!" string.
-return means immediately exit the triangle method.
-this is the last line of the else clause that is everything after this line is outside of the else clause.
-print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: the ' ' space 
-string multiplied by the spaces variable whose assignment is based on the result of the case corner: where the case 
+whitespaces from the string form then convert to symbol form argument provided to the case statement then execute the 
+following code: the space variable is assigned the integer 0 and the stars variable is assigned the result of: adding 1 
+to the n block parameter or when the :bottom_right condition is the corner variable which is assigned the result of: 
+geting user input in string form then removing leading and tailing whitespaces from the string form then convert to 
+symbol form argument provided to the case statement then execute the following code: the spaces variable is assigned the
+n block parameter and the stars variable is assigned the result of: subtracting the n block parameter from the num 
+variable which is assigned the result of: getting user input in string form and then converting to integer form or when 
+the :bottom_left condition is the corner variable which is assigned the result of: geting user input in string form then 
+removing leading and tailing whitespaces from the string form then convert to symbol form argument provided to the case 
+statement then execute the following code: the spaces variable is assigned the integer 0 and the stars variable is 
+assigned the result of: subtracting the n block parameter from the num variable which is assigned the result of: getting
+user input in string form and then converting to integer form or else means if the above is not true then execute the 
+following code: print to the screen the "Invalid corner!" string then return means immediately exit the triangle method
+and this is the last line of the else clause that is everything after this line is outside of the else clause and print 
+to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: the ' ' space string 
+multiplied by the spaces variable whose assignment is based on the result of the case corner: where the case 
+
 statement is a control structure used to simplify complex if/elsif/else structures based on the value of the corner 
 variable which is assigned the result of: geting user input in string form then removing leading and tailing whitespaces
 from the string form then convert to symbol form which contains the results of: when the :top_right condition is the 
