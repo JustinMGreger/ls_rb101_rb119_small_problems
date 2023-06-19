@@ -12,7 +12,7 @@ end
 
 def calculate_for_corners(corner, num, nnn)
   corner_calculations = {
-    top_right: [num - nnn - 1, n + 1],
+    top_right: [num - nnn - 1, nnn + 1],
     top_left: [0, nnn + 1],
     bottom_right: [0, nnn + 1],
     bottom_left: [0, num - nnn]
@@ -28,9 +28,9 @@ end
 
 def calculate_spaces_and_stars(corner, num, nnn)
   if [:bottom_right].include?(corner)
-    return [nnn, num - nnn]
+    [nnn, num - nnn]
   else
-    return calculate_for_corners(corner, num, nnn)
+    calculate_for_corners(corner, num, nnn)
   end
 end
 
@@ -38,15 +38,18 @@ def print_line(spaces, stars)
   puts (' ' * spaces) + ('*' * stars)
 end
 
-def triangle()
+def triangle
   num = ask_for_stars
   corner = ask_for_corner
 
   num.times do |nnn|
     spaces, stars = calculate_spaces_and_stars(corner, num, nnn)
+
     return if spaces.nil? || stars.nil?
+
     print_line(spaces, stars)
   end
 end
+
 
 triangle
