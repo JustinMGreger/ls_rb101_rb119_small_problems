@@ -28,7 +28,7 @@ def print_line(spaces, stars)
   puts (' ' * spaces) + ('*' * stars)
 end
 
-def triangle()
+def triangle
   num = ask_for_stars
   corner = ask_for_corner
 
