@@ -62,4 +62,4 @@ def triangle()
   end
 end
 
-triangle()
+triangle
