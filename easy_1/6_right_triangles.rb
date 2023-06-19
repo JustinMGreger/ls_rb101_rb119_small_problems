@@ -10,12 +10,12 @@ def ask_for_corner
   gets.strip.to_sym
 end
 
-def calculate_for_corners(corner, num, n)
+def calculate_for_corners(corner, num, nnn)
   corner_calculations = {
-    top_right: [num - n - 1, n + 1],
-    top_left: [0, n + 1],
-    bottom_right: [0, n + 1],
-    bottom_left: [0, num - n]
+    top_right: [num - nnn - 1, n + 1],
+    top_left: [0, nnn + 1],
+    bottom_right: [0, nnn + 1],
+    bottom_left: [0, num - nnn]
   }
 
   corner_calculations[corner] || invalid_corner
@@ -26,11 +26,11 @@ def invalid_corner
   nil
 end
 
-def calculate_spaces_and_stars(corner, num, n)
+def calculate_spaces_and_stars(corner, num, nnn)
   if [:bottom_right].include?(corner)
-    return [n, num - n]
+    return [nnn, num - nnn]
   else
-    return calculate_for_corners(corner, num, n)
+    return calculate_for_corners(corner, num, nnn)
   end
 end
 
@@ -42,8 +42,8 @@ def triangle()
   num = ask_for_stars
   corner = ask_for_corner
 
-  num.times do |n|
-    spaces, stars = calculate_spaces_and_stars(corner, num, n)
+  num.times do |nnn|
+    spaces, stars = calculate_spaces_and_stars(corner, num, nnn)
     return if spaces.nil? || stars.nil?
     print_line(spaces, stars)
   end
