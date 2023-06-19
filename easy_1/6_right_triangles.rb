@@ -34,10 +34,10 @@ end
 # Try modifying your solution again so that you can display the triangle with the right angle at any corner of the grid.
 
 def triangle()
-  puts "How many stars do you want?"
+  puts 'How many stars do you want?'
   num = gets.to_i
 
-  puts "What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?"
+  puts 'What corner do you want the triangle to be in :top_right, :top_left, :bottom_right, :bottom_left?'
   corner = gets.strip.to_sym
 
   num.times do |n|
@@ -55,7 +55,7 @@ def triangle()
       spaces = 0
       stars = num - n
     else
-      puts "Invalid corner!"
+      puts 'Invalid corner!'
       return
     end
     puts (' ' * spaces) + ('*' * stars)
