@@ -1,38 +1,3 @@
-# My solution.
-def triangle(n) 
-  n.times do |i|
-    puts ('*' * (i + 1)).rjust(n)
-  end
-end
-# LS solution.
-def triangle(num)
-  spaces = num - 1
-  stars = 1
-
-  num.times do |n|
-    puts (' ' * spaces) + ('*' * stars)
-    spaces -= 1
-    stars += 1
-  end
-end
-
-# Further Exploration:
-# Try modifying your solution so it prints the triangle upside down from its current orientation.
-
-def triangle(num)
-  spaces = 0
-  stars = num
-
-  num.times do |n|
-    puts (' ' * spaces) + ('*' * stars)
-    spaces += 1
-    stars -= 1
-  end
-end
-
-# Further Exploration:
-# Try modifying your solution again so that you can display the triangle with the right angle at any corner of the grid.
-
 def triangle()
   puts 'How many stars do you want?'
   num = gets.to_i
