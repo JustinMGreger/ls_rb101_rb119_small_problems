@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def ask_for_stars
   puts 'How many stars do you want?'
   gets.to_i
@@ -8,14 +10,12 @@ def ask_for_corner
   gets.strip.to_sym
 end
 
-def calculate_spaces_and_stars(corner, num, n)
+def calculate_for_corners(corner, num, n)
   case corner
   when :top_right
     [num - n - 1, n + 1]
-  when :top_left
+  when :top_left, :bottom_right
     [0, n + 1]
-  when :bottom_right
-    [n, num - n]
   when :bottom_left
     [0, num - n]
   else
@@ -24,11 +24,19 @@ def calculate_spaces_and_stars(corner, num, n)
   end
 end
 
+def calculate_spaces_and_stars(corner, num, n)
+  if [:bottom_right].include?(corner)
+    return [n, num - n]
+  else
+    return calculate_for_corners(corner, num, n)
+  end
+end
+
 def print_line(spaces, stars)
   puts (' ' * spaces) + ('*' * stars)
 end
 
-def triangle
+def triangle()
   num = ask_for_stars
   corner = ask_for_corner
 
