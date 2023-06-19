@@ -1,8 +1,10 @@
-puts 'Enter a noun: dog'
-noun = gets
-puts 'Enter a verb: walk'
-verb = gets 
-puts 'Enter an adjective: blue'
-puts 'Enter an adverb: quickly'
+puts 'Enter a noun: '
+noun = gets.chomp
+puts 'Enter a verb: '
+verb = gets.chomp
+puts 'Enter an adjective: '
+adjective = gets.chomp
+puts 'Enter an adverb: '
+adverb = gets.chomp
 
-Do you walk your blue dog quickly? That's hilarious!
+print "Do you #{verb} your #{adjective} #{noun} #{adverb}? That's hilarious!"
