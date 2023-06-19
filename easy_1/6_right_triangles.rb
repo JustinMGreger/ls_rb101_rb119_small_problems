@@ -11,17 +11,19 @@ def ask_for_corner
 end
 
 def calculate_for_corners(corner, num, n)
-  case corner
-  when :top_right
-    [num - n - 1, n + 1]
-  when :top_left, :bottom_right
-    [0, n + 1]
-  when :bottom_left
-    [0, num - n]
-  else
-    puts 'Invalid corner!'
-    nil
-  end
+  corner_calculations = {
+    top_right: [num - n - 1, n + 1],
+    top_left: [0, n + 1],
+    bottom_right: [0, n + 1],
+    bottom_left: [0, num - n]
+  }
+
+  corner_calculations[corner] || invalid_corner
+end
+
+def invalid_corner
+  puts 'Invalid corner!'
+  nil
 end
 
 def calculate_spaces_and_stars(corner, num, n)
