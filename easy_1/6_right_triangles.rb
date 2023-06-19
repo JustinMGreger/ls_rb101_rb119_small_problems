@@ -450,10 +450,9 @@ the stars variable is assigned the result of: adding 1 to the stars variable and
 method that is everything after this line is outside of the .times method and this is the last line of the triangle method
 that is everything after this line is outside of the triangle method.
 
-Further Exploration:
-Try modifying your solution so it prints the triangle upside down from its current orientation.
+# Further Exploration:
+# Try modifying your solution so it prints the triangle upside down from its current orientation.
 
-Syntax of the Solution:
 def triangle(num)
   spaces = 0
   stars = num
@@ -464,187 +463,12 @@ def triangle(num)
     stars -= 1
   end
 end
-
-test:
-triangle(5)
-
-output:
-*****
- ****
-  ***
-   **
-    *
-
-result:
-success.
-
-test:
-triangle(9)
-
-output:
-*********
- ********
-  *******
-   ******
-    *****
-     ****
-      ***
-       **
-        *
-
-result:
-success.
-
-Explanation of Syntax of the Solution:
-
-Syntax:
-def triangle(num)
-
-Explanation:
-def means definition.
-triangle is the method.
-(num) is the paramater.
-this means:
-the triangle method accepts the (num) parameter and is defined as the following:
-
-Syntax:
-  spaces = 0
-
-Explanation:
-spaces is a variable.
-= means assignment.
-0 is a integer.
-this means:
-the spaces variable is assigned the integer 0.
-
-Syntax:
-  stars = num
-
-Explanation:
-stars is a variable.
-= means assignment.
-num is the paramater.
-this means:
-the stars variable is assigned the num paramater.
-
-Syntax:
-  num.times do |n|
-
-Explanation:
-num is the parameter.
-.times method runs a loop for a specified amount of times.
-do means opent the block.
-|n| is the block parameter.
-this means:
-the .times method runs a loop for the num parameter amount of times.
-
-Syntax:      
-puts (' ' * spaces) + ('*' * stars)
-
-Explanation:
-puts is put s which is put string which is print to the screen the string.
-(' ' * spaces) is a string which contains the result of:
-' ' is a space string.
-* is multiplication.
-spaces is a variable.
-= means assignment.
-0 is a integer.
-this means:
-the spaces variable is assigned the integer 0.
-+ is concatenation.
-('*' * stars) is a string which contains the result of:
-'*' is a star string.
-* is multiplication.
-stars is a variable.
-= means assignment.
-num is the paramater.
-this means:
-the stars variable is assigned the num paramater.
-this means:   
-print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
-' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
-string which contains the result of: multiplying the '*' star string by the stars variable which is assigned the num
-paramater which closes the string.
-
-Syntax:     
-spaces += 1
-
-Explanation:
-spaces is a variable.
-= means assignment.
-0 is a integer.
-this means:
-the spaces variable is assigned the integer 0.
-+= is the addition assignment operator.
-1 is the integer 1.
-this means:
-the spaces is a variable.
-= means assignment.
-0 is a integer.
-this means:
-the spaces variable is assigned the integer 0 then the spaces variable is assigned the result of adding 1 to the spaces 
-variable.
-
-Syntax:
-    stars -= 1
-
-Explanation:
-stars is a variable.
-= means assignment.
-num is the paramater.
-this means:
-the stars variable is assigned the num paramater.
--= this is the subtraction assignment operator.
-1 is a integer.
-this means:
-the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
-the stars variable.
-
-Syntax:
-  end
-
-Explanation:
-this is the last line in the .times method that is everything after this is outside of the .times method.
-
-Syntax:
-end
-
-Explanation:
-this is the last line of the triangle method that is everything after this is outside of the triangle method.
-
-compilation of this means:
-the triangle method accepts the (num) parameter and is defined as the following:
-the spaces variable is assigned the integer 0.
-the stars variable is assigned the num paramater.
-the .times method runs a loop for the num parameter amount of times.
-print to the screen the result of: concatenating the (' ' * spaces) string which contains the result of: multiplying the 
-' ' space string by the spaces variable which is assigned the integer 0 which closes the string with the ('*' * stars) 
-string which contains the result of: multiplying the '*' apostrophe string by the stars variable which is assigned the num
-paramater which closes the string.
-the spaces variable is assigned the integer 0 then the spaces variable is assigned the result of adding 1 to the spaces 
-variable.
-the stars variable is assigned the num paramater then the stars variable is assigned the result of subtracting 1 from
-the stars variable.
-this is the last line in the .times method that is everything after this is outside of the .times method.
-this is the last line of the triangle method that is everything after this is outside of the triangle method.
-
-all this means:
-the triangle method accepts the (num) parameter and is defined as the following: the spaces variable is assigned the
-integer 0 and the stars variable is assigned the num paramater and the .times method runs a loop for the num parameter 
-amount of times and print to the screen the result of: concatenating the (' ' * spaces) string which contains the result 
-of: multiplying the ' ' space string by the spaces variable which is assigned the integer 0 which closes the string with
-the ('*' * stars) string which contains the result of: multiplying the '*' star string by the stars variable which is 
-assigned the num paramater which closes the string then the spaces variable is assigned the integer 0 then the spaces
-variable is assigned the result of adding 1 to the spaces variable then the stars variable is assigned the num paramater 
-then the stars variable is assigned the result of subtracting 1 from the stars variable and this is the last line in the 
-.times method that is everything after this is outside of the .times method and this is the last line of the triangle 
-method that is everything after this is outside of the triangle method.
-
-Further Exploration:
-Try modifying your solution again so that you can display the triangle with the right angle at any corner of the grid.
-
-Syntax of Solution: ruby
+ 
 =end
+
+# Further Exploration:
+# Try modifying your solution again so that you can display the triangle with the right angle at any corner of the grid.
+
 def triangle()
   puts "How many stars do you want?"
   num = gets.to_i
