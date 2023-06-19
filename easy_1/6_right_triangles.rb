@@ -45,11 +45,10 @@ def triangle
   num.times do |nnn|
     spaces, stars = calculate_spaces_and_stars(corner, num, nnn)
 
-    return if spaces.nil? || stars.nil?
+    break if spaces.nil? || stars.nil?
 
     print_line(spaces, stars)
   end
 end
-
 
 triangle
