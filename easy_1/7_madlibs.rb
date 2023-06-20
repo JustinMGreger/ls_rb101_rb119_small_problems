@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 puts 'Enter a noun: '
 noun = gets.chomp
 puts 'Enter a verb: '
