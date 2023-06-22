@@ -33,104 +33,105 @@ def reversed_number(12345)
   then reverses the individual character order
   possibly then merges the individual characters into a string 
   then puts to the screen the result.
-  end  
-  and output:
-  54321
+end  
+
+and output:
+54321
   
 
-  Examples / Test Cases, Validate understanding of the problem:
+Examples / Test Cases, Validate understanding of the problem:
   
-  reversed_number(12345) == 54321
-  reversed_number(12213) == 31221
-  reversed_number(456) == 654
-  reversed_number(12000) == 21 # No leading zeros in return value!
-  reversed_number(12003) == 30021
-  reversed_number(1) == 1
+reversed_number(12345) == 54321
+reversed_number(12213) == 31221
+reversed_number(456) == 654
+reversed_number(12000) == 21 # No leading zeros in return value!
+reversed_number(12003) == 30021
+reversed_number(1) == 1
   
-  If the results are the same as the above then the understanding is correct.
-  
-
-  Data Structure, How we represent data that we will work with when converting the input to output:
-  strings or integers
+If the results are the same as the above then the understanding is correct.
   
 
-  Algorithm, Steps for converting input to output:
-  accepts parameter in integer form
-  breaks parameter into individual characters
-  then reverses the individual character order
-  possibly then merges the individual characters into a string 
-  then puts to the screen the result.
+Data Structure, How we represent data that we will work with when converting the input to output:
+strings or integers
+  
 
-  and Code.” Implementation of Algorithm:
-  
-  Input:
-  12345
-  
-  def reversed_number(num)
-    puts num.to_s.split('').reverse.join.chomp
-  end
-  
-  reversed_number(12345)
-  
-  Expected output:
-  54321
-  
-  Actual output:
-  54321
-  
-  Result:
-  success.
-  
-  reversed_number(12213)
-  
-  Expected output:
-  31221
-  
-  Actual output:
-  31221
-  
-  Result:
-  success.
-  
-  reversed_number(456) 
-  
-  Expected output:
-  654
-  
-  Actual output:
-  654
-  
-  Result:
-  success.
-  
-  reversed_number(12000) == 21 # No leading zeros in return value!
+Algorithm, Steps for converting input to output:
+accepts parameter in integer form
+breaks parameter into individual characters
+then reverses the individual character order
+possibly then merges the individual characters into a string 
+then puts to the screen the result.
 
-  Expected output:
+and Code.” Implementation of Algorithm:
   
+Input:
+12345
   
-  Actual output:
+def reversed_number(num)
+  puts num.to_s.split('').reverse.join.chomp
+end
   
+reversed_number(12345)
   
-  Result:
+Expected output:
+54321
+  
+Actual output:
+54321
+  
+Result:
+success.
+  
+reversed_number(12213)
+  
+Expected output:
+31221
+  
+Actual output:
+31221
+  
+Result:
+success.
+  
+reversed_number(456) 
+  
+Expected output:
+654
+  
+Actual output:
+654
+  
+Result:
+success.
 
-  reversed_number(12003) == 30021
+reversed_number(12000) == 21 # No leading zeros in return value!
 
-  Expected output:
+Expected output:
   
   
-  Actual output:
+Actual output:
   
   
-  Result:
+Result:
 
-  reversed_number(1) == 1
+reversed_number(12003) == 30021
 
-  Expected output:
+Expected output:
   
   
-  Actual output:
+Actual output:
   
   
-  Result:
+Result:
+
+reversed_number(1) == 1
+
+Expected output:
+  
+  
+Actual output:
+  
+  
+Result:
   
   
