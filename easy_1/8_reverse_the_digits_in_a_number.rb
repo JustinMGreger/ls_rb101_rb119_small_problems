@@ -115,24 +115,24 @@ Actual output:
 Result:
 success.
 
-reversed_number(12003) == 30021
+reversed_number(12003)
 
 Expected output:
-  
+30021
   
 Actual output:
-  
+30021
   
 Result:
+success.
 
-reversed_number(1) == 1
+reversed_number(1) 
 
 Expected output:
-  
+1
   
 Actual output:
-  
+1
   
 Result:
-  
-  
+success.
