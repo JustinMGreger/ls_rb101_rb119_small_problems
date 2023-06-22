@@ -11,3 +11,13 @@ reversed_number(1) == 1
 
 Don't worry about arguments with leading zeros - Ruby sees those as octal numbers, which will cause confusing results. 
 For similar reasons, the return value for our fourth example doesn't have any leading zeros.
+
+
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+reversed_number(12345)
+and output:
+54321
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
