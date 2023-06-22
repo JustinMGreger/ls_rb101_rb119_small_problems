@@ -49,3 +49,7 @@ def reversed_number(12345)
   
   If the results are the same as the above then the understanding is correct.
   
+
+  Data Structure, How we represent data that we will work with when converting the input to output:
+  strings or integers
+  
