@@ -104,15 +104,16 @@ Actual output:
 Result:
 success.
 
-reversed_number(12000) == 21 # No leading zeros in return value!
+reversed_number(12000)
 
 Expected output:
-  
+21 # No leading zeros in return value!
   
 Actual output:
-  
+00021
   
 Result:
+something unexpected happened need to rewrite the code.
 
 reversed_number(12003) == 30021
 
