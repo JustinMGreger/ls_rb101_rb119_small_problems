@@ -53,3 +53,11 @@ def reversed_number(12345)
   Data Structure, How we represent data that we will work with when converting the input to output:
   strings or integers
   
+
+  Algorithm, Steps for converting input to output:
+  accepts parameter in integer form
+  breaks parameter into individual characters
+  then reverses the individual character order
+  possibly then merges the individual characters into a string 
+  then puts to the screen the result.
+  
