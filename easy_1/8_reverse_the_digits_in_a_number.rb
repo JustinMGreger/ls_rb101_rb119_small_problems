@@ -60,7 +60,6 @@ def reversed_number(12345)
   then reverses the individual character order
   possibly then merges the individual characters into a string 
   then puts to the screen the result.
-  
 
   and Code.” Implementation of Algorithm:
   
@@ -80,18 +79,18 @@ def reversed_number(12345)
   54321
   
   Result:
-  success !
+  success.
   
-  reversed_number(12213) == 31221
+  reversed_number(12213)
   
   Expected output:
-  
+  31221
   
   Actual output:
-  
+  31221
   
   Result:
-  
+  success.
   
   reversed_number(456) == 654
   
@@ -104,7 +103,33 @@ def reversed_number(12345)
   Result:
   
   reversed_number(12000) == 21 # No leading zeros in return value!
+
+  Expected output:
+  
+  
+  Actual output:
+  
+  
+  Result:
+
   reversed_number(12003) == 30021
+
+  Expected output:
+  
+  
+  Actual output:
+  
+  
+  Result:
+
   reversed_number(1) == 1
+
+  Expected output:
+  
+  
+  Actual output:
+  
+  
+  Result:
   
   
