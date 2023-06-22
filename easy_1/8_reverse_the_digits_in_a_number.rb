@@ -61,3 +61,50 @@ def reversed_number(12345)
   possibly then merges the individual characters into a string 
   then puts to the screen the result.
   
+
+  and Code.” Implementation of Algorithm:
+  
+  Input:
+  12345
+  
+  def reversed_number(num)
+    puts num.to_s.split('').reverse.join.chomp
+  end
+  
+  reversed_number(12345)
+  
+  Expected output:
+  54321
+  
+  Actual output:
+  54321
+  
+  Result:
+  success !
+  
+  reversed_number(12213) == 31221
+  
+  Expected output:
+  
+  
+  Actual output:
+  
+  
+  Result:
+  
+  
+  reversed_number(456) == 654
+  
+  Expected output:
+  
+  
+  Actual output:
+  
+  
+  Result:
+  
+  reversed_number(12000) == 21 # No leading zeros in return value!
+  reversed_number(12003) == 30021
+  reversed_number(1) == 1
+  
+  
