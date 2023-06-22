@@ -25,3 +25,15 @@ Write a method that takes a positive integer as an argument and returns that num
 Don't worry about arguments with leading zeros - Ruby sees those as octal numbers, which will cause confusing results. 
 For similar reasons, the return value for our fourth example doesn't have any leading zeros.
 
+Mental model of the problem (optional):
+
+def reversed_number(12345)
+  accepts parameter in integer form
+  breaks parameter into individual characters
+  then reverses the individual character order
+  possibly then merges the individual characters into a string 
+  then puts to the screen the result.
+  end  
+  and output:
+  54321
+  
