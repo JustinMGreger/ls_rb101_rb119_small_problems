@@ -19,5 +19,9 @@ Identify expected input:
 reversed_number(12345)
 and output:
 54321
+
 Make the requirements explicit Identify rules:
-Mental model of the problem (optional):
+Write a method that takes a positive integer as an argument and returns that number with its digits reversed.
+Don't worry about arguments with leading zeros - Ruby sees those as octal numbers, which will cause confusing results. 
+For similar reasons, the return value for our fourth example doesn't have any leading zeros.
+
