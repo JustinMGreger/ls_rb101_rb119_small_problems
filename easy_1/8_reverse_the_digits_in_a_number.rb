@@ -1,0 +1,1 @@
+Write a method that takes a positive integer as an argument and returns that number with its digits reversed.
