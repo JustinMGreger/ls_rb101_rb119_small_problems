@@ -68,7 +68,7 @@ Input:
 12345
   
 def reversed_number(num)
-  puts num.to_s.split('').reverse.join.chomp
+  puts num.to_s.reverse.to_i
 end
   
 reversed_number(12345)
@@ -110,10 +110,10 @@ Expected output:
 21 # No leading zeros in return value!
   
 Actual output:
-00021
+21
   
 Result:
-something unexpected happened need to rewrite the code.
+success.
 
 reversed_number(12003) == 30021
 
