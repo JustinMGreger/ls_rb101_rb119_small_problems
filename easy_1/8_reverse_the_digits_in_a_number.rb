@@ -92,15 +92,16 @@ def reversed_number(12345)
   Result:
   success.
   
-  reversed_number(456) == 654
+  reversed_number(456) 
   
   Expected output:
-  
+  654
   
   Actual output:
-  
+  654
   
   Result:
+  success.
   
   reversed_number(12000) == 21 # No leading zeros in return value!
 
