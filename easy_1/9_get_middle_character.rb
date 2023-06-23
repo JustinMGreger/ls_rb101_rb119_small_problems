@@ -33,6 +33,14 @@ If the argument has an even length, you should return exactly two characters.
 end method.
 
 Examples / Test Cases, Validate understanding of the problem:
+center_of('I love ruby') == 'e'
+center_of('Launch School') == ' '
+center_of('Launch') == 'un'
+center_of('Launchschool') == 'hs'
+center_of('x') == 'x'
+
+the center_of method is properly written if it passes the above tests.
+
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
