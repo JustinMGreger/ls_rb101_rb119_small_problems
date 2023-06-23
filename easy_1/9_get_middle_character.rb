@@ -41,7 +41,8 @@ center_of('x') == 'x'
 
 the center_of method is properly written if it passes the above tests.
 
-
 Data Structure, How we represent data that we will work with when converting the input to output:
+strings.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
