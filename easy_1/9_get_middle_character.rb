@@ -17,6 +17,10 @@ Identify expected input:
 a non-empty string argument
 
 and output:
+return the middle character or characters of the argument. 
+If the argument has an odd length, you should return exactly one character. 
+If the argument has an even length, you should return exactly two characters.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
