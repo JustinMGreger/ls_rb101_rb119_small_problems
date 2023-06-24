@@ -61,8 +61,8 @@ def center_of(str)
   else str.length.even?
     middle_character = str[middle_index - 1..middle_index]
   end
-  p middle_character
-end 
+  puts "'#{middle_character}'"
+end  
 
 test:
 center_of('I love ruby') 
@@ -71,10 +71,11 @@ expected output:
 'e'
 
 actual output:
-"e"
+'e'
  
 result:
-that is not correct either perhaps string interpolation?
+success.
+
 test:
 center_of('Launch School') 
 
