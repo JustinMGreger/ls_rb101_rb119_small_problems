@@ -63,3 +63,54 @@ def center_of(str)
   end
   puts middle_character
 end 
+
+test:
+center_of('I love ruby') 
+
+expected output:
+'e'
+
+actual output:
+e 
+
+result:
+
+test:
+center_of('Launch School') 
+
+expected output:
+' '
+
+actual output:
+
+result:
+
+test:
+center_of('Launch') 
+
+expected output:
+'un'
+
+actual output:
+
+result:
+
+test:
+center_of('Launchschool') 
+
+expected output:
+'hs'
+
+actual output:
+
+result:
+
+test:
+center_of('x') 
+
+expected output:
+'x'
+
+actual output:
+
+result:
