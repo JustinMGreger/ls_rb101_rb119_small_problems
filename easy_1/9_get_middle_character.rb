@@ -56,6 +56,6 @@ and Code.” Implementation of Algorithm:
 def center_of(str)
   if str.length.odd?
     return exactly one character. 
-  if str.length.even?
+  else str.length.even?
     return exactly two characters.
 end 
