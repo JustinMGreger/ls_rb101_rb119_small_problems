@@ -219,10 +219,11 @@ the result of returning the number of characters in the str parameter that is th
 parameter which closes the string interpolation which closes the string which closes the string and this is the last line
 of the else statement that is everything after this line is outside of the else statement.
 
-
-
-
+Syntax:
 end
+
+Explanation:
+this is the last line of the center_of method that is everything after this line is outside of the center_of method.
 
 
 this means compilation:
@@ -258,3 +259,4 @@ is then divided by the integer 2 subtracted by 1 that ends with and includes the
 the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
 parameter which closes the string interpolation which closes the string which closes the string and this is the last line
 of the else statement that is everything after this line is outside of the else statement.
+this is the last line of the center_of method that is everything after this line is outside of the center_of method.
