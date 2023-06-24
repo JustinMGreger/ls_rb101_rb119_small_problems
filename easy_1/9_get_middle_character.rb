@@ -61,9 +61,9 @@ expected output:
 'hs'
 
 actual output:
-
+hs
 result:
-
+not the same.
 center_of('x') 
 
 expected output:
