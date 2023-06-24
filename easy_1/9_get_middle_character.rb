@@ -59,7 +59,7 @@ def center_of(str)
   if str.length.odd?
     middle_character = str[middle_index]
   else str.length.even?
-    middle_index 
+    middle_character = str[middle_index - 1..middle_index]
   end
   puts middle_character
 end 
