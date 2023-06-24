@@ -57,7 +57,7 @@ and Code.” Implementation of Algorithm:
 def center_of(str)
   middle_index = str.length / 2
   if str.length.odd?
-    middle_character = str[middle_index]
+    middle_character = "'#{str[middle_index]}'"
   else str.length.even?
     middle_character = str[middle_index - 1..middle_index]
   end
