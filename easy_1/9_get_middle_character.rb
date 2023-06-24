@@ -54,8 +54,8 @@ Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
 def center_of(str)
-  if str.length.is_odd?
+  if str.length.odd?
     return exactly one character. 
-  if str.length.is_even?
+  if str.length.even?
     return exactly two characters.
 end 
