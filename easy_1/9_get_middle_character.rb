@@ -64,11 +64,13 @@ actual output:
 hs
 result:
 not the same.
+
 center_of('x') 
 
 expected output:
 'x'
 
 actual output:
-
+x
 result:
+not the same.
