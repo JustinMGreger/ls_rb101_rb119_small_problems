@@ -117,7 +117,11 @@ Syntax:
 Explanation:
 this is the last line of the else statement that is everything after this line is outside of the else statement.
 
+Syntax:
 end
+
+Explanation:
+this is the last line of the center_of method that is everything after this line is outside of the center_of method.
 
 this means compilation:
 the center_of method accepts the (string) parameter and is defined as follows:
@@ -132,3 +136,4 @@ extract a substring from the string parameter that starts at the position that i
 which is assigned the result of returning the number of characters in the string parameter then dividing that number by 
 the integer 2 subtracted by 1 and has a length of 2.
 this is the last line of the else statement that is everything after this line is outside of the else statement.
+this is the last line of the center_of method that is everything after this line is outside of the center_of method.
