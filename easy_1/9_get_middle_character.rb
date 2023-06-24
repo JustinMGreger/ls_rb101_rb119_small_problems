@@ -31,8 +31,9 @@ expected output:
 'e'
 
 actual output:
-
+e
 result:
+not the same.
 
 center_of('Launch School') 
 
@@ -40,8 +41,9 @@ expected output:
 ' '
 
 actual output:
-
+ 
 result:
+not the same.
 
 center_of('Launch')
 
@@ -49,8 +51,9 @@ expected output:
 'un'
 
 actual output:
-
+un
 result:
+not the same.
 
 center_of('Launchschool') 
 
