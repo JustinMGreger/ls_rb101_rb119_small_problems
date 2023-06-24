@@ -31,6 +31,7 @@ Write a method that takes a non-empty string argument, and returns the middle ch
 If the argument has an odd length, you should return exactly one character. 
 If the argument has an even length, you should return exactly two characters.
 end method.
+the middle character or characters are printed to the screen as a string.
 
 Examples / Test Cases, Validate understanding of the problem:
 center_of('I love ruby') == 'e'
@@ -60,3 +61,5 @@ def center_of(str)
   else str.length.even?
     middle_index 
 end 
+
+center_of('I love ruby') == 'e'
