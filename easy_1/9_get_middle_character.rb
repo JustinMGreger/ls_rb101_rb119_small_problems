@@ -72,7 +72,7 @@ expected output:
 
 actual output:
 e 
-
+need to use p instead of puts 
 result:
 
 test:
