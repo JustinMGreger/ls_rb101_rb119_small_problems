@@ -111,8 +111,12 @@ extract a substring from the string parameter that starts at the position that i
 which is assigned the result of returning the number of characters in the string parameter then dividing that number by 
 the integer 2 subtracted by 1 and has a length of 2.
 
-
+Syntax:
   end
+
+Explanation:
+this is the last line of the else statement that is everything after this line is outside of the else statement.
+
 end
 
 this means compilation:
@@ -127,3 +131,4 @@ if the above if false then execute the following code:
 extract a substring from the string parameter that starts at the position that is the result of the center_index variable
 which is assigned the result of returning the number of characters in the string parameter then dividing that number by 
 the integer 2 subtracted by 1 and has a length of 2.
+this is the last line of the else statement that is everything after this line is outside of the else statement.
