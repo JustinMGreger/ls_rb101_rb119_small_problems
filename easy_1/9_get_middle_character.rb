@@ -71,10 +71,10 @@ expected output:
 'e'
 
 actual output:
-e 
+"e"
  
 result:
-
+that is not correct either perhaps string interpolation?
 test:
 center_of('Launch School') 
 
