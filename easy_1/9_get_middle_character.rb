@@ -76,12 +76,13 @@ string interpolation which contains: the result of extracting the character at t
 the middle_index variable which is assigned the result of returning the number of characters in the str parameter that is 
 then divided by the integer 2 of the str parameter.
 
-
-
-
-
-
+Syntax:
                      else
+
+Explanaiton:
+if the above are boolean false then execute the following code:
+
+
                        "'#{str[middle_index - 1..middle_index]}'"
                      end
   puts middle_character
@@ -97,3 +98,4 @@ the "'#{str[middle_index]}'" string contains: the '#{str[middle_index]}' string 
 string interpolation which contains: the result of extracting the character at the [middle_index] index which contains: 
 the middle_index variable which is assigned the result of returning the number of characters in the str parameter that is 
 then divided by the integer 2 of the str parameter.
+if the above are boolean false then execute the following code:
