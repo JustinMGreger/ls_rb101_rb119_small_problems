@@ -61,7 +61,7 @@ def center_of(str)
   else str.length.even?
     middle_character = str[middle_index - 1..middle_index]
   end
-  puts middle_character
+  p middle_character
 end 
 
 test:
@@ -72,7 +72,7 @@ expected output:
 
 actual output:
 e 
-need to use p instead of puts 
+ 
 result:
 
 test:
