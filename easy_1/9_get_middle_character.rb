@@ -37,11 +37,25 @@ this means:
 the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
 divided by the integer 2.
 
-
-
-
-
+Syntax:
   middle_character = if str.length.odd?
+
+Explanaiton:
+middle_character is a variable.
+= is assignment.
+if means if a condition is boolean true then execute the following code:
+str is a parameter.
+.length returns the number of characters in a string.
+.odd? returns boolean true if a number is odd.
+this means:
+the middle_character variable is assigned the result of: if return boolean true if the result of returning the number of 
+characters in the str parameter is odd is boolean true then execute the following code:
+
+  
+
+
+
+
                        "'#{str[middle_index]}'"
                      else
                        "'#{str[middle_index - 1..middle_index]}'"
@@ -53,3 +67,5 @@ this means compilation:
 the center_of method accepts the (str) parameter and is defined as the following:
 the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
 divided by the integer 2.
+the middle_character variable is assigned the result of: if return boolean true if the result of returning the number of 
+characters in the str parameter is odd is boolean true then execute the following code:
