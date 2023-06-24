@@ -55,6 +55,7 @@ and Code.” Implementation of Algorithm:
 
 def center_of method(str)
   returns the middle character(s) str 
-  If str has an odd length, you should return exactly one character. 
+  If str.length.is_odd?
+    return exactly one character. 
   If str has an even length, you should return exactly two characters.
 end 
