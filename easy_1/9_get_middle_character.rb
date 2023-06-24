@@ -1,5 +1,5 @@
+# frozen_string_literal: true
 
-Syntax:
 def center_of(str)
   middle_index = str.length / 2
   if str.length.odd?
@@ -9,6 +9,4 @@ def center_of(str)
   end
   puts middle_character
 end
- 
-Explanation of Syntax:
  
