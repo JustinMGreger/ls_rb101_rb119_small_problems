@@ -83,8 +83,9 @@ expected output:
 ' '
 
 actual output:
-
+' '
 result:
+success.
 
 test:
 center_of('Launch') 
