@@ -94,8 +94,10 @@ expected output:
 'un'
 
 actual output:
+\'un'
 
 result:
+something is wrong.
 
 test:
 center_of('Launchschool') 
