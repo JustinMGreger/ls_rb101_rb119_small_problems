@@ -26,7 +26,17 @@ end
  
 Explanation of Syntax:
 
+Syntax:
 def center_of(string)
+
+Explanation:
+def is definition
+center_of is a method.
+(string) is a parameter.
+this means:
+the center_of method accepts the (string) parameter and is defined as follows:
+
+
   center_index = string.size / 2
   if string.size.odd?
     string[center_index]
@@ -34,3 +44,6 @@ def center_of(string)
     string[center_index - 1, 2]
   end
 end
+
+this means compilation:
+the center_of method accepts the (string) parameter and is defined as follows:
