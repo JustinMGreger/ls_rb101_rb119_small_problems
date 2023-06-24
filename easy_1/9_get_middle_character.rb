@@ -58,11 +58,11 @@ def center_of(str)
   middle_index = str.length / 2
   if str.length.odd?
     middle_character = "'#{str[middle_index]}'"
-  else 
+  else
     middle_character = "'#{str[middle_index - 1..middle_index]}'"
   end
   puts middle_character
-end  
+end
 
 test:
 center_of('I love ruby') 
@@ -94,10 +94,10 @@ expected output:
 'un'
 
 actual output:
-\'un'
+'un'
 
 result:
-something is wrong.
+success.
 
 test:
 center_of('Launchschool') 
