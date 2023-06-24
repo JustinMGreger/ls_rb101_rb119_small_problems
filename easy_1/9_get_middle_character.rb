@@ -23,8 +23,24 @@ the center_of method accepts the (str) parameter and is defined as the following
 
 
 
-
+Syntax:
   middle_index = str.length / 2
+
+Explanation:
+middle_index is a variable.
+= is assignment.
+str is a parameter.
+.length returns the number of characters in a string.
+/ is division.
+2 is a integer.
+this means:
+the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
+divided by the integer 2.
+
+
+
+
+
   middle_character = if str.length.odd?
                        "'#{str[middle_index]}'"
                      else
@@ -35,3 +51,5 @@ end
 
 this means compilation:
 the center_of method accepts the (str) parameter and is defined as the following:
+the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
+divided by the integer 2.
