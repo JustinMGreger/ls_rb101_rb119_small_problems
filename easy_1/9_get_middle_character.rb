@@ -137,3 +137,16 @@ which is assigned the result of returning the number of characters in the string
 the integer 2 subtracted by 1 and has a length of 2.
 this is the last line of the else statement that is everything after this line is outside of the else statement.
 this is the last line of the center_of method that is everything after this line is outside of the center_of method.
+
+this means all together:
+the center_of method accepts the (string) parameter and is defined as follows: the center_index variable is assigned the
+result of returning the number of characters in the string parameter then dividing that number by the integer 2 and if the
+result of returning the number of characters in the string parameter and then returning true if that integer is odd is 
+true then execute the following code: extract the character in the string parameter at the index of the center_index 
+variable which is assigned the result of returning the number of characters in the string parameter then dividing that
+number by the integer 2 and if the above if false then execute the following code: extract a substring from the string 
+parameter that starts at the position that is the result of the center_index variable which is assigned the result of 
+returning the number of characters in the string parameter then dividing that number by the integer 2 subtracted by 1 and 
+has a length of 2 and this is the last line of the else statement that is everything after this line is outside of the
+else statement and this is the last line of the center_of method that is everything after this line is outside of the 
+center_of method.
