@@ -117,5 +117,6 @@ expected output:
 'x'
 
 actual output:
-
+'x'
 result:
+success.
