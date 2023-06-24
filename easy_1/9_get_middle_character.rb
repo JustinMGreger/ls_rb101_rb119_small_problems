@@ -106,8 +106,9 @@ expected output:
 'hs'
 
 actual output:
-
+'hs'
 result:
+success.
 
 test:
 center_of('x') 
