@@ -124,7 +124,12 @@ is then divided by the integer 2 subtracted by 1 that ends with and includes the
 the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
 parameter which closes the string interpolation which closes the string which closes the string.
 
+Syntax:
                      end
+
+Explanaiton:
+this is the last line of the else statement that is everything after this line is outside of the else statement.
+
   puts middle_character
 end
 
@@ -146,3 +151,4 @@ of the middle_index variable which is assigned the result of returning the numbe
 is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
 the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
 parameter which closes the string interpolation which closes the string which closes the string.
+this is the last line of the else statement that is everything after this line is outside of the else statement.
