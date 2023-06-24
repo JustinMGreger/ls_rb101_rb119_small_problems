@@ -79,13 +79,13 @@ then divided by the integer 2 of the str parameter.
 Syntax:
                      else
 
-Explanaiton:
+Explanation:
 if the above are boolean false then execute the following code:
 
 Syntax:
                        "'#{str[middle_index - 1..middle_index]}'"
 
-Explanaiton:
+Explanation:
 "'#{str[middle_index - 1..middle_index]}'" is a string which contains:
 '#{str[middle_index - 1..middle_index]}' is a string which contains:
 #{str[middle_index - 1..middle_index]} is string interpolation which contains:
@@ -127,11 +127,103 @@ parameter which closes the string interpolation which closes the string which cl
 Syntax:
                      end
 
-Explanaiton:
+Explanation:
 this is the last line of the else statement that is everything after this line is outside of the else statement.
 
+Syntax:
   puts middle_character
+
+Explanation:
+puts is put s which is put string which means print to the screen the string.
+middle_character is a variable.
+= is assignment.
+if means if a condition is boolean true then execute the following code:
+str is a parameter.
+.length returns the number of characters in a string.
+.odd? returns boolean true if a number is odd.
+this means:
+the middle_character variable is assigned the result of: if return boolean true if the result of returning the number of 
+characters in the str parameter is odd is boolean true then execute the following code:
+"'#{str[middle_index]}'" is a string which contains:
+'#{str[middle_index]}' is a string which contains:
+#{str[middle_index]} string interpolation which contains:
+str[middle_index] means extract the character in str at index middle_index which contains:
+str is a parameter. 
+[middle_index] means extract at the middle_index index which contains:
+middle_index is a variable.
+= is assignment.
+str is a parameter.
+.length returns the number of characters in a string.
+/ is division.
+2 is a integer.
+this means:
+the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
+divided by the integer 2.
+this means:
+the "'#{str[middle_index]}'" string contains: the '#{str[middle_index]}' string which contains: #{str[middle_index]} 
+string interpolation which contains: the result of extracting the character at the [middle_index] index which contains: 
+the middle_index variable which is assigned the result of returning the number of characters in the str parameter that is 
+then divided by the integer 2 of the str parameter.
+else if the above are boolean false then execute the following code:
+"'#{str[middle_index - 1..middle_index]}'" is a string which contains:
+'#{str[middle_index - 1..middle_index]}' is a string which contains:
+#{str[middle_index - 1..middle_index]} is string interpolation which contains:
+str[middle_index - 1..middle_index] means extract a sub string at the range that starts at middle_index - 1 and ends at 
+middle_index from str which contains:
+str is a parameter.
+[middle_index - 1..middle_index] means extract a sub string at the range that starts at middle_index - 1 and ends at 
+middle_index which contains:
+middle_index is a variable.
+= is assignment.
+str is a parameter.
+.length returns the number of characters in a string.
+/ is division.
+2 is a integer.
+this means:
+the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
+divided by the integer 2.
+- is subtraction.
+1 is a integer.
+.. means inclusive range.
+middle_index is a variable.
+= is assignment.
+str is a parameter.
+.length returns the number of characters in a string.
+/ is division.
+2 is a integer.
+this means:
+the middle_index variable is assigned the result of returning the number of characters in the str parameter that is then
+divided by the integer 2.
+this means:
+the "'#{str[middle_index - 1..middle_index]}'" string contains: the '#{str[middle_index - 1..middle_index]}' string which
+contains: the #{str[middle_index - 1..middle_index]} string interpolation which contains the result of: 
+str[middle_index - 1..middle_index] which means extract a sub string at the range that starts at and includes the result 
+of the middle_index variable which is assigned the result of returning the number of characters in the str parameter that
+is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
+parameter which closes the string interpolation which closes the string which closes the string.
+end this is the last line of the else statement that is everything after this line is outside of the else statement.
+this means:
+print to the screen the middle_character variable which is assigned the result of: if return boolean true if the result of 
+returning the number of characters in the str parameter is odd is boolean true then execute the following code: the 
+"'#{str[middle_index]}'" string contains: the '#{str[middle_index]}' string which contains: #{str[middle_index]} string 
+interpolation which contains: the result of extracting the character at the [middle_index] index which contains: the 
+middle_index variable which is assigned the result of returning the number of characters in the str parameter that is 
+then divided by the integer 2 of the str parameter and if the above are boolean false then execute the following code:
+the "'#{str[middle_index - 1..middle_index]}'" string contains: the '#{str[middle_index - 1..middle_index]}' string which
+contains: the #{str[middle_index - 1..middle_index]} string interpolation which contains the result of: 
+str[middle_index - 1..middle_index] which means extract a sub string at the range that starts at and includes the result 
+of the middle_index variable which is assigned the result of returning the number of characters in the str parameter that
+is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
+parameter which closes the string interpolation which closes the string which closes the string and this is the last line
+of the else statement that is everything after this line is outside of the else statement.
+
+
+
+
 end
+
 
 this means compilation:
 the center_of method accepts the (str) parameter and is defined as the following:
@@ -152,3 +244,17 @@ is then divided by the integer 2 subtracted by 1 that ends with and includes the
 the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
 parameter which closes the string interpolation which closes the string which closes the string.
 this is the last line of the else statement that is everything after this line is outside of the else statement.
+print to the screen the middle_character variable which is assigned the result of: if return boolean true if the result of 
+returning the number of characters in the str parameter is odd is boolean true then execute the following code: the 
+"'#{str[middle_index]}'" string contains: the '#{str[middle_index]}' string which contains: #{str[middle_index]} string 
+interpolation which contains: the result of extracting the character at the [middle_index] index which contains: the 
+middle_index variable which is assigned the result of returning the number of characters in the str parameter that is 
+then divided by the integer 2 of the str parameter and if the above are boolean false then execute the following code:
+the "'#{str[middle_index - 1..middle_index]}'" string contains: the '#{str[middle_index - 1..middle_index]}' string which
+contains: the #{str[middle_index - 1..middle_index]} string interpolation which contains the result of: 
+str[middle_index - 1..middle_index] which means extract a sub string at the range that starts at and includes the result 
+of the middle_index variable which is assigned the result of returning the number of characters in the str parameter that
+is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
+parameter which closes the string interpolation which closes the string which closes the string and this is the last line
+of the else statement that is everything after this line is outside of the else statement.
