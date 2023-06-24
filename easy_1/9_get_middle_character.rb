@@ -63,3 +63,7 @@ def center_of(str)
 end 
 
 center_of('I love ruby') == 'e'
+
+'e' is printed to the screen which is put string which is put s which is puts.
+puts 'e'
+puts is internal.
