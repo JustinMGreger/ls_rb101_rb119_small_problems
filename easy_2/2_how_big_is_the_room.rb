@@ -10,5 +10,6 @@ puts "Enter the length of the room in meters: "
 length = 10
 puts "Enter the width of the room in meters: "
 width = 7
+area = length * width
 puts "The area of the room is 70.0 square meters (753.47 square feet)."
 end
