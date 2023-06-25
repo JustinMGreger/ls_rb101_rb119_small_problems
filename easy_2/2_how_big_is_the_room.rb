@@ -7,11 +7,9 @@ def room_size
   puts 'Enter the width of the room in feet: '
   width = gets.to_f
   area_square_meter = (length * width).round(2)
-  puts "The area of the room is #{area_square_meter} square feet (#{area_square_feet} square feet)."
+  puts "The area of the room is #{area_square_meter} square feet (#{area_square_feet} square inches)(#{} square centimeters)."
 end
 
 room_size
 
 
-Further Exploration
-display the results in square inches, and square centimeters.
