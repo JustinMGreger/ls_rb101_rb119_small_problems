@@ -13,3 +13,5 @@ def room_size
   area = length * width
   puts "The area of the room is #{area} square meters (753.47 square feet)."
 end
+
+room_size
