@@ -11,3 +11,4 @@ puts "Enter the length of the room in meters: "
 puts "Enter the width of the room in meters: "
 7
 puts "The area of the room is 70.0 square meters (753.47 square feet)."
+end
