@@ -1,6 +1,6 @@
 def tip_calculator
   puts 'What is the bill?' 
-   and a tip rate. 
+  tip_rate = gets.chomp.to_f 
 The program must compute the tip and then display both the tip and the total amount of the bill.
 end
 Example:
