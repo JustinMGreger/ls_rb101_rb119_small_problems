@@ -6,7 +6,7 @@ Note: 1 square meter == 10.7639 square feet
 Do not worry about validating the input at this time.
 
 Example Run
-Enter the length of the room in meters:
+puts "Enter the length of the room in meters: "
 10
 puts "Enter the width of the room in meters: "
 7
