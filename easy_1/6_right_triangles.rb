@@ -35,8 +35,8 @@ def triangle
   corner = ask_for_corner
 
   num.times do |nnn|
-    spaces, stars = calculate_spaces_and_stars(corner, num, nnn)
-
+    spaces, stars = calculate_for_corners(corner, num, nnn)
+    
     break if spaces.nil? || stars.nil?
 
     print_line(spaces, stars)
