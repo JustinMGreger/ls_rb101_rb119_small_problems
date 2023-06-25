@@ -6,3 +6,6 @@ def teddy_age
 end
 
 teddy_age
+
+Further Exploration
+Modify this program to ask for a name, and then print the age for that person. 
