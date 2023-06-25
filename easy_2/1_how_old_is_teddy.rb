@@ -8,13 +8,14 @@ Teddy is 69 years old!
 Ideas:
 
 def teddy_age
-  
+
+  puts "Teddy is #{age} years old!"
 end  
 
 
   that randomly generates and prints Teddy's age. 
-age = generate a random number between 20 and 200.
+  age = generate a random number between 20 and 200.
 
 Example Output
 
-puts "Teddy is #{age} years old!"
+
