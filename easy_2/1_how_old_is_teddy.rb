@@ -11,4 +11,4 @@ age = generate a random number between 20 and 200.
 
 Example Output
 
-puts "Teddy is 69 years old!"
+puts "Teddy is #{age} years old!"
