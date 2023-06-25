@@ -12,10 +12,5 @@ def teddy_age
   puts "Teddy is #{age} years old!"
 end  
 
-
-
-
-
-Example Output
-
+teddy_age
 
