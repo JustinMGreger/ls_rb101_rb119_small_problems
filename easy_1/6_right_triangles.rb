@@ -26,14 +26,6 @@ def invalid_corner
   nil
 end
 
-def calculate_spaces_and_stars(corner, num, nnn)
-  if [:bottom_right].include?(corner)
-    [nnn, num - nnn]
-  else
-    calculate_for_corners(corner, num, nnn)
-  end
-end
-
 def print_line(spaces, stars)
   puts (' ' * spaces) + ('*' * stars)
 end
