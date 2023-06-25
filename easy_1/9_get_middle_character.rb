@@ -260,3 +260,36 @@ the result of returning the number of characters in the str parameter that is th
 parameter which closes the string interpolation which closes the string which closes the string and this is the last line
 of the else statement that is everything after this line is outside of the else statement.
 this is the last line of the center_of method that is everything after this line is outside of the center_of method.
+
+this means all together:
+the center_of method accepts the (str) parameter and is defined as the following: the middle_index variable is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 and the 
+middle_character variable is assigned the result of: if return boolean true if the result of returning the number of 
+characters in the str parameter is odd is boolean true then execute the following code: the "'#{str[middle_index]}'" 
+string contains: the '#{str[middle_index]}' string which contains: #{str[middle_index]} string interpolation which 
+contains: the result of extracting the character at the [middle_index] index which contains: the middle_index variable 
+which is assigned the result of returning the number of characters in the str parameter that is then divided by the 
+integer 2 of the str parameter and if the above are boolean false then execute the following code: the 
+"'#{str[middle_index - 1..middle_index]}'" string contains: the '#{str[middle_index - 1..middle_index]}' string which
+contains: the #{str[middle_index - 1..middle_index]} string interpolation which contains the result of: 
+str[middle_index - 1..middle_index] which means extract a sub string at the range that starts at and includes the result 
+of the middle_index variable which is assigned the result of returning the number of characters in the str parameter that
+is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
+parameter which closes the string interpolation which closes the string which closes the string and this is the last line
+of the else statement that is everything after this line is outside of the else statement and print to the screen the 
+middle_character variable which is assigned the result of: if return boolean true if the result of returning the number of
+characters in the str parameter is odd is boolean true then execute the following code: the "'#{str[middle_index]}'" 
+string contains: the '#{str[middle_index]}' string which contains: #{str[middle_index]} string interpolation which 
+contains: the result of extracting the character at the [middle_index] index which contains: the middle_index variable 
+which is assigned the result of returning the number of characters in the str parameter that is then divided by the 
+integer 2 of the str parameter and if the above are boolean false then execute the following code: the 
+"'#{str[middle_index - 1..middle_index]}'" string contains: the '#{str[middle_index - 1..middle_index]}' string which
+contains: the #{str[middle_index - 1..middle_index]} string interpolation which contains the result of: 
+str[middle_index - 1..middle_index] which means extract a sub string at the range that starts at and includes the result 
+of the middle_index variable which is assigned the result of returning the number of characters in the str parameter that
+is then divided by the integer 2 subtracted by 1 that ends with and includes the middle_index variable which is assigned 
+the result of returning the number of characters in the str parameter that is then divided by the integer 2 from the str 
+parameter which closes the string interpolation which closes the string which closes the string and this is the last line
+of the else statement that is everything after this line is outside of the else statement and this is the last line of the
+center_of method that is everything after this line is outside of the center_of method.
