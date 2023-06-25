@@ -9,7 +9,7 @@ def room_size
   puts "Enter the length of the room in meters: "
   length = gets.to_f
   puts "Enter the width of the room in meters: "
-  width = 7
+  width = gets.to_f
   area = length * width
   puts "The area of the room is #{area} square meters (753.47 square feet)."
 end
