@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 def teddy_age
   random_age = rand (20..200)
@@ -5,4 +6,3 @@ def teddy_age
 end  
 
 teddy_age
-
