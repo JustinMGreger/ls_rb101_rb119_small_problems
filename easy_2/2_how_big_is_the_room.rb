@@ -7,7 +7,7 @@ Do not worry about validating the input at this time.
 
 def room_size
   puts "Enter the length of the room in meters: "
-  length = 10
+  length = gets.to_f
   puts "Enter the width of the room in meters: "
   width = 7
   area = length * width
