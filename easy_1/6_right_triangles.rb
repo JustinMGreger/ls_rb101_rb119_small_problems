@@ -14,7 +14,7 @@ def calculate_for_corners(corner, num, nnn)
   corner_calculations = {
     top_right: [num - nnn - 1, nnn + 1],
     top_left: [0, nnn + 1],
-    bottom_right: [0, nnn + 1],
+    bottom_right: [nnn, num - nnn],
     bottom_left: [0, num - nnn]
   }
 
