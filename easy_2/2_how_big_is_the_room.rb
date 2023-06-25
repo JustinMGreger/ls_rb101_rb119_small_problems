@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 def room_size
   puts "Enter the length of the room in meters: "
