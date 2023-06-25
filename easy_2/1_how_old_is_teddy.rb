@@ -3,6 +3,7 @@
 def teddy_age
   puts 'enter a name: '
   name = gets.chomp
+  name = "Teddy" if name.empty?
   random_age = rand(20..200)
   puts "#{name} is #{random_age} years old!"
 end
@@ -10,4 +11,4 @@ end
 teddy_age
 
 Further Exploration
-For an extra challenge, use "Teddy" as the name if no name is entered.
+For an extra challenge, 
