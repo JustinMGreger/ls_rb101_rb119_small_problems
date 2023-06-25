@@ -8,3 +8,6 @@ def teddy_age
 end
 
 teddy_age
+
+Further Exploration
+For an extra challenge, use "Teddy" as the name if no name is entered.
