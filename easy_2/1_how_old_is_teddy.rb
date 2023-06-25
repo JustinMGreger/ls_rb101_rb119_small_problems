@@ -8,8 +8,8 @@ Teddy is 69 years old!
 Ideas:
 
 def teddy_age
-  age = rand between 20 and 200.
-  puts "Teddy is #{age} years old!"
+  random_age = rand (20..200)
+  puts "Teddy is #{random_age} years old!"
 end  
 
 teddy_age
