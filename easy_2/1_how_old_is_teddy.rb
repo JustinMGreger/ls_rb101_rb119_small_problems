@@ -9,6 +9,3 @@ def teddy_age
 end
 
 teddy_age
-
-Further Exploration
-For an extra challenge, 
