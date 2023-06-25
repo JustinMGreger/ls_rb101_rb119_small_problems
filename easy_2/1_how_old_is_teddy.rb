@@ -6,7 +6,13 @@ Example Output
 Teddy is 69 years old!
 
 Ideas:
-Build a program that randomly generates and prints Teddy's age. 
+
+def teddy_age
+  
+end  
+
+
+  that randomly generates and prints Teddy's age. 
 age = generate a random number between 20 and 200.
 
 Example Output
