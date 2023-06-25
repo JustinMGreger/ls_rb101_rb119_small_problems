@@ -12,3 +12,8 @@ def room_size
 end
 
 room_size
+
+
+Further Exploration
+Modify this program to ask for the input measurements in feet, 
+and display the results in square feet, square inches, and square centimeters.
