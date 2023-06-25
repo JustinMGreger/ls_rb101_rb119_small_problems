@@ -10,7 +10,7 @@ Example:
 
 200
 
-What is the tip percentage? 
+puts 'What is the tip percentage?'
 15
 
 The tip is $30.0
