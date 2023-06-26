@@ -4,6 +4,10 @@ def prompt(message)
   puts message
 end
 
+def get_input
+  gets.chomp.to_f
+end
+
 def what_is_the_tip_percentage
   puts 'What is the tip percentage?'
 end
