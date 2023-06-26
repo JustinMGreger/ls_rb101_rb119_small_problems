@@ -9,11 +9,3 @@ def tip_calculator
   puts "The total is $#{230.0}"
 end
 Example:
-
-
-
-200
-
-
-15
-
