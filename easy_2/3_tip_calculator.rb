@@ -4,7 +4,7 @@ def tip_calculator
   puts 'What is the tip percentage?'
   tip_rate = gets.chomp.to_f 
   tip =  (bill * tip_rate).round(2)
-  puts "The tip is $#{30.0}"
+  puts "The tip is $#{tip}"
   puts "The total is $#{230.0}"
 end
 Example:
