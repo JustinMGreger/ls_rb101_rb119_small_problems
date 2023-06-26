@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-def tip_calculator
+def what_is_the_bill
   puts 'What is the bill?'
+end
+
+def tip_calculator()
   bill = gets.chomp.to_f
   puts 'What is the tip percentage?'
   tip_rate = gets.chomp.to_f / 100
