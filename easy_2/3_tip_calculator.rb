@@ -6,6 +6,6 @@ def tip_calculator
   tip =  (bill * tip_rate).round(2)
   total = tip +  bill
   puts "The tip is $#{tip}"
-  puts "The total is $#{230.0}"
+  puts "The total is $#{total}"
 end
-Example:
+
