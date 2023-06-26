@@ -22,7 +22,7 @@ def tip_calculator()
   prompt 'What is the tip percentage?'
   tip_rate = get_input
   tip = calculate_tip(bill, tip_rate)
-  total = (tip + bill).round(2)
+  total = calculate_total(bill, tip)
   puts "The tip is $#{format('%.2f', tip)}"
   puts "The total is $#{format('%.2f', total)}"
 end
