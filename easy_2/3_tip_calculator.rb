@@ -10,7 +10,7 @@ end
 
 def tip_calculator()
   prompt 'What is the bill?'
-  bill = gets.chomp.to_f
+  bill = get_input
   prompt 'What is the tip percentage?'
   tip_rate = gets.chomp.to_f / 100
   tip = (bill * tip_rate).round(2)
