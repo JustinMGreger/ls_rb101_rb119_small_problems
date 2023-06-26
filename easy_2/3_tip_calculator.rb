@@ -4,18 +4,12 @@ def prompt(message)
   puts message
 end
 
-
-
-def what_is_the_bill
-  puts 'What is the bill?'
-end
-
 def what_is_the_tip_percentage
   puts 'What is the tip percentage?'
 end
 
 def tip_calculator()
-  what_is_the_bill
+  prompt 'What is the bill?'
   what_is_the_tip_percentage
   bill = gets.chomp.to_f
   tip_rate = gets.chomp.to_f / 100
