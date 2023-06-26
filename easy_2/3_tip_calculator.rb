@@ -10,4 +10,3 @@ def tip_calculator
   puts "The tip is $#{tip}"
   puts "The total is $#{total}"
 end
-
