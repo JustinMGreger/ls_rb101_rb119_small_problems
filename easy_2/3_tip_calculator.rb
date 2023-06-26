@@ -12,6 +12,10 @@ def calculate_tip(bill, tip_rate)
   (bill * tip_rate / 100).round(2)
 end
 
+def calculate_total(bill, tip)
+  (tip + bill).round(2)
+end
+
 def tip_calculator()
   prompt 'What is the bill?'
   bill = get_input
