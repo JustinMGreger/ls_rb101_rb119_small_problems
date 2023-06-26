@@ -1,3 +1,5 @@
+# frozen_string_literal: true 
+
 def tip_calculator
   puts 'What is the bill?' 
   bill = gets.chomp.to_f 
