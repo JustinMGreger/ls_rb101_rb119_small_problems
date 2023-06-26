@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+def prompt(message)
+  puts message
+end
+
+
+
 def what_is_the_bill
   puts 'What is the bill?'
 end
@@ -9,8 +15,9 @@ def what_is_the_tip_percentage
 end
 
 def tip_calculator()
+  what_is_the_bill
+  what_is_the_tip_percentage
   bill = gets.chomp.to_f
-
   tip_rate = gets.chomp.to_f / 100
   tip = (bill * tip_rate).round(2)
   total = (tip + bill).round(2)
