@@ -3,7 +3,7 @@ def tip_calculator
   bill = gets.chomp.to_f 
   puts 'What is the tip percentage?'
   tip_rate = gets.chomp.to_f 
-  tip =  bill * tip_rate
+  tip =  (bill * tip_rate).round(2)
 The program must compute the tip and then display both the tip and the total amount of the bill.
 end
 Example:
