@@ -10,11 +10,11 @@ def input
   gets.chomp.to_i
 end
 
+def retirement
 prompt 'What is your age?'
 age = input
 prompt 'At what age would you like to retire?' 
 retire = input 
-
 prompt "It's 2016. You will retire in 2056."
 prompt "You have only 40 years of work to go!"
 end
