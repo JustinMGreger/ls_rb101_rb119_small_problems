@@ -28,6 +28,7 @@ def tip_calculator()
   tip_rate = get_input
   tip = calculate_tip(bill, tip_rate)
   total = calculate_total(bill, tip)
+  display_results(tip, total)
 end
 
 tip_calculator
