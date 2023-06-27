@@ -21,6 +21,7 @@ def retirement
   age = input
   prompt 'At what age would you like to retire?'
   retirement_age = input
+  current_year = Time.now.year
   work_years = years_of_work(retirement_age, age)
   retirement_year = retirement_year(work_years)
   prompt "It's 2016. You will retire in #{retirement_year}."
