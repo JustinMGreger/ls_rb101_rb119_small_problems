@@ -23,8 +23,6 @@ def tip_calculator()
   tip_rate = get_input
   tip = calculate_tip(bill, tip_rate)
   total = calculate_total(bill, tip)
-  puts "The tip is $#{format('%.2f', tip)}"
-  puts "The total is $#{format('%.2f', total)}"
 end
 
 tip_calculator
