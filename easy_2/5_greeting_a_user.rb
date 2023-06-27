@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-
+def prompt(message)
+  puts message
+end
 
 What is your name? 
 user_input = Bob
