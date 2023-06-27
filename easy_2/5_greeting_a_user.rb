@@ -6,7 +6,7 @@ end
 
 def user_name
   prompt 'What is your name?' 
-  name = Bob
+  name = gets.chomp
   prompt "Hello Bob."
   prompt 'What is your name?' 
   name = Bob!
