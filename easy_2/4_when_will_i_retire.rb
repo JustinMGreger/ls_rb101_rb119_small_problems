@@ -24,7 +24,7 @@ def retirement
   current_year = Time.now.year
   work_years = years_of_work(retirement_age, age)
   retirement_year = retirement_year(work_years)
-  prompt "It's 2016. You will retire in #{retirement_year}."
+  prompt "It's #{current_year}. You will retire in #{retirement_year}."
   prompt "You have only #{work_years} years of work to go!"
 end
 
