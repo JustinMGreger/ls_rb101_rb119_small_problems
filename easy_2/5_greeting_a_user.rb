@@ -9,7 +9,7 @@ def user_name
   name = gets.chomp
   if name.end_with?('!')
     name = name.chop
-    prompt "HELLO BOB. WHY ARE WE SCREAMING?"
+    prompt "HELLO #{name.upcase}. WHY ARE WE SCREAMING?"
   else 
     prompt "Hello #{name}."
   name = Bob!
