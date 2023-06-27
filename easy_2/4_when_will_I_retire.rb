@@ -11,9 +11,9 @@ def input
 end
 
 prompt 'What is your age?'
-age = gets.chomp.to_i  
+age = input
 prompt 'At what age would you like to retire?' 
-retire = gets.chomp.to_i  
+retire = input 
 
 prompt "It's 2016. You will retire in 2056."
 prompt "You have only 40 years of work to go!"
