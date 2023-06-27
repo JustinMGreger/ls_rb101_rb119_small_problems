@@ -12,7 +12,7 @@ def years_of_work(retirement_age, age)
   years_of_work = retirement_age - age
 end
 
-def retirement_year
+def retirement_year(years_of_work)
   retirement_year = years_of_work + 2016
 end
 
