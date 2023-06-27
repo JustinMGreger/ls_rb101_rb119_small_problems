@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+
 
 What is your name? 
 user_input = Bob
