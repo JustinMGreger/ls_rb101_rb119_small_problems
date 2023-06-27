@@ -6,6 +6,10 @@ def prompt(message)
   puts message
 end
 
+def input
+  gets.chomp.to_i
+end
+
 prompt 'What is your age?'
 age = gets.chomp.to_i  
 prompt 'At what age would you like to retire?' 
