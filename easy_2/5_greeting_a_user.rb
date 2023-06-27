@@ -10,6 +10,7 @@ def user_name
   if name.end_with?('!')
   else 
   prompt "Hello #{name}."
+  name = name.chop
   name = Bob!
   prompt "HELLO BOB. WHY ARE WE SCREAMING?"
 end
