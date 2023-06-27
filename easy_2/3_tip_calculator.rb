@@ -21,7 +21,7 @@ def display_results(tip, total)
   prompt "The total is $#{format('%.2f', total)}"
 end
 
-def tip_calculator()
+def tip_calculator
   prompt 'What is the bill?'
   bill = input
   prompt 'What is the tip percentage?'
