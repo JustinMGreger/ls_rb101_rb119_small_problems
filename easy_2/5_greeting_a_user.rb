@@ -8,7 +8,6 @@ def user_name
   prompt 'What is your name?' 
   name = gets.chomp
   prompt "Hello #{name}."
-  prompt 'What is your name?' 
   name = Bob!
   prompt "HELLO BOB. WHY ARE WE SCREAMING?"
 end
