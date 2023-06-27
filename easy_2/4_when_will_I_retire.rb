@@ -9,7 +9,7 @@ end
 prompt 'What is your age?'
 age = gets.chomp.to_i  
 prompt 'At what age would you like to retire?' 
-70
+retire = gets.chomp.to_i  
 
 prompt "It's 2016. You will retire in 2056."
 prompt "You have only 40 years of work to go!"
