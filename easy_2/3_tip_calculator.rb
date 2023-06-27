@@ -4,7 +4,7 @@ def prompt(message)
   puts message
 end
 
-def get_input
+def input
   gets.chomp.to_f
 end
 
@@ -23,9 +23,9 @@ end
 
 def tip_calculator()
   prompt 'What is the bill?'
-  bill = get_input
+  bill = input
   prompt 'What is the tip percentage?'
-  tip_rate = get_input
+  tip_rate = input
   tip = calculate_tip(bill, tip_rate)
   total = calculate_total(bill, tip)
   display_results(tip, total)
