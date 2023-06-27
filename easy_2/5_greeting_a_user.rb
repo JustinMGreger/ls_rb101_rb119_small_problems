@@ -12,6 +12,7 @@ def user_name
     prompt "HELLO #{name.upcase}. WHY ARE WE SCREAMING?"
   else 
     prompt "Hello #{name}."
+  end
 end
 
 user_name
