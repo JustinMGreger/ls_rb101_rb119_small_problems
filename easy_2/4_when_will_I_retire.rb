@@ -14,6 +14,10 @@ def years_of_work
   years_of_work = retirement_age - age
 end
 
+def retirement_year
+  retirement_year = years_of_work + 2016
+end
+
 def retirement
   prompt 'What is your age?'
   age = input
