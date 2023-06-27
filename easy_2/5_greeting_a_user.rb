@@ -7,7 +7,7 @@ end
 def user_name
   prompt 'What is your name?' 
   name = gets.chomp
-  if
+  if name.end_with?('!')
   else 
   prompt "Hello #{name}."
   name = Bob!
