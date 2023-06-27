@@ -6,9 +6,9 @@ end
 
 def user_name
   prompt 'What is your name?' 
-  user_input = Bob
+  name = Bob
   prompt "Hello Bob."
   prompt 'What is your name?' 
-  user_input = Bob!
+  name = Bob!
   prompt "HELLO BOB. WHY ARE WE SCREAMING?"
 end
