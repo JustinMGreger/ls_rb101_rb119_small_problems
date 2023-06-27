@@ -8,7 +8,7 @@ def input
   gets.chomp.to_i
 end
 
-def years_of_work
+def years_of_work(retirement_age, age)
   years_of_work = retirement_age - age
 end
 
