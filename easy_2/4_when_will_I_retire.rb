@@ -7,7 +7,7 @@ def prompt(message)
 end
 
 prompt 'What is your age?'
- 30
+age = gets.chomp.to_i  
 prompt 'At what age would you like to retire?' 
 70
 
