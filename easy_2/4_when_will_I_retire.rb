@@ -2,6 +2,10 @@ Build a program that displays when the user will retire and how many years she h
 
 Example:
 
+def prompt(message)
+  puts message
+end
+
 'What is your age?'
  30
 'At what age would you like to retire?' 
