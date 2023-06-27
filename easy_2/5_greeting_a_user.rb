@@ -6,7 +6,7 @@ end
 
 prompt 'What is your name?' 
 user_input = Bob
-Hello Bob.
+prompt "Hello Bob."
 What is your name? 
 user_input = Bob!
 HELLO BOB. WHY ARE WE SCREAMING?
