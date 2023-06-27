@@ -24,3 +24,5 @@ def retirement
   prompt "It's 2016. You will retire in #{retirement_year}."
   prompt "You have only #{years_of_work} years of work to go!"
 end
+
+retirement
