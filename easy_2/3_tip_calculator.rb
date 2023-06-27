@@ -16,6 +16,11 @@ def calculate_total(bill, tip)
   (tip + bill).round(2)
 end
 
+def display_results(tip, total)
+  prompt "The tip is $#{format('%.2f', tip)}"
+  prompt "The total is $#{format('%.2f', total)}"
+end
+
 def tip_calculator()
   prompt 'What is the bill?'
   bill = get_input
