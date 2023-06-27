@@ -13,3 +13,5 @@ def user_name
   else 
     prompt "Hello #{name}."
 end
+
+user_name
