@@ -12,8 +12,8 @@ def years_of_work(retirement_age, age)
   retirement_age - age
 end
 
-def retirement_year(years_of_work, current_year)
-  years_of_work + current_year
+def retirement_year(work_years, current_year)
+  work_years + current_year
 end
 
 def retirement
