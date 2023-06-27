@@ -6,9 +6,9 @@ def prompt(message)
   puts message
 end
 
-'What is your age?'
+prompt 'What is your age?'
  30
-'At what age would you like to retire?' 
+prompt 'At what age would you like to retire?' 
 70
 
 "It's 2016. You will retire in 2056."
