@@ -20,5 +20,5 @@ def retirement
   prompt 'At what age would you like to retire?' 
   retirement_age = input 
   prompt "It's 2016. You will retire in 2056."
-  prompt "You have only 40 years of work to go!"
+  prompt "You have only #{years_of_work} years of work to go!"
 end
