@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Sum or Product of Consecutive Integers
 
 Write a program that asks the user to enter an integer greater than 0, then asks if the user wants to determine the sum or
