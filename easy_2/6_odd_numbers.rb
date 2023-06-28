@@ -5,3 +5,7 @@ def odd_numbers
 end
 
 odd_numbers
+
+Further Exploration
+
+Repeat this exercise You may want to explore the use  Array#select methods 
