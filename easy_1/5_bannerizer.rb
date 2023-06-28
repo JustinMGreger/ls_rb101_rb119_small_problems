@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 def print_in_box(message)
   max_width = 76
