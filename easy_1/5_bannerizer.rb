@@ -26,7 +26,7 @@ def print_in_box(message)
   horizontal_rule = "+#{'-' * (max_line_length + 2)}+"
   empty_line = "|#{' ' * (max_line_length + 2)}|"
 
-  puts horizontal_rule
+  prompt horizontal_rule
   puts empty_line
   message.split("\n").each { |line| puts "| #{line.ljust(max_line_length)} |" }
   puts empty_line
