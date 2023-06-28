@@ -12,7 +12,7 @@ def print_in_box(message)
   lines = ['']
   words.each do |word|
     while word.length > max_message_width
-      lines[-1] += word.slice!(0..max_message_width - 1) + ' '
+      lines[-1] += "#{word.slice!(0..max_message_width - 1)} "
       lines << '' if word.empty?
     end
     if (lines[-1] + word + ' ').length > max_message_width
@@ -32,3 +32,5 @@ def print_in_box(message)
   prompt empty_line
   prompt horizontal_rule
 end
+
+print_in_box
