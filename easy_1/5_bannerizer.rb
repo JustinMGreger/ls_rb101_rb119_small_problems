@@ -27,14 +27,3 @@ def print_in_box(message)
   puts empty_line
   puts horizontal_rule
 end
-
-test:
-print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
-
-the output of which is:
-+--------------------------------------------------------------------------+
-|                                                                          |
-| !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefgh |
-| ijklmnopqrstuvwxyz{|}~;                                                  |
-|                                                                          |
-+--------------------------------------------------------------------------+
