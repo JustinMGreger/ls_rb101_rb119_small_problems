@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+def prompt(message)  
+  puts message
+end
+
 Sum or Product of Consecutive Integers
 
 Write a program that asks the user to enter an integer greater than 0, then asks if the user wants to determine the sum or
