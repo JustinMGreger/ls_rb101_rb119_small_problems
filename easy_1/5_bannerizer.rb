@@ -30,5 +30,5 @@ def print_in_box(message)
   prompt empty_line
   message.split("\n").each { |line| puts "| #{line.ljust(max_line_length)} |" }
   prompt empty_line
-  puts horizontal_rule
+  prompt horizontal_rule
 end
