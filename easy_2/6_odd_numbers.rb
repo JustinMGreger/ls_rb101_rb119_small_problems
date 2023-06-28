@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
 def odd_numbers
-  integer#upto
-
-  value = 1
+  1.upto
   while value <= 99
     puts value
     value += 2
