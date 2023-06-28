@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def odd_numbers
-  1.upto(99) do |value| puts value if value.odd?
+  1.upto(99) {|value| puts value if value % 2 != 0 }
 end
 
 odd_numbers
