@@ -13,7 +13,7 @@ def print_in_box(message)
   words.each do |word|
     while word.length > max_message_width
       lines[-1] += word.slice!(0..max_message_width-1) + ' '
-      lines << '' if word.length > 0
+      lines << '' if word.empty?
     end
     if (lines[-1] + word + ' ').length > max_message_width
       lines << ''
