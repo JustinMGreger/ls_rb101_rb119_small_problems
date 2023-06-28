@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-all odd numbers  to the console, with each number on a separate line.
+to the console, with each number on a separate line.
 
 def odd_numbers
-  print 1..99
+  print 1..99.odd?
 end
