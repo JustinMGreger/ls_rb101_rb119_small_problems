@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+def prompt(message)  
+  puts message
+end
+
 def print_in_box(message)
   max_width = 76
   max_message_width = max_width - 4 
