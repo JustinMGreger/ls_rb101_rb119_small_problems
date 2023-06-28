@@ -16,3 +16,6 @@ def user_name
 end
 
 user_name
+
+Further Exploration
+Try modifying our solution to use String#chomp! and String#chop!, respectively.
