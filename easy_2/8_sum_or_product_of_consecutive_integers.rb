@@ -33,3 +33,5 @@ def sum_or_product_of_consecutive_integers
     prompt "The product of the integers between 1 and #{number} is #{product}."
   end
 end
+
+sum_or_product_of_consecutive_integers
