@@ -20,6 +20,11 @@ def product_of_integers(input)
   (1..input).reduce(1, :*)
 end
 
+def get_number
+end
+
+
+
 def perform_operation(number, operation)
   if operation == 's'
     sum = sum_of_integers(number)
