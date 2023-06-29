@@ -27,6 +27,7 @@ end
 
 def get_operation
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
+  input_string
 end
 
 def perform_operation(number, operation)
