@@ -18,7 +18,7 @@ end
 
 def sum_or_product_of_consecutive_integers
   prompt '>> Please enter an integer greater than 0:'
-  input
+  number = input
   prompt '>> Enter 's' to compute the sum, 'p' to compute the product.'
   if input == 's'
     sum = sum_of_integers(input)
