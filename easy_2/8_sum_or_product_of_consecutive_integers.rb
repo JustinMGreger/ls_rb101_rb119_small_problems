@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-Write a program that asks the user to enter an integer greater than 0, then asks if the user wants to determine the sum or product of all numbers between 1 and the entered integer.
+Write a program that asks the user to enter an integer greater than 0, then asks if the user wants to determine the sum or
+product of all numbers between 1 and the entered integer.
+
+Your own solution probably should try to validate input and issue error messages as needed.
 
 Examples:
 
