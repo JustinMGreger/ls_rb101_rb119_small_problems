@@ -25,7 +25,7 @@ def get_number
   input_integer
 end
 
-def get_operation
+def operation_choice
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
   input_string
 end
@@ -42,7 +42,7 @@ end
 
 def sum_or_product_of_consecutive_integers
   number = input_integer
-  operation = get_operation
+  operation = operation_choice
   perform_operation(number, operation)
 end
 
