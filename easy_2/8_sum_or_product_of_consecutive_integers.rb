@@ -12,7 +12,9 @@ def sum_of_integers(input)
   (1..input).reduce(0, :+)
 end
 
-
+def product_of_integers(input)
+  (1..input).reduce(0, :*)
+end
 
 def sum_or_product_of_consecutive_integers
 prompt '>> Please enter an integer greater than 0:'
