@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def prompt(message)  
+def prompt(message)
   puts message
 end
 
