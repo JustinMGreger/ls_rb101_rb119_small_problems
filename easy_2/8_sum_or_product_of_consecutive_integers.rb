@@ -23,4 +23,4 @@ prompt >> 'Please enter an integer greater than 0:'
 6
 
 
-prompt The product of the integers between 1 and 6 is 720.
+prompt The product of the integers between 1 and #{6} is #{720}.
