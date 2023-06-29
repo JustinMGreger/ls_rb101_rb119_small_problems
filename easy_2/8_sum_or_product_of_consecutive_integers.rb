@@ -25,7 +25,7 @@ def sum_or_product_of_consecutive_integers
     prompt "The sum of the integers between 1 and #{number} is #{sum}."
   else
     product = product_of_integers(number)
-    prompt "The product of the integers between 1 and #{input} is #{product}."
+    prompt "The product of the integers between 1 and #{number} is #{product}."
   end
 end
 
