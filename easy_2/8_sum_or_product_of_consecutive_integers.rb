@@ -40,11 +40,10 @@ def perform_operation(number, operation)
   end
 end
 
-
-
 def sum_or_product_of_consecutive_integers
   number = input_integer
   operation = get_operation
+  perform_operation(number, operation)
 end
 
 sum_or_product_of_consecutive_integers
