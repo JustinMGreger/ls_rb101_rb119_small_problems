@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+puts '>> Please enter an integer greater than 0'
+number = gets.chomp.to_i
+
+puts ">> Enter 's' to compute the sum, 'p' to compute the product."
+operation = gets.chomp
+
 def compute_sum(number)
   total = 0
   1.upto(number) { |value| total += value }
@@ -11,12 +17,6 @@ def compute_product(number)
   1.upto(number) { |value| total *= value }
   total
 end
-
-puts '>> Please enter an integer greater than 0'
-number = gets.chomp.to_i
-
-puts ">> Enter 's' to compute the sum, 'p' to compute the product."
-operation = gets.chomp
 
 if operation == 's'
   sum = compute_sum(number)
