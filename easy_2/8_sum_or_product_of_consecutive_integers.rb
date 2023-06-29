@@ -4,9 +4,10 @@ def prompt(message)
   puts message
 end
 
-def input  
+def input_integer
   gets.chomp.to_i
 end
+
 
 def sum_of_integers(input)
   (1..input).reduce(0, :+)
