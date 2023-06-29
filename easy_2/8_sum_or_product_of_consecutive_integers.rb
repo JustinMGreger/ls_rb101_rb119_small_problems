@@ -4,7 +4,7 @@ def prompt(message)
   puts message
 end
 
-Sum or Product of Consecutive Integers
+def sum_or_product_of_consecutive_integers
 
 
 Examples:
