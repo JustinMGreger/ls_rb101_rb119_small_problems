@@ -20,6 +20,11 @@ def product_of_integers(input)
   (1..input).reduce(1, :*)
 end
 
+def perform_operation(number, operation)
+end
+
+
+
 def sum_or_product_of_consecutive_integers
   prompt '>> Please enter an integer greater than 0:'
   number = input_integer
