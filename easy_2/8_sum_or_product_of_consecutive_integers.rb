@@ -4,6 +4,10 @@ def prompt(message)
   puts message
 end
 
+def input  
+  gets.chomp.to_i
+end
+
 def sum_or_product_of_consecutive_integers
 prompt '>> Please enter an integer greater than 0:'
 5
