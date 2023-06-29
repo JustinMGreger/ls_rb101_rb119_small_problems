@@ -13,7 +13,7 @@ def sum_of_integers(input)
 end
 
 def product_of_integers(input)
-  (1..input).reduce(0, :*)
+  (1..input).reduce(1, :*)
 end
 
 def sum_or_product_of_consecutive_integers
@@ -29,7 +29,12 @@ def sum_or_product_of_consecutive_integers
   end
 end
 
-
+syntax error, unexpected local variable or method, expecting end-of-input
+  19  def sum_or_product_of_consecutive_integers
+> 20    prompt '>> Please enter an integer greater than 0:'
+> 21    input
+> 22    prompt '>> Enter 's' to compute the sum, 'p' to compute the product.'
+  30  end
 
 
 
