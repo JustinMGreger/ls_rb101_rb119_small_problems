@@ -21,7 +21,7 @@ def sum_or_product_of_consecutive_integers
   number = input
   prompt '>> Enter 's' to compute the sum, 'p' to compute the product.'
   if input == 's'
-    sum = sum_of_integers(input)
+    sum = sum_of_integers(number)
     prompt "The sum of the integers between 1 and #{input} is #{sum}."
   else
     product = product_of_integers(input)
