@@ -29,15 +29,3 @@ def sum_or_product_of_consecutive_integers
     prompt "The product of the integers between 1 and #{number} is #{product}."
   end
 end
-
-syntax error, unexpected local variable or method, expecting end-of-input
-  19  def sum_or_product_of_consecutive_integers
-> 20    prompt '>> Please enter an integer greater than 0:'
-> 21    input
-> 22    prompt '>> Enter 's' to compute the sum, 'p' to compute the product.'
-  30  end
-
-
-
-
-
