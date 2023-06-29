@@ -25,7 +25,7 @@ if input == 's'
   prompt "The sum of the integers between 1 and #{input} is #{15}."
 else
   product = product_of_integers(input)
-  prompt The product of the integers between 1 and #{6} is #{product}.
+  prompt The product of the integers between 1 and #{input} is #{product}.
 
 
 
