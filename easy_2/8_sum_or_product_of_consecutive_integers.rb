@@ -25,5 +25,5 @@ elsif operation == 'p'
   product = compute_product(number)
   puts "The product of the integers between 1 and #{number} is #{product}."
 else
-  puts "Oops. Unknown operation."
+  puts 'Oops. Unknown operation.'
 end
