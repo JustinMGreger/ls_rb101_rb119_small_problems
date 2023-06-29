@@ -21,6 +21,13 @@ def product_of_integers(input)
 end
 
 def perform_operation(number, operation)
+  if operation == 's'
+    sum = sum_of_integers(number)
+    prompt "The sum of the integers between 1 and #{number} is #{sum}."
+  else
+    product = product_of_integers(number)
+    prompt "The product of the integers between 1 and #{number} is #{product}."
+  end
 end
 
 
@@ -30,13 +37,6 @@ def sum_or_product_of_consecutive_integers
   number = input_integer
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
   operation = input_string
-  if operation == 's'
-    sum = sum_of_integers(number)
-    prompt "The sum of the integers between 1 and #{number} is #{sum}."
-  else
-    product = product_of_integers(number)
-    prompt "The product of the integers between 1 and #{number} is #{product}."
-  end
 end
 
 sum_or_product_of_consecutive_integers
