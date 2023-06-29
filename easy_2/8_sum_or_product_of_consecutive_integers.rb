@@ -44,7 +44,7 @@ end
 
 def sum_or_product_of_consecutive_integers
   number = input_integer
-  operation = input_string
+  operation = get_operation
 end
 
 sum_or_product_of_consecutive_integers
