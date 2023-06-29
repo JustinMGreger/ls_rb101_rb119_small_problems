@@ -5,10 +5,6 @@ def prompt(message)
 end
 
 def sum_or_product_of_consecutive_integers
-
-
-Examples:
-
 prompt '>> Please enter an integer greater than 0:'
 5
 prompt '>> Enter 's' to compute the sum, 'p' to compute the product.'
