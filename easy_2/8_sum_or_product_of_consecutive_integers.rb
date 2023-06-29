@@ -1,49 +1,29 @@
 # frozen_string_literal: true
 
-def prompt(message)
-  puts message
+def compute_sum(number)
+  total = 0
+  1.upto(number) { |value| total += value }
+  total
 end
 
-def input_integer
-  gets.chomp.to_i
+def compute_product(number)
+  total = 1
+  1.upto(number) { |value| total *= value }
+  total
 end
 
-def input_string
-  gets.chomp
-end
+puts ">> Please enter an integer greater than 0"
+number = gets.chomp.to_i
 
-def sum_of_integers(input)
-  (1..input).reduce(0, :+)
-end
+puts ">> Enter 's' to compute the sum, 'p' to compute the product."
+operation = gets.chomp
 
-def product_of_integers(input)
-  (1..input).reduce(1, :*)
+if operation == 's'
+  sum = compute_sum(number)
+  puts "The sum of the integers between 1 and #{number} is #{sum}."
+elsif operation == 'p'
+  product = compute_product(number)
+  puts "The product of the integers between 1 and #{number} is #{product}."
+else
+  puts "Oops. Unknown operation."
 end
-
-def number_choice
-  prompt '>> Please enter an integer greater than 0:'
-  input_integer
-end
-
-def operation_choice
-  prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
-  input_string
-end
-
-def perform_operation(number, operation)
-  if operation == 's'
-    sum = sum_of_integers(number)
-    prompt "The sum of the integers between 1 and #{number} is #{sum}."
-  else
-    product = product_of_integers(number)
-    prompt "The product of the integers between 1 and #{number} is #{product}."
-  end
-end
-
-def sum_or_product_of_consecutive_integers
-  number = number_choice
-  operation = operation_choice
-  perform_operation(number, operation)
-end
-
-sum_or_product_of_consecutive_integers
