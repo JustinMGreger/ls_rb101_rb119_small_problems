@@ -22,6 +22,7 @@ end
 
 def get_number
   prompt '>> Please enter an integer greater than 0:'
+  input_integer
 end
 
 
