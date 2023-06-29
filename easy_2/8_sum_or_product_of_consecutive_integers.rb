@@ -11,7 +11,7 @@ product of all numbers between 1 and the entered integer.
 
 Examples:
 
->> Please enter an integer greater than 0:
+prompt >> Please enter an integer greater than 0:
 5
 >> Enter 's' to compute the sum, 'p' to compute the product.
 s
