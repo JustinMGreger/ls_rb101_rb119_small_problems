@@ -13,7 +13,7 @@ Examples:
 
 prompt >> Please enter an integer greater than 0:
 5
->> Enter 's' to compute the sum, 'p' to compute the product.
+prompt >> Enter 's' to compute the sum, 'p' to compute the product.
 s
 The sum of the integers between 1 and 5 is 15.
 
