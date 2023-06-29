@@ -20,7 +20,7 @@ def product_of_integers(input)
   (1..input).reduce(1, :*)
 end
 
-def get_number
+def number_choice
   prompt '>> Please enter an integer greater than 0:'
   input_integer
 end
@@ -41,7 +41,7 @@ def perform_operation(number, operation)
 end
 
 def sum_or_product_of_consecutive_integers
-  number = input_integer
+  number = number_choice
   operation = operation_choice
   perform_operation(number, operation)
 end
