@@ -25,7 +25,8 @@ def get_number
   input_integer
 end
 
-
+def get_operation
+end
 
 def perform_operation(number, operation)
   if operation == 's'
