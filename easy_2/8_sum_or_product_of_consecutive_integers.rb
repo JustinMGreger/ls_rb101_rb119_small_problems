@@ -10,8 +10,6 @@ def prompt(message)
   puts message
 end
 
-Your own solution probably should try to validate input and issue error messages as needed.
-
 prompt '>> Please enter an integer greater than 0:'
 input = 5
 if input is <= 0 then put 'error' and go back to asking the question in a loop until it is correct.
