@@ -6,6 +6,10 @@ def prompt(message)
   puts message
 end
 
+def integer_input  
+  gets.chomp.to_i
+end
+
 def sum(input)
   #inject
 end
