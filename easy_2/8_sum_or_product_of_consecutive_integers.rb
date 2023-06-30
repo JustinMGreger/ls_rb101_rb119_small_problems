@@ -6,8 +6,6 @@ product of all numbers between 1 and the entered integer.
 Your own solution probably should try to validate input and issue error messages as needed.
 Try to use #inject in your solution to this problem.
 
-Examples:
-
 '>> Please enter an integer greater than 0:'
 5
 ">> Enter 's' to compute the sum, 'p' to compute the product."
