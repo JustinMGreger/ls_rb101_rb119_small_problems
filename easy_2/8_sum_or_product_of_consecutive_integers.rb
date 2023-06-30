@@ -54,3 +54,5 @@ def operation_flow(input, op)
     prompt "The product of the integers between 1 and #{input} is #{result}."
   end
 end
+
+input = integer_prompt
