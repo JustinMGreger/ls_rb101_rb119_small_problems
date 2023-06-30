@@ -19,8 +19,8 @@ def product(input)
 end
 
 prompt '>> Please enter an integer greater than 0:'
-input = 5
-if input is <= 0 then prompt 'error' and go back to asking the question in a loop until it is correct.
+integer_input 
+if integer_input <= 0 then prompt 'error' and go back to asking the question in a loop until it is correct.
 
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
 if operation = 's'
