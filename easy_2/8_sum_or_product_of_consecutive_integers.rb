@@ -36,8 +36,11 @@ def integer_error
   end 
 end
 
+def operation_prompt
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
   operation
+end
+
 if operation = 's'
   prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
 elsif operation = 'p'
