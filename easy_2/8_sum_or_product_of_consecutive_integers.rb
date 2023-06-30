@@ -47,7 +47,7 @@ def operation_flow
   elsif operation = 'p'
     prompt "The product of the integers between 1 and #{integer_input} is #{product}."
   else
-    prompt "error! >> Enter 's' to compute the sum, 'p' to compute the product."  
+    prompt "error! >> Enter 's' to compute the sum, 'p' to compute the product."
     operation
   end
 end
