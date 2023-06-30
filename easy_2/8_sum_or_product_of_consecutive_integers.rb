@@ -25,8 +25,13 @@ def product(numbers)
 end
 
 def integer_prompt
-  prompt '>> Please enter an integer greater than 0:'
-  integer_input
+  prompt 'Please enter an integer greater than 0:'
+  input = integer_input
+  while input <= 0
+    prompt 'Please enter an integer greater than 0:'
+  input = integer_input
+  end
+input
 end
 
 def integer_error
