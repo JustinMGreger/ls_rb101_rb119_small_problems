@@ -30,8 +30,8 @@ def integer_prompt
 end
 
 def integer_error
-  if integer_input <= 0 
-    prompt 'error! >> Please enter an integer greater than 0:' 
+  if integer_input <= 0
+    prompt 'error! >> Please enter an integer greater than 0:'
     integer_input
   end 
 end
