@@ -14,14 +14,18 @@ def operation
   gets.chomp
 end
 
-def sum(integer_input)
+def numbers(integer_input)
   numbers = (1..integer_input).to_a
+end
+
+def sum(integer_input)
+
   sum = numbers.inject(:+) 
 end
 
 def product(integer_input)
-  #inject
-  #{integer_input}
+  numbers = (1..integer_input).to_a
+  product = numbers.inject(:*) 
 end
 
 prompt '>> Please enter an integer greater than 0:'
