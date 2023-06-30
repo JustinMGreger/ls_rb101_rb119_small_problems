@@ -45,7 +45,8 @@ def operation_prompt
 end
 
 def operation_flow(input, op)
-  if operation == 's'
+  num_list = numbers(input)
+  if op == 's'
     prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
   else operation == 'p'
     prompt "The product of the integers between 1 and #{integer_input} is #{product}."
