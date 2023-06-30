@@ -31,9 +31,10 @@ integer_input
 if integer_input <= 0 
   prompt 'error! >> Please enter an integer greater than 0:' 
   integer_input 
-elsif
+end
+
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
-elsif operation = 's'
+if operation = 's'
   prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
 elsif operation = 'p'
   prompt "The product of the integers between 1 and #{integer_input} is #{product}."
