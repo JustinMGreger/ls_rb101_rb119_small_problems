@@ -7,10 +7,12 @@ def prompt(message)
 end
 
 def sum
-#inject
+  #inject
 end
 
-
+def product
+  #inject
+end
 
 prompt '>> Please enter an integer greater than 0:'
 input = 5
