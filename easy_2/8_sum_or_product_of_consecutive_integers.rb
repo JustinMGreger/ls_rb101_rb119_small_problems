@@ -22,8 +22,7 @@ def sum(numbers)
   sum = numbers.inject(:+) 
 end
 
-def product(integer_input)
-  numbers = (1..integer_input).to_a
+def product(numbers)
   product = numbers.inject(:*) 
 end
 
