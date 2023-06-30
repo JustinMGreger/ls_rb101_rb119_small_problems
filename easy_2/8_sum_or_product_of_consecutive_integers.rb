@@ -14,12 +14,12 @@ def operation
   gets.chomp
 end
 
-def sum(input)
+def sum(integer_input)
   #inject
   #{integer_input}
 end
 
-def product(input)
+def product(integer_input)
   #inject
   #{integer_input}
 end
