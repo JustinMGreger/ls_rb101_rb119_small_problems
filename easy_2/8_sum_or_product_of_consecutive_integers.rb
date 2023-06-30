@@ -31,9 +31,9 @@ end
 
 def integer_error
   return unless integer_input <= 0
-  
-    prompt 'error! >> Please enter an integer greater than 0:'
-    integer_input
+
+  prompt 'error! >> Please enter an integer greater than 0:'
+  integer_input
 end 
 
 def operation_prompt
