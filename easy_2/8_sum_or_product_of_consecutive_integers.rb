@@ -44,7 +44,7 @@ def operation_prompt
   op
 end
 
-def operation_flow
+def operation_flow(input, op)
   if operation == 's'
     prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
   else operation == 'p'
