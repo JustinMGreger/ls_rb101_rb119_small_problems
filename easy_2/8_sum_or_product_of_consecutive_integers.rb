@@ -34,10 +34,12 @@ if integer_input <= 0
 end
 
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
+  operation
 if operation = 's'
   prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
 elsif operation = 'p'
   prompt "The product of the integers between 1 and #{integer_input} is #{product}."
 else
-  prompt 'error' and go back to prompt ">> Enter 's' to compute the sum, 'p' to compute the product." in a loop until operation = 's' || operation = 'p'
+  prompt "error! >> Enter 's' to compute the sum, 'p' to compute the product."  
+  operation
 end
