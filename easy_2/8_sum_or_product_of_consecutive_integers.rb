@@ -36,7 +36,7 @@ end
 
 def operation_prompt
   prompt "Enter 's' to compute the sum, 'p' to compute the product."
-  operation
+  op = operation
 end
 
 def operation_flow
