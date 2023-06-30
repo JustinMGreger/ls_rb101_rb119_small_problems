@@ -26,8 +26,7 @@ end
 
 prompt '>> Please enter an integer greater than 0:'
 integer_input 
-if integer_input <= 0 then prompt 'error' and 
-  go back to prompt '>> Please enter an integer greater than 0:' in a loop until it is correct.
+if integer_input <= 0 then prompt 'error' and go back to prompt '>> Please enter an integer greater than 0:' in a loop until integer_input > 0
 
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
 if operation = 's'
@@ -35,5 +34,5 @@ if operation = 's'
 elsif operation = 'p'
   prompt "The product of the integers between 1 and #{integer_input} is #{720}."
 else
-  prompt 'error' and go back to asking the question in a loop until it is correct.
+  prompt 'error' and go back to prompt ">> Enter 's' to compute the sum, 'p' to compute the product." in a loop until it is correct.
 end
