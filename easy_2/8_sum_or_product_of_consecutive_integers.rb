@@ -8,7 +8,7 @@ Try to use #inject in your solution to this problem.
 
 Examples:
 
->> Please enter an integer greater than 0:
+'>> Please enter an integer greater than 0:'
 5
 >> Enter 's' to compute the sum, 'p' to compute the product.
 s
