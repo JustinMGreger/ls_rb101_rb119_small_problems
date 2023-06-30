@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-Try to use #inject in your solution to this problem.
-
 def prompt(message)  
   puts message
 end
