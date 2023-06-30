@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def prompt(message)
-  puts message
+  puts ">> #{message}"
 end
 
 def integer_input
