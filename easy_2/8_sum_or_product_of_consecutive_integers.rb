@@ -24,8 +24,11 @@ def product(numbers)
   product = numbers.inject(:*) 
 end
 
-prompt '>> Please enter an integer greater than 0:'
-integer_input 
+def integer_prompt
+  prompt '>> Please enter an integer greater than 0:'
+  integer_input 
+end
+
 if integer_input <= 0 
   prompt 'error! >> Please enter an integer greater than 0:' 
   integer_input 
