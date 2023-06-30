@@ -57,3 +57,4 @@ end
 
 input = integer_prompt
 op = operation_prompt
+operation_flow(input, op)
