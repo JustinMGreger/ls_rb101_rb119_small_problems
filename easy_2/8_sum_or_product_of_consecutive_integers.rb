@@ -21,7 +21,7 @@ def sum(numbers)
 end
 
 def product(numbers)
-  product = numbers.inject(:*)
+  numbers.inject(:*)
 end
 
 def integer_prompt
