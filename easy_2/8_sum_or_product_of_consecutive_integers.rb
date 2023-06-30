@@ -9,7 +9,7 @@ def integer_input
 end
 
 def operation
-  gets.chomp
+  gets.chomp.downcase
 end
 
 def numbers(integer_input)
