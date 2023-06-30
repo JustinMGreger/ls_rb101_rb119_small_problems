@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-def prompt(message)  
+def prompt(message)
   puts message
 end
 
-def integer_input  
+def integer_input
   gets.chomp.to_i
 end
 
-def operation  
+def operation
   gets.chomp
 end
 
@@ -17,7 +17,7 @@ def numbers(integer_input)
 end
 
 def sum(numbers)
-  sum = numbers.inject(:+) 
+  sum = numbers.inject(:+)
 end
 
 def product(numbers)
