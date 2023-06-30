@@ -15,8 +15,9 @@ def operation
 end
 
 def sum(integer_input)
-  #inject
-  #{integer_input}
+  numbers = (1..integer_input).to_a
+  sum = numbers.inject(0) { |accumulator, num| accumulator + num }
+  puts sum  
 end
 
 def product(integer_input)
@@ -34,5 +35,5 @@ if operation = 's'
 elsif operation = 'p'
   prompt "The product of the integers between 1 and #{integer_input} is #{720}."
 else
-  prompt 'error' and go back to prompt ">> Enter 's' to compute the sum, 'p' to compute the product." in a loop until it is correct.
+  prompt 'error' and go back to prompt ">> Enter 's' to compute the sum, 'p' to compute the product." in a loop until operation = 's' || operation = 'p'
 end
