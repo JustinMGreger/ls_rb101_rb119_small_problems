@@ -40,6 +40,8 @@ def operation_prompt
   while !['s', 'p'].include?(op)
     prompt "error! Enter 's' to compute the sum, 'p' to compute the product."
     op = operation
+  end
+  op
 end
 
 def operation_flow
