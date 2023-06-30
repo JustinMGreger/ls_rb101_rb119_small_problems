@@ -34,7 +34,7 @@ def integer_error
 
   prompt 'error! >> Please enter an integer greater than 0:'
   integer_input
-end 
+end
 
 def operation_prompt
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
@@ -44,7 +44,7 @@ end
 def operation_flow
   if operation == 's'
     prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
-  elsif operation = 'p'
+  elsif operation == 'p'
     prompt "The product of the integers between 1 and #{integer_input} is #{product}."
   else
     prompt "error! >> Enter 's' to compute the sum, 'p' to compute the product."
