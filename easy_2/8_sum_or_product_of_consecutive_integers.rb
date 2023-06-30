@@ -28,9 +28,10 @@ end
 
 prompt '>> Please enter an integer greater than 0:'
 integer_input 
-if integer_input <= 0 then prompt 'error! >> Please enter an integer greater than 0:' 
+if integer_input <= 0 
+  prompt 'error! >> Please enter an integer greater than 0:' 
+  integer_input 
 else
-
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
 if operation = 's'
   prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
