@@ -21,7 +21,7 @@ def sum(numbers)
 end
 
 def product(numbers)
-  product = numbers.inject(:*) 
+  product = numbers.inject(:*)
 end
 
 def integer_prompt
@@ -31,6 +31,7 @@ end
 
 def integer_error
   return unless integer_input <= 0
+  
     prompt 'error! >> Please enter an integer greater than 0:'
     integer_input
 end 
