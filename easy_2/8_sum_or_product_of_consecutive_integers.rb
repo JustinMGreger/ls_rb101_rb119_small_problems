@@ -13,11 +13,11 @@ def operation
 end
 
 def numbers(integer_input)
-  numbers = (1..integer_input).to_a
+  (1..integer_input).to_a
 end
 
 def sum(numbers)
-  sum = numbers.inject(:+)
+  numbers.inject(:+)
 end
 
 def product(numbers)
