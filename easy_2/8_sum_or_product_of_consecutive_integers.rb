@@ -42,7 +42,7 @@ def operation_prompt
 end
 
 def operation_flow
-  if operation = 's'
+  if operation == 's'
     prompt "The sum of the integers between 1 and #{integer_input} is #{sum}."
   elsif operation = 'p'
     prompt "The product of the integers between 1 and #{integer_input} is #{product}."
