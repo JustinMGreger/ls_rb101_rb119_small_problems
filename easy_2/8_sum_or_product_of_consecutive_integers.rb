@@ -16,10 +16,12 @@ end
 
 def sum(input)
   #inject
+  #{integer_input}
 end
 
 def product(input)
   #inject
+  #{integer_input}
 end
 
 prompt '>> Please enter an integer greater than 0:'
