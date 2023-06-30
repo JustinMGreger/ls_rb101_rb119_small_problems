@@ -18,8 +18,7 @@ def numbers(integer_input)
   numbers = (1..integer_input).to_a
 end
 
-def sum(integer_input)
-
+def sum(numbers)
   sum = numbers.inject(:+) 
 end
 
