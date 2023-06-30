@@ -56,3 +56,4 @@ def operation_flow(input, op)
 end
 
 input = integer_prompt
+op = operation_prompt
