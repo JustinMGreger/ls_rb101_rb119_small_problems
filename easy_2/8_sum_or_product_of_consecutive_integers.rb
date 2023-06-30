@@ -29,9 +29,11 @@ def integer_prompt
   integer_input 
 end
 
-if integer_input <= 0 
-  prompt 'error! >> Please enter an integer greater than 0:' 
-  integer_input 
+def integer_error
+  if integer_input <= 0 
+    prompt 'error! >> Please enter an integer greater than 0:' 
+    integer_input
+  end 
 end
 
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
