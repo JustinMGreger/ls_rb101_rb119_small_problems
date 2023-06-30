@@ -17,7 +17,7 @@ end
 def sum(integer_input)
   numbers = (1..integer_input).to_a
   sum = numbers.inject(0) { |accumulator, num| accumulator + num }
-  puts sum  
+  prompt sum  
 end
 
 def product(integer_input)
