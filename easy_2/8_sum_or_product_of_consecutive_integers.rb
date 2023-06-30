@@ -20,4 +20,4 @@ s
 prompt The sum of the integers between 1 and 5 is 15.
 
 p
-The product of the integers between 1 and 6 is 720.
+prompt "The product of the integers between 1 and 6 is 720."
