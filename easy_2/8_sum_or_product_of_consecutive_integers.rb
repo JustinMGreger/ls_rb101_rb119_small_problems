@@ -2,11 +2,15 @@
 
 Try to use #inject in your solution to this problem.
 
-
-
 def prompt(message)  
   puts message
 end
+
+def sum
+#inject
+end
+
+
 
 prompt '>> Please enter an integer greater than 0:'
 input = 5
