@@ -35,7 +35,7 @@ input
 end
 
 def operation_prompt
-  prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
+  prompt "Enter 's' to compute the sum, 'p' to compute the product."
   operation
 end
 
