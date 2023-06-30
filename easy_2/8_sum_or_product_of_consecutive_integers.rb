@@ -33,8 +33,7 @@ def integer_error
   return unless integer_input <= 0
     prompt 'error! >> Please enter an integer greater than 0:'
     integer_input
-  end 
-end
+end 
 
 def operation_prompt
   prompt ">> Enter 's' to compute the sum, 'p' to compute the product."
