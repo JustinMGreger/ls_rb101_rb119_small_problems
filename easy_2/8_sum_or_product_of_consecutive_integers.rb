@@ -10,6 +10,10 @@ def integer_input
   gets.chomp.to_i
 end
 
+def operation  
+  gets.chomp
+end
+
 def sum(input)
   #inject
 end
