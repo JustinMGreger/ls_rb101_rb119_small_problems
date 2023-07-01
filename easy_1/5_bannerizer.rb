@@ -23,7 +23,7 @@ def break_into_lines(message, max_message_width)
   lines = ['']
   words.each do |word|
     lines = split_word(lines, word, max_message_width)
-    lines = add_word_to_line(lines, word)
+    lines = add_word_to_line(lines, word, max_message_width)
   end
   lines.map(&:strip)
 end
@@ -50,4 +50,6 @@ def print_in_box(message)
   build_box(broken_message.join("\n"), max_line_length)
 end
 
-print_in_box
+print_in_box 
+
+`add_word_to_line': wrong number of arguments (given 2, expected 3) (ArgumentError)
