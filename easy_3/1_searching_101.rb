@@ -24,5 +24,3 @@ def appear_or_not(numbers)
     prompt "The number #{last_number} does not appear in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
   end
 end
-
-numbers = first_number, second_number, third_number, fourth_number, fifth_number, last_number
