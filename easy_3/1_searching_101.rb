@@ -8,11 +8,6 @@ def integer_input
   gets.chomp.to_i
 end
 
-def solicit_third_number
-  prompt '==> Enter the 3rd number:'
-  third_number = integer_input
-end
-
 def solicit_fourth_number
   prompt '==> Enter the 4th number:'
   fourth_number = integer_input
