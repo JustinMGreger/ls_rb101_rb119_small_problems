@@ -58,7 +58,3 @@ end
 input = integer_prompt
 opp = operation_prompt
 operation_flow(input, opp)
-
-C: [Correctable] Style/NegatedWhile: Favor until over while for negative conditions.
-  while !['s', 'p'].include?(opp) ...
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
