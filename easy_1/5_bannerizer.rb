@@ -39,9 +39,7 @@ def build_box(message, max_line_length)
   prompt horizontal_rule
 end
 
-
 def print_in_box(message)
-
   max_width = 76
   max_message_width = max_width - 4
 
