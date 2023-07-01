@@ -17,6 +17,7 @@ def add_word_to_line(lines, word)
     lines << ''
   end
   lines[-1] += word + ' ' unless word.empty?
+  lines
 end
 
 
