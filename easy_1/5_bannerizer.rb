@@ -13,7 +13,7 @@ def split_word(lines, word, max_message_width)
 end
 
 def add_word_to_line(lines, word, max_message_width)
-  lines << '' if (lines[-1] + word + ' ').length > max_message_width
+  lines << '' if "#{lines[-1]}#{word} ".length > max_message_width
   lines[-1] += word + ' ' unless word.empty?
   lines
 end
