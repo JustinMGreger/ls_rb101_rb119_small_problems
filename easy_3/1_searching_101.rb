@@ -18,7 +18,7 @@ def app(numbers, last_number)
 end
 
 def appear_or_not(numbers, last_number)
-  if app(numbers)
+  if app(numbers, last_number)
     prompt "The number #{last_number} appears in ."
   else
     prompt "The number #{last_number} does not appear in ."
