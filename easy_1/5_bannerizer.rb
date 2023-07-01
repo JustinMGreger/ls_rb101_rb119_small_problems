@@ -14,6 +14,7 @@ end
 
 def add_word_to_line(lines, word)
   if (lines[-1] + word + ' ').length > max_message_width
+    lines << ''
 end
 
 
@@ -21,8 +22,6 @@ def break_into_lines(message, max_message_width)
   words = message.split(' ')
   lines = ['']
   words.each do |word|
-    end
-      lines << ''
     end
     lines[-1] += word + ' ' unless word.empty?
   end
