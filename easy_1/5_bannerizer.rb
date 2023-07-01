@@ -13,7 +13,7 @@ def split_word(lines, word, max_message_width)
 end
 
 def add_word_to_line(lines, word)
-  if (lines[-1] + word + ' ').length > max_message_width
+  (lines[-1] + word + ' ').length > max_message_width
     lines << ''
   end
   lines[-1] += word + ' ' unless word.empty?
@@ -55,7 +55,3 @@ def print_in_box(message)
 end
 
 print_in_box
-
-C: Metrics/AbcSize: Assignment Branch Condition size for break_into_lines is too high. [<6, 17, 8> 19.72/17]
-def break_into_lines(message, max_message_width) ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
