@@ -20,6 +20,8 @@ def break_into_lines(message, max_message_width)
   lines.map(&:strip)
 end
 
+def build_box(message, max_line_length)
+end
 
 
 def print_in_box(message)
