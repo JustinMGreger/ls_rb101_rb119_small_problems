@@ -13,15 +13,15 @@ then prints a message that describes whether or not the 6th number appears among
 
 
 25
-==> Enter the 2nd number:
+prompt ==> Enter the 2nd number:
 15
-==> Enter the 3rd number:
+prompt ==> Enter the 3rd number:
 20
-==> Enter the 4th number:
+prompt ==> Enter the 4th number:
 17
-==> Enter the 5th number:
+prompt ==> Enter the 5th number:
 23
-==> Enter the last number:
+prompt ==> Enter the last number:
 17
 The number 17 appears in [25, 15, 20, 17, 23].
 
