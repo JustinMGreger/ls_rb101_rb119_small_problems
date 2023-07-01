@@ -1,9 +1,8 @@
 
-If the number is 0 or negative, return the original number.
 
 if 5  is a positive number then * -1 == -5
--3  
-0  
+if -3  is negative then the original number.
+if 0 is 0 then the original number.
 
 
 
