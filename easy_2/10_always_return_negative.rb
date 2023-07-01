@@ -9,9 +9,7 @@ def negative(number)
   end
 end
 
-negative(-3)
--3
-
-Test
-negative(-3) == -3
+negative(0)
+0
+negative(0) == 0   
 success!
