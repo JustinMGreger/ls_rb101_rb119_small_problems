@@ -23,16 +23,16 @@ def solicit_numbers
   last_number = integer_input
 end
 
-def appears
+def app
   [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}].include?(#{last_number})
-  true 
-    'appears'
-  false 
+  if true 
+    "appears"
+  else false 
     'does not appear'
 end
 
-def appear_or_not
-  prompt "The number #{last_number} #{appears} in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
+def appear_or_not(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
+  prompt "The number #{last_number} #{app} in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
 end
 
 appear_or_not
