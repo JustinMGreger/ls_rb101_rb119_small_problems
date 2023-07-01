@@ -29,7 +29,7 @@ then prints a message that describes whether or not the 6th number appears among
 
 
 
-prompt "The number 17 appears in [25, 15, 20, 17, 23]."
+prompt "The number #{last_number} appears in [25, 15, 20, 17, 23]."
 
 
 ==> Enter the 1st number:
