@@ -13,6 +13,7 @@ def break_into_lines(message, max_message_width)
       lines << '' if word.empty?
     end
     if (lines[-1] + word + ' ').length > max_message_width
+      lines << ''
 end
 
 
@@ -21,7 +22,6 @@ def print_in_box(message)
   max_width = 76
   max_message_width = max_width - 4
 
-      lines << ''
     end
     lines[-1] += word + ' ' unless word.empty?
   end
