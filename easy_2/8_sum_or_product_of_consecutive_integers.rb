@@ -37,7 +37,7 @@ end
 def operation_prompt
   prompt "Enter 's' to compute the sum, 'p' to compute the product."
   opp = operation
-  until ['s', 'p'].include?(opp)
+  until %w(s p).include?(opp)
     prompt "error! Enter 's' to compute the sum, 'p' to compute the product."
     opp = operation
   end
