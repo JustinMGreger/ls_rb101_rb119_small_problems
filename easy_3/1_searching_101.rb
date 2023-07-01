@@ -24,3 +24,8 @@ def appear_or_not(numbers)
     prompt "The number #{last_number} does not appear in ."
   end
 end
+
+numbers = []
+%w[1st 2nd 3rd 4th 5th].each do |order|
+  numbers << solicit_number(order)
+end
