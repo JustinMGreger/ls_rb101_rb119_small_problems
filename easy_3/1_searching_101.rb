@@ -8,11 +8,6 @@ def integer_input
   gets.chomp.to_i
 end
 
-def solicit_first_number
-  prompt '==> Enter the 1st number:'
-  first_number = integer_input
-end
-
 def solicit_second_number
   prompt '==> Enter the 2nd number:'
   second_number = integer_input
