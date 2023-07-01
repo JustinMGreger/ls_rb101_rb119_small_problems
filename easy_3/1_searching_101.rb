@@ -8,11 +8,6 @@ def integer_input
   gets.chomp.to_i
 end
 
-def solicit_last_number
-  prompt '==> Enter the last number:'
-  last_number = integer_input
-end
-
 def app(numbers)
   [first_number, second_number, third_number, fourth_number, fifth_number].include?(last_number)
 end
