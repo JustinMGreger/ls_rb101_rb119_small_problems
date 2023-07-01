@@ -14,7 +14,7 @@ def solicit_number(order)
 end
 
 def app(numbers, last_number)
-  
+  numbers.include?(last_number)
 end
 
 def appear_or_not(numbers)
