@@ -29,3 +29,5 @@ numbers = []
 %w[1st 2nd 3rd 4th 5th].each do |order|
   numbers << solicit_number(order)
 end
+
+last_number = solicit_number('last')
