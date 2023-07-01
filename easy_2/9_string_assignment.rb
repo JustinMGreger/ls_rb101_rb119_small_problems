@@ -23,3 +23,8 @@ save_name = name #  the save_name variable is assigned the name variable which i
 puts name, save_name #puts is put s which is put string which means print to the screen the string.
 # the name variable is assigned the 'BOB' string.
 # the save_name variable is assigned the name variable which is assigned the 'BOB' string.
+
+puts name, save_name    
+output:
+BOB
+BOB
