@@ -20,11 +20,11 @@ def add_word_to_line(lines, word)
   lines
 end
 
-
 def break_into_lines(message, max_message_width)
   words = message.split(' ')
   lines = ['']
   words.each do |word|
+    lines = split_word(lines, word, max_message_width)
   end
   lines.map(&:strip)
 end
