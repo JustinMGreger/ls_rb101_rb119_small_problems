@@ -9,9 +9,9 @@ def negative(number)
   end
 end
 
-negative(5) 
-
-result -5
+negative(-3)
+-3
 
 Test
-negative(5) == -5 success.
+negative(-3) == -3
+success!
