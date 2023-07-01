@@ -22,6 +22,7 @@ end
 
 def build_box(message, max_line_length)
   horizontal_rule = "+#{'-' * (max_line_length + 2)}+"
+  empty_line = "|#{' ' * (max_line_length + 2)}|"
 end
 
 
@@ -32,7 +33,6 @@ def print_in_box(message)
 .join("\n")
 
   max_line_length = [max_message_width, message.split("\n").map(&:length).max].min
-  empty_line = "|#{' ' * (max_line_length + 2)}|"
 
   prompt horizontal_rule
   prompt empty_line
