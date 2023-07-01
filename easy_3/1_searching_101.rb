@@ -31,3 +31,4 @@ numbers = []
 end
 
 last_number = solicit_number('last')
+appear_or_not(numbers, last_number)
