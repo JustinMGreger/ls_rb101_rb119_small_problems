@@ -1,9 +1,9 @@
 If the argument is a positive number, return the negative of that number. 
 If the number is 0 or negative, return the original number.
 
-5
--3
-0
+5 / 1 ==
+-3 / 1 ==
+0 / 1 ==
 
 
 
