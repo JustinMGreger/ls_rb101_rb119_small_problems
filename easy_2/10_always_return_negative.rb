@@ -1,7 +1,7 @@
-If the argument is a positive number, return the negative of that number. 
+
 If the number is 0 or negative, return the original number.
 
-5  * -1 == -5
+if 5  is a positive number then * -1 == -5
 -3  
 0  
 
