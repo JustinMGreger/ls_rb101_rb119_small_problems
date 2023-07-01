@@ -20,16 +20,16 @@ then prints a message that describes whether or not the 6th number appears among
 
 
 prompt '==> Enter the 3rd number:'
-3rd_number
+3rd_number = integer_input
 20
 prompt '==> Enter the 4th number:'
-4th_number
+4th_number = integer_input
 17
 prompt '==> Enter the 5th number:'
-5th_number
+5th_number = integer_input
 23
 prompt '==> Enter the last number:'
-last_number
+last_number = integer_input
 17
 prompt "The number 17 appears in [25, 15, 20, 17, 23]."
 
