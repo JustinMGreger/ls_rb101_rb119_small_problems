@@ -12,6 +12,10 @@ def split_word(lines, word, max_message_width)
   lines
 end
 
+def add_word_to_line(lines, word)
+end
+
+
 def break_into_lines(message, max_message_width)
   words = message.split(' ')
   lines = ['']
