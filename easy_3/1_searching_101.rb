@@ -30,5 +30,9 @@ end
 def appear_or_not(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
   if app(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
     prompt "The number #{last_number} appears in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
+  else
+    prompt "The number #{last_number} does not appear in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
+  end
+end
 
 appear_or_not(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
