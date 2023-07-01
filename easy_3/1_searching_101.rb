@@ -10,21 +10,21 @@ end
 
 def solicit_numbers
   prompt '==> Enter the 1st number:'
-  1st_number = integer_input
+  first_number = integer_input
   prompt '==> Enter the 2nd number:'
-  2nd_number = integer_input
+  second_number = integer_input
   prompt '==> Enter the 3rd number:'
-  3rd_number = integer_input
+  third_number = integer_input
   prompt '==> Enter the 4th number:'
-  4th_number = integer_input
+  fourth_number = integer_input
   prompt '==> Enter the 5th number:'
-  5th_number = integer_input
+  fifth_number = integer_input
   prompt '==> Enter the last number:'
   last_number = integer_input
 end
 
 def appears
-  [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}].include?(#{last_number})
+  [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}].include?(#{last_number})
   true 
     'appears'
   false 
@@ -32,7 +32,7 @@ def appears
 end
 
 def appear_or_not
-  prompt "The number #{last_number} #{appears} in [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}]."
+  prompt "The number #{last_number} #{appears} in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
 end
 
 appear_or_not
