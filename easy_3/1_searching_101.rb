@@ -9,8 +9,9 @@ def integer_input
 end
 
 def solicit_number(order)
-
-
+  prompt "==> Enter the #{order} number:"
+  integer_input
+end
 
 
 
