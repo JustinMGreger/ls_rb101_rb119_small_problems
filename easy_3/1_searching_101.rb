@@ -17,7 +17,7 @@ def app(numbers, last_number)
   numbers.include?(last_number)
 end
 
-def appear_or_not(numbers)
+def appear_or_not(numbers, last_number)
   if app(numbers)
     prompt "The number #{last_number} appears in ."
   else
