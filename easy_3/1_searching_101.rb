@@ -29,8 +29,8 @@ then prints a message that describes whether or not the 6th number appears among
 prompt "The number #{last_number} #{appears} in [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}]."
 
 def appears
-appears = appears or does not appear
-[#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}].include?(#{last_number})
+  [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}].include?(#{last_number})
+  appears = appears or does not appear
 end
 
 
