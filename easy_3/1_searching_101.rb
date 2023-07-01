@@ -8,6 +8,7 @@ def integer_input
   gets.chomp.to_i
 end
 
+def solicit_number(order)
 
 
 
