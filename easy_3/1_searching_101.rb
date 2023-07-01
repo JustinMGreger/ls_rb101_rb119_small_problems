@@ -35,6 +35,5 @@ def appear_or_not(first_number, second_number, third_number, fourth_number, fift
   end
 end
 
-appear_or_not(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
 numbers = solicit_numbers
 appear_or_not(*numbers)
