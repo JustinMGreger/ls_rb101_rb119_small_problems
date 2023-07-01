@@ -4,16 +4,20 @@ def prompt(message)
   puts message
 end
 
+def integer_input
+  gets.chomp.to_i
+end
+
 def solicit_numbers
   prompt '==> Enter the 1st number:'
-  1st_number = gets.chomp.to_i
+  1st_number = integer_input
 end
 
 Write a program that solicits 6 numbers from the user, 
 then prints a message that describes whether or not the 6th number appears amongst the first 5 numbers.
 
 prompt '==> Enter the 2nd number:'
-15
+2nd_number = integer_input
 prompt '==> Enter the 3rd number:'
 20
 prompt '==> Enter the 4th number:'
