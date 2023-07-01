@@ -30,6 +30,13 @@ prompt "The number #{last_number} #{appears} in [#{1st_number}, #{2nd_number}, #
 
 appears = appears or does not appear
 
+[#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}].include?(#{last_number})
+
+
+
+
+
+
 ==> Enter the 1st number:
 25
 ==> Enter the 2nd number:
