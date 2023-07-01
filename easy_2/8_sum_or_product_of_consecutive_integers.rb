@@ -37,7 +37,7 @@ end
 def operation_prompt
   prompt "Enter 's' to compute the sum, 'p' to compute the product."
   opp = operation
-  while !['s', 'p'].include?(opp)
+  until ['s', 'p'].include?(opp)
     prompt "error! Enter 's' to compute the sum, 'p' to compute the product."
     opp = operation
   end
@@ -58,3 +58,7 @@ end
 input = integer_prompt
 opp = operation_prompt
 operation_flow(input, opp)
+
+C: [Correctable] Style/NegatedWhile: Favor until over while for negative conditions.
+  while !['s', 'p'].include?(opp) ...
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
