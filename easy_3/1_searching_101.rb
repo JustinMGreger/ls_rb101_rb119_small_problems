@@ -26,7 +26,7 @@ end
 Write a program that solicits 6 numbers from the user, 
 then prints a message that describes whether or not the 6th number appears amongst the first 5 numbers.
 
-prompt "The number #{last_number} appears in [#{1st_number}, #{2nd_number}, 20, 17, 23]."
+prompt "The number #{last_number} appears in [#{1st_number}, #{2nd_number}, #{3rd_number}, 17, 23]."
 
 
 ==> Enter the 1st number:
