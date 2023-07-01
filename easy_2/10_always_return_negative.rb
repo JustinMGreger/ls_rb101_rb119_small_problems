@@ -17,5 +17,7 @@ def negative(number)
   if number > 0
     negative_number = number * -1
     puts negative_number
-  number <= 0
+  else
+    number
+  end
 end
