@@ -6,13 +6,12 @@ end
 
 def solicit_numbers
   prompt '==> Enter the 1st number:'
+  1st_number = gets.chomp.to_i
 end
 
 Write a program that solicits 6 numbers from the user, 
 then prints a message that describes whether or not the 6th number appears amongst the first 5 numbers.
 
-
-25
 prompt '==> Enter the 2nd number:'
 15
 prompt '==> Enter the 3rd number:'
