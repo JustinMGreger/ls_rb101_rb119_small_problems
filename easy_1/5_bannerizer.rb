@@ -5,6 +5,8 @@ def prompt(message)
 end
 
 def break_into_lines(message, max_message_width)
+  words = message.split(' ')
+
 end
 
 
@@ -13,7 +15,6 @@ def print_in_box(message)
   max_width = 76
   max_message_width = max_width - 4
 
-  words = message.split(' ')
   lines = ['']
   words.each do |word|
     while word.length > max_message_width
