@@ -29,7 +29,7 @@ def integer_prompt
   input = integer_input
   while input <= 0
     prompt 'Please enter an integer greater than 0:'
-  input = integer_input
+    input = integer_input
   end
   input
 end
