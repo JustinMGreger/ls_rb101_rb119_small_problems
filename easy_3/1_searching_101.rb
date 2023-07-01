@@ -8,6 +8,11 @@ def integer_input
   gets.chomp.to_i
 end
 
+
+
+
+
+
 def app(numbers)
   [first_number, second_number, third_number, fourth_number, fifth_number].include?(last_number)
 end
@@ -21,4 +26,3 @@ def appear_or_not(numbers)
 end
 
 numbers = first_number, second_number, third_number, fourth_number, fifth_number, last_number
-appear_or_not(*numbers)
