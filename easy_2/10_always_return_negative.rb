@@ -14,6 +14,6 @@ negative(-3) == -3
 negative(0) == 0      # There's no such thing as -0 in ruby
 
 def negative(number)
-  positive numbers are > 0
-  numbers are <= 0
+  number > 0
+  number <= 0
 end
