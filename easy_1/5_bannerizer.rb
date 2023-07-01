@@ -38,7 +38,7 @@ def print_in_box(message)
 
   broken_message = break_into_lines(message, max_message_width)
 
-
+  max_line_length = [max_message_width, broken_message.join("\n").length].min
 
 
 end
