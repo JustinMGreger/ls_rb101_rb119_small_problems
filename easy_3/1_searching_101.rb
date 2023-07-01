@@ -35,4 +35,4 @@ def appear_or_not(first_number, second_number, third_number, fourth_number, fift
   prompt "The number #{last_number} #{app} in [#{first_number}, #{second_number}, #{third_number}, #{fourth_number}, #{fifth_number}]."
 end
 
-appear_or_not
+appear_or_not(first_number, second_number, third_number, fourth_number, fifth_number, last_number)
