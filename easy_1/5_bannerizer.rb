@@ -50,6 +50,4 @@ def print_in_box(message)
   build_box(broken_message.join("\n"), max_line_length)
 end
 
-print_in_box 
-
-`add_word_to_line': wrong number of arguments (given 2, expected 3) (ArgumentError)
+print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
