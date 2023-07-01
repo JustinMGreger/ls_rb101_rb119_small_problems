@@ -1,9 +1,4 @@
-
-
-if 5  is a positive number then * -1 == -5
-if -3  is negative then the original number.
-if 0 is 0 then the original number.
-
+# frozen_string_literal: true
 
 def negative(number)
   if number > 0
