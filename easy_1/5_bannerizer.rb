@@ -26,6 +26,7 @@ def build_box(message, max_line_length)
 
   prompt horizontal_rule
   prompt empty_line
+  message.split("\n").each { |line| puts "| #{line.ljust(max_line_length)} |" }
 end
 
 
@@ -37,7 +38,6 @@ def print_in_box(message)
 
   max_line_length = [max_message_width, message.split("\n").map(&:length).max].min
 
-  message.split("\n").each { |line| puts "| #{line.ljust(max_line_length)} |" }
   prompt empty_line
   prompt horizontal_rule
 end
