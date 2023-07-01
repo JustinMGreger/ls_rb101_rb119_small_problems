@@ -4,9 +4,14 @@ def prompt(message)
   puts message
 end
 
+def break_into_lines(message, max_message_width)
+end
+
+
+
 def print_in_box(message)
   max_width = 76
-  max_message_width = max_width - 4 
+  max_message_width = max_width - 4
 
   words = message.split(' ')
   lines = ['']
