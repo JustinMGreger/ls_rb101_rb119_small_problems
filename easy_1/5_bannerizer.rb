@@ -4,6 +4,10 @@ def prompt(message)
   puts message
 end
 
+def split_word(lines, word, max_message_width)
+
+end
+
 def break_into_lines(message, max_message_width)
   words = message.split(' ')
   lines = ['']
@@ -33,7 +37,7 @@ end
 
 
 def print_in_box(message)
-  
+
   max_width = 76
   max_message_width = max_width - 4
 
@@ -45,3 +49,7 @@ def print_in_box(message)
 end
 
 print_in_box
+
+C: Metrics/AbcSize: Assignment Branch Condition size for break_into_lines is too high. [<6, 17, 8> 19.72/17]
+def break_into_lines(message, max_message_width) ...
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
