@@ -31,7 +31,7 @@ def integer_prompt
     prompt 'Please enter an integer greater than 0:'
   input = integer_input
   end
-input
+  input
 end
 
 def operation_prompt
