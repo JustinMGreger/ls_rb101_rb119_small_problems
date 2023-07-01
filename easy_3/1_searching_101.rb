@@ -14,7 +14,7 @@ end
 
 
 def app(numbers)
-  [first_number, second_number, third_number, fourth_number, fifth_number].include?(last_number)
+  
 end
 
 def appear_or_not(numbers)
