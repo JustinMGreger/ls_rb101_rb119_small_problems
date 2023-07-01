@@ -9,7 +9,4 @@ def negative(number)
   end
 end
 
-negative(0)
-0
-negative(0) == 0   
-success!
+negative(number)
