@@ -25,6 +25,7 @@ def break_into_lines(message, max_message_width)
   lines = ['']
   words.each do |word|
     lines = split_word(lines, word, max_message_width)
+    lines = add_word_to_line(lines, word)
   end
   lines.map(&:strip)
 end
