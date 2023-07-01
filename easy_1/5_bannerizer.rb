@@ -12,7 +12,7 @@ def split_word(lines, word, max_message_width)
   lines
 end
 
-def add_word_to_line(lines, word)
+def add_word_to_line(lines, word, max_message_width)
   (lines[-1] + word + ' ').length > max_message_width
     lines << ''
   end
