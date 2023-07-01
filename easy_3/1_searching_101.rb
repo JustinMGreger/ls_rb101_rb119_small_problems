@@ -13,9 +13,7 @@ def solicit_number(order)
   integer_input
 end
 
-
-
-def app(numbers)
+def app(numbers, last_number)
   
 end
 
