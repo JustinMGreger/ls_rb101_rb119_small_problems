@@ -53,6 +53,3 @@ end
 numbers = first_number, second_number, third_number, fourth_number, fifth_number, last_number
 appear_or_not(*numbers)
 
-F: Lint/Syntax: unexpected token $end
-(Using Ruby 2.7 parser; configure using TargetRubyVersion parameter, under AllCops)
-
