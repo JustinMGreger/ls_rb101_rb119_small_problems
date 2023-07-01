@@ -31,24 +31,8 @@ def appears
     'does not appear'
 end
 
-prompt "The number #{last_number} #{appears} in [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}]."
+def appear_or_not
+  prompt "The number #{last_number} #{appears} in [#{1st_number}, #{2nd_number}, #{3rd_number}, #{4th_number}, #{5th_number}]."
+end
 
-
-
-
-
-
-
-==> Enter the 1st number:
-25
-==> Enter the 2nd number:
-15
-==> Enter the 3rd number:
-20
-==> Enter the 4th number:
-17
-==> Enter the 5th number:
-23
-==> Enter the last number:
-18
-The number 18 does not appear in [25, 15, 20, 17, 23].
+appear_or_not
