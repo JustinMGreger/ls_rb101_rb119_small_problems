@@ -17,6 +17,7 @@ def break_into_lines(message, max_message_width)
     end
     lines[-1] += word + ' ' unless word.empty?
   end
+  lines.map(&:strip)
 end
 
 
@@ -25,7 +26,7 @@ def print_in_box(message)
   max_width = 76
   max_message_width = max_width - 4
 
-  message = lines.map(&:strip).join("\n")
+.join("\n")
 
   max_line_length = [max_message_width, message.split("\n").map(&:length).max].min
   horizontal_rule = "+#{'-' * (max_line_length + 2)}+"
