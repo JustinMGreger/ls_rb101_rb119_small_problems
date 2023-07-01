@@ -8,6 +8,7 @@ def split_word(lines, word, max_message_width)
   while word.length > max_message_width
     lines[-1] += "#{word.slice!(0..max_message_width - 1)} "
     lines << '' if word.empty?
+  end
 end
 
 def break_into_lines(message, max_message_width)
