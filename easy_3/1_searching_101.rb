@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+def prompt(message)
+  puts message
+end
+
 def solicit_numbers
 end
 
