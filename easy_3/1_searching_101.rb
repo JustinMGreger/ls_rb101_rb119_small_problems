@@ -23,7 +23,7 @@ prompt '==> Enter the 5th number:'
 23
 prompt '==> Enter the last number:'
 17
-The number 17 appears in [25, 15, 20, 17, 23].
+prompt "The number 17 appears in [25, 15, 20, 17, 23]."
 
 
 ==> Enter the 1st number:
