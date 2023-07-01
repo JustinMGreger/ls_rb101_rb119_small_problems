@@ -31,6 +31,7 @@ end
 def solicit_fifth_number
   prompt '==> Enter the 5th number:'
   fifth_number = integer_input
+end
 
 def solicit_last_number
   prompt '==> Enter the last number:'
@@ -49,5 +50,9 @@ def appear_or_not(first_number, second_number, third_number, fourth_number, fift
   end
 end
 
-numbers = solicit_numbers
+numbers = first_number, second_number, third_number, fourth_number, fifth_number, last_number
 appear_or_not(*numbers)
+
+F: Lint/Syntax: unexpected token $end
+(Using Ruby 2.7 parser; configure using TargetRubyVersion parameter, under AllCops)
+
