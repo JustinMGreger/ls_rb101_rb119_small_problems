@@ -36,25 +36,25 @@ end
 
 def operation_prompt
   prompt "Enter 's' to compute the sum, 'p' to compute the product."
-  op = operation
-  while !['s', 'p'].include?(op)
+  opp = operation
+  while !['s', 'p'].include?(opp)
     prompt "error! Enter 's' to compute the sum, 'p' to compute the product."
-    op = operation
+    opp = operation
   end
-  op
+  opp
 end
 
-def operation_flow(input, op)
+def operation_flow(input, opp)
   num_list = numbers(input)
-  if op == 's'
+  if opp == 's'
     result = sum(num_list)
     prompt "The sum of the integers between 1 and #{input} is #{result}."
-  elsif op == 'p'
+  elsif opp == 'p'
     result = product(num_list)
     prompt "The product of the integers between 1 and #{input} is #{result}."
   end
 end
 
 input = integer_prompt
-op = operation_prompt
-operation_flow(input, op)
+opp = operation_prompt
+operation_flow(input, opp)
