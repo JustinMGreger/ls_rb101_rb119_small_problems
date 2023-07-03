@@ -10,14 +10,17 @@ end
 
 def first_number
   prompt '==> Enter the first number:'
+  input
 end
 
-first_number = 23
-prompt ==> Enter the second number:
-second_number = 17
-prompt addition ==> 23 + 17 = 40
-prompt subtraction ==> 23 - 17 = 6
-prompt product ==> 23 * 17 = 391
-prompt quotient ==> 23 / 17 = 1
-prompt remainder ==> 23 % 17 = 6
-prompt power ==> 23 ** 17 = 141050039560662968926103
+def second_number
+  prompt '==> Enter the second number:'
+  input
+end
+
+prompt addition ==> 23 + second_number = 40
+prompt subtraction ==> 23 - second_number = 6
+prompt product ==> 23 * second_number = 391
+prompt quotient ==> 23 / second_number = 1
+prompt remainder ==> 23 % second_number = 6
+prompt power ==> 23 ** second_number = 141050039560662968926103
