@@ -44,6 +44,7 @@ def remainder_method(first_number, second_number)
 end
 
 def power_method(first_number, second_number)
+  power = first_number ** second_number
   prompt "==> #{first_number} ** #{second_number} = #{power}"
 end
 
