@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 prints the results of the following operations on those two numbers: 
-power 
 Do not worry about validating the input.
 
 
@@ -21,4 +20,4 @@ prompt subtraction ==> 23 - 17 = 6
 prompt product ==> 23 * 17 = 391
 prompt quotient ==> 23 / 17 = 1
 prompt remainder ==> 23 % 17 = 6
-prompt ==> 23 ** 17 = 141050039560662968926103
+prompt power ==> 23 ** 17 = 141050039560662968926103
