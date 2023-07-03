@@ -30,11 +30,15 @@ def product_method(first_number, second_number)
   prompt "==> #{first_number} * #{second_number} = #{product}"
 end
 
+def quotient_method(first_number, second_number)
+  prompt "==> #{first_number} / #{second_number} = #{quotient}"
+end
 
 
-addition_method(first_number, second_number) 
-subtraction_method(first_number, second_number) 
-product_method(first_number, second_number) 
-prompt quotient_method(first_number, second_number) "==> #{first_number} / #{second_number} = #{quotient}"
+
+addition_method(first_number, second_number)
+subtraction_method(first_number, second_number)
+product_method(first_number, second_number)
+quotient_method(first_number, second_number)
 prompt remainder_method(first_number, second_number) "==> #{first_number} % #{second_number} = #{remainder}"
 prompt power_method(first_number, second_number) "==> #{first_number} ** #{second_number} = #{power}"
