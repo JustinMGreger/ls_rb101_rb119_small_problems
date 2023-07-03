@@ -5,7 +5,6 @@ def prompt(message)
 end
 
 
-Example
 prompt ==> Enter the first number:
 first_number = 23
 prompt ==> Enter the second number:
