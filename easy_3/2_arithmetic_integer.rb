@@ -29,6 +29,7 @@ def subtraction_method(first_number, second_number)
 end
 
 def product_method(first_number, second_number)
+  product = first_number * second_number
   prompt "==> #{first_number} * #{second_number} = #{product}"
 end
 
