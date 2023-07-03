@@ -18,10 +18,12 @@ def second_number
   input
 end
 
+def addition_method(first_number, second_number)
+  prompt "==> #{first_number} + #{second_number} = #{addition}"
+end
 
 
-
-prompt addition_method(first_number, second_number) "==> #{first_number} + #{second_number} = #{addition}"
+addition_method(first_number, second_number) 
 prompt subtraction_method(first_number, second_number) "==> #{first_number} - #{second_number} = #{subtraction}"
 prompt product_method(first_number, second_number) "==> #{first_number} * #{second_number} = #{product}"
 prompt quotient_method(first_number, second_number) "==> #{first_number} / #{second_number} = #{quotient}"
