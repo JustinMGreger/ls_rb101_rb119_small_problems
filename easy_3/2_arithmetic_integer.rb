@@ -10,7 +10,7 @@ end
 
 
   prompt '==> Enter the first number:'
-  first_num = input
+  first_number = input
 
 
 def second_number
@@ -18,14 +18,14 @@ def second_number
   input
 end
 
-def addition_method(first_num, second_number)
-  addition = first_num + second_number
-  prompt "==> #{first_num} + #{second_number} = #{addition}"
+def addition_method(first_number, second_number)
+  addition = first_number + second_number
+  prompt "==> #{first_number} + #{second_number} = #{addition}"
 end
 
-def subtraction_method(first_num, second_number)
-  subtraction = first_num - second_number
-  prompt "==> #{first_num} - #{second_number} = #{subtraction}"
+def subtraction_method(first_number, second_number)
+  subtraction = first_number - second_number
+  prompt "==> #{first_number} - #{second_number} = #{subtraction}"
 end
 
 def product_method(first_number, second_number)
@@ -48,8 +48,8 @@ def power_method(first_number, second_number)
   prompt "==> #{first_number} ** #{second_number} = #{power}"
 end
 
-addition_method(first_num, second_number)
-subtraction_method(first_num, second_number)
+addition_method(first_number, second_number)
+subtraction_method(first_number, second_number)
 product_method(first_number, second_number)
 quotient_method(first_number, second_number)
 remainder_method(first_number, second_number)
