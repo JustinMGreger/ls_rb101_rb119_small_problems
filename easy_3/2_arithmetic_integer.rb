@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 prints the results of the following operations on those two numbers: 
 addition, subtraction, product, quotient, remainder, and power. 
