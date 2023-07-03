@@ -34,11 +34,13 @@ def quotient_method(first_number, second_number)
   prompt "==> #{first_number} / #{second_number} = #{quotient}"
 end
 
-
+def remainder_method(first_number, second_number)
+  prompt "==> #{first_number} % #{second_number} = #{remainder}"
+end
 
 addition_method(first_number, second_number)
 subtraction_method(first_number, second_number)
 product_method(first_number, second_number)
 quotient_method(first_number, second_number)
-prompt remainder_method(first_number, second_number) "==> #{first_number} % #{second_number} = #{remainder}"
+remainder_method(first_number, second_number)
 prompt power_method(first_number, second_number) "==> #{first_number} ** #{second_number} = #{power}"
