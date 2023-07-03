@@ -19,7 +19,7 @@ def second_number
 end
 
 def addition_method(first_number, second_number)
-  addition = #{first_number} + #{second_number}
+  addition = first_number + second_number
   prompt "==> #{first_number} + #{second_number} = #{addition}"
 end
 
