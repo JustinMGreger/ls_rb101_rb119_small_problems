@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-prints the results of the following operations on those two numbers: 
-Do not worry about validating the input.
-
-
-
 def prompt(message) 
   puts message
 end
