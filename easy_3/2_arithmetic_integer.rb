@@ -24,6 +24,7 @@ def addition_method(first_number, second_number)
 end
 
 def subtraction_method(first_number, second_number)
+  subtraction = first_number - second_number
   prompt "==> #{first_number} - #{second_number} = #{subtraction}"
 end
 
