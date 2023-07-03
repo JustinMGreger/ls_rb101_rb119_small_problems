@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-def prompt(message) 
+def prompt(message)
   puts message
 end
 
-def input  
+def input
   gets.chomp.to_i
 end
 
