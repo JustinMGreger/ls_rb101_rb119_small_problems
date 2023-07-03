@@ -23,7 +23,7 @@ end
 
 prompt addition_method(first_number, second_number) "==> #{first_number} + #{second_number} = #{addition}"
 prompt subtraction_method(first_number, second_number) "==> #{first_number} - #{second_number} = #{subtraction}"
-prompt product_method(first_number, second_number) "==> #{first_number} * #{second_number} = 391"
-prompt quotient_method(first_number, second_number) "==> #{first_number} / #{second_number} = 1"
-prompt remainder_method(first_number, second_number) "==> #{first_number} % #{second_number} = 6"
-prompt power_method(first_number, second_number) "==> #{first_number} ** #{second_number} = 141050039560662968926103"
+prompt product_method(first_number, second_number) "==> #{first_number} * #{second_number} = #{}"
+prompt quotient_method(first_number, second_number) "==> #{first_number} / #{second_number} = #{}"
+prompt remainder_method(first_number, second_number) "==> #{first_number} % #{second_number} = #{}"
+prompt power_method(first_number, second_number) "==> #{first_number} ** #{second_number} = #{}"
