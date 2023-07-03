@@ -4,6 +4,10 @@ def prompt(message)
   puts message
 end
 
+def input  
+  gets.chomp
+end
+
 def first_number
   prompt '==> Enter the first number:'
 end
