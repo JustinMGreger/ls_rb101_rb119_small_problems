@@ -21,9 +21,9 @@ end
 
 
 
-prompt addition "==> first_number + second_number = 40"
-prompt subtraction "==> first_number - second_number = 6"
-prompt product "==> first_number * second_number = 391"
-prompt quotient "==> first_number / second_number = 1"
-prompt remainder "==> first_number % second_number = 6"
-prompt power "==> first_number ** second_number = 141050039560662968926103"
+prompt addition "==> #{first_number} + #{second_number} = 40"
+prompt subtraction "==> #{first_number} - second_number = 6"
+prompt product "==> #{first_number} * second_number = 391"
+prompt quotient "==> #{first_number} / second_number = 1"
+prompt remainder "==> #{first_number} % second_number = 6"
+prompt power "==> #{first_number} ** second_number = 141050039560662968926103"
