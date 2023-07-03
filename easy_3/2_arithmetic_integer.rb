@@ -12,7 +12,7 @@ end
 
 Example
 prompt ==> Enter the first number:
-23
+first_number = 23
 prompt ==> Enter the second number:
 17
 prompt ==> 23 + 17 = 40
