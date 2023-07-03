@@ -39,6 +39,7 @@ def quotient_method(first_number, second_number)
 end
 
 def remainder_method(first_number, second_number)
+  remainder = first_number % second_number
   prompt "==> #{first_number} % #{second_number} = #{remainder}"
 end
 
