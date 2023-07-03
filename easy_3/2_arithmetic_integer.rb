@@ -12,11 +12,8 @@ end
   prompt '==> Enter the first number:'
   first_number = input
 
-
-def second_number
   prompt '==> Enter the second number:'
-  input
-end
+  second_number = input
 
 def addition_method(first_number, second_number)
   addition = first_number + second_number
