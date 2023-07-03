@@ -22,9 +22,12 @@ def addition_method(first_number, second_number)
   prompt "==> #{first_number} + #{second_number} = #{addition}"
 end
 
+def subtraction_method(first_number, second_number)
+  prompt "==> #{first_number} - #{second_number} = #{subtraction}"
+end
 
 addition_method(first_number, second_number) 
-prompt subtraction_method(first_number, second_number) "==> #{first_number} - #{second_number} = #{subtraction}"
+subtraction_method(first_number, second_number) 
 prompt product_method(first_number, second_number) "==> #{first_number} * #{second_number} = #{product}"
 prompt quotient_method(first_number, second_number) "==> #{first_number} / #{second_number} = #{quotient}"
 prompt remainder_method(first_number, second_number) "==> #{first_number} % #{second_number} = #{remainder}"
