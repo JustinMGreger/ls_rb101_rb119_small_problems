@@ -21,7 +21,7 @@ end
 
 
 
-prompt addition "==> #{first_number} + #{second_number} = 40"
+prompt addition "==> #{first_number} + #{second_number} = #{addition}"
 prompt subtraction "==> #{first_number} - #{second_number} = 6"
 prompt product "==> #{first_number} * #{second_number} = 391"
 prompt quotient "==> #{first_number} / #{second_number} = 1"
