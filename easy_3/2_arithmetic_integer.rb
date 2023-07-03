@@ -14,7 +14,7 @@ Example
 prompt ==> Enter the first number:
 first_number = 23
 prompt ==> Enter the second number:
-17
+second_number = 17
 prompt ==> 23 + 17 = 40
 prompt ==> 23 - 17 = 6
 prompt ==> 23 * 17 = 391
