@@ -11,13 +11,13 @@ end
 
 
 Example
-==> Enter the first number:
+prompt ==> Enter the first number:
 23
-==> Enter the second number:
+prompt ==> Enter the second number:
 17
-==> 23 + 17 = 40
-==> 23 - 17 = 6
-==> 23 * 17 = 391
-==> 23 / 17 = 1
-==> 23 % 17 = 6
-==> 23 ** 17 = 141050039560662968926103
+prompt ==> 23 + 17 = 40
+prompt ==> 23 - 17 = 6
+prompt ==> 23 * 17 = 391
+prompt ==> 23 / 17 = 1
+prompt ==> 23 % 17 = 6
+prompt ==> 23 ** 17 = 141050039560662968926103
