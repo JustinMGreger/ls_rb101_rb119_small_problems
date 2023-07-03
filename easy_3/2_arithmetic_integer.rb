@@ -4,8 +4,10 @@ def prompt(message)
   puts message
 end
 
+def first_number
+  prompt '==> Enter the first number:'
+end
 
-prompt ==> Enter the first number:
 first_number = 23
 prompt ==> Enter the second number:
 second_number = 17
