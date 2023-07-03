@@ -34,6 +34,7 @@ def product_method(first_number, second_number)
 end
 
 def quotient_method(first_number, second_number)
+  quotient = first_number / second_number
   prompt "==> #{first_number} / #{second_number} = #{quotient}"
 end
 
