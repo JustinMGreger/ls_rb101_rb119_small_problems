@@ -8,12 +8,11 @@ def input
   gets.chomp.to_i
 end
 
+prompt '==> Enter the first number:'
+first_number = input
 
-  prompt '==> Enter the first number:'
-  first_number = input
-
-  prompt '==> Enter the second number:'
-  second_number = input
+prompt '==> Enter the second number:'
+second_number = input
 
 def addition_method(first_number, second_number)
   addition = first_number + second_number
