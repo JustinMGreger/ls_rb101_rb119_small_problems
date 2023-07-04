@@ -2,3 +2,4 @@ Write a program that will ask a user for an input of a word or multiple words an
 Spaces should not be counted as a character.
 
 input:
+Please write word or multiple words: walk
