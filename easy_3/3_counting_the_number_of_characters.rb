@@ -11,9 +11,9 @@ input:
 prompt 'Please write word or multiple words:'
 walk
 output:
-prompt There are 4 characters in "walk".
+prompt "There are 4 characters in "walk"."
 input:
 prompt 'Please write word or multiple words:'
 walk, don't run
 output:
-prompt There are 13 characters in "walk, don't run".
+prompt "There are 13 characters in "walk, don't run"."
