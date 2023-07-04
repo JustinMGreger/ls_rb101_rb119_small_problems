@@ -13,14 +13,14 @@ Spaces should not be counted as a character.
 
 input:
 prompt 'Please write word or multiple words:'
-input
+input 
+  if input is word then prompt "There are 4 characters in "#{word}"."
 word =
 words =
 
 
 walk
 output:
-prompt "There are 4 characters in "#{word}"."
 input:
 walk, don't run
 output:
