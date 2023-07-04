@@ -13,6 +13,10 @@ first_number = input
 
 prompt '==> Enter the second number:'
 second_number = input
+until second_number != 0
+  prompt '==> Enter the second number:'
+  second_number = input
+end
 
 def addition_method(first_number, second_number)
   addition = first_number + second_number
@@ -51,8 +55,3 @@ quotient_method(first_number, second_number)
 remainder_method(first_number, second_number)
 power_method(first_number, second_number)
 
-Discussion
-
-There are some edge cases to consider in this exercise. 
-We have to be careful of not having a second number that is zero. 
-What if we wanted to use floats instead of integers? How does this change this problem?
