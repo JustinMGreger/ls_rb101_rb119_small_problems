@@ -13,8 +13,9 @@ Spaces should not be counted as a character.
 
 input:
 prompt 'Please write word or multiple words:'
-word
-words
+input
+word =
+words =
 
 
 walk
