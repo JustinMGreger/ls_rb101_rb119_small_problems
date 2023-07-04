@@ -15,7 +15,7 @@ input:
 prompt 'Please write word or multiple words:'
 input 
   if input is word then prompt "There are 4 characters in "#{word}"."
-word =
+  else input is words then prompt "There are 13 characters in "#{words}"."
 words =
 
 
@@ -24,4 +24,4 @@ output:
 input:
 walk, don't run
 output:
-prompt "There are 13 characters in "#{words}"."
+
