@@ -4,3 +4,4 @@ Spaces should not be counted as a character.
 input:
 Please write word or multiple words: walk
 output:
+There are 4 characters in "walk".
