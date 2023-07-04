@@ -8,3 +8,4 @@ There are 4 characters in "walk".
 input:
 Please write word or multiple words: walk, don't run
 output:
+There are 13 characters in "walk, don't run".
