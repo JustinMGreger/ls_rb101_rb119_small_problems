@@ -14,7 +14,7 @@ def word_or_words(input)
   else
     'word'
   end
-end 
+end
 
 character_count = input.gsub(" ", "").length
 
