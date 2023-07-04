@@ -14,14 +14,12 @@ def word_or_words
   input.include?(' ')
 end 
 
-prompt word_or_words
- 
-false = word
-true = words
+if word_or_words false = word
+else word_or_words true = words
 
 
 character_count = input determine number of characters and do not count spaces as a character in the variable input
-
+remove (' ') then .length 
 
   if input is word then prompt "There are #{character_count} characters in "#{word}"."
   else input is words then prompt "There are #{character_count} characters in "#{words}"."
