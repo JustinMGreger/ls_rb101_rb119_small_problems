@@ -55,7 +55,11 @@ quotient_method(first_number, second_number)
 remainder_method(first_number, second_number)
 power_method(first_number, second_number)
 
-Discussion
+# Discussion
 
-There are some edge cases to consider in this exercise. 
-What if we wanted to use floats instead of integers? How does this change this problem?
+# There are some edge cases to consider in this exercise. 
+# What if we wanted to use floats instead of integers? How does this change this problem?
+
+# When floats are used instead of integers the concept of floating-point arithmetic and precision limitations comes up.
+# Ruby uses a system called "binary floating point" to represent and manipulate decimal numbers. 
+# This is a way of approximating real numbers using a finite amount of memory. 
