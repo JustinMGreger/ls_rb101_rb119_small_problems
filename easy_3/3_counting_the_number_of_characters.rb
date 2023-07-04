@@ -3,3 +3,4 @@ Spaces should not be counted as a character.
 
 input:
 Please write word or multiple words: walk
+output:
