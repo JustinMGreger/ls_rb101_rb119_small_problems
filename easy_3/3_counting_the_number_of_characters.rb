@@ -12,7 +12,14 @@ input:
 prompt 'Please write word or multiple words:'
 input 
 
-character_count = input determine number of characters and do not count spaces as a character.
+def word_or_words
+  input.include?(' ')
+end 
+
+
+
+
+character_count = input determine number of characters and do not count spaces as a character in the variable input
 
 
   if input is word then prompt "There are #{character_count} characters in "#{word}"."
