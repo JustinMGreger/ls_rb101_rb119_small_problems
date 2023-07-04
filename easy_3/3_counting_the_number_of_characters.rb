@@ -8,8 +8,6 @@ def input
   gets.chomp
 end
 
-Write a program that will ask a user for an input of a word or multiple words and give back the number of characters. 
-
 input:
 prompt 'Please write word or multiple words:'
 input 
