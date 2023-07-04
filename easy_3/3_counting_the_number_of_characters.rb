@@ -8,15 +8,16 @@ def input
   gets.chomp
 end
 
-input:
 prompt 'Please write word or multiple words:'
-input 
 
 def word_or_words
   input.include?(' ')
 end 
 
-
+prompt word_or_words
+ 
+false = word
+true = words
 
 
 character_count = input determine number of characters and do not count spaces as a character in the variable input
