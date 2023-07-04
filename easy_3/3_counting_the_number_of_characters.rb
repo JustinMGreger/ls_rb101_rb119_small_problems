@@ -19,8 +19,8 @@ words
 
 walk
 output:
-prompt "There are 4 characters in "#{walk}"."
+prompt "There are 4 characters in "#{word}"."
 input:
 walk, don't run
 output:
-prompt "There are 13 characters in "#{walk, don't run}"."
+prompt "There are 13 characters in "#{words}"."
