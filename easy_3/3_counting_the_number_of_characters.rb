@@ -16,3 +16,4 @@ prompt 'Please write word or multiple words:'
 input 
   if input is word then prompt "There are 4 characters in "#{word}"."
   else input is words then prompt "There are 13 characters in "#{words}"."
+  end
