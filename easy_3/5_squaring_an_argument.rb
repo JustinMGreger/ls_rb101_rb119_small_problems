@@ -12,7 +12,7 @@ def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
 
-def power_to_the_n(multiply, power)
+def power_to_the_n(number, power)
   multiply(number, number) * power
 end
  
