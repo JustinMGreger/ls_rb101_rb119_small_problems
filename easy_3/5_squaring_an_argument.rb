@@ -13,6 +13,7 @@ def multiply(arg_one, arg_two)
 end
 
 def power_to_the_n(number, power)
+  result = 1
   multiply(number, number) * power
 end
  
