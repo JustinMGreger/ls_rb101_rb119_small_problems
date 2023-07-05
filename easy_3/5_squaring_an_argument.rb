@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+def prompt(message)
+  puts message
+end
+
 def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
@@ -18,3 +22,4 @@ How would we go about doing so while still using the multiply method?
 
 def power_to_the_n(n)
 end
+
