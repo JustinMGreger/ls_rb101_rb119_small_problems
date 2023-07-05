@@ -24,4 +24,6 @@ def power_to_the_n(n)
 end
 
 prompt "==> What number do you want to raise to the power?"
+number =
 prompt '==> What power do you want?'
+power =
