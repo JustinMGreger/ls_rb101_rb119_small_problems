@@ -2,6 +2,14 @@ Create a method that takes two arguments, multiplies them together, and returns 
 
 Example:
 
+
+def promp(message)
+  puts message
+end
+
+input = gets.chomp
+
+
 def multiply(parameter_1, parameter_2)
   product = parameter_1 * parameter_2
 end
