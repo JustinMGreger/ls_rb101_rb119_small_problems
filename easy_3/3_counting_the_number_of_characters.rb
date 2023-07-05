@@ -18,6 +18,6 @@ end
 
 character_count = input.gsub(' ', '').length
 
-prompt  "There are #{character_count} characters in \"#{input}\"."
+word_type = word_or_words(input)
 
-if word_or_words(input) == 'word'
+prompt  "There are #{character_count} characters in \"#{input}\"."
