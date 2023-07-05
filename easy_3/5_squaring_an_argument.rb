@@ -1,10 +1,10 @@
 
-def multiply(number arg_2)
-  number * arg_2
+def multiply(number, number)
+  number * number
 end
 
 def square(number)
-  multiply(number, arg_2)
+  multiply(number, number)
 end
 
 p square(5) == 25
