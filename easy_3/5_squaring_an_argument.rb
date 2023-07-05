@@ -14,7 +14,7 @@ end
 
 def power_to_the_n(number, power)
   result = 1
-  multiply(number, number) * power
+  power.to_i.times { result = multiply(result, number) }
 end
  
 prompt "==> What number do you want to raise to the power?"
