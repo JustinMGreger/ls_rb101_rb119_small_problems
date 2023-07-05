@@ -16,7 +16,7 @@ def word_or_words(input)
   end
 end
 
-character_count = input.gsub(" ", "").length
+character_count = input.gsub(' ', '').length
 
 if word_or_words(input) == 'word'
   prompt "There are #{character_count} characters in \"#{input}\"."
