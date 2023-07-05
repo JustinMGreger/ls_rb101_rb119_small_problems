@@ -4,7 +4,6 @@ def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
 
-
 p multiply([1, 2], 5)
 
 # Further Exploration
