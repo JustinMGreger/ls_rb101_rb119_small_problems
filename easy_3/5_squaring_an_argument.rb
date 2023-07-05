@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-def multiply(arg_one, arg_2)
-  arg_one * arg_2
+def multiply(arg_one, arg_two)
+  arg_one * arg_two
 end
 
 def square(number)
