@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
@@ -6,12 +7,12 @@ end
 
 p multiply([1, 2], 5)
 
-Further Exploration
+# Further Exploration
 
-For fun: what happens if the first argument is an Array? 
-Answer: [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+# For fun: what happens if the first argument is an Array?
+# Answer: [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
 
-What do you think is happening here?
-the [1, 2] array is being expanded by 5 times the amount of the same elements.
-there are 5 elements of the 1 integer & 5 elements of the 2 integer.
-the integer elements 1, 2 are in order in the array of elements which is why they are repeated together.
+# What do you think is happening here?
+# the [1, 2] array is being expanded by 5 times the amount of the same elements.
+# there are 5 elements of the 1 integer & 5 elements of the 2 integer.
+# the integer elements 1, 2 are in order in the array of elements which is why they are repeated together.
