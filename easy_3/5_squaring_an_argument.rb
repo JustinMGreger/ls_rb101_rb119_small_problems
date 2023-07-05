@@ -7,8 +7,5 @@ def square(parameter)
   parameter * parameter
 end
 
-
-Example:
-
 square(5) == 25
 square(-8) == 64
