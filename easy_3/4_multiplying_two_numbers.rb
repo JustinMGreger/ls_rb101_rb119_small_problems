@@ -3,10 +3,10 @@ Create a method that takes two arguments, multiplies them together, and returns 
 Example:
 
 def multiply(parameter_1, parameter_2)
-
+  product = parameter_1 * parameter_2
 end
 
 
 
-multiply(5, 3) == 15
+multiply(5, 3) {== "#{product}"
 
