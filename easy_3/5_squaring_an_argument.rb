@@ -12,8 +12,8 @@ def square(number)
   multiply(number, number)
 end
 
-p square(5) == 25 # result is true.
-p square(-8) == 64 # result is true.
+prompt square(5) == 25 # result is true.
+prompt square(-8) == 64 # result is true.
 
 Further Exploration
 
