@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-def multiply(arg_1, arg_2)
-  arg_1 * arg_2
+def multiply(arg_one, arg_two)
+  arg_one * arg_two
 end
 
 
