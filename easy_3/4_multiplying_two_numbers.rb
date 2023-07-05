@@ -24,3 +24,7 @@ def product_method(first_number, second_number)
 end
 
 product_method(first_number, second_number)
+
+Further Exploration
+
+For fun: what happens if the first argument is an Array? What do you think is happening here?
