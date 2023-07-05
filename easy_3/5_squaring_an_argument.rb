@@ -23,3 +23,5 @@ How would we go about doing so while still using the multiply method?
 def power_to_the_n(n)
 end
 
+prompt "==> What number do you want to raise to the power?"
+prompt '==> What power do you want?'
