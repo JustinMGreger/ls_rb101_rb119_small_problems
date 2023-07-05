@@ -1,20 +1,16 @@
-Create a method that takes two arguments, multiplies them together, and returns the result.
+# frozen_string_literal: true
 
-Example:
-
-
-def promp(message)
+def prompt(message)
   puts message
 end
 
-input = gets.chomp
+prompt 'what is the first argument you want to multiply by?'
+input = gets.chomp.to_i
+first_argument = input
+prompt 'what is the first argument you want to multiply by?'
+second_argument = input
 
-
-def multiply(parameter_1, parameter_2)
-  product = parameter_1 * parameter_2
+def multiply(first_argument, second_argument)
+  product = first_argument * second_argument
+  prompt product
 end
-
-
-
-multiply(5, 3) {== "#{product}"
-
