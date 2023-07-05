@@ -19,7 +19,7 @@ end
 character_count = input.gsub(' ', '').length
 
 if word_or_words(input) == 'word'
-  prompt "There are #{character_count} characters in \"#{input}\"."
+  "There are #{character_count} characters in \"#{input}\"."
 else
-  prompt "There are #{character_count} characters in \"#{input}\"."
+  "There are #{character_count} characters in \"#{input}\"."
 end
