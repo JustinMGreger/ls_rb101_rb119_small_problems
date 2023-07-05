@@ -7,5 +7,5 @@ def square(number)
   multiply(number, number)
 end
 
-square(5) == 25
-square(-8) == 64
+p square(5) == 25
+p square(-8) == 64
