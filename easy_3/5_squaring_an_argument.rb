@@ -6,5 +6,5 @@ def square(n)
   multiply(n, n)
 end
 
-square(5) == 25
-square(-8) == 64
+p square(5) == 25
+p square(-8) == 64
