@@ -2,3 +2,6 @@ Using the multiply method from the "Multiplying Two Numbers" problem, write a me
 argument (the square is the result of multiplying a number by itself).
 
 Example:
+
+square(5) == 25
+square(-8) == 64
