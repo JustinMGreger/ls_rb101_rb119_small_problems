@@ -3,8 +3,8 @@ argument (the square is the result of multiplying a number by itself).
 
 
 
-def multiply(arg)
-  arg * arg
+def square(parameter)
+  parameter * parameter
 end
 
 
