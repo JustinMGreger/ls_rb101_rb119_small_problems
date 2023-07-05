@@ -1,10 +1,10 @@
-def multiply(arg_1, arg_2)
-  arg_1 * arg_2
+def multiply(n, n)
+  n * n
 end
 
-def square(parameter)
-  multiply(arg_1, arg_2)
+def square(n) Syntax error
+  multiply(n, n)
 end
 
-p square(5) == 25   # result true
-p square(-8) == 64  # result true
+p square(5)  
+p square(-8)  
