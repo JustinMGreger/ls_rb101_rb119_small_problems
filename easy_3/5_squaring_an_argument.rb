@@ -6,4 +6,5 @@ def multiply(arg_1, arg_2)
 end
 
 def square(number)
+  multiply(arg_1, arg_2)
 end
