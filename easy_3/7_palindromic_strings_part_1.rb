@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 
 def palindrome?(string_parameter)
