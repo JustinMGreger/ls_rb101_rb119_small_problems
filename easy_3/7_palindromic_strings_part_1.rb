@@ -3,7 +3,6 @@
 
 # Further Exploration
 
-# and determines whether that argument is a palindrome. 
 # You may not use an if, unless, or case statement or modifier.
 
 def palindrome?(parameter)
