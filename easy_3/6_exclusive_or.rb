@@ -15,9 +15,11 @@ p xor?(5.odd?, 4.odd?) == true # result: true
 p xor?(5.odd?, 4.even?) == false # result: true
 p xor?(5.even?, 4.odd?) == false # result: true
 
-Further Exploration
+# Further Exploration
 
-Can you think of a situation in which a boolean xor method would be useful? 
+# Can you think of a situation in which a boolean xor method would be useful? 
+# Answer: game theory analysis.
+
 Suppose you were modeling a light at the top of a flight of stairs wired in such a way that the light can be turned on or
 off using either the switch at the bottom of the stairs or the switch at the top of the stairs. 
 This is an xor configuration, and it can be modeled in ruby using the xor method. 
