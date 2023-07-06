@@ -3,3 +3,7 @@ A palindrome reads the same forward and backward. For this exercise, case matter
 
 Examples:
 
+palindrome?('madam') == true
+palindrome?('Madam') == false          # (case matters)
+palindrome?("madam i'm adam") == false # (all characters matter)
+palindrome?('356653') == true
