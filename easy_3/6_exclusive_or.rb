@@ -17,20 +17,20 @@ p xor?(5.even?, 4.odd?) == false # result: true
 
 # Further Exploration
 
-# Can you think of a situation in which a boolean xor method would be useful? 
+# Can you think of a situation in which a boolean xor method would be useful?
 # Answer: game theory analysis.
 
-# Suppose you were modeling a light at the top of a flight of stairs wired in such a way that the light can be turned on 
-# or off using either the switch at the bottom of the stairs or the switch at the top of the stairs. 
-# This is an xor configuration, and it can be modeled in ruby using the xor method. 
+# Suppose you were modeling a light at the top of a flight of stairs wired in such a way that the light can be turned on
+# or off using either the switch at the bottom of the stairs or the switch at the top of the stairs.
+# This is an xor configuration, and it can be modeled in ruby using the xor method.
 
 # Think of some additional examples.
 # A/B testing, device control, and user privileges.
 
-# || and && are so-called short circuit operators in that the second operand is not evaluated if its value is not needed. 
-# Does the xor method perform short-circuit evaluation of its operands? 
-# Why or why not? 
-# Answer: No. xor returns true if exactly 1 of the operands is true. 
+# || and && are so-called short circuit operators in that the second operand is not evaluated if its value is not needed.
+# Does the xor method perform short-circuit evaluation of its operands?
+# Why or why not?
+# Answer: No. xor returns true if exactly 1 of the operands is true.
 
 # Does short-circuit evaluation in xor operations even make sense?
 # Answer: No. Both operands have to be evaluated which means it is not a short circuit operator.
