@@ -2,9 +2,6 @@
 
 def palindrome?(string_parameter)
   string_parameter == string_parameter.reverse
-    puts true
-  else
-    puts false
 end
 
 palindrome?('madam') == true
