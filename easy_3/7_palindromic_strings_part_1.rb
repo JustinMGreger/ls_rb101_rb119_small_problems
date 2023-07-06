@@ -1,4 +1,4 @@
-A palindrome reads the same forward and backward. For this exercise, case matters as does punctuation and spaces.
+
 
 Examples:
 
@@ -8,7 +8,7 @@ palindrome?("madam i'm adam") == false # (all characters matter)
 palindrome?('356653') == true
 
 def palindrome?(string_parameter)
-  if string_parameter == palindrome
+  if string_parameter == palindrome A palindrome reads the same forward and backward. For this exercise, case matters as does punctuation and spaces.
     puts true
   else
     puts false
