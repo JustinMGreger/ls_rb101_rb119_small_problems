@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 The || operator returns a truthy value if either or both of its operands are truthy. 
 If both operands are falsey, it returns a falsey value. 
 The && operator returns a truthy value if both of its operands are truthy, and a falsey value if either operand is falsey. 
