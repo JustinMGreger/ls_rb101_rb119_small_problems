@@ -3,9 +3,12 @@
 # Write a method that determines whether an array is palindromic; 
 # that is, the element values appear in the same sequence both forwards and backwards in the array. 
 
-def palindrome?(string_parameter)
-  string_parameter == string_parameter.reverse
+def palindrome_array?(array)
+  array == array.reverse
 end
+
+# Test for array:
+p palindrome_array?([1, true, nil, 'string', 'string', nil, true, 1]) == true  # result is true.
 
  
 # Further Exploration
