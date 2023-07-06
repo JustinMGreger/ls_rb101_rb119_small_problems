@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-
 def palindrome?(string_parameter)
-  if string_parameter == palindrome A palindrome reads the same forward and backward. For this exercise, case matters as does punctuation and spaces.
+  string_parameter == string_parameter.reverse
     puts true
   else
     puts false
