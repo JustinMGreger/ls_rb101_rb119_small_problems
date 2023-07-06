@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-# Write a method that determines whether an array is palindromic; 
-# that is, the element values appear in the same sequence both forwards and backwards in the array. 
-
 def palindrome_array?(array)
   array == array.reverse
 end
