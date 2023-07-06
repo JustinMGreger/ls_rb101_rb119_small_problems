@@ -27,6 +27,7 @@ p xor?(5.even?, 4.odd?) == false # result: true
 # Think of some additional examples.
 # A/B testing, device control, and user privileges.
 
-|| and && are so-called short circuit operators in that the second operand is not evaluated if its value is not needed. 
-Does the xor method perform short-circuit evaluation of its operands? Why or why not? 
-Does short-circuit evaluation in xor operations even make sense?
+# || and && are so-called short circuit operators in that the second operand is not evaluated if its value is not needed. 
+# Does the xor method perform short-circuit evaluation of its operands? 
+# Why or why not? 
+# Does short-circuit evaluation in xor operations even make sense?
