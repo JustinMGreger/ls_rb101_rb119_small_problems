@@ -9,4 +9,8 @@ palindrome?("madam i'm adam") == false # (all characters matter)
 palindrome?('356653') == true
 
 def palindrome?(string_parameter)
+  if string_parameter == palindrome
+    puts true
+  else
+    puts false
 end
