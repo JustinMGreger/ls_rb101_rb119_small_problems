@@ -7,10 +7,12 @@ def palindrome?(string_parameter)
   string_parameter == string_parameter.reverse
 end
 
-p palindrome?('madam') == true                                     # result: true
-p palindrome?('Madam') == false          # (case matters)          # result: true
-p palindrome?("madam i'm adam") == false # (all characters matter) # result: true
-p palindrome?('356653') == true                                    # result: true
+# Test for array:
+p palindrome?([1, 1]) == true   # result true
+p palindrome?([1, 2]) == false  # result true
+p [1, 2]
+p []
+
 
 # Further Exploration
 
