@@ -10,7 +10,7 @@ def xor?(arg_one, arg_two)
   end
 end
 
-p xor?(5.even?, 4.even?) == true
-p xor?(5.odd?, 4.odd?) == true
-p xor?(5.odd?, 4.even?) == false
-p xor?(5.even?, 4.odd?) == false
+p xor?(5.even?, 4.even?) == true # result: true
+p xor?(5.odd?, 4.odd?) == true # result: true
+p xor?(5.odd?, 4.even?) == false # result: true
+p xor?(5.even?, 4.odd?) == false # result: true
