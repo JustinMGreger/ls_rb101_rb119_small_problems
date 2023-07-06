@@ -7,13 +7,7 @@ def palindrome?(string_parameter)
   string_parameter == string_parameter.reverse
 end
 
-# Test for array:
-p palindrome?([1, 1]) == true   # result true
-p palindrome?([1, 2]) == false  # result true
-p [1, 2]
-p []
-
-
+ 
 # Further Exploration
 
 # Now write a method that determines whether an array or a string is palindromic; 
