@@ -9,7 +9,7 @@ end
 
 # Test for array:
 p palindrome_array?([1, true, nil, 'string', 'string', nil, true, 1]) == true  # result is true.
-
+p palindrome_array?([1, false]) == false # result is true.
  
 # Further Exploration
 
