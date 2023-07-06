@@ -4,7 +4,7 @@ def palindrome?(string_parameter)
   string_parameter == string_parameter.reverse
 end
 
-palindrome?('madam') == true
-palindrome?('Madam') == false          # (case matters)
-palindrome?("madam i'm adam") == false # (all characters matter)
-palindrome?('356653') == true
+p palindrome?('madam') == true
+p palindrome?('Madam') == false          # (case matters)
+p palindrome?("madam i'm adam") == false # (all characters matter)
+p palindrome?('356653') == true
