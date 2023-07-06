@@ -3,7 +3,6 @@
 
 # Further Exploration
 
-# that is, write a method that can take either an array or a string argument, 
 # and determines whether that argument is a palindrome. 
 # You may not use an if, unless, or case statement or modifier.
 
