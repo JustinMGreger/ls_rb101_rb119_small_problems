@@ -30,4 +30,7 @@ p xor?(5.even?, 4.odd?) == false # result: true
 # || and && are so-called short circuit operators in that the second operand is not evaluated if its value is not needed. 
 # Does the xor method perform short-circuit evaluation of its operands? 
 # Why or why not? 
+# Answer: No. xor returns true if exactly 1 of the operands is true. 
+
 # Does short-circuit evaluation in xor operations even make sense?
+# Answer: No. Both operands have to be evaluated which means it is not a short circuit operator.
