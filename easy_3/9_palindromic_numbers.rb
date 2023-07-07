@@ -5,7 +5,7 @@ def palindromic_number?(integer)
 end
 
 # Tests:
-p palindromic_number?(34543) == true # result: true
-p palindromic_number?(123210) == false # result: true
+p palindromic_number?(34_543) == true # result: true
+p palindromic_number?(123_210) == false # result: true
 p palindromic_number?(22) == true # result: true
 p palindromic_number?(5) == true # result: true
