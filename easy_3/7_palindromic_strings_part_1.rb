@@ -1,17 +1,8 @@
 # frozen_string_literal: true
 
-def palindrome?(parameter)
-  reversed_parameter = parameter.is_a?(Array) ? [] : ''
+def palindrome?(sequence)
+  sequence.size.times.all? { |i| sequence[i] == sequence[-i-1] }
 end
-
-
-
-
- 
-
-
-
-
 
 # Test for array:
 p palindrome?('madam') == true                                     # result: true
