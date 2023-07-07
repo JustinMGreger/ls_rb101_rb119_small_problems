@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-
-# Further Exploration
-
-# You may not use an if, unless, or case statement or modifier.
-
 def palindrome?(parameter)
   parameter == parameter.reverse
 end
