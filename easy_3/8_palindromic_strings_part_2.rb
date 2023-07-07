@@ -15,6 +15,3 @@ p real_palindrome?("Madam, I'm Adam") == true # (only alphanumerics matter) # re
 p real_palindrome?('356653') == true # result: true
 p real_palindrome?('356a653') == true # result: true
 p real_palindrome?('123ab321') == false # result: true
-
-Further Exploration
-and the closely related String#count (you need to read count to get all of the information you need for delete.)
