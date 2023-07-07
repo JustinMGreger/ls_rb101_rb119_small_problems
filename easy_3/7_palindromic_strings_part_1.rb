@@ -1,8 +1,17 @@
 # frozen_string_literal: true
 
 def palindrome?(parameter)
-  parameter == parameter.reverse
+  reversed_parameter = parameter.is_a?(Array) ? [] : ''
 end
+
+
+
+
+ 
+
+
+
+
 
 # Test for array:
 p palindrome?('madam') == true                                     # result: true
