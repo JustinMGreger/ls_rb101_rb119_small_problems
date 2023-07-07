@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def palindromic_number?(integer)
   if integer == integer.reverse
     true  
