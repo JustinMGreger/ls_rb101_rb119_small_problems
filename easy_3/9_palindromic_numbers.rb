@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
 def palindromic_number?(integer)
-  if integer == integer.reverse
-    true  
-  else 
-    false  
+  integer.to_s == integer.to_s.reverse
 end
 
 # Tests:
