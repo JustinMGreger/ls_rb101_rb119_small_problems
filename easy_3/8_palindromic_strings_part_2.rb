@@ -9,6 +9,12 @@ def real_palindrome?(sequence)
   palindrome?(sequence)
 end
 
+#LS method.
+def real_palindrome?(string)
+  string = string.downcase.delete('^a-z0-9') # raises an error with arrays.
+  palindrome?(string)
+end
+
 p real_palindrome?('madam') == true # result: true
 p real_palindrome?('Madam') == true           # (case does not matter) # result: true
 p real_palindrome?("Madam, I'm Adam") == true # (only alphanumerics matter) # result: true
