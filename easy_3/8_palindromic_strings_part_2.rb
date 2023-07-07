@@ -18,4 +18,5 @@ real_palindrome?('356a653') == true
 real_palindrome?('123ab321') == false
 
 def real_palindrome?(sequence)
+  palindrome?(sequence)
 end
