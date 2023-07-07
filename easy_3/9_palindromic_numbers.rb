@@ -7,7 +7,7 @@ palindromic_number?(22) == true
 palindromic_number?(5) == true
 
 def palindromic_number?(integer)
-  if its integer argument is palindromic A palindromic number reads the same forwards and backwards.
+  if integer == integer.reverse
     returns true  
   else 
     return false  
