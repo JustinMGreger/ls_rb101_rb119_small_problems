@@ -8,7 +8,7 @@ palindromic_number?(5) == true
 
 def palindromic_number?(integer)
   if integer == integer.reverse
-    returns true  
+    true  
   else 
-    return false  
+    false  
 end
