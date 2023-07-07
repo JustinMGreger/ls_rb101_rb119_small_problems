@@ -17,5 +17,5 @@ real_palindrome?('356653') == true
 real_palindrome?('356a653') == true
 real_palindrome?('123ab321') == false
 
-def real_palindrome?
+def real_palindrome?(sequence)
 end
