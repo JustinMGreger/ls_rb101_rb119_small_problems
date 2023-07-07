@@ -5,6 +5,7 @@ def palindrome?(sequence)
 end
 
 def real_palindrome?(sequence)
+  sequence = sequence.downcase
   palindrome?(sequence)
 end
 
