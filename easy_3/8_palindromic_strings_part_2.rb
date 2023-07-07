@@ -5,14 +5,8 @@ def palindrome?(sequence)
 end
 
 def real_palindrome?(sequence)
-  sequence = sequence.downcase.gsub(/[^a-z0-9]/i, '') if sequence.is_a?(String)
+  sequence = sequence.downcase.delete('^a-z0-9') if sequence.is_a?(String)
   palindrome?(sequence)
-end
-
-#LS method.
-def real_palindrome?(string)
-  string = string.downcase.delete('^a-z0-9') # raises an error with arrays.
-  palindrome?(string)
 end
 
 p real_palindrome?('madam') == true # result: true
