@@ -17,6 +17,4 @@ p real_palindrome?('356a653') == true # result: true
 p real_palindrome?('123ab321') == false # result: true
 
 Further Exploration
-
-Read the documentation for String#delete, 
 and the closely related String#count (you need to read count to get all of the information you need for delete.)
