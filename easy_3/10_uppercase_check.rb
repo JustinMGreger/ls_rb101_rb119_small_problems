@@ -2,7 +2,7 @@
 
 def uppercase?(string_argument)
   string_argument = Characters that are not alphabetic should be ignored.
-  string_argument = string_argument.upcase
+  string_argument == string_argument.upcase
 end
 
 # Tests:
