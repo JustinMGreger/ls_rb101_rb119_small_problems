@@ -16,7 +16,7 @@ end
 p palindromic_number?(0110) == true # result: false
 p palindromic_number?(001100) == true # result: false
 p palindromic_number?(011) == true # result: true
-p palindromic_number?(0011) == true # result: true
+p palindromic_number?(011) == true # result: true
 
 # Will your method still work?
 # Yes it will for examples: (011) & (0011)
