@@ -14,7 +14,7 @@ end
 
 # Suppose your number begins with one or more 0s.
 p palindromic_number?(0110) == true # result: false
-p palindromic_number?(001100) == true #result: false
+p palindromic_number?(001100) == true # result: false
 p palindromic_number?(011) == true # result: true
 p palindromic_number?(0011) == true # result: true
 
@@ -39,7 +39,7 @@ p palindromic_number?(0011) == true # result: true
 # Then the string is reversed. '1100' becomes '0011'.
 # Then check if the string and the reversed string are equal. '1100' == '0011' returns false.
 
-# (011) 
+# (011)
 # In the code the integer is converted to a string. for example: 011 becomes '11'.
 # Then the string is reversed. '11' becomes '11'.
 # Then check if the string and the reversed string are equal. '11' == '11' returns true.
