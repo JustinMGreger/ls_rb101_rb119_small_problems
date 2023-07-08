@@ -14,6 +14,8 @@ short_long_short('', 'xyz') == "xyz"
 # two strings
 
 # and output:
+# returns the result of concatenating the shorter string, the longer string, and the shorter string once again. 
+
 # Make the requirements explicit Identify rules:
 # Mental model of the problem (optional):
 # Examples / Test Cases, Validate understanding of the problem:
