@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def uppercase?(string_argument)
-  return true if all of the alphabetic characters inside the string are uppercase, false otherwise. 
+  return true if all of the alphabetic characters inside the string are .upcase false otherwise. 
   Characters that are not alphabetic should be ignored.
 end
 
