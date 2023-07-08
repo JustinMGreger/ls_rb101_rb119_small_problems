@@ -13,7 +13,7 @@ end
 # Further Exploration
 
 # Suppose your number begins with one or more 0s.
-p palindromic_number?(0110) == true #result: false
+p palindromic_number?(0110) == true # result: false
 p palindromic_number?(001100) == true #result: false
 p palindromic_number?(011) == true # result: true
 p palindromic_number?(0011) == true # result: true
