@@ -15,8 +15,8 @@ p uppercase?('') == true # result: true
 
 # Further Exploration
 
-# Food for thought: in our examples, we show that uppercase? should return true if the argument is an empty string. 
-# Would it make sense to return false instead? 
+# Food for thought: in our examples, we show that uppercase? should return true if the argument is an empty string.
+# Would it make sense to return false instead?
 # Why or why not?
 # It would not make sense.
 # There are no characters that are not uppercase as there are no characters.
