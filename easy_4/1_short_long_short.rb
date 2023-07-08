@@ -21,6 +21,13 @@ short_long_short('', 'xyz') == "xyz"
 # result of concatenating the shorter string, the longer string, and the shorter string once again. 
 
 # Mental model of the problem (optional):
+# input 2 strings passed to the short_long_short method.
+# determine the longest of the two strings.
+# return result = "the shorter_string" + "the longer_string" + "the shorter_string" 
+
+
+
+
 # Examples / Test Cases, Validate understanding of the problem:
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Algorithm, Steps for converting input to output:
