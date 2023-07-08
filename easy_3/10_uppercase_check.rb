@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def uppercase?(string_argument)
-  string_argument = Characters that are not  should be ignored.
+  alphabetic = Characters that are not  should be ignored. string_argument
   alphabetic == alphabetic.upcase
 end
 
