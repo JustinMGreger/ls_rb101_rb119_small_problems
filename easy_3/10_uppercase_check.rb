@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def uppercase?(string_argument)
-  alphabetic = string_argument
+  alphabetic = string_argument.gsub(/[^a-zA-Z]/, '')
   alphabetic == alphabetic.upcase
 end
 
