@@ -17,6 +17,9 @@ short_long_short('', 'xyz') == "xyz"
 # returns the result of concatenating the shorter string, the longer string, and the shorter string once again. 
 
 # Make the requirements explicit Identify rules:
+# Write a method that takes two strings as arguments, determines the longest of the two strings, and then returns the 
+# result of concatenating the shorter string, the longer string, and the shorter string once again. 
+
 # Mental model of the problem (optional):
 # Examples / Test Cases, Validate understanding of the problem:
 # Data Structure, How we represent data that we will work with when converting the input to output:
