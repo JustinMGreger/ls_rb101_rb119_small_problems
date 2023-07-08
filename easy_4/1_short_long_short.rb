@@ -3,9 +3,9 @@
 # You may assume that the strings are of different lengths.
 
 # Tests:
-short_long_short('abc', 'defgh') == "abcdefghabc"
-short_long_short('abcde', 'fgh') == "fghabcdefgh"
-short_long_short('', 'xyz') == "xyz"
+# p short_long_short('abc', 'defgh') == "abcdefghabc"
+# p short_long_short('abcde', 'fgh') == "fghabcdefgh"
+# p short_long_short('', 'xyz') == "xyz"
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
@@ -25,10 +25,14 @@ short_long_short('', 'xyz') == "xyz"
 # determine the longest of the two strings.
 # return result = "the shorter_string" + "the longer_string" + "the shorter_string" 
 
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
+# Tests:
+# p short_long_short('abc', 'defgh') == "abcdefghabc"
+# p short_long_short('abcde', 'fgh') == "fghabcdefgh"
+# p short_long_short('', 'xyz') == "xyz"
+
+
+
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Algorithm, Steps for converting input to output:
 # and Code.” Implementation of Algorithm:
