@@ -6,9 +6,9 @@ def uppercase?(string_argument)
 end
 
 # Tests:
-p uppercase?('t') == false
-p uppercase?('T') == true
-p uppercase?('Four Score') == false
-p uppercase?('FOUR SCORE') == true
-p uppercase?('4SCORE!') == true
-p uppercase?('') == true
+p uppercase?('t') == false # result: true
+p uppercase?('T') == true # result: true
+p uppercase?('Four Score') == false # result: true
+p uppercase?('FOUR SCORE') == true # result: true
+p uppercase?('4SCORE!') == true # result: true
+p uppercase?('') == true # result: true
