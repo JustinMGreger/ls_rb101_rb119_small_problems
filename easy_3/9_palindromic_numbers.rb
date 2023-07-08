@@ -44,12 +44,11 @@ In the code the integer is converted to a string. for example: 011 becomes '11'.
 Then the string is reversed. '11' becomes '11'.
 Then check if the string and the reversed string are equal. '11' == '11' returns true.
 
-(0011)
-
-In the code the integer is converted to a string. for example:  0011 becomes '11'.
-Then the string is reversed. '11' becomes '11'.
-Then check if the string and the reversed string are equal. '11' == '11' returns true.
+# (0011)
+# In the code the integer is converted to a string. for example:  0011 becomes '11'.
+# Then the string is reversed. '11' becomes '11'.
+# Then check if the string and the reversed string are equal. '11' == '11' returns true.
 
 # Is there any way to address this?
-input has to be a string not a integer. 
-converting integers to strings results in any leading zeros being lost.
+# input has to be a string not a integer. 
+# converting integers to strings results in any leading zeros being lost.
