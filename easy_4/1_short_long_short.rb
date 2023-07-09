@@ -8,7 +8,7 @@ def short_long_short(string_argument_one, string_argument_two)
     longest_string = string_argument_two
     shortest_string = string_argument_one
   end
-shortest_string + longest_string + shortest_string
+shortest_string+longest_string+shortest_string
 end
 
 # Tests:
