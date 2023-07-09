@@ -12,6 +12,6 @@ def short_long_short(string_argument_one, string_argument_two)
 end
 
 # Tests:
-p short_long_short('abc', 'defgh') == "abcdefghabc"
-p short_long_short('abcde', 'fgh') == "fghabcdefgh"
-p short_long_short('', 'xyz') == "xyz"
+p short_long_short('abc', 'defgh') == "abcdefghabc" # result: true
+p short_long_short('abcde', 'fgh') == "fghabcdefgh" # result: true
+p short_long_short('', 'xyz') == "xyz" # result: true
