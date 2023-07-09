@@ -35,4 +35,10 @@
 # strings & possibly arrays.
 
 # Algorithm, Steps for converting input to output:
+1. the short_long_short method accepts 2 string arguments.
+2. the short_long_short method determines the longest of the two strings.
+3. that information is stored in variables.
+
+
+
 # and Code.” Implementation of Algorithm:
