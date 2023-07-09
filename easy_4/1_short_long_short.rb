@@ -8,6 +8,7 @@
 # and Code.” Implementation of Algorithm:
 def short_long_short(string_argument_one, string_argument_two)
 determines the longest & shortest of the two strings.
+string_argument_one.length > string_argument_two.length
 # 3. that information is stored in variables.
 # 4. organize the variables so that "the shorter_string", "the longer_string", "the shorter_string".
 # 5. concatenate these variables into 1 string.
