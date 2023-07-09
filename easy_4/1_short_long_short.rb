@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-# Tests:
-# p short_long_short('abc', 'defgh') == "abcdefghabc"
-# p short_long_short('abcde', 'fgh') == "fghabcdefgh"
-# p short_long_short('', 'xyz') == "xyz"
-
 # and Code.” Implementation of Algorithm:
 def short_long_short(string_argument_one, string_argument_two)
 determines the longest & shortest of the two strings.
@@ -18,3 +13,8 @@ determines the longest & shortest of the two strings.
  "#{shortest_string}"+"#{longest_string}"+"#{shortest_string}"
 end
 # 6. assign this to a variable.
+
+# Tests:
+# p short_long_short('abc', 'defgh') == "abcdefghabc"
+# p short_long_short('abcde', 'fgh') == "fghabcdefgh"
+# p short_long_short('', 'xyz') == "xyz"
