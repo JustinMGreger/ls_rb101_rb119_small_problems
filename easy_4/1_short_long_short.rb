@@ -12,6 +12,6 @@ shortest_string + longest_string + shortest_string
 end
 
 # Tests:
-p short_long_short('abc', 'defgh') == "abcdefghabc" # result: true
-p short_long_short('abcde', 'fgh') == "fghabcdefgh" # result: true
-p short_long_short('', 'xyz') == "xyz" # result: true
+p short_long_short('abc', 'defgh') == abcdefghabc # result: true
+p short_long_short('abcde', 'fgh') == fghabcdefgh # result: true
+p short_long_short('', 'xyz') == xyz # result: true
