@@ -31,8 +31,8 @@
 # p short_long_short('abcde', 'fgh') == "fghabcdefgh"
 # p short_long_short('', 'xyz') == "xyz"
 
-
-
 # Data Structure, How we represent data that we will work with when converting the input to output:
+# strings & possibly arrays.
+
 # Algorithm, Steps for converting input to output:
 # and Code.” Implementation of Algorithm:
