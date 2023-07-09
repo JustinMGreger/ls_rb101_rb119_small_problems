@@ -15,6 +15,6 @@ end
 # 6. assign this to a variable.
 
 # Tests:
-# p short_long_short('abc', 'defgh') == "abcdefghabc"
-# p short_long_short('abcde', 'fgh') == "fghabcdefgh"
-# p short_long_short('', 'xyz') == "xyz"
+p short_long_short('abc', 'defgh') == "abcdefghabc"
+p short_long_short('abcde', 'fgh') == "fghabcdefgh"
+p short_long_short('', 'xyz') == "xyz"
