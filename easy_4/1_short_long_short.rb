@@ -16,5 +16,5 @@ determines the longest & shortest of the two strings.
     shortest_string = string_argument_one
   end
 
-organize the variables so that "#{shortest_string}"+"#{longest_string}"+"#{shortest_string}"
+ "#{shortest_string}"+"#{longest_string}"+"#{shortest_string}"
 # 6. assign this to a variable.
