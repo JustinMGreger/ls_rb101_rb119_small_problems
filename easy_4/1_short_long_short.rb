@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# and Code.” Implementation of Algorithm:
 def short_long_short(string_argument_one, string_argument_two)
   if string_argument_one.length > string_argument_two.length
     longest_string = string_argument_one
