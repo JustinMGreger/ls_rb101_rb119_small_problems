@@ -36,9 +36,9 @@
 
 # Algorithm, Steps for converting input to output:
 1. the short_long_short method accepts 2 string arguments.
-2. the short_long_short method determines the longest of the two strings.
+2. the short_long_short method determines the longest & shortest of the two strings.
 3. that information is stored in variables.
-
+return result = "the shorter_string" + "the longer_string" + "the shorter_string" 
 
 
 # and Code.” Implementation of Algorithm:
