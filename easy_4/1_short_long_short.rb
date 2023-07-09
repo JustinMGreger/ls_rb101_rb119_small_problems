@@ -41,7 +41,5 @@
 # 4. organize the variables so that "the shorter_string", "the longer_string", "the shorter_string".
 # 5. concatenate these variables into 1 string.
 # 6. assign this to a variable.
-return result = "the shorter_string" + "the longer_string" + "the shorter_string" 
-
 
 # and Code.” Implementation of Algorithm:
