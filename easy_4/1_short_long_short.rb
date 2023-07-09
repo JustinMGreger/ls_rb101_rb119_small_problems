@@ -11,7 +11,6 @@ def short_long_short(string_argument_one, string_argument_two)
   end
  "#{shortest_string}"+"#{longest_string}"+"#{shortest_string}"
 end
-# 6. assign this to a variable.
 
 # Tests:
 p short_long_short('abc', 'defgh') == "abcdefghabc"
