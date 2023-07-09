@@ -15,6 +15,6 @@ determines the longest & shortest of the two strings.
     longest_string = string_argument_two
     shortest_string = string_argument_one
   end
-
  "#{shortest_string}"+"#{longest_string}"+"#{shortest_string}"
+end
 # 6. assign this to a variable.
