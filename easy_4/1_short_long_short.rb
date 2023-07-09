@@ -14,7 +14,8 @@ determines the longest & shortest of the two strings.
   else
     longest_string = string_argument_two
     shortest_string = string_argument_one
+  end
 
-# 4. organize the variables so that "the shorter_string", "the longer_string", "the shorter_string".
+organize the variables so that "#{shortest_string}", "#{longest_string}", "#{shortest_string}".
 # 5. concatenate these variables into 1 string.
 # 6. assign this to a variable.
