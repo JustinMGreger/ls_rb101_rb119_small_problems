@@ -7,11 +7,7 @@ def century(year)
 end
 
 def calculate_century_number(year)
-  if year % 100 == 0
-    year / 100
-  else
-    return year / 100 + 1
-  end
+  year % 100 == 0 ? year / 100 : year / 100 + 1
 end
 
 def calculate_century_suffix(century)
@@ -26,7 +22,7 @@ def calculate_century_suffix(century)
     suffix = "th"
   end
 
-  suffix
+  return suffix
 end
 
 # Tests:
