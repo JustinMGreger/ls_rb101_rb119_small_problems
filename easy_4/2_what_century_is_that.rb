@@ -33,6 +33,15 @@ p century(11201) == '113th'
 # New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
 
 # Mental model of the problem (optional):
+1. the century method accepts a year integer input.
+2. and returns the century. 
+3. The return value should be a string that begins with the century number.
+4. and ends with st, nd, rd, or th as appropriate for that number.
+5. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
+
+
+
+
 # Examples / Test Cases, Validate understanding of the problem:
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Algorithm, Steps for converting input to output:
