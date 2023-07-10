@@ -50,8 +50,8 @@ p century(1052) == '11th'
 p century(1127) == '12th'
 p century(11201) == '113th'
 
-
-
 # Data Structure, How we represent data that we will work with when converting the input to output:
+# strings
+
 # Algorithm, Steps for converting input to output:
 # and Code.” Implementation of Algorithm:
