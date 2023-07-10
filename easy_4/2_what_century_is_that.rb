@@ -40,3 +40,6 @@ def calculate_century_suffix(century)
   if [11, 12, 13].include?(century % 100)
     suffix = "th"
   end
+
+  suffix
+end
