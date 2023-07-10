@@ -39,10 +39,19 @@ p century(11201) == '113th'
 4. and ends with st, nd, rd, or th as appropriate for that number.
 5. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
 
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
+p century(2000) == '20th'
+p century(2001) == '21st'
+p century(1965) == '20th'
+p century(256) == '3rd'
+p century(5) == '1st'
+p century(10103) == '102nd'
+p century(1052) == '11th'
+p century(1127) == '12th'
+p century(11201) == '113th'
+
+
+
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Algorithm, Steps for converting input to output:
 # and Code.” Implementation of Algorithm:
