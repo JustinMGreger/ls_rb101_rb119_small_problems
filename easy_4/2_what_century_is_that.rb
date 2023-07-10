@@ -16,8 +16,6 @@ p century(1052) == '11th'
 p century(1127) == '12th'
 p century(11201) == '113th'
 
-# and Code.” Implementation of Algorithm:
-
 def century(year)
   century_number = calculate_century_number(year)
   suffix = calculate_century_suffix(century_number)
