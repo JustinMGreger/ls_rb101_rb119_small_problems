@@ -62,11 +62,4 @@ p century(11201) == '113th'
 6. determine which century the year integer is in.
 7. return the century string.
 
-
-
-
-
-
-
-
 # and Code.” Implementation of Algorithm:
