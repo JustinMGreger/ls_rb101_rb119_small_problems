@@ -60,11 +60,7 @@ p century(11201) == '113th'
 4. the centuries are strings.
 5. the century method accepts a year integer input.
 6. determine which century the year integer is in.
-
-
-7. and returns the century. 
-3. The return value should be a string that begins with the century number and ends with st, nd, rd, or th as appropriate
-for that number.
+7. return the century string.
 
 
 
