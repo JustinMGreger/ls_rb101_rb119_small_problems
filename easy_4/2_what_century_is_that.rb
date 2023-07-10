@@ -18,28 +18,7 @@ p century(11201) == '113th'
 
 # and Code.” Implementation of Algorithm:
 
-centuries
-1st Century: 1 - 100
-2nd Century: 101 - 200
-3rd Century: 201 - 300
-4th Century: 301 - 400
-5th Century: 401 - 500
-6th Century: 501 - 600
-7th Century: 601 - 700
-8th Century: 701 - 800
-9th Century: 801 - 900
-10th Century: 901 - 1000
-11th Century: 1001 - 1100
-12th Century: 1101 - 1200
-13th Century: 1201 - 1300
-14th Century: 1301 - 1400
-15th Century: 1401 - 1500
-16th Century: 1501 - 1600
-17th Century: 1601 - 1700
-18th Century: 1701 - 1800
-19th Century: 1801 - 1900
-20th Century: 1901 - 2000
-21st Century: 2001 - 2100
+
 
 def century(year)
 determine which century the year integer is in.
