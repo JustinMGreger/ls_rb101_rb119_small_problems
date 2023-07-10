@@ -20,6 +20,9 @@ p century(11201) == '113th'
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
 # Identify expected input: 
+# a year
+
+
 # and output:
 # Make the requirements explicit Identify rules:
 # Mental model of the problem (optional):
