@@ -18,8 +18,11 @@ p century(11201) == '113th'
 
 # and Code.” Implementation of Algorithm:
 
-
-
 def century(year)
 determine which century the year integer is in.
-7. return the century string.
+
+def calculate_century_number(year)
+
+
+
+
