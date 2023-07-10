@@ -22,6 +22,8 @@ def century(year)
 determine which century the year integer is in.
 
 def calculate_century_number(year)
+  if year % 100 == 0
+    year / 100
 
 
 
