@@ -42,6 +42,5 @@ centuries
 21st Century: 2001 - 2100
 
 def century(year)
-5. the century method accepts a year integer input.
 6. determine which century the year integer is in.
 7. return the century string.
