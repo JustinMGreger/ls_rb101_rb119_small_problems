@@ -62,12 +62,10 @@ p century(11201) == '113th'
 6. determine which century the year integer is in.
 
 
-2. and returns the century. 
+7. and returns the century. 
 3. The return value should be a string that begins with the century number and ends with st, nd, rd, or th as appropriate
 for that number.
-4. 
-5. determine which ending is appropriate with the number.
-6. 
+
 
 
 
