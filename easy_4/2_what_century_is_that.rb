@@ -21,6 +21,7 @@ p century(11201) == '113th'
 2. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
 
 centuries
+0101-0200 = 2nd
 0001-0100 = 1st
 
 
