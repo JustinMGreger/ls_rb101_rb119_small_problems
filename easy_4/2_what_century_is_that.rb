@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-
-
 def century(year)
   century_number = calculate_century_number(year)
   suffix = calculate_century_suffix(century_number)
