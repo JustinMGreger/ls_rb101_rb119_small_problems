@@ -41,8 +41,6 @@ centuries
 20th Century: 1901 - 2000
 21st Century: 2001 - 2100
 
-
-3. the centuries ends with st, nd, rd, or th as appropriate for that century.
 4. the centuries are strings.
 5. the century method accepts a year integer input.
 6. determine which century the year integer is in.
