@@ -26,12 +26,12 @@ def calculate_century_suffix(century)
 end
 
 # Tests:
-p century(2000) == '20th Century'
-p century(2001) == '21st Century'
-p century(1965) == '20th Century'
-p century(256) == '3rd Century'
-p century(5) == '1st Century'
-p century(10103) == '102nd Century'
-p century(1052) == '11th Century'
-p century(1127) == '12th Century'
-p century(11201) == '113th Century'
+p century(2000) == '20th Century' # result: true
+p century(2001) == '21st Century' # result: true
+p century(1965) == '20th Century' # result: true
+p century(256) == '3rd Century' # result: true
+p century(5) == '1st Century' # result: true
+p century(10103) == '102nd Century' # result: true
+p century(1052) == '11th Century' # result: true
+p century(1127) == '12th Century' # result: true
+p century(11201) == '113th Century' # result: true
