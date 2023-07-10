@@ -16,24 +16,6 @@ p century(1052) == '11th'
 p century(1127) == '12th'
 p century(11201) == '113th'
 
-# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-# PEDAC stands for “[Understand the] Problem, 
-
-# Identify expected input: 
-# a year
-
-
-# Examples / Test Cases, Validate understanding of the problem:
-p century(2000) == '20th'
-p century(2001) == '21st'
-p century(1965) == '20th'
-p century(256) == '3rd'
-p century(5) == '1st'
-p century(10103) == '102nd'
-p century(1052) == '11th'
-p century(1127) == '12th'
-p century(11201) == '113th'
-
 # and Code.” Implementation of Algorithm:
 1. Build a set of integers from the 1st century to the 21st century.
 2. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
