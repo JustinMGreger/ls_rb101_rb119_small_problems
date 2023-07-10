@@ -54,4 +54,18 @@ p century(11201) == '113th'
 # strings
 
 # Algorithm, Steps for converting input to output:
+1. the century method accepts a year integer input.
+2. and returns the century. 
+3. The return value should be a string that begins with the century number and ends with st, nd, rd, or th as appropriate
+for that number.
+4. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
+5. determine which ending is appropriate with the number.
+6. build a set of integer from the 1st century to the 21st century.
+
+
+
+
+
+
+
 # and Code.” Implementation of Algorithm:
