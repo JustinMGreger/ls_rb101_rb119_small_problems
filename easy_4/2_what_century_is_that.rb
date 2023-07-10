@@ -22,16 +22,16 @@ def calculate_century_suffix(century)
     suffix = "th"
   end
 
-  return suffix
+  suffix
 end
 
 # Tests:
-p century(2000) == '20th'
-p century(2001) == '21st'
-p century(1965) == '20th'
-p century(256) == '3rd'
-p century(5) == '1st'
-p century(10103) == '102nd'
-p century(1052) == '11th'
-p century(1127) == '12th'
-p century(11201) == '113th'
+p century(2000) == '20th Century'
+p century(2001) == '21st Century'
+p century(1965) == '20th Century'
+p century(256) == '3rd Century'
+p century(5) == '1st Century'
+p century(10103) == '102nd Century'
+p century(1052) == '11th Century'
+p century(1127) == '12th Century'
+p century(11201) == '113th Century'
