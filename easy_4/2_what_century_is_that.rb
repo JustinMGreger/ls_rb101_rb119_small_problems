@@ -21,13 +21,27 @@ p century(11201) == '113th'
 2. New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
 
 centuries
-0101-0200 = 2nd
-0001-0100 = 1st
-
-
-
-
-
+1st Century: 1 - 100
+2nd Century: 101 - 200
+3rd Century: 201 - 300
+4th Century: 301 - 400
+5th Century: 401 - 500
+6th Century: 501 - 600
+7th Century: 601 - 700
+8th Century: 701 - 800
+9th Century: 801 - 900
+10th Century: 901 - 1000
+11th Century: 1001 - 1100
+12th Century: 1101 - 1200
+13th Century: 1201 - 1300
+14th Century: 1301 - 1400
+15th Century: 1401 - 1500
+16th Century: 1501 - 1600
+17th Century: 1601 - 1700
+18th Century: 1701 - 1800
+19th Century: 1801 - 1900
+20th Century: 1901 - 2000
+21st Century: 2001 - 2100
 
 
 3. the centuries ends with st, nd, rd, or th as appropriate for that century.
