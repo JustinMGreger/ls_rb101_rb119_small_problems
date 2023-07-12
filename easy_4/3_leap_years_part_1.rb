@@ -1,5 +1,3 @@
-In the modern era under the Gregorian Calendar, 
-leap years occur in every year that is evenly divisible by 4, 
 
 def leap_year?(year)
   year % 4 == 0
