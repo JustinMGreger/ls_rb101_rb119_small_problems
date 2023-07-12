@@ -38,7 +38,9 @@
 # p leap_year?(100) == false
 # p leap_year?(400) == true
 
-
+def prompt(message)
+  puts message
+end
 
 prompt '>> Enter the year: '
 
