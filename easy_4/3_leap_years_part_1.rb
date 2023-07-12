@@ -42,6 +42,10 @@ def prompt(message)
   puts message
 end
 
+def input
+  gets.chomp.to_i
+end
+
 prompt '>> Enter the year: '
 
 def leap_year?(year)  
