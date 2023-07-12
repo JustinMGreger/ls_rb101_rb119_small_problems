@@ -1,6 +1,4 @@
 # frozen_string_literal: true
-Write a method that takes any year greater than 0 as input, 
-and returns true if the year is a leap year, or false if it is not a leap year.
 
 #Tests:
 leap_year?(2016) == true
