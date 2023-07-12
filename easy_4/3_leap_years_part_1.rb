@@ -41,16 +41,16 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # strings.
 
-Algorithm, Steps for converting input to output:
-the leap_year? method accepts the year parameter.
-determine if year is greater than 0.
-if greater than 0 accept the input.
-if less than 0 reject the input.
-keep asking for input until it is greater than 0.
-check if year is a leap year.
-leap years == year % 4 == 0 unless year % 100 == 0 if year % 100 == 0 then year != leap_year unless year % 400 == 0
-if the year is a leap year return true 
-else return false 
+# Algorithm, Steps for converting input to output:
+# the leap_year? method accepts the year parameter.
+# determine if year is greater than 0.
+# if greater than 0 accept the input.
+# if less than 0 reject the input.
+# keep asking for input until it is greater than 0.
+# check if year is a leap year.
+# leap years == year % 4 == 0 unless year % 100 == 0 if year % 100 == 0 then year != leap_year unless year % 400 == 0
+# if the year is a leap year return true 
+# else return false 
 
 
 
