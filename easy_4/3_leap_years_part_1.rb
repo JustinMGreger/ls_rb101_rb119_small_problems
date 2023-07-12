@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-if year % 4 == 0 then it is a leap_year unless the year % 100 == 0 
+ then it is a leap_year unless the year % 100 == 0 
 if year % 100 == 0 then year != leap_year unless year % 400 == 0
 
 Assume this rule is good for any year greater than year 0. 
@@ -42,7 +42,9 @@ year = input any year greater than 0
 leap_year?(year) 
 if the year is a leap year return true 
 else return false 
-# leap years occur in every year that is evenly divisible by 4, unless the year is also divisible by 100. 
+
+leap years == year % 4 == 0
+unless the year is also divisible by 100. 
 # If the year is evenly divisible by 100, then it is not a leap year unless the year is evenly divisible by 400.
 
 
