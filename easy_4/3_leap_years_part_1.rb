@@ -16,8 +16,12 @@
 # If the year is evenly divisible by 100, then it is not a leap year unless the year is evenly divisible by 400.
 
 # Mental model of the problem (optional):
-# year = input any year greater than 0
-# leap_year?(year) 
+the leap_year? method accepts the year parameter.
+determine if year is greater than 0.
+if greater than 0 accept the input.
+if less than 0 reject the input.
+keep asking for input until it is greater than 0.
+
 # if the year is a leap year return true 
 # else return false 
 # leap years == year % 4 == 0 unless year % 100 == 0 
@@ -42,4 +46,19 @@
 # strings.
 
 Algorithm, Steps for converting input to output:
+
+
+
+
+# year = input any year greater than 0
+# leap_year?(year) 
+# if the year is a leap year return true 
+# else return false 
+# leap years == year % 4 == 0 unless year % 100 == 0 
+# if year % 100 == 0 then year != leap_year unless year % 400 == 0
+
+
+
+
+
 and Code.” Implementation of Algorithm:
