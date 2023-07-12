@@ -38,21 +38,6 @@
 # p leap_year?(100) == false
 # p leap_year?(400) == true
 
-def prompt(message)
-  puts message
-end
-
-def input
-  gets.chomp.to_i
-end
-
-def accepted_year?(check_year)
-  until check_year > 0 prompt '>> Enter the year: '
-  year = check_year
-end
-
-prompt '>> Enter the year: '
-check_year = input
 
 def leap_year?(year)  
 
