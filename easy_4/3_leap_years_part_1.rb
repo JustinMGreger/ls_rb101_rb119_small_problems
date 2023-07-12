@@ -30,15 +30,13 @@ leap_year?(400) == true
 # leap years occur in every year that is evenly divisible by 4, unless the year is also divisible by 100. 
 # If the year is evenly divisible by 100, then it is not a leap year unless the year is evenly divisible by 400.
 
-
-Mental model of the problem (optional):
-year = input any year greater than 0
-leap_year?(year) 
-if the year is a leap year return true 
-else return false 
-
-leap years == year % 4 == 0 unless year % 100 == 0 
-if year % 100 == 0 then year != leap_year unless year % 400 == 0
+# Mental model of the problem (optional):
+# year = input any year greater than 0
+# leap_year?(year) 
+# if the year is a leap year return true 
+# else return false 
+# leap years == year % 4 == 0 unless year % 100 == 0 
+# if year % 100 == 0 then year != leap_year unless year % 400 == 0
 
 
 
