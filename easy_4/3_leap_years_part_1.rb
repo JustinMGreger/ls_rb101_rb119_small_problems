@@ -38,6 +38,15 @@ leap_year?(400) == true
 
 
 Mental model of the problem (optional):
+# Write a method that takes any year greater than 0 as input, 
+if the year is a leap year return true 
+else return false 
+# leap years occur in every year that is evenly divisible by 4, unless the year is also divisible by 100. 
+# If the year is evenly divisible by 100, then it is not a leap year unless the year is evenly divisible by 400.
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
