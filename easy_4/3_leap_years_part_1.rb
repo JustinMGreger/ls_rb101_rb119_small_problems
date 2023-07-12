@@ -30,7 +30,13 @@ leap_year?(400) == true
 # and output:
 # true if the year is a leap year, or false if it is not a leap year.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that takes any year greater than 0 as input, 
+# and returns true if the year is a leap year, or false if it is not a leap year.
+# leap years occur in every year that is evenly divisible by 4, unless the year is also divisible by 100. 
+# If the year is evenly divisible by 100, then it is not a leap year unless the year is evenly divisible by 400.
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
