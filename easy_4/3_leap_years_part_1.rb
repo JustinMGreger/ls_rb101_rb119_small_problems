@@ -38,9 +38,8 @@
 # p leap_year?(100) == false
 # p leap_year?(400) == true
 
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# strings.
 
-
-
-Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
