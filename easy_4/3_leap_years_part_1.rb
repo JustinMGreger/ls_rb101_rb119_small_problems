@@ -38,8 +38,12 @@
 # p leap_year?(100) == false
 # p leap_year?(400) == true
 
-def leap_year?(year)  
 
+
+prompt '>> Enter the year: '
+
+def leap_year?(year)  
+year < 0 
 
 
 determine if year is greater than 0.
