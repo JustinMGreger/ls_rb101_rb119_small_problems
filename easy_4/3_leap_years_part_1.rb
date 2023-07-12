@@ -3,8 +3,8 @@ if year % 4 == 0 then it is a leap_year unless the year % 100 == 0
 if year % 100 == 0 then year != leap_year unless year % 400 == 0
 
 Assume this rule is good for any year greater than year 0. 
-Write a method that takes any year greater than 0 as input, and returns true if the year is a leap year, 
-or false if it is not a leap year.
+Write a method that takes any year greater than 0 as input, 
+and returns true if the year is a leap year, or false if it is not a leap year.
 
 #Tests:
 leap_year?(2016) == true
@@ -23,10 +23,13 @@ leap_year?(400) == true
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
+
 # Identify expected input: 
 # year greater than 0
 
-and output:
+# and output:
+# true if the year is a leap year, or false if it is not a leap year.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
