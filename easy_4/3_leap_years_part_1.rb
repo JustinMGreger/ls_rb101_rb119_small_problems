@@ -46,8 +46,9 @@ def input
   gets.chomp.to_i
 end
 
-def accepted_year(check_year)
+def accepted_year?(check_year)
   until check_year > 0 prompt '>> Enter the year: '
+  year = check_year
 end
 
 prompt '>> Enter the year: '
