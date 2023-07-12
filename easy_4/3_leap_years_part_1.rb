@@ -38,8 +38,10 @@
 # p leap_year?(100) == false
 # p leap_year?(400) == true
 
-and Code.” Implementation of Algorithm:
-the leap_year? method accepts the year parameter.
+def leap_year?(year)  
+
+
+
 determine if year is greater than 0.
 if greater than 0 accept the input.
 if less than 0 reject the input.
