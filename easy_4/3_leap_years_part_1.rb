@@ -48,10 +48,10 @@ end
 
 def accepted_year(check_year)
   until check_year > 0 prompt '>> Enter the year: '
-  
+end
 
 prompt '>> Enter the year: '
-
+check_year = input
 
 def leap_year?(year)  
 
