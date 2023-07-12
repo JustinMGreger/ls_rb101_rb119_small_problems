@@ -60,5 +60,3 @@ def leap_year?(year)
 
 
 (year % 4 == 0) unless year % 100 == 0 if year % 100 == 0 then year != leap_year unless year % 400 == 0
-if the year is a leap year return true 
-else return false 
