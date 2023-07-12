@@ -18,3 +18,18 @@ p leap_year?(1700) == false # result: true
 p leap_year?(1) == false # result: true
 p leap_year?(100) == false # result: true
 p leap_year?(400) == true # result: true
+
+Further Exploration
+
+The order in which you perform tests for a leap year calculation is important. For what years will leap_year? 
+fail if you rewrite it as:
+
+def leap_year?(year)
+  if year % 100 == 0
+    false
+  elsif year % 400 == 0
+    true
+  else
+    year % 4 == 0
+  end
+end
