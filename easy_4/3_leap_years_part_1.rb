@@ -46,10 +46,15 @@ def input
   gets.chomp.to_i
 end
 
+def accepted_year(check_year)
+  until check_year > 0 prompt '>> Enter the year: '
+  
+
 prompt '>> Enter the year: '
 
+
 def leap_year?(year)  
-year < 0 
+
 
 
 determine if year is greater than 0.
