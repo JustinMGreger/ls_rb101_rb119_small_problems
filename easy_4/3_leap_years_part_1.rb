@@ -38,7 +38,7 @@ leap_year?(400) == true
 
 
 Mental model of the problem (optional):
-input any year greater than 0
+year = input any year greater than 0
 leap_year?(year) 
 if the year is a leap year return true 
 else return false 
