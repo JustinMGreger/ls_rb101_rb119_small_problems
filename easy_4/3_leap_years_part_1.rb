@@ -5,16 +5,16 @@ def leap_year?(year)
 end
 
 # Tests:
-p leap_year?(2016) == true
-p leap_year?(2015) == false
-p leap_year?(2100) == false
-p leap_year?(2400) == true
-p leap_year?(240000) == true
-p leap_year?(240001) == false
-p leap_year?(2000) == true
-p leap_year?(1900) == false
-p leap_year?(1752) == true
-p leap_year?(1700) == false
-p leap_year?(1) == false
-p leap_year?(100) == false
-p leap_year?(400) == true
+p leap_year?(2016) == true # result: true
+p leap_year?(2015) == false # result: true
+p leap_year?(2100) == false # result: true
+p leap_year?(2400) == true # result: true
+p leap_year?(240000) == true # result: true
+p leap_year?(240001) == false # result: true
+p leap_year?(2000) == true # result: true
+p leap_year?(1900) == false # result: true
+p leap_year?(1752) == true # result: true
+p leap_year?(1700) == false # result: true
+p leap_year?(1) == false # result: true
+p leap_year?(100) == false # result: true
+p leap_year?(400) == true # result: true
