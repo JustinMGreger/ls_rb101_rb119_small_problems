@@ -17,14 +17,23 @@ def leap_year?(year)
   end
 end
 
-Further Exploration
-Can you rewrite leap_year? to perform its tests in the opposite order of the above solution? 
-That is, test whether the year is divisible by 4 first, then, if necessary, test whether it is divisible by 100, 
+# Further Exploration
+# Can you rewrite leap_year? to perform its tests in the opposite order of the above solution? 
+# That is, test whether the year is divisible by 4 first, 
+then, if necessary, test whether it is divisible by 100, 
 and finally, if necessary, test whether it is divisible by 400. 
 Is this solution simpler or more complex than the original solution?
 
 
-
+def leap_year?(year)
+  if year % 4 == 0
+    true
+  elsif year % 100 == 0
+    false
+  else
+  year % 400 == 0
+  end
+end
 
 
 # Tests:
