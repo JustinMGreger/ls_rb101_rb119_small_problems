@@ -18,8 +18,8 @@ def calculate_century_suffix(century)
            else 'th'
            end
            if [11, 12, 13].include?(century % 100)
-            suffix = 'th'
-          end
+             suffix = 'th'
+            end
 suffix
 end
 
