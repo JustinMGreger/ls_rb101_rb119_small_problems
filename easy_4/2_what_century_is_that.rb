@@ -18,6 +18,7 @@ def calculate_century_suffix(century)
            else 'th'
            end
 
+  suffix = 'th' if [11, 12, 13].include?(century % 100)
 
   suffix
 end
@@ -32,7 +33,3 @@ p century(10_103) == '102nd Century' # result: true
 p century(1052) == '11th Century' # result: true
 p century(1127) == '12th Century' # result: true
 p century(11_201) == '113th Century' # result: true
-
-C: [Correctable] Style/IfUnlessModifier: Favor modifier if usage when having a single-line body. Another good alternative is the usage of control flow &&/||.
-if [11, 12, 13].include?(century % 100)
-^^
