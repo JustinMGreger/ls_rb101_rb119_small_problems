@@ -22,8 +22,8 @@ p leap_year?(2016) == true # result: true.
 p leap_year?(2015) == false # result: true.
 p leap_year?(2100) == false # result: true.
 p leap_year?(2400) == true # result: true.
-p leap_year?(240000) == true # result: true.
-p leap_year?(240001) == false # result: true.
+p leap_year?(240_000) == true # result: true.
+p leap_year?(240_001) == false # result: true.
 p leap_year?(2000) == true # result: true.
 p leap_year?(1900) == false # result: true.
 p leap_year?(1752) == true # result: true.
