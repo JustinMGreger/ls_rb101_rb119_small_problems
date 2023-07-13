@@ -11,5 +11,3 @@ the output of which is:
 true
 true
 true
-
-the code works.
