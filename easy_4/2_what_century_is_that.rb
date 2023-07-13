@@ -25,8 +25,6 @@ def calculate_century_suffix(century)
   suffix
 end
 
-
-
 # Tests:
 p century(2000) == '20th Century' # result: true
 p century(2001) == '21st Century' # result: true
