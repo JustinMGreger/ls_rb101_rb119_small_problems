@@ -53,3 +53,10 @@ end
 # Test:
 print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
 
+# result: 
+# +--------------------------------------------------------------------------+
+# |                                                                          |
+# | !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefgh |
+# | ijklmnopqrstuvwxyz{|}~;                                                  |
+# |                                                                          |
+# +--------------------------------------------------------------------------+
