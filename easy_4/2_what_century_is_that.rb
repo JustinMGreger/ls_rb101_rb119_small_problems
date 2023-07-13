@@ -12,14 +12,14 @@ end
 
 def calculate_century_suffix(century)
   suffix = case century % 10
-    when 1 then "st"
-    when 2 then "nd"
-    when 3 then "rd"
+    when 1 then 'st'
+    when 2 then 'nd'
+    when 3 then 'rd'
     else "th"
   end
 
   if [11, 12, 13].include?(century % 100)
-    suffix = "th"
+    suffix = 'th'
   end
 
   suffix
