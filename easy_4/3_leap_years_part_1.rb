@@ -3,8 +3,7 @@
 # Further Exploration
 
 # Can you rewrite leap_year? to perform its tests in the opposite order of the above solution? 
-# Yes the results are different, because the leap_year? method is determining what the leap_year? method is not checking 
-# what the modern era under the Gregorian Calendar, agrees a leap year is.
+
 
 # That is, test whether the year is divisible by 4 first, 
 # then, if necessary, test whether it is divisible by 100, 
