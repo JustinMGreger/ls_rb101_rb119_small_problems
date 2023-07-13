@@ -16,7 +16,7 @@ def leap_year?(year)
     false
   end
 end
-            
+
 # Tests:
 p leap_year?(2016) == true # result: true.
 p leap_year?(2015) == false # result: true.
