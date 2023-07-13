@@ -2,29 +2,6 @@
 
 # Further Exploration
 
-# The order in which you perform tests for a leap year calculation is important.
-
-# my solution:
-# def leap_year?(year)
-#   (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)
-# end
-
-# For what years will leap_year? fail if you rewrite it as:
-# 2400, 240000, 2000, and 400
-
-# LS Solution:
-# def leap_year?(year)
-#  if year % 100 == 0
-#    false
-#  elsif year % 400 == 0
-#    true
-#  else
-#    year % 4 == 0
-#  end
-#end
-
-# Further Exploration
-
 # Can you rewrite leap_year? to perform its tests in the opposite order of the above solution? 
 # Yes the results are different, because the leap_year? method is determining what the leap_year? method is not checking 
 # what the modern era under the Gregorian Calendar, agrees a leap year is.
@@ -38,13 +15,20 @@
 
 def leap_year?(year)
   if year % 4 == 0
-    true
-  elsif (year % 100).zero?
-    false
+    if year % 100 == 0
+      if year % 400 == 0
+        true
+      else
+        false
+      end
+    else
+      true
+    end
   else
-    year % 400 == 0
+    false
   end
 end
+
 
 # Tests:
 p leap_year?(2016) == true # result: true. same result.
