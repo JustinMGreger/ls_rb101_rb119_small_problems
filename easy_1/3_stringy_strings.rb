@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 def stringy(parameter, optional_parameter = 1)
   integers_array = []
