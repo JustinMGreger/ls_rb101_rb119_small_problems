@@ -10,21 +10,12 @@
 # Answer: it is more complex.
 
 def leap_year?(year)
-  if year % 4 == 0
-    if year % 100 == 0
-      (year % 400) == 0
-        true
-      else
-        false
-      end
-    else
-      true
-    end
+  if (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
+    true
   else
     false
   end
 end
-
 
 # Tests:
 p leap_year?(2016) == true # result: true.
