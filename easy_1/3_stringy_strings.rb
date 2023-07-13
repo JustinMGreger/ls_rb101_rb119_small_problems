@@ -10,7 +10,7 @@ def stringy(parameter, optional_parameter = 1)
 end
 
 # Tests:
-p stringy(6) == '101010'
-p stringy(9) == '101010101'
-p stringy(4) == '1010'
-p stringy(7) == '1010101'
+p stringy(6) == '101010' # result: true.
+p stringy(9) == '101010101' # result: true.
+p stringy(4) == '1010' # result: true.
+p stringy(7) == '1010101' # result: true.
