@@ -21,8 +21,7 @@ suffix = case century % 10
   if [11, 12, 13].include?(century % 100)
     suffix = 'th'
   end
-
-  suffix
+suffix
 end
 
 # Tests:
