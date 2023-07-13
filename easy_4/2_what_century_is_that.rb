@@ -17,9 +17,8 @@ suffix = case century % 10
          when 3 then 'rd'
          else 'th'
          end
-
-  if [11, 12, 13].include?(century % 100)
-    suffix = 'th'
+         if [11, 12, 13].include?(century % 100)
+           suffix = 'th'
   end
 suffix
 end
