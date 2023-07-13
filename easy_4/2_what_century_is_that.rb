@@ -3,7 +3,7 @@
 def century(year)
   century_number = calculate_century_number(year)
   suffix = calculate_century_suffix(century_number)
-  return "#{century_number}#{suffix} Century"
+  "#{century_number}#{suffix} Century"
 end
 
 def calculate_century_number(year)
