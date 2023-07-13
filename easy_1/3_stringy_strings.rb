@@ -8,7 +8,7 @@ def stringy(parameter, optional_parameter = 1)
   integers_array.join
 end
 
-tests:
+# Tests:
 puts stringy(6) == '101010'
 puts stringy(9) == '101010101'
 puts stringy(4) == '1010'
