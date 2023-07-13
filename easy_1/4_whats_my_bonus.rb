@@ -1,4 +1,3 @@
-=begin
 
 Description of Exercise:
 Write a method that takes two arguments, a positive integer and a boolean, and calculates the bonus for a given salary. 
