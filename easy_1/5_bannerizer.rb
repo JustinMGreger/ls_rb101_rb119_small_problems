@@ -53,7 +53,7 @@ end
 # Test:
 print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
 
-# result: 
+# result:
 # +--------------------------------------------------------------------------+
 # |                                                                          |
 # | !"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefgh |
