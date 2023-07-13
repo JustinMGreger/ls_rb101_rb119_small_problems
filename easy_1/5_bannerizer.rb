@@ -50,4 +50,6 @@ def print_in_box(message)
   build_box(broken_message.join("\n"), max_line_length)
 end
 
+# Test:
 print_in_box '!"#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~;'
+
