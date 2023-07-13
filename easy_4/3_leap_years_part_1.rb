@@ -1,25 +1,11 @@
 # frozen_string_literal: true
 
-
-# Tests:
-p leap_year?(2016) == true # result: true
-p leap_year?(2015) == false # result: true
-p leap_year?(2100) == false # result: true
-p leap_year?(2400) == true # result: true
-p leap_year?(240000) == true # result: true
-p leap_year?(240001) == false # result: true
-p leap_year?(2000) == true # result: true
-p leap_year?(1900) == false # result: true
-p leap_year?(1752) == true # result: true
-p leap_year?(1700) == false # result: true
-p leap_year?(1) == false # result: true
-p leap_year?(100) == false # result: true
-p leap_year?(400) == true # result: true
-
 # Further Exploration
 
-# The order in which you perform tests for a leap year calculation is important. 
+# The order in which you perform tests for a leap year calculation is important.
+
 # For what years will leap_year? fail if you rewrite it as:
+# 2400, 240000, 2000, and 400
 
 def leap_year?(year)
   if year % 100 == 0
@@ -30,3 +16,18 @@ def leap_year?(year)
     year % 4 == 0
   end
 end
+
+# Tests:
+p leap_year?(2016) == true # result: true 1
+p leap_year?(2015) == false # result: true 2
+p leap_year?(2100) == false # result: true 3
+p leap_year?(2400) == true # result: false 4
+p leap_year?(240000) == true # result: false 5
+p leap_year?(240001) == false # result: true 6
+p leap_year?(2000) == true # result: false 7
+p leap_year?(1900) == false # result: true 8
+p leap_year?(1752) == true # result: true 9
+p leap_year?(1700) == false # result: true 10
+p leap_year?(1) == false # result: true
+p leap_year?(100) == false # result: true
+p leap_year?(400) == true # result: false
