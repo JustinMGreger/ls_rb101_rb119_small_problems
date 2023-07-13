@@ -4,6 +4,11 @@
 
 # The order in which you perform tests for a leap year calculation is important.
 
+# my solution:
+# def leap_year?(year)
+#   (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)
+# end
+
 # For what years will leap_year? fail if you rewrite it as:
 # 2400, 240000, 2000, and 400
 
@@ -21,13 +26,15 @@
 # Further Exploration
 
 # Can you rewrite leap_year? to perform its tests in the opposite order of the above solution? 
-# Yes the results are different, because it determining what a leap year is not what human civilization in the USA agrees
-# a leap year is.
+# Yes the results are different, because it determining what the leap_year? method is not what human civilization in the 
+# USA agrees a leap year is.
 
 # That is, test whether the year is divisible by 4 first, 
 # then, if necessary, test whether it is divisible by 100, 
 # and finally, if necessary, test whether it is divisible by 400. 
+
 # Is this solution simpler or more complex than the original solution?
+# It is more complex.
 
 def leap_year?(year)
   if year % 4 == 0
@@ -53,4 +60,3 @@ p leap_year?(1700) == false # result: false
 p leap_year?(1) == false # result: true
 p leap_year?(100) == false # result: false
 p leap_year?(400) == true # result: true
-
