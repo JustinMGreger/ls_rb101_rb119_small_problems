@@ -39,7 +39,7 @@
 def leap_year?(year)
   if year % 4 == 0
     true
-  elsif year % 100 == 0
+  elsif (year % 100).zero?
     false
   else
     year % 400 == 0
