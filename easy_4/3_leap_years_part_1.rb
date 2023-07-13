@@ -6,6 +6,7 @@
 # That is, test whether the year is divisible by 4 first, then, if necessary, test whether it is divisible by 100,
 # and finally, if necessary, test whether it is divisible by 400.
 # Answer: yes.
+
 # Is this solution simpler or more complex than the original solution?
 # Answer: it is more complex.
 
