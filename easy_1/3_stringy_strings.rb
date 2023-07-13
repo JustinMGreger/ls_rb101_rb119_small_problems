@@ -13,12 +13,3 @@ p stringy(6) == '101010'
 p stringy(9) == '101010101'
 p stringy(4) == '1010'
 p stringy(7) == '1010101'
-
-the output of which is:
-true
-true
-true
-true
-
-the code works.
-
