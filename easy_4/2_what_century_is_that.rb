@@ -17,11 +17,15 @@ def calculate_century_suffix(century)
            when 3 then 'rd'
            else 'th'
            end
-           if [11, 12, 13].include?(century % 100)
-             suffix = 'th'
-            end
-suffix
+
+  if [11, 12, 13].include?(century % 100)
+    suffix = 'th'
+  end
+
+  suffix
 end
+
+
 
 # Tests:
 p century(2000) == '20th Century' # result: true
