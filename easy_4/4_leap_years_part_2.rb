@@ -22,8 +22,7 @@ end
 
 def julian_calendar?(year)
   leap_year = (year % 4).zero?
-else
-  gregorian_calendar?(year)
+
 
 
 This method for years after 1752. the Gregorian Calendar
