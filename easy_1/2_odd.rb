@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 def is_odd?(integer)
   integer.remainder(2) == 1
