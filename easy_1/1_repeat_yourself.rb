@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
- def repeat(string, integer)
+def repeat(string, integer)
   integer.times do
     puts string
   end
