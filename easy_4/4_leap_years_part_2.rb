@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 A continuation of the previous exercise.
 
 The British Empire adopted the Gregorian Calendar in 1752, which was a leap year. 
