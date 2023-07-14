@@ -6,6 +6,7 @@
   end
 end
 
+# Test:
 repeat('Hello', 3)
 
 the output of which is:
