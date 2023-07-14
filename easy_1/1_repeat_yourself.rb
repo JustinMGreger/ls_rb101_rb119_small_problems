@@ -9,7 +9,7 @@ end
 # Test:
 repeat('Hello', 3)
 
-the output of which is:
-Hello
-Hello
-Hello
+# the output of which is:
+# Hello
+# Hello
+# Hello
