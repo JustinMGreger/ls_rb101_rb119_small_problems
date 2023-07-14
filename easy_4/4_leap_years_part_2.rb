@@ -18,8 +18,6 @@ def which_calendar?(year)
   end
 end
 
-
-
 def julian_calendar?(year)
   (year % 4).zero?
 end
