@@ -6,18 +6,6 @@ Prior to 1752, the Julian Calendar
 Using this information, update the method from the previous exercise to determine leap years both before and after 1752.
 
 
-
-
-
-
-def leap_year?(year)
-  if years <= 1752 
-    julian_calendar?(year)
-  else
-    gregorian_calendar?(year)
-  end
-end
-
 def julian_calendar?(year)
   (year % 4).zero?
 end
@@ -27,6 +15,14 @@ def gregorian_calendar?(year)
     true
   else
     false
+  end
+end
+
+def leap_year?(year)
+  if years <= 1752 
+    julian_calendar?(year)
+  else
+    gregorian_calendar?(year)
   end
 end
 
