@@ -4,12 +4,12 @@ def is_odd?(integer)
 end
 
 tests:             original output of the code using integer % 2 == 1 
-puts is_odd?(2)    # => false
-puts is_odd?(5)    # => true
-puts is_odd?(-17)  # => true
-puts is_odd?(-8)   # => false
-puts is_odd?(0)    # => false
-puts is_odd?(7)    # => true
+p is_odd?(2)    # => false
+p is_odd?(5)    # => true
+p is_odd?(-17)  # => true
+p is_odd?(-8)   # => false
+p is_odd?(0)    # => false
+p is_odd?(7)    # => true
 
 The output of which are:
 puts is_odd?(2) == false same output of the code using integer % 2 == 1
