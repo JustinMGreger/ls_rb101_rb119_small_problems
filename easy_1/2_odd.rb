@@ -10,4 +10,3 @@ p is_odd?(-17)  # => true
 p is_odd?(-8)   # => false
 p is_odd?(0)    # => false
 p is_odd?(7)    # => true
-
