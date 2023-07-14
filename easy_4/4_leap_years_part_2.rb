@@ -5,7 +5,7 @@ def julian_calendar?(year)
 end
 
 def gregorian_calendar?(year)
-  if ((year % 4).zero? && year % 100 != 0) || (year % 400.zero?)
+  if ((year % 4).zero? && year % 100 != 0) || (year % 400).zero?
     true
   else
     false
