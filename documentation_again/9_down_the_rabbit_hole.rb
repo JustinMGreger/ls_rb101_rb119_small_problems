@@ -1,4 +1,4 @@
-=begin
+
 
 Description of Exercise:
 Sometimes, the documentation is going to leave you scratching your head.
