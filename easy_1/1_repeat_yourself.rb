@@ -121,5 +121,3 @@ this matches the original output which is:
 Hello
 Hello
 Hello
-
-=end
