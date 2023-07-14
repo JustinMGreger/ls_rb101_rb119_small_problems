@@ -40,8 +40,9 @@ p leap_year?(400) == true # result: true.
 # Find a web page that talks about leap years or the different calendar systems, 
 # Answer: https://en.wikipedia.org/wiki/Leap_year
 
-and talk about the interesting information you learned. 
-
+# and talk about the interesting information you learned. 
+# Answer: 
+lunisolar calendars add a month in leap years.
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
 Do they even use these calendar systems? 
