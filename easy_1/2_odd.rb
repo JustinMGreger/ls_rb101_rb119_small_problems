@@ -160,5 +160,3 @@ the remainder(2) method being called on -17 has a remainder of -1.
 the % method returns 1 on -17 % 2.
 1 is equal to 1 which is why it returns true.
 the way the % method and the remainder method are programmed are why they return different answers.
-
-=end
