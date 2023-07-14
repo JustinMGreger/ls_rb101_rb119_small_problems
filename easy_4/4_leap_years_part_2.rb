@@ -13,7 +13,7 @@ def gregorian_calendar?(year)
 end
 
 def leap_year?(year)
-  if years <= 1752 
+  if year <= 1752 
     julian_calendar?(year)
   else
     gregorian_calendar?(year)
