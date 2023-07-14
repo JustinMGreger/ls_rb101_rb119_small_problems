@@ -35,12 +35,13 @@ p leap_year?(1) == false # result: true.
 p leap_year?(100) == true # result: true.
 p leap_year?(400) == true # result: true.
 
-Further Exploration
+# Further Exploration
 
-Find a web page that talks about leap years or the different calendar systems, and talk about the interesting information
-you learned. 
+# Find a web page that talks about leap years or the different calendar systems, 
+# Answer: https://en.wikipedia.org/wiki/Leap_year
 
-Answer: https://en.wikipedia.org/wiki/Leap_year
+and talk about the interesting information you learned. 
+
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
 Do they even use these calendar systems? 
