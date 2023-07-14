@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-
-
 def julian_calendar?(year)
   (year % 4).zero?
 end
