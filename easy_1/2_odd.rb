@@ -1,4 +1,4 @@
-=begin
+
 
 Description of Exercise:
 Write a method that takes one integer argument, which may be positive, negative, or zero. 
