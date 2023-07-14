@@ -13,8 +13,3 @@ the output of which is:
 Hello
 Hello
 Hello
-
-this matches the original output which is:
-Hello
-Hello
-Hello
