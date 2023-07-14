@@ -24,7 +24,7 @@ end
 
 
 This method for years after 1752. the Gregorian Calendar
-def leap_year?(year)
+def gregorian_calendar?(year)
   if ((year % 4).zero? && year % 100 != 0) || (year % 400.zero?)
     true
   else
