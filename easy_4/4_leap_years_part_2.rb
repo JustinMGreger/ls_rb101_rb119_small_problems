@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 
-Prior to 1752, the Julian Calendar was used leap years occur in any year that is evenly divisible by 4.
+Prior to 1752, the Julian Calendar  leap_year = (year % 4).zero?
 
 Using this information, update the method from the previous exercise to determine leap years both before and after 1752.
 
