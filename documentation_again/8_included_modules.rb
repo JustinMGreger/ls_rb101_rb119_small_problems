@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 Description of Exercise:
 Use irb to run the following code:
