@@ -53,8 +53,11 @@ p leap_year?(400) == true # result: true.
 # [1] Those that lead to error conditions, such as exceptions, error return codes, uninitialized variables, or endless 
 # loops
 # [2] Those that lead to incorrect data, such as off-by-one problems in range queries or aggregation
-
 # https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Year_2100
+# In computer science, time formatting and storage bugs are a class of software bugs that cause errors in time and date 
+# calculation or display. These are most commonly manifestations of arithmetic overflow, but can also be the result of 
+# other issues. The most well-known consequence of bugs of this type is the Y2K problem, but many other milestone dates or
+# times exist that have caused or will cause problems depending on various programming deficiencies.
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
 Do they even use these calendar systems? 
