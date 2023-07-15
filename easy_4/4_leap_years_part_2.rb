@@ -42,12 +42,13 @@ p leap_year?(400) == true # result: true.
 
 # and talk about the interesting information you learned.
 # Answer:
-# On 1 January 45 BC, by edict, Julius Caesar reformed the historic Roman calendar to make it a consistent solar calendar
-# (rather than one which was neither strictly lunar nor strictly solar), thus removing the need for frequent intercalary 
-# months. His rule for leap years was a simple one: add a leap day every four years. This algorithm is close to reality: a
-# Julian year lasts 365.25 days, a mean tropical year about 365.2422 days.[4] Consequently, even this Julian calendar 
-# drifts out of 'true' by about three days every 400 years. The Julian calendar continued in use unaltered for about 1600
-# years until the Catholic Church became concerned about the widening divergence between the March Equinox and 21 March
+# On 1 January 45 BC, by edict, Julius Caesar reformed the historic Roman calendar to make it a consistent solar
+# calendar (rather than one which was neither strictly lunar nor strictly solar), thus removing the need for frequent
+# intercalary months. His rule for leap years was a simple one: add a leap day every four years. This algorithm is close 
+# to reality: a Julian year lasts 365.25 days, a mean tropical year about 365.2422 days.[4] Consequently, even this 
+# Julian calendar drifts out of 'true' by about three days every 400 years. The Julian calendar continued in use 
+# unaltered for about 1600 years until the Catholic Church became concerned about the widening divergence between the
+# March Equinox and 21 March.
 # In the Gregorian calendar, the standard calendar in most of the world, almost every fourth year is a leap year. Each 
 # leap year, the month of February has 29 days instead of 28. Adding one extra day in the calendar every four years 
 # compensates for the fact that a period of 365 days is shorter than a tropical year by almost 6 hours.[7] However, this 
