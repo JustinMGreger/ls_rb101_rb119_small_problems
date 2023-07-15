@@ -45,6 +45,10 @@ p leap_year?(400) == true # result: true.
 # https://en.wikipedia.org/wiki/Lunisolar_calendar
 # lunisolar calendars add a month in leap years.
 # https://en.wikipedia.org/wiki/Leap_year_problem
+# The leap year problem (also known as the leap year bug or the leap day bug) is a problem for both digital 
+# (computer-related) and non-digital documentation and data storage situations which results from errors in the 
+# calculation of which years are leap years, or from manipulating dates without regard to the difference between leap 
+# years and common years.
 # https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Year_2100
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
