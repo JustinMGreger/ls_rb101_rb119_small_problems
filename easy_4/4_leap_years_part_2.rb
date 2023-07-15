@@ -37,11 +37,11 @@ p leap_year?(400) == true # result: true.
 
 # Further Exploration
 
-# Find a web page that talks about leap years or the different calendar systems, 
+# Find a web page that talks about leap years or the different calendar systems,
 # Answer: https://en.wikipedia.org/wiki/Leap_year
 
-# and talk about the interesting information you learned. 
-# Answer: 
+# and talk about the interesting information you learned.
+# Answer:
 # On 1 January 45 BC, by edict, Julius Caesar reformed the historic Roman calendar to make it a consistent solar calendar
 # (rather than one which was neither strictly lunar nor strictly solar), thus removing the need for frequent intercalary 
 # months. His rule for leap years was a simple one: add a leap day every four years. This algorithm is close to reality: a
@@ -80,8 +80,8 @@ p leap_year?(400) == true # result: true.
 # this is the change from the Julian calendar to the Gregorian calendar as enacted in various European countries between 
 # 1582 and the early 20th century. In England, Wales, Ireland and Britain's American colonies, there were two calendar 
 # changes, both in 1752. The first adjusted the start of a new year from Lady Day (25 March) to 1 January (which Scotland 
-# had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, removing 11 
-# days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual 
+# had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, removing 11
+# days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual
 # dating to identify a given day by giving its date according to both styles of dating.
 
 # Do they even use these calendar systems? 
