@@ -73,6 +73,7 @@ p leap_year?(400) == true # result: true.
 # times exist that have caused or will cause problems depending on various programming deficiencies.
 
 # For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
+# Answer:
 # the British Empire (including the eastern part of what is now the United States) adopted the Gregorian calendar in 1752.
 # Old Style and New Style dates. Main articles: Old Style and New Style dates and Calendar (New Style) Act 1750 "Old 
 # Style" (O.S.) and "New Style" (N.S.) indicate dating systems before and after a calendar change, respectively. Usually,
@@ -83,4 +84,5 @@ p leap_year?(400) == true # result: true.
 # days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual 
 # dating to identify a given day by giving its date according to both styles of dating.
 Do they even use these calendar systems? 
+# Answer:
 If you live someplace that doesn't use the Gregorian calendar, tell us about your calendar system.
