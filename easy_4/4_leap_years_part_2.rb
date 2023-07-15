@@ -48,7 +48,13 @@ p leap_year?(400) == true # result: true.
 # Julian year lasts 365.25 days, a mean tropical year about 365.2422 days.[4] Consequently, even this Julian calendar 
 # drifts out of 'true' by about three days every 400 years. The Julian calendar continued in use unaltered for about 1600
 # years until the Catholic Church became concerned about the widening divergence between the March Equinox and 21 March
-
+# In the Gregorian calendar, the standard calendar in most of the world, almost every fourth year is a leap year. Each 
+# leap year, the month of February has 29 days instead of 28. Adding one extra day in the calendar every four years 
+# compensates for the fact that a period of 365 days is shorter than a tropical year by almost 6 hours.[7] However, this 
+# correction is excessive and the Gregorian reform modified the Julian calendar's scheme of leap years as follows: Every 
+# year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these 
+# centurial years are leap years if they are exactly divisible by 400. For example, the years 1700, 1800, and 1900 are not
+# leap years, but the years 1600 and 2000 are.
 
 # https://en.wikipedia.org/wiki/Lunisolar_calendar
 # lunisolar calendars add a month in leap years.
