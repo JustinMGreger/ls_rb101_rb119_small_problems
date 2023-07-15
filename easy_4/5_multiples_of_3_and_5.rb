@@ -15,7 +15,8 @@ multisum(1_000) == 234_168
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
 
-Identify expected input: 
+# Identify expected input: 
+# an integer greater than 1.
 
 and output:
 Make the requirements explicit Identify rules:
