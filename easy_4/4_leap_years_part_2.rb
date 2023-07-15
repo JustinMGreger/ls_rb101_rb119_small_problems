@@ -80,10 +80,10 @@ p leap_year?(400) == true # result: true.
 # Style" (O.S.) and "New Style" (N.S.) indicate dating systems before and after a calendar change, respectively. Usually,
 # this is the change from the Julian calendar to the Gregorian calendar as enacted in various European countries between
 # 1582 and the early 20th century. In England, Wales, Ireland and Britain's American colonies, there were two calendar
-# changes, both in 1752. The first adjusted the start of a new year from Lady Day (25 March) to 1 January (which Scotland
-# had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, removing 11
-# days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual
-# dating to identify a given day by giving its date according to both styles of dating.
+# changes, both in 1752. The first adjusted the start of a new year from Lady Day (25 March) to 1 January
+# (which Scotland had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, 
+# removing 11 days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers 
+# used dual dating to identify a given day by giving its date according to both styles of dating.
 
 # Do they even use these calendar systems?
 # Answer:
