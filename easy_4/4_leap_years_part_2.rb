@@ -87,4 +87,7 @@ p leap_year?(400) == true # result: true.
 # Do they even use these calendar systems? 
 # Answer:
 # yes.
-If you live someplace that doesn't use the Gregorian calendar, tell us about your calendar system.
+
+# If you live someplace that doesn't use the Gregorian calendar, tell us about your calendar system.
+# Answer:
+# I do not.
