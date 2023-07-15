@@ -8,4 +8,4 @@ Examples
 multisum(3) == 3
 multisum(5) == 8
 multisum(10) == 33
-multisum(1000) == 234168
+multisum(1_000) == 234_168
