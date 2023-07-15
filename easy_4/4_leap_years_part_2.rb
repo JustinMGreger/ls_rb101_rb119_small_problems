@@ -42,7 +42,10 @@ p leap_year?(400) == true # result: true.
 
 # and talk about the interesting information you learned. 
 # Answer: 
-lunisolar calendars add a month in leap years.
+# https://en.wikipedia.org/wiki/Lunisolar_calendar
+# lunisolar calendars add a month in leap years.
+# https://en.wikipedia.org/wiki/Leap_year_problem
+# https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Year_2100
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
 Do they even use these calendar systems? 
