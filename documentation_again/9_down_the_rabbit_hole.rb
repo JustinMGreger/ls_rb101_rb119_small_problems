@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 # Description of Exercise:
 Find the documentation for YAML::load_file.
