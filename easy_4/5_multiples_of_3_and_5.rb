@@ -18,7 +18,9 @@ multisum(1_000) == 234_168
 # Identify expected input: 
 # an integer greater than 1.
 
-and output:
+# and output:
+# the sum of all multiples of 3 or 5 that lie between 1 and the integer greater than 1.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
