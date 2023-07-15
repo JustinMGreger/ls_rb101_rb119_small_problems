@@ -21,7 +21,7 @@
 
 # there you will find:
 # load_file(filename, **kwargs)
-# Loads the document contained in filename. Returns the yaml contained in filename as a Ruby object, or if the file is 
+# Loads the document contained in filename. Returns the yaml contained in filename as a Ruby object, or if the file is
 # empty, it returns the specified fallback return value, which defaults to false. See load for options.
 
 # Another option is to look at older ruby docs for example 1.8.6:
