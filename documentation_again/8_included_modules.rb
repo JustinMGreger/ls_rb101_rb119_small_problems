@@ -131,5 +131,3 @@ puts a.min(2)
 the output of which is:
 3
 5
-
-=end
