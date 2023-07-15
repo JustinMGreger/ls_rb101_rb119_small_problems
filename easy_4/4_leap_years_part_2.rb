@@ -49,6 +49,11 @@ p leap_year?(400) == true # result: true.
 # (computer-related) and non-digital documentation and data storage situations which results from errors in the 
 # calculation of which years are leap years, or from manipulating dates without regard to the difference between leap 
 # years and common years.
+# Leap year bugs typically fall into two categories, based on the amount of impact they may have in real-world usage:
+# [1] Those that lead to error conditions, such as exceptions, error return codes, uninitialized variables, or endless 
+# loops
+# [2] Those that lead to incorrect data, such as off-by-one problems in range queries or aggregation
+
 # https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Year_2100
 
 For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
