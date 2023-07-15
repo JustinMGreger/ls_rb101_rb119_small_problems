@@ -12,9 +12,11 @@ multisum(5) == 8
 multisum(10) == 33
 multisum(1_000) == 234_168
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem, 
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem, 
+
 Identify expected input: 
+
 and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
