@@ -6,7 +6,7 @@ For instance, if the supplied number is 20, the result should be 98 (3 + 5 + 6 +
 
 You may assume that the number passed in is an integer greater than 1.
 
-Examples
+# Tests:
 multisum(3) == 3
 multisum(5) == 8
 multisum(10) == 33
