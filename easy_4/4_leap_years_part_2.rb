@@ -55,7 +55,6 @@ p leap_year?(400) == true # result: true.
 # year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these 
 # centurial years are leap years if they are exactly divisible by 400. For example, the years 1700, 1800, and 1900 are not
 # leap years, but the years 1600 and 2000 are.
-
 # https://en.wikipedia.org/wiki/Lunisolar_calendar
 # lunisolar calendars add a month in leap years.
 # https://en.wikipedia.org/wiki/Leap_year_problem
@@ -73,6 +72,15 @@ p leap_year?(400) == true # result: true.
 # other issues. The most well-known consequence of bugs of this type is the Y2K problem, but many other milestone dates or
 # times exist that have caused or will cause problems depending on various programming deficiencies.
 
-For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
+# For instance, how was the change from the Julian calendar to the Gregorian calendar handled in your ancestral lands?
+# the British Empire (including the eastern part of what is now the United States) adopted the Gregorian calendar in 1752.
+# Old Style and New Style dates. Main articles: Old Style and New Style dates and Calendar (New Style) Act 1750 "Old 
+# Style" (O.S.) and "New Style" (N.S.) indicate dating systems before and after a calendar change, respectively. Usually,
+# this is the change from the Julian calendar to the Gregorian calendar as enacted in various European countries between 
+# 1582 and the early 20th century. In England, Wales, Ireland and Britain's American colonies, there were two calendar 
+# changes, both in 1752. The first adjusted the start of a new year from Lady Day (25 March) to 1 January (which Scotland 
+# had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, removing 11 
+# days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual 
+# dating to identify a given day by giving its date according to both styles of dating.
 Do they even use these calendar systems? 
 If you live someplace that doesn't use the Gregorian calendar, tell us about your calendar system.
