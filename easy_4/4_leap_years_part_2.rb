@@ -83,6 +83,8 @@ p leap_year?(400) == true # result: true.
 # had done from 1600), while the second discarded the Julian calendar in favour of the Gregorian calendar, removing 11 
 # days from the September 1752 calendar to do so.[55][56] To accommodate the two calendar changes, writers used dual 
 # dating to identify a given day by giving its date according to both styles of dating.
-Do they even use these calendar systems? 
+
+# Do they even use these calendar systems? 
 # Answer:
+# yes.
 If you live someplace that doesn't use the Gregorian calendar, tell us about your calendar system.
