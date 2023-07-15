@@ -23,6 +23,7 @@ multisum(1_000) == 234_168
 
 Make the requirements explicit Identify rules:
 def multisum(parameter)
+  parameter > 1
   searches for all multiples of 3 or 5 that lie between 1 and the parameter.
   sum these multiples.
 
@@ -31,7 +32,6 @@ end
  
 
 if the supplied number is 20, the result should be 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + 20).
-You may assume that the number passed in is an integer greater than 1.
 
 
 
