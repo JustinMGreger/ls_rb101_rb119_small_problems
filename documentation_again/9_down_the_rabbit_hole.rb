@@ -32,4 +32,4 @@
 # Load a document from the file located at filepath.
 
 # YAML.load_file( 'animals.yaml' )
-   #=> ['badger', 'elephant', 'tiger']
+#=> ['badger', 'elephant', 'tiger']
