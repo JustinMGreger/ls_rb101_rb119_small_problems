@@ -18,3 +18,12 @@ p multisum(3) == 3
 p multisum(5) == 8
 p multisum(10) == 33
 p multisum(1_000) == 234_168
+
+Further Exploration
+
+Investigate Enumerable.inject (also known as Enumerable.reduce), 
+How might this method be useful in solving this problem? 
+(Note that Enumerable methods are available when working with Arrays.) 
+Try writing such a solution. 
+Which is clearer? 
+Which is more succinct?
