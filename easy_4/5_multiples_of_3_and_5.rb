@@ -9,8 +9,6 @@ def multisum(max_value)
   sum = 0
   1.upto(max_value) do |number|
     sum += number if multiple?(number, 3) || multiple?(number, 5)
-
-    end
   end
   sum
 end
