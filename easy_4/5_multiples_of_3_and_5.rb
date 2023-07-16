@@ -19,7 +19,7 @@ p multisum(5) == 8
 p multisum(10) == 33
 p multisum(1_000) == 234_168
 
-Further Exploration
+# Further Exploration
 
 Investigate Enumerable.inject (also known as Enumerable.reduce), 
 How might this method be useful in solving this problem? 
