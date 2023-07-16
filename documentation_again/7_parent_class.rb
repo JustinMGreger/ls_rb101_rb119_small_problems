@@ -121,5 +121,3 @@ the output of which is:
 :center, :sub, :lstrip, :chop, :rjust, :ord, :sub!, :rstrip, :delete_prefix, :chomp, :strip!, :gsub!, :chop!, :chomp!, 
 :delete_suffix, :lstrip!, :rstrip!, :delete_prefix!, :delete_suffix!, :tr, :tr_s, :delete, :squeeze, :tr!, :tr_s!, 
 :delete!, :squeeze!, :each_line, :each_byte, :each_char, :each_codepoint]
-
-=end
