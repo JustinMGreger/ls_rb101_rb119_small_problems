@@ -31,7 +31,7 @@ def multisum(parameter)
 end
  
 
-if the supplied number is 20, the result should be 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + 20).
+should be sum_of_multiples = 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + parameter)
 
 
 
