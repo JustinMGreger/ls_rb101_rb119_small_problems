@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# ls solution:
+# ls solution modified to by rubocop compliant:
 def multiple?(number, divisor)
-  number % divisor == 0
+  (number % divisor) == 0
 end
 
 def multisum(max_value)
