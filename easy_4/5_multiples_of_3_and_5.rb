@@ -6,7 +6,7 @@ def multisum(parameter)
 end
 
 # Tests:
-multisum(3) == 3
-multisum(5) == 8
-multisum(10) == 33
-multisum(1_000) == 234_168
+p multisum(3) == 3
+p multisum(5) == 8
+p multisum(10) == 33
+p multisum(1_000) == 234_168
