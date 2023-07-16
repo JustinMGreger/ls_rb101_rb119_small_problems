@@ -12,10 +12,6 @@ multisum(5) == 8
 multisum(10) == 33
 multisum(1_000) == 234_168
 
-# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-# PEDAC stands for “[Understand the] Problem, 
-
-
 Mental model of the problem (optional):
 def multisum(parameter)
   parameter > 1
@@ -24,6 +20,11 @@ def multisum(parameter)
 end
 
 Examples / Test Cases, Validate understanding of the problem:
+
+
+
+
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
