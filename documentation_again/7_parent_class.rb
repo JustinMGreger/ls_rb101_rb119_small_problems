@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 puts s = 'abc'.public_methods(false).inspect
 
