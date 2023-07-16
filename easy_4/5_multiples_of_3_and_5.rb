@@ -2,7 +2,7 @@
 
 # ls solution modified to by rubocop compliant:
 def multiple?(number, divisor)
-  (number % divisor) == 0
+  (number % divisor).zero?
 end
 
 def multisum(max_value)
