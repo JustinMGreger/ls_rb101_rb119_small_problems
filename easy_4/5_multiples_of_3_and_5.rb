@@ -25,13 +25,11 @@ Make the requirements explicit Identify rules:
 def multisum(parameter)
   parameter > 1
   searches for all multiples of 3 or 5 that lie between 1 and the parameter.
-  sum these multiples.
-
-
+  sum_of_multiples = 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + parameter)
 end
  
 
-should be sum_of_multiples = 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + parameter)
+sum_of_multiples = 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + parameter)
 
 
 
