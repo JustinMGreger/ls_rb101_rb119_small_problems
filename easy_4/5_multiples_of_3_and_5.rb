@@ -22,10 +22,12 @@ p multisum(1_000) == 234_168
 # Further Exploration
 
 # Investigate Enumerable.inject (also known as Enumerable.reduce), 
+# Answer:
+# The inject method combines all elements of an enumerable object (like an array or a hash) by applying a 
+# binary operation, specified by a block or a symbol that names a method or operator.
+
 # How might this method be useful in solving this problem? 
 # (Note that Enumerable methods are available when working with Arrays.) 
-# Answer:
-
 
 
 
