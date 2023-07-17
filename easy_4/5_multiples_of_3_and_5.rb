@@ -28,8 +28,8 @@ p multisum(1_000) == 234_168
 
 # How might this method be useful in solving this problem? 
 # (Note that Enumerable methods are available when working with Arrays.) 
-
-
+# Answer:
+# combine all elements of numbers from 3 to the parameter by applying a block of code with the addition assignment.
 
 Try writing such a solution. 
 Which is clearer? 
