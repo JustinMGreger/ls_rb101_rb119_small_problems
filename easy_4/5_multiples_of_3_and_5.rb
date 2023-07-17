@@ -31,6 +31,16 @@ p multisum(1_000) == 234_168
 # Answer:
 # combine all elements of numbers from 3 to the parameter by applying a block of code with the addition assignment.
 
-Try writing such a solution. 
+# Try writing such a solution. 
+
+
+
+
+
+
+
+
+
+
 Which is clearer? 
 Which is more succinct?
