@@ -6,6 +6,17 @@ A running total is the sum of all values in a list up to and including the curre
 Thus, the running total when looking at index 2 of the array [14, 11, 7, 15, 20] is 32 (14 + 11 + 7), 
 while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+and output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
+
 # Tests:
 running_total([2, 5, 13]) == [2, 7, 20]
 running_total([14, 11, 7, 15, 20]) == [14, 25, 32, 47, 67]
