@@ -39,7 +39,7 @@ def multiple?(number, divisor)
 end
 
 def multisum(max_value)
-  (1..max_value).select { |number| multiple?(number, 3) || multiple?(number, 5) }.inject(:+)
+  (1..max_value).select { |number| multiple?(number, 3) || multiple?(number, 5) }.inject { |sum, n| sum + n } 
 end
 
 # Tests:
@@ -49,4 +49,5 @@ p multisum(10) == 33
 p multisum(1_000) == 234_168
 
 # Which is clearer? 
+
 # Which is more succinct?
