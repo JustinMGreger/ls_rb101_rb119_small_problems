@@ -49,5 +49,9 @@ p multisum(10) == 33
 p multisum(1_000) == 234_168
 
 # Which is clearer? 
+# Answer:
+# the inject method.
 
 # Which is more succinct?
+# Answer:
+# the inject method.
