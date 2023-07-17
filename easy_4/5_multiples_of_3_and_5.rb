@@ -39,11 +39,7 @@ def multiple?(number, divisor)
 end
 
 def multisum(max_value)
-  sum = 0
-  1.upto(max_value) do |number|
-    sum = [3..number].inject(:+) if multiple?(number, 3) || multiple?(number, 5)
-  end
-  sum
+  (1..max_value).select { |number| multiple?(number, 3) || multiple?(number, 5) }.inject(:+)
 end
 
 # Tests:
