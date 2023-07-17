@@ -22,9 +22,9 @@ p multisum(1_000) == 234_168
 # Further Exploration
 
 # Investigate Enumerable.inject (also known as Enumerable.reduce), 
-How might this method be useful in solving this problem? 
-(Note that Enumerable methods are available when working with Arrays.) 
-Answer:
+# How might this method be useful in solving this problem? 
+# (Note that Enumerable methods are available when working with Arrays.) 
+# Answer:
 
 
 
