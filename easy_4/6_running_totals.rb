@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 def running_total(array)
-
+  array.each_with_object([]) do |num, new_array|
+    new_array << (new_array.last || 0) + num
+  end
 end
 
 # Tests:
