@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 def running_total(array)
-  new_array = array
-  new_array
+
 end
 
 # Tests:
