@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 # Description of Exercise:
 # What does this code print?
