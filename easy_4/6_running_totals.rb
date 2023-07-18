@@ -15,9 +15,21 @@ while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 # Answer:
 # returns an Array with the same number of elements, and each element has the running total from the original Array.
 
+# Make the requirements explicit Identify rules:
+# 1. Write a method that takes an Array of numbers.
+# 2. return an Array with the same number of elements, 
+# 3. each element has the running total from the original Array.
+# 4. A running total is the sum of all values in a list up to and including the current element. 
+# example: 
+# [14, 11, 7, 15, 20][2] == 32 (14 + 11 + 7)
+# [14, 11, 7, 15, 20][3] == 47 (14 + 11 + 7 + 15)
 
 
-Make the requirements explicit Identify rules:
+
+
+
+
+
 Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
