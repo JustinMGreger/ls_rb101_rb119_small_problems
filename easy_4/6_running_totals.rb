@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 def running_total([array])
-  [array].modify the array so that each element is the sum of the current element and all previous elements.
-  return [new_array] with the same number of elements 
+  new_array = [array].inject { |sum, n| sum + n } 
+  new_array
 end
 
 # Tests:
