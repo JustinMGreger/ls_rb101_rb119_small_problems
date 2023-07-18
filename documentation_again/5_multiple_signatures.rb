@@ -91,5 +91,3 @@ print to the screen the result of retrieving the element at index 7 from the var
 to the screen the result of the index 7 raised to the power of 2 that is multiplied by itself which is the integer 49.
 the output of which is:
 49
-
-=end
