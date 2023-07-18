@@ -7,7 +7,11 @@ Thus, the running total when looking at index 2 of the array [14, 11, 7, 15, 20]
 while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 
 
-Identify expected input: 
+# Identify expected input: 
+# Answer:
+# an Array of numbers,
+
+
 and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
