@@ -4,8 +4,8 @@ s = 'abc'
 puts s.public_methods(false).inspect
 
 # output:
-# [:each_grapheme_cluster, :slice, :slice!, :rpartition, :encoding, :force_encoding, :b, :valid_encoding?, 
-# :ascii_only?, :hash, :unicode_normalized?, :unicode_normalize, :unicode_normalize!, :encode, :encode!, 
+# [:each_grapheme_cluster, :slice, :slice!, :rpartition, :encoding, :force_encoding, :b, :valid_encoding?,
+# :ascii_only?, :hash, :unicode_normalized?, :unicode_normalize, :unicode_normalize!, :encode, :encode!,
 # :to_r, :include?, :%, :*, :+, :to_c, :count, :partition, :unpack, :unpack1, :+@, :-@, :<=>, :<<, :==, :===,
 # :sum, :=~, :[], :[]=, :next, :empty?, :eql?, :casecmp, :casecmp?, :insert, :bytesize, :match, :match?, :succ!,
 # :next!, :upto, :index, :byteindex, :rindex, :byterindex, :replace, :clear, :chr, :getbyte, :setbyte, :byteslice,
