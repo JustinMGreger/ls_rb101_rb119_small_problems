@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def running_total([array])
-# 1. Write a method that takes an Array of numbers.
+
 # 2. modify the array of numbers so that each element is the sum of the current element and all previous elements.
 # 3. return the transformed Array with the same number of elements 
 # example: 
