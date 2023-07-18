@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 def running_total([array])
-  [array].modify array
-  return new array
+  [array].modify the array so that each element is the sum of the current element and all previous elements.
+  return [new_array] with the same number of elements 
 end
-# 2. each element is the sum of the current element and all previous elements.
-# 3. return the transformed Array with the same number of elements 
+# 2. 
+# 3. return the transformed Array 
 # example: 
 # [14, 11, 7, 15, 20][2] == 32 (14 + 11 + 7)
 # [14, 11, 7, 15, 20][3] == 47 (14 + 11 + 7 + 15)
