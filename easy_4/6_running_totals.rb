@@ -11,8 +11,12 @@ while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 # Answer:
 # an Array of numbers,
 
+# output:
+# Answer:
+# returns an Array with the same number of elements, and each element has the running total from the original Array.
 
-and output:
+
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
