@@ -24,13 +24,19 @@ while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 # [14, 11, 7, 15, 20][2] == 32 (14 + 11 + 7)
 # [14, 11, 7, 15, 20][3] == 47 (14 + 11 + 7 + 15)
 
+# Mental model of the problem (optional):
+# 1. Write a method that takes an Array of numbers.
+# 2. modify the array of numbers so that each element is the sum of the current element and all previous elements.
+# 3. return the transformed Array with the same number of elements 
+# example: 
+# [14, 11, 7, 15, 20][2] == 32 (14 + 11 + 7)
+# [14, 11, 7, 15, 20][3] == 47 (14 + 11 + 7 + 15)
 
 
 
 
 
 
-Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
