@@ -32,12 +32,9 @@ while the running total at index 3 is 47 (14 + 11 + 7 + 15).
 # [14, 11, 7, 15, 20][2] == 32 (14 + 11 + 7)
 # [14, 11, 7, 15, 20][3] == 47 (14 + 11 + 7 + 15)
 
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# arrays
 
-
-
-
-
-Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
