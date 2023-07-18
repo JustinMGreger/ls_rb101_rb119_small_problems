@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def running_total([array])
+def running_total(array)
   new_array = [array].inject { |sum, n| sum + n } 
   new_array
 end
