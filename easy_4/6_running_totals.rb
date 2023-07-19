@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 # LS solution:
-def running_total(array)
-  sum = 0
-  array.map { |value| sum += value }
-end
+# def running_total(array)
+#   sum = 0
+#   array.map { |value| sum += value }
+# end
 
 # Tests:
 p running_total([2, 5, 13]) == [2, 7, 20] # result: true.
