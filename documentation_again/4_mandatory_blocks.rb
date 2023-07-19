@@ -1,4 +1,4 @@
-=begin
+
 
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 
