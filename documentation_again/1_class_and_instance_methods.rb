@@ -1,4 +1,3 @@
-=begin
 
 Description of Exercise:
 Locate the ruby documentation for methods File::path and File#path. 
