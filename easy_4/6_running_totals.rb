@@ -5,6 +5,7 @@ def running_total(array)
   array.inject([[], 0]) do |(totals, sum), value|
     new_sum = sum + value
     [totals + [new_sum], new_sum]
+  end.first
 end
 
 # Tests:
