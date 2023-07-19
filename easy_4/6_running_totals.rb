@@ -14,12 +14,12 @@ p running_total([]) == [] # result: true.
 
 # Further Exploration
 
-# Try solving this problem using or Enumerable#inject (note that Enumerable methods 
-# can be applied to Arrays).
-
+# Try solving this problem using 
 #  Enumerable#each_with_object
 # def running_total(array)
 #   array.each_with_object([]) do |num, new_array|
 #     new_array << (new_array.last || 0) + num
 #   end
 # end
+
+# Enumerable#inject 
