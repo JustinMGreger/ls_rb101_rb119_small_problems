@@ -14,6 +14,7 @@ def running_total(array)
   end.first
 end
 
+# Further Exploration
 # Enumerable#each_with_object
 
 # Tests:
