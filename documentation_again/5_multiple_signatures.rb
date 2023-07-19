@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-What do each of these puts statements output?
+# What do each of these puts statements output?
 a = %w(a b c d e)
 puts a.fetch(7)
 puts a.fetch(7, 'beats me')
