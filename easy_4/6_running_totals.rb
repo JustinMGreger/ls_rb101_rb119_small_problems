@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 # Enumerable#inject 
+def running_total(array)
+end
 
 # Tests:
 p running_total([2, 5, 13]) == [2, 7, 20] # result: true.
