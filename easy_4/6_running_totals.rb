@@ -1,19 +1,5 @@
 # frozen_string_literal: true
 
-# LS solution:
-def running_total(array)
-  sum = 0
-  array.map { |value| sum += value }
-end
-
-# Enumerable#inject 
-def running_total(array)
-  array.inject([[], 0]) do |(totals, sum), value|
-    new_sum = sum + value
-    [totals + [new_sum], new_sum]
-  end.first
-end
-
 # Further Exploration
 # Enumerable#each_with_object
 
