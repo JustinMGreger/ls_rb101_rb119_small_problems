@@ -2,6 +2,7 @@
 
 # Enumerable#inject 
 def running_total(array)
+  array.inject([[], 0]) do |(totals, sum), value|
 end
 
 # Tests:
