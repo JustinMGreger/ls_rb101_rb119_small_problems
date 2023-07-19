@@ -1,21 +1,5 @@
 # frozen_string_literal: true
 
-# LS solution:
-# def running_total(array)
-#   sum = 0
-#   array.map { |value| sum += value }
-# end
-
-# Further Exploration
-
-# Try solving this problem using 
-#  Enumerable#each_with_object
-# def running_total(array)
-#   array.each_with_object([]) do |num, new_array|
-#     new_array << (new_array.last || 0) + num
-#   end
-# end
-
 # Enumerable#inject 
 
 # Tests:
