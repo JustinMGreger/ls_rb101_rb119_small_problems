@@ -84,5 +84,3 @@ is reassigned the integer 5, the c parameter which is assigned the integer 3, an
 integer 6.
 the output of which is:
 [4, 5, 3, 6]
-
-=end
