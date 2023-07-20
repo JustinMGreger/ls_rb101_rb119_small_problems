@@ -7,5 +7,5 @@ a = [1, 4, 8, 11, 15, 19]
 # How would you search this Array to find the first element whose value exceeds 8?
 
 # LS solution:
-# value = a.bsearch { |element| element > 8 }
-# puts value # => 11
+value = a.bsearch { |element| element > 8 }
+puts value # => 11
