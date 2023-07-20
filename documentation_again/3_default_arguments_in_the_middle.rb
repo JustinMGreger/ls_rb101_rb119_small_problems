@@ -3,7 +3,7 @@
 # Description of Exercise:
 # Consider the following method and a call to that method:
 
-Initial Syntax Given:
+
 def my_method(a, b = 2, c = 3, d)
   p [a, b, c, d]
 end
