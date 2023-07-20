@@ -1,4 +1,3 @@
-=begin
 
 Description of Exercise:
 Assume you have the following code:
