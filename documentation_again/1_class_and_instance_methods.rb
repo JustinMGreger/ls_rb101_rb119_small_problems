@@ -10,4 +10,3 @@
 
 # File#path is an instance method.
 # File#path is used to get the path of a file object that we have already created.
-
