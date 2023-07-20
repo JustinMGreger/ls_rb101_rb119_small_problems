@@ -12,18 +12,7 @@ puts Date.civil(2016, 5, 13)
 # What will each of the 4 puts statements print?
 -4712-01-01
 
-Syntax:
-puts Date.civil(2016)
 
-Explanation:
-puts means put s which is put string which means print to the screen the string.
-Date is a class that provides methods for storing and manipulating calendar dates.
-.civil is a Date class method that creates a new Date object and with no arguments given it will return the date for 
-January 1, -4712.
-(2016) is an integer argument representing the year 2016.
-this means:
-print to the screen the result of creating a new Date object which accepts the integer argument (2016).
-the result of which is:
 2016-01-01
 
 Syntax:
