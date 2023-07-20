@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 # Use irb to run the following code:
-
-
 s = 'abc'
 puts s.public_methods(false).inspect
 
