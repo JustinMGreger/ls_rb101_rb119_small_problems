@@ -1,4 +1,3 @@
-=begin
 
 Description of Exercise:
 Consider the following method and a call to that method:
