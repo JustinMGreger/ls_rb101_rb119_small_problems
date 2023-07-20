@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-Description of Exercise:
-Assume you have the following code:
+# Description of Exercise:
+# Assume you have the following code:
 
 Initial Given Syntax:
 require 'date'
