@@ -2,8 +2,6 @@
 
 # Description of Exercise:
 # Assume you have the following code:
-
-Initial Given Syntax:
 require 'date'
 
 puts Date.civil
