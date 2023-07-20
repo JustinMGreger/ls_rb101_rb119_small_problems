@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 Description of Exercise:
 Consider the following method and a call to that method:
