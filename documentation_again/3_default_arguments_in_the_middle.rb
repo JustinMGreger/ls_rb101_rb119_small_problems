@@ -13,5 +13,5 @@ my_method(4, 5, 6)
 # Description of Exercise:
 # Use the ruby documentation to determine what this code will print.
 
-
-[4, 5, 3, 6]
+# output:
+# [4, 5, 3, 6]
