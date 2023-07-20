@@ -79,5 +79,3 @@ this means:
 print to the screen the result of creating a new Date object which accepts the integer arguments (2016, 5, 13).
 the result of which is:
 2016-05-13
-
-=end
