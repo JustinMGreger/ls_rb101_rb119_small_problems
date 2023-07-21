@@ -22,6 +22,12 @@
 #   numbers.join
 # end
 
+# Further Exploration
+
+# Modify stringy so it takes an additional optional argument that defaults to 1.
+# If the method is called with this argument set to 0, the method should return a String of alternating
+# 0s and 1s, but starting with 0 instead of 1.
+
 def stringy(parameter, optional_parameter = 1)
   integers_array = []
   parameter.times do |index|
