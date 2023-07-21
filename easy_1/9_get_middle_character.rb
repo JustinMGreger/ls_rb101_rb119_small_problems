@@ -32,6 +32,7 @@ def center_of(str)
   middle_character
 end
 
+# Tests:
 center_of('I love ruby') == 'e'
 center_of('Launch School') == ' '
 center_of('Launch') == 'un'
