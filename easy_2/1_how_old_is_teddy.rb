@@ -12,7 +12,7 @@
 
 # Further Exploration
 
-# Modify this program to ask for a name, and then print the age for that person. 
+# Modify this program to ask for a name, and then print the age for that person.
 # For an extra challenge, use "Teddy" as the name if no name is entered.
 
 def teddy_age
