@@ -10,6 +10,18 @@
 # puts stringy(7) == '1010101'
 # The tests above should print true.
 
+# LS solution:
+# def stringy(size)
+#   numbers = []
+#
+#   size.times do |index|
+#     number = index.even? ? 1 : 0
+#     numbers << number
+#   end
+#
+#   numbers.join
+# end
+
 def stringy(parameter, optional_parameter = 1)
   integers_array = []
   parameter.times do |index|
