@@ -5,6 +5,7 @@
 
 # Example:
 # repeat('Hello', 3)
+# Output:
 
 def repeat(string, integer)
   integer.times do
