@@ -12,6 +12,16 @@
 # center_of('Launchschool') == 'hs'
 # center_of('x') == 'x'
 
+# LS solution:
+# def center_of(string)
+#   center_index = string.size / 2
+#   if string.size.odd?
+#     string[center_index]
+#   else
+#     string[center_index - 1, 2]
+#   end
+# end
+
 def center_of(str)
   middle_index = str.length / 2
   middle_character = if str.length.odd?
