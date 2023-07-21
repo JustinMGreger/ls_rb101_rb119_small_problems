@@ -19,6 +19,17 @@
 #   number % 2 == 1
 # end
 
+# Further Exploration
+
+# This solution relies on the fact that % is the modulo operator in Ruby, not a remainder operator as in some 
+# other languages. 
+# Remainder operators return negative results if the number on the left is negative, while modulo always returns
+# a non-negative result if the number on the right is positive.
+# If you weren't certain whether % were the modulo or remainder operator, how would you rewrite #is_odd? so it worked 
+# regardless?
+
+# The Integer#remainder method performs a remainder operation in Ruby. 
+# Rewrite #is_odd? to use Integer#remainder instead of %. 
 
 def is_odd?(integer)
   integer.remainder(2) == 1
