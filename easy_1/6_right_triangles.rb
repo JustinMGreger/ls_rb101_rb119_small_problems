@@ -6,6 +6,24 @@
 # at the lower-left of the triangle, and the other end at the upper-right.
 
 # Examples:
+# triangle(5)
+# 
+#     *
+#    **
+#   ***
+#  ****
+# *****
+# triangle(9)
+#
+#         *
+#        **
+#       ***
+#      ****
+#     *****
+#    ******
+#   *******
+#  ********
+# *********
 
 def ask_for_stars
   puts 'How many stars do you want?'
