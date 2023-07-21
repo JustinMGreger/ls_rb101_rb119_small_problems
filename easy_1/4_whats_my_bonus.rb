@@ -9,8 +9,9 @@
 # puts calculate_bonus(50000, true) == 25000
 # The tests above should print true.
 
-def calculate_bonus(integer, boolean)
-  boolean ? (integer / 2) : 0
+# LS solution:
+def calculate_bonus(salary, bonus)
+  bonus ? (salary / 2) : 0
 end
 
 # Tests:
