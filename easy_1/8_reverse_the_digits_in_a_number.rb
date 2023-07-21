@@ -27,9 +27,9 @@ def reversed_number(num)
 end
 
 # Tests:
-p reversed_number(12_345) == 54_321
-p reversed_number(12_213) == 31_221
-p reversed_number(456) == 654
-p reversed_number(12_000) == 21 # No leading zeros in return value!
-p reversed_number(12_003) == 30_021
-p reversed_number(1) == 1
+p reversed_number(12_345) == 54_321 # return: true.
+p reversed_number(12_213) == 31_221 # return: true.
+p reversed_number(456) == 654 # return: true.
+p reversed_number(12_000) == 21 # No leading zeros in return value! # return: true.
+p reversed_number(12_003) == 30_021 # return: true.
+p reversed_number(1) == 1 # return: true.
