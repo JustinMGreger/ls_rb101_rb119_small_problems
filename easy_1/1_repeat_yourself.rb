@@ -4,6 +4,7 @@
 # as the integer indicates.
 
 # Example:
+# repeat('Hello', 3)
 
 def repeat(string, integer)
   integer.times do
