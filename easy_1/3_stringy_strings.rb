@@ -4,6 +4,10 @@
 # always starting with 1. The length of the string should match the given integer.
 
 # Examples:
+# puts stringy(6) == '101010'
+# puts stringy(9) == '101010101'
+# puts stringy(4) == '1010'
+# puts stringy(7) == '1010101'
 
 def stringy(parameter, optional_parameter = 1)
   integers_array = []
