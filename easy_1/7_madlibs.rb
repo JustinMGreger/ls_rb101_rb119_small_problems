@@ -28,8 +28,8 @@ adjective = gets.chomp
 print 'Enter an adverb: '
 adverb = gets.chomp
 
-sentence_1 = "Do you #{verb} your #{adjective} #{noun} #{adverb}? That's hilarious!"
-sentence_2 = "The #{adjective} #{noun} #{verb}s #{adverb} over the lazy dog."
-sentence_3 = "The #{noun} #{adverb} #{verb}s up #{adjective} Joe's turtle."
+sentence_one = "Do you #{verb} your #{adjective} #{noun} #{adverb}? That's hilarious!"
+sentence_two = "The #{adjective} #{noun} #{verb}s #{adverb} over the lazy dog."
+sentence_three = "The #{noun} #{adverb} #{verb}s up #{adjective} Joe's turtle."
 
-puts [sentence_1, sentence_2, sentence_3].sample
+puts [sentence_one, sentence_two, sentence_three].sample
