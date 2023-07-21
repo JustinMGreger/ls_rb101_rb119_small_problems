@@ -31,7 +31,7 @@
 # The Integer#remainder method performs a remainder operation in Ruby.
 # Rewrite #is_odd? to use Integer#remainder instead of %.
 
-def is_odd?(integer)
+def odd?(integer)
   integer.remainder(2) == 1
 end
 
