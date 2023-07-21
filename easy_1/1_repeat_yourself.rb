@@ -6,6 +6,9 @@
 # Example:
 # repeat('Hello', 3)
 # Output:
+# Hello
+# Hello
+# Hello
 
 def repeat(string, integer)
   integer.times do
