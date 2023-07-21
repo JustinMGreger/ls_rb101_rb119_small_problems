@@ -14,6 +14,12 @@
 
 # Keep in mind that you're not allowed to use #odd? or #even? in your solution.
 
+# LS solution:
+# def is_odd?(number)
+#   number % 2 == 1
+# end
+
+
 def is_odd?(integer)
   integer.remainder(2) == 1
 end
