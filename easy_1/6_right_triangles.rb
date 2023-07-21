@@ -79,7 +79,7 @@ def triangle
 
   num.times do |nnn|
     spaces, stars = calculate_for_corners(corner, num, nnn)
-  
+
     break if spaces.nil? || stars.nil?
 
     print_line(spaces, stars)
