@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+# Write a method that will take a short line of text, and print it within a box.
+
+# Example:
+
 def prompt(message)
   puts message
 end
