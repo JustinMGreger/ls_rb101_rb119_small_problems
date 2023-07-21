@@ -15,6 +15,14 @@
 # which will cause confusing results. For similar reasons, the return value for our fourth example
 # doesn't have any leading zeros.
 
+# LS solution:
+# def reversed_number(number)
+#   string = number.to_s
+#   reversed_string = string.reverse
+#   reversed_string.to_i
+# end
+
+
 def reversed_number(num)
   puts num.to_s.reverse.to_i
 end
