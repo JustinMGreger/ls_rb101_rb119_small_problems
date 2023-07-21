@@ -37,6 +37,12 @@
 #   end
 # end
 
+# Further Exploration
+
+# Try modifying your solution so it prints the triangle upside down from its current orientation.
+# Try modifying your solution again so that you can display the triangle with the right angle
+# at any corner of the grid.
+
 def ask_for_stars
   puts 'How many stars do you want?'
   gets.to_i
