@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-# Write a method that takes two arguments, a positive integer and a boolean, and calculates the bonus for a given salary.
-# If the boolean is true, the bonus should be half of the salary. If the boolean is false, the bonus should be 0.
+# Write a method that takes two arguments, a positive integer and a boolean,
+# and calculates the bonus for a given salary.
+# If the boolean is true, the bonus should be half of the salary.
+# If the boolean is false, the bonus should be 0.
 
 # Examples:
 # puts calculate_bonus(2800, true) == 1400
