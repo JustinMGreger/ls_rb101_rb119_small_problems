@@ -12,6 +12,8 @@
 # puts is_odd?(0)    # => false
 # puts is_odd?(7)    # => true
 
+# Keep in mind that you're not allowed to use #odd? or #even? in your solution.
+
 def is_odd?(integer)
   integer.remainder(2) == 1
 end
