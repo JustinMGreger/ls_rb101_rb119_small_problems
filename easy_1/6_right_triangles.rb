@@ -25,6 +25,18 @@
 #  ********
 # *********
 
+# LS solution:
+# def triangle(num)
+#   spaces = num - 1
+#   stars = 1
+#
+#   num.times do |n|
+#     puts (' ' * spaces) + ('*' * stars)
+#     spaces -= 1
+#     stars += 1
+#   end
+# end
+
 def ask_for_stars
   puts 'How many stars do you want?'
   gets.to_i
