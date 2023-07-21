@@ -4,6 +4,7 @@
 # To get the age, you should generate a random number between 20 and 200.
 
 # Example Output:
+# Teddy is 69 years old!
 
 def teddy_age
   puts 'enter a name: '
