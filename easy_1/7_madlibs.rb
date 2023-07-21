@@ -8,6 +8,12 @@
 # injects those into a story that you create.
 
 # Example:
+# Enter a noun: dog
+# Enter a verb: walk
+# Enter an adjective: blue
+# Enter an adverb: quickly
+
+# Do you walk your blue dog quickly? That's hilarious!
 
 puts 'Enter a noun: '
 noun = gets.chomp
