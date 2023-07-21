@@ -8,6 +8,7 @@
 # puts stringy(9) == '101010101'
 # puts stringy(4) == '1010'
 # puts stringy(7) == '1010101'
+# The tests above should print true.
 
 def stringy(parameter, optional_parameter = 1)
   integers_array = []
