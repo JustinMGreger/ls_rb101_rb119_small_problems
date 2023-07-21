@@ -10,6 +10,13 @@
 # Hello
 # Hello
 
+# LS solution:
+def repeat(string, number)
+  number.times do
+    puts string
+  end
+end
+
 def repeat(string, integer)
   integer.times do
     puts string
