@@ -7,6 +7,8 @@
 # Examples:
 # What is your name? Bob
 # Hello Bob.
+# What is your name? Bob!
+# HELLO BOB. WHY ARE WE SCREAMING?
 
 def prompt(message)
   puts message
