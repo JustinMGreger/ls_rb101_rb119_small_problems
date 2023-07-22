@@ -16,8 +16,8 @@
 # You may want to explore the use Integer#upto or Array#select methods, or maybe use Integer#odd?
 
 # Integer#odd?
-def odd_numbers
-  puts (1..99).to_a.select(&:odd?)
-end
+# def odd_numbers
+#   puts (1..99).to_a.select(&:odd?)
+# end
 
-odd_numbers
+# odd_numbers
