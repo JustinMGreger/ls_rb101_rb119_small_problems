@@ -1,7 +1,7 @@
 # Take a look at the following code:
 name = 'Bob'
 save_name = name
-name = 'Alice'                               # the name variable is assigned the string 'Alice'
+name = 'Alice'
 puts name, save_name     
 # print to the screen the name varaible which is assinged the string 'Alice', the save_name variable which is assigned the
 # name variable which is assigned the string 'Bob'. resulting in:          
