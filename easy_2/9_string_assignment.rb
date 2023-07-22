@@ -20,7 +20,7 @@ name.upcase!
 name = 'BOB'
 save_name = name
 
-puts name, save_name #puts is put s which is put string which means print to the screen the string.
+puts name, save_name
 # the name variable is assigned the 'BOB' string.
 # the save_name variable is assigned the name variable which is assigned the 'BOB' string.
 
