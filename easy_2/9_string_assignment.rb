@@ -3,10 +3,6 @@ name = 'Bob'
 save_name = name
 name = 'Alice'
 puts name, save_name     
-# print to the screen the name varaible which is assinged the string 'Alice', the save_name variable which is assigned the
-# name variable which is assigned the string 'Bob'. resulting in:          
-# Alice
-# Bob
 
 What does this code print out? Think about it for a moment before continuing.        
 # Alice
