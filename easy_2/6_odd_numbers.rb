@@ -27,9 +27,11 @@
 # Array#select:
 
 Print all odd numbers from 1 to 99, inclusive, to the console, with each number on a separate line.
+def odd_numbers
 [1..99]
+end
 
-
+odd_numbers
 
 
 # Integer#odd?:
