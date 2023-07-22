@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Take a look at the following code:
 # name = 'Bob'
 # save_name = name
