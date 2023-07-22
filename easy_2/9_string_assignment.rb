@@ -11,7 +11,8 @@
 # Alice
 # Bob
 
-you are 100% correct, and the answer should come as no surprise. Now, let's look at something a bit different:
+# you are 100% correct, and the answer should come as no surprise. 
+# Now, let's look at something a bit different:
 name = 'Bob'                 # the name variable is assigned the 'Bob' string.
 save_name = name            # the save_name variable is assigned the name variable which is assigned the 'Bob' string.
 name.upcase! # this means: mutate the name variable which is assigned the 'Bob' string so that all the characters are 
