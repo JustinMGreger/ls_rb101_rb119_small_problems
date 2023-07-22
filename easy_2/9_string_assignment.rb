@@ -17,8 +17,7 @@ name = 'Bob'
 save_name = name
 name.upcase!
 puts name, save_name
-# the name variable is assigned the 'BOB' string.
-# the save_name variable is assigned the name variable which is assigned the 'BOB' string.
+
 
 puts name, save_name    
 output:
