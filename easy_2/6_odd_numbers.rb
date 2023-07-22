@@ -34,5 +34,10 @@
 
 
 # Integer#odd?:
+# def odd_numbers
+#   (1..99).each do |i|
+#   puts i if i.odd?
+#   end
+# end
 
 # odd_numbers
