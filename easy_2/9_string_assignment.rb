@@ -22,5 +22,7 @@ puts name, save_name
 # BOB
 # BOB
 # Can you explain these results?
-# name is assigned Bob and save_name is assinged name then name is permenantly converted to upcase then print
+# the name variable is assigned the Bob string value.
+# the save_name variable is assinged the name variable. 
+# name is permenantly converted to upcase then print
 # on a new line the value value assigned to name and save_name.
