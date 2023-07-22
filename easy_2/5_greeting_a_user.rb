@@ -21,6 +21,10 @@
 #   puts "Hello #{name}."
 # end
 
+# Further Exploration
+
+# Try modifying our solution to use String#chomp! and String#chop!, respectively.
+
 def prompt(message)
   puts message
 end
