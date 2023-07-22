@@ -9,6 +9,12 @@
 #   value += 2
 # end
 
+# Further Exploration
+
+# Repeat this exercise with a technique different from the one you just used,
+# and different from the solution shown above.
+# You may want to explore the use Integer#upto or Array#select methods, or maybe use Integer#odd?
+
 def odd_numbers
   puts (1..99).to_a.select(&:odd?)
 end
