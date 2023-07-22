@@ -5,7 +5,9 @@
 # puts name, save_name     
 
 # What does this code print out? 
-# Think about it for a moment before continuing.        
+# Think about it for a moment before continuing.
+
+# If you said that code printed    
 # Alice
 # Bob
 
