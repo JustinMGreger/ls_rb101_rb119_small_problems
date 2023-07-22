@@ -24,5 +24,7 @@ puts name, save_name
 # Can you explain these results?
 # the name variable is assigned the Bob string value.
 # the save_name variable is assinged the name variable. 
-# name is permenantly converted to upcase then print
-# on a new line the value value assigned to name and save_name.
+# name is permenantly converted to upcase.
+# this changed the value asssigned to the save_name variable.
+# print on a new line the value value assigned to name and save_name.
+# the name variable and the save_name variable are assigned the same underlying value which is the BOB string value.
