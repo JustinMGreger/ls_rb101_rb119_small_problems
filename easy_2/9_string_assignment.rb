@@ -20,8 +20,3 @@ puts name, save_name
 
 # What does this print out? 
 # Can you explain these results?
-
-puts name, save_name    
-output:
-BOB
-BOB
