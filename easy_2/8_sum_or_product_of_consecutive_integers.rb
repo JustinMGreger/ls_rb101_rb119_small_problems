@@ -52,7 +52,7 @@
 # #inject is a very useful method, but if you've never used it before, it can be difficult to understand.
 
 # Take some time to read the documentation for #inject.
-# (Note that all Enumerable methods can be used on Array.) 
+# (Note that all Enumerable methods can be used on Array.)
 # Try to explain how it works to yourself.
 
 # Try to use #inject in your solution to this problem.
