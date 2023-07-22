@@ -29,6 +29,11 @@
 # puts "The area of the room is #{square_meters} " + \
 #      "square meters (#{square_feet} square feet)."
 
+# Further Exploration
+
+# Modify this program to ask for the input measurements in feet, and display the results in square feet,
+# square inches, and square centimeters.
+
 def room_size
   puts 'Enter the length of the room in feet: '
   length = gets.to_f
