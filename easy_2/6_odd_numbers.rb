@@ -26,17 +26,15 @@
 
 # Array#select:
 
-Print all odd numbers from 1 to 99, inclusive, to the console, with each number on a separate line.
+# Print all odd numbers from 1 to 99, inclusive, to the console, with each number on a separate line.
 def odd_numbers
-[1..99]
+  odd_numbers = (1..99).to_a.select { |i| i.odd? }
+  odd_numbers.each { |number| puts number }
 end
 
 odd_numbers
 
 
 # Integer#odd?:
-# def odd_numbers
-#   puts (1..99).to_a.select(&:odd?)
-# end
 
 # odd_numbers
