@@ -25,14 +25,12 @@
 # odd_numbers
 
 # Array#select:
+# def odd_numbers
+#   odd_numbers = (1..99).to_a.select { |i| i.odd? }
+#   odd_numbers.each { |number| puts number }
+# end
 
-# Print all odd numbers from 1 to 99, inclusive, to the console, with each number on a separate line.
-def odd_numbers
-  odd_numbers = (1..99).to_a.select { |i| i.odd? }
-  odd_numbers.each { |number| puts number }
-end
-
-odd_numbers
+# odd_numbers
 
 
 # Integer#odd?:
