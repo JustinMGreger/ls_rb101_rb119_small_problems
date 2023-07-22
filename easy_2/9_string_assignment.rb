@@ -1,8 +1,8 @@
 # Take a look at the following code:
-name = 'Bob'
-save_name = name
-name = 'Alice'
-puts name, save_name     
+# name = 'Bob'
+# save_name = name
+# name = 'Alice'
+# puts name, save_name     
 
 What does this code print out? Think about it for a moment before continuing.        
 # Alice
