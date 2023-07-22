@@ -16,28 +16,15 @@
 # You may want to explore the use Integer#upto or Array#select methods, or maybe use Integer#odd?
 
 # Integer#upto:
+def odd_numbers
+  1.upto(99) do |i|
+    puts i if i % 2 == 1
+  end
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
+odd_numbers
 
 # Array#select:
-
-
-
-
-
-
-
 
 # Integer#odd?:
 # def odd_numbers
