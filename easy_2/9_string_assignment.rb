@@ -19,4 +19,6 @@ name.upcase!
 puts name, save_name
 
 # What does this print out? 
+# BOB
+# BOB
 # Can you explain these results?
