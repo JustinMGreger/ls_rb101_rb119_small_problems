@@ -16,10 +16,6 @@
 name = 'Bob'
 save_name = name
 name.upcase!
-# upcase resulting in:
-name = 'BOB'
-save_name = name
-
 puts name, save_name
 # the name variable is assigned the 'BOB' string.
 # the save_name variable is assigned the name variable which is assigned the 'BOB' string.
