@@ -5,6 +5,8 @@
 # If the user writes "name!" then the computer yells back to the user.
 
 # Examples:
+# What is your name? Bob
+# Hello Bob.
 
 def prompt(message)
   puts message
