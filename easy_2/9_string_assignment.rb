@@ -1,4 +1,4 @@
-Take a look at the following code:
+# Take a look at the following code:
 name = 'Bob'                                 # the name variable is assigned the string 'Bob'
 save_name = name # the save_name variable is assigned the name variable which is assigned the string 'Bob'
 name = 'Alice'                               # the name variable is assigned the string 'Alice'
