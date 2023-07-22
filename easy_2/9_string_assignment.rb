@@ -15,7 +15,7 @@
 # Now, let's look at something a bit different:
 name = 'Bob'
 save_name = name
-name.upcase! # this means: mutate the name variable which is assigned the 'Bob' string so that all the characters are 
+name.upcase!
 # upcase resulting in:
 name = 'BOB'
 save_name = name #  the save_name variable is assigned the name variable which is assigned the 'BOB' string.
