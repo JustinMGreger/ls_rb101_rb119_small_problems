@@ -23,7 +23,6 @@
 #   -number.abs
 # end
 
-
 def negative(number)
   if number.positive?
     number * -1
