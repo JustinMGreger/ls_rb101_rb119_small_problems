@@ -12,6 +12,7 @@
 
 # input:
 # Please write word or multiple words: walk, don't run
+# output:
 
 def prompt(message)
   puts message
