@@ -110,7 +110,7 @@ prompt('Enter the second number:')
 second_number = gets.chomp.to_f
 
 if second_number == 0.0
-  prompt('The second number can't be zero!')
+  prompt('The second number cannot be zero!')
 else
   prompt("#{first_number} + #{second_number} = #{first_number + second_number}")
   prompt("#{first_number} - #{second_number} = #{first_number - second_number}")
