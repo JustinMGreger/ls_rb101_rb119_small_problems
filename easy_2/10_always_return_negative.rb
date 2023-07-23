@@ -29,8 +29,11 @@ def negative(number)
     negative_number = number * -1
     puts negative_number
   else
-    puts number
+    number
   end
 end
 
-negative(number)
+# tests:
+p negative(5) == -5
+p negative(-3) == -3
+p negative(0) == 0      # There's no such thing as -0 in ruby
