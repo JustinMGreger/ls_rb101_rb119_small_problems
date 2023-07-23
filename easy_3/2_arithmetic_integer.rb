@@ -17,6 +17,23 @@
 # ==> 23 % 17 = 6
 # ==> 23 ** 17 = 141050039560662968926103
 
+# LS solution:
+# def prompt(message)
+#   puts "==> #{message}"
+# end
+
+# prompt("Enter the first number:")
+# first_number = gets.chomp.to_i
+# prompt("Enter the second number:")
+# second_number = gets.chomp.to_i
+
+# prompt("#{first_number} + #{second_number} = #{first_number + second_number}")
+# prompt("#{first_number} - #{second_number} = #{first_number - second_number}")
+# prompt("#{first_number} * #{second_number} = #{first_number * second_number}")
+# prompt("#{first_number} / #{second_number} = #{first_number / second_number}")
+# prompt("#{first_number} % #{second_number} = #{first_number % second_number}")
+# prompt("#{first_number} ** #{second_number} = #{first_number**second_number}")
+
 def prompt(message)
   puts message
 end
