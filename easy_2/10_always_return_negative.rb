@@ -27,7 +27,7 @@
 # However is it superior?
 
 # Answer:
-# No the first LS solution is faster. 
+# No the first LS solution is faster.
 # Comparison looks at the sign which is less computational work.
 
 def negative(number)
