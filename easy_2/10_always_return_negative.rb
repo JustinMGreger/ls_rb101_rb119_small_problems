@@ -23,7 +23,7 @@
 #   -number.abs
 # end
 
-# This is clearly shorter. 
+# This is clearly shorter.
 # However is it superior?
 
 # Answer:
