@@ -14,6 +14,11 @@
 #   number > 0 ? -number : number
 # end
 
+# Further Exploration
+
+# There is an even shorter way to write this but it isn't as immediately intuitive.
+
+
 def negative(number)
   if number.positive?
     negative_number = number * -1
