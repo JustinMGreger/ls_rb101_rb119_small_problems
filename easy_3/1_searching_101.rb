@@ -18,7 +18,6 @@
 # 17
 # The number 17 appears in [25, 15, 20, 17, 23].
 
-
 # ==> Enter the 1st number:
 # 25
 # ==> Enter the 2nd number:
