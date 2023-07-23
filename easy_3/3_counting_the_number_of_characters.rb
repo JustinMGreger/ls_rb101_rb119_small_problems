@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+# Write a program that will ask a user for an input of a word or multiple words
+# and give back the number of characters.
+# Spaces should not be counted as a character.
+
+# input:
+
 def prompt(message)
   puts message
 end
