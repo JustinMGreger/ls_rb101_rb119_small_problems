@@ -164,7 +164,7 @@ def quotient_method(first_number, second_number)
     quotient = first_number / second_number
     prompt "==> #{first_number} / #{second_number} = #{format_float(quotient)}"
   else
-    prompt "==> Error: Cannot divide by zero!"
+    prompt '==> Error: Cannot divide by zero!'
   end
 end
 
