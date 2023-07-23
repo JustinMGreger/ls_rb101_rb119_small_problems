@@ -13,6 +13,7 @@
 # input:
 # Please write word or multiple words: walk, don't run
 # output:
+# There are 13 characters in "walk, don't run".
 
 def prompt(message)
   puts message
