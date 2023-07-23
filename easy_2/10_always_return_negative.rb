@@ -23,6 +23,9 @@
 #   -number.abs
 # end
 
+# This is clearly shorter. 
+# However is it superior?
+
 def negative(number)
   if number.positive?
     number * -1
