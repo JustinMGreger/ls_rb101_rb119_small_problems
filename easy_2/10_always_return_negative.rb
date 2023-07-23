@@ -9,6 +9,11 @@
 # negative(-3) == -3
 # negative(0) == 0      # There's no such thing as -0 in ruby
 
+# LS solution:
+# def negative(number)
+#   number > 0 ? -number : number
+# end
+
 def negative(number)
   if number.positive?
     negative_number = number * -1
