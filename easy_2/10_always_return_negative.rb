@@ -18,6 +18,11 @@
 
 # There is an even shorter way to write this but it isn't as immediately intuitive.
 
+# LS Further Exploration solution:
+# def negative(number)
+#   -number.abs
+# end
+
 
 def negative(number)
   if number.positive?
