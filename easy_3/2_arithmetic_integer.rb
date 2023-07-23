@@ -120,3 +120,68 @@
 #   prompt("#{first_number} % #{second_number} = #{first_number % second_number}")
 #   prompt("#{first_number} ** #{second_number} = #{first_number**second_number}")
 # end
+
+# my solution has been modified in response to this:
+def prompt(message)
+  puts message
+end
+
+def input
+  gets.chomp.to_f
+end
+
+prompt '==> Enter the first number:'
+first_number = input
+
+prompt '==> Enter the second number:'
+second_number = input
+until second_number != 0
+  prompt '==> Enter the second number:'
+  second_number = input
+end
+
+def format_float(number)
+  # Format the number to display up to 2 decimal places
+  format('%.2f', number)
+end
+
+def addition_method(first_number, second_number)
+  addition = first_number + second_number
+  prompt "==> #{first_number} + #{second_number} = #{format_float(addition)}"
+end
+
+def subtraction_method(first_number, second_number)
+  subtraction = first_number - second_number
+  prompt "==> #{first_number} - #{second_number} = #{format_float(subtraction)}"
+end
+
+def product_method(first_number, second_number)
+  product = first_number * second_number
+  prompt "==> #{first_number} * #{second_number} = #{format_float(product)}"
+end
+
+def quotient_method(first_number, second_number)
+  if second_number != 0
+    quotient = first_number / second_number
+    prompt "==> #{first_number} / #{second_number} = #{format_float(quotient)}"
+  else
+    prompt "==> Error: Cannot divide by zero!"
+  end
+end
+
+def remainder_method(first_number, second_number)
+  remainder = first_number % second_number
+  prompt "==> #{first_number} % #{second_number} = #{format_float(remainder)}"
+end
+
+def power_method(first_number, second_number)
+  power = first_number**second_number
+  prompt "==> #{first_number} ** #{second_number} = #{format_float(power)}"
+end
+
+addition_method(first_number, second_number)
+subtraction_method(first_number, second_number)
+product_method(first_number, second_number)
+quotient_method(first_number, second_number)
+remainder_method(first_number, second_number)
+power_method(first_number, second_number)
