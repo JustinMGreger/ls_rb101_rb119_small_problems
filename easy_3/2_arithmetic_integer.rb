@@ -141,7 +141,6 @@ until second_number != 0
 end
 
 def format_float(number)
-  # Format the number to display up to 2 decimal places
   format('%.2f', number)
 end
 
