@@ -12,6 +12,12 @@
 # output:
 # There are 13 characters in "walk, don't run".
 
+# LS solution:
+# print 'Please write word or multiple words: '
+# input = gets.chomp
+# number_of_characters = input.delete(' ').size
+# puts "There are #{number_of_characters} characters in \"#{input}\"."
+
 def prompt(message)
   puts message
 end
