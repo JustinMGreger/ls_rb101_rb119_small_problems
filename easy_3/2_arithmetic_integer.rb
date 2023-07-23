@@ -100,23 +100,23 @@
 # This is a way of approximating real numbers using a finite amount of memory.
 
 # LS solution that has been modified in response to this:
-def prompt(message)
-  puts "==> #{message}"
-end
+# def prompt(message)
+#   puts "==> #{message}"
+# end
 
-prompt('Enter the first number:')
-first_number = gets.chomp.to_f
-prompt('Enter the second number:')
-second_number = gets.chomp.to_f
+# prompt('Enter the first number:')
+# first_number = gets.chomp.to_f
+# prompt('Enter the second number:')
+# second_number = gets.chomp.to_f
 
-tolerance = 0.00001
-if second_number.abs < tolerance
-  prompt('The second number cannot be zero!')
-else
-  prompt("#{first_number} + #{second_number} = #{first_number + second_number}")
-  prompt("#{first_number} - #{second_number} = #{first_number - second_number}")
-  prompt("#{first_number} * #{second_number} = #{first_number * second_number}")
-  prompt("#{first_number} / #{second_number} = #{first_number / second_number}")
-  prompt("#{first_number} % #{second_number} = #{first_number % second_number}")
-  prompt("#{first_number} ** #{second_number} = #{first_number**second_number}")
-end
+# tolerance = 0.00001
+# if second_number.abs < tolerance
+#  prompt('The second number cannot be zero!')
+# else
+#   prompt("#{first_number} + #{second_number} = #{first_number + second_number}")
+#   prompt("#{first_number} - #{second_number} = #{first_number - second_number}")
+#   prompt("#{first_number} * #{second_number} = #{first_number * second_number}")
+#   prompt("#{first_number} / #{second_number} = #{first_number / second_number}")
+#   prompt("#{first_number} % #{second_number} = #{first_number % second_number}")
+#   prompt("#{first_number} ** #{second_number} = #{first_number**second_number}")
+# end
