@@ -26,6 +26,10 @@
 # This is clearly shorter. 
 # However is it superior?
 
+#Answer:
+# No the first LS solution is faster. 
+# Comparison looks at the sign which is less computational work.
+
 def negative(number)
   if number.positive?
     number * -1
