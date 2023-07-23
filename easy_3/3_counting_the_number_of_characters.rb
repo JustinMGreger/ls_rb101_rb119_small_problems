@@ -7,6 +7,8 @@
 # input:
 # Please write word or multiple words: walk
 
+# output:
+
 def prompt(message)
   puts message
 end
