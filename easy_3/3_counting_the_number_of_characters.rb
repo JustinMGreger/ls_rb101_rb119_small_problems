@@ -10,6 +10,9 @@
 # output:
 # There are 4 characters in "walk".
 
+# input:
+# Please write word or multiple words: walk, don't run
+
 def prompt(message)
   puts message
 end
