@@ -17,6 +17,13 @@
 # xor?(5.even?, 4.odd?) == false
 # The tests above should print true.
 
+# LS solution:
+# def xor?(value1, value2)
+#   return true if value1 && !value2
+#   return true if value2 && !value1
+#   false
+# end
+
 def xor?(arg_one, arg_two)
   if arg_one && !arg_two
     true
