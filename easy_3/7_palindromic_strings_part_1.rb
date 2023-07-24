@@ -10,6 +10,11 @@
 # palindrome?("madam i'm adam") == false # (all characters matter)
 # palindrome?('356653') == true
 
+# LS solution:
+# def palindrome?(string)
+#   string == string.reverse
+# end
+
 def palindrome?(sequence)
   sequence.size.times.all? { |i| sequence[i] == sequence[-i - 1] }
 end
