@@ -5,6 +5,11 @@
 # Example:
 # multiply(5, 3) == 15
 
+# LS solution:
+# def multiply(n1, n2)
+#   n1 * n2
+# end 
+
 def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
