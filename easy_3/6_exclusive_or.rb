@@ -15,8 +15,7 @@
 # xor?(5.odd?, 4.odd?) == true
 # xor?(5.odd?, 4.even?) == false
 # xor?(5.even?, 4.odd?) == false
-
-
+# The tests above should print true.
 
 def xor?(arg_one, arg_two)
   if arg_one && !arg_two
