@@ -6,6 +6,9 @@
 # You may assume that the strings are of different lengths.
 
 # Examples:
+# short_long_short('abc', 'defgh') == "abcdefghabc"
+# short_long_short('abcde', 'fgh') == "fghabcdefgh"
+# short_long_short('', 'xyz') == "xyz"
 
 def short_long_short(string_argument_one, string_argument_two)
   if string_argument_one.length > string_argument_two.length
