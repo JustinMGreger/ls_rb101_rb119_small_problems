@@ -14,6 +14,12 @@
 # real_palindrome?('356a653') == true
 # real_palindrome?('123ab321') == false
 
+# LS solution:
+# def real_palindrome?(string)
+#   string = string.downcase.delete('^a-z0-9')
+#   palindrome?(string)
+# end
+
 def palindrome?(sequence)
   sequence.size.times.all? { |i| sequence[i] == sequence[-i - 1] }
 end
