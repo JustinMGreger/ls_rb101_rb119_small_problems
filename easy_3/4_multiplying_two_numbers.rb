@@ -11,7 +11,7 @@
 # end
 
 # LS solution modified to rubocop:
-def multiply(nnnn1, nnn2)
+def multiply(nnn1, nnn2)
   nnn1 * nnn2
 end
 
