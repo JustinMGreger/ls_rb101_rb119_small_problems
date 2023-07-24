@@ -11,7 +11,7 @@ def multiply(n1, n2)
 end 
 
 # Test:
-multiply(5, 3) == 15
+p multiply(5, 3) == 15 # result: true.
 
 # Further Exploration
 
