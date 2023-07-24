@@ -10,6 +10,15 @@
 # short_long_short('abcde', 'fgh') == "fghabcdefgh"
 # short_long_short('', 'xyz') == "xyz"
 
+# LS solution:
+# def short_long_short(string1, string2)
+#   if string1.length > string2.length
+#     string2 + string1 + string2
+#   else
+#     string1 + string2 + string1
+#   end
+# end
+
 def short_long_short(string_argument_one, string_argument_two)
   if string_argument_one.length > string_argument_two.length
     longest_string = string_argument_one
