@@ -6,9 +6,9 @@
 # multiply(5, 3) == 15
 
 # LS solution:
-def multiply(n1, n2)
-  n1 * n2
-end 
+# def multiply(n1, n2)
+#   n1 * n2
+# end 
 
 # LS solution modified to rubocop:
 def multiply(nnnn1, nnn2)
