@@ -13,6 +13,11 @@
 # uppercase?('4SCORE!') == true
 # uppercase?('') == true
 
+# LS solution:
+# def uppercase?(string)
+#   string == string.upcase
+# end
+
 def uppercase?(string_argument)
   alphabetic = string_argument.gsub(/[^a-zA-Z]/, '')
   alphabetic == alphabetic.upcase
