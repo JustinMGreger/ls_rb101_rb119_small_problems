@@ -1,5 +1,13 @@
 # frozen_string_literal: true
 
+# Write a method that takes a year as input and returns the century.
+# The return value should be a string that begins with the century number, and ends with
+# st, nd, rd, or th as appropriate for that number.
+
+# New centuries begin in years that end with 01. So, the years 1901-2000 comprise the 20th century.
+
+# Examples:
+
 def century(year)
   century_number = calculate_century_number(year)
   suffix = calculate_century_suffix(century_number)
