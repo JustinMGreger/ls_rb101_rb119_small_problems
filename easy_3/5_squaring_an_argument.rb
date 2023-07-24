@@ -5,6 +5,8 @@
 # (the square is the result of multiplying a number by itself).
 
 # Example:
+# square(5) == 25
+# square(-8) == 64
 
 def prompt(message)
   puts message
