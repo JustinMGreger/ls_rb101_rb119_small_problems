@@ -8,6 +8,11 @@
 # square(5) == 25
 # square(-8) == 64
 
+# LS solution:
+# def square(n)
+#   multiply(n, n)
+# end
+
 def prompt(message)
   puts message
 end
