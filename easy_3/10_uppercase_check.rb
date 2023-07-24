@@ -1,5 +1,12 @@
 # frozen_string_literal: true
 
+# Write a method that takes a string argument,
+# and returns true if all of the alphabetic characters inside the string are uppercase,
+# false otherwise.
+# Characters that are not alphabetic should be ignored.
+
+# Examples:
+
 def uppercase?(string_argument)
   alphabetic = string_argument.gsub(/[^a-zA-Z]/, '')
   alphabetic == alphabetic.upcase
