@@ -6,6 +6,12 @@
 # Characters that are not alphabetic should be ignored.
 
 # Examples:
+# uppercase?('t') == false
+# uppercase?('T') == true
+# uppercase?('Four Score') == false
+# uppercase?('FOUR SCORE') == true
+# uppercase?('4SCORE!') == true
+# uppercase?('') == true
 
 def uppercase?(string_argument)
   alphabetic = string_argument.gsub(/[^a-zA-Z]/, '')
