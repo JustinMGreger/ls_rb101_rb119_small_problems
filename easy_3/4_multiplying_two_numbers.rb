@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+# Create a method that takes two arguments, multiplies them together, and returns the result.
+
+# Example:
+
 def multiply(arg_one, arg_two)
   arg_one * arg_two
 end
