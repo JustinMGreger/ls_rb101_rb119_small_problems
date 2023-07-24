@@ -1,5 +1,12 @@
 # frozen_string_literal: true
 
+# Write a method that takes two strings as arguments, determines the longest of the two strings,
+# and then returns the result of concatenating the shorter string, the longer string,
+# and the shorter string once again.
+# You may assume that the strings are of different lengths.
+
+# Examples:
+
 def short_long_short(string_argument_one, string_argument_two)
   if string_argument_one.length > string_argument_two.length
     longest_string = string_argument_one
