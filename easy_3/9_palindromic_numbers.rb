@@ -9,6 +9,11 @@
 # palindromic_number?(22) == true
 # palindromic_number?(5) == true
 
+# LS solution:
+# def palindromic_number?(number)
+#   palindrome?(number.to_s)
+# end
+
 def palindromic_number?(integer)
   integer.to_s == integer.to_s.reverse
 end
