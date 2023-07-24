@@ -21,7 +21,7 @@
 # that is, the element values appear in the same sequence both forwards and backwards in the array.
 # Now write a method that determines whether an array or a string is palindromic;
 # that is, write a method that can take either an array or a string argument,
-# and determines whether that argument is a palindrome. 
+# and determines whether that argument is a palindrome.
 # You may not use an if, unless, or case statement or modifier.
 
 def palindrome?(sequence)
