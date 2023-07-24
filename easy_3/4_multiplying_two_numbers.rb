@@ -15,7 +15,6 @@ def multiply(nnn1, nnn2)
   nnn1 * nnn2
 end
 
-
 # Test:
 p multiply(5, 3) == 15 # result: true.
 
