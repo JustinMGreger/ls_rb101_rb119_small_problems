@@ -7,6 +7,10 @@
 # You may assume that the number passed in is an integer greater than 1.
 
 # Examples
+# multisum(3) == 3
+# multisum(5) == 8
+# multisum(10) == 33
+# multisum(1000) == 234168
 
 # ls solution modified to by rubocop compliant:
 # def multiple?(number, divisor)
