@@ -42,3 +42,8 @@ def string_to_signed_integer(sign)
   else
     result
 end
+
+# tests:
+string_to_signed_integer('4321') == 4321
+string_to_signed_integer('-570') == -570
+string_to_signed_integer('+100') == 100
