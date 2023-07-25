@@ -59,28 +59,21 @@
 # hexadecimal_to_integer('4D9f') == 19871
 
 # Answer:
+DIGITS = {
+  '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
+  '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
+  'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
+}.freeze
+
 def hexadecimal_to_integer(hex_str)
-  digits = {
-    '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
-    '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
-    'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
-  }
-
-  hex_str = hex_str.downcase
-  length = hex_str.length
-  i = 0
   result = 0
+  hex_str.downcase.each_char do |char|
+    return nil if DIGITS[char].nil?
 
-  while i < length
-    char = hex_str[i]
-    value = digits[char]
-    return nil if value.nil?
-    result = result * 16 + value
-    i += 1
+    result = 16 * result + DIGITS[char]
   end
-
   result
 end
 
 # test:
-p hexadecimal_to_integer('4D9f') == 19871
+p hexadecimal_to_integer('4D9f') == 19_871
