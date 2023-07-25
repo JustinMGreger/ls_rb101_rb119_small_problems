@@ -20,31 +20,31 @@
 # string_to_signed_integer('+100') == 100
 
 # my solution:
-def string_to_integer(string)
-  digits = {
-    '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
-    '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9
-  }
+# def string_to_integer(string)
+#   digits = {
+#     '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
+#     '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9
+#   }
 
-  integer = 0
-  string.each_char do |char|
-    digit = digits[char]
-    next if digit.nil?
-    integer = 10 * integer + digit
-  end
-  integer
-end
+#   integer = 0
+#   string.each_char do |char|
+#     digit = digits[char]
+#     next if digit.nil?
+#     integer = 10 * integer + digit
+#   end
+#   integer
+# end
 
-def string_to_signed_integer(string)
-  is_negative = string.start_with?('-')
-  string = string[1..-1] if is_negative
-  result = string_to_integer(string)
-  if is_negative
-    result * -1
-  else
-    result
-  end
-end
+# def string_to_signed_integer(string)
+#   is_negative = string.start_with?('-')
+#   string = string[1..-1] if is_negative
+#   result = string_to_integer(string)
+#   if is_negative
+#     result * -1
+#   else
+#     result
+#   end
+# end
 
 # tests:
 p string_to_signed_integer('4321') == 4321
