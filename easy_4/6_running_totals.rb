@@ -9,6 +9,10 @@
 # running_total([3]) == [3]
 # running_total([]) == []
 
+# A running total is the sum of all values in a list up to and including the current element.
+# Thus, the running total when looking at index 2 of the array [14, 11, 7, 15, 20] is 32 (14 + 11 + 7),
+# while the running total at index 3 is 47 (14 + 11 + 7 + 15).
+
 #LS Solution:
 # def running_total(array)
 #   sum = 0
