@@ -11,7 +11,7 @@
 # You may assume the string will always contain a valid number.
 
 # You may not use any of the standard conversion methods available in Ruby, such as String#to_i,
-# Integer(), etc. 
+# Integer(), etc.
 # You may, however, use the string_to_integer method from the previous lesson.
 
 # Examples
