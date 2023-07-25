@@ -15,6 +15,19 @@
 # You may, however, use the string_to_integer method from the previous lesson.
 
 # Examples
-p string_to_signed_integer('4321') == 4321
-p string_to_signed_integer('-570') == -570
-p string_to_signed_integer('+100') == 100
+# string_to_signed_integer('4321') == 4321
+# string_to_signed_integer('-570') == -570
+# string_to_signed_integer('+100') == 100
+
+def string_to_integer(string)
+  digits = {
+    "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
+    "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
+  }
+
+  integer = 0
+  string.each_char do |char|
+    integer = 10 * integer + digits[char]
+  end
+  integer
+end
