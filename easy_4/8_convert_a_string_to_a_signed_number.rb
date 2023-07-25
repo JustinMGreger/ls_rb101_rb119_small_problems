@@ -19,7 +19,7 @@
 # string_to_signed_integer('-570') == -570
 # string_to_signed_integer('+100') == 100
 
-if '-' return a negative number * -1
+if '-' integer * -1
 else return number
 
 
