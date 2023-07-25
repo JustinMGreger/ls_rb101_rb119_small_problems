@@ -75,6 +75,7 @@ p leap_year?(400) == true # result: true.
 # Further Exploration
 # Find a web page that talks about leap years or the different calendar systems,
 # Answer: https://en.wikipedia.org/wiki/Leap_year
+
 # and talk about the interesting information you learned.
 # Answer:
 # On 1 January 45 BC, by edict, Julius Caesar reformed the historic Roman calendar to
@@ -116,6 +117,7 @@ p leap_year?(400) == true # result: true.
 # The most well-known consequence of bugs of this type is the Y2K problem, but many other
 # milestone dates or times exist that have caused or will cause problems depending on
 # various programming deficiencies.
+
 # For instance, how was the change from the Julian calendar to the Gregorian calendar
 # handled in your ancestral lands?
 # Answer:
@@ -129,8 +131,12 @@ p leap_year?(400) == true # result: true.
 # The first adjusted the start of a new year from Lady Day (25 March) to 1 January
 # (which Scotland had done from 1600), while the second discarded the Julian calendar in
 # favour of the Gregorian calendar, removing 11 days from the September 1752 calendar to do so.
+
 # Do they even use these calendar systems?
-# Answer: yes.
+# Answer:
+# yes.
+
 # If you live someplace that doesn't use the Gregorian calendar, tell us about your
 # calendar system.
-# Answer: I do not.
+# Answer:
+# I do not.
