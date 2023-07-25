@@ -19,31 +19,34 @@
 # string_to_signed_integer('-570') == -570
 # string_to_signed_integer('+100') == 100
 
-DIGITS = {
-  '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
-  '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
-  'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
-}.freeze
+# my solution:
+def string_to_integer(string)
+  digits = {
+    "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
+    "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
+  }
 
-def hexadecimal_to_integer(hex_str)
-  result = 0
-  hex_str.downcase.each_char do |char|
-    return nil if DIGITS[char].nil?
-
-    result = 16 * result + DIGITS[char]
+  integer = 0
+  string.each_char do |char|
+    digit = digits[char]
+    next if digit.nil?
+    integer = 10 * integer + digit
   end
-  result
+  integer
 end
 
-def string_to_signed_integer(sign)
-  hexadecimal_to_integer(hex_str)
-  if sign.include?('-') 
+def string_to_signed_integer(string)
+  is_negative = string.start_with?('-')
+  string = string[1..-1] if is_negative
+  result = string_to_integer(string)
+  if is_negative
     result * -1
   else
     result
+  end
 end
 
 # tests:
-string_to_signed_integer('4321') == 4321
-string_to_signed_integer('-570') == -570
-string_to_signed_integer('+100') == 100
+p string_to_signed_integer('4321') == 4321
+p string_to_signed_integer('-570') == -570
+p string_to_signed_integer('+100') == 100
