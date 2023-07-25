@@ -50,3 +50,8 @@
 # tests:
 # p string_to_integer('4321') == 4321
 # p string_to_integer('570') == 570
+
+# Further Exploration
+
+# Write a hexadecimal_to_integer method that converts a string representing a hexadecimal number to its integer value.
+
