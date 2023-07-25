@@ -19,6 +19,11 @@
 # string_to_signed_integer('-570') == -570
 # string_to_signed_integer('+100') == 100
 
+if '+' or no sign return a positive number
+else '-' return a negative number
+
+
+
 def string_to_integer(string)
   digits = {
     "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
