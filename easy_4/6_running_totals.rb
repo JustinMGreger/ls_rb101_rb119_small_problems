@@ -24,6 +24,14 @@
 # Try solving this problem using Enumerable#each_with_object or Enumerable#inject
 # (note that Enumerable methods can be applied to Arrays).
 
+# Enumerable#each_with_object
+
+def running_total(array)
+
+
+
+end
+
 # Enumerable#inject
 # def running_total(array)
 #  array.inject([[], 0]) do |(totals, sum), value|
@@ -32,13 +40,6 @@
 #  end.first
 # end
 
-# Enumerable#each_with_object
-
-def running_total(array)
-
-
-
-end
 # Tests:
 p running_total([2, 5, 13]) == [2, 7, 20] # result: true.
 p running_total([14, 11, 7, 15, 20]) == [14, 25, 32, 47, 67] # result: true.
