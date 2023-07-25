@@ -23,6 +23,17 @@
 # leap_year?(100) == false
 # leap_year?(400) == true
 
+# LS solution:
+# def leap_year?(year)
+#   if year % 400 == 0
+#     true
+#   elsif year % 100 == 0
+#     false
+#   else
+#     year % 4 == 0
+#   end
+# end
+
 # Further Exploration
 
 # Can you rewrite leap_year? to perform its tests in the opposite order of the above solution?
