@@ -34,18 +34,18 @@
 # end
 
 # My solution:
-def string_to_integer(string)
-  digits = {
-    "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
-    "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
-  }
+# def string_to_integer(string)
+#   digits = {
+#     "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
+#     "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
+#   }
 
-  integer = 0
-  string.each_char do |char|
-    integer = 10 * integer + digits[char]
-  end
-  integer
-end
+#   integer = 0
+#   string.each_char do |char|
+#     integer = 10 * integer + digits[char]
+#   end
+#   integer
+# end
 
 # tests:
 p string_to_integer('4321') == 4321
