@@ -57,3 +57,30 @@
 
 # Example:
 # hexadecimal_to_integer('4D9f') == 19871
+
+# Answer:
+def hexadecimal_to_integer(hex_str)
+  digits = {
+    '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
+    '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
+    'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
+  }
+
+  hex_str = hex_str.downcase
+  length = hex_str.length
+  i = 0
+  result = 0
+
+  while i < length
+    char = hex_str[i]
+    value = digits[char]
+    return nil if value.nil?
+    result = result * 16 + value
+    i += 1
+  end
+
+  result
+end
+
+# test:
+p hexadecimal_to_integer('4D9f') == 19871
