@@ -19,6 +19,11 @@
 #   array.map { |value| sum += value }
 # end
 
+# Further Exploration
+
+# Try solving this problem using Enumerable#each_with_object or Enumerable#inject
+# (note that Enumerable methods can be applied to Arrays).
+
 # Enumerable#inject
 # def running_total(array)
 #  array.inject([[], 0]) do |(totals, sum), value|
