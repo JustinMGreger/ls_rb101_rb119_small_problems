@@ -55,3 +55,4 @@
 
 # Write a hexadecimal_to_integer method that converts a string representing a hexadecimal number to its integer value.
 
+# Example:
