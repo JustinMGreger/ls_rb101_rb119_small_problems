@@ -16,3 +16,5 @@
 # Your method should do this the old-fashioned way and calculate the result by analyzing the characters in the string.
 
 # Examples
+# string_to_integer('4321') == 4321
+# string_to_integer('570') == 570
