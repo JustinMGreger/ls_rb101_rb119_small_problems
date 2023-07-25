@@ -15,3 +15,6 @@
 # You may, however, use the string_to_integer method from the previous lesson.
 
 # Examples
+p string_to_signed_integer('4321') == 4321
+p string_to_signed_integer('-570') == -570
+p string_to_signed_integer('+100') == 100
