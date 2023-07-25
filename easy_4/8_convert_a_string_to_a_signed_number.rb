@@ -19,20 +19,26 @@
 # string_to_signed_integer('-570') == -570
 # string_to_signed_integer('+100') == 100
 
-if '-' integer * -1
-else return number
+DIGITS = {
+  '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
+  '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
+  'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
+}.freeze
 
+def hexadecimal_to_integer(hex_str)
+  result = 0
+  hex_str.downcase.each_char do |char|
+    return nil if DIGITS[char].nil?
 
-
-def string_to_integer(string)
-  digits = {
-    "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
-    "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
-  }
-
-  integer = 0
-  string.each_char do |char|
-    integer = 10 * integer + digits[char]
+    result = 16 * result + DIGITS[char]
   end
-  integer
+  result
+end
+
+def string_to_signed_integer(sign)
+  hexadecimal_to_integer(hex_str)
+  if sign.include?('-') 
+    result * -1
+  else
+    result
 end
