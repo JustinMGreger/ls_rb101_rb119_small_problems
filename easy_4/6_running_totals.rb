@@ -32,7 +32,6 @@
 #  end.first
 # end
 
-# Further Exploration
 # Enumerable#each_with_object
 
 def running_total(array)
