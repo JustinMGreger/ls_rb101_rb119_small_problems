@@ -34,28 +34,17 @@
 # end
 
 # My solution:
-def string_to_integer(str, base=10)
+def string_to_integer(string)
   digits = {
-    '0' => 0, '1' => 1, '2' => 2, '3' => 3, '4' => 4,
-    '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9,
-    'a' => 10, 'b' => 11, 'c' => 12, 'd' => 13, 'e' => 14, 'f' => 15
+    "0" => 0, "1" => 1, "2" => 2, "3" => 3, "4" => 4,
+    "5" => 5, "6" => 6, "7" => 7, "8" => 8, "9" => 9
   }
 
-  str = str.downcase
-  length = str.length
-  i = 0
-  result = 0
-
-  while i < length
-    char = str[i]
-    value = digits[char]
-    break if value.nil? || value >= base
-
-    result = result * base + value
-    i += 1
+  integer = 0
+  string.each_char do |char|
+    integer = 10 * integer + digits[char]
   end
-
-  result
+  integer
 end
 
 # tests:
