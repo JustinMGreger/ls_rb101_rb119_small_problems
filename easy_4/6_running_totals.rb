@@ -25,12 +25,12 @@
 # (note that Enumerable methods can be applied to Arrays).
 
 # Enumerable#each_with_object
-
-def running_total(array)
-
-
-
-end
+# def running_total(numbers)
+#   numbers.each_with_object([]) do |number, totals|
+#     previous_total = totals.last || 0
+#     totals << previous_total + number
+#   end
+# end
 
 # Enumerable#inject
 # def running_total(array)
