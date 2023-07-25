@@ -19,8 +19,8 @@
 # string_to_signed_integer('-570') == -570
 # string_to_signed_integer('+100') == 100
 
-if '+' or no sign return a positive number
-else '-' return a negative number
+if '-' return a negative number * -1
+else return number
 
 
 
