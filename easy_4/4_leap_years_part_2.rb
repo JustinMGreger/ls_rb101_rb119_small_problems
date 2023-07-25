@@ -24,6 +24,19 @@
 # leap_year?(100) == true
 # leap_year?(400) == true
 
+# LS solution:
+# def leap_year?(year)
+#   if year < 1752 && year % 4 == 0
+#     true
+#   elsif year % 400 == 0
+#     true
+#   elsif year % 100 == 0
+#     false
+#   else
+#     year % 4 == 0
+#   end
+# end
+
 def julian_calendar?(year)
   (year % 4).zero?
 end
