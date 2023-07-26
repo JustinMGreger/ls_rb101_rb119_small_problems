@@ -60,6 +60,17 @@ puts integer_to_string(5000) # Should print '5000'
 # end with a ! because there is no non-mutating form of prepend.
 
 # How many mutating String methods can you find that do not end with a !. 
+# concat
+# replace
+# prepend
+# insert
+# clear
+# force_encoding
+# setbyte
+
 # Can you find any that end with a !, but don't have a non-mutating form? 
+# string.delete
+
 # Does the Array class have any methods that fit this pattern? 
+# No.
 # How about the Hash class?
