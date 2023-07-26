@@ -14,20 +14,21 @@
 # integer_to_string(0) == '0'
 # integer_to_string(5000) == '5000'
 
-def integer_to_string(number)
-  lookup = '0123456789'
-  return lookup[0] if number.zero?
+# my solution:
+# def integer_to_string(number)
+#   lookup = '0123456789'
+#   return lookup[0] if number.zero?
 
-  result = ''
+#   result = ''
 
-  while number.positive?
-    digit = number % 10
-    number /= 10
-    result = lookup[digit] + result
-  end
+#   while number.positive?
+#     digit = number % 10
+#     number /= 10
+#     result = lookup[digit] + result
+#   end
 
-  result
-end
+#   result
+# end
 
 # tests:
 puts integer_to_string(4321) # Should print '4321'
