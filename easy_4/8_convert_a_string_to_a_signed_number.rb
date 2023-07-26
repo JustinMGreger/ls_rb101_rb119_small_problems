@@ -68,6 +68,12 @@ def string_to_signed_integer(string)
   end
 end
 
+# Further Exploration
+
+# In our solution, we call string[1..-1] twice, and call string_to_integer three times.
+# This is somewhat repetitive.
+# Refactor our solution so it only makes these two calls once each.
+
 # tests:
 p string_to_signed_integer('4321') == 4321
 p string_to_signed_integer('-570') == -570
