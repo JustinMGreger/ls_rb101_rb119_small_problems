@@ -10,3 +10,11 @@
 # String(), Kernel#format, etc. You may, however, use integer_to_string from the previous exercise.
 
 # Examples:
+# signed_integer_to_string(4321) == '+4321'
+# signed_integer_to_string(-123) == '-123'
+# signed_integer_to_string(0) == '0'
+
+# tests:
+p signed_integer_to_string(4321) == '+4321'
+p signed_integer_to_string(-123) == '-123'
+p signed_integer_to_string(0) == '0'
