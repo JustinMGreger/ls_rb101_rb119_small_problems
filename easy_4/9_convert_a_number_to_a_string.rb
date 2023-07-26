@@ -38,7 +38,7 @@ def integer_to_string(number)
   loop do
     number, remainder = number.divmod(10)
     result.prepend(DIGITS[remainder])
-    break if number == 0
+    break if number.zero?
   end
   result
 end
