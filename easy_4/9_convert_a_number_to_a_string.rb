@@ -9,7 +9,27 @@
 # such as Integer#to_s, String(), Kernel#format, etc.
 # Your method should do this the old-fashioned way and construct the string by analyzing and manipulating the number.
 
-# Examples
+# Examples:
 # integer_to_string(4321) == '4321'
 # integer_to_string(0) == '0'
 # integer_to_string(5000) == '5000'
+
+def integer_to_string(number)
+  lookup = '0123456789'
+  return lookup[0] if number.zero?
+
+  result = ''
+
+  while number > 0
+    digit = number % 10
+    number /= 10
+    result = lookup[digit] + result
+  end
+
+  result
+end
+
+# tests:
+puts integer_to_string(4321) # Should print '4321'
+puts integer_to_string(0) # Should print '0'
+puts integer_to_string(5000) # Should print '5000'
