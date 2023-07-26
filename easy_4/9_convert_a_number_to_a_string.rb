@@ -31,17 +31,17 @@
 # end
 
 # LS solution modified for rubocop:
-DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'].freeze
+# DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'].freeze
 
-def integer_to_string(number)
-  result = ''
-  loop do
-    number, remainder = number.divmod(10)
-    result.prepend(DIGITS[remainder])
-    break if number.zero?
-  end
-  result
-end
+# def integer_to_string(number)
+#   result = ''
+#   loop do
+#     number, remainder = number.divmod(10)
+#     result.prepend(DIGITS[remainder])
+#     break if number.zero?
+#   end
+#   result
+# end
 
 # tests:
 puts integer_to_string(4321) # Should print '4321'
