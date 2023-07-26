@@ -9,4 +9,7 @@
 # such as Integer#to_s, String(), Kernel#format, etc.
 # Your method should do this the old-fashioned way and construct the string by analyzing and manipulating the number.
 
-# Example
+# Examples
+# integer_to_string(4321) == '4321'
+# integer_to_string(0) == '0'
+# integer_to_string(5000) == '5000'
