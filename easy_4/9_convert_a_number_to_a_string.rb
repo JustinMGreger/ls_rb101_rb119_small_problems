@@ -20,7 +20,7 @@ def integer_to_string(number)
 
   result = ''
 
-  while number > 0
+  while number.positive?
     digit = number % 10
     number /= 10
     result = lookup[digit] + result
