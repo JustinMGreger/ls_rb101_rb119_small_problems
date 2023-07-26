@@ -73,4 +73,6 @@ puts integer_to_string(5000) # Should print '5000'
 
 # Does the Array class have any methods that fit this pattern? 
 # No.
+
 # How about the Hash class?
+# No.
