@@ -35,6 +35,24 @@ def signed_integer_to_string(number)
   end
 end
 
+# my solution:
+def integer_to_string(number)
+  lookup = '0123456789'
+  return lookup[0] if number.zero?
+
+  result = ''
+
+  while number.positive?
+    digit = number % 10
+    number /= 10
+    result = lookup[digit] + result
+  end
+
+  result
+end
+
+
+signed_integer_to_string(number)
 # tests:
 p signed_integer_to_string(4321) == '+4321'
 p signed_integer_to_string(-123) == '-123'
