@@ -30,7 +30,7 @@
 #   result
 # end
 
-# LS solution:
+# LS solution modified for rubocop:
 DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'].freeze
 
 def integer_to_string(number)
