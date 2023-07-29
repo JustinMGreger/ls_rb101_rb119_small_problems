@@ -52,7 +52,7 @@ def integer_to_string(number)
 end
 
 def signed_integer_to_string(number)
-  if number > 0
+  if number.positive?
     "+#{integer_to_string(number)}"
   elsif number < 0
     "-#{integer_to_string(-number)}"
