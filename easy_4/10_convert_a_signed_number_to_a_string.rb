@@ -105,11 +105,11 @@ end
 
 def signed_integer_to_string(number)
   if number.positive?
-    "+#{integer_to_string(number)}"
+    '+'
   elsif number.negative?
-    "-#{integer_to_string(-number)}"
+    '-'
   else
-    integer_to_string(number)
+    ''
   end
 end
 
