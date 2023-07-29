@@ -53,9 +53,9 @@ end
 
 def signed_integer_to_string(number)
   if number > 0
-    "+{integer_to_string(number)}"
+    "+#{integer_to_string(number)}"
   elsif number < 0
-    "-{integer_to_string(-number)}"
+    "-#{integer_to_string(-number)}"
   else
     integer_to_string(number)
   end
