@@ -84,7 +84,7 @@ sign =  case number <=> 0
   when +1 then "+"
   else         ""
   end
-  sign + integer_to_string(number.abs)
+sign + integer_to_string(number.abs)
 end
 
 
