@@ -80,10 +80,10 @@ end
 
 def signed_integer_to_string(number)
 sign =  case number <=> 0
-  when -1 then '-'
-  when +1 then '+'
-  else         ''
-  end
+        when -1 then '-'
+        when +1 then '+'
+        else         ''
+        end
 sign + integer_to_string(number.abs)
 end
 
