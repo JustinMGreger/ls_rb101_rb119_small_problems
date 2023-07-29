@@ -105,7 +105,7 @@ end
 
 def signed_integer_to_string(number)
   str_num = integer_to_string(number.abs)
-  
+
   if number.positive?
     '+' + str_num
   elsif number.negative?
