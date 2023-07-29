@@ -61,6 +61,10 @@
 #   end
 # end
 
+# Further Exploration
+
+# Refactor our solution to reduce the 3 integer_to_string calls to just one.
+
 # tests:
 p signed_integer_to_string(4321) == '+4321'
 p signed_integer_to_string(-123) == '-123'
