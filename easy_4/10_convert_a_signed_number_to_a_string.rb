@@ -66,26 +66,26 @@
 # Refactor our solution to reduce the 3 integer_to_string calls to just one.
 
 # LS solution refactored:
-DIGITS = %w[0 1 2 3 4 5 6 7 8 9].freeze
+# DIGITS = %w[0 1 2 3 4 5 6 7 8 9].freeze
 
-def integer_to_string(number)
-  result = String.new
-  loop do
-    number, remainder = number.divmod(10)
-    result.prepend(DIGITS[remainder])
-    break if number.zero?
-  end
-  result
-end
+# def integer_to_string(number)
+#   result = String.new
+#   loop do
+#     number, remainder = number.divmod(10)
+#     result.prepend(DIGITS[remainder])
+#     break if number.zero?
+#   end
+#   result
+# end
 
-def signed_integer_to_string(number)
-  sign =  case number <=> 0
-          when -1 then '-'
-          when +1 then '+'
-          else         ''
-          end
-  sign + integer_to_string(number.abs)
-end
+# def signed_integer_to_string(number)
+#   sign =  case number <=> 0
+#           when -1 then '-'
+#           when +1 then '+'
+#           else         ''
+#           end
+#   sign + integer_to_string(number.abs)
+# end
 
 # tests:
 p signed_integer_to_string(4321) == '+4321'
