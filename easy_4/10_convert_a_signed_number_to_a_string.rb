@@ -87,9 +87,6 @@ sign =  case number <=> 0
 sign + integer_to_string(number.abs)
 end
 
-
-
-
 # tests:
 p signed_integer_to_string(4321) == '+4321'
 p signed_integer_to_string(-123) == '-123'
