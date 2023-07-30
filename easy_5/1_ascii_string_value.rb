@@ -5,11 +5,11 @@
 # (You may use String#ord to determine the ASCII value of a character.)
 
 def ascii_value(parameter)
-  until parameter.zero?
-    element = parameter.slice!(0)
-    [] = element.ord
+  result = []
+  parameter.each_char do |element|
+    result << element.ord
   end
-  sum = [].sum
+  sum = result.sum
 end
 
 # tests:
