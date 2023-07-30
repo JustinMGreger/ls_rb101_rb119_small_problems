@@ -4,7 +4,7 @@
 # The ASCII string value is the sum of the ASCII values of every character in the string.
 # (You may use String#ord to determine the ASCII value of a character.)
 
-ascii_value
+def ascii_value(parameter)
 
 
 
