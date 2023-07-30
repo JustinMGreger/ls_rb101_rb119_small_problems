@@ -5,6 +5,7 @@
 # (You may use String#ord to determine the ASCII value of a character.)
 
 def ascii_value(parameter)
+until parameter.zero?
 value of first character = parameter.ord
 loop through the parameter string and extract the first character
 break loop when parameter string is empty
