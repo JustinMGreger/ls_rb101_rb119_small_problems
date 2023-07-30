@@ -6,8 +6,8 @@
 
 def ascii_value(parameter)
 
-
-
+  The ASCII string value is the sum of the ASCII values of every character in the string.
+  (You may use String#ord to determine the ASCII value of a character.)
 
 end
 # tests:
