@@ -10,7 +10,6 @@ def ascii_value(parameter)
     [] = element.ord
   end
   sum = [].sum
-  ascii_string_value = The is the sum of the ASCII values of every character in the string.
 end
 
 # tests:
