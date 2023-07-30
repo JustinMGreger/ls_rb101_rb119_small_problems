@@ -6,8 +6,9 @@
 
 def ascii_value(parameter)
   until parameter.zero?
+    x = parameter.slice!(0)
+    [] = x.ord
   end
-value of first character = parameter.ord
 loop through the parameter string and extract the first character
   ascii_string_value = The is the sum of the ASCII values of every character in the string.
 end
