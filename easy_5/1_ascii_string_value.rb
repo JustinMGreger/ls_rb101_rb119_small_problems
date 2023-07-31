@@ -4,13 +4,14 @@
 # The ASCII string value is the sum of the ASCII values of every character in the string.
 # (You may use String#ord to determine the ASCII value of a character.)
 
-def ascii_value(parameter)
-  result = []
-  parameter.each_char do |element|
-    result << element.ord
-  end
-  sum = result.sum
-end
+# my solution:
+# def ascii_value(parameter)
+#   result = []
+#   parameter.each_char do |element|
+#     result << element.ord
+#   end
+#   sum = result.sum
+# end
 
 # tests:
 p ascii_value('Four score') == 984
