@@ -13,6 +13,13 @@
 #   sum = result.sum
 # end
 
+# LS solution:
+# def ascii_value(string)
+#   sum = 0
+#   string.each_char { |char| sum += char.ord }
+#   sum
+# end
+
 # tests:
 p ascii_value('Four score') == 984
 p ascii_value('Launch School') == 1251
