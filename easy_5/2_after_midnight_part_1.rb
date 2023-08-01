@@ -10,20 +10,30 @@
 # You may not use ruby's Date and Time classes.
 
 # Examples:
-time_of_day(0) == "00:00"
-time_of_day(-3) == "23:57"
-time_of_day(35) == "00:35"
-time_of_day(-1437) == "00:03"
-time_of_day(3000) == "02:00"
-time_of_day(800) == "13:20"
-time_of_day(-4231) == "01:29"
+# time_of_day(0) == "00:00"
+# time_of_day(-3) == "23:57"
+# time_of_day(35) == "00:35"
+# time_of_day(-1437) == "00:03"
+# time_of_day(3000) == "02:00"
+# time_of_day(800) == "13:20"
+# time_of_day(-4231) == "01:29"
 
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
 
-def time_of_day(minutes)
+def positive_negative(minutes)
   if minutes >= 0
-    then minutes + 0.
+    positive = minutes
   else
-    minutes + 1440.
+    negative = minutes
+  end
+end
+
+
+def time_of_day(positive, negative)
+(positive + 0).divmod(60)
+
+(negative + 1440).divmod(60)
+quotient 
+remainder
 end
