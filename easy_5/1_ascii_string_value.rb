@@ -23,10 +23,11 @@
 # Further Exploration:
 
 # There is an Integer method such that:
-def mystery
-  char.ord.mystery == char
-end
+# def mystery(char)
+#   char.ord.mystery == char
+# end
 # where mystery is our mystery method.
+
 # Can you determine what method name should be used in place of mystery?
 
 # What happens if you try this with a longer string instead of a single character?
