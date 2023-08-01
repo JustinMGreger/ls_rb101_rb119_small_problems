@@ -32,9 +32,8 @@
 # .chr method
 
 # What happens if you try this with a longer string instead of a single character?
-
-# tests:
-p ascii_value('Four score') == 984
-p ascii_value('Launch School') == 1251
-p ascii_value('a') == 97
-p ascii_value('') == 0
+# returns false.
+# .ord only returns the ASCII value for the first character of the string.
+# which means .chr is only transforming the ASCII value for the first character of the string back into string form.
+# this is why 'char'.ord.chr == 'char' is false.
+# this is the same as 'c' == 'char' which is false.
