@@ -17,3 +17,5 @@ time_of_day(-1437) == "00:03"
 time_of_day(3000) == "02:00"
 time_of_day(800) == "13:20"
 time_of_day(-4231) == "01:29"
+
+# 1 day = 1440 minutes.
