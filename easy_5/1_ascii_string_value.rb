@@ -29,6 +29,7 @@
 # where mystery is our mystery method.
 
 # Can you determine what method name should be used in place of mystery?
+# .chr method
 
 # What happens if you try this with a longer string instead of a single character?
 
