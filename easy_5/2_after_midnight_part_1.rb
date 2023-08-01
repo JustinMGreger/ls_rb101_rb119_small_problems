@@ -20,4 +20,5 @@ time_of_day(-4231) == "01:29"
 
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
-# if positive then 0 + minutes.
+# if positive then minutes + 0.
+# if negative then minutes + 1440.
