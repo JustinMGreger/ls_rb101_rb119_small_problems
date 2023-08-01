@@ -20,8 +20,8 @@ time_of_day(-4231) == "01:29"
 
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
-# if positive then minutes + 0.
-# if negative then minutes + 1440.
+# if minutes positive then minutes + 0.
+# if minutes negative then minutes + 1440.
 
 def time_of_day(minutes)
 end
