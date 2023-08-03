@@ -31,11 +31,11 @@ def positive_negative(minutes)
   end
 end
 
-
 def time_of_day(positive, negative)
 (positive + 0).divmod(60)
 
 (negative + 1440).divmod(60)
 quotient 
 remainder
+Kernel.format("%d, %s, %d", "hour", :, "minutes")
 end
