@@ -32,13 +32,15 @@ def positive_negative(minutes)
 end
 
 def time_of_day(positive, negative)
+
 (positive + 0).divmod(60)
 
 if quotient greater than 24 then subtract by 24 until less than 24
 
 
 
-(negative + 1440).divmod(60)
+if negative then negative + 1440 until positive
+negative_variable.divmod(60)
 quotient
 remainder
 Kernel.format("%d, %s, %d", "quotient", :, "remainder")
