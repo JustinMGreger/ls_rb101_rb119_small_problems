@@ -35,7 +35,7 @@ def time_of_day(positive, negative)
 (positive + 0).divmod(60)
 
 (negative + 1440).divmod(60)
-quotient 
-remainder
+quotient = hours
+remainder = minutes
 Kernel.format("%d, %s, %d", "hour", :, "minutes")
 end
