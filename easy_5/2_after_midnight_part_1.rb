@@ -18,6 +18,8 @@
 # time_of_day(800) == "13:20"
 # time_of_day(-4231) == "01:29"
 
+# Disregard Daylight Savings and Standard Time and other complications.
+
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
 
