@@ -36,6 +36,7 @@ def time_of_day(positive, negative)
 (positive + 0).divmod(60)
 
 if quotient greater than 24 then subtract by 24 until less than 24
+  then return quotient and remainder
 
 
 
