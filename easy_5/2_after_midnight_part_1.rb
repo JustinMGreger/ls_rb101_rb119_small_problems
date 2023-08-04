@@ -34,6 +34,7 @@ end
 def time_of_day(category, minutes)
   total_minutes = 0
   if category == :positive
+    total_minutes = minutes
 
 (positive + 0).divmod(60)
 
