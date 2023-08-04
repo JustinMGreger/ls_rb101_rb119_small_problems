@@ -39,6 +39,13 @@ def time_of_day(category, minutes)
     total_minutes = (1440 + minutes) % 1440
   end
 
+  hours, minutes = total_minutes.divmod(60)
+
+
+
+
+
+  
 (positive + 0).divmod(60)
 
 if quotient greater than 24 then subtract by 24 until less than 24
