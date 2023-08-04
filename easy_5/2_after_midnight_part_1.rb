@@ -32,6 +32,7 @@ def positive_negative(minutes)
 end
 
 def time_of_day(category, minutes)
+  total_minutes = 0
 
 (positive + 0).divmod(60)
 
