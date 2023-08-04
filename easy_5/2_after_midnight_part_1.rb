@@ -27,7 +27,7 @@ def positive_negative(minutes)
   if minutes >= 0
     return :positive, minutes
   else
-    negative = minutes
+    return :negative, minutes
   end
 end
 
