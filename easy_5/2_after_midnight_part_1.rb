@@ -36,6 +36,8 @@ def time_of_day(category, minutes)
   if category == :positive
     total_minutes = minutes
   elsif category == :negative
+    total_minutes = (1440 + minutes) % 1440
+  end
 
 (positive + 0).divmod(60)
 
