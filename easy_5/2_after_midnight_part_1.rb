@@ -25,7 +25,7 @@
 
 def positive_negative(minutes)
   if minutes >= 0
-    positive = minutes
+    return :positive, minutes
   else
     negative = minutes
   end
@@ -39,9 +39,9 @@ if quotient greater than 24 then subtract by 24 until less than 24
   then return quotient and remainder
 
 
-
 if negative then negative + 1440 until positive
 negative_variable.divmod(60)
+
 quotient
 remainder
 Kernel.format("%d, %s, %d", "quotient", :, "remainder")
