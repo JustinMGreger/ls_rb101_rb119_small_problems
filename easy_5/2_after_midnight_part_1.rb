@@ -31,10 +31,10 @@ def time_of_day(minutes)
 end
 
 # tests:
-time_of_day(0) == "00:00"
-time_of_day(-3) == "23:57"
-time_of_day(35) == "00:35"
-time_of_day(-1437) == "00:03"
-time_of_day(3000) == "02:00"
-time_of_day(800) == "13:20"
-time_of_day(-4231) == "01:29"
+p time_of_day(0) == "00:00"
+p time_of_day(-3) == "23:57"
+p time_of_day(35) == "00:35"
+p time_of_day(-1437) == "00:03"
+p time_of_day(3000) == "02:00"
+p time_of_day(800) == "13:20"
+p time_of_day(-4231) == "01:29"
