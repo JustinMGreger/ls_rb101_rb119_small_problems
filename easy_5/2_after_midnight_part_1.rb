@@ -23,12 +23,13 @@
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
 
-def time_of_day(minutes)
-  total_minutes = ((minutes % 1440) + 1440) % 1440
+# my solution:
+# def time_of_day(minutes)
+#   total_minutes = ((minutes % 1440) + 1440) % 1440
 
-  hours, minutes = total_minutes.divmod(60)
-  Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
-end
+#   hours, minutes = total_minutes.divmod(60)
+#   Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
+# end
 
 # tests:
 p time_of_day(0) == '00:00' # result: true
