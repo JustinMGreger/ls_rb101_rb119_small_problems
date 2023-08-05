@@ -27,27 +27,6 @@ def time_of_day(minutes)
   total_minutes = ((minutes % 1440) + 1440) % 1440
 
 
-  if minutes >= 0
-    return :positive, minutes
-  else
-    return :negative, minutes
-  end
-end
-
-def time_of_day(category, minutes)
-  total_minutes = 0
-  if category == :positive
-    total_minutes = minutes
-  elsif category == :negative
-    total_minutes = (1440 + minutes) % 1440
-  end
-
-  hours, minutes = total_minutes.divmod(60)
-  hours = hours % 24
-
-  Kernel.format("%02d:%02d", hours, minutes)
-end
-
 # tests:
 time_of_day(0) == "00:00"
 time_of_day(-3) == "23:57"
