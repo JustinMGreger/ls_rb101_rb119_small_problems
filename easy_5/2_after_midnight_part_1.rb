@@ -42,6 +42,7 @@ def time_of_day(category, minutes)
   hours, minutes = total_minutes.divmod(60)
   hours = hours % 24
 
+  Kernel.format("%02d:%02d", hours, minutes)
 
 
 
