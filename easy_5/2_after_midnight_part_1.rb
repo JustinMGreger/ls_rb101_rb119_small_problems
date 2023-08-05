@@ -24,9 +24,9 @@
 # 1 hour = 60 minutes.
 
 def time_of_day(minutes)
+  total_minutes = ((minutes % 1440) + 1440) % 1440
 
 
-  
   if minutes >= 0
     return :positive, minutes
   else
