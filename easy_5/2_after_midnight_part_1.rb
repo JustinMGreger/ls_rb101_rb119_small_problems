@@ -43,6 +43,7 @@ def time_of_day(category, minutes)
   hours = hours % 24
 
   Kernel.format("%02d:%02d", hours, minutes)
+end
 
 
 
