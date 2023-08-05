@@ -44,20 +44,3 @@ def time_of_day(category, minutes)
 
   Kernel.format("%02d:%02d", hours, minutes)
 end
-
-
-
-
-(positive + 0).divmod(60)
-
-if quotient greater than 24 then subtract by 24 until less than 24
-  then return quotient and remainder
-
-
-if negative then negative + 1440 until positive
-negative_variable.divmod(60)
-
-quotient
-remainder
-Kernel.format("%d, %s, %d", "quotient", :, "remainder")
-end
