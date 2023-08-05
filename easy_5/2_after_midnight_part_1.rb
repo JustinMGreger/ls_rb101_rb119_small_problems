@@ -23,7 +23,10 @@
 # 1 day = 1440 minutes.
 # 1 hour = 60 minutes.
 
-def positive_negative(minutes)
+def time_of_day(minutes)
+
+
+  
   if minutes >= 0
     return :positive, minutes
   else
