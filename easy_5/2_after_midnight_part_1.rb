@@ -87,6 +87,17 @@
 #   Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
 # end
 
+# Problem 2
+
+# How would you approach this problem if you were allowed to use ruby's Date and Time classes?
+# Answer:
+def time_of_day(minutes)
+  midnight = Time.new(1970, 1, 1, 0, 0, 0)
+  
+  time = midnight + (minutes * 60)
+  
+  time.strftime("%H:%M")
+end
 # tests:
 p time_of_day(0) == '00:00' # result: true
 p time_of_day(-3) == '23:57' # result: true
