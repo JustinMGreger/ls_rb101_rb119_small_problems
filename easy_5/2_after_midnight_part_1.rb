@@ -50,6 +50,22 @@
 #   format('%02d:%02d', hours, minutes)
 # end
 
+# Further Exploration
+
+# Problem 1
+# The % operator's interaction with negative values is confusing and difficult to remember,
+# as described in the Introduction to Programming with Ruby Book.
+# Because of that, we recommend not using % with negative numbers,
+# but that you should first convert the negative values to positive numbers so you can write more explicit code.
+# This problem is one such place where it's probably easier to take this approach.
+# However, that doesn't mean you can't use % at all.
+# In fact, it's possible to write a single calculation with % that performs the entire normalization operation in
+# one line of code.
+# Give it a try, but don't spend too much time on it.
+
+
+
+
 # tests:
 p time_of_day(0) == '00:00' # result: true
 p time_of_day(-3) == '23:57' # result: true
