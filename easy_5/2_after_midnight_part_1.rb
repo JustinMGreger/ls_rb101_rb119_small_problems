@@ -74,7 +74,7 @@ end
 def time_of_day(delta_minutes)
   delta_minutes = normalize_minutes_per_day(delta_minutes)
   hours, minutes = delta_minutes.divmod(MINUTES_PER_HOUR)
-  format('%02d:%02d', hours, minutes)
+  format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
 end
 
 # tests:
