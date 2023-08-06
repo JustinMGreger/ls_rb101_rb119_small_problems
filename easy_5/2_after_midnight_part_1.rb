@@ -78,6 +78,15 @@
 #   format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
 # end
 
+# Answer: my original solution fufills this requirement:
+# my solution:
+# def time_of_day(minutes)
+#   total_minutes = ((minutes % 1440) + 1440) % 1440
+
+#   hours, minutes = total_minutes.divmod(60)
+#   Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
+# end
+
 # tests:
 p time_of_day(0) == '00:00' # result: true
 p time_of_day(-3) == '23:57' # result: true
