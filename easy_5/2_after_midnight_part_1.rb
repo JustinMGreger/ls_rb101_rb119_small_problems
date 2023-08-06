@@ -62,9 +62,20 @@
 # In fact, it's possible to write a single calculation with % that performs the entire normalization operation in
 # one line of code.
 # Give it a try, but don't spend too much time on it.
+# Answer:
+MINUTES_PER_HOUR = 60
+HOURS_PER_DAY = 24
+MINUTES_PER_DAY = HOURS_PER_DAY * MINUTES_PER_HOUR
 
+def normalize_minutes_to_0_through_1439(minutes)
+  minutes % MINUTES_PER_DAY
+end
 
-
+def time_of_day(delta_minutes)
+  delta_minutes = normalize_minutes_to_0_through_1439(delta_minutes)
+  hours, minutes = delta_minutes.divmod(MINUTES_PER_HOUR)
+  format('%02d:%02d', hours, minutes)
+end
 
 # tests:
 p time_of_day(0) == '00:00' # result: true
