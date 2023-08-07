@@ -93,7 +93,7 @@
 # Answer:
 def time_of_day(minutes)
   midnight = Time.new(1970, 1, 1, 0, 0, 0)
-  
+
   time = midnight + (minutes * 60)
   
   time.strftime("%H:%M")
