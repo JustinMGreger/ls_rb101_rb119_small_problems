@@ -96,7 +96,7 @@ def time_of_day(minutes)
 
   time = midnight + (minutes * 60)
 
-  time.strftime("%H:%M")
+  time.strftime('%H:%M')
 end
 # tests:
 p time_of_day(0) == '00:00' # result: true
