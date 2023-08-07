@@ -98,6 +98,7 @@ def time_of_day(minutes)
 
   time.strftime('%H:%M')
 end
+
 # tests:
 p time_of_day(0) == '00:00' # result: true
 p time_of_day(-3) == '23:57' # result: true
