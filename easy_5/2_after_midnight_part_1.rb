@@ -116,10 +116,10 @@ def time_of_day(delta_minutes)
 end
 
 # tests:
-p time_of_day(0) == '00:00' # result: true
-p time_of_day(-3) == '23:57' # result: true
-p time_of_day(35) == '00:35' # result: true
-p time_of_day(-1437) == '00:03' # result: true
-p time_of_day(3000) == '02:00' # result: true
-p time_of_day(800) == '13:20' # result: true
-p time_of_day(-4231) == '01:29' # result: true
+p time_of_day(0) # output: "Sunday 00:00"
+p time_of_day(-3) # output: "Saturday 23:57"
+p time_of_day(35) # output: "Sunday 00:35"
+p time_of_day(-1437) # output: "Saturday 00:03"
+p time_of_day(3000) # output: "Tuesday 02:00"
+p time_of_day(800) # output: "Sunday 13:20"
+p time_of_day(-4231) # output: "Thursday 01:29"
