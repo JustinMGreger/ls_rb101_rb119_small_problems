@@ -106,6 +106,15 @@
 # (Assume that delta_minutes is the number of minutes before or after midnight between Saturday and Sunday;
 # in such a method, a delta_minutes value of -4231 would need to produce a return value of Thursday 01:29.)
 
+# Answer:
+require 'date'
+
+def time_of_day(delta_minutes)
+  reference_time = DateTime.new(2023, 1, 1)
+  new_time = reference_time + (delta_minutes / 1440.0)
+  new_time.strftime('%A %H:%M')
+end
+
 # tests:
 p time_of_day(0) == '00:00' # result: true
 p time_of_day(-3) == '23:57' # result: true
