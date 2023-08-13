@@ -29,14 +29,7 @@ def before_midnight(minutes)
  before_midnight('00:00') == 0
  before_midnight('24:00') == 0
 
-reverse of:
-def time_of_day(minutes)
-  total_minutes = ((minutes % 1440) + 1440) % 1440
 
-  hours, minutes = total_minutes.divmod(60)
-  Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
-
-end
 
 def minutes_since_midnight(time_string)
   hours, minutes = time_string.split(':').map(&:to_i)
