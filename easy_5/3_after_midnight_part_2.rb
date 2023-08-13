@@ -23,7 +23,6 @@ before_midnight('24:00') == 0
 # Disregard Daylight Savings and Standard Time and other irregularities.
 
 # and Code.” Implementation of Algorithm:
-Write two methods that each take a time of day in 24 hour format,
 def before_midnight(time_string)
   hours, minutes = time_string.split(':').map(&:to_i)
   total_minutes = hours * 60 + minutes
