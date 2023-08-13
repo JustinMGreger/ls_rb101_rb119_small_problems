@@ -32,7 +32,7 @@ end
 
 
 
-def after_midnight
+def after_midnight(minutes)
    method if the number of minutes is positive.
  after_midnight('00:00') == 0
  after_midnight('24:00') == 0
