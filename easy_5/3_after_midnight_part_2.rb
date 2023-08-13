@@ -21,3 +21,14 @@ before_midnight('24:00') == 0
 # Humor us, though; it makes the problem more interesting.
 
 # Disregard Daylight Savings and Standard Time and other irregularities.
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+and output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
