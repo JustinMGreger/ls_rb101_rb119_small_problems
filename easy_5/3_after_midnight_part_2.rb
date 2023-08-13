@@ -36,5 +36,3 @@ def after_midnight(time_string)
 end
 
 
- and return the number of minutes before and after midnight, respectively.
- Both methods should return a value in the range 0..1439.
