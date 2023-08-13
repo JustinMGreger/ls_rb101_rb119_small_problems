@@ -28,7 +28,7 @@ def before_midnight
    method if the number of minutes is negative.
  before_midnight('00:00') == 0
  before_midnight('24:00') == 0
-
+end
 
 
 
@@ -37,5 +37,8 @@ def after_midnight
  after_midnight('00:00') == 0
  after_midnight('24:00') == 0
  after_midnight('12:34') == 754
+end
+
+
  and return the number of minutes before and after midnight, respectively.
  Both methods should return a value in the range 0..1439.
