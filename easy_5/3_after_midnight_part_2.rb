@@ -25,10 +25,24 @@ before_midnight('24:00') == 0
 # and Code.” Implementation of Algorithm:
 Write two methods that each take a time of day in 24 hour format,
 def before_midnight(minutes)
-   method if the number of minutes is negative.
+   method if the number of minutes is negative. minutes < 0
  before_midnight('00:00') == 0
  before_midnight('24:00') == 0
+
+reverse of:
+def time_of_day(minutes)
+  total_minutes = ((minutes % 1440) + 1440) % 1440
+
+  hours, minutes = total_minutes.divmod(60)
+  Kernel.format('%<hours>02d:%<minutes>02d', hours: hours, minutes: minutes)
+
 end
+
+def minutes_since_midnight
+
+
+
+
 
 
 
