@@ -31,10 +31,9 @@ def before_midnight(time_string)
 end
 
 def after_midnight(time_string)
-   method if the number of minutes is positive.
- after_midnight('00:00') == 0
- after_midnight('24:00') == 0
- after_midnight('12:34') == 754
+  hours, minutes = time_string.split(':').map(&:to_i)
+  total_minutes = hours * 60 + minutes
+  total_minutes
 end
 
 
