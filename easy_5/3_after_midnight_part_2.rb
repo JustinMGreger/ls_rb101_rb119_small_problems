@@ -48,7 +48,14 @@ before_midnight('24:00') == 0
 # You may not use ruby's Date and Time methods.
 # Disregard Daylight Savings and Standard Time and other irregularities.
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+# after_midnight('00:00') == 0
+# before_midnight('00:00') == 0
+# after_midnight('12:34') == 754
+# before_midnight('12:34') == 686
+# after_midnight('24:00') == 0
+# before_midnight('24:00') == 0
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
