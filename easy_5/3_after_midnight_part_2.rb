@@ -25,8 +25,9 @@ before_midnight('24:00') == 0
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
 # Identify expected input: a time of day in 24 hour format
+# and output: return the number of minutes before and after midnight, respectively.
+# Both methods should return a value in the range 0..1439.
 
-and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
