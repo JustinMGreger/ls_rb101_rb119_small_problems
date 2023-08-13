@@ -16,7 +16,7 @@
 
 # Disregard Daylight Savings and Standard Time and other irregularities.
 
-# and Code.” Implementation of Algorithm:
+# my solution:
 def before_midnight(time_string)
   return 0 if ['24:00', '00:00'].include?(time_string)
 
