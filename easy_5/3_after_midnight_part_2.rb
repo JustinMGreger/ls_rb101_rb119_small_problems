@@ -17,21 +17,21 @@
 # Disregard Daylight Savings and Standard Time and other irregularities.
 
 # my solution:
-def before_midnight(time_string)
-  return 0 if ['24:00', '00:00'].include?(time_string)
+# def before_midnight(time_string)
+#   return 0 if ['24:00', '00:00'].include?(time_string)
 
-  hours, minutes = time_string.split(':').map(&:to_i)
-  total_minutes = (24 * 60) - (hours * 60 + minutes)
-  total_minutes % 1440
-end
+#   hours, minutes = time_string.split(':').map(&:to_i)
+#   total_minutes = (24 * 60) - (hours * 60 + minutes)
+#   total_minutes % 1440
+# end
 
-def after_midnight(time_string)
-  return 0 if time_string == '24:00'
+# def after_midnight(time_string)
+#   return 0 if time_string == '24:00'
 
-  hours, minutes = time_string.split(':').map(&:to_i)
-  total_minutes = hours * 60 + minutes
-  total_minutes % 1440
-end
+#   hours, minutes = time_string.split(':').map(&:to_i)
+#   total_minutes = hours * 60 + minutes
+#   total_minutes % 1440
+# end
 
 # tests:
 p after_midnight('00:00').zero?
