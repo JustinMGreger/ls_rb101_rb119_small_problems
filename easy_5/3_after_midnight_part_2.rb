@@ -17,9 +17,9 @@
 # and Code.” Implementation of Algorithm:
 def before_midnight(time_string)
   return 0 if time_string == '24:00' || time_string == '00:00'
-  
+
   hours, minutes = time_string.split(':').map(&:to_i)
-  total_minutes = hours * 60 + minutes
+  total_minutes = (hours * 60 + minutes)
   total_minutes
 end
 
