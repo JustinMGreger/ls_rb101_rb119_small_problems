@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # As seen in the previous exercise, the time of day can be represented as the number of minutes before or after midnight.
 # If the number of minutes is positive, the time is after midnight.
 # If the number of minutes is negative, the time is before midnight.
