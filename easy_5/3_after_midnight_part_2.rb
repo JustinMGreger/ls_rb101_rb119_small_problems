@@ -41,6 +41,7 @@ end
 def minutes_since_midnight(time_string)
   hours, minutes = time_string.split(':').map(&:to_i)
   total_minutes = hours * 60 + minutes
+  total_minutes
 
 
 
