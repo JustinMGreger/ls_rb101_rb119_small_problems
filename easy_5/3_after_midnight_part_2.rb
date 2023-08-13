@@ -20,7 +20,7 @@ def before_midnight(time_string)
 
   hours, minutes = time_string.split(':').map(&:to_i)
   total_minutes = (24 * 60) - (hours * 60 + minutes)
-  total_minutes
+  total_minutes % 1440
 end
 
 def after_midnight(time_string)
