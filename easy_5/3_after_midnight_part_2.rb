@@ -34,7 +34,7 @@ def after_midnight(time_string)
 end
 
 # tests:
-p after_midnight('00:00') == 0
+p after_midnight('00:00').zero?
 p before_midnight('00:00') == 0
 p after_midnight('12:34') == 754
 p before_midnight('12:34') == 686
