@@ -71,4 +71,14 @@ before_midnight('24:00') == 0
 # and return the number of minutes before and after midnight, respectively.
 # Both methods should return a value in the range 0..1439.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+Write two methods that each take a time of day in 24 hour format,
+ the before_midnight method if the number of minutes is negative.
+ before_midnight('00:00') == 0
+ before_midnight('24:00') == 0
+ the after_midnight method if the number of minutes is positive.
+ after_midnight('00:00') == 0
+ after_midnight('24:00') == 0
+ after_midnight('12:34') == 754
+ and return the number of minutes before and after midnight, respectively.
+ Both methods should return a value in the range 0..1439.
