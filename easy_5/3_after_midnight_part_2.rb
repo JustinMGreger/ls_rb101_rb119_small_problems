@@ -30,7 +30,7 @@ def before_midnight(time_string)
   total_minutes
 end
 
-def after_midnight(minutes)
+def after_midnight(time_string)
    method if the number of minutes is positive.
  after_midnight('00:00') == 0
  after_midnight('24:00') == 0
