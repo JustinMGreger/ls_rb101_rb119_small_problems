@@ -24,10 +24,7 @@ before_midnight('24:00') == 0
 
 # and Code.” Implementation of Algorithm:
 Write two methods that each take a time of day in 24 hour format,
-def before_midnight(minutes)
-   method if the number of minutes is negative. minutes < 0
- before_midnight('00:00') == 0
- before_midnight('24:00') == 0
+
 
 
 
