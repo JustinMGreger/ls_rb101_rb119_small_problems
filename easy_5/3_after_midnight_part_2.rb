@@ -19,3 +19,5 @@ before_midnight('24:00') == 0
 
 # Yes, we know that 24:00 isn't a valid time in 24-hour format.
 # Humor us, though; it makes the problem more interesting.
+
+# Disregard Daylight Savings and Standard Time and other irregularities.
