@@ -9,7 +9,7 @@
 
 # You may not use ruby's Date and Time methods.
 
-# Examples:
+# tests:
 after_midnight('00:00') == 0
 before_midnight('00:00') == 0
 after_midnight('12:34') == 754
