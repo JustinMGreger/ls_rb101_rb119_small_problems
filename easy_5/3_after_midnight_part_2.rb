@@ -61,7 +61,7 @@ MINUTES_PER_HOUR = 60
 MINUTES_PER_DAY = HOURS_PER_DAY * MINUTES_PER_HOUR
 
 def after_midnight(time_str)
-  datetime = DateTime.parse('2000-01-01 #{time_str}')
+  datetime = DateTime.parse("2000-01-01 #{time_str}")
   datetime.hour * MINUTES_PER_HOUR + datetime.minute
 end
 
