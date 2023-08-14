@@ -49,6 +49,10 @@
 #   delta_minutes
 # end
 
+# Further Exploration
+
+# How would these methods change if you were allowed to use the Date and Time classes?
+
 # tests:
 p after_midnight('00:00').zero?
 p before_midnight('00:00').zero?
