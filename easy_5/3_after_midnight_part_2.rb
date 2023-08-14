@@ -33,6 +33,7 @@
 #   total_minutes % 1440
 # end
 
+# LS solution:
 # tests:
 p after_midnight('00:00').zero?
 p before_midnight('00:00').zero?
