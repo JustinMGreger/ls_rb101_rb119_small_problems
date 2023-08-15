@@ -71,6 +71,21 @@
 #   delta_minutes
 # end
 
+# my answer:
+require 'date'
+
+def after_midnight(time_string)
+  datetime = DateTime.parse("2023-08-14 #{time_string}")
+  datetime.hour * 60 + datetime.minute
+end
+
+def before_midnight(time_string)
+  return 0 if time_string == '24:00'
+  
+  datetime = DateTime.parse("2023-08-14 #{time_string}")
+  (24 * 60) - (datetime.hour * 60 + datetime.minute)
+end
+
 # tests:
 p after_midnight('00:00').zero?
 p before_midnight('00:00').zero?
