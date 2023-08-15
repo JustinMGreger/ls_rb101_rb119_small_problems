@@ -81,7 +81,7 @@ end
 
 def before_midnight(time_string)
   return 0 if ['24:00', '00:00'].include?(time_string)
-  
+
   datetime = DateTime.parse("2023-08-14 #{time_string}")
   (24 * 60) - (datetime.hour * 60 + datetime.minute)
 end
