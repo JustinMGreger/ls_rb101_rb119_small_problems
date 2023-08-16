@@ -9,14 +9,12 @@
 
 # my answer:
 
-def swap (a string that will always contain nothing but at least one word where every word contains at least one letter
+def swap (swap_string)
+  (a string that will always contain nothing but at least one word where every word contains at least one letter
 and each word is separated by spaces)
-  returns a string in which the first and last letters of every word are swapped.
+swapped_string =  swapping the first and last letters of every word
+swapped_string
 end
-
-the swap method accepts a string.
-assigned the result of: swapping the first and last letters of every word
-return this swapped string.
 
 # Examples / Test Cases, Validate understanding of the problem:
 p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
