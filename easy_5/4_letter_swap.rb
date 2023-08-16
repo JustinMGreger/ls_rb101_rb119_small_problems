@@ -20,10 +20,12 @@ swap('a') == 'a'
 # separated by spaces 
 # and returns a string in which the first and last letters of every word are swapped.
 
+# Mental model of the problem (optional):
+# def swap (a string that will always contain nothing but at least one word where every word contains at least one letter
+# and each word is separated by spaces)
+#   returns a string in which the first and last letters of every word are swapped.
+# end
 
-
-
-Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
