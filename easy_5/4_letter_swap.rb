@@ -12,6 +12,7 @@
 def swap (swap_string)
   swapped_string = swap_string.split.map do |word|
     if word.length > 1
+      word[-1] + word[1..-2] + word[0]
 swapped_string
 end
 
