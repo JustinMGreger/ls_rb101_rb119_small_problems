@@ -17,7 +17,9 @@ swap('a') == 'a'
 # and that the string will always contain at least one word.
 # each string contains nothing but words and spaces.
 
-and output:
+# output:
+# return a string in which the first and last letters of every word are swapped.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
