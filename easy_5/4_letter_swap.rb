@@ -10,7 +10,7 @@
 # my answer:
 
 def swap (swap_string)
-swapped_string =  swapping the first and last letters of every word
+  swapped_string = swap_string.split.map do |word|
 swapped_string
 end
 
