@@ -18,6 +18,9 @@ p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
 p swap('Abcde') == 'ebcdA'
 p swap('a') == 'a'
 
-Data Structure, How we represent data that we will work with when converting the input to output:
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# 1. the swap method accepts a string.
+# 2. assigned the result of: swapping the first and last letters of every word
+# 3. return this swapped string.
+
 and Code.” Implementation of Algorithm:
