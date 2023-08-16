@@ -11,15 +11,13 @@
 # my answer:
 
 def swap(swap_string)
-  swapped_string = swap_string.split.map do |word|
+  swap_string.split.map do |word|
     if word.length > 1
       word[-1] + word[1..-2] + word[0]
     else
       word
     end
   end.join(' ')
-
-swapped_string
 end
 
 # Examples / Test Cases, Validate understanding of the problem:
