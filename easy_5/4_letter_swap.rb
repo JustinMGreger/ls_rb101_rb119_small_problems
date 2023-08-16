@@ -12,15 +12,17 @@ swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
 swap('Abcde') == 'ebcdA'
 swap('a') == 'a'
 
-# Identify expected input: 
-# a string of words separated by spaces every word contains at least one letter,
-# and that the string will always contain at least one word.
-# each string contains nothing but words and spaces.
+# Make the requirements explicit Identify rules:
+# write a method that takes:
+# a string of words where every word contains at least one letter,
+# that the string will always contain at least one word,
+# each string contains nothing but words and spaces, 
+# separated by spaces 
+# and returns a string in which the first and last letters of every word are swapped.
 
-# output:
-# return a string in which the first and last letters of every word are swapped.
 
-Make the requirements explicit Identify rules:
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
