@@ -15,6 +15,8 @@ def swap (swap_string)
       word[-1] + word[1..-2] + word[0]
     else
       word
+    end
+  end.join(' ')
 swapped_string
 end
 
