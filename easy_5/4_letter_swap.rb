@@ -10,8 +10,6 @@
 # my answer:
 
 def swap (swap_string)
-  (a string that will always at least one word where every word contains at least one letter
-and each word is separated by spaces)
 swapped_string =  swapping the first and last letters of every word
 swapped_string
 end
