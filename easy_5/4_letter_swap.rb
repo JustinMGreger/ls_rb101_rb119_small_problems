@@ -9,7 +9,6 @@
 # You may also assume that each string contains nothing but words and spaces.
 
 # my answer:
-
 # def swap(swap_string)
 #   swap_string.split.map do |word|
 #     if word.length > 1
