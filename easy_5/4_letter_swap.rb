@@ -10,15 +10,15 @@
 
 # my answer:
 
-def swap(swap_string)
-  swap_string.split.map do |word|
-    if word.length > 1
-      word[-1] + word[1..-2] + word[0]
-    else
-      word
-    end
-  end.join(' ')
-end
+# def swap(swap_string)
+#   swap_string.split.map do |word|
+#     if word.length > 1
+#       word[-1] + word[1..-2] + word[0]
+#     else
+#       word
+#     end
+#   end.join(' ')
+# end
 
 # Examples / Test Cases, Validate understanding of the problem:
 p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
