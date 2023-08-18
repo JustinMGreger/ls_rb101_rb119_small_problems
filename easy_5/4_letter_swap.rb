@@ -32,6 +32,11 @@
 #   result.join(' ')
 # end
 
+# Further Exploration
+# How come our solution passes word into the swap_first_last_characters method invocation instead of just passing
+# the characters that needed to be swapped?
+# Suppose we had this implementation:
+
 # Examples / Test Cases, Validate understanding of the problem:
 p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
 p swap('Abcde') == 'ebcdA'
