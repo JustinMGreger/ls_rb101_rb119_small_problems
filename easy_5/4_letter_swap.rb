@@ -43,6 +43,8 @@ end
 # and called the method like this:
 swap_first_last_characters(word[0], word[-1])
 
+# Would this method work? Why or why not?
+
 # Examples / Test Cases, Validate understanding of the problem:
 # p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
 # p swap('Abcde') == 'ebcdA'
