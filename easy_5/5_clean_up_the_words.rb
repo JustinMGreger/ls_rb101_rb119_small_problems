@@ -17,7 +17,6 @@
 # 5. return the resulting string
 
 def cleanup(string_parameter)
-  split_string = string_parameter.split(/[^a-zA-Z]/)
   replaced_string = split_string.gsub(/[^a-zA-Z]/, ' ')
   result_string = replaced_string.join
   result_string
