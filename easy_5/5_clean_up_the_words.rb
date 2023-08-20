@@ -6,3 +6,4 @@
 # you should only have one space in the result (the result should never have consecutive spaces).
 
 # Examples:
+cleanup("---what's my +*& line?") == ' what s my line '
