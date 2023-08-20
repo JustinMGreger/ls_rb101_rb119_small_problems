@@ -5,6 +5,7 @@
 # If one or more non-alphabetic characters occur in a row,
 # you should only have one space in the result (the result should never have consecutive spaces).
 
+# my answer:
 def cleanup(string_parameter)
   replaced_string = string_parameter.gsub(/[^a-zA-Z]/, ' ')
   result_string = replaced_string.gsub(/\s+/, ' ')
