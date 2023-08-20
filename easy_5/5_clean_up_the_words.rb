@@ -11,7 +11,11 @@ cleanup("---what's my +*& line?") == ' what s my line '
 # Identify expected input: 
 # a string that consists of some words (all lowercased) and an assortment of non-alphabetic characters
 
-and output:
+# and output:
+# string with all of the non-alphabetic characters replaced by spaces.
+# If one or more non-alphabetic characters occur in a row, you should only have one space in the result
+# (the result should never have consecutive spaces).
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
