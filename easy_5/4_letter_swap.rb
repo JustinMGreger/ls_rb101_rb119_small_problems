@@ -44,6 +44,12 @@
 # swap_first_last_characters(word[0], word[-1])
 
 # Would this method work? Why or why not?
+# answer:
+# no, the original word is not changed.
+# when you do word[0] and word[-1], you're passing individual characters (values) to the function,
+# not references to positions within the original string.
+# swapping a and b inside the function only swaps the values locally within the function's scope and does not
+# affect the original word.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p swap('Oh what a wonderful day it is') == 'hO thaw a londerfuw yad ti si'
