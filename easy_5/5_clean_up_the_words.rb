@@ -22,7 +22,7 @@ p cleanup("---what's my +*& line?") == ' what s my line '
 and Code.” Implementation of Algorithm:
 
 def cleanup(string_parameter)
-# 2. split the string parameter based on all non-alphabetic characters
+split_string = string_parameter.split(/[^a-zA-Z]/)
 # 3. replace all non-alphabetic characters with spaces
 # 4. combine the result into a string.
 # 5. return the resulting string
