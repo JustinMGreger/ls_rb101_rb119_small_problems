@@ -23,6 +23,6 @@ and Code.” Implementation of Algorithm:
 
 def cleanup(string_parameter)
 split_string = string_parameter.split(/[^a-zA-Z]/)
-# 3. replace all non-alphabetic characters with spaces
+replaced_string = split_string.gsub(/[^a-zA-Z]/, ' ')
 # 4. combine the result into a string.
 # 5. return the resulting string
