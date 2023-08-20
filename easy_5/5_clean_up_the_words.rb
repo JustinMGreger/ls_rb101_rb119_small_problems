@@ -17,5 +17,12 @@ p cleanup("---what's my +*& line?") == ' what s my line '
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# 1. the cleanup method accepts the string parameter that consists of some words (all lowercased) and an assortment of
+# non-alphabetic characters
+# 2. split the string parameter based on all non-alphabetic characters
+# 3. replace all non-alphabetic characters with spaces
+# 4. combine the result into a string.
+# 5. return the resulting string
+
 and Code.” Implementation of Algorithm:
