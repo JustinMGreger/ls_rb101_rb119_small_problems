@@ -8,7 +8,9 @@
 # Examples:
 cleanup("---what's my +*& line?") == ' what s my line '
 
-Identify expected input: 
+# Identify expected input: 
+# a string that consists of some words (all lowercased) and an assortment of non-alphabetic characters
+
 and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
