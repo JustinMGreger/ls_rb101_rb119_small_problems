@@ -14,7 +14,9 @@ cleanup("---what's my +*& line?") == ' what s my line '
 # the result should never have consecutive spaces
 # output: return a string with all of the non-alphabetic characters replaced by spaces.
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+p cleanup("---what's my +*& line?") == ' what s my line '
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
