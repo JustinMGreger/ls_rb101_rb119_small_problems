@@ -22,7 +22,8 @@ p cleanup("---what's my +*& line?") == ' what s my line '
 and Code.” Implementation of Algorithm:
 
 def cleanup(string_parameter)
-split_string = string_parameter.split(/[^a-zA-Z]/)
-replaced_string = split_string.gsub(/[^a-zA-Z]/, ' ')
-result_string = replaced_string.join
-result_string
+  split_string = string_parameter.split(/[^a-zA-Z]/)
+  replaced_string = split_string.gsub(/[^a-zA-Z]/, ' ')
+  result_string = replaced_string.join
+  result_string
+end
