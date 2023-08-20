@@ -5,9 +5,6 @@
 # If one or more non-alphabetic characters occur in a row,
 # you should only have one space in the result (the result should never have consecutive spaces).
 
-# Examples / Test Cases, Validate understanding of the problem:
-p cleanup("---what's my +*& line?") == ' what s my line '
-
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array.
 
@@ -27,3 +24,6 @@ def cleanup(string_parameter)
   result_string = replaced_string.join
   result_string
 end
+
+# test:
+p cleanup("---what's my +*& line?") == ' what s my line '
