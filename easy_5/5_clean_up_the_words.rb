@@ -6,11 +6,11 @@
 # you should only have one space in the result (the result should never have consecutive spaces).
 
 # my answer:
-def cleanup(string_parameter)
-  replaced_string = string_parameter.gsub(/[^a-zA-Z]/, ' ')
-  result_string = replaced_string.gsub(/\s+/, ' ')
-  result_string
-end
+# def cleanup(string_parameter)
+#   replaced_string = string_parameter.gsub(/[^a-zA-Z]/, ' ')
+#   result_string = replaced_string.gsub(/\s+/, ' ')
+#   result_string
+# end
 
 # test:
 p cleanup("---what's my +*& line?") == ' what s my line '
