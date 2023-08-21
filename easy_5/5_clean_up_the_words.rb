@@ -30,5 +30,10 @@
 #   clean_chars.join
 # end
 
+# LS Solution 2
+# def cleanup(text)
+#   text.gsub(/[^a-z]/, ' ').squeeze(' ')
+# end
+
 # test:
 p cleanup("---what's my +*& line?") == ' what s my line '
