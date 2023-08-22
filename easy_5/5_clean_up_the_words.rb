@@ -8,7 +8,7 @@
 # my answer:
 def cleanup(string_parameter)
   replaced_string = string_parameter.gsub(/[^a-zA-Z]/, ' ')
-  result_string = replaced_string.gsub(/\s+/, ' ')
+  replaced_string.gsub(/\s+/, ' ')
 end
 
 # LS Solution 1
