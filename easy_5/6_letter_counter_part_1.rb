@@ -31,6 +31,7 @@ Words = consist of any string of characters that do not include a space.
 5. assign the symbol key value pairs to a hash data structure.
 6. return this hash data structure.
 
+# my solution:
 Words = consist of any string of characters that do not include a space.
   1. the word_sizes method accepts the string parameter and is defined as the follow:
   2. extract from the string parameter the words.
