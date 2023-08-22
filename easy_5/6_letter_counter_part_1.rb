@@ -16,10 +16,8 @@ WORDS = /\S+/
 
 def word_sizes(string_parameter)
 words_array = string_parameter.scan(WORDS)
+key = words_array.map { |element| element.length }
 
-
-
-  key = word lengths
   value = how many words are that length
   hash = {key: value, key:value}
 end
