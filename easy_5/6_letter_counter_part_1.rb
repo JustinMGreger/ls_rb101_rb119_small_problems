@@ -12,7 +12,7 @@ and returns a hash that shows the number of words of different sizes.
 Hash is a data Structure of keys & values.
 
 # my solution:
-Words = consist of any string of characters that do not include a space.
+WORDS = consist of any string of characters that do not include a space.
 
 def word_sizes(string_parameter)
   key = word lengths
