@@ -20,7 +20,7 @@ key = words_array.group_by { |element| element.length }
 value = key.map { |length, elements| [length, elements.size] }.to_h
 end
 
-  3. determine the length of the words and assign to symbol keys.
+
   4. determine how many words are of each length and assign the integer values to the appropriate symbol keys.
   5. assign the symbol key value pairs to a hash data structure.
   6. return this hash data structure.
