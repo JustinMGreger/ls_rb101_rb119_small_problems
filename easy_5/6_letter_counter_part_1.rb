@@ -16,7 +16,12 @@ def word_sizes(string)
   hash = {key: value, key:value}
 end
 
-Examples / Test Cases, Validate understanding of the problem:
+# test:
+word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 1, 6 => 1 }
+word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 1, 7 => 2 }
+word_sizes("What's up doc?") == { 6 => 1, 2 => 1, 4 => 1 }
+word_sizes('') == {}
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
