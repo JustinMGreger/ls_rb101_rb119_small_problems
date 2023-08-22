@@ -6,7 +6,7 @@
 # Words consist of any string of characters that do not include a space.
 
 # my solution:
-WORDS = /\S+/
+WORDS = /\S+/.freeze
 
 def word_sizes(string_parameter)
 words_array = string_parameter.scan(WORDS)
