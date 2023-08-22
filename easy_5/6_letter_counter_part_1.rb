@@ -17,9 +17,7 @@ WORDS = /\S+/
 def word_sizes(string_parameter)
 words_array = string_parameter.scan(WORDS)
 key = words_array.group_by { |element| element.length }
-
-  value = how many words are that length
-  hash = {key: value, key:value}
+value = key.map { |length, elements| [length, elements.size] }.to_h
 end
 
   3. determine the length of the words and assign to symbol keys.
