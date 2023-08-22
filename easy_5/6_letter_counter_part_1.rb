@@ -6,13 +6,13 @@
 # Words consist of any string of characters that do not include a space.
 
 # my solution:
-WORDS = /\S+/.freeze
+# WORDS = /\S+/.freeze
 
-def word_sizes(string_parameter)
-  words_array = string_parameter.scan(WORDS)
-  key = words_array.group_by(&:length)
-  key.transform_values(&:size)
-end
+# def word_sizes(string_parameter)
+#   words_array = string_parameter.scan(WORDS)
+#   key = words_array.group_by(&:length)
+#   key.transform_values(&:size)
+# end
 
 # test:
 p word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 1, 6 => 1 }
