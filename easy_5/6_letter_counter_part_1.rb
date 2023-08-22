@@ -12,7 +12,7 @@ and returns a hash that shows the number of words of different sizes.
 Hash is a data Structure of keys & values.
 
 # my solution:
-def word_sizes(string)
+def word_sizes(string_parameter)
   key = word lengths
   value = how many words are that length
   hash = {key: value, key:value}
