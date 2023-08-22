@@ -5,12 +5,6 @@
 
 # Words consist of any string of characters that do not include a space.
 
-Mental model of the problem (optional):
-Words = consist of any string of characters that do not include a space.
-Write a method that takes a string with one or more space separated words
-and returns a hash that shows the number of words of different sizes.
-Hash is a data Structure of keys & values.
-
 # my solution:
 WORDS = /\S+/
 
