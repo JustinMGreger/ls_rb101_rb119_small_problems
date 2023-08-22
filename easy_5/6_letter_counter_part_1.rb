@@ -11,8 +11,11 @@ word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 1, 7 
 word_sizes("What's up doc?") == { 6 => 1, 2 => 1, 4 => 1 }
 word_sizes('') == {}
 
-Identify expected input: a string with one or more space separated words
+Identify expected input:
+a string with one or more space separated words
+
 and output:
+return a hash that shows the number of words of different sizes.
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
