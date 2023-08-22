@@ -19,7 +19,6 @@ words_array = string_parameter.scan(WORDS)
 key = words_array.group_by { |element| element.length }
 value = key.map { |length, elements| [length, elements.size] }.to_h
 end
-  6. return this hash data structure.
 
 # test:
 p word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 1, 6 => 1 }
