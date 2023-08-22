@@ -18,6 +18,10 @@ and output:
 return a hash that shows the number of words of different sizes.
 
 Make the requirements explicit Identify rules:
+Words consist of any string of characters that do not include a space.
+Write a method that takes a string with one or more space separated words
+and returns a hash that shows the number of words of different sizes.
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
