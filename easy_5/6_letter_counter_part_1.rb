@@ -11,8 +11,6 @@ word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 1, 7 
 word_sizes("What's up doc?") == { 6 => 1, 2 => 1, 4 => 1 }
 word_sizes('') == {}
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
 and output:
 Make the requirements explicit Identify rules:
