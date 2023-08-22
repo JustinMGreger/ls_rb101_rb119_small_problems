@@ -22,8 +22,5 @@ p word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 1, 
 p word_sizes("What's up doc?") == { 6 => 1, 2 => 1, 4 => 1 }
 p word_sizes('') == {}
 
-Data Structure, How we represent data that we will work with when converting the input to output:
-hash
-
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
