@@ -10,13 +10,14 @@ Words = consist of any string of characters that do not include a space.
 Write a method that takes a string with one or more space separated words
 and returns a hash that shows the number of words of different sizes.
 Hash is a data Structure of keys & values.
+
+# my solution:
 def word_sizes(string)
   key = word lengths
   value = how many words are that length
   hash = {key: value, key:value}
 end
 
-# my solution:
 Words = consist of any string of characters that do not include a space.
   1. the word_sizes method accepts the string parameter and is defined as the follow:
   2. extract from the string parameter the words.
