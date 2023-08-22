@@ -12,13 +12,14 @@ and returns a hash that shows the number of words of different sizes.
 Hash is a data Structure of keys & values.
 
 # my solution:
+Words = consist of any string of characters that do not include a space.
+
 def word_sizes(string_parameter)
   key = word lengths
   value = how many words are that length
   hash = {key: value, key:value}
 end
 
-Words = consist of any string of characters that do not include a space.
   2. extract from the string parameter the words.
   3. determine the length of the words and assign to symbol keys.
   4. determine how many words are of each length and assign the integer values to the appropriate symbol keys.
