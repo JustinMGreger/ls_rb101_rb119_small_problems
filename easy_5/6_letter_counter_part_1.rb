@@ -23,4 +23,12 @@ p word_sizes("What's up doc?") == { 6 => 1, 2 => 1, 4 => 1 }
 p word_sizes('') == {}
 
 Algorithm, Steps for converting input to output:
+Words = consist of any string of characters that do not include a space.
+1. the word_sizes method accepts the string parameter and is defined as the follow:
+2. extract from the string parameter the words.
+3. determine the length of the words and assign to symbol keys.
+4. determine how many words are of each length and assign the integer values to the appropriate symbol keys.
+5. assign the symbol key value pairs to a hash data structure.
+6. return this hash data structure.
+
 and Code.” Implementation of Algorithm:
