@@ -11,7 +11,7 @@ WORDS = /\S+/.freeze
 def word_sizes(string_parameter)
   words_array = string_parameter.scan(WORDS)
   key = words_array.group_by(&:length)
-  value = key.map { |length, elements| [length, elements.size] }.to_h
+  key.map { |length, elements| [length, elements.size] }.to_h
 end
 
 # test:
