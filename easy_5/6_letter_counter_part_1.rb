@@ -15,12 +15,15 @@ Hash is a data Structure of keys & values.
 WORDS = /\S+/
 
 def word_sizes(string_parameter)
+words_array = string_parameter.scan(WORDS)
+
+
+
   key = word lengths
   value = how many words are that length
   hash = {key: value, key:value}
 end
 
-  2. extract from the string parameter the words.
   3. determine the length of the words and assign to symbol keys.
   4. determine how many words are of each length and assign the integer values to the appropriate symbol keys.
   5. assign the symbol key value pairs to a hash data structure.
