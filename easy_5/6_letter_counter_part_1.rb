@@ -19,8 +19,6 @@ words_array = string_parameter.scan(WORDS)
 key = words_array.group_by { |element| element.length }
 value = key.map { |length, elements| [length, elements.size] }.to_h
 end
-
-  5. assign the symbol key value pairs to a hash data structure.
   6. return this hash data structure.
 
 # test:
