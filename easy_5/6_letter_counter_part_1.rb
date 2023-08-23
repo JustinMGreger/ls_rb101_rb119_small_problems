@@ -23,6 +23,10 @@
 #   counts
 # end
 
+# Further Exploration
+
+# Take some time to read about Hash::new to learn about the different ways to initialize a hash with default values.
+
 # test:
 p word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 1, 6 => 1 }
 p word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 1, 7 => 2 }
