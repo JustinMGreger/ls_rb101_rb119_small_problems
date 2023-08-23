@@ -9,8 +9,8 @@ WORDS = /\S+/.freeze
 
 def word_sizes(string_parameter)
   words_array = string_parameter.scan(WORDS)
-  key = words_array.group_by(&:length)
-  key.transform_values(&:size)
+  key = words_array.group_by(&:length) exclude non-letters
+  key.transform_values(&:size) exclude non-letters
 end
 
 # tests:
