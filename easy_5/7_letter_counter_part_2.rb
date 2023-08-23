@@ -9,6 +9,7 @@ WORDS = /\S+/.freeze
 
 def word_sizes(string_parameter)
   words_array = string_parameter.scan(WORDS)
+  words_array.map! { |word| word.gsub(/[^a-zA-Z]/, '') }
   key = words_array.group_by(&:length) exclude non-letters
   key.transform_values(&:size) exclude non-letters
 end
