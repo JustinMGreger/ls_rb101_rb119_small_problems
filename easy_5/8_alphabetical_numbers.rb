@@ -13,9 +13,6 @@ p alphabetic_number_sort((0..19).to_a) == [
 ]
 
 
-
-
-
 the alphabetic_number_sort accepts the ((0..19).to_a) parameter.
 the alphabetic_number_sort method sorts the ((0..19).to_a) parameter based on the English words for each number:
 zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen,
