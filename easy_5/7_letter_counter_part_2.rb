@@ -24,6 +24,11 @@
 #   counts
 # end
 
+# Further Exploration
+
+# If you haven't encountered String#delete before, take a few minutes to read up on it, and its companion String#count
+# (you need to read about #count to get all of the information you need to understand #delete).
+
 # tests:
 p word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 2 }
 p word_sizes('Hey diddle diddle, the cat and the fiddle!') == { 3 => 5, 6 => 3 }
