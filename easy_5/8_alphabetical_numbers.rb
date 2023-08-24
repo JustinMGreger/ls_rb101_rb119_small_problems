@@ -20,6 +20,13 @@ returns an Array of those Integers sorted based on the English words for each nu
 five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
 
 Make the requirements explicit Identify rules:
+1. Write a method.
+2. the method accepts an Array of Integers between 0 and 19 as the parameter.
+3. the method returns an Array of those Integers sorted based on the English words for each number: zero, one, two,
+three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen,
+eighteen, nineteen
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
