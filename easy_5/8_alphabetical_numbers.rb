@@ -13,6 +13,8 @@ alphabetic_number_sort((0..19).to_a) == [
 ]
 
 Identify expected input: 
+an Array of Integers between 0 and 19
+
 and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
