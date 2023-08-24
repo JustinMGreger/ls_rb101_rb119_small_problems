@@ -20,4 +20,11 @@ p alphabetic_number_sort((0..19).to_a) == [
 ]
 
 Algorithm, Steps for converting input to output:
+1. the alphabetic_number_sort accepts the ((0..19).to_a) parameter.
+2. the alphabetic_number_sort method sorts the ((0..19).to_a) parameter based on the English words for each number:
+zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen,
+seventeen, eighteen, nineteen
+3. this sorted information is stored in an Array.
+4. the alphabetic_number_sort method returns the Array
+
 and Code.” Implementation of Algorithm:
