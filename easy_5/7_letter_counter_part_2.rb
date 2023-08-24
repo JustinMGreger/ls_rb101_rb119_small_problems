@@ -5,14 +5,14 @@
 
 # my solution:
 
-WORDS = /\S+/.freeze
+# WORDS = /\S+/.freeze
 
-def word_sizes(string_parameter)
-  words_array = string_parameter.scan(WORDS)
-  words_array.map! { |word| word.gsub(/[^a-zA-Z]/, '') }
-  word_length_count = words_array.group_by(&:length)
-  word_length_count.transform_values(&:size)
-end
+# def word_sizes(string_parameter)
+#   words_array = string_parameter.scan(WORDS)
+#   words_array.map! { |word| word.gsub(/[^a-zA-Z]/, '') }
+#   word_length_count = words_array.group_by(&:length)
+#   word_length_count.transform_values(&:size)
+# end
 
 # tests:
 p word_sizes('Four score and seven.') == { 3 => 1, 4 => 1, 5 => 2 }
