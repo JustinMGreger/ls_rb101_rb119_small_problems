@@ -19,6 +19,5 @@ p alphabetic_number_sort((0..19).to_a) == [
   6, 16, 10, 13, 3, 12, 2, 0
 ]
 
-Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
