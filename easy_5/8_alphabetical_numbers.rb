@@ -16,6 +16,9 @@ Identify expected input:
 an Array of Integers between 0 and 19
 
 and output:
+returns an Array of those Integers sorted based on the English words for each number: zero, one, two, three, four,
+five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
