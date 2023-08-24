@@ -12,13 +12,6 @@ alphabetic_number_sort((0..19).to_a) == [
   6, 16, 10, 13, 3, 12, 2, 0
 ]
 
-Identify expected input: 
-an Array of Integers between 0 and 19
-
-and output:
-returns an Array of those Integers sorted based on the English words for each number: zero, one, two, three, four,
-five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
-
 
 Mental model of the problem (optional):
 1. Write a method.
