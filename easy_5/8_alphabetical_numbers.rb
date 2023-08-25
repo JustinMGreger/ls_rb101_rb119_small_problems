@@ -10,7 +10,7 @@
 def alphabetic_number_sort(numbers)
   number_words = %w(zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen)
   numbers.sort_by { |num| number_words[num] }
-
+end
 
 # tests:
 p alphabetic_number_sort((0..19).to_a) == [
