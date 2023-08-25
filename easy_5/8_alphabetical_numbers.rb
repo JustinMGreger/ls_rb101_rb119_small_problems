@@ -28,6 +28,8 @@
 # Further Exploration
 
 # Why do you think we didn't use Array#sort_by! instead of Enumerable#sort_by?
+# my answer:
+# a desire to not permanently modify the original array.
 
 # For an extra challenge, rewrite your method to use Enumerable#sort (unless you already did so).
 
