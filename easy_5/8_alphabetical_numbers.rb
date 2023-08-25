@@ -15,6 +15,16 @@
 #   numbers.sort_by { |num| number_words[num] }
 # end
 
+# LS solution:
+# NUMBER_WORDS = %w(zero one two three four
+#                   five six seven eight nine
+#                   ten eleven twelve thirteen fourteen
+#                   fifteen sixteen seventeen eighteen nineteen)
+
+# def alphabetic_number_sort(numbers)
+#   numbers.sort_by { |number| NUMBER_WORDS[number] }
+# end
+
 # tests:
 p alphabetic_number_sort((0..19).to_a) == [
   8, 18, 11, 15, 5, 4, 14, 9, 19, 1, 7, 17,
