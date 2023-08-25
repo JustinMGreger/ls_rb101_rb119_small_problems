@@ -32,6 +32,15 @@
 # a desire to not permanently modify the original array.
 
 # For an extra challenge, rewrite your method to use Enumerable#sort (unless you already did so).
+# my solution:
+def alphabetic_number_sort(numbers)
+  number_words = %w[
+    zero one two three four five six seven eight nine ten eleven twelve thirteen
+    fourteen fifteen sixteen seventeen eighteen nineteen
+  ]
+
+  numbers.sort { |a, b| number_words[a] <=> number_words[b] }
+end
 
 # tests:
 p alphabetic_number_sort((0..19).to_a) == [
