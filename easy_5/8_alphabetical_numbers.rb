@@ -25,6 +25,12 @@
 #   numbers.sort_by { |number| NUMBER_WORDS[number] }
 # end
 
+# Further Exploration
+
+# Why do you think we didn't use Array#sort_by! instead of Enumerable#sort_by?
+
+# For an extra challenge, rewrite your method to use Enumerable#sort (unless you already did so).
+
 # tests:
 p alphabetic_number_sort((0..19).to_a) == [
   8, 18, 11, 15, 5, 4, 14, 9, 19, 1, 7, 17,
