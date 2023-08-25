@@ -7,7 +7,7 @@
 # fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
 
 # my solution:
-def alphabetic_number_sort((0..19).to_a)
+def alphabetic_number_sort(numbers)
 (zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen)
 this sorted information is stored in an Array.
 the alphabetic_number_sort method returns the Array
