@@ -11,11 +11,6 @@ crunch('ggggggggggggggg') == 'g'
 crunch('a') == 'a'
 crunch('') == ''
 
-Identify expected input: 
-a string argument
-
-
-
 Make the requirements explicit Identify rules:
 1. Write a method that takes a string argument.
 2. The method returns a new string that contains the value of the original string with all consecutive duplicate
