@@ -11,8 +11,9 @@ crunch('ggggggggggggggg') == 'g'
 crunch('a') == 'a'
 crunch('') == ''
 
-
 Identify expected input: 
+a string argument
+
 and output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
