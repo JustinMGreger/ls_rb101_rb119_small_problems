@@ -16,7 +16,6 @@ Mental model of the problem (optional):
 crunch('')
 2. The method returns a new string that contains the value of the original string with all consecutive duplicate
 characters collapsed into a single character.
-3. 
 
 
 Examples / Test Cases, Validate understanding of the problem:
