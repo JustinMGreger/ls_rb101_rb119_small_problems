@@ -19,11 +19,11 @@ collapsed into a single character.
 end
 
 # test:
-crunch('ddaaiillyy ddoouubbllee') == 'daily double'
-crunch('4444abcabccba') == '4abcabcba'
-crunch('ggggggggggggggg') == 'g'
-crunch('a') == 'a'
-crunch('') == ''
+p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
+p crunch('4444abcabccba') == '4abcabcba'
+p crunch('ggggggggggggggg') == 'g'
+p crunch('a') == 'a'
+p crunch('') == ''
 
 
 Data Structure, How we represent data that we will work with when converting the input to output:
