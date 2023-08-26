@@ -18,11 +18,12 @@ characters collapsed into a single character.
 3. You may not use String#squeeze or String#squeeze!.
 
 Mental model of the problem (optional):
+* You may not use String#squeeze or String#squeeze!.
 crunch('')
 1. Write a method that takes a string argument.
 2. The method returns a new string that contains the value of the original string with all consecutive duplicate
 characters collapsed into a single character.
-3. You may not use String#squeeze or String#squeeze!.
+3. 
 
 
 Examples / Test Cases, Validate understanding of the problem:
