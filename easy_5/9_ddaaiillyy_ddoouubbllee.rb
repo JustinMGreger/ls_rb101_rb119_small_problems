@@ -19,6 +19,13 @@ collapsed into a single character.
 end
 
 Examples / Test Cases, Validate understanding of the problem:
+crunch('ddaaiillyy ddoouubbllee') == 'daily double'
+crunch('4444abcabccba') == '4abcabcba'
+crunch('ggggggggggggggg') == 'g'
+crunch('a') == 'a'
+crunch('') == ''
+
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
