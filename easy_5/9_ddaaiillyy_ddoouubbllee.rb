@@ -14,7 +14,10 @@ crunch('') == ''
 Identify expected input: 
 a string argument
 
-and output:
+output:
+a new string that contains the value of the original string with all consecutive duplicate characters collapsed
+into a single character.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
