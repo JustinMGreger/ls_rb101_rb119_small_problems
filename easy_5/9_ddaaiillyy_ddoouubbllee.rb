@@ -13,10 +13,10 @@ crunch('') == ''
 
 Mental model of the problem (optional):
 * You may not use String#squeeze or String#squeeze!.
-crunch('')
-2. The method returns a new string that contains the value of the original string with all consecutive duplicate
-characters collapsed into a single character.
-
+def crunch('')
+returns a new string that contains the value of the original string with all consecutive duplicate characters
+collapsed into a single character.
+end
 
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
