@@ -11,8 +11,6 @@ crunch('ggggggggggggggg') == 'g'
 crunch('a') == 'a'
 crunch('') == ''
 
-
-
 Mental model of the problem (optional):
 * You may not use String#squeeze or String#squeeze!.
 crunch('')
