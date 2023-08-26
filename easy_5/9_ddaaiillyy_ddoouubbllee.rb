@@ -18,7 +18,7 @@ returns a new string that contains the value of the original string with all con
 collapsed into a single character.
 end
 
-Examples / Test Cases, Validate understanding of the problem:
+# test:
 crunch('ddaaiillyy ddoouubbllee') == 'daily double'
 crunch('4444abcabccba') == '4abcabcba'
 crunch('ggggggggggggggg') == 'g'
