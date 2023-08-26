@@ -14,9 +14,7 @@ crunch('') == ''
 Identify expected input: 
 a string argument
 
-output:
-a new string that contains the value of the original string with all consecutive duplicate characters collapsed
-into a single character.
+
 
 Make the requirements explicit Identify rules:
 1. Write a method that takes a string argument.
