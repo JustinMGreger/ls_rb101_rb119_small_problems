@@ -19,6 +19,11 @@ a new string that contains the value of the original string with all consecutive
 into a single character.
 
 Make the requirements explicit Identify rules:
+1. Write a method that takes a string argument.
+2. The method returns a new string that contains the value of the original string with all consecutive duplicate
+characters collapsed into a single character.
+3. You may not use String#squeeze or String#squeeze!.
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
