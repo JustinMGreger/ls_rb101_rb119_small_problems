@@ -9,7 +9,7 @@ def crunch(string_parameter)
   return string_parameter if string_parameter.empty?
 
   new_string = [string_parameter[0]]
-  for i in range(1, len(string_parameter)):
+  (1...string_parameter.length).each do |i|
 
     if string_parameter[i] != string_parameter[i - 1]:
       new_string.append(string_parameter[i])
