@@ -14,7 +14,7 @@ def crunch(string_parameter)
     new_string << string_parameter[i] if string_parameter[i] != string_parameter[i - 1]
   end
 
-      return ''.join(new_string)
+  new_string.join
 end
 
 # test:
