@@ -6,8 +6,7 @@
 
 # my solution:
 def crunch(string_parameter)
-  if not string_parameter:
-    return string_parameter
+  return string_parameter if string_parameter.empty?
 
   new_string = [string_parameter[0]]
   for i in range(1, len(string_parameter)):
