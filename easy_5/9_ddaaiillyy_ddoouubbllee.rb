@@ -10,8 +10,6 @@ def crunch('string_parameter')
 new_string = the value of the original string with all consecutive duplicate characters collapsed into a single character.
 end
 
-
-
 and Code.” Implementation of Algorithm:
 
 # test:
