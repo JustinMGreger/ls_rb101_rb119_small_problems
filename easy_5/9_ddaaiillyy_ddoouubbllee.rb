@@ -11,8 +11,8 @@ def crunch(string_parameter)
   new_string = [string_parameter[0]]
   (1...string_parameter.length).each do |i|
 
-    if string_parameter[i] != string_parameter[i - 1]:
-      new_string.append(string_parameter[i])
+    new_string << string_parameter[i] if string_parameter[i] != string_parameter[i - 1]
+  end
 
       return ''.join(new_string)
 end
