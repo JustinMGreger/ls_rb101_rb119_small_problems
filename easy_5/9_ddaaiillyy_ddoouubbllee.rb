@@ -7,7 +7,7 @@
 # my solution:
 * You may not use String#squeeze or String#squeeze!.
 def crunch('string_parameter')
-new_string = the value of the original string with all consecutive duplicate characters collapsed into a single character.
+new_string = string_parameter with all consecutive duplicate characters collapsed into a single character.
 end
 
 # test:
