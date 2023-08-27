@@ -11,13 +11,6 @@ crunch('ggggggggggggggg') == 'g'
 crunch('a') == 'a'
 crunch('') == ''
 
-Mental model of the problem (optional):
-* You may not use String#squeeze or String#squeeze!.
-def crunch('')
-returns a new string that contains the value of the original string with all consecutive duplicate characters
-collapsed into a single character.
-end
-
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
 p crunch('4444abcabccba') == '4abcabcba'
