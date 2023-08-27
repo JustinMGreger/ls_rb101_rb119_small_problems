@@ -10,7 +10,8 @@ def crunch(string_parameter)
   if not string_parameter:
     return string_parameter
 
-new_string = [string_parameter[0]]
+  new_string = [string_parameter[0]]
+  for i in range(1, len(string_parameter)):
 end
 
 # test:
