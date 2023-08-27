@@ -6,7 +6,8 @@
 
 # my solution:
 * You may not use String#squeeze or String#squeeze!.
-def crunch('string_parameter')
+def crunch(string_parameter)
+  if not string_
 new_string = string_parameter with all consecutive duplicate characters collapsed into a single character.
 end
 
