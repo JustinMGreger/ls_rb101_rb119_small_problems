@@ -10,7 +10,7 @@ def crunch(string_parameter)
   if not string_parameter:
     return string_parameter
 
-new_string = [string_parameter[0]] with all consecutive duplicate characters collapsed into a single character.
+new_string = [string_parameter[0]]
 end
 
 # test:
