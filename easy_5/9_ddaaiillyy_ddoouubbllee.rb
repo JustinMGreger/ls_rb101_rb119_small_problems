@@ -5,16 +5,16 @@
 # You may not use String#squeeze or String#squeeze!.
 
 # my solution:
-def crunch(string_parameter)
-  return string_parameter if string_parameter.empty?
+# def crunch(string_parameter)
+#   return string_parameter if string_parameter.empty?
 
-  new_string = [string_parameter[0]]
-  (1...string_parameter.length).each do |i|
-    new_string << string_parameter[i] if string_parameter[i] != string_parameter[i - 1]
-  end
+#   new_string = [string_parameter[0]]
+#   (1...string_parameter.length).each do |i|
+#     new_string << string_parameter[i] if string_parameter[i] != string_parameter[i - 1]
+#   end
 
-  new_string.join
-end
+#   new_string.join
+# end
 
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
