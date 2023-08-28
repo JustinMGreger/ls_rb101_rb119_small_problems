@@ -27,6 +27,16 @@
 #   crunch_text
 # end
 
+# Further Exploration
+
+You may have noticed that we continue iterating until index points past the end of the string. As a result, on the last iteration text[index] is the last character in text, while text[index + 1] is nil. Why do we do this? What happens if we stop iterating when index is equal to text.length?
+
+Can you determine why we didn't use String#each_char or String#chars to iterate through the string? How would you update this method to use String#each_char or String#chars?
+
+You can solve this problem using regular expressions (see the Regexp class documentation). For a fun challenge, give this a try with regular expressions. If you haven't already read our book, Introduction to Regular Expressions, you may want to keep it handy if you try this challenge.
+
+Can you think of other solutions besides regular expressions?
+
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
 p crunch('4444abcabccba') == '4abcabcba'
