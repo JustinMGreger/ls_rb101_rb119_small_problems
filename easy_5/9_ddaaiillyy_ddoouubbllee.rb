@@ -67,6 +67,21 @@
 #   crunch_text
 # end
 
+# String#chars solution:
+# def crunch(text)
+#   previous_char = nil
+#   crunch_text = ''.dup
+
+#   text.chars.each do |char|
+#     unless char == previous_char
+#       crunch_text << char
+#       previous_char = char
+#     end
+#   end
+
+#   crunch_text
+# end
+
 # You can solve this problem using regular expressions (see the Regexp class documentation).
 # For a fun challenge, give this a try with regular expressions.
 # If you haven't already read our book, Introduction to Regular Expressions,
