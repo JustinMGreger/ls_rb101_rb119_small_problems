@@ -46,6 +46,10 @@
 # character.
 
 # Can you determine why we didn't use String#each_char or String#chars to iterate through the string?
+# answer:
+# would be limited to working with the current character in the string instead of indexes.
+# indexes can be faster.
+# using indexes are easier to understand.
 
 How would you update this method to use String#each_char or String#chars?
 
