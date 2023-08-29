@@ -55,7 +55,7 @@
 # String#each_char solution:
 # def crunch(text)
 #   previous_char = nil
-#   crunch_text = ''
+#   crunch_text = ''.dup
 
 #   text.each_char do |char|
 #     unless char == previous_char
