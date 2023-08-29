@@ -38,9 +38,16 @@
 
 # What happens if we stop iterating when index is equal to text.length?
 # answer:
+# the loop would not process the last string.
+# the string index starts at 0.
+# the string has a length of n.
+# which means the index of its characters range from 0 to n-1.
+# stopping when index == text.length means the loop will not include the iteration for index = n-1 which is the last
+# character.
 
+# Can you determine why we didn't use String#each_char or String#chars to iterate through the string?
 
-Can you determine why we didn't use String#each_char or String#chars to iterate through the string? How would you update this method to use String#each_char or String#chars?
+How would you update this method to use String#each_char or String#chars?
 
 You can solve this problem using regular expressions (see the Regexp class documentation). For a fun challenge, give this a try with regular expressions. If you haven't already read our book, Introduction to Regular Expressions, you may want to keep it handy if you try this challenge.
 
