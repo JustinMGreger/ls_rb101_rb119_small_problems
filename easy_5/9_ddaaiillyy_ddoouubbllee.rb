@@ -52,7 +52,7 @@
 # using indexes are easier to understand.
 
 # How would you update this method to use String#each_char or String#chars?
-# answer:
+# String#each_char solution:
 def crunch(text)
   previous_char = nil
   crunch_text = ''
