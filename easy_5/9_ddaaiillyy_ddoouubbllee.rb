@@ -35,7 +35,7 @@
 # Why do we do this?
 # to ensure that every character in the string is processed including the last character.
 
-What happens if we stop iterating when index is equal to text.length?
+# What happens if we stop iterating when index is equal to text.length?
 
 Can you determine why we didn't use String#each_char or String#chars to iterate through the string? How would you update this method to use String#each_char or String#chars?
 
