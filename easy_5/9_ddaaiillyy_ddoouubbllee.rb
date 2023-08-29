@@ -53,19 +53,19 @@
 
 # How would you update this method to use String#each_char or String#chars?
 # String#each_char solution:
-def crunch(text)
-  previous_char = nil
-  crunch_text = ''
+# def crunch(text)
+#   previous_char = nil
+#   crunch_text = ''
 
-  text.each_char do |char|
-    unless char == previous_char
-      crunch_text << char
-      previous_char = char
-    end
-  end
+#   text.each_char do |char|
+#     unless char == previous_char
+#       crunch_text << char
+#       previous_char = char
+#     end
+#   end
 
-  crunch_text
-end
+#   crunch_text
+# end
 
 # You can solve this problem using regular expressions (see the Regexp class documentation).
 # For a fun challenge, give this a try with regular expressions.
