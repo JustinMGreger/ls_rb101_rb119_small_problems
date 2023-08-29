@@ -54,9 +54,12 @@
 # How would you update this method to use String#each_char or String#chars?
 # answer:
 
-You can solve this problem using regular expressions (see the Regexp class documentation). For a fun challenge, give this a try with regular expressions. If you haven't already read our book, Introduction to Regular Expressions, you may want to keep it handy if you try this challenge.
+# You can solve this problem using regular expressions (see the Regexp class documentation).
+# For a fun challenge, give this a try with regular expressions.
+# If you haven't already read our book, Introduction to Regular Expressions,
+# you may want to keep it handy if you try this challenge.
 
-Can you think of other solutions besides regular expressions?
+# Can you think of other solutions besides regular expressions?
 
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
