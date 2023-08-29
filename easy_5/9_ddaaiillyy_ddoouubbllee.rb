@@ -33,6 +33,7 @@
 # As a result, on the last iteration text[index] is the last character in text,
 # while text[index + 1] is nil.
 # Why do we do this?
+# answer:
 # to ensure that every character in the string is processed including the last character.
 
 # What happens if we stop iterating when index is equal to text.length?
