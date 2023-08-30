@@ -93,6 +93,8 @@
 # end
 
 # Can you think of other solutions besides regular expressions?
+# answer:
+# yes
 
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
