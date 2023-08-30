@@ -97,9 +97,9 @@
 # yes
 
 # Enumerable#chunk solution:
-def crunch(string)
-  string.chars.chunk { |char| char }.map(&:first).join
-end
+# def crunch(string)
+#   string.chars.chunk { |char| char }.map(&:first).join
+# end
 
 # test:
 p crunch('ddaaiillyy ddoouubbllee') == 'daily double'
