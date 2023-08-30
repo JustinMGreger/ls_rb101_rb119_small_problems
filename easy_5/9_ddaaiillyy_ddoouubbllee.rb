@@ -87,6 +87,11 @@
 # If you haven't already read our book, Introduction to Regular Expressions,
 # you may want to keep it handy if you try this challenge.
 
+# Regular Expressions solution:
+# def crunch(str)
+#   str.gsub(/(.)\1+/, '\1')
+# end
+
 # Can you think of other solutions besides regular expressions?
 
 # test:
