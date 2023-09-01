@@ -8,6 +8,15 @@
 # end
 
 # LS Brute force solution:
+# def digit_list(number)
+#   digits = []
+#   loop do
+#     number, remainder = number.divmod(10)
+#     digits.unshift(remainder)
+#     break if number == 0
+#   end
+#   digits
+# end
 
 # tests:
 puts digit_list(12_345) == [1, 2, 3, 4, 5] # => true
