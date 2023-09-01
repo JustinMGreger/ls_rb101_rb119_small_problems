@@ -2,11 +2,6 @@
 
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
-
-
-Data Structure, How we represent data that we will work with when converting the input to output:
-array
-
 Algorithm, Steps for converting input to output:
 def digit_list(positive_integer)
   and returns a list of the digits in the number.
