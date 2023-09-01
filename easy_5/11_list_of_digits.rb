@@ -3,12 +3,18 @@
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
 Algorithm, Steps for converting input to output:
+the digit_list method accepts the positive_integer
+the digit_list splits the positive_integer into an array of elements.
+the elements are turned into integer
+the array is returned
+
 def digit_list(positive_integer)
   and returns a list of the digits in the number.
 end
 
 
 and Code.” Implementation of Algorithm:
+
 
 # tests:
 puts digit_list(12345) == [1, 2, 3, 4, 5]     # => true
