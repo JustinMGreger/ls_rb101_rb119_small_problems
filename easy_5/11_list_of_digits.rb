@@ -7,7 +7,6 @@ def digit_list(positive_integer)
   and returns a list of the digits in the number.
 end
 
-Examples / Test Cases, Validate understanding of the problem:
 # tests:
 puts digit_list(12345) == [1, 2, 3, 4, 5]     # => true
 puts digit_list(7) == [7]                     # => true
