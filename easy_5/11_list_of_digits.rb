@@ -6,8 +6,6 @@
 def digit_list(positive_integer)
   input = gets.chomp
   numbers = input.split.map(&:to_i)
-  the array is returned
-  and returns a list of the digits in the number.
 end
 
 
