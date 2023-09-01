@@ -10,9 +10,8 @@ puts digit_list(444) == [4, 4, 4]             # => true
 
 Mental model of the problem (optional):
 def digit_list(positive_integer)
-
-and returns a list of the digits in the number.
-
+  and returns a list of the digits in the number.
+end
 
 
 
