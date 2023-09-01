@@ -7,7 +7,7 @@
 #   positive_integer.to_s.chars.map(&:to_i)
 # end
 
-# LS solution:
+# LS Brute force solution:
 
 # tests:
 puts digit_list(12_345) == [1, 2, 3, 4, 5] # => true
