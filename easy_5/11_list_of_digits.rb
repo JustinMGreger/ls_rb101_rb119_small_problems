@@ -3,11 +3,12 @@
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
 and Code.” Implementation of Algorithm:
-the digit_list splits the positive_integer into an array of elements.
-the elements are turned into integer
-the array is returned
+
 
 def digit_list(positive_integer)
+  the digit_list splits the positive_integer into an array of elements.
+  the elements are turned into integer
+  the array is returned
   and returns a list of the digits in the number.
 end
 
