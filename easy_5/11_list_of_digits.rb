@@ -8,8 +8,7 @@ p puts digit_list(7) == [7]                     # => true
 p puts digit_list(375290) == [3, 7, 5, 2, 9, 0] # => true
 p puts digit_list(444) == [4, 4, 4]             # => true
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem, 
+
 Identify expected input: 
 output:
 Make the requirements explicit Identify rules:
