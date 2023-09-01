@@ -8,9 +8,11 @@ p puts digit_list(7) == [7]                     # => true
 p puts digit_list(375290) == [3, 7, 5, 2, 9, 0] # => true
 p puts digit_list(444) == [4, 4, 4]             # => true
 
-
 Identify expected input: 
+a positive integer.
+
 output:
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
