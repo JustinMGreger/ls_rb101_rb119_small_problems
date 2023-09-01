@@ -12,6 +12,7 @@ Identify expected input:
 a positive integer.
 
 output:
+a list of the digits in the number.
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
