@@ -3,8 +3,7 @@
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
 def digit_list(positive_integer)
-  input = gets.chomp
-  numbers = input.split.map(&:to_i)
+  positive_integer.split.map(&:to_i)
 end
 
 # tests:
