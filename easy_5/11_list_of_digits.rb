@@ -2,8 +2,6 @@
 
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
-and Code.” Implementation of Algorithm:
-
 
 def digit_list(positive_integer)
   the digit_list splits the positive_integer into an array of elements.
