@@ -2,6 +2,7 @@
 
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
+# my solution:
 def digit_list(positive_integer)
   positive_integer.to_s.chars.map(&:to_i)
 end
