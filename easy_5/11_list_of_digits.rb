@@ -10,12 +10,11 @@ puts digit_list(444) == [4, 4, 4]             # => true
 
 
 
-Make the requirements explicit Identify rules:
+
+Mental model of the problem (optional):
 digit_list (one argument, a positive integer)
 and returns a list of the digits in the number.
 
-
-Mental model of the problem (optional):
 
 
 
