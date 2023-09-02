@@ -21,6 +21,7 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
 
 # You may use this constant to represent the degree symbol:
+# DEGREE = "\xC2\xB0"
 
 
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
