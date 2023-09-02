@@ -24,6 +24,8 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # DEGREE = "\xC2\xB0"
 
 Identify expected input: 
+a floating point number that represents an angle between 0 and 360 degrees
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
