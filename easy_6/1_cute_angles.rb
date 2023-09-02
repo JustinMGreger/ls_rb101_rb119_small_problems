@@ -23,7 +23,6 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # You may use this constant to represent the degree symbol:
 # DEGREE = "\xC2\xB0"
 
-
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
