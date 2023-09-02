@@ -27,6 +27,8 @@ Identify expected input:
 a floating point number that represents an angle between 0 and 360 degrees
 
 output:
+a String that represents that angle in (°) degrees, (') minutes and (") seconds.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
