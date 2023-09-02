@@ -15,6 +15,14 @@ p dms(93.034773) == %(93°02'05")
 p dms(0) == %(0°00'00")
 p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 
+# Note: your results may differ slightly depending on how you round values,
+# but should be within a second or two of the results shown.
+
+# You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
+
+# You may use this constant to represent the degree symbol:
+
+
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
