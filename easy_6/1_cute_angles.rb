@@ -31,7 +31,7 @@ a String that represents that angle in (°) degrees, (') minutes and (") seconds
 
 Make the requirements explicit Identify rules:
 Write a method that takes a floating point number that represents an angle between 0 and 360 degrees
-and returns a String that represents that angle in degrees, minutes and seconds.
+and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
 You should use a degree symbol (°) to represent degrees,
 a single quote (') to represent minutes,
 and a double quote (") to represent seconds.
