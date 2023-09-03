@@ -23,12 +23,6 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # You may use this constant to represent the degree symbol:
 # DEGREE = "\xC2\xB0"
 
-Identify expected input: 
-a floating point number that represents an angle between 0 and 360 degrees
-
-output:
-a String that represents that angle in (°) degrees, (') minutes and (") seconds.
-
 Make the requirements explicit Identify rules:
 Write a method that takes a floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
@@ -38,8 +32,6 @@ but should be within a second or two of the results shown.
 You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
 You may use this constant to represent the degree symbol:
 DEGREE = "\xC2\xB0"
-
-
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
