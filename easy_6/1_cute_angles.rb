@@ -23,7 +23,7 @@ def dms(floating_point)
   degrees, remainder = floating_point.divmod(1.0)
   minutes, seconds = (remainder * 60).divmod(1.0)
   seconds = (seconds * 60).round
-  
+
   if seconds == 60
     seconds = 0
     minutes += 1
@@ -33,8 +33,8 @@ def dms(floating_point)
     minutes = 0
     degrees += 1
   end
-
-  %(#{degrees}DEGREE#{minutes}MINUTES#{seconds}SECONDS)
+  
+  "#{degrees.floor}#{DEGREE}#{minutes.floor.to_s.rjust(2, '0')}#{MINUTES}#{seconds.to_s.rjust(2, '0')}#{SECONDS}"
 end
 
 # tests:
