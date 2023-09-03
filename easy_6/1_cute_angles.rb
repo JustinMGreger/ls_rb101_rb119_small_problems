@@ -25,6 +25,8 @@ def dms(floating_point)
   seconds = (seconds * 60).round
 end
 
+private
+
 def decompose_angle(floating_point)
   degrees, remainder = floating_point.divmod(1.0)
   minutes, seconds = (remainder * 60).divmod(1.0)
