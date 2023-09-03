@@ -28,10 +28,10 @@ MINUTES = "\x27"
 SECONDS = "\x22"
 
 def dms(floating_point)
-  degrees, minutes = floating_point.divmod(1.0)
+  degrees, remainder = floating_point.divmod(1.0)
+  minutes, degrees = remainder.divmod(60)
 
 
-  
 end
 floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
