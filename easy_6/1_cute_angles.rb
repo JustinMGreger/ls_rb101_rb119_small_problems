@@ -23,14 +23,20 @@ def dms(floating_point)
   degrees, remainder = floating_point.divmod(1.0)
   minutes, seconds = (remainder * 60).divmod(1.0)
   seconds = (seconds * 60).round
+end
+
+def adjust_for_overflow(degrees, minutes, seconds)
   if seconds == 60
     seconds = 0
     minutes += 1
   end
+
   if minutes == 60
     minutes = 0
     degrees += 1
   end
+
+  [degrees, minutes, seconds]
 end
 
 def format_angle(degrees, minutes, seconds)
