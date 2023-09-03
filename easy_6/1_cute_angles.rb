@@ -16,10 +16,7 @@
 # DEGREE = "\xC2\xB0"
 
 and Code.” Implementation of Algorithm:
-3. the float portion of the floating_point parameter is divided by 60.
-4. the quotient of that division is assigned the minutes variable.
-5. the remainder of the division is divided by 60.
-6. the quotient of this division is assigned to the seconds variable.
+
 7. the degrees, minutes and seconds variables are string interpolated.
 
 DEGREE = "\xC2\xB0"
