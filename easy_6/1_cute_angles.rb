@@ -20,10 +20,16 @@ MINUTES = "\x27"
 SECONDS = "\x22"
 
 def dms(floating_point)
-
   degrees, remainder = floating_point.divmod(1.0)
   minutes, seconds = (remainder * 60).divmod(1.0)
   seconds = (seconds * 60).round
+  if seconds == 60
+    seconds = 0
+    minutes += 1
+  end
+
+
+
   %(#{degrees}DEGREE#{minutes}MINUTES#{seconds}SECONDS)
 end
 
