@@ -39,5 +39,7 @@ Algorithm, Steps for converting input to output:
 2. the floating_point parameter has the whole integer assigned to the degrees variable.
 3. the float portion of the floating_point parameter is divided by 60.
 4. the quotient of that division is assigned the minutes variable.
+5. the remainder of the division is divided by 60.
+6. the quotient of this division is assigned to the seconds variable.
 
 and Code.” Implementation of Algorithm:
