@@ -23,8 +23,8 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # You may use this constant to represent the degree symbol:
 # DEGREE = "\xC2\xB0"
 
-Make the requirements explicit Identify rules:
-
+menta model:
+dms(floating_point)
 Write a method that takes a floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
 A degree has 60 minutes, while a minute has 60 seconds.
