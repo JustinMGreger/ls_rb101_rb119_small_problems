@@ -35,4 +35,9 @@ p dms(0) == %(0°00'00")
 p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 
 Algorithm, Steps for converting input to output:
+1. the dms method accepts the floating_point parameter.
+2. the floating_point parameter has the whole integer assigned to the degrees variable.
+3. the float portion of the floating_point parameter is divided by 60.
+4. the quotient of that division is assigned the minutes variable.
+
 and Code.” Implementation of Algorithm:
