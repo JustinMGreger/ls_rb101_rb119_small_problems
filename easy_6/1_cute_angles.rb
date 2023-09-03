@@ -25,6 +25,7 @@ and Code.” Implementation of Algorithm:
 
 DEGREE = "\xC2\xB0"
 MINUTES = "\x27"
+SECONDS = "\x22"
 
 def dms(floating_point)
 end
