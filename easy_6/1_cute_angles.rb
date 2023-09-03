@@ -20,9 +20,8 @@ MINUTES = "\x27"
 SECONDS = "\x22"
 
 def dms(floating_point)
-  degrees, remainder = floating_point.divmod(1.0)
-  minutes, seconds = (remainder * 60).divmod(1.0)
-  seconds = (seconds * 60).round
+  degrees, minutes, seconds = decompose_angle(floating_point)
+  format_angle(degrees, minutes, seconds)
 end
 
 private
