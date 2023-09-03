@@ -15,7 +15,15 @@
 # You may use this constant to represent the degree symbol:
 # DEGREE = "\xC2\xB0"
 
-menta model:
+and Code.” Implementation of Algorithm:
+1. the dms method accepts the floating_point parameter.
+2. the floating_point parameter has the whole integer assigned to the degrees variable.
+3. the float portion of the floating_point parameter is divided by 60.
+4. the quotient of that division is assigned the minutes variable.
+5. the remainder of the division is divided by 60.
+6. the quotient of this division is assigned to the seconds variable.
+7. the degrees, minutes and seconds variables are string interpolated.
+
 DEGREE = "\xC2\xB0"
 def dms(floating_point)
 end
@@ -25,15 +33,6 @@ A degree has 60 minutes, while a minute has 60 seconds.
 Note: your results may differ slightly depending on how you round values,
 but should be within a second or two of the results shown.
 You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
-
-and Code.” Implementation of Algorithm:
-1. the dms method accepts the floating_point parameter.
-2. the floating_point parameter has the whole integer assigned to the degrees variable.
-3. the float portion of the floating_point parameter is divided by 60.
-4. the quotient of that division is assigned the minutes variable.
-5. the remainder of the division is divided by 60.
-6. the quotient of this division is assigned to the seconds variable.
-7. the degrees, minutes and seconds variables are string interpolated.
 
 # tests:
 p dms(30) == %(30°00'00")
