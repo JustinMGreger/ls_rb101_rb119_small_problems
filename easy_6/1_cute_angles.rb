@@ -26,8 +26,7 @@ def dms(floating_point)
   seconds = remainder_three * 60
   %(#{degrees}DEGREE#{minutes}MINUTES#{seconds}SECONDS)
 end
-floating point number that represents an angle between 0 and 360 degrees
-and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
+
 A degree has 60 minutes, while a minute has 60 seconds.
 Note: your results may differ slightly depending on how you round values,
 but should be within a second or two of the results shown.
