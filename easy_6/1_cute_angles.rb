@@ -24,6 +24,8 @@ and Code.” Implementation of Algorithm:
 7. the degrees, minutes and seconds variables are string interpolated.
 
 DEGREE = "\xC2\xB0"
+MINUTES = "\x27"
+
 def dms(floating_point)
 end
 floating point number that represents an angle between 0 and 360 degrees
