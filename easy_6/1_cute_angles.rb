@@ -16,7 +16,6 @@
 # DEGREE = "\xC2\xB0"
 
 and Code.” Implementation of Algorithm:
-2. the floating_point parameter has the whole integer assigned to the degrees variable.
 3. the float portion of the floating_point parameter is divided by 60.
 4. the quotient of that division is assigned the minutes variable.
 5. the remainder of the division is divided by 60.
@@ -32,6 +31,7 @@ def dms(floating_point)
   remainder_two, remainder_three = remainder.divmod(1.0)
   minutes = remainder_two * 60
   seconds = remainder_three * 60
+
 end
 floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
