@@ -26,14 +26,6 @@ Note: your results may differ slightly depending on how you round values,
 but should be within a second or two of the results shown.
 You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
 
-# tests:
-p dms(30) == %(30°00'00")
-p dms(76.73) == %(76°43'48")
-p dms(254.6) == %(254°36'00")
-p dms(93.034773) == %(93°02'05")
-p dms(0) == %(0°00'00")
-p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
-
 and Code.” Implementation of Algorithm:
 1. the dms method accepts the floating_point parameter.
 2. the floating_point parameter has the whole integer assigned to the degrees variable.
@@ -42,3 +34,11 @@ and Code.” Implementation of Algorithm:
 5. the remainder of the division is divided by 60.
 6. the quotient of this division is assigned to the seconds variable.
 7. the degrees, minutes and seconds variables are string interpolated.
+
+# tests:
+p dms(30) == %(30°00'00")
+p dms(76.73) == %(76°43'48")
+p dms(254.6) == %(254°36'00")
+p dms(93.034773) == %(93°02'05")
+p dms(0) == %(0°00'00")
+p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
