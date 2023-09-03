@@ -16,7 +16,6 @@
 # DEGREE = "\xC2\xB0"
 
 and Code.” Implementation of Algorithm:
-
 7. the degrees, minutes and seconds variables are string interpolated.
 
 DEGREE = "\xC2\xB0"
@@ -28,7 +27,7 @@ def dms(floating_point)
   remainder_two, remainder_three = remainder.divmod(1.0)
   minutes = remainder_two * 60
   seconds = remainder_three * 60
-
+  %(#{degrees}DEGREE#{minutes}MINUTES#{seconds}SECONDS)
 end
 floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
