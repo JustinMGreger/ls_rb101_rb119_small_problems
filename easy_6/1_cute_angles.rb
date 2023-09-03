@@ -27,11 +27,6 @@ def dms(floating_point)
   %(#{degrees}DEGREE#{minutes}MINUTES#{seconds}SECONDS)
 end
 
-A degree has 60 minutes, while a minute has 60 seconds.
-Note: your results may differ slightly depending on how you round values,
-but should be within a second or two of the results shown.
-You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
-
 # tests:
 p dms(30) == %(30°00'00")
 p dms(76.73) == %(76°43'48")
