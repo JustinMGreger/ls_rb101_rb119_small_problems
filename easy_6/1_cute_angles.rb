@@ -7,7 +7,7 @@
 # and a double quote (") to represent seconds.
 # A degree has 60 minutes, while a minute has 60 seconds.
 
-# Note: your results may differ slightly depending on how you round values,
+# NOTE: your results may differ slightly depending on how you round values,
 # but should be within a second or two of the results shown.
 
 # You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
