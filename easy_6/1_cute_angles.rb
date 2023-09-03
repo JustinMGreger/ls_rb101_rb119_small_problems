@@ -24,19 +24,14 @@ p dms(360) == %(360°00'00") || dms(360) == %(0°00'00")
 # DEGREE = "\xC2\xB0"
 
 menta model:
+DEGREE = "\xC2\xB0"
 dms(floating_point)
-Write a method that takes a floating point number that represents an angle between 0 and 360 degrees
+floating point number that represents an angle between 0 and 360 degrees
 and returns a String that represents that angle in (°) degrees, (') minutes and (") seconds.
 A degree has 60 minutes, while a minute has 60 seconds.
 Note: your results may differ slightly depending on how you round values,
 but should be within a second or two of the results shown.
 You should use two digit numbers with leading zeros when formatting the minutes and seconds, e.g., 321°03'07".
-You may use this constant to represent the degree symbol:
-DEGREE = "\xC2\xB0"
-
-
-
-
 
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
