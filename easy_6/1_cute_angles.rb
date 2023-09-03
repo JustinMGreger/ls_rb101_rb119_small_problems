@@ -25,6 +25,14 @@ def dms(floating_point)
   seconds = (seconds * 60).round
 end
 
+def decompose_angle(floating_point)
+  degrees, remainder = floating_point.divmod(1.0)
+  minutes, seconds = (remainder * 60).divmod(1.0)
+  seconds = (seconds * 60).round
+
+  adjust_for_overflow(degrees, minutes, seconds)
+end
+
 def adjust_for_overflow(degrees, minutes, seconds)
   if seconds == 60
     seconds = 0
