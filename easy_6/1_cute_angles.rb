@@ -15,9 +15,6 @@
 # You may use this constant to represent the degree symbol:
 # DEGREE = "\xC2\xB0"
 
-and Code.” Implementation of Algorithm:
-7. the degrees, minutes and seconds variables are string interpolated.
-
 DEGREE = "\xC2\xB0"
 MINUTES = "\x27"
 SECONDS = "\x22"
