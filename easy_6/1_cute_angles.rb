@@ -66,6 +66,10 @@
 #   format(%(#{degrees}#{DEGREE}%02d'%02d"), minutes, seconds)
 # end
 
+# Since degrees are normally restricted to the range 0-360,
+# can you modify the code so it returns a value in the appropriate range when the input is less than 0
+# or greater than 360?
+
 # tests:
 p dms(30) == %(30°00'00")
 p dms(76.73) == %(76°43'48")
