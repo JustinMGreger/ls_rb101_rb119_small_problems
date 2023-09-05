@@ -8,7 +8,7 @@ Make the requirements explicit Identify rules:
 
 
 Mental model of the problem (optional):
-remove_vowels((string_array))
+def remove_vowels((string_array))
 2. Remove the vowels (a, e, i, o, u).
 3. Return an array of the modified string values.
 
