@@ -5,9 +5,9 @@
 # except with the vowels (a, e, i, o, u) removed.
 
 # my solution:
-def remove_vowels(string_array)
-  string_array.map { |str| str.gsub(/[aeiouAEIOU]/, '') }
-end
+# def remove_vowels(string_array)
+#   string_array.map { |str| str.gsub(/[aeiouAEIOU]/, '') }
+# end
 
 # tests:
 p remove_vowels(%w[abcdefghijklmnopqrstuvwxyz]) == %w[bcdfghjklmnpqrstvwxyz]
