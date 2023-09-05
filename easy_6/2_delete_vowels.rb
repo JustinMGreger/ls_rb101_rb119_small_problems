@@ -10,7 +10,6 @@ def remove_vowels((string_array))
   Return an array of the modified string values.
 end
 
-the remove_vowels method accepts the ((string_array)) parameter and is defined as the following:
   the new_array variable is assigned the result of removing the (a, e, i, o, u) vowels from the string_array parameter
   which is converted to array form.
 end
