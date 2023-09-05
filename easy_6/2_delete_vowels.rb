@@ -9,6 +9,11 @@
 #   string_array.map { |str| str.gsub(/[aeiouAEIOU]/, '') }
 # end
 
+# LS solution:
+def remove_vowels(strings)
+  strings.map { |string| string.delete('aeiouAEIOU') }
+end
+
 # tests:
 p remove_vowels(%w[abcdefghijklmnopqrstuvwxyz]) == %w[bcdfghjklmnpqrstvwxyz]
 p remove_vowels(%w[green YELLOW black white]) == %w[grn YLLW blck wht]
