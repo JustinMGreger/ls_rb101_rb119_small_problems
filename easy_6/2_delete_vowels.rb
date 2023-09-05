@@ -9,12 +9,6 @@ p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
 p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
 p remove_vowels(%w(ABC AEIOU XYZ)) == ['BC', '', 'XYZ']
 
-Identify expected input: 
-an array of strings
-
-output:
-returns an array of the same string values with the vowels (a, e, i, o, u) removed.
-
 Make the requirements explicit Identify rules:
 1. Write a method that takes an array of strings.
 2. Remove the vowels (a, e, i, o, u).
