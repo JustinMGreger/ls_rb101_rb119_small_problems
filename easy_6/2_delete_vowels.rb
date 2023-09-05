@@ -6,7 +6,7 @@
 
 # my solution:
 def remove_vowels((string_array))
-  new_array = string_array.gsub((a, e, i, o, u), '').to_a
+  string_array.gsub((a, e, i, o, u), '').to_a
 end
 
 # tests:
