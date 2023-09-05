@@ -13,6 +13,8 @@ Identify expected input:
 an array of strings
 
 output:
+returns an array of the same string values with the vowels (a, e, i, o, u) removed.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
