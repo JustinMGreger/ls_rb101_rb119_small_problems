@@ -12,7 +12,6 @@ end
 
   the new_array variable is assigned the result of removing the (a, e, i, o, u) vowels from the string_array parameter
   which is converted to array form.
-end
 
 
 
