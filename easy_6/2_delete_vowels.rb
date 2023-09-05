@@ -4,6 +4,7 @@
 # and returns an array of the same string values,
 # except with the vowels (a, e, i, o, u) removed.
 
+and Code.” Implementation of Algorithm:
 Mental model of the problem (optional):
 def remove_vowels((string_array))
   Remove the vowels (a, e, i, o, u).
@@ -17,7 +18,7 @@ the remove_vowels method accepts the ((string_array)) parameter and is defined a
 end
 
 
-and Code.” Implementation of Algorithm:
+
 
 # tests:
 p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
