@@ -4,11 +4,6 @@
 # and returns an array of the same string values,
 # except with the vowels (a, e, i, o, u) removed.
 
-# tests:
-p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
-p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
-p remove_vowels(%w(ABC AEIOU XYZ)) == ['BC', '', 'XYZ']
-
 Make the requirements explicit Identify rules:
 1. Write a method that takes an array of strings.
 2. Remove the vowels (a, e, i, o, u).
@@ -21,3 +16,10 @@ Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+
+
+# tests:
+p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
+p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
+p remove_vowels(%w(ABC AEIOU XYZ)) == ['BC', '', 'XYZ']
