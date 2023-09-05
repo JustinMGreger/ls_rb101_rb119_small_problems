@@ -10,6 +10,8 @@ p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
 p remove_vowels(%w(ABC AEIOU XYZ)) == ['BC', '', 'XYZ']
 
 Identify expected input: 
+an array of strings
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
