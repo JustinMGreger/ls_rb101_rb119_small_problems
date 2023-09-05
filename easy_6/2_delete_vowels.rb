@@ -9,9 +9,6 @@ def remove_vowels((string_array))
   new_array = string_array.gsub((a, e, i, o, u), '').to_a
 end
 
-
-
-
 # tests:
 p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
 p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
