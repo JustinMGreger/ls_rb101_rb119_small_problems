@@ -5,18 +5,18 @@
 # except with the vowels (a, e, i, o, u) removed.
 
 Make the requirements explicit Identify rules:
-1. Write a method that takes an array of strings.
+
+
+Mental model of the problem (optional):
+remove_vowels((string_array))
 2. Remove the vowels (a, e, i, o, u).
 3. Return an array of the modified string values.
 
 
 
-Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
-
-
 
 # tests:
 p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
