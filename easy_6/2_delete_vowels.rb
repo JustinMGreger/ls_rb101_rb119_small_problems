@@ -11,6 +11,12 @@ def remove_vowels((string_array))
 end
 
 Algorithm, Steps for converting input to output:
+the remove_vowels method accepts the ((string_array)) parameter and is defined as the following:
+  the new_array variable is assigned the result of removing the (a, e, i, o, u) vowels from the string_array parameter
+  which is converted to array form.
+end
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
