@@ -6,9 +6,9 @@
 
 Mental model of the problem (optional):
 def remove_vowels((string_array))
-2. Remove the vowels (a, e, i, o, u).
-3. Return an array of the modified string values.
-
+  Remove the vowels (a, e, i, o, u).
+  Return an array of the modified string values.
+end
 
 
 Data Structure, How we represent data that we will work with when converting the input to output:
