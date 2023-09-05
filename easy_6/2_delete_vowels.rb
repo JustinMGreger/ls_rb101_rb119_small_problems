@@ -6,7 +6,7 @@
 
 # my solution:
 def remove_vowels((string_array))
-  new_array = Remove the vowels (a, e, i, o, u)
+  new_array = Remove the vowels (a, e, i, o, u).to_a
 end
 
   the new_array variable is assigned the result of removing the (a, e, i, o, u) vowels from the string_array parameter
