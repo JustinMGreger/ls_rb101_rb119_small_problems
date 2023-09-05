@@ -4,9 +4,6 @@
 # and returns an array of the same string values,
 # except with the vowels (a, e, i, o, u) removed.
 
-Make the requirements explicit Identify rules:
-
-
 Mental model of the problem (optional):
 def remove_vowels((string_array))
 2. Remove the vowels (a, e, i, o, u).
