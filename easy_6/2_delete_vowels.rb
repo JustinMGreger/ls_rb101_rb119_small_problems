@@ -6,8 +6,7 @@
 
 # my solution:
 def remove_vowels(string_array)
-  new_array = string_array.to_s.gsub(/[aeiou]/, '')
-  new_array.chars
+  string_array.map { |str| str.gsub(/[aeiouAEIOU]/, '') }
 end
 
 # tests:
