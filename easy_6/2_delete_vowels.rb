@@ -14,6 +14,11 @@ def remove_vowels(strings)
   strings.map { |string| string.delete('aeiouAEIOU') }
 end
 
+# Further Exploration
+
+# Ruby has all sorts of String methods that could accomplish this task. 
+# How did you end up solving this exercise?
+
 # tests:
 p remove_vowels(%w[abcdefghijklmnopqrstuvwxyz]) == %w[bcdfghjklmnpqrstvwxyz]
 p remove_vowels(%w[green YELLOW black white]) == %w[grn YLLW blck wht]
