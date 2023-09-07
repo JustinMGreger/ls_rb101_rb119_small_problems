@@ -25,8 +25,6 @@ p find_fibonacci_index_by_length(10_000) == 47_847
 
 # You may assume that the argument is always greater than or equal to 2.
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem, 
 Identify expected input: 
 output:
 Make the requirements explicit Identify rules:
