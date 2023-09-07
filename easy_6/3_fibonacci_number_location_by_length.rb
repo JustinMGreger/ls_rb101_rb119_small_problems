@@ -20,16 +20,9 @@
 Identify expected input: 
 digit argument
 
-
-calculates and returns the index of the first Fibonacci number that has the number of
-#digits specified as an argument. (The first Fibonacci number has index 1.)
-
-# You may assume that the argument is always greater than or equal to 2.
-
-
-
-
 output:
+returns the index of the first Fibonacci number that has the number of digits specified as an argument
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
