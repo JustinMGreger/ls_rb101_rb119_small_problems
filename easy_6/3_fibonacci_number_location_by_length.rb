@@ -24,7 +24,7 @@ output:
 returns the index of the first Fibonacci number that has the number of digits specified as an argument
 
 Mental model of the problem (optional):
-Write a method that calculates and returns the index of the first Fibonacci number that has the number of digits
+calculates and returns the index of the first Fibonacci number that has the number of digits
 specified as an argument. 
 The first Fibonacci number has index 1.
 the first 2 numbers are 1 by definition and each subsequent number is the sum of the two previous numbers
