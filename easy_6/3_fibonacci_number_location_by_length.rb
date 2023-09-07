@@ -19,12 +19,6 @@
 
 # my solution:
 
-1. the find_fibonacci_index_by_length method accepts the fibonacci_parameter
-2. run fibonacci sequence loop
-3. keep track of number of iterations of loop
-4. break if block_parameter.length == fibonacci_parameter
-5. return the number of iterations of loop
-
 def find_fibonacci_index_by_length(fibonacci_parameter)
   run fibonacci sequence loop
   keep track of number of iterations of loop
