@@ -26,6 +26,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   current = 1
   (2..n).each do
     temperary = current
+    current = previous + current
   keep track of number of iterations of loop
   break if block_parameter.length == fibonacci_parameter
   return the number of iterations of loop
