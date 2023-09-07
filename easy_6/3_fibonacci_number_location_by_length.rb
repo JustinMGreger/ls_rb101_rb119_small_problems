@@ -23,11 +23,6 @@ digit argument
 output:
 returns the index of the first Fibonacci number that has the number of digits specified as an argument
 
-Mental model of the problem (optional):
-The first Fibonacci number has index 1.
-the first 2 numbers are 1 by definition and each subsequent number is the sum of the two previous numbers
-fibonacci_parameter >= 2
-
 def find_fibonacci_index_by_length(fibonacci_parameter)
   run fibonacci sequence loop
   keep track of number of iterations of loop
