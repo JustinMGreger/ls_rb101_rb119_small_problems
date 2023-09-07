@@ -22,3 +22,5 @@ p find_fibonacci_index_by_length(10) == 45
 p find_fibonacci_index_by_length(100) == 476
 p find_fibonacci_index_by_length(1_000) == 4_782
 p find_fibonacci_index_by_length(10_000) == 47_847
+
+# You may assume that the argument is always greater than or equal to 2.
