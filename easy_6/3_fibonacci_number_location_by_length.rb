@@ -21,6 +21,8 @@
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
   return n if n <= 1
+
+  previous = 0
   keep track of number of iterations of loop
   break if block_parameter.length == fibonacci_parameter
   return the number of iterations of loop
