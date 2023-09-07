@@ -17,12 +17,6 @@
 
 # You may assume that the argument is always greater than or equal to 2.
 
-Identify expected input: 
-digit argument
-
-output:
-returns the index of the first Fibonacci number that has the number of digits specified as an argument
-
 def find_fibonacci_index_by_length(fibonacci_parameter)
   run fibonacci sequence loop
   keep track of number of iterations of loop
