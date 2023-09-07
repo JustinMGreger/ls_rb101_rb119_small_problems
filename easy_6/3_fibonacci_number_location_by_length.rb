@@ -30,9 +30,10 @@ fibonacci_parameter >= 2
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
 
-  run fibonacci sequence
-
+  run fibonacci sequence loop
+  break if block_parameter.length == fibonacci_parameter
   fibonacci_parameter == number of digits specified as an argument
+  What is the index of the fibonacci sequence that has the number of digits as the fibonacci_parameter?
   calculates and returns the index of the first Fibonacci number that has the number of digits specified as an argument.
   index_fibonacci = 
 end
