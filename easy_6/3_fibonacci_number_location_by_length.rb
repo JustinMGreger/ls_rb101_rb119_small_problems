@@ -35,10 +35,6 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   return the number of iterations of loop
 end
 
-
-
-
-Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
