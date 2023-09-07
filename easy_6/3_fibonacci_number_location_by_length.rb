@@ -24,14 +24,23 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   return the number of iterations of loop
 end
 
-Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
+
 1. the find_fibonacci_index_by_length method accepts the fibonacci_parameter
 2. run fibonacci sequence loop
 3. keep track of number of iterations of loop
 4. break if block_parameter.length == fibonacci_parameter
 5. return the number of iterations of loop
 
-and Code.” Implementation of Algorithm:
+
+
+
+
+
+
+
+
+
 
 # Examples:
 p find_fibonacci_index_by_length(2) == 7          # 1 1 2 3 5 8 13
