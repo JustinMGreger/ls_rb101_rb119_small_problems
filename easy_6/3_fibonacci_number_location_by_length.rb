@@ -15,14 +15,6 @@
 # Write a method that calculates and returns the index of the first Fibonacci number that has the number of
 # digits specified as an argument. (The first Fibonacci number has index 1.)
 
-# Examples:
-p find_fibonacci_index_by_length(2) == 7          # 1 1 2 3 5 8 13
-p find_fibonacci_index_by_length(3) == 12         # 1 1 2 3 5 8 13 21 34 55 89 144
-p find_fibonacci_index_by_length(10) == 45
-p find_fibonacci_index_by_length(100) == 476
-p find_fibonacci_index_by_length(1_000) == 4_782
-p find_fibonacci_index_by_length(10_000) == 47_847
-
 # You may assume that the argument is always greater than or equal to 2.
 
 Identify expected input: 
@@ -33,3 +25,11 @@ Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# Examples:
+p find_fibonacci_index_by_length(2) == 7          # 1 1 2 3 5 8 13
+p find_fibonacci_index_by_length(3) == 12         # 1 1 2 3 5 8 13 21 34 55 89 144
+p find_fibonacci_index_by_length(10) == 45
+p find_fibonacci_index_by_length(100) == 476
+p find_fibonacci_index_by_length(1_000) == 4_782
+p find_fibonacci_index_by_length(10_000) == 47_847
