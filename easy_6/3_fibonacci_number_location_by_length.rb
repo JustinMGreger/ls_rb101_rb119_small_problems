@@ -29,13 +29,10 @@ the first 2 numbers are 1 by definition and each subsequent number is the sum of
 fibonacci_parameter >= 2
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
-
   run fibonacci sequence loop
   keep track of number of iterations of loop
   break if block_parameter.length == fibonacci_parameter
   return the number of iterations of loop
-  calculates and returns the index of the first Fibonacci number that has the number of digits specified as an argument.
-  index_fibonacci = 
 end
 
 
