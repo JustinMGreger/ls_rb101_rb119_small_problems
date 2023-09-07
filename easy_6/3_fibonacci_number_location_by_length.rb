@@ -24,14 +24,13 @@ output:
 returns the index of the first Fibonacci number that has the number of digits specified as an argument
 
 Mental model of the problem (optional):
-calculates and returns the index of the first Fibonacci number that has the number of digits
-specified as an argument. 
 The first Fibonacci number has index 1.
 the first 2 numbers are 1 by definition and each subsequent number is the sum of the two previous numbers
 You may assume that the argument is always greater than or equal to 2.
 
-find_fibonacci_index_by_length
-
+def find_fibonacci_index_by_length()
+  calculates and returns the index of the first Fibonacci number that has the number of digits specified as an argument. 
+end
 
 
 
