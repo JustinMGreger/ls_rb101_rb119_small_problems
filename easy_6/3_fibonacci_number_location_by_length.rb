@@ -31,9 +31,10 @@ fibonacci_parameter >= 2
 def find_fibonacci_index_by_length(fibonacci_parameter)
 
 
-  
+
   fibonacci_parameter == number of digits specified as an argument
-  calculates and returns the index of the first Fibonacci number that has the number of digits specified as an argument. 
+  calculates and returns the index of the first Fibonacci number that has the number of digits specified as an argument.
+  index_fibonacci = 
 end
 
 
