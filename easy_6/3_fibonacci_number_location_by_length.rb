@@ -29,9 +29,10 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     current = previous + current
     previous = temperary
   end
+  break if n.length == fibonacci_parameter
 end
 
-  break if block_parameter.length == fibonacci_parameter
+
   return the number of iterations of loop
 end
 
