@@ -22,6 +22,7 @@
 def find_fibonacci_index_by_length(fibonacci_parameter)
   first = 1
   second = 1
+  index = 2
 
   previous = 0
   current = 1
