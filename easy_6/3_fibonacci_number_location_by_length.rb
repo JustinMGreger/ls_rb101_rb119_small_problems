@@ -20,14 +20,16 @@
 # my solution:
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
-  first, second, index = 1, 1, 2
+  first = 1
+  second = 1
+  index = 2
 
   loop do
     fibonacci, first, second = first + second, second, first + second
     index += 1
     break if fibonacci.to_s.length == fibonacci_parameter
   end
-  
+
   index
 end
 
