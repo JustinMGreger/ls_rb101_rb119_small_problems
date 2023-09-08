@@ -32,6 +32,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     first = second
     second = fibonacci
   end
+  index
 end
 
 # tests:
