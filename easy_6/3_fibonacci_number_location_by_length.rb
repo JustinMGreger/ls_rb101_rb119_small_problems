@@ -20,9 +20,7 @@
 # my solution:
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
-  first = 1
-  second = 1
-  index = 2
+  first, second, index = 1, 1, 2
 
   loop do
     index += 1
