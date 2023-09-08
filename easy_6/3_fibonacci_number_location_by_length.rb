@@ -26,10 +26,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
 
   loop do
     index += 1
-    temperary = current
-    current = previous + current
-    previous = temperary
-  end
+    fibonacci = first + second
   break if n.length == fibonacci_parameter
   return n
 end
