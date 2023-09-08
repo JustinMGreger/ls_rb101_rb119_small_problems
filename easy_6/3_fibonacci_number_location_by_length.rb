@@ -20,7 +20,7 @@
 # my solution:
 
 def find_fibonacci_index_by_length(fibonacci_parameter)
-  return n if n <= 1
+  first = 1
 
   previous = 0
   current = 1
