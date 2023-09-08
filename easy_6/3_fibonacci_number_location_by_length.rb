@@ -19,23 +19,23 @@
 
 # my solution:
 
-def find_fibonacci_index_by_length(fibonacci_parameter)
-  first = 1
-  second = 1
-  index = 2
+# def find_fibonacci_index_by_length(fibonacci_parameter)
+#   first = 1
+#   second = 1
+#   index = 2
 
-  loop do
-    first, second = generate_next_fibonacci(first, second)
-    index += 1
-    break if second.to_s.length == fibonacci_parameter
-  end
+#   loop do
+#     first, second = generate_next_fibonacci(first, second)
+#     index += 1
+#     break if second.to_s.length == fibonacci_parameter
+#   end
 
-  index
-end
+#   index
+# end
 
-def generate_next_fibonacci(first, second)
-  [second, first + second]
-end
+# def generate_next_fibonacci(first, second)
+#   [second, first + second]
+# end
 
 # tests:
 p find_fibonacci_index_by_length(2) == 7          # 1 1 2 3 5 8 13
