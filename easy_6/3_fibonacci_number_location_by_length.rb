@@ -25,7 +25,6 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   loop do
     fibonacci, first, second = first + second, second, first + second
     index += 1
-    fibonacci = first + second
     break if fibonacci.to_s.length == fibonacci_parameter
 
     first = second
