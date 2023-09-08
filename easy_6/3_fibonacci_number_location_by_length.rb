@@ -25,7 +25,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   index = 2
 
   loop do
-    fibonacci = first + second
+    first, second = generate_next_fibonacci(first, second)
     first = second
     second = fibonacci
     index += 1
