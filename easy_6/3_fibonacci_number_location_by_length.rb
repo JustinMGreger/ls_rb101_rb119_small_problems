@@ -28,7 +28,8 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     index += 1
     fibonacci = first + second
     break if fibonacci.to_s.length >= fibonacci_parameter
-  return n
+
+    first = second
 end
 
 # Examples:
