@@ -24,6 +24,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
   second = 1
   index = 2
 
+  loop do
   previous = 0
   current = 1
   (2..n).each do
