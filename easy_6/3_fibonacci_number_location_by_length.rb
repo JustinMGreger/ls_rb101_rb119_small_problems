@@ -30,10 +30,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     previous = temperary
   end
   break if n.length == fibonacci_parameter
-end
-
-
-  return the number of iterations of loop
+  return n
 end
 
 # Examples:
