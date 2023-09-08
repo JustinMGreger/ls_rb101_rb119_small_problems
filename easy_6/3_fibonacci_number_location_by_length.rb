@@ -27,6 +27,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     index += 1
     break if fibonacci.to_s.length == fibonacci_parameter
   end
+  
   index
 end
 
