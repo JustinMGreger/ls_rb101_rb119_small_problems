@@ -32,7 +32,7 @@ def find_fibonacci_index_by_length(fibonacci_parameter)
     first = second
 end
 
-# Examples:
+# tests:
 p find_fibonacci_index_by_length(2) == 7          # 1 1 2 3 5 8 13
 p find_fibonacci_index_by_length(3) == 12         # 1 1 2 3 5 8 13 21 34 55 89 144
 p find_fibonacci_index_by_length(10) == 45
