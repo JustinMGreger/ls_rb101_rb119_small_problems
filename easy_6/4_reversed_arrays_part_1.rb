@@ -57,7 +57,7 @@
 # 2. Reverse the Array of elements in place.
 # 3. The return value should be the same Array object. Not assigned to a new variable.
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
 list = [1, 2, 3, 4]
 result = reverse!(list)
 p result == [4, 3, 2, 1] # true
