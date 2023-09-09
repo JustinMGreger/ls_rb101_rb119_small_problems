@@ -28,3 +28,14 @@ p list == [] # true
 # NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
 # The array only has one element, a String,
 # but we're not reversing the String itself, so the reverse! method call should return ['abc'].
+
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
