@@ -95,7 +95,8 @@ The array only has one element, a String,
 but we're not reversing the String itself, so the reverse! method call should return ['abc'].
 The elements are not being broken up. Only the elements are being moved.
 
-def reverse!(Array)
+def reverse!(array)
+  
 Reverse the Array of elements in place.
 The return value should be the same Array object. Not assigned to a new variable.
 
