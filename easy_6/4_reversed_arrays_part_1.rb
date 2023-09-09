@@ -95,6 +95,7 @@ def reverse!(array)
     left_index += 1
     right_index -= 1
   end
+  array
 end
 
 # tests:
