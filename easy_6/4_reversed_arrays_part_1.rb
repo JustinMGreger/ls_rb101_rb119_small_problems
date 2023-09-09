@@ -79,5 +79,9 @@ p list == [] # true
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# 1. the method accepts the Array parameter.
+# 2. Permanently reverse the elements in the Array parameter.
+# 3. Return the permanently reversed Array parameter.
+
 and Code.” Implementation of Algorithm:
