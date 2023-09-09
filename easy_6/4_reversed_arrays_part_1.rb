@@ -35,7 +35,9 @@ p list == [] # true
 # Identify expected input: 
 # an Array
 
-output:
+# output:
+# the mutated reversed Array
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
