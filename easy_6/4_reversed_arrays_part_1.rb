@@ -58,23 +58,23 @@
 # 3. The return value should be the same Array object. Not assigned to a new variable.
 
 # Examples / Test Cases, Validate understanding of the problem:
-list = [1, 2, 3, 4]
-result = reverse!(list)
-p result == [4, 3, 2, 1] # true
-p list == [4, 3, 2, 1] # true
-p list.equal?(result) # true
+# list = [1, 2, 3, 4]
+# result = reverse!(list)
+# p result == [4, 3, 2, 1] # true
+# p list == [4, 3, 2, 1] # true
+# p list.equal?(result) # true
 
-list = %w[a b e d c]
-p reverse!(list) == %w[c d e b a] # true
-p list == %w[c d e b a] # true
+# list = %w[a b e d c]
+# p reverse!(list) == %w[c d e b a] # true
+# p list == %w[c d e b a] # true
 
-list = ['abc']
-p reverse!(list) == ['abc'] # true
-p list == ['abc'] # true
+# list = ['abc']
+# p reverse!(list) == ['abc'] # true
+# p list == ['abc'] # true
 
-list = []
-p reverse!(list) == [] # true
-p list == [] # true
+# list = []
+# p reverse!(list) == [] # true
+# p list == [] # true
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array
