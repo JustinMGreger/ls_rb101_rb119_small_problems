@@ -96,9 +96,10 @@ but we're not reversing the String itself, so the reverse! method call should re
 The elements are not being broken up. Only the elements are being moved.
 
 def reverse!(array)
+  Reverse the Array of elements in place.
 end
 
-Reverse the Array of elements in place.
+
 The return value should be the same Array object. Not assigned to a new variable.
 
 # tests:
