@@ -91,7 +91,7 @@ def reverse!(array)
   right_index = array.length - 1
 
   while left_index < right_index
-  Reverse the Array of elements in place.
+
 end
 
 # tests:
