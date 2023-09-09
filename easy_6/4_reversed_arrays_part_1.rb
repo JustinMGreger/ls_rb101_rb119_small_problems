@@ -91,7 +91,7 @@ def reverse!(array)
   right_index = array.length - 1
 
   while left_index < right_index
-
+    array[left_index], array[right_index] = array[right_index], array[left_index]
 end
 
 # tests:
