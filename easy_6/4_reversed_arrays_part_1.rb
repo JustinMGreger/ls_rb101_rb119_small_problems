@@ -89,6 +89,8 @@ and Code.” Implementation of Algorithm:
 def reverse!(array)
   left_index = 0
   right_index = array.length - 1
+
+  while left_index < right_index
   Reverse the Array of elements in place.
 end
 
