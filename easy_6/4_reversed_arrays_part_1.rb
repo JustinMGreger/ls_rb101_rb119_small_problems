@@ -93,6 +93,7 @@ def reverse!(array)
   while left_index < right_index
     array[left_index], array[right_index] = array[right_index], array[left_index]
     left_index += 1
+    right_index -= 1
 end
 
 # tests:
