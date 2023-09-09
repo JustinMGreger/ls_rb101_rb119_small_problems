@@ -30,9 +30,9 @@
 # but we're not reversing the String itself, so the reverse! method call should return ['abc'].
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-# PEDAC stands for “[Understand the] Problem, 
+# PEDAC stands for “[Understand the] Problem,
 
-# Identify expected input: 
+# Identify expected input:
 # an Array
 
 # output:
