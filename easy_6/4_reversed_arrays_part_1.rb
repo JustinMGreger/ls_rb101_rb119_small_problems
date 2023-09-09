@@ -43,16 +43,9 @@ p list == [] # true
 # 2. Write a method that takes an Array as an argument.
 # 3. Reverse the Array of elements in place.
 # 4. The return value should be the same Array object.
-
-NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
-The array only has one element, a String,
-but we're not reversing the String itself, so the reverse! method call should return ['abc'].
-
-
-
-
-
-
+# 5. NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
+# The array only has one element, a String,
+# but we're not reversing the String itself, so the reverse! method call should return ['abc'].
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
