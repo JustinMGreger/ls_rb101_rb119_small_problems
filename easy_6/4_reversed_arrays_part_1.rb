@@ -41,7 +41,7 @@ p list == [] # true
 # Make the requirements explicit Identify rules:
 # 1. You may not use Array#reverse or Array#reverse!.
 # 2. Write a method that takes an Array as an argument.
-reverse its elements in place; that is, mutate the Array passed into this method.
+# 3. Reverse the Array of elements in place.
 The return value should be the same Array object.
 
 NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
