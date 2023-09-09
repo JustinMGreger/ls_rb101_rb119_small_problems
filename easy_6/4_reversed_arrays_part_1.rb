@@ -42,7 +42,7 @@ p list == [] # true
 # 1. You may not use Array#reverse or Array#reverse!.
 # 2. Write a method that takes an Array as an argument.
 # 3. Reverse the Array of elements in place.
-The return value should be the same Array object.
+# 4. The return value should be the same Array object.
 
 NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
 The array only has one element, a String,
