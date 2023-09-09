@@ -86,9 +86,8 @@ p list == [] # true
 
 and Code.” Implementation of Algorithm:
 
-
-
 def reverse!(array)
+  left_index = 0
   Reverse the Array of elements in place.
 end
 
