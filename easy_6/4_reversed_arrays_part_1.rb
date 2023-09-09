@@ -11,7 +11,7 @@ list = [1, 2, 3, 4]
 result = reverse!(list)
 p result == [4, 3, 2, 1] # true
 p list == [4, 3, 2, 1] # true
-p list.object_id == result.object_id # true
+p list.equal?(result) # true
 
 list = %w[a b e d c]
 p reverse!(list) == %w[c d e b a] # true
