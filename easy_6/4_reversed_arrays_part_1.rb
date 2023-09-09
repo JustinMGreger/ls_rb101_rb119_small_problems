@@ -99,9 +99,6 @@ def reverse!(array)
   Reverse the Array of elements in place.
 end
 
-
-The return value should be the same Array object. Not assigned to a new variable.
-
 # tests:
 list = [1, 2, 3, 4]
 result = reverse!(list)
