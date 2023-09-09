@@ -86,7 +86,7 @@ p list == [] # true
 
 and Code.” Implementation of Algorithm:
 
-the method accepts the Array parameter.
+
 Permanently reverse the elements in the Array parameter.
 Return the permanently reversed Array parameter.
 You may not use Array#reverse or Array#reverse!.
