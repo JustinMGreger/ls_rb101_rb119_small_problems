@@ -39,7 +39,7 @@ p list == [] # true
 # the mutated reversed Array
 
 # Make the requirements explicit Identify rules:
-1. You may not use Array#reverse or Array#reverse!.
+# 1. You may not use Array#reverse or Array#reverse!.
 2. Write a method that takes an Array as an argument,
 reverse its elements in place; that is, mutate the Array passed into this method.
 The return value should be the same Array object.
