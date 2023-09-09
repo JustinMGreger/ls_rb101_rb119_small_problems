@@ -25,6 +25,6 @@ list = []
 reverse!(list) == [] # true
 list == [] # true
 
-# Note: for the test case list = ['abc'], we want to reverse the elements in the array.
+# NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
 # The array only has one element, a String,
 # but we're not reversing the String itself, so the reverse! method call should return ['abc'].
