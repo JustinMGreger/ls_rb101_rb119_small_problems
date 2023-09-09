@@ -84,7 +84,7 @@ p list == [] # true
 # 2. Permanently reverse the elements in the Array parameter.
 # 3. Return the permanently reversed Array parameter.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
 
 def reverse!(array)
   left_index = 0
