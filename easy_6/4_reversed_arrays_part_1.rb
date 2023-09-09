@@ -85,3 +85,14 @@ p list == [] # true
 # 3. Return the permanently reversed Array parameter.
 
 and Code.” Implementation of Algorithm:
+the method accepts the Array parameter.
+Permanently reverse the elements in the Array parameter.
+Return the permanently reversed Array parameter.
+You may not use Array#reverse or Array#reverse!.
+NOTE: for the test case list = ['abc'], we want to reverse the elements in the array.
+The array only has one element, a String,
+but we're not reversing the String itself, so the reverse! method call should return ['abc'].
+The elements are not being broken up. Only the elements are being moved.
+method(Array)
+Reverse the Array of elements in place.
+The return value should be the same Array object. Not assigned to a new variable.
