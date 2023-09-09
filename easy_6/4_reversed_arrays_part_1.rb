@@ -31,7 +31,10 @@ p list == [] # true
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
-Identify expected input: 
+
+# Identify expected input: 
+# an Array
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
