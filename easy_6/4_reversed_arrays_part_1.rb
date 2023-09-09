@@ -96,3 +96,22 @@ The elements are not being broken up. Only the elements are being moved.
 method(Array)
 Reverse the Array of elements in place.
 The return value should be the same Array object. Not assigned to a new variable.
+
+# tests:
+list = [1, 2, 3, 4]
+result = reverse!(list)
+p result == [4, 3, 2, 1] # true
+p list == [4, 3, 2, 1] # true
+p list.equal?(result) # true
+
+list = %w[a b e d c]
+p reverse!(list) == %w[c d e b a] # true
+p list == %w[c d e b a] # true
+
+list = ['abc']
+p reverse!(list) == ['abc'] # true
+p list == ['abc'] # true
+
+list = []
+p reverse!(list) == [] # true
+p list == [] # true
