@@ -86,17 +86,17 @@
 
 # and Code.” Implementation of Algorithm:
 
-def reverse!(array)
-  left_index = 0
-  right_index = array.length - 1
+# def reverse!(array)
+#   left_index = 0
+#   right_index = array.length - 1
 
-  while left_index < right_index
-    array[left_index], array[right_index] = array[right_index], array[left_index]
-    left_index += 1
-    right_index -= 1
-  end
-  array
-end
+#   while left_index < right_index
+#     array[left_index], array[right_index] = array[right_index], array[left_index]
+#     left_index += 1
+#     right_index -= 1
+#   end
+#   array
+# end
 
 # tests:
 list = [1, 2, 3, 4]
