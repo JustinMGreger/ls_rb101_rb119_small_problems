@@ -26,7 +26,12 @@ p new_list == [2, 3, 1]                 # => true
 # output:
 # a new Array with the elements of the original list in reverse order.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# 1. Do not modify the original list.
+# 2. You may not use Array#reverse or Array#reverse!
+# 3. Nor may you use the method you wrote in the previous exercise.
+# 4. Write a method that takes an Array, and returns a new Array with the elements of the original list in reverse order.
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
