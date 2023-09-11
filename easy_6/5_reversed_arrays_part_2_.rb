@@ -58,4 +58,4 @@ p new_list == [2, 3, 1]                 # => true
 # 2. a new Array variable is assigned the result of reversing the order of the elements of the Array parameter.
 # 3. return the new Array variable.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
