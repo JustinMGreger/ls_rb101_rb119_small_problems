@@ -50,6 +50,8 @@ p list.object_id != new_list.object_id  # => true
 p list == [1, 3, 2]                     # => true
 p new_list == [2, 3, 1]                 # => true
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# Array
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
