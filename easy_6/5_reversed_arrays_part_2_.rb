@@ -23,7 +23,9 @@ p new_list == [2, 3, 1]                 # => true
 # Identify expected input: 
 # an Array
 
-output:
+# output:
+# a new Array with the elements of the original list in reverse order.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
