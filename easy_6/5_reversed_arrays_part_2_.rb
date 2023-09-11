@@ -38,7 +38,18 @@ p new_list == [2, 3, 1]                 # => true
 # 3. the reverse method assigns the the result of the reversal to a new Array variable.
 # 4. the reverse method returns the new Array variable.
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
+p reverse(%w[a b e d c]) == %w[c d e b a]  # => true
+p reverse(['abc']) == ['abc']              # => true
+p reverse([]) == []                        # => true
+
+p list = [1, 3, 2]                      # => [1, 3, 2]
+p new_list = reverse(list)              # => [2, 3, 1]
+p list.object_id != new_list.object_id  # => true
+p list == [1, 3, 2]                     # => true
+p new_list == [2, 3, 1]                 # => true
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
