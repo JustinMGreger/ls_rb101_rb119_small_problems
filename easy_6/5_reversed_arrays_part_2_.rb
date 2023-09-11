@@ -61,6 +61,5 @@ p new_list == [2, 3, 1]                 # => true
 # and Code.” Implementation of Algorithm:
 
 def reverse(array)
-new_array = the result of reversing the order of the elements of the Array parameter.
+new_array = the result of reversing the order of the elements of the array parameter.
 end
-# 3. return the new Array variable.
