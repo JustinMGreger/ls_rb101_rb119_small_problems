@@ -16,3 +16,14 @@ p new_list = reverse(list)              # => [2, 3, 1]
 p list.object_id != new_list.object_id  # => true
 p list == [1, 3, 2]                     # => true
 p new_list == [2, 3, 1]                 # => true
+
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
