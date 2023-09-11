@@ -53,5 +53,9 @@ p new_list == [2, 3, 1]                 # => true
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# 1. the reverse method accepts an Array parameter.
+# 2. a new Array variable is assigned the result of reversing the order of the elements of the Array parameter.
+# 3. return the new Array variable.
+
 and Code.” Implementation of Algorithm:
