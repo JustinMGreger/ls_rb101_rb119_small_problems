@@ -30,7 +30,8 @@
 # 1. Do not modify the original list.
 # 2. You may not use Array#reverse or Array#reverse!
 # 3. Nor may you use the method you wrote in the previous exercise.
-# 4. Write a method that takes an Array, and returns a new Array with the elements of the original list in reverse order.
+# 4. Write a method that takes an Array
+# 5. return a new Array with the elements of the original list in reverse order.
 
 # Mental model of the problem (optional):
 # 1. the reverse method accepts an Array parameter.
