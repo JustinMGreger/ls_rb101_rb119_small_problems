@@ -61,7 +61,7 @@
 # and Code.” Implementation of Algorithm:
 
 def reverse(array)
-  new_array = array.split.map do |a|
+  new_array = array.map do |a|
     temp = []
     until a.empty?
       temp << a[-1]
