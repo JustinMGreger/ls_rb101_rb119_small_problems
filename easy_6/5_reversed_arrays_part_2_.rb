@@ -63,12 +63,7 @@
 def reverse(array)
   new_array = array.map do |a|
     a.to_s.chars.reverse.join
-    until a.empty?
-      temp << a[-1]
-      a.chop!
-    end
-    temp.join
-end
+  end
 
 # tests:
 p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
