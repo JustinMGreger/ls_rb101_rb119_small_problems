@@ -86,15 +86,8 @@
 
 # reduce solution:
 def reverse(array)
-  new_array = []
-  index = array.length - 1
-  while index >= 0
-    new_array << array[index]
-    index -= 1
-  end
-  new_array
-end 
-
+  array.reduce([]) { |acc, elem| [elem] + acc }
+end
 
 #each_with_object.
 
