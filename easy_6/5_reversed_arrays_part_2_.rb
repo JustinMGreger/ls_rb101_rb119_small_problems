@@ -67,6 +67,7 @@ def reverse(array)
       temp << a[-1]
       a.chop!
     end
+    temp.join
 end
 
 # tests:
