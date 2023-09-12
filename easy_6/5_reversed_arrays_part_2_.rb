@@ -66,6 +66,7 @@ def reverse(array)
     until a.empty?
       temp << a[-1]
       a.chop!
+    end
 end
 
 # tests:
