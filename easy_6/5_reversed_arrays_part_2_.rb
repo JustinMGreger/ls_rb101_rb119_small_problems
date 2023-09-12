@@ -64,10 +64,7 @@ def reverse(array)
   new_array = array.split.map do |a|
     temp = []
 
-pass each element a block of code that pops off the last element of the array 
-in a loop 
-  that breaks when the array is 0
-  these elements are assigned to a new array
+
 end
 
 # tests:
