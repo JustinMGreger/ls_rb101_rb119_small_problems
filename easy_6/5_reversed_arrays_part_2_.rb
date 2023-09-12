@@ -61,15 +61,15 @@
 
 # and Code.” Implementation of Algorithm:
 
-def reverse(array)
-  new_array = []
-  index = array.length - 1
-  while index >= 0
-    new_array << array[index]
-    index -= 1
-  end
-  new_array
-end
+# def reverse(array)
+#   new_array = []
+#   index = array.length - 1
+#   while index >= 0
+#     new_array << array[index]
+#     index -= 1
+#   end
+#   new_array
+# end
 
 # tests:
 p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
