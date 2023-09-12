@@ -84,7 +84,16 @@
 # Just for fun, read about these methods in the Enumerable module documentation,
 # and try using one in your #reverse method.
 
-#reduce 
+# reduce solution:
+def reverse(array)
+  new_array = []
+  index = array.length - 1
+  while index >= 0
+    new_array << array[index]
+    index -= 1
+  end
+  new_array
+end 
 
 
 #each_with_object.
