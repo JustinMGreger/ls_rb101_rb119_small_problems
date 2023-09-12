@@ -64,7 +64,7 @@ def reverse(array)
   new_array = array.split.map do |a|
     temp = []
     until a.empty?
-
+      temp << a[-1]
 end
 
 # tests:
