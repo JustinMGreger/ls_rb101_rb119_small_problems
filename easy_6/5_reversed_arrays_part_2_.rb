@@ -61,10 +61,7 @@
 # and Code.” Implementation of Algorithm:
 
 def reverse(array)
-  new_array = array.map do |a|
-    a.to_s.chars.reverse.join
-  end
-  new_array
+  new_array = []
 end
 
 # tests:
