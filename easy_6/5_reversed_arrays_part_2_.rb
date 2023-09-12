@@ -78,6 +78,17 @@
 #   result_array
 # end
 
+# Further Exploration
+
+# An even shorter solution is possible by using either #reduce or #each_with_object. 
+# Just for fun, read about these methods in the Enumerable module documentation,
+# and try using one in your #reverse method.
+
+#reduce 
+
+
+#each_with_object.
+
 # tests:
 p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
 p reverse(%w[a b e d c]) == %w[c d e b a]  # => true
