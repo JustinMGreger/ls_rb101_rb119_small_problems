@@ -61,7 +61,7 @@ p new_list == [2, 3, 1]                 # => true
 # and Code.” Implementation of Algorithm:
 
 def reverse(array)
-new_array =  array.split.map{ |a|  }  the result of reversing the order of the elements of the array parameter.
+  new_array = array.split.map do |a|
 
 split the array parameter into an array of substrings
 pass each element a block of code that pops off the last element of the array 
