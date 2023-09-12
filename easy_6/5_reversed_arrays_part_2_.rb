@@ -63,7 +63,7 @@ p new_list == [2, 3, 1]                 # => true
 def reverse(array)
   new_array = array.split.map do |a|
     temp = []
-
+    until a.empty?
 
 end
 
