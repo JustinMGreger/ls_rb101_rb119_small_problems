@@ -71,6 +71,13 @@
 #   new_array
 # end
 
+# LS solution:
+def reverse(array)
+  result_array = []
+  array.reverse_each { |element| result_array << element }
+  result_array
+end
+
 # tests:
 p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
 p reverse(%w[a b e d c]) == %w[c d e b a]  # => true
