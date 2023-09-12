@@ -66,6 +66,8 @@ def reverse(array)
   while index >= 0
     new_array << array[index]
     index -= 1
+  end
+  new_array
 end
 
 # tests:
