@@ -80,7 +80,7 @@
 
 # Further Exploration
 
-# An even shorter solution is possible by using either #reduce or #each_with_object. 
+# An even shorter solution is possible by using either #reduce or #each_with_object.
 # Just for fun, read about these methods in the Enumerable module documentation,
 # and try using one in your #reverse method.
 
