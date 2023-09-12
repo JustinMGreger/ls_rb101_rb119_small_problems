@@ -62,7 +62,7 @@
 
 def reverse(array)
   new_array = array.map do |a|
-    temp = []
+    a.to_s.chars.reverse.join
     until a.empty?
       temp << a[-1]
       a.chop!
