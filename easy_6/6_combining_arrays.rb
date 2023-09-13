@@ -28,7 +28,7 @@
 # which is returned.
 
 # Examples / Test Cases, Validate understanding of the problem:
-p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
+# p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array
