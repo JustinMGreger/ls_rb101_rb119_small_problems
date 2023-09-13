@@ -43,7 +43,7 @@
 def merge(arrone, arrtwo)
 
 
-the method takes 2 arrays as arguments
+
 the arrays are combined into 1 array.
 the duplicate values are removed.
 the modified array is returned.
