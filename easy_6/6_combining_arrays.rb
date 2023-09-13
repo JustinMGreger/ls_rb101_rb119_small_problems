@@ -40,7 +40,7 @@
 # the modified array is returned.
 
 # and Code." Implementation of Algorithm:
-
+def merge(arrone, arrtwo)
 
 
 the method takes 2 arrays as arguments
