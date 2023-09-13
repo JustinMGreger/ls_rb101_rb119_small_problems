@@ -33,5 +33,10 @@ p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the method takes 2 arrays as arguments
+# the arrays are combined into 1 array.
+# the duplicate values are removed.
+# the modified array is returned.
+
 and Code.” Implementation of Algorithm:
