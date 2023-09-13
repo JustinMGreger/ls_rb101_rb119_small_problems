@@ -85,9 +85,9 @@
 # and try using one in your #reverse method.
 
 # reduce solution:
-def reverse(array)
-  array.reduce([]) { |acc, elem| [elem] + acc }
-end
+# def reverse(array)
+#   array.reduce([]) { |acc, elem| [elem] + acc }
+# end
 
 # each_with_object.
 
