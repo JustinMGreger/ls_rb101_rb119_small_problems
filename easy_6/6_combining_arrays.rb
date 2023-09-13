@@ -42,7 +42,7 @@
 # and Code." Implementation of Algorithm:
 def merge(array_one, array_two)
 array_three = array_one.product(array_two)
-
+array_three.squeeze
 
 the duplicate values are removed.
 the modified array is returned.
