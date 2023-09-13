@@ -6,7 +6,7 @@
 # even if there are duplicates in the original Arrays.
 
 # Example
-p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
+# p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
