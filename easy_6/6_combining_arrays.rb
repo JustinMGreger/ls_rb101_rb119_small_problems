@@ -41,7 +41,7 @@
 
 # and Code." Implementation of Algorithm:
 def merge(array_one, array_two)
-
+  array_one.union(array_two)
 end
 
 # test:
