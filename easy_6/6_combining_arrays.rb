@@ -44,7 +44,6 @@ def merge(array_one, array_two)
   array_one.product(array_two)
 
 
-the arrays are combined into 1 array.
 the duplicate values are removed.
 the modified array is returned.
 
