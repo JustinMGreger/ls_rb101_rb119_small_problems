@@ -9,7 +9,7 @@
 # p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-# PEDAC stands for “[Understand the] Problem, 
+# PEDAC stands for “[Understand the] Problem,
 
 # Identify expected input: 
 # two Arrays as arguments
