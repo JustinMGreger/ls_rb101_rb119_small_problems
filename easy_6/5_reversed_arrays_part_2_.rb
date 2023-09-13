@@ -89,7 +89,7 @@ def reverse(array)
   array.reduce([]) { |acc, elem| [elem] + acc }
 end
 
-#each_with_object.
+# each_with_object.
 
 # tests:
 p reverse([1, 2, 3, 4]) == [4, 3, 2, 1] # => true
