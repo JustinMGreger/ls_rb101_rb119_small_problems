@@ -40,3 +40,6 @@ p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 # the modified array is returned.
 
 and Code.” Implementation of Algorithm:
+
+# test:
+p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
