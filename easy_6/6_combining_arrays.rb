@@ -6,3 +6,4 @@
 # even if there are duplicates in the original Arrays.
 
 # Example
+p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
