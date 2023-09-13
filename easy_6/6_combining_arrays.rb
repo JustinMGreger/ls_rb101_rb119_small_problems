@@ -14,7 +14,8 @@ p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
 # Identify expected input: 
 # two Arrays as arguments
 
-output:
+# output:
+# a new Array that contains all of the non duplicate values from the argument Arrays
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
