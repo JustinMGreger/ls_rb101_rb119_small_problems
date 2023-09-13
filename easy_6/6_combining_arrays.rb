@@ -41,7 +41,7 @@
 
 # and Code." Implementation of Algorithm:
 def merge(array_one, array_two)
-  array_one.product(array_two)
+array_three = array_one.product(array_two)
 
 
 the duplicate values are removed.
