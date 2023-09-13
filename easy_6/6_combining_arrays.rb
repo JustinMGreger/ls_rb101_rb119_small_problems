@@ -40,9 +40,9 @@
 # the modified array is returned.
 
 # and Code." Implementation of Algorithm:
-def merge(array_one, array_two)
-  array_one.union(array_two)
-end
+# def merge(array_one, array_two)
+#   array_one.union(array_two)
+# end
 
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
