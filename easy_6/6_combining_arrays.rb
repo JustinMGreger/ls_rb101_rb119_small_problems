@@ -39,7 +39,16 @@
 # the duplicate values are removed.
 # the modified array is returned.
 
-and Code.” Implementation of Algorithm:
+# and Code." Implementation of Algorithm:
+
+
+
+the method takes 2 arrays as arguments
+the arrays are combined into 1 array.
+the duplicate values are removed.
+the modified array is returned.
+
+
 
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
