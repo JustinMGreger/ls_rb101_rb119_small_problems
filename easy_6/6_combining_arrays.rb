@@ -51,7 +51,11 @@
 
 # Further Exploration
 
-How did you go about solving this one? 
+# How did you go about solving this one? 
+# def merge(array_one, array_two)
+#   array_one.union(array_two)
+# end
+
 Using this method for set union is convenient, but what if we didn't have it?
 There are certainly a few other ways to go about solving this exercise.
 
