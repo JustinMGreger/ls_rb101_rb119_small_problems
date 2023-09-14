@@ -61,6 +61,8 @@
 
 def merge(array_one, array_two)
   result = []
+  
+  array_one.each do |element|
 
 
 # test:
