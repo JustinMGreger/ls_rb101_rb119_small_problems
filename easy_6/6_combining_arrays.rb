@@ -70,6 +70,9 @@ def merge(array_one, array_two)
     result << element unless result.include?(element)
   end
 
+  result
+end
+
 
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
