@@ -61,8 +61,10 @@
 
 def merge(array_one, array_two)
   result = []
-  
+
   array_one.each do |element|
+    result << element unless result.include?(element)
+  end
 
 
 # test:
