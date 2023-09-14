@@ -60,7 +60,8 @@
 # There are certainly a few other ways to go about solving this exercise.
 
 def merge(array_one, array_two)
-  
+  result = []
+
 
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
