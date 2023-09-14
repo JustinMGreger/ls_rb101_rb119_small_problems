@@ -23,10 +23,10 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
-p halvsies([1, 5, 2, 4, 3]) == [[1, 5, 2], [4, 3]]
-p halvsies([5]) == [[5], []]
-p halvsies([]) == [[], []]
+# p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
+# p halvsies([1, 5, 2, 4, 3]) == [[1, 5, 2], [4, 3]]
+# p halvsies([5]) == [[5], []]
+# p halvsies([]) == [[], []]
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
