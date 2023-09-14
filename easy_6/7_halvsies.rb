@@ -33,3 +33,9 @@ p halvsies([]) == [[], []]
 
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# tests:
+p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
+p halvsies([1, 5, 2, 4, 3]) == [[1, 5, 2], [4, 3]]
+p halvsies([5]) == [[5], []]
+p halvsies([]) == [[], []]
