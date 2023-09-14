@@ -49,5 +49,11 @@ def merge(array_1, array_2)
   array_1 | array_2
 end
 
+# Further Exploration
+
+How did you go about solving this one? 
+Using this method for set union is convenient, but what if we didn't have it?
+There are certainly a few other ways to go about solving this exercise.
+
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
