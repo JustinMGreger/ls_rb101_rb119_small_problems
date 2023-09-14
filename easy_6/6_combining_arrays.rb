@@ -66,6 +66,8 @@ def merge(array_one, array_two)
     result << element unless result.include?(element)
   end
 
+  array_two.each do |element|
+
 
 # test:
 p merge([1, 3, 5], [3, 6, 9]) == [1, 3, 5, 6, 9]
