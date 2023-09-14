@@ -19,6 +19,11 @@
 # an Array as an argument
 
 output:
+returns two Arrays (as a pair of nested Arrays) that contain the first half 
+and second half of the original Array
+If the original array contains an odd number of elements,
+the middle element should be placed in the first half Array.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
