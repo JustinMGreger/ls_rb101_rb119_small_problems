@@ -27,7 +27,16 @@
 # 3. these two Arrays contain the first half and second half of the original Array.
 # 4. If the original array elements are odd the middle element should be placed in the first half Array.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the halvsies method takes an Array as an argument.
+return two Arrays (as a pair of nested Arrays).
+these two Arrays contain the first half and second half of the original Array.
+If the original array elements are odd the middle element should be placed in the first half Array.
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
