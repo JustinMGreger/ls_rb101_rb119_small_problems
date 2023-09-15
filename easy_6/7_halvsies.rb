@@ -54,8 +54,8 @@
 # and Code.” Implementation of Algorithm:
 def halvsies(array_one)
   array_one
-  if the Array argument contains an odd number of elements split it so that the middle element should be placed
-  in the first half Array and the second half array contains the rest of elements and these are a pair of nested Arrays.
+  if array_one is odd
+     split it so that the middle element should be placed in the first half Array and the second half array contains the rest of elements and these are a pair of nested Arrays.
   if the Array argument does not contain an odd number of elements  the Array argument then split into two equal
   nested Arrays.
   return the pair of nested Arrays.
