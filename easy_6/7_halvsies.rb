@@ -44,6 +44,19 @@
 # array.
 
 Algorithm, Steps for converting input to output:
+1. the halvsies method takes an Array as an argument.
+determine if the array argument contains an odd amount of elements.
+
+create two Arrays (as a pair of nested Arrays).
+if odd the Array argument is split so that the middle element should be placed in the first half Array.
+if not odd the Array argument is evenly split into two Arrays (as a pair of nested Arrays).
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
