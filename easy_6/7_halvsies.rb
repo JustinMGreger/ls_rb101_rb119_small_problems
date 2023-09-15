@@ -53,7 +53,7 @@
 
 # and Code.” Implementation of Algorithm:
 def halvsies(array_one)
-  array_one
+
   if array_one is odd
      split array_one so that: 
      first_half_array = [first_half_elements, middle_element]  
