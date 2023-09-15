@@ -59,8 +59,7 @@ def halvsies(array_one)
      first_half_array = [first_half_elements, middle_element]  
      second_half_array = [second_half_elements]
   if array_one is not odd
-     does not contain an odd number of elements  the Array argument then split into two equal
-  nested Arrays.
+  then split into two equal nested Arrays.
   return the pair of nested Arrays.
 end
 
