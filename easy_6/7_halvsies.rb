@@ -56,8 +56,8 @@ def halvsies(array_one)
 
   middle_element = (array_one.length / 2.0).ceil
  
-  first_half_array = array_one.slice(0, middle_idx)
-  second_half_array = array_one.slice(middle_idx, array_one.length - middle_idx)
+  first_half_array = array_one.slice(0, middle_element)
+  second_half_array = array_one.slice(middle_element, array_one.length - middle_element)
 
   [first_half_array, second_half_array]
 end
