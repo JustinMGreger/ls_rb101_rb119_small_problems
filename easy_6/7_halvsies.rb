@@ -60,18 +60,13 @@ def halvsies(array_one)
      second_half_array = [second_half_elements]
      nested = [[first_half_array],[second_half_array]]
   if array_one is not odd
-    then split array_one:
+    then split array_one /2:
     first_half_array = [first_half_elements] 
     second_half_array = [second_half_elements]
     nested = [[first_half_array],[second_half_array]]
   end
   nested
 end
-
-
-
-
-
 
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
