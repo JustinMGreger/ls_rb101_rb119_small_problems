@@ -61,7 +61,7 @@ def halvsies(array_one)
      nested = [[first_half_array],[second_half_array]]
   if array_one is not odd
     then split array_one:
-    
+    nested = [[first_half_array],[second_half_array]]
   end
   nested
 end
