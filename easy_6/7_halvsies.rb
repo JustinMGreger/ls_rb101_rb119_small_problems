@@ -54,7 +54,7 @@
 # and Code.” Implementation of Algorithm:
 def halvsies(array_one)
   middle_element = (array_one.length / 2.0).ceil
- 
+
   first_half_array = array_one.slice(0, middle_element)
   second_half_array = array_one.slice(middle_element, array_one.length - middle_element)
 
