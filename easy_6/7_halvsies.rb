@@ -51,7 +51,19 @@
 # nested Arrays.
 # 4. return the pair of nested Arrays.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+the halvsies method takes an Array as an argument.
+if the Array argument contains an odd number of elements split it so that the middle element should be placed
+in the first half Array and the second half array contains the rest of elements and these are a pair of nested Arrays.
+if the Array argument does not contain an odd number of elements  the Array argument then split into two equal
+nested Arrays.
+return the pair of nested Arrays.
+
+
+
+
+
+
 
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
