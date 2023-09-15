@@ -55,18 +55,7 @@
 def halvsies(array_one)
 
   middle_element = (array_one.length / 2.0).ceil
-  if array_one is odd
-     split array_one so that: 
-     first_half_array = [first_half_elements, middle_element]  
-     second_half_array = [second_half_elements]
-     nested = [[first_half_array],[second_half_array]]
-  if array_one is not odd
-    then split array_one /2:
-    first_half_array = [first_half_elements] 
-    second_half_array = [second_half_elements]
-    nested = [[first_half_array],[second_half_array]]
-  end
-  nested
+ 
 end
 
 # tests:
