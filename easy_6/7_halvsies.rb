@@ -58,6 +58,8 @@ def halvsies(array_one)
  
   first_half_array = array_one.slice(0, middle_idx)
   second_half_array = array_one.slice(middle_idx, array_one.length - middle_idx)
+
+  [first_half_array, second_half_array]
 end
 
 # tests:
