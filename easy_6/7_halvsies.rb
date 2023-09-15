@@ -21,7 +21,12 @@
 # output:
 # returns two Arrays (as a pair of nested Arrays)
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# 1. Write a method that takes an Array as an argument.
+# 2. return two Arrays (as a pair of nested Arrays).
+# 3. these two Arrays contain the first half and second half of the original Array.
+# 4. If the original array elements are odd the middle element should be placed in the first half Array.
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
