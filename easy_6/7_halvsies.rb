@@ -54,6 +54,7 @@
 # and Code.” Implementation of Algorithm:
 def halvsies(array_one)
 
+  middle_element = (array_one.length / 2.0).ceil
   if array_one is odd
      split array_one so that: 
      first_half_array = [first_half_elements, middle_element]  
