@@ -22,9 +22,11 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # PEDAC stands for “[Understand the] Problem, 
 
 # Identify expected input: 
-# an unordered array 
+# an unordered array.
 
-output:
+# output:
+# boolean true or false.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
