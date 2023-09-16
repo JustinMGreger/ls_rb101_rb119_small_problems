@@ -21,7 +21,9 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem, 
 
-Identify expected input: 
+# Identify expected input: 
+# an unordered array 
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
