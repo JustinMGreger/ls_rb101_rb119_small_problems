@@ -17,4 +17,14 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
           85, 87, 51, 17, 66, 20, 28, 26,  2, 22,
           40, 23, 71, 62, 73, 32, 43, 24,  4, 56,
           7,  34, 57, 74, 45, 11, 88, 67,  5, 58]) == 73
-          
+
+PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+PEDAC stands for “[Understand the] Problem, 
+Identify expected input: 
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code.” Implementation of Algorithm:
