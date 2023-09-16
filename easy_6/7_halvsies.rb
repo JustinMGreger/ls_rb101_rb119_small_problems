@@ -79,7 +79,12 @@ end
 # first_half = array.slice(0, middle) ensures that the middle element is in the first_half varible. 
 
 # This is but one way to solve this problem.
-What solution did you end up with? Was it similar or entirely different?
+# What solution did you end up with?
+
+
+
+
+Was it similar or entirely different?
 
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
