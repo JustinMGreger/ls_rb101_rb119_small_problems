@@ -69,6 +69,12 @@ def halvsies(array)
   [first_half, second_half]
 end
 
+# Further Exploration
+
+Can you explain why our solution divides array.size by 2.0 instead of just 2?
+
+This is but one way to solve this problem. What solution did you end up with? Was it similar or entirely different?
+
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
 p halvsies([1, 5, 2, 4, 3]) == [[1, 5, 2], [4, 3]]
