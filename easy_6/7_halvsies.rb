@@ -89,6 +89,8 @@ def halvsies(array_one)
 end
 
 # Was it similar or entirely different?
+# answer:
+# similar.
 
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
