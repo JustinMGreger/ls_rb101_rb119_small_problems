@@ -80,9 +80,13 @@
 
 # This is but one way to solve this problem.
 # What solution did you end up with?
-
-
-
+# answer:
+def halvsies(array_one)
+  middle_element = (array_one.length / 2.0).ceil
+  first_half_array = array_one.slice(0, middle_element)
+  second_half_array = array_one.slice(middle_element, array_one.length - middle_element)
+  [first_half_array, second_half_array]
+end
 
 Was it similar or entirely different?
 
