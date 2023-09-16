@@ -88,7 +88,7 @@ def halvsies(array_one)
   [first_half_array, second_half_array]
 end
 
-Was it similar or entirely different?
+# Was it similar or entirely different?
 
 # tests:
 p halvsies([1, 2, 3, 4]) == [[1, 2], [3, 4]]
