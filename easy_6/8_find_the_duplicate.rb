@@ -19,9 +19,9 @@
 #          7,  34, 57, 74, 45, 11, 88, 67,  5, 58]) == 73
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-# PEDAC stands for “[Understand the] Problem, 
+# PEDAC stands for “[Understand the] Problem,
 
-# Identify expected input: 
+# Identify expected input:
 # an unordered array.
 
 # output:
