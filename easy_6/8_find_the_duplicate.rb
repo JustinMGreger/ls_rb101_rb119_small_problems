@@ -58,7 +58,10 @@ p find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 
 # Algorithm, Steps for converting input to output:
 # 1. the find_dup method accepts a unordered array.
-# 2. determine which value occurs twice in the array.
-# 3. return the value which value occurs twice in the array.
+# 2. determine which value occurs twice in the array:
+# 3. iterate through the array
+# 4. select the elements that occur more than once.
+# 5. assign these elements to a varible.
+# 6. return the variable.
 
 and Code.” Implementation of Algorithm:
