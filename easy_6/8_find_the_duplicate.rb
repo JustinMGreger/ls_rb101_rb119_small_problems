@@ -31,7 +31,7 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # write a method.
 # the method accepts a unordered array.
 # exactly one value in the array occurs twice.
-(every other value occurs exactly once),
+# all other values occurs exactly once.
 
 how would you determine which value occurs twice?
 Write a method that will find and return the duplicate value that is known to be in the array.
