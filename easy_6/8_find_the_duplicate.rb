@@ -28,9 +28,10 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # boolean true or false.
 
 # Make the requirements explicit Identify rules:
-# Write a method.
+# write a method.
+# the method accepts a unordered array.
 
-Given an unordered array and the information that 
+and the information that 
 exactly one value in the array occurs twice
 (every other value occurs exactly once),
 
