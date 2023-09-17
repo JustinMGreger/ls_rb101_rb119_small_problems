@@ -68,7 +68,6 @@ p find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 def find_dup(unordered_array)
   duplicate = unordered_array.select { |x| }
 2. determine which value occurs twice in the array:
-3. iterate through the array
 4. select the elements that occur more than once.
 
 # tests:
