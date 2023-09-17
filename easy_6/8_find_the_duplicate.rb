@@ -34,7 +34,18 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # all other values occurs exactly once.
 # determine which value occurs twice and return it.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+write a method.
+the method accepts a unordered array.
+exactly one value in the array occurs twice.
+all other values occurs exactly once.
+determine which value occurs twice and return it.
+
+
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
