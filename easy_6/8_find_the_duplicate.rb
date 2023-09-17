@@ -27,7 +27,20 @@ find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # output:
 # boolean true or false.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method.
+
+Given an unordered array and the information that 
+exactly one value in the array occurs twice
+(every other value occurs exactly once),
+
+how would you determine which value occurs twice?
+Write a method that will find and return the duplicate value that is known to be in the array.
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
