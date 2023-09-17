@@ -65,7 +65,7 @@ p find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # 6. return the variable.
 
 # and Code.” Implementation of Algorithm:
-1. the find_dup method accepts a unordered array.
+def find_dup(unordered_array)
 2. determine which value occurs twice in the array:
 3. iterate through the array
 4. select the elements that occur more than once.
@@ -84,4 +84,3 @@ p find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
           85, 87, 51, 17, 66, 20, 28, 26,  2, 22,
           40, 23, 71, 62, 73, 32, 43, 24,  4, 56,
           7,  34, 57, 74, 45, 11, 88, 67,  5, 58]) == 73
-          
