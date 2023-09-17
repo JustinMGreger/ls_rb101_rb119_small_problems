@@ -67,8 +67,7 @@ p find_dup([18,  9, 36, 96, 31, 19, 54, 75, 42, 15,
 # and Code.” Implementation of Algorithm:
 def find_dup(unordered_array)
   duplicate = unordered_array.select { |x| unordered_array.count(x) > 1 }.uniq
-2. determine which value occurs twice in the array:
-4. select the elements that occur more than once.
+
 
 # tests:
 p find_dup([1, 5, 3, 1]) == 1
