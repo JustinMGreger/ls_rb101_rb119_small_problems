@@ -70,7 +70,6 @@ def find_dup(unordered_array)
 2. determine which value occurs twice in the array:
 3. iterate through the array
 4. select the elements that occur more than once.
-5. assign these elements to a varible.
 6. return the variable.
 
 # tests:
