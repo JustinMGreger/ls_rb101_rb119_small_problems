@@ -66,7 +66,7 @@
 
 # and Code.” Implementation of Algorithm:
 def find_dup(unordered_array)
-  unordered_array.select { |x| unordered_array.count(x) > 1 }.uniq
+  unordered_array.find { |x| unordered_array.count(x) > 1 }
 end
 
 # tests:
