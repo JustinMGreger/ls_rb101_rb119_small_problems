@@ -86,12 +86,11 @@ def find_dup(unordered_array)
   track_array = []
   unordered_array.each do |x|
     return x if track_array.include?(x)
-    
+
     track_array << x
   end
   nil
 end
-
 
 # How did you end up solving this one?
 
