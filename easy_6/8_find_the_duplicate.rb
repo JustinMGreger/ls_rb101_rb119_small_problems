@@ -93,6 +93,9 @@
 # end
 
 # How did you end up solving this one?
+def find_dup(unordered_array)
+  unordered_array.find { |x| unordered_array.count(x) > 1 }
+end
 
 # tests:
 p find_dup([1, 5, 3, 1]) == 1
