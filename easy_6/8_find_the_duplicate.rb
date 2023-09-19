@@ -84,6 +84,7 @@
 # further exploration solution:
 def find_dup(unordered_array)
   track_array = []
+  unordered_array.each do |x|
 
 
 # How did you end up solving this one?
