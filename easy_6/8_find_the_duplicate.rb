@@ -74,6 +74,15 @@
 #   array.find { |element| array.count(element) == 2 }
 # end
 
+# Further Exploration
+
+There are several ways to go about solving this problem.
+One other way would be to have a separate array that keeps track of which items have been looked at
+as we iterate through the original array.
+If we ever add the same item twice to this second array, then we know that we have found a duplicate.
+
+How did you end up solving this one?
+
 # tests:
 p find_dup([1, 5, 3, 1]) == 1
 p find_dup([18, 9, 36, 96, 31, 19, 54, 75, 42, 15,
