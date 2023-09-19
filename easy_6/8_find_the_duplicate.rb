@@ -83,6 +83,7 @@
 
 # further exploration solution:
 def find_dup(unordered_array)
+  track_array = []
 
 
 # How did you end up solving this one?
