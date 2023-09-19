@@ -76,7 +76,7 @@
 
 # Further Exploration
 
-There are several ways to go about solving this problem.
+# There are several ways to go about solving this problem.
 One other way would be to have a separate array that keeps track of which items have been looked at
 as we iterate through the original array.
 If we ever add the same item twice to this second array, then we know that we have found a duplicate.
