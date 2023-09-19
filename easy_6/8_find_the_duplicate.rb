@@ -85,7 +85,7 @@
 def find_dup(unordered_array)
 
 
-How did you end up solving this one?
+# How did you end up solving this one?
 
 # tests:
 p find_dup([1, 5, 3, 1]) == 1
