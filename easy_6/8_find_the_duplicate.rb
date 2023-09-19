@@ -89,6 +89,7 @@ def find_dup(unordered_array)
     track_array << x
   end
   nil
+end
 
 
 # How did you end up solving this one?
