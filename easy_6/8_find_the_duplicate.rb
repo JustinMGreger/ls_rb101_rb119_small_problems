@@ -81,6 +81,9 @@
 # as we iterate through the original array.
 # If we ever add the same item twice to this second array, then we know that we have found a duplicate.
 
+# further exploration solution:
+
+
 How did you end up solving this one?
 
 # tests:
