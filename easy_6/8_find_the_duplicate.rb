@@ -82,6 +82,7 @@
 # If we ever add the same item twice to this second array, then we know that we have found a duplicate.
 
 # further exploration solution:
+def find_dup(unordered_array)
 
 
 How did you end up solving this one?
