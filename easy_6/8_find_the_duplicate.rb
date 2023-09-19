@@ -70,9 +70,9 @@
 # end
 
 # LS solution:
-def find_dup(array)
-  array.find { |element| array.count(element) == 2 }
-end
+# def find_dup(array)
+#   array.find { |element| array.count(element) == 2 }
+# end
 
 # tests:
 p find_dup([1, 5, 3, 1]) == 1
