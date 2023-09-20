@@ -51,9 +51,7 @@
 # Algorithm, Steps for converting input to output:
 # 1. the include? method accepts the array_parameter and the search_value.
 # 2. determine if the search_value is in the array_parameter.
-
-  if search_value is in array_parameter
-    true
+# 3. if search_value is in array_parameter return true.
   else
     false
   end
