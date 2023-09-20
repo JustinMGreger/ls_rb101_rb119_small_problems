@@ -23,7 +23,17 @@
 # return true if the search value is in the array.
 # return false if the search value is not in the array.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write the include? method. 
+
+(an Array and a search value)
+
+as arguments.
+ This method should return true if the search value is in the array, false if it is not. You may not use the Array#include? method in your solution.
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
