@@ -19,7 +19,10 @@
 # Identify expected input: 
 # an Array and a search value.
 
-output:
+# output:
+# return true if the search value is in the array.
+# return false if the search value is not in the array.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
