@@ -31,3 +31,10 @@ Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# tests:
+p include?([1, 2, 3, 4, 5], 3) == true
+p include?([1, 2, 3, 4, 5], 6) == false
+p include?([], 3) == false
+p include?([nil], nil) == true
+p include?([], nil) == false
