@@ -31,7 +31,7 @@
 
 Mental model of the problem (optional):
 def include?(array_parameter, search_value)
-  if
+  if search_value is in array_parameter
     true
   else
 if the search value is in the array
