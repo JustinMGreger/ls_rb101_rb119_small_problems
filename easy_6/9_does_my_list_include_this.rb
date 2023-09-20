@@ -48,7 +48,22 @@ end
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def include?(array_parameter, search_value)
+  if search_value is in array_parameter
+    true
+  else
+    false
+  end
+end
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
