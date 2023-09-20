@@ -27,7 +27,7 @@
 # include?(an Array and a search value)
 # include? returns true if the search value is in the array
 # include? returns false if the search value is not in the array.
-, false if it is not. You may not use the Array#include? method in your solution.
+You may not use the Array#include? method in your solution.
 
 
 
