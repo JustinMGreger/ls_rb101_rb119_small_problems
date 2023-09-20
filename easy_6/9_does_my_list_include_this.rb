@@ -53,15 +53,6 @@
 # 2. determine if the search_value is in the array_parameter.
 # 3. if search_value is in array_parameter return true.
 # 4. else return false.
-  end
-end
-
-
-
-
-
-
-
 
 and Code.” Implementation of Algorithm:
 
