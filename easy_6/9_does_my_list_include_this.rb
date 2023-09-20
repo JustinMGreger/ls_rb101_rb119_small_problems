@@ -30,6 +30,13 @@
 # You may not use the Array#include? method in your solution.
 
 Mental model of the problem (optional):
+def include?(array_parameter, search_value)
+
+include? returns true if the search value is in the array
+include? returns false if the search value is not in the array.
+You may not use the Array#include? method in your solution.
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p include?([1, 2, 3, 4, 5], 3) == true
