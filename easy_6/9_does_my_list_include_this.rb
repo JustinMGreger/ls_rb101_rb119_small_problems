@@ -25,9 +25,9 @@
 
 # Make the requirements explicit Identify rules:
 # include?(an Array and a search value)
+# include? returns true if the search value is in the array
 
-
- This method should return true if the search value is in the array, false if it is not. You may not use the Array#include? method in your solution.
+, false if it is not. You may not use the Array#include? method in your solution.
 
 
 
