@@ -34,6 +34,7 @@ def include?(array_parameter, search_value)
   if search_value is in array_parameter
     true
   else
+    false
 include? returns false if the search value is not in the array.
 You may not use the Array#include? method in your solution.
 
