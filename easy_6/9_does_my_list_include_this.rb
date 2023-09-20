@@ -32,8 +32,9 @@
 Mental model of the problem (optional):
 def include?(array_parameter, search_value)
   if
+    true
   else
-include? returns true if the search value is in the array
+if the search value is in the array
 include? returns false if the search value is not in the array.
 You may not use the Array#include? method in your solution.
 
