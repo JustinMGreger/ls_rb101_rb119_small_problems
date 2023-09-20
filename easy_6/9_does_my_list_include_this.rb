@@ -29,14 +29,14 @@
 # include? returns false if the search value is not in the array.
 # You may not use the Array#include? method in your solution.
 
-Mental model of the problem (optional):
-def include?(array_parameter, search_value)
-  if search_value is in array_parameter
-    true
-  else
-    false
-  end
-end
+# Mental model of the problem (optional):
+# def include?(array_parameter, search_value)
+#   if search_value is in array_parameter
+#     true
+#   else
+#     false
+#   end
+# end
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p include?([1, 2, 3, 4, 5], 3) == true
