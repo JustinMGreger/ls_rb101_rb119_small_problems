@@ -54,7 +54,11 @@
 # 3. if search_value is in array_parameter return true.
 # 4. else return false.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+the include? method accepts the array_parameter and the search_value.
+determine if the search_value is in the array_parameter.
+if search_value is in array_parameter return true.
+else return false.
 
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
