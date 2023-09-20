@@ -35,6 +35,8 @@ def include?(array_parameter, search_value)
     true
   else
     false
+  end
+end
 
 
 
