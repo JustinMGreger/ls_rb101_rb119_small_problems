@@ -55,7 +55,7 @@
 # 4. else return false.
 
 # and Code.” Implementation of Algorithm:
-the include? method accepts the array_parameter and the search_value.
+def include?(array_parameter, the search_value)
 determine if the search_value is in the array_parameter.
 if search_value is in array_parameter return true.
 else return false.
