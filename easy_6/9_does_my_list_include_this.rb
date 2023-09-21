@@ -55,7 +55,7 @@
 # 4. else return false.
 
 # and Code.” Implementation of Algorithm:
-def include?(array_parameter, the search_value)
+def include?(array_parameter, search_value)
   if array_parameter.find(search_value) == true
     return true
   else
