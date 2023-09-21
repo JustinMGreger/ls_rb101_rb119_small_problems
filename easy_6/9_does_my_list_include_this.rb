@@ -55,18 +55,21 @@
 # 4. else return false.
 
 # and Code.” Implementation of Algorithm:
-def include?(array_parameter, search_value)
-  found_value = array_parameter.find { |element| element == search_value }
-  if search_value.nil?
-    !array_parameter.empty? && found_value.nil?
-  else
-    !!found_value
-  end
-end
+# def include?(array_parameter, search_value)
+#   found_value = array_parameter.find { |element| element == search_value }
+#   if search_value.nil?
+#     !array_parameter.empty? && found_value.nil?
+#   else
+#     !!found_value
+#   end
+# end
 
 # Solution
 
 # LS Solution The easy way
+def include?(array, value)
+  !!array.find_index(value)
+end
 
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
