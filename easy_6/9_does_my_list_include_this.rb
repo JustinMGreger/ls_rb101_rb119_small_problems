@@ -64,6 +64,10 @@ def include?(array_parameter, search_value)
   end
 end
 
+# Solution
+
+# LS Solution The easy way
+
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
 p include?([1, 2, 3, 4, 5], 6) == false
