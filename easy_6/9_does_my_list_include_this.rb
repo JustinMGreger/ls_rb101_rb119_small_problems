@@ -57,12 +57,10 @@
 # and Code.” Implementation of Algorithm:
 def include?(array_parameter, search_value)
   found_value = array_parameter.find { |element| element == search_value }
-  if found_value.nil? && search_value.nil?
-    true
-  elsif found_value
-    true
+  if search_value.nil?
+    !array_parameter.empty? && found_value.nil?
   else
-    false
+    !!found_value
   end
 end
 
