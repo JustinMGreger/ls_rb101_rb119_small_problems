@@ -60,6 +60,8 @@ def include?(array_parameter, the search_value)
     return true
   else
     return false.
+  end
+end
 
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
