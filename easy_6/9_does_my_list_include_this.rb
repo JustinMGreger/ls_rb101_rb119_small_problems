@@ -60,7 +60,7 @@ def include?(array_parameter, search_value)
   if found_value
     return true
   else
-    return false.
+    return false
   end
 end
 
