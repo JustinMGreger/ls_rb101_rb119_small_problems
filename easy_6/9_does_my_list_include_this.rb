@@ -58,9 +58,9 @@
 def include?(array_parameter, search_value)
   found_value = array_parameter.find { |element| element == search_value }
   if found_value
-    return true
+    true
   else
-    return false
+    false
   end
 end
 
