@@ -56,6 +56,8 @@
 
 # and Code.” Implementation of Algorithm:
 def include?(array_parameter, the search_value)
+  if array_parameter.find(search_value) == true
+    return true
 determine if the search_value is in the array_parameter.
 if search_value is in array_parameter return true.
 else return false.
