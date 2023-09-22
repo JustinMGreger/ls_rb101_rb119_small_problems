@@ -15,5 +15,13 @@ array2 = []
 
 
 array1.each { |value| array2 << value }
+# this is the same as:
+# reason:
+
 array1.each { |value| value.upcase! if value.start_with?('C', 'S') }
+# this is the same as:
+# reason:
+
 puts array2
+# this is the same as:
+# reason:
