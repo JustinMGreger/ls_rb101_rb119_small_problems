@@ -92,6 +92,11 @@
 #   !array.select { |element| element == value }.empty?
 # end
 
+# Solution grep
+def include?(array, value)
+  !array.grep(value).empty?
+end
+
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
 p include?([1, 2, 3, 4, 5], 6) == false
