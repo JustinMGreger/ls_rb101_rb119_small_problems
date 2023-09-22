@@ -11,10 +11,11 @@
 
 array2 = []
 
-array1.each { |value| array2 << value }
+# array1.each { |value| array2 << value }
 # this is means:
 each element in the array1 is passed the { |value| array2 << value } block
 which contains: the result of appending the value block parameter to the array2 varible.
+
 
 array1.each { |value| value.upcase! if value.start_with?('C', 'S') }
 # this is the same as:
