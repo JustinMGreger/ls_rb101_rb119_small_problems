@@ -72,10 +72,10 @@
 # end
 
 # LS Solution A slightly harder way
-def include?(array, value)
-  array.each { |element| return true if value == element }
-  false
-end
+# def include?(array, value)
+#   array.each { |element| return true if value == element }
+#   false
+# end
 
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
