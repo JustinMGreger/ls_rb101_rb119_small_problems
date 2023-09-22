@@ -11,8 +11,9 @@
 
 array2 = []
 # this is the same as:
+array2 = []
 # reason:
-
+array2 = []
 
 array1.each { |value| array2 << value }
 # this is the same as:
