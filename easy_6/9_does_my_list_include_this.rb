@@ -87,6 +87,11 @@
 #   array.any? { |element| element == value }
 # end
 
+# Solution select
+def include?(array, value)
+  !array.select { |element| element == value }.empty?
+end
+
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
 p include?([1, 2, 3, 4, 5], 6) == false
