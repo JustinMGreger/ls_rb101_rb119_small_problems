@@ -82,6 +82,11 @@
 # Can you think of other solutions to this problem?
 # There are lots of different ways to get the same result.
 
+# Solution any?
+# def include?(array, value)
+#   array.any? { |element| element == value }
+# end
+
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
 p include?([1, 2, 3, 4, 5], 6) == false
