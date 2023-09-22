@@ -77,6 +77,10 @@
 #   false
 # end
 
+# Further Exploration
+
+Can you think of other solutions to this problem? There are lots of different ways to get the same result.
+
 # tests:
 p include?([1, 2, 3, 4, 5], 3) == true
 p include?([1, 2, 3, 4, 5], 6) == false
