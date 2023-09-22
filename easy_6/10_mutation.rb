@@ -6,7 +6,7 @@
 # array1 = %w(Moe Larry Curly Shemp Harpo Chico Groucho Zeppo)
 # this is the same as:
 # array1 = ('Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo')
-
+# reason: %w() is the same as ('string')
 
 
 
