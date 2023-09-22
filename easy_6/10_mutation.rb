@@ -2,6 +2,16 @@
 
 # What will the following code print,
 # and why?
+
+# array1 = %w(Moe Larry Curly Shemp Harpo Chico Groucho Zeppo)
+# this is the same as:
+# array1 = ('Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo')
+
+
+
+
+
+
 # Don't run the code until you have tried to answer.
 array1 = %w(Moe Larry Curly Shemp Harpo Chico Groucho Zeppo)
 array2 = []
