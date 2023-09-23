@@ -57,3 +57,4 @@
 # only use ! mutating versions of methods when you want to change the original object.
 # use dup or clone to create a copy of the object for complex structures or when passing objects to methods
 # where mutation is possible.
+# remember that modifying an object and reassigning a reference are different.
