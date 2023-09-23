@@ -17,9 +17,14 @@
 # which contains: the result of appending the value block parameter to the array2 varible.
 # the result is: array2 = ['Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo']
 
-array1.each { |value| value.upcase! if value.start_with?('C', 'S') }
-# this is the same as:
-# reason:
+# array1.each { |value| value.upcase! if value.start_with?('C', 'S') }
+# this means:
+# each element in array1 is passed the { |value| value.upcase! if value.start_with?('C', 'S') } block
+# which contains: the result of permanently transforming the value block parameter to upcase 
+# if the value block parameter starts with the 'C' or 'S' string.
+
+
+
 
 puts array2
 # this is the same as:
