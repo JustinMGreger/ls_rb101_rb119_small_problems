@@ -40,7 +40,8 @@
 # Further Exploration
 
 # How can this feature of ruby get you in trouble? 
-
+# When you pass an object to a method and that method mutates the object,
+# it can lead to unexpected side effects outside of that method.
 
 
 How can you avoid it?
