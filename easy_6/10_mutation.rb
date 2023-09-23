@@ -22,8 +22,9 @@
 # each element in array1 is passed the { |value| value.upcase! if value.start_with?('C', 'S') } block
 # which contains: the result of permanently transforming the value block parameter to upcase 
 # if the value block parameter starts with the 'C' or 'S' string.
-
-
+# the result is:
+array1 = ('Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo')
+array2 = ['Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo']
 
 
 puts array2
