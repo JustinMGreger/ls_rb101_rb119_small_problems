@@ -26,6 +26,6 @@
 # array1 = ('Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo')
 # array2 = ['Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo']
 
-puts array2
-# this is the same as:
-# reason:
+# puts array2
+# the result is:
+# ['Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo']
