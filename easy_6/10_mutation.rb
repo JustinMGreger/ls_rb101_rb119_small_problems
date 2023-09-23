@@ -39,5 +39,8 @@
 
 # Further Exploration
 
-How can this feature of ruby get you in trouble? 
+# How can this feature of ruby get you in trouble? 
+
+
+
 How can you avoid it?
