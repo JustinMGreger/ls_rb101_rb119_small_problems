@@ -24,8 +24,7 @@
 # if the value block parameter starts with the 'C' or 'S' string.
 # the result is:
 # array1 = ('Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo')
-array2 = ['Moe' 'Larry' 'Curly' 'Shemp' 'Harpo' 'Chico' 'Groucho' 'Zeppo']
-
+# array2 = ['Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo']
 
 puts array2
 # this is the same as:
