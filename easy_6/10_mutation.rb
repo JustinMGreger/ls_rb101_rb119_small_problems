@@ -28,4 +28,11 @@
 
 # puts array2
 # the result is:
-# ['Moe' 'Larry' 'CURLY' 'SHEMP' 'Harpo' 'CHICO' 'Groucho' 'Zeppo']
+# 'Moe'
+# 'Larry'
+# 'CURLY'
+# 'SHEMP'
+# 'Harpo'
+# 'CHICO'
+# 'Groucho'
+# 'Zeppo'
