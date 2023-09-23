@@ -42,7 +42,13 @@
 # How can this feature of ruby get you in trouble? 
 # When you pass an object to a method and that method mutates the object,
 # it can lead to unexpected side effects outside of that method.
-# If multiple objects or data structures share references to the same mutable objects,
+# if multiple objects or data structures share references to the same mutable objects,
 # changing the object in one place will affect it everywhere.
+# if you're caching objects and those objects get mutated elsewhere in your code,
+# your cache can end up with incorrect or outdated data.
+# data corruption can occur in multi-threaded applications,
+# if multiple threads are mutating shared objects without proper synchronization.
+# unintended mutations can cause bugs in different parts of the program which can be difficult to find.
+# arrays can be hash keys and if they are mutated it can cause bugs or make the values inaccessible.
 
 How can you avoid it?
