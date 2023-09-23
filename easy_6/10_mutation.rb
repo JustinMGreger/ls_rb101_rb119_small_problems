@@ -54,3 +54,4 @@
 # How can you avoid it?
 # use caution when mutating objects that shared or passed around in your code.
 # consider using frozen objects such as frozen_string_literal: true or the freeze method to prevent mutation.
+# only use ! mutating versions of methods when you want to change the original object.
