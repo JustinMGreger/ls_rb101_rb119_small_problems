@@ -42,6 +42,7 @@
 # How can this feature of ruby get you in trouble? 
 # When you pass an object to a method and that method mutates the object,
 # it can lead to unexpected side effects outside of that method.
-
+# If multiple objects or data structures share references to the same mutable objects,
+# changing the object in one place will affect it everywhere.
 
 How can you avoid it?
