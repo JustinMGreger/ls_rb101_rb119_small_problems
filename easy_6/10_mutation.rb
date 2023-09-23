@@ -51,4 +51,5 @@
 # unintended mutations can cause bugs in different parts of the program which can be difficult to find.
 # arrays can be hash keys and if they are mutated it can cause bugs or make the values inaccessible.
 
-How can you avoid it?
+# How can you avoid it?
+# use caution when mutating objects that shared or passed around in your code.
