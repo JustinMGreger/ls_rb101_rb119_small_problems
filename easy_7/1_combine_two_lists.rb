@@ -16,8 +16,11 @@
 # Identify expected input: 
 # two non-empty Arrays that have the same number of elements.
 
+# output:
+# a new Array of all elements with the elements taken in alternation.
 
-output:
+
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
