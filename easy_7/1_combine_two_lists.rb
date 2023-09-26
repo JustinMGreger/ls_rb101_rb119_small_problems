@@ -33,7 +33,7 @@ Mental model of the problem (optional):
 # both input Arrays have the same number of elements.
 # this means iteration can be used as it will stop at the same time.
 # write a method that combines two Arrays passed in as arguments.
-# return a new Array.
+# new_array
 # new_array = [all elements from both Array arguments]
 # new_array = [arr_one_element, arr_two_element, arr_one_element, arr_two_element]
 
