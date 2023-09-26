@@ -44,7 +44,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the interleave method accepts the (arr_one, arr_two) parameters.
-
+# arr_one and arr_two are combined into the new_array.
 
  this means iteration can be used as it will stop at the same time.
  interleave method combines (arr_one, arr_two).
