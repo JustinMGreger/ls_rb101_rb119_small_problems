@@ -54,12 +54,6 @@ new_array = []
 
 arr_one.select { |x| new_array << x }
 arr_two.select { |x| new_array << x }
-
-
-
-
-  arr_one and arr_two are combined into the new_array.
-  this is accomplished by assigning the iteration parameters to the new_array.
   new_array
 end
 
