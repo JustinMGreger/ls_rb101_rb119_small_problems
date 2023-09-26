@@ -27,8 +27,7 @@
 # the new Array contains all elements from both Array arguments.
 # the elements in the new Array alternate from their source arrays.
 
-Mental model of the problem (optional):
-
+# Mental model of the problem (optional):
 # arr_one and arr_two are non-empty.
 # arr_one and arr_two have the same number of elements.
 # this means iteration can be used as it will stop at the same time.
@@ -37,17 +36,12 @@ Mental model of the problem (optional):
 # new_array = [all elements from both Array arguments]
 # new_array = [arr_one_element, arr_two_element, arr_one_element, arr_two_element]
 
-
-
-
-
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
 # interleave([1, 2, 3], ['a', 'b', 'c']) == [1, 'a', 2, 'b', 3, 'c']
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
