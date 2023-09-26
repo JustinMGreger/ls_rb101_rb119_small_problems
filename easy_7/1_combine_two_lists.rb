@@ -50,8 +50,8 @@
 
 # and Code.” Implementation of Algorithm:
 def interleave(arr_one, arr_two)
-arr_one and arr_two are combined into the new_array.
-this is accomplished by assigning the iteration parameters to the new_array.
+  arr_one and arr_two are combined into the new_array.
+  this is accomplished by assigning the iteration parameters to the new_array.
   new_array
 end
 
