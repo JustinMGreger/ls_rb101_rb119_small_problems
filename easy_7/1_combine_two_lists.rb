@@ -30,7 +30,7 @@
 Mental model of the problem (optional):
 
 # arr_one and arr_two are non-empty.
-# both input Arrays have the same number of elements.
+# arr_one and arr_two have the same number of elements.
 # this means iteration can be used as it will stop at the same time.
 # interleave method combines two Arrays passed in as arguments.
 # new_array
