@@ -35,8 +35,7 @@ Mental model of the problem (optional):
 # write a method that combines two Arrays passed in as arguments.
 # return a new Array.
 # new_array = [all elements from both Array arguments]
-# the elements in the new Array alternate from their source arrays.
-
+# new_array = [arr_one_element, arr_two_element, arr_one_element, arr_two_element]
 
 
 
