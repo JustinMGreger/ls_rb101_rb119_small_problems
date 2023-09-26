@@ -52,8 +52,8 @@
 def interleave(arr_one, arr_two)
   new_array = []
   arr_one.length.times do |i|
-  new_array << arr_one[i]
-  new_array << arr_two[i]
+    new_array << arr_one[i]
+    new_array << arr_two[i]
   end
   new_array
 end
