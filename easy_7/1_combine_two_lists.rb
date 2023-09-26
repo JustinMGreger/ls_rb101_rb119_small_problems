@@ -58,5 +58,14 @@
 #   new_array
 # end
 
+# LS solution:
+def interleave(array1, array2)
+  result = []
+  array1.each_with_index do |element, index|
+    result << element << array2[index]
+  end
+  result
+end
+
 # tests:
 p interleave([1, 2, 3], %w[a b c]) == [1, 'a', 2, 'b', 3, 'c']
