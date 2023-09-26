@@ -19,9 +19,14 @@
 # output:
 # a new Array of all elements with the elements taken in alternation.
 
+# Make the requirements explicit Identify rules:
+# both input Arrays are non-empty.
+# both input Arrays have the same number of elements.
+# write a method that combines two Arrays passed in as arguments.
+# return a new Array.
+# the new Array contains all elements from both Array arguments.
+# the elements in the new Array alternate from their source arrays.
 
-
-Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
