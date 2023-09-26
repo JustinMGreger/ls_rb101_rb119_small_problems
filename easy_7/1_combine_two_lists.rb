@@ -52,7 +52,7 @@
 def interleave(arr_one, arr_two)
 new_array = []
 
-{ |x|}
+{ |x| new_array << x }
 
 
 
