@@ -47,8 +47,7 @@
 # arr_one and arr_two are combined into the new_array.
 # this is accomplished by assigning the iteration parameters to the new_array.
 
-can be used as it will stop at the same time.
- interleave method combines (arr_one, arr_two).
+
  new_array
  new_array = [all elements from both Array arguments]
  new_array = [arr_one_element, arr_two_element, arr_one_element, arr_two_element]
