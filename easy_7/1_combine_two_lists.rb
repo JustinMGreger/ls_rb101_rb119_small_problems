@@ -51,7 +51,7 @@
 # and Code.” Implementation of Algorithm:
 def interleave(arr_one, arr_two)
   new_array = []
-  arr_one.select { |x| new_array << x }
+  arr_one.length.times do |i|
   arr_two.select { |x| new_array << x }
   new_array
 end
