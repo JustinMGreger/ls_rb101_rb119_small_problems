@@ -49,8 +49,7 @@
 
 
  new_array
- new_array = [all elements from both Array arguments]
- new_array = [arr_one_element, arr_two_element, arr_one_element, arr_two_element]
+
 
 
 
