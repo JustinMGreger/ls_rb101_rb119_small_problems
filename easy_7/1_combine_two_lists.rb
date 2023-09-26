@@ -34,7 +34,7 @@ Mental model of the problem (optional):
 # this means iteration can be used as it will stop at the same time.
 # write a method that combines two Arrays passed in as arguments.
 # return a new Array.
-# the new Array contains all elements from both Array arguments.
+# new_array = [all elements from both Array arguments]
 # the elements in the new Array alternate from their source arrays.
 
 
