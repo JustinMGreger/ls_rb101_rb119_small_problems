@@ -50,14 +50,11 @@
 
 # and Code.” Implementation of Algorithm:
 def interleave(arr_one, arr_two)
-new_array = []
-
-arr_one.select { |x| new_array << x }
-arr_two.select { |x| new_array << x }
+  new_array = []
+  arr_one.select { |x| new_array << x }
+  arr_two.select { |x| new_array << x }
   new_array
 end
-
-
 
 # tests:
 interleave([1, 2, 3], ['a', 'b', 'c']) == [1, 'a', 2, 'b', 3, 'c']
