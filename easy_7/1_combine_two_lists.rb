@@ -49,14 +49,14 @@
 # return new_array
 
 # and Code.” Implementation of Algorithm:
-def interleave(arr_one, arr_two)
-  new_array = []
-  arr_one.length.times do |i|
-    new_array << arr_one[i]
-    new_array << arr_two[i]
-  end
-  new_array
-end
+# def interleave(arr_one, arr_two)
+#   new_array = []
+#   arr_one.length.times do |i|
+#     new_array << arr_one[i]
+#     new_array << arr_two[i]
+#   end
+#   new_array
+# end
 
 # tests:
 p interleave([1, 2, 3], %w[a b c]) == [1, 'a', 2, 'b', 3, 'c']
