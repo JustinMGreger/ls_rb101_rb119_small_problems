@@ -78,6 +78,9 @@
 # See if you can rewrite interleave to use zip.
 
 # LS zip solution:
+def interleave(array1, array2)
+  array1.zip(array2).flatten
+end
 
 # tests:
 p interleave([1, 2, 3], %w[a b c]) == [1, 'a', 2, 'b', 3, 'c']
