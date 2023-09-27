@@ -19,9 +19,8 @@ p letter_case_count('') == { lowercase: 0, uppercase: 0, neither: 0 }
 # a string.
 
 # output:
-a hash that contains 3 entries: the number of lowercase letter characters, the number of uppercase letter characters,
-
-and one represents the number of characters that are neither.
+# a hash that contains 3 entries: the number of lowercase letter characters, the number of uppercase letter characters,
+# and the number of characters that are neither.
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
