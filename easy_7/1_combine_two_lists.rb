@@ -70,10 +70,10 @@
 # Further Exploration
 
 # Take a few minutes to read about Array#zip. 
-#zip doesn't do the same thing as interleave,
-but it is very close,
-and more flexible.
-In fact,
+# #zip doesn't do the same thing as interleave,
+# but it is very close,
+# and more flexible.
+# In fact,
 interleave can be implemented in terms of zip and one other method from the Array class.
 See if you can rewrite interleave to use zip.
 
