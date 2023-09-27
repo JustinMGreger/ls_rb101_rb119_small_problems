@@ -69,7 +69,7 @@
 
 # Further Exploration
 
-Take a few minutes to read about Array#zip. 
+# Take a few minutes to read about Array#zip. 
 #zip doesn't do the same thing as interleave,
 but it is very close,
 and more flexible.
