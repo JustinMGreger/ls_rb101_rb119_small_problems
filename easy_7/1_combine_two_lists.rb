@@ -74,7 +74,7 @@
 # but it is very close,
 # and more flexible.
 # In fact,
-interleave can be implemented in terms of zip and one other method from the Array class.
+# interleave can be implemented in terms of zip and one other method from the Array class.
 See if you can rewrite interleave to use zip.
 
 # tests:
