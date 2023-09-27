@@ -77,5 +77,7 @@
 # interleave can be implemented in terms of zip and one other method from the Array class.
 # See if you can rewrite interleave to use zip.
 
+# LS zip solution:
+
 # tests:
 p interleave([1, 2, 3], %w[a b c]) == [1, 'a', 2, 'b', 3, 'c']
