@@ -19,8 +19,10 @@ p letter_case_count('') == { lowercase: 0, uppercase: 0, neither: 0 }
 # a string.
 
 # output:
-a hash that contains 3 entries:
-one represents the number of characters in the string that are lowercase letters,
+a hash that contains 3 entries: the number of lowercase letter characters,
+
+
+
 one represents the number of characters that are uppercase letters,
 and one represents the number of characters that are neither.
 
