@@ -71,9 +71,9 @@ to the neither: key symbol
 
 
 the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
-number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
-uppercase letter characters value, and 
-return neither: key symbol
+number of lowercase letter characters value, 
+return uppercase:
+return neither:
 
 
 
