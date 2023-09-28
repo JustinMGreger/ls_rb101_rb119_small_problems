@@ -70,7 +70,6 @@ assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
 to the neither: key symbol
 
 
-the letter_case_count method 
   return hash
 end
 
