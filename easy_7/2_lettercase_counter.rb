@@ -70,8 +70,8 @@ assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
 to the neither: key symbol
 
 
-the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
-number of lowercase letter characters value, 
+the letter_case_count method returns the hash containing the 
+return lowercase:
 return uppercase:
 return neither:
 
