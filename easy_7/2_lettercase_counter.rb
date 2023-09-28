@@ -27,7 +27,12 @@
 # the number of lowercase letter characters, the number of uppercase letter characters,
 # and the number of characters that are neither.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the letter_case_count method accepts the string_parameter.
+# the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
+# number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
+# uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
+# that are neither value.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
