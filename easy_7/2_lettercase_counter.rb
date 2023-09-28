@@ -55,7 +55,29 @@
 # uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
 # that are neither value.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+the letter_case_count method accepts the string_parameter.
+the letter_case_count method counts how many characters in the string_parameter are lowercase alphabetic
+and assigns this number as the lowercase letter characters value to the the lowercase: key symbol, assigns
+the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
+uppercase: key symbol, and assigns the number of characters that are not alphabetic as not alphabetic value
+to the not alphabetic key symbol.
+the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
+number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
+uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
+that are neither value.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # tests:
 p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
