@@ -50,16 +50,10 @@
 # the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
 # uppercase: key symbol, and assigns the number of characters that are not alphabetic as not alphabetic value
 # to the not alphabetic key symbol.
-
-
-the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
-number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
-uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
-that are neither value.
-
-
-
-
+# the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
+# number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
+# uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
+# that are neither value.
 
 and Code.” Implementation of Algorithm:
 
