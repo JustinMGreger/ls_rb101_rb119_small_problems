@@ -69,6 +69,12 @@ uppercase: key symbol, and
 assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
 to the neither: key symbol
 
+  hash = {
+    
+  }
+
+
+
 
   return hash
 end
