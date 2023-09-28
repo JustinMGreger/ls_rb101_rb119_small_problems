@@ -43,7 +43,22 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # hash.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the letter_case_count method accepts the string_parameter.
+# the letter_case_count method counts how many characters in the string_parameter are lowercase alphabetic, uppercase
+# alphabetic and not alphabetic.
+
+
+
+the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
+number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
+uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
+that are neither value.
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
