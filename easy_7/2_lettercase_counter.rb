@@ -56,7 +56,8 @@
 # that are neither value.
 
 # and Code.” Implementation of Algorithm:
-the letter_case_count method accepts the string_parameter.
+def letter_case_count(string_parameter)
+  
 the letter_case_count method counts how many characters in the string_parameter are lowercase alphabetic
 and assigns this number as the lowercase letter characters value to the the lowercase: key symbol, assigns
 the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
