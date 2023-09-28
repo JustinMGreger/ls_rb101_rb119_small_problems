@@ -40,7 +40,9 @@
 # p letter_case_count('123') == { lowercase: 0, uppercase: 0, neither: 3 }
 # p letter_case_count('') == { lowercase: 0, uppercase: 0, neither: 0 }
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# hash.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
