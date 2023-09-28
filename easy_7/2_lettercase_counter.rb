@@ -70,22 +70,9 @@ assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
 to the neither: key symbol
 
 
-the letter_case_count method returns the hash containing the 
-return lowercase:
-return uppercase:
-return neither:
-
-
-
-
-
-
-
-
-
-
-
-
+the letter_case_count method 
+  return hash
+end
 
 # tests:
 p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
