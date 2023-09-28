@@ -52,7 +52,6 @@
 # to the not alphabetic key symbol.
 
 
-not alphabetic
 the letter_case_count method returns the hash containing the lowercase: key symbol that is assigned to the
 number of lowercase letter characters value, the uppercase: key symbol that is assigned to the number of
 uppercase letter characters value, and the neither: key symbol that is assigned to the number of characters
