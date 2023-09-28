@@ -22,9 +22,10 @@
 # a hash that contains 3 entries: the number of lowercase letter characters, the number of uppercase letter characters,
 # and the number of characters that are neither.
 
-Make the requirements explicit Identify rules:
-
-
+# Make the requirements explicit Identify rules:
+# write a method that takes a string and returns a hash that contains 3 entries:
+# the number of lowercase letter characters, the number of uppercase letter characters,
+# and the number of characters that are neither.
 
 Mental model of the problem (optional):
 
