@@ -62,7 +62,14 @@ string_parameter.count(/[a-z]/)
 
 
 
-and assigns this number as the lowercase letter characters value to the the lowercase: key symbol, assigns
+lowercase_value to the the lowercase: key symbol,
+
+
+
+
+
+
+assigns
 the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
 uppercase: key symbol, and 
 
