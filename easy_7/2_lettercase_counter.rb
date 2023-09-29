@@ -65,8 +65,7 @@ hash = {}
   neither_value = string_parameter.count(/[^a-zA-Z]/)
   hash[:neither] = neither_value
 
-assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
-to the neither: key symbol
+
 
   hash = {
     lowercase:,
