@@ -64,15 +64,6 @@ hash = {}
   hash[:uppercase] = uppercase_value
   neither_value = string_parameter.count(/[^a-zA-Z]/)
   hash[:neither] = neither_value
-
-
-
-  hash = {
-    lowercase:,
-    uppercase:,
-    neither:
-  }
-
   return hash
 end
 
