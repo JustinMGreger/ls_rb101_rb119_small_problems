@@ -58,7 +58,7 @@
 # and Code.” Implementation of Algorithm:
 def letter_case_count(string_parameter)
 
-
+string_parameter.count()
 
 
 counts how many characters in the string_parameter are lowercase alphabetic
