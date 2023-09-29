@@ -67,6 +67,8 @@
 #   hash
 # end
 
+# LS Solution 1:
+
 # tests:
 p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
 p letter_case_count('AbCd +Ef') == { lowercase: 3, uppercase: 3, neither: 2 }
