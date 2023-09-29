@@ -59,9 +59,8 @@
 def letter_case_count(string_parameter)
 hash = {}
   lowercase_value = string_parameter.count(/[a-z]/)
-
   hash[:lowercase] = lowercase_value
-
+  uppercase_value = string_parameter.count(/[A-Z]/)
 
 
 
