@@ -60,7 +60,7 @@ def letter_case_count(string_parameter)
 hash = {}
   lowercase_value = string_parameter.count(/[a-z]/)
 
-
+  hash[:lowercase] = lowercase_value
 
 lowercase_value to the the lowercase: key symbol,
 
