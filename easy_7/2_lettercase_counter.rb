@@ -62,7 +62,7 @@ hash = {}
 
   hash[:lowercase] = lowercase_value
 
-lowercase_value to the the lowercase: key symbol,
+
 
 
 
