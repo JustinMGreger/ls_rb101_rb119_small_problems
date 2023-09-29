@@ -61,7 +61,6 @@ def letter_case_count(string_parameter)
 string_parameter.count(/[a-z]/)
 
 
-counts how many characters in the string_parameter are 
 
 and assigns this number as the lowercase letter characters value to the the lowercase: key symbol, assigns
 the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
