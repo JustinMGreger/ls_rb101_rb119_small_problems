@@ -56,16 +56,16 @@
 # that are neither value.
 
 # and Code.” Implementation of Algorithm:
-def letter_case_count(string_parameter)
-  hash = {}
-  lowercase_value = string_parameter.scan(/[a-z]/).length
-  hash[:lowercase] = lowercase_value
-  uppercase_value = string_parameter.scan(/[A-Z]/).length
-  hash[:uppercase] = uppercase_value
-  neither_value = string_parameter.scan(/[^a-zA-Z]/).length
-  hash[:neither] = neither_value
-  hash
-end
+# def letter_case_count(string_parameter)
+#   hash = {}
+#   lowercase_value = string_parameter.scan(/[a-z]/).length
+#   hash[:lowercase] = lowercase_value
+#   uppercase_value = string_parameter.scan(/[A-Z]/).length
+#   hash[:uppercase] = uppercase_value
+#   neither_value = string_parameter.scan(/[^a-zA-Z]/).length
+#   hash[:neither] = neither_value
+#   hash
+# end
 
 # tests:
 p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
