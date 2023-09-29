@@ -64,7 +64,7 @@ hash = {}
   hash[:uppercase] = uppercase_value
   neither_value = string_parameter.scan(/[^a-zA-Z]/).length
   hash[:neither] = neither_value
-  return hash
+  hash
 end
 
 # tests:
