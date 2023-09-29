@@ -57,7 +57,7 @@
 
 # and Code.” Implementation of Algorithm:
 def letter_case_count(string_parameter)
-hash = {}
+  hash = {}
   lowercase_value = string_parameter.scan(/[a-z]/).length
   hash[:lowercase] = lowercase_value
   uppercase_value = string_parameter.scan(/[A-Z]/).length
