@@ -63,15 +63,6 @@ hash = {}
   uppercase_value = string_parameter.count(/[A-Z]/)
   hash[:uppercase] = uppercase_value
 
-
-
-
-
-
-assigns
-the number of characters that are uppercase alphabetic as the uppercase letter characters value to the
-uppercase: key symbol, and 
-
 assigns the number of characters that are   /[^a-zA-Z]/ as not alphabetic value
 to the neither: key symbol
 
