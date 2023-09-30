@@ -87,6 +87,16 @@
 #   counts
 # end
 
+# LS Solution 2:
+def letter_case_count(string)
+  counts = {}
+  characters = string.chars
+  counts[:lowercase] = characters.count { |char| char =~ /[a-z]/ }
+  counts[:uppercase] = characters.count { |char| char =~ /[A-Z]/ }
+  counts[:neither] = characters.count { |char| char =~ /[^A-Za-z]/ }
+  counts
+end
+
 # tests:
 p letter_case_count('abCdef 123') == { lowercase: 5, uppercase: 1, neither: 4 }
 p letter_case_count('AbCd +Ef') == { lowercase: 3, uppercase: 3, neither: 2 }
