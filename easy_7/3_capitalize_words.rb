@@ -15,7 +15,9 @@ p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# a single String argument.
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
