@@ -46,3 +46,8 @@ p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# tests:
+p word_cap('four score and seven') == 'Four Score And Seven'
+p word_cap('the javaScript language') == 'The Javascript Language'
+p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
