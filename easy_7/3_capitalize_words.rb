@@ -12,8 +12,9 @@ p word_cap('four score and seven') == 'Four Score And Seven'
 p word_cap('the javaScript language') == 'The Javascript Language'
 p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem,
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem,
+
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
