@@ -43,7 +43,9 @@ Mental model of the problem (optional):
 # p word_cap('the javaScript language') == 'The Javascript Language'
 # p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
