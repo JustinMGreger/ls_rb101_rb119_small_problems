@@ -22,7 +22,17 @@ p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 # returns a new string of the original value of the argument with the first character of every word capitalized
 # and all other letters lowercase.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+word_cap(a single String argument)
+ returns a new string that contains the original value of the argument with the first character of every word capitalized and all other letters lowercase.
+
+You may assume that words are any sequence of non-blank characters.
+
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
