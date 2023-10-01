@@ -18,7 +18,10 @@ p word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
 # Identify expected input:
 # a single String argument.
 
-output:
+# output:
+# returns a new string of the original value of the argument with the first character of every word capitalized
+# and all other letters lowercase.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
