@@ -52,7 +52,7 @@
 
 # and Code.” Implementation of Algorithm:
 def word_cap(string_parameter)
-  sub_strings = string_parameter.split(',')
+  sub_strings = string_parameter.split(' ')
   capitalized_sub_strings = sub_strings.map(&:capitalize)
   capitalized_sub_strings.join(' ')
   capitalized_sub_strings
