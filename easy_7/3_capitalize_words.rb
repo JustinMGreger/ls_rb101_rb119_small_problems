@@ -47,14 +47,8 @@
 # the word_cap method accepts the (string_parameter) parameter and is defined as the following:
 # break up the string_parameter into sub strings.
 # capitalize the first character of every word sub string.
-combine these modified sub strings into a new_string.
-return the new_String.
-
-
-
-
-
-
+# combine these modified sub strings into a new_string.
+# return the new_String.
 
 and Code.” Implementation of Algorithm:
 
