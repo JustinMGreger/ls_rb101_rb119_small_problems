@@ -43,7 +43,19 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def word_cap(string_parameter)
+break up the string into sub strings.
+capitalize the first character of every word sub string.
+combine these modified sub strings into a new_string.
+return the new_String.
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
