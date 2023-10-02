@@ -52,6 +52,7 @@
 
 # and Code.” Implementation of Algorithm:
 def word_cap(string_parameter)
+  sub_strings = string_parameter.split(',')
   break up the string_parameter into sub strings.
   capitalize the first character of every word sub string.
   combine these modified sub strings into a new_string.
