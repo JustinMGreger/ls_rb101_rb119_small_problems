@@ -31,7 +31,8 @@
 # def word_cap(string_parameter)
 # break up the string into sub strings.
 # capitalize the first character of every word sub string.
-# return a new_String.
+# combine these modified sub strings into a new_string.
+# return the new_String.
 # You may assume that words are any sequence of non-blank characters.
 
 # Examples / Test Cases, Validate understanding of the problem:
