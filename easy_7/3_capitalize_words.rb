@@ -25,13 +25,7 @@
 # Make the requirements explicit Identify rules:
 def word_cap(a single String argument)
  returns a new single String with the first character of every word capitalized and all other letters lowercase.
-
-You may assume that words are any sequence of non-blank characters.
-
-
-
-
-
+# You may assume that words are any sequence of non-blank characters.
 
 Mental model of the problem (optional):
 
