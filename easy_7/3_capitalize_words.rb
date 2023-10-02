@@ -44,7 +44,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def word_cap(string_parameter)
+# the word_cap method accepts the (string_parameter) parameter and is defined as the following:
 break up the string into sub strings.
 capitalize the first character of every word sub string.
 combine these modified sub strings into a new_string.
