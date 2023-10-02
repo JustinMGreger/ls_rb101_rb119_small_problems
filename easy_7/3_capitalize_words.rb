@@ -27,10 +27,10 @@
 #  returns a new single String with the first character of every word capitalized and all other letters lowercase.
 # You may assume that words are any sequence of non-blank characters.
 
-Mental model of the problem (optional):
-
-
-
+# Mental model of the problem (optional):
+# def word_cap(a single String argument)
+#  returns a new single String with the first character of every word capitalized and all other letters lowercase.
+# You may assume that words are any sequence of non-blank characters.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p word_cap('four score and seven') == 'Four Score And Seven'
