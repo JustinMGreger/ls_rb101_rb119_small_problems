@@ -54,6 +54,7 @@
 def word_cap(string_parameter)
   sub_strings = string_parameter.split(',')
   capitalized_sub_strings = sub_strings.map(&:capitalize)
+  combined_string = capitalized_sub_strings.join(' ')
   combine these modified sub strings into a new_string.
   return the new_String.
 end
