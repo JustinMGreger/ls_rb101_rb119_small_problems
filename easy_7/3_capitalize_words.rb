@@ -30,6 +30,7 @@
 # Mental model of the problem (optional):
 # def word_cap(a single String argument)
 # break up the string into sub strings.
+# capitalize the first character of every word sub string.
 #  returns a new single String with the first character of every word capitalized and all other letters lowercase.
 # You may assume that words are any sequence of non-blank characters.
 
