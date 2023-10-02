@@ -28,10 +28,10 @@
 # You may assume that words are any sequence of non-blank characters.
 
 # Mental model of the problem (optional):
-# def word_cap(a single String argument)
+# def word_cap(string_parameter)
 # break up the string into sub strings.
 # capitalize the first character of every word sub string.
-#  returns a new single String.
+# returns a new_single_String.
 # You may assume that words are any sequence of non-blank characters.
 
 # Examples / Test Cases, Validate understanding of the problem:
