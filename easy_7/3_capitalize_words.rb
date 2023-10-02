@@ -50,7 +50,20 @@
 # combine these modified sub strings into a new_string.
 # return the new_String.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+
+the word_cap method accepts the (string_parameter) parameter and is defined as the following:
+break up the string_parameter into sub strings.
+capitalize the first character of every word sub string.
+combine these modified sub strings into a new_string.
+return the new_String.
+
+
+
+
+
+
+
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
