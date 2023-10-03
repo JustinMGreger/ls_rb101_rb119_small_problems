@@ -87,7 +87,7 @@
 
 # Solution 2:
 def word_cap(words)
-  words.gsub(/\b\w/) { |match| match.upcase }.downcase
+  words.downcase.gsub(/\b\w/) { |match| match.upcase }
 end
 
 # tests:
