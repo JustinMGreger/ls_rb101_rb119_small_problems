@@ -66,9 +66,9 @@
 # end
 
 # LS Solution 2:
-def word_cap(words)
-  words.split.map(&:capitalize).join(' ')
-end
+# def word_cap(words)
+#   words.split.map(&:capitalize).join(' ')
+# end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
