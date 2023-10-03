@@ -57,6 +57,14 @@
 #   capitalized_sub_strings.join(' ')
 # end
 
+# LS Solution:
+def word_cap(words)
+  words_array = words.split.map do |word|
+    word.capitalize
+  end
+  words_array.join(' ')
+end
+
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
 p word_cap('the javaScript language') == 'The Javascript Language'
