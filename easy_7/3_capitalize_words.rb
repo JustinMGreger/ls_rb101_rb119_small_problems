@@ -76,6 +76,9 @@
 # Without that method, how would you solve this problem?
 # Try to come up with at least two solutions.
 
+# Solution 1:
+
+
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
 p word_cap('the javaScript language') == 'The Javascript Language'
