@@ -83,6 +83,7 @@ def word_cap(words)
     word[0] = word[0].upcase if word[0]
     word
   end.join(' ')
+end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
