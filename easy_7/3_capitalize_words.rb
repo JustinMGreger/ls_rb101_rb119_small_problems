@@ -85,6 +85,8 @@
 #   end.join(' ')
 # end
 
+# Solution 2:
+
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
 p word_cap('the javaScript language') == 'The Javascript Language'
