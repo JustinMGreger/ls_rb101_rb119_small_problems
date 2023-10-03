@@ -51,11 +51,11 @@
 # return the new_String.
 
 # and Code.” Implementation of Algorithm:
-def word_cap(string_parameter)
-  sub_strings = string_parameter.split(' ')
-  capitalized_sub_strings = sub_strings.map(&:capitalize)
-  capitalized_sub_strings.join(' ')
-end
+# def word_cap(string_parameter)
+#   sub_strings = string_parameter.split(' ')
+#   capitalized_sub_strings = sub_strings.map(&:capitalize)
+#   capitalized_sub_strings.join(' ')
+# end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
