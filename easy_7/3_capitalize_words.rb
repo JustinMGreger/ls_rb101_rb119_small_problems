@@ -78,6 +78,7 @@
 
 # Solution 1:
 def word_cap(words)
+  words.split.map do |word|
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
