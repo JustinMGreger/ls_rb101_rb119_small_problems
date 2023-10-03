@@ -86,6 +86,7 @@
 # end
 
 # Solution 2:
+def word_cap(words)
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
