@@ -88,6 +88,7 @@
 # Solution 2:
 def word_cap(words)
   words.gsub(/\b\w/) { |match| match.upcase }.downcase
+end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
