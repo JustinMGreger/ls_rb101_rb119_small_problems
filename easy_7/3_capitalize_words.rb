@@ -77,13 +77,13 @@
 # Try to come up with at least two solutions.
 
 # Solution 1:
-def word_cap(words)
-  words.split.map do |word|
-    word.downcase!
-    word[0] = word[0].upcase if word[0]
-    word
-  end.join(' ')
-end
+# def word_cap(words)
+#   words.split.map do |word|
+#     word.downcase!
+#     word[0] = word[0].upcase if word[0]
+#     word
+#   end.join(' ')
+# end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
