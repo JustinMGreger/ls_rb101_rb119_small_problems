@@ -72,7 +72,9 @@
 
 # Further Exploration
 
-Ruby conveniently provides the String#capitalize method to capitalize strings. Without that method, how would you solve this problem? Try to come up with at least two solutions.
+# Ruby conveniently provides the String#capitalize method to capitalize strings.
+# Without that method, how would you solve this problem?
+# Try to come up with at least two solutions.
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
