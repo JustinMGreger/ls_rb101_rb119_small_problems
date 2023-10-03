@@ -80,6 +80,7 @@
 def word_cap(words)
   words.split.map do |word|
     word.downcase!
+    word[0] = word[0].upcase if word[0]
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
