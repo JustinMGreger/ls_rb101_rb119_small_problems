@@ -58,12 +58,12 @@
 # end
 
 # LS Solution:
-def word_cap(words)
-  words_array = words.split.map do |word|
-    word.capitalize
-  end
-  words_array.join(' ')
-end
+# def word_cap(words)
+#   words_array = words.split.map do |word|
+#     word.capitalize
+#   end
+#   words_array.join(' ')
+# end
 
 # tests:
 p word_cap('four score and seven') == 'Four Score And Seven'
