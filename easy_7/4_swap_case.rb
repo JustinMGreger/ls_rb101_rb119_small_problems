@@ -53,7 +53,7 @@
 
 # and Code.” Implementation of Algorithm:
 def swapcase(string_parameter)
-  hilow_string = string_parameter.gsub(/[A-Z]/, /[a-z]/)
+  hilow_string = string_parameter.downcase
   lowhi_string = string_parameter.gsub(/[a-z]/, /[A-Z]/)
   new_string = hilow_string + lowhi_string
 end
