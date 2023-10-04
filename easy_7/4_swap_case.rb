@@ -45,7 +45,19 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the swapcase method accepts the (string) parameter and is defined as the following:
+return a new string in which /[A-Z]/ is replaced by /[a-z]/
+/[a-z]/ is replaced by /[A-Z]/ 
+/[^A-Za-z]/ should be unchanged.
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # test:
