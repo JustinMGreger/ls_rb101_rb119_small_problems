@@ -49,16 +49,7 @@
 # the swapcase method accepts the (string_parameter) parameter and is defined as the following:
 # in the string_parameter /[A-Z]/ is replaced by /[a-z]/
 # in the string_parameter /[a-z]/ is replaced by /[A-Z]/ 
-
-return a new string in which 
-/[^A-Za-z]/ should be unchanged.
-
-
-
-
-
-
-
+# the result of the modified string_parameter is assigned to the new_string variable which is returned.
 
 and Code.” Implementation of Algorithm:
 
