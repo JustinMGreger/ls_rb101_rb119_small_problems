@@ -33,7 +33,7 @@
 
 # Mental model of the problem (optional):
 # write your own version of String#swapcase method.
-Write a method that takes a string as an argument.
+# swapcase(string)
 return a new string in which every uppercase letter is replaced by its lowercase version
 every lowercase letter by its uppercase version.
 All other characters should be unchanged.
