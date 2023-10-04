@@ -9,4 +9,4 @@
 
 # You may not use String#swapcase; write your own version of this method.
 
-Example:
+# Example:
