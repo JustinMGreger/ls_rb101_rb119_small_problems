@@ -53,7 +53,7 @@
 
 # and Code.” Implementation of Algorithm:
 def swapcase(string_parameter)
-
+  string_parameter.gsub(/[A-Za-z]/) do |match|
 end
 
 # test:
