@@ -10,5 +10,5 @@
 # You may not use String#swapcase; write your own version of this method.
 
 # Example:
-swapcase('CamelCase') == 'cAMELcASE'
-swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
+p swapcase('CamelCase') == 'cAMELcASE'
+p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
