@@ -31,7 +31,20 @@ p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
 # 3. All other characters should be unchanged.
 # 4. You may not use String#swapcase; write your own version of this method.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+Write a method that takes a string as an argument.
+return a new string in which every uppercase letter is replaced by its lowercase version
+every lowercase letter by its uppercase version.
+All other characters should be unchanged.
+You may not use String#swapcase; write your own version of this method.
+
+
+
+
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
