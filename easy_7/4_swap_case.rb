@@ -48,10 +48,9 @@
 # Algorithm, Steps for converting input to output:
 # the swapcase method accepts the (string_parameter) parameter and is defined as the following:
 # in the string_parameter /[A-Z]/ is replaced by /[a-z]/
-
+# in the string_parameter /[a-z]/ is replaced by /[A-Z]/ 
 
 return a new string in which 
-/[a-z]/ is replaced by /[A-Z]/ 
 /[^A-Za-z]/ should be unchanged.
 
 
