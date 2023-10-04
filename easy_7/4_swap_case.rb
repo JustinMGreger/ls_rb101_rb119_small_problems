@@ -36,7 +36,7 @@
 # swapcase(string)
 return a new string in which /[A-Z]/ is replaced by /[a-z]/
 /[a-z]/ is replaced by /[A-Z]/ 
-All other characters should be unchanged.
+/[^A-Za-z]/ should be unchanged.
 
 
 
