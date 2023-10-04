@@ -55,6 +55,7 @@
 def swapcase(string_parameter)
   string_parameter.gsub(/[A-Za-z]/) do |match|
     match =~ /[A-Z]/ ? match.downcase : match.upcase
+  end
 end
 
 # test:
