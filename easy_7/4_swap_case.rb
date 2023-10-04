@@ -54,7 +54,7 @@
 # and Code.” Implementation of Algorithm:
 def swapcase(string_parameter)
   string_parameter.gsub(/[A-Z]/, /[a-z]/)
-  string_parameter /[a-z]/ is replaced by /[A-Z]/ 
+  string_parameter.gsub(/[a-z]/, /[A-Z]/)
   the result of the modified string_parameter is assigned to the new_string variable which is returned.
 
 
