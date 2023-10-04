@@ -35,7 +35,7 @@
 # write your own version of String#swapcase method.
 # swapcase(string)
 # return a new string in which /[A-Z]/ is replaced by /[a-z]/
-# /[a-z]/ is replaced by /[A-Z]/ 
+# /[a-z]/ is replaced by /[A-Z]/
 # /[^A-Za-z]/ should be unchanged.
 
 # Examples / Test Cases, Validate understanding of the problem:
@@ -48,7 +48,7 @@
 # Algorithm, Steps for converting input to output:
 # the swapcase method accepts the (string_parameter) parameter and is defined as the following:
 # in the string_parameter /[A-Z]/ is replaced by /[a-z]/
-# in the string_parameter /[a-z]/ is replaced by /[A-Z]/ 
+# in the string_parameter /[a-z]/ is replaced by /[A-Z]/
 # the result of the modified string_parameter is assigned to the new_string variable which is returned.
 
 # and Code.” Implementation of Algorithm:
