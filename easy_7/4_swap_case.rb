@@ -29,12 +29,7 @@ p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
 # 2. return a new string in which every uppercase letter is replaced by its lowercase version
 # and every lowercase letter by its uppercase version.
 # 3. All other characters should be unchanged.
-
-You may not use String#swapcase; write your own version of this method.
-
-
-
-
+# 4. You may not use String#swapcase; write your own version of this method.
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
