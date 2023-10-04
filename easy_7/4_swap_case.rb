@@ -35,7 +35,7 @@
 # write your own version of String#swapcase method.
 # swapcase(string)
 return a new string in which /[A-Z]/ is replaced by /[a-z]/
-every lowercase letter by its uppercase version.
+/[a-z]/ is replaced by /[A-Z]/ 
 All other characters should be unchanged.
 
 
