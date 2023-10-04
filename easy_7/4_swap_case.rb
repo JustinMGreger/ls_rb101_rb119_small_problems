@@ -42,7 +42,9 @@
 # p swapcase('CamelCase') == 'cAMELcASE'
 # p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
