@@ -51,7 +51,11 @@
 # in the string_parameter /[a-z]/ is replaced by /[A-Z]/ 
 # the result of the modified string_parameter is assigned to the new_string variable which is returned.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+
+
+
+
 
 # test:
 p swapcase('CamelCase') == 'cAMELcASE'
