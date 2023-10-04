@@ -46,8 +46,8 @@ You may not use String#swapcase; write your own version of this method.
 
 
 # Examples / Test Cases, Validate understanding of the problem:
-p swapcase('CamelCase') == 'cAMELcASE'
-p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
+# p swapcase('CamelCase') == 'cAMELcASE'
+# p swapcase('Tonight on XYZ-TV') == 'tONIGHT ON xyz-tv'
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
