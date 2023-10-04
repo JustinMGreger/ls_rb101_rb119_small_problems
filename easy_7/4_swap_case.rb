@@ -34,17 +34,9 @@
 # Mental model of the problem (optional):
 # write your own version of String#swapcase method.
 # swapcase(string)
-return a new string in which /[A-Z]/ is replaced by /[a-z]/
-/[a-z]/ is replaced by /[A-Z]/ 
-/[^A-Za-z]/ should be unchanged.
-
-
-
-
-
-
-
-
+# return a new string in which /[A-Z]/ is replaced by /[a-z]/
+# /[a-z]/ is replaced by /[A-Z]/ 
+# /[^A-Za-z]/ should be unchanged.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p swapcase('CamelCase') == 'cAMELcASE'
