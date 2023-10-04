@@ -52,11 +52,11 @@
 # the result of the modified string_parameter is assigned to the new_string variable which is returned.
 
 # and Code.” Implementation of Algorithm:
-def swapcase(string_parameter)
-  string_parameter.gsub(/[A-Za-z]/) do |match|
-    match =~ /[A-Z]/ ? match.downcase : match.upcase
-  end
-end
+# def swapcase(string_parameter)
+#   string_parameter.gsub(/[A-Za-z]/) do |match|
+#     match =~ /[A-Z]/ ? match.downcase : match.upcase
+#   end
+# end
 
 # test:
 p swapcase('CamelCase') == 'cAMELcASE'
