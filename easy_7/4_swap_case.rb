@@ -7,6 +7,6 @@
 # and every lowercase letter by its uppercase version.
 # All other characters should be unchanged.
 
-You may not use String#swapcase; write your own version of this method.
+# You may not use String#swapcase; write your own version of this method.
 
 Example:
