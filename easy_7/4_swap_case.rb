@@ -57,9 +57,7 @@ def swapcase(string_parameter)
   lowhi_string = string_parameter.gsub(/[a-z]/, /[A-Z]/)
   combined_string = hilow_string + lowhi_string
   the result of the modified string_parameter is assigned to the new_string variable which is returned.
-
-
-
+end
 
 # test:
 p swapcase('CamelCase') == 'cAMELcASE'
