@@ -31,18 +31,7 @@
 # 3. the new string contains the original value.
 # 4. every other character is capitalized and the remaining characters are lowercase.
 # 5. Characters that are not letters should not be changed.
-   Characters that are not letters count as characters when switching between upper and lowercase.
-
-
-
-
-
-
-
-
-
-
-
+# 6.  Characters that are not letters count as characters when switching between upper and lowercase.
 
 Mental model of the problem (optional):
 
