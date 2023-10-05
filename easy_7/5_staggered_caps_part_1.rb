@@ -33,7 +33,21 @@
 # 5. Characters that are not letters should not be changed.
 # 6.  Characters that are not letters count as characters when switching between upper and lowercase.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+1. Write a method that takes a String as an argument.
+2. return a new String.
+3. the new string contains the original value.
+4. every other character is capitalized and the remaining characters are lowercase.
+5. Characters that are not letters should not be changed.
+6.  Characters that are not letters count as characters when switching between upper and lowercase.
+
+
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p staggered_case('I Love Launch School!') == 'I LoVe lAuNcH ScHoOl!'
