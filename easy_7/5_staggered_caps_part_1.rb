@@ -27,3 +27,8 @@ p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 NuMbErS'
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# tests:
+p staggered_case('I Love Launch School!') == 'I LoVe lAuNcH ScHoOl!'
+p staggered_case('ALL_CAPS') == 'AlL_CaPs'
+p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 NuMbErS'
