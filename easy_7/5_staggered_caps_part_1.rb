@@ -18,7 +18,13 @@
 # Identify expected input:
 # a String parameter.
 
-output:
+# output:
+# a new String that contains the original value using a staggered capitalization scheme
+# in which every other character is capitalized,
+# and the remaining characters are lowercase.
+# Characters that are not letters should not be changed,
+# but count as characters when switching between upper and lowercase.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
