@@ -29,12 +29,11 @@
 # 1. Write a method that takes a String as an argument.
 # 2. return a new String.
 # 3. the new string contains the original value.
+# 4. every other character is capitalized and the remaining characters are lowercase.
 
 
-using a staggered capitalization scheme
- in which every other character is capitalized, and the remaining characters are lowercase.
-   Characters that are not letters should not be changed, but count as characters when
-    switching between upper and lowercase.
+Characters that are not letters should not be changed,
+   Characters that are not letters count as characters when switching between upper and lowercase.
 
 
 
