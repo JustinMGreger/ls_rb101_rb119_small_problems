@@ -49,9 +49,8 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-staggered_case(string_parameter)
-return new_string
-new_string contains the original value of string_parameter.
+# staggered_case(string_parameter)
+# return new_string which contains the original value of string_parameter.
 every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase.
 Characters that are /[^A-Za-z]/ count as characters when switching between upper and lowercase.
 
