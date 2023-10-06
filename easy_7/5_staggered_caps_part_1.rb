@@ -52,7 +52,7 @@
 # staggered_case(string_parameter)
 # return new_string which contains the original value of string_parameter.
 # new_string = every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase and
-# characters that are /[^A-Za-z]/ count as characters when switching between upper and lowercase.
+# all characters count as characters when switching between upper and lowercase.
 
 and Code.” Implementation of Algorithm:
 
