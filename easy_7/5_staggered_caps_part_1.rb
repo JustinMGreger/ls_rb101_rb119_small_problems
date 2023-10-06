@@ -38,14 +38,7 @@
 # return new_string
 # new_string contains the original value of string_parameter.
 # every other letter character is .capitalize and the remaining characters are lowercase.
-6.  Characters that are not letters count as characters when switching between upper and lowercase.
-
-
-
-
-
-
-
+# Characters that are /[^A-Za-z]/ count as characters when switching between upper and lowercase.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p staggered_case('I Love Launch School!') == 'I LoVe lAuNcH ScHoOl!'
