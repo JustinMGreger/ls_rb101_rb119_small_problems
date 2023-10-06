@@ -55,8 +55,7 @@
 # combine this into a new_string varible.
 
 
-return new_string which contains the original value of string_parameter.
-new_string 
+return new_string 
 
 and Code.” Implementation of Algorithm:
 
