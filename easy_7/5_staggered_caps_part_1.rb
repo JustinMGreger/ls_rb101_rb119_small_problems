@@ -57,6 +57,7 @@
 
 # and Code.” Implementation of Algorithm:
 def staggered_case(string_parameter)
+  new_string = ' '
   string_array = string_parameter.split
   new_string = string_array.each_with_index do |char, index|
   if index.even? 
