@@ -57,7 +57,7 @@ every other /[A-Za-z]/ character is .capitalize
 
 
 return new_string which contains the original value of string_parameter.
-new_string = every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase and
+new_string 
 
 and Code.” Implementation of Algorithm:
 
