@@ -63,7 +63,7 @@ def staggered_case(string_parameter)
   if index.even? 
     new_string << char.upcase
   else
-    new_string
+    new_string << char
   end
 end
 
