@@ -59,7 +59,7 @@
 def staggered_case(string_parameter)
   new_string = ' '
   
-  new_string = string_array.each_with_index do |char, index|
+  string_array.each_with_index do |char, index|
   if index.even? 
     char =  /[A-Z]/ 
     new_string
