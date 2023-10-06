@@ -52,7 +52,7 @@
 # the staggered_case method accepts the (string_parameter) and is defined as the following:
 
 sort through each character in the string.
-
+every other /[A-Za-z]/ character is .capitalize
 
 
 
