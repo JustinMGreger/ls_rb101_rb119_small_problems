@@ -58,8 +58,11 @@
 # and Code.” Implementation of Algorithm:
 def staggered_case(string_parameter)
   string_array = string_parameter.split
+
   sort through each character in the string_parameter
-  if every other character is a /[A-Za-z]/ character then replace with a /[A-Z]/ character.
+
+  if |block| ==
+     every other character is a /[A-Za-z]/ character then replace with a /[A-Z]/ character.
   combine this into a new_string varible.
   return new_string 
 end
