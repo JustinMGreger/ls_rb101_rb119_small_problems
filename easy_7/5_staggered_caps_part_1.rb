@@ -49,10 +49,12 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-# staggered_case(string_parameter)
-# return new_string which contains the original value of string_parameter.
-# new_string = every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase and
-# all characters count as characters when switching between upper and lowercase.
+# the staggered_case method accepts the (string_parameter) and is defined as the following:
+
+
+return new_string which contains the original value of string_parameter.
+new_string = every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase and
+all characters count as characters when switching between upper and lowercase.
 
 and Code.” Implementation of Algorithm:
 
