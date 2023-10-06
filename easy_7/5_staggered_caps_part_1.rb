@@ -63,7 +63,6 @@ def staggered_case(string_parameter)
     new_char = index.even? ? char.upcase : char.downcase
     new_string.push(new_char)
     end
-  end
 
   new_string.join
 end
