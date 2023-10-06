@@ -51,14 +51,8 @@
 # Algorithm, Steps for converting input to output:
 # staggered_case(string_parameter)
 # return new_string which contains the original value of string_parameter.
-every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase.
-Characters that are /[^A-Za-z]/ count as characters when switching between upper and lowercase.
-
-
-
-
-
-
+# new_string = every other /[A-Za-z]/ character is .capitalize and the remaining characters are lowercase and
+# characters that are /[^A-Za-z]/ count as characters when switching between upper and lowercase.
 
 and Code.” Implementation of Algorithm:
 
