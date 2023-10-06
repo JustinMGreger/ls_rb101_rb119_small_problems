@@ -60,8 +60,7 @@ def staggered_case(string_parameter)
   new_string = []
   
   string_parameter.chars.each_with_index do |char, index|
-    if index.even? 
-      new_string << char.upcase
+    new_char = index.even? ? char.upcase : char.downcase
     else
       new_string << char
     end
