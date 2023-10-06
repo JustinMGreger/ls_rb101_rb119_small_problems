@@ -37,7 +37,7 @@
 # staggered_case(string_parameter)
 # return new_string
 # new_string contains the original value of string_parameter.
-4. every other letter character is capitalized and the remaining characters are lowercase.
+# every other letter character is .capitalize and the remaining characters are lowercase.
 6.  Characters that are not letters count as characters when switching between upper and lowercase.
 
 
