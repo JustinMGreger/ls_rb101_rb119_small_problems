@@ -52,7 +52,7 @@
 # the staggered_case method accepts the (string_parameter) and is defined as the following:
 # sort through each character in the string_parameter
 # if every other character is a /[A-Za-z]/ character then replace with a /[A-Z]/ character.
-
+# combine this into a new_string varible.
 
 
 return new_string which contains the original value of string_parameter.
