@@ -51,7 +51,7 @@
 # Algorithm, Steps for converting input to output:
 # the staggered_case method accepts the (string_parameter) and is defined as the following:
 # sort through each character in the string_parameter
-every other /[A-Za-z]/ character is .capitalize
+# if every other character is a /[A-Za-z]/ character then replace with a /[A-Z]/ character.
 
 
 
