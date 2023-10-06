@@ -36,7 +36,7 @@
 # Mental model of the problem (optional):
 # staggered_case(string_parameter)
 # return new_string
-3. the new string contains the original value.
+# new_string contains the original value of string_parameter.
 4. every other character is capitalized and the remaining characters are lowercase.
 5. Characters that are not letters should not be changed.
 6.  Characters that are not letters count as characters when switching between upper and lowercase.
