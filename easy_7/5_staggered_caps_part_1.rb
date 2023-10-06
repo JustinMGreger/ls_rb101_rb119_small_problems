@@ -56,7 +56,7 @@
 # return new_string 
 
 # and Code.” Implementation of Algorithm:
-the staggered_case method accepts the (string_parameter) and is defined as the following:
+def staggered_case(string_parameter)
 sort through each character in the string_parameter
 if every other character is a /[A-Za-z]/ character then replace with a /[A-Z]/ character.
 combine this into a new_string varible.
