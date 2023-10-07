@@ -56,16 +56,16 @@
 # return new_string
 
 # and Code.” Implementation of Algorithm:
-def staggered_case(string_parameter)
-  new_string = []
+# def staggered_case(string_parameter)
+#   new_string = []
 
-  string_parameter.chars.each_with_index do |char, index|
-    new_char = index.even? ? char.upcase : char.downcase
-    new_string.push(new_char)
-  end
+#   string_parameter.chars.each_with_index do |char, index|
+#     new_char = index.even? ? char.upcase : char.downcase
+#     new_string.push(new_char)
+#   end
 
-  new_string.join
-end
+#   new_string.join
+# end
 
 # tests:
 p staggered_case('I Love Launch School!') == 'I LoVe lAuNcH ScHoOl!'
