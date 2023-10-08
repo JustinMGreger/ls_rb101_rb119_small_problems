@@ -48,7 +48,9 @@ end
 # p staggered_case('ALL CAPS') == 'AlL cApS'
 # p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 nUmBeRs'
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
