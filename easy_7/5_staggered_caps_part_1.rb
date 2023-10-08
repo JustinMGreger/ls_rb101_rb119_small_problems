@@ -89,6 +89,18 @@
 
 # Hint: Use a keyword argument.
 
+# Modified LS Solution:
+# frozen_string_literal: true
+
+def staggered_case(string, start_upper: true)
+  need_upper = start_upper
+  string.chars.map do |char|
+    char_to_add = need_upper ? char.upcase : char.downcase
+    need_upper = !need_upper
+    char_to_add
+  end.join
+end
+
 # tests:
 p staggered_case('I Love Launch School!') == 'I LoVe lAuNcH ScHoOl!'
 p staggered_case('ALL_CAPS') == 'AlL_CaPs'
