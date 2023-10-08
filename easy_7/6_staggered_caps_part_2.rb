@@ -64,7 +64,7 @@ end
 # that is downcase to it.
 # 8. and this is the statement of the if statement.
 # 9. the need_upper varible is assigned to false need_upper varible.
-  end
+# 10. and this is the last line of the .each method.
   result
 end
 
