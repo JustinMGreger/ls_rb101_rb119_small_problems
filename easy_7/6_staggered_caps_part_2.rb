@@ -51,7 +51,15 @@ end
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+
+the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
+The /[^A-Za-z]/ characters should still be included in the return value.
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
