@@ -55,13 +55,12 @@ end
 # 1. the staggered_case method accepts the string parameter.
 # 2. the result varible is assigned the '' string.
 # 3. the need_upper varible is assigned the boolean true.
-
+# 4. break the string parameter into an array of string elements and pass the following block of code to each element:
 
 the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
 The /[^A-Za-z]/ characters should still be included in the return value.
 
 
-  string.chars.each do |char|
     if need_upper
       result += char.upcase
     else
