@@ -62,10 +62,10 @@ end
 # is upcase.
 # 7. if the above is not true then the result varible is assigned to the result of adding the char block parameter
 # that is downcase to it.
-# 8. and this is the statement of the if statement.
+# 8. and this is the last line of the if statement.
 # 9. the need_upper varible is assigned to false need_upper varible.
 # 10. and this is the last line of the .each method.
-  result
+# 11. and return the value assigned to the result varible.
 end
 
 
