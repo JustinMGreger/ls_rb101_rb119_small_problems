@@ -39,7 +39,11 @@ end
 # the modified method ignores non-alphabetic characters when determining to uppercase or lowercase each letter.
 # The non-alphabetic characters should still be included in the return value.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
+The non-alphabetic characters should still be included in the return value.
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
