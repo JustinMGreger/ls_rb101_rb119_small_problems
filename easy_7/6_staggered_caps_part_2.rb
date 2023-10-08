@@ -69,7 +69,7 @@ end
 # 12. and this is the last line of the staggered_case method.
 
 # and Code.” Implementation of Algorithm:
-1. the staggered_case method accepts the string parameter.
+def staggered_case(string)
 2. the result varible is assigned the '' string.
 3. the need_upper varible is assigned the boolean true.
 4. break the string parameter into an array of string elements and pass the following block of code to each element:
