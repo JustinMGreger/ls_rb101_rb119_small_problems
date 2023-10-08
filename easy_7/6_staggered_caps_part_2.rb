@@ -56,10 +56,16 @@ end
 # 2. the result varible is assigned the '' string.
 # 3. the need_upper varible is assigned the boolean true.
 # 4. break the string parameter into an array of string elements and pass the following block of code to each element:
+# 5. if the char block parameter matches /[^A-Za-z]/append the char block parameter to the result and skip the rest
+# of the iteration.
+
+
 
 the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
 The /[^A-Za-z]/ characters should still be included in the return value.
 
+next if /[^A-Za-z]/ 
+result << char
 
     if need_upper
       result += char.upcase
