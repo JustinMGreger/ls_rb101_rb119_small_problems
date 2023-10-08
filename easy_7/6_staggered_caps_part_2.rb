@@ -64,9 +64,6 @@ end
 the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
 The /[^A-Za-z]/ characters should still be included in the return value.
 
-next if /[^A-Za-z]/ 
-result << char
-
     if need_upper
       result += char.upcase
     else
