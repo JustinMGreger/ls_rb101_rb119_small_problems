@@ -44,9 +44,9 @@ end
 # The /[^A-Za-z]/ characters should still be included in the return value.
 
 # Examples / Test Cases, Validate understanding of the problem:
-p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
-p staggered_case('ALL CAPS') == 'AlL cApS'
-p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 nUmBeRs'
+# p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
+# p staggered_case('ALL CAPS') == 'AlL cApS'
+# p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 nUmBeRs'
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
