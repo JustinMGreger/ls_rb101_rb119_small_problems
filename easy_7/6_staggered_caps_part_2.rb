@@ -54,14 +54,13 @@ end
 # Algorithm, Steps for converting input to output:
 # 1. the staggered_case method accepts the string parameter.
 # 2. the result varible is assigned the '' string.
-
+# 3. the need_upper varible is assigned the boolean true.
 
 
 the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
 The /[^A-Za-z]/ characters should still be included in the return value.
 
 
-  need_upper = true
   string.chars.each do |char|
     if need_upper
       result += char.upcase
