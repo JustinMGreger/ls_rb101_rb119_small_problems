@@ -62,8 +62,7 @@ end
 # is upcase.
 # 7. if the above is not true then the result varible is assigned to the result of adding the char block parameter
 # that is downcase to it.
-
-    end
+# 8. and this is the statement of the if statement.
     need_upper = !need_upper
   end
   result
