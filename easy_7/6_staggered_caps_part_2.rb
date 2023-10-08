@@ -58,7 +58,8 @@ end
 # 4. break the string parameter into an array of string elements and pass the following block of code to each element:
 # 5. if the char block parameter matches /[^A-Za-z]/append the char block parameter to the result and skip the rest
 # of the iteration.
-
+# 6. if need_upper is true the result varible is assigned to the result of adding the char block parameter that
+# is upcase.
     if need_upper
       result += char.upcase
     else
