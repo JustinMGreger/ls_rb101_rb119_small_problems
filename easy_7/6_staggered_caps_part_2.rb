@@ -66,8 +66,7 @@ end
 # 9. the need_upper varible is assigned to false need_upper varible.
 # 10. and this is the last line of the .each method.
 # 11. and return the value assigned to the result varible.
-end
-
+# 12. and this is the last line of the staggered_case method.
 
 and Code.” Implementation of Algorithm:
 
