@@ -59,11 +59,6 @@ end
 # 5. if the char block parameter matches /[^A-Za-z]/append the char block parameter to the result and skip the rest
 # of the iteration.
 
-
-
-the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
-The /[^A-Za-z]/ characters should still be included in the return value.
-
     if need_upper
       result += char.upcase
     else
