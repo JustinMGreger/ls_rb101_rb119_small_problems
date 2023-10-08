@@ -52,12 +52,27 @@ end
 # array.
 
 # Algorithm, Steps for converting input to output:
+# 1. the staggered_case method accepts the string parameter.
+
+
+
 
 the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
 The /[^A-Za-z]/ characters should still be included in the return value.
 
 
-
+  result = ''
+  need_upper = true
+  string.chars.each do |char|
+    if need_upper
+      result += char.upcase
+    else
+      result += char.downcase
+    end
+    need_upper = !need_upper
+  end
+  result
+end
 
 
 and Code.” Implementation of Algorithm:
