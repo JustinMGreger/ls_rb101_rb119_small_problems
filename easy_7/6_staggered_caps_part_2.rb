@@ -41,7 +41,7 @@ end
 
 # Mental model of the problem (optional):
 # the Modified staggered_case method ignores /[^A-Za-z]/ characters in determining .uppercase or .lowercase each letter.
-The non-alphabetic characters should still be included in the return value.
+# The /[^A-Za-z]/ characters should still be included in the return value.
 
 
 Examples / Test Cases, Validate understanding of the problem:
