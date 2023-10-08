@@ -71,7 +71,7 @@ end
 # and Code.” Implementation of Algorithm:
 def staggered_case(string)
   result = ''
-3. the need_upper varible is assigned the boolean true.
+  need_upper = true
 4. break the string parameter into an array of string elements and pass the following block of code to each element:
 5. if the char block parameter matches /[^A-Za-z]/append the char block parameter to the result and skip the rest
 of the iteration.
