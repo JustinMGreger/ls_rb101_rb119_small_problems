@@ -60,8 +60,7 @@ end
 # of the iteration.
 # 6. if need_upper is true the result varible is assigned to the result of adding the char block parameter that
 # is upcase.
-    if need_upper
-      result += char.upcase
+
     else
       result += char.downcase
     end
