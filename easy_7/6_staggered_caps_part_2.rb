@@ -76,7 +76,8 @@ def staggered_case(string)
     result << process_character(char, need_upper)
     need_upper = toggle_uppercase(need_upper, char)
   end
-
+  result
+end
 
 
 
@@ -89,9 +90,6 @@ def staggered_case(string)
       result += char.downcase
     end
     need_upper = !need_upper
-  end
-  result
-end
 
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
