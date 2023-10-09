@@ -79,18 +79,14 @@ def staggered_case(string)
   result
 end
 
+def process_character(char, need_upper)
+  return char if char =~ /[^A-Za-z]/
+  need_upper ? char.upcase : char.downcase
+end
 
-
-
-    if char =~ /[^A-Za-z]/
-      next
-    elsif need_upper
-      result += char.upcase
-    else
-      result += char.downcase
-    end
-    need_upper = !need_upper
-
+def toggle_uppercase(need_upper, char)
+  char =~ /[A-Za-z]/ ? !need_upper : need_upper
+end
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
 p staggered_case('ALL CAPS') == 'AlL cApS'
