@@ -75,6 +75,7 @@ def staggered_case(string)
   string.chars.each do |char|
     result << process_character(char, need_upper)
     need_upper = toggle_uppercase(need_upper, char)
+  end
 
 
 
