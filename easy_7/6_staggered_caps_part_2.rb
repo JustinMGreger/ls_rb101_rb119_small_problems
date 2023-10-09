@@ -73,16 +73,16 @@ def staggered_case(string)
   result = ''
   need_upper = true
   string.chars.each do |char|
-  if char =~ /[^A-Za-z]/ 
-    result << char
-    next
-  elsif need_upper
-     result += char.upcase
-  else
-    result += char.downcase
+    if char =~ /[^A-Za-z]/ 
+      result << char
+      next
+    elsif need_upper
+      result += char.upcase
+    else
+      result += char.downcase
+    end
+    need_upper = !need_upper
   end
-  need_upper = !need_upper
-end
 11. and return the value assigned to the result varible.
 12. and this is the last line of the staggered_case method.
 
