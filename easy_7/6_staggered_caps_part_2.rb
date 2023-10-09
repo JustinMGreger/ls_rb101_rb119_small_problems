@@ -81,7 +81,7 @@ def staggered_case(string)
   else
     result += char.downcase
   end
-9. the need_upper varible is assigned to false need_upper varible.
+  need_upper = !need_upper
 10. and this is the last line of the .each method.
 11. and return the value assigned to the result varible.
 12. and this is the last line of the staggered_case method.
