@@ -83,7 +83,7 @@ def staggered_case(string)
     end
     need_upper = !need_upper
   end
-11. and return the value assigned to the result varible.
+  result
 12. and this is the last line of the staggered_case method.
 
 
