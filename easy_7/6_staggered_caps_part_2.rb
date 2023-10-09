@@ -84,18 +84,7 @@ def staggered_case(string)
     need_upper = !need_upper
   end
   result
-12. and this is the last line of the staggered_case method.
-
-
-
-
-
-
-
-
-
-
-
+end
 
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
