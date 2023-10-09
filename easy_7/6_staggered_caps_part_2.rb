@@ -75,8 +75,7 @@ def staggered_case(string)
   string.chars.each do |char|
   if char =~ /[^A-Za-z]/ 
     result << char
-    append the char block parameter to the result and skip the rest
-of the iteration.
+    next
 6. if need_upper is true the result varible is assigned to the result of adding the char block parameter that
 is upcase.
 7. if the above is not true then the result varible is assigned to the result of adding the char block parameter
