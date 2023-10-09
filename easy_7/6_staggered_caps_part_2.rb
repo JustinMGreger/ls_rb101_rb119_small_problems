@@ -11,19 +11,19 @@
 # p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 nUmBeRs'
 
 # LS Solution from previous exercise:
-def staggered_case(string)
-  result = ''
-  need_upper = true
-  string.chars.each do |char|
-    if need_upper
-      result += char.upcase
-    else
-      result += char.downcase
-    end
-    need_upper = !need_upper
-  end
-  result
-end
+# def staggered_case(string)
+#   result = ''
+#   need_upper = true
+#   string.chars.each do |char|
+#     if need_upper
+#       result += char.upcase
+#     else
+#       result += char.downcase
+#     end
+#     need_upper = !need_upper
+#   end
+#   result
+# end
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
