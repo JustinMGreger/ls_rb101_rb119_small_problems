@@ -76,9 +76,8 @@ def staggered_case(string)
   if char =~ /[^A-Za-z]/ 
     result << char
     next
-  if need_upper = true
-     the result varible is assigned to the result of adding the char block parameter that
-is upcase.
+  if need_upper
+     result += char.upcase
 7. if the above is not true then the result varible is assigned to the result of adding the char block parameter
 that is downcase to it.
 8. and this is the last line of the if statement.
