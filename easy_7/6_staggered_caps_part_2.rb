@@ -119,34 +119,21 @@
 
 # modified solution:
 
-part2:
-    if char =~ /[a-z]/i
+combined same:
+def staggered_case(string)
+  result = ''
+  need_upper = true
+  string.chars.each do |char|
+    if char =~ /[a-z]/i # Different
       if need_upper
         result += char.upcase
       else
         result += char.downcase
       end
       need_upper = !need_upper
-    else
-      result += char
-    end
-
-
-part1:
-    if need_upper
-      result += char.upcase
-    else
-      result += char.downcase
-    end
-    need_upper = !need_upper
-
-
-combined same:
-def staggered_case(string)
-  result = ''
-  need_upper = true
-  string.chars.each do |char|
-
+    else # different
+      result += char # different
+    end # different 
   end
   result
 end
