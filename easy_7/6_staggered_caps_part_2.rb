@@ -108,6 +108,12 @@
 #   result
 # end
 
+# Further Exploration
+
+Modify this method so the caller can determine whether non-alphabetic characters should be counted when determining the upper/lowercase state. That is, you want a method that can perform the same actions that this method does, or operates like the previous version.
+
+Hint: Use a keyword argument.
+
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
 p staggered_case('ALL CAPS') == 'AlL cApS'
