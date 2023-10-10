@@ -118,6 +118,8 @@
 # Hint: Use a keyword argument.
 
 # modified solution:
+
+part2:
 def staggered_case(string)
   result = ''
   need_upper = true
@@ -137,7 +139,20 @@ def staggered_case(string)
 end
 
 
-
+part1:
+def staggered_case(string)
+  result = ''
+  need_upper = true
+  string.chars.each do |char|
+    if need_upper
+      result += char.upcase
+    else
+      result += char.downcase
+    end
+    need_upper = !need_upper
+  end
+  result
+end
 
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
