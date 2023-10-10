@@ -69,25 +69,25 @@
 # 12. and this is the last line of the staggered_case method.
 
 # and Code.” Implementation of Algorithm:
-def staggered_case(string)
-  result = []
-  need_upper = true
-  string.chars.each do |char|
-    result << process_character(char, need_upper)
-    need_upper = toggle_uppercase(need_upper, char)
-  end
-  result.join
-end
+# def staggered_case(string)
+#   result = []
+#   need_upper = true
+#   string.chars.each do |char|
+#     result << process_character(char, need_upper)
+#     need_upper = toggle_uppercase(need_upper, char)
+#   end
+#   result.join
+# end
 
-def process_character(char, need_upper)
-  char if char =~ /[^A-Za-z]/
+# def process_character(char, need_upper)
+#   char if char =~ /[^A-Za-z]/
 
-  need_upper ? char.upcase : char.downcase
-end
+#   need_upper ? char.upcase : char.downcase
+# end
 
-def toggle_uppercase(need_upper, char)
-  char =~ /[A-Za-z]/ ? !need_upper : need_upper
-end
+# def toggle_uppercase(need_upper, char)
+#   char =~ /[A-Za-z]/ ? !need_upper : need_upper
+# end
 
 # tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
