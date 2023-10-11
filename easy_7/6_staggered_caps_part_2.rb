@@ -128,6 +128,14 @@ def staggered_case(string)
     non_alphabetic = true
     /[^A-Za-z]/
 
+    if non_alphabetic
+      result += char.upcase
+    else
+      result += char.downcase
+    end
+    need_upper = !need_upper
+
+
     non_alphabetic  = !non_alphabetic 
 
 
