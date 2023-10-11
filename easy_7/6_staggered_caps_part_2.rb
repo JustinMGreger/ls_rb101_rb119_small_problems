@@ -118,50 +118,33 @@
 # Hint: Use a keyword argument.
 
 # modified solution:
-
-combined same:
-def staggered_case(string)
-  result = ''
-  need_upper = true
-  string.chars.each do |char|
-
-    non_alphabetic = true
-    /[^A-Za-z]/
-
-    if non_alphabetic
-      result += char.upcase
-    else
-      result += char.downcase
-    end
-    non_alphabetic  = !non_alphabetic 
-
-
-
-    if char =~ /[a-z]/i # Different
-
-
-      if need_upper
-        result += char.upcase
-      else
-        result += char.downcase
-      end
-      need_upper = !need_upper
-
-
-    else # different
-      result += char # different
-    end # different 
-  end
-  result
+def staggered_case(string, count_non_alphabetical: false)
+  count_non_alphabetical ? toggle_case_for_all(string) : toggle_case_for_alphabeticals(string)
 end
 
+def toggle_case_for_alphabeticals(string)
+  need_upper = true
 
+  string.chars.map do |char|
+    if char =~ /[a-z]/i
+      char = need_upper ? char.upcase : char.downcase
+      need_upper = !need_upper
+    end
+    char
+  end.join
+end
 
+def toggle_case_for_all(string)
+  need_upper = true
 
+  string.chars.map do |char|
+    char = need_upper ? char.upcase : char.downcase
+    need_upper = !need_upper
+    char
+  end.join
+end
 
-
-
-# tests:
+# Provided tests:
 p staggered_case('I Love Launch School!') == 'I lOvE lAuNcH sChOoL!'
 p staggered_case('ALL CAPS') == 'AlL cApS'
 p staggered_case('ignore 77 the 444 numbers') == 'IgNoRe 77 ThE 444 nUmBeRs'
