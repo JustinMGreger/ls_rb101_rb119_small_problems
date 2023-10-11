@@ -124,13 +124,21 @@ def staggered_case(string)
   result = ''
   need_upper = true
   string.chars.each do |char|
+
+
+    /[^A-Za-z]/
+    
     if char =~ /[a-z]/i # Different
+
+
       if need_upper
         result += char.upcase
       else
         result += char.downcase
       end
       need_upper = !need_upper
+
+
     else # different
       result += char # different
     end # different 
