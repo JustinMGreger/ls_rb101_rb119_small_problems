@@ -133,9 +133,6 @@ def staggered_case(string)
     else
       result += char.downcase
     end
-    need_upper = !need_upper
-
-
     non_alphabetic  = !non_alphabetic 
 
 
