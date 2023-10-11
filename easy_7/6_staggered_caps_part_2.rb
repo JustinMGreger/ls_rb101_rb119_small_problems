@@ -128,7 +128,7 @@ def staggered_case(string)
     non_alphabetic = true
     /[^A-Za-z]/
 
-
+    non_alphabetic  = !non_alphabetic 
 
 
 
