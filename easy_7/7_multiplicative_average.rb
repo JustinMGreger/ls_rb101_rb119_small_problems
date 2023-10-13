@@ -32,7 +32,7 @@
 # Mental model of the problem (optional):
 # def show_multiplicative_average(array_parameter)
 # product_result = result of multiplying all the numbers in the array_parameter together.
-divides the product_result by the number of entries in the Array.
+# quotient_result = the result of dividing the product_result by the number of entries in the Array.
 
 
 # Examples / Test Cases, Validate understanding of the problem:
