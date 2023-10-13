@@ -45,7 +45,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-# the show_multiplicative_average method accepts the (array_parameter) parameter and is defined as the following:
+# 1. the show_multiplicative_average method accepts the (array_parameter) parameter and is defined as the following:
 # count how many elements are in the array_parameter and assign this to a number_elements varible.
 # the product_result variable is assigned the result of multiplying all the numbers in the array_parameter together.
 quotient_result = the result of dividing the product_result by the number_elements varible.
