@@ -48,7 +48,7 @@
 # 1. the show_multiplicative_average method accepts the (array_parameter) parameter and is defined as the following:
 # 2. count how many elements are in the array_parameter and assign this to a number_elements varible.
 # 3. the product_result variable is assigned the result of multiplying all the numbers in the array_parameter together.
-quotient_result = the result of dividing the product_result by the number_elements varible.
+# 4. the quotient_result variable is assigned the result of dividing the product_result by the number_elements varible.
 rounded_quotient = round the quotient_result to 3 decimal places.
 print rounded_quotient
 
