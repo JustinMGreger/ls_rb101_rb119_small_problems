@@ -33,6 +33,7 @@
 # def show_multiplicative_average(array_parameter)
 # product_result = result of multiplying all the numbers in the array_parameter together.
 # quotient_result = the result of dividing the product_result by the number of entries in the Array.
+# rounded_quotient = round the quotient_result to 3 decimal places.
 
 
 # Examples / Test Cases, Validate understanding of the problem:
