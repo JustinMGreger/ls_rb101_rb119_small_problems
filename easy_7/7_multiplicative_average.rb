@@ -45,7 +45,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def show_multiplicative_average(array_parameter)
+# the show_multiplicative_average method accepts the (array_parameter) parameter and is defined as the following:
 
 
 
