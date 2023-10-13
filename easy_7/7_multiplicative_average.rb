@@ -22,9 +22,9 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p show_multiplicative_average([3, 5]) == The result is 7.500
-p show_multiplicative_average([6]) == The result is 6.000
-p show_multiplicative_average([2, 5, 7, 11, 13, 17]) == The result is 28361.667
+# p show_multiplicative_average([3, 5]) == The result is 7.500
+# p show_multiplicative_average([6]) == The result is 6.000
+# p show_multiplicative_average([2, 5, 7, 11, 13, 17]) == The result is 28361.667
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
