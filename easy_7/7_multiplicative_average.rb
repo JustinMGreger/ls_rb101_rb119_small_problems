@@ -29,7 +29,11 @@
 # 4. and then prints the result rounded to 3 decimal places.
 # 5. Assume the array is non-empty.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p show_multiplicative_average([3, 5]) == The result is 7.500
