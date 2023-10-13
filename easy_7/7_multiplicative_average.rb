@@ -50,9 +50,17 @@
 # 3. the product_result variable is assigned the result of multiplying all the numbers in the array_parameter together.
 # 4. the quotient_result variable is assigned the result of dividing the product_result by the number_elements varible.
 # 5. the rounded_quotient variable is assigned the result of rounding the quotient_result to 3 decimal places.
-# 6. print rounded_quotient.
+# 6. print "The result is #{rounded_quotient}".
 
 and Code.” Implementation of Algorithm:
+
+
+
+
+
+
+
+
 
 # tests:
 p show_multiplicative_average([3, 5]) == The result is 7.500
