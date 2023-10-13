@@ -27,15 +27,7 @@
 # 2. multiplies all the numbers together.
 # 3. divides the result by the number of entries in the Array.
 # 4. and then prints the result rounded to 3 decimal places.
- Assume the array is non-empty.
-
-
-
-
-
-
-
-
+# 5. Assume the array is non-empty.
 
 Mental model of the problem (optional):
 
