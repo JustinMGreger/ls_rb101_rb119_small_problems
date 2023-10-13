@@ -22,7 +22,19 @@
 # output:
 # the result is rounded to 3 decimal places.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# 1. Write a method that takes an Array of integers as input.
+
+, multiplies all the numbers together, divides the result by the number of entries in the Array, and then prints the result rounded to 3 decimal places. Assume the array is non-empty.
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
