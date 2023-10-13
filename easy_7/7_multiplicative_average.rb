@@ -52,8 +52,13 @@
 # 5. the rounded_quotient variable is assigned the result of rounding the quotient_result to 3 decimal places.
 # 6. print "The result is #{rounded_quotient}".
 
-and Code.” Implementation of Algorithm:
-
+# and Code.” Implementation of Algorithm:
+the show_multiplicative_average method accepts the (array_parameter) parameter and is defined as the following:
+count how many elements are in the array_parameter and assign this to a number_elements varible.
+the product_result variable is assigned the result of multiplying all the numbers in the array_parameter together.
+the quotient_result variable is assigned the result of dividing the product_result by the number_elements varible.
+the rounded_quotient variable is assigned the result of rounding the quotient_result to 3 decimal places.
+print "The result is #{rounded_quotient}".
 
 
 
