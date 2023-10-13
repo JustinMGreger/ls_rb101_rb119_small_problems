@@ -31,7 +31,7 @@
 
 # Mental model of the problem (optional):
 # def show_multiplicative_average(array_parameter)
-
+# multiply all the numbers in the array_parameter together.
 
 
 
