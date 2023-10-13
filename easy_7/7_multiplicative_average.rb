@@ -19,7 +19,9 @@
 # Identify expected input:
 # a non-empty Array of integers.
 
-output:
+# output:
+# the result is rounded to 3 decimal places.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
