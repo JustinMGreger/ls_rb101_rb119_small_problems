@@ -30,7 +30,7 @@
 # 5. Assume the array is non-empty.
 
 # Mental model of the problem (optional):
-
+# def show_multiplicative_average(array_parameter)
 
 
 
