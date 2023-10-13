@@ -34,7 +34,7 @@
 # product_result = result of multiplying all the numbers in the array_parameter together.
 # quotient_result = the result of dividing the product_result by the number of entries in the Array.
 # rounded_quotient = round the quotient_result to 3 decimal places.
-
+# print rounded_quotient
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p show_multiplicative_average([3, 5]) == The result is 7.500
