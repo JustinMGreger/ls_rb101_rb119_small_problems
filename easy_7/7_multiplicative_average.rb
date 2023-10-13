@@ -44,7 +44,22 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def show_multiplicative_average(array_parameter)
+
+
+
+product_result = result of multiplying all the numbers in the array_parameter together.
+quotient_result = the result of dividing the product_result by the number of entries in the Array.
+rounded_quotient = round the quotient_result to 3 decimal places.
+print rounded_quotient
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
