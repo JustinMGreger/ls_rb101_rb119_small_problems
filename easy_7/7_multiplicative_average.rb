@@ -53,13 +53,13 @@
 # 6. "The result is #{rounded_quotient}".
 
 # and Code.” Implementation of Algorithm:
-def show_multiplicative_average(array_parameter)
-  number_elements = array_parameter.count
-  product_result = array_parameter.inject(1) { |accumulator, n| accumulator * n }
-  quotient_result = product_result.to_f / number_elements
-  rounded_quotient = quotient_result.round(3)
-  "The result is #{format('%.3f', rounded_quotient)}"
-end
+# def show_multiplicative_average(array_parameter)
+#   number_elements = array_parameter.count
+#   product_result = array_parameter.inject(1) { |accumulator, n| accumulator * n }
+#   quotient_result = product_result.to_f / number_elements
+#   rounded_quotient = quotient_result.round(3)
+#   "The result is #{format('%.3f', rounded_quotient)}"
+# end
 
 # tests:
 p show_multiplicative_average([3, 5]) == 'The result is 7.500'
