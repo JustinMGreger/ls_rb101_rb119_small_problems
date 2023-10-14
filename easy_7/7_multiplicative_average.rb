@@ -58,7 +58,7 @@ def show_multiplicative_average(array_parameter)
   product_result variable = result of multiplying all the numbers in the array_parameter together.
   quotient_result = the result of dividing the product_result by the number_elements varible.
   rounded_quotient variable = the result of rounding the quotient_result to 3 decimal places.
-print "The result is #{rounded_quotient}".
+  print "The result is #{rounded_quotient}"
 
 
 
