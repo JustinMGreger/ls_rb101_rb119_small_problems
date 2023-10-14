@@ -57,7 +57,7 @@ def show_multiplicative_average(array_parameter)
   number_elements = array_parameter.count
   product_result variable =   array_parameter.inject(1) { |accumulator, n| accumulator * n }
   quotient_result = product_result.to_f /number_elements
-  rounded_quotient variable = the result of rounding the quotient_result to 3 decimal places.
+  rounded_quotient variable = quotient_result.round(3)
   print "The result is #{rounded_quotient}"
 
 
