@@ -54,7 +54,7 @@
 
 # and Code.” Implementation of Algorithm:
 def show_multiplicative_average(array_parameter)
-count how many elements are in the array_parameter and assign this to a number_elements varible.
+  number_elements = array_parameter.count
 the product_result variable is assigned the result of multiplying all the numbers in the array_parameter together.
 the quotient_result variable is assigned the result of dividing the product_result by the number_elements varible.
 the rounded_quotient variable is assigned the result of rounding the quotient_result to 3 decimal places.
