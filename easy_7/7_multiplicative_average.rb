@@ -59,9 +59,7 @@ def show_multiplicative_average(array_parameter)
   quotient_result = product_result.to_f /number_elements
   rounded_quotient variable = quotient_result.round(3)
   print "The result is #{rounded_quotient}"
-
-
-
+end
 
 # tests:
 p show_multiplicative_average([3, 5]) == The result is 7.500
