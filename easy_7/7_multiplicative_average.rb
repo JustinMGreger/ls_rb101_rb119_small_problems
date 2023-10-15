@@ -72,6 +72,12 @@ end
 # Further Exploration
 
 # What happens if you omit the call to #to_f on the first line of our method?
+# The result is 7.000
+# false
+# The result is 6.000
+# false
+# The result is 28361.000
+# false
 
 # tests:
 p show_multiplicative_average([3, 5]) == 'The result is 7.500'
