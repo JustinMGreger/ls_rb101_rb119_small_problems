@@ -78,6 +78,8 @@ end
 # false
 # The result is 28361.000
 # false
+# the string portion of the string interpolation is printed The result is  and so is the boolean result of the comparing
+# the numbers parameter to the desired outcome.
 
 # tests:
 p show_multiplicative_average([3, 5]) == 'The result is 7.500'
