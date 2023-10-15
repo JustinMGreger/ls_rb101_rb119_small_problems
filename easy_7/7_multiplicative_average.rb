@@ -80,6 +80,8 @@ end
 # false
 # the string portion of the string interpolation is printed The result is  and so is the boolean result of the comparing
 # the numbers parameter to the desired outcome.
+# the average becomes a float only from the format in the string interpolation not prior which is why the result is not
+# the same as if the .to_f were applied to the 1 integer that is assigned to product.
 
 # tests:
 p show_multiplicative_average([3, 5]) == 'The result is 7.500'
