@@ -69,6 +69,10 @@ def show_multiplicative_average(numbers)
   puts "The result is #{format('%.3f', average)}"
 end
 
+# Further Exploration
+
+# What happens if you omit the call to #to_f on the first line of our method?
+
 # tests:
 p show_multiplicative_average([3, 5]) == 'The result is 7.500'
 p show_multiplicative_average([6]) == 'The result is 6.000'
