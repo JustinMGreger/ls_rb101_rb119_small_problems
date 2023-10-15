@@ -11,7 +11,10 @@
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# two Array arguments in which each Array contains a list of numbers.
+# You may assume that the arguments contain the same number of elements.
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
