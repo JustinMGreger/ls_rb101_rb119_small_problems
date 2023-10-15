@@ -8,8 +8,9 @@
 # Examples:
 # p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem,
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem,
+
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
