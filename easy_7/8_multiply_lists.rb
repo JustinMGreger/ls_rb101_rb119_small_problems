@@ -15,7 +15,9 @@
 # two Array arguments in which each Array contains a list of numbers.
 # You may assume that the arguments contain the same number of elements.
 
-output:
+# output:
+# returns a new Array that contains the product of each pair of numbers from the arguments that have the same index.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
