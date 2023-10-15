@@ -26,7 +26,7 @@
 
 # Mental model of the problem (optional):
 # def multiply_list(array_one, array_two)
-return a new Array that contains the product of each pair of numbers from the arguments that have the same index.
+return new_array = the product of each pair of numbers from the arguments that have the same index.
 
 
 
