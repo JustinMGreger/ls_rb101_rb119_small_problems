@@ -15,8 +15,8 @@ output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
-Examples / Test Cases, Validate understanding of the problem:
-p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
+# Examples / Test Cases, Validate understanding of the problem:
+# p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
