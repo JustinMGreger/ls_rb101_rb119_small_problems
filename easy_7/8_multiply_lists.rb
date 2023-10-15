@@ -25,6 +25,7 @@
 # return a new Array that contains the product of each pair of numbers from the arguments that have the same index.
 
 # Mental model of the problem (optional):
+def multiply_list
 You may assume that the arguments contain the same number of elements.
 Write a method that takes two Array arguments
 each Array contains a list of numbers.
