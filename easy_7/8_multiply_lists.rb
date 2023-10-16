@@ -45,6 +45,9 @@
 def multiply_list(array_one, array_two)
 new_array = product of each pair of numbers from the array_one and array_two parameters
 that have the same index.
+
+array_one[n] * array_two[n]
+
 return the new_array varible.
 
 # tests:
