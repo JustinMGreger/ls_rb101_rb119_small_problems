@@ -35,7 +35,13 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def multiply_list(array_one, array_two)
+new_array = the product of each pair of numbers from the arguments that have the same index.
+return new_array 
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
