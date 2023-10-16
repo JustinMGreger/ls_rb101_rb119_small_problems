@@ -43,7 +43,7 @@
 
 # and Code.” Implementation of Algorithm:
 def multiply_list(array_one, array_two)
-the new_array varible is assigned the product of each pair of numbers from the array_one and array_two parameters
+new_array = product of each pair of numbers from the array_one and array_two parameters
 that have the same index.
 return the new_array varible.
 
