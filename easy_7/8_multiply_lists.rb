@@ -43,8 +43,7 @@
 
 # and Code.” Implementation of Algorithm:
 def multiply_list(array_one, array_two)
-  new_array = array_one.zip(array_two).map { |a, b| a * b }
-  new_array
+  array_one.zip(array_two).map { |a, b| a * b }
 end
 
 # tests:
