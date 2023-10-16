@@ -42,15 +42,10 @@
 # return the new_array varible.
 
 # and Code.” Implementation of Algorithm:
-the multiply_list method accepts the (array_one, array_two) parameters.
+def multiply_list(array_one, array_two)
 the new_array varible is assigned the product of each pair of numbers from the array_one and array_two parameters
 that have the same index.
 return the new_array varible.
-
-
-
-
-
 
 # tests:
 p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
