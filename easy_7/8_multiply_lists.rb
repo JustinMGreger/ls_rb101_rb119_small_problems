@@ -36,7 +36,7 @@
 # array
 
 # Algorithm, Steps for converting input to output:
-def multiply_list(array_one, array_two)
+# the multiply_list method accepts the (array_one, array_two) parameters.
 new_array = the product of each pair of numbers from the arguments that have the same index.
 return new_array 
 
