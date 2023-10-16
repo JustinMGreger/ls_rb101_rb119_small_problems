@@ -43,8 +43,9 @@
 
 # and Code.” Implementation of Algorithm:
 def multiply_list(array_one, array_two)
-new_array = array_one.zip(array_two).map { |a, b| a * b }
-new_array
+  new_array = array_one.zip(array_two).map { |a, b| a * b }
+  new_array
+end 
 
 # tests:
 p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
