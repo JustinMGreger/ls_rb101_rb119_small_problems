@@ -32,7 +32,9 @@
 # Examples / Test Cases, Validate understanding of the problem:
 # p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
