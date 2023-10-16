@@ -37,8 +37,9 @@
 
 # Algorithm, Steps for converting input to output:
 # the multiply_list method accepts the (array_one, array_two) parameters.
-new_array = the product of each pair of numbers from the arguments that have the same index.
-return new_array 
+the new_array varible is assigned = the product of each pair of numbers from the array_one and array_two parameters
+that have the same index.
+return the new_array varible.
 
 
 
