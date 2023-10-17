@@ -10,8 +10,9 @@
 # Examples:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem,
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem,
+
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
