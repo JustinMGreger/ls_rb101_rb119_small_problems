@@ -57,7 +57,9 @@ end
 
 # Further Exploration
 
-The Array#zip method can be used to produce an extremely compact solution to this method. Read the documentation for zip, and see if you can come up with a one line solution (not counting the def and end lines).
+# The Array#zip method can be used to produce an extremely compact solution to this method.
+# Read the documentation for zip, and see if you can come up with a one line solution
+# (not counting the def and end lines).
 
 # tests:
 p multiply_list([3, 5, 7], [9, 10, 11]) == [27, 50, 77]
