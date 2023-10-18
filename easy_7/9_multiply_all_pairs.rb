@@ -28,9 +28,8 @@
 
 # Mental model of the problem (optional):
 # def multiply_all_pairs(array_one, array_two)
-
-return new_array that contains the product of every pair of numbers that can be formed between the elements
-of the two Arrays that is sorted by increasing value.
+# new_array = the product of every pair of numbers that can be formed between the elements of the array_one and
+# array_two that is sorted by increasing value.
 # return new_array 
 # end
 
