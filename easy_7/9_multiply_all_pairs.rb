@@ -26,7 +26,16 @@
 # return a new Array that contains the product of every pair of numbers that can be formed between the elements
 # of the two Arrays that is sorted by increasing value.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# def multiply_all_pairs(array_one, array_two)
+return a new Array that contains the product of every pair of numbers that can be formed between the elements
+of the two Arrays that is sorted by increasing value.
+end
+
+
+
+
+
 
 #Examples / Test Cases, Validate understanding of the problem:
 # p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
