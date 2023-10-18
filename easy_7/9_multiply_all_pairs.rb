@@ -40,17 +40,13 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def multiply_all_pairs(array_one, array_two)
+the multiply_all_pairs method accepts the (array_one, array_two)
 
   new_array = the product of every pair of numbers that can be formed between the elements of the array_one and
   array_two that is sorted by increasing value.
 
   return new_array 
-end
-
-
-
-
+# and this is the last line of the multiply_all_pairs method.
 
 and Code.” Implementation of Algorithm:
 
