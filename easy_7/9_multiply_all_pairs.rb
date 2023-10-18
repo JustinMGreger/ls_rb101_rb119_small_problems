@@ -17,8 +17,9 @@
 # two Array arguments in which each Array contains a list of numbers, 
 # You may assume that neither argument is an empty Array.
 
-output:
-
+# output:
+# a new Array that contains the product of every pair of numbers that can be formed between the elements of the
+# two Arrays that are sorted by increasing value.
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
