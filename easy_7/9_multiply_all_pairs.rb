@@ -21,7 +21,18 @@
 # a new Array that contains the product of every pair of numbers that can be formed between the elements of the
 # two Arrays that are sorted by increasing value.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# multiply_all_pairs([integers], [integers])
+and returns a new Array that contains the product of every pair of numbers that can be formed between the elements of the two Arrays. The results should be sorted by increasing value.
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 #Examples / Test Cases, Validate understanding of the problem:
