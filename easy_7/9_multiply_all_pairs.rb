@@ -43,7 +43,8 @@
 # the multiply_all_pairs method accepts the (array_one, array_two) parameters and is defined as the following:
 
   new_array = the product of every pair of numbers that can be formed between the elements of the array_one and
-  array_two that is sorted by increasing value.
+  array_two that is 
+  sort by increasing value.
 
   return new_array 
 # and this is the last line of the multiply_all_pairs method.
