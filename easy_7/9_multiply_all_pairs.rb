@@ -17,12 +17,13 @@ p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
 # two Array arguments in which each Array contains a list of numbers, 
 # You may assume that neither argument is an empty Array.
 
-Examples:
-
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+#Examples / Test Cases, Validate understanding of the problem:
+p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
