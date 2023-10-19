@@ -67,7 +67,8 @@ end
 # Further Exploration
 
 # What do you think?
-Did you go about solving this exercise differently?
+# Did you go about solving this exercise differently?
+
 What method did you end up using?
 
 # tests:
