@@ -47,7 +47,22 @@
 # return the value assigned to the new_array varible. 
 # and this is the last line of the multiply_all_pairs method.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+the multiply_all_pairs method accepts the (array_one, array_two) parameters and is defined as the following:
+
+the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
+of the array_one parameter and array_two parameter.
+
+the new_array varible is assigned the sorted product_array.
+
+return the value assigned to the new_array varible. 
+
+end
+
+
+
+
+
 
 # tests:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
