@@ -48,7 +48,7 @@
 # and this is the last line of the multiply_all_pairs method.
 
 # and Code.” Implementation of Algorithm:
-the multiply_all_pairs method accepts the (array_one, array_two) parameters and is defined as the following:
+def multiply_all_pairs(array_one, array_two)
 
 the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
 of the array_one parameter and array_two parameter.
