@@ -48,10 +48,10 @@
 # and this is the last line of the multiply_all_pairs method.
 
 # and Code.” Implementation of Algorithm:
-def multiply_all_pairs(array_one, array_two)
-  product_array = array_one.product(array_two).map { |a, b| a * b }
-  product_array.sort
-end
+# def multiply_all_pairs(array_one, array_two)
+#   product_array = array_one.product(array_two).map { |a, b| a * b }
+#   product_array.sort
+# end
 
 # tests:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
