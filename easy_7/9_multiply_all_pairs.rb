@@ -41,9 +41,9 @@
 
 # Algorithm, Steps for converting input to output:
 # the multiply_all_pairs method accepts the (array_one, array_two) parameters and is defined as the following:
-# the product_array varible is assigned = the product of every pair of numbers that can be formed between the elements
-# of the array_one parameter and array_two parameter
-
+# the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
+# of the array_one parameter and array_two parameter.
+# the new_array varible is assigned the sorted product_array.
 
 that issort by increasing value.
 
