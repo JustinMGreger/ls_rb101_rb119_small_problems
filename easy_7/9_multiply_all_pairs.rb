@@ -55,14 +55,8 @@ of the array_one parameter and array_two parameter.
 
 the new_array varible is assigned the sorted product_array.
 
-return the value assigned to the new_array varible. 
-
+  return new_array 
 end
-
-
-
-
-
 
 # tests:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
