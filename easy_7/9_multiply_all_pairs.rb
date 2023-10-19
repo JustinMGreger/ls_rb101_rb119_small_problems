@@ -71,6 +71,7 @@
 # Answer: Yes.
 
 # What method did you end up using?
+# Answer: the .product method.
 
 # tests:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
