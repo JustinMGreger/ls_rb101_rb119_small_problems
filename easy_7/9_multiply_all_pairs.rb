@@ -49,8 +49,7 @@
 
 # and Code.” Implementation of Algorithm:
 def multiply_all_pairs(array_one, array_two)
-
-the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
+  product_array = the product of every pair of numbers that can be formed between the elements
 of the array_one parameter and array_two parameter.
 
   new_array = product_array.sort
