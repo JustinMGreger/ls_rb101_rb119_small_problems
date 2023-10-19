@@ -53,8 +53,7 @@ the multiply_all_pairs method accepts the (array_one, array_two) parameters and 
 the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
 of the array_one parameter and array_two parameter.
 
-the new_array varible is assigned the sorted product_array.
-
+  new_array = product_array.sort
   return new_array 
 end
 
