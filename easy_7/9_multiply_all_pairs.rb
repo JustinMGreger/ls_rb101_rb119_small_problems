@@ -30,7 +30,7 @@
 # def multiply_all_pairs(array_one, array_two)
 # new_array = the product of every pair of numbers that can be formed between the elements of the array_one and
 # array_two that is sorted by increasing value.
-# return new_array 
+# return new_array
 # end
 
 # Examples / Test Cases, Validate understanding of the problem:
@@ -44,14 +44,14 @@
 # the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
 # of the array_one parameter and array_two parameter.
 # the new_array varible is assigned the sorted product_array.
-# return the value assigned to the new_array varible. 
+# return the value assigned to the new_array varible.
 # and this is the last line of the multiply_all_pairs method.
 
 # and Code.” Implementation of Algorithm:
 def multiply_all_pairs(array_one, array_two)
   product_array = array_one.product(array_two).map { |a, b| a * b }
   new_array = product_array.sort
-  return new_array 
+  return new_array
 end
 
 # tests:
