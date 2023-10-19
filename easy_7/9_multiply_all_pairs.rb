@@ -44,9 +44,6 @@
 # the product_array varible is assigned the product of every pair of numbers that can be formed between the elements
 # of the array_one parameter and array_two parameter.
 # the new_array varible is assigned the sorted product_array.
-
-that issort by increasing value.
-
   return new_array 
 # and this is the last line of the multiply_all_pairs method.
 
