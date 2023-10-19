@@ -14,7 +14,7 @@
 # PEDAC stands for “[Understand the] Problem,
 
 # Identify expected input:
-# two Array arguments in which each Array contains a list of numbers, 
+# two Array arguments in which each Array contains a list of numbers,
 # You may assume that neither argument is an empty Array.
 
 # output:
