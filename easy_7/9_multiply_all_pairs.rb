@@ -64,5 +64,11 @@ def multiply_all_pairs(array_1, array_2)
   products.sort
 end
 
+# Further Exploration
+
+# What do you think?
+Did you go about solving this exercise differently?
+What method did you end up using?
+
 # tests:
 p multiply_all_pairs([2, 4], [4, 3, 1, 2]) == [2, 4, 4, 6, 8, 8, 12, 16]
