@@ -68,6 +68,7 @@ end
 
 # What do you think?
 # Did you go about solving this exercise differently?
+# Answer: Yes.
 
 What method did you end up using?
 
