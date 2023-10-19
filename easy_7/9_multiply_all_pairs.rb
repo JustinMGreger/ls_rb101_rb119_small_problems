@@ -50,8 +50,7 @@
 # and Code.” Implementation of Algorithm:
 def multiply_all_pairs(array_one, array_two)
   product_array = array_one.product(array_two).map { |a, b| a * b }
-  new_array = product_array.sort
-  new_array
+  product_array.sort
 end
 
 # tests:
