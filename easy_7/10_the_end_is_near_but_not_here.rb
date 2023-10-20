@@ -13,7 +13,9 @@ p penultimate('Launch School is great!') == 'is'
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# a string parameter that will always contain at least two words which are any sequence of non-blank characters.
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
