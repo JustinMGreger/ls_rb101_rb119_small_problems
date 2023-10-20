@@ -16,7 +16,9 @@ p penultimate('Launch School is great!') == 'is'
 # Identify expected input:
 # a string parameter that will always contain at least two words which are any sequence of non-blank characters.
 
-output:
+# output:
+# the next to last word in the string parameter where words are any sequence of non-blank characters.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
