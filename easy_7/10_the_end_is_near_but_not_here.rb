@@ -4,6 +4,6 @@
 
 # Words are any sequence of non-blank characters.
 
-You may assume that the input String will always contain at least two words.
+# You may assume that the input String will always contain at least two words.
 
 Examples:
