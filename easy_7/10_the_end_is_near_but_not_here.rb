@@ -42,7 +42,7 @@
 
 # and Code.” Implementation of Algorithm:
 def penultimate(string)
-split the string parameter into an array of words.
+string.split
 return the next to last word in the array of words.
 
 # tests:
