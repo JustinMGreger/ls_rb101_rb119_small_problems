@@ -35,8 +35,9 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
 # the penultimate method accepts the (string) parameter and is defined as the following:
+# split the string parameter into an array of words.
  the penultimate method returns the next to last word in the string parameter.
 
 
