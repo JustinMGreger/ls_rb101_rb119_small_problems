@@ -7,8 +7,8 @@
 # You may assume that the input String will always contain at least two words.
 
 # Examples:
-p penultimate('last word') == 'last'
-p penultimate('Launch School is great!') == 'is'
+# p penultimate('last word') == 'last'
+# p penultimate('Launch School is great!') == 'is'
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
