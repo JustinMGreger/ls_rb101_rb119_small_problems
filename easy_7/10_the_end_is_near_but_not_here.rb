@@ -33,7 +33,10 @@ Mental model of the problem (optional):
 
 
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+p penultimate('last word') == 'last'
+p penultimate('Launch School is great!') == 'is'
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
