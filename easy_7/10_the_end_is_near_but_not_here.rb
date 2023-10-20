@@ -19,7 +19,21 @@ p penultimate('Launch School is great!') == 'is'
 # output:
 # the next to last word in the string parameter where words are any sequence of non-blank characters.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method.
+
+that returns the next to last word in the String passed to it as an argument.
+
+Words are any sequence of non-blank characters.
+
+You may assume that the input String will always contain at least two words.
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
