@@ -24,14 +24,9 @@
 # the penultimate method returns the next to last word in the string parameter.
 # the string parameter will always contain at least two words and words are any sequence of non-blank characters.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
 # def penultimate method(string)
 # the penultimate method returns the next to last word in the string parameter.
-# the string parameter will always contain at least two words and words are any sequence of non-blank characters.
-
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p penultimate('last word') == 'last'
