@@ -25,6 +25,14 @@ p penultimate('Launch School is great!') == 'is'
 # the string parameter will always contain at least two words and words are any sequence of non-blank characters.
 
 Mental model of the problem (optional):
+# def penultimate method(string)
+# the penultimate method returns the next to last word in the string parameter.
+# the string parameter will always contain at least two words and words are any sequence of non-blank characters.
+
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
