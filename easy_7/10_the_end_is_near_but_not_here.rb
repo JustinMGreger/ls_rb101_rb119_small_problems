@@ -36,6 +36,20 @@
 # array.
 
 Algorithm, Steps for converting input to output:
+# the penultimate method accepts the (string) parameter and is defined as the following:
+ the penultimate method returns the next to last word in the string parameter.
+
+
+
+
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
