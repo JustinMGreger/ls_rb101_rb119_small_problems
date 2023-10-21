@@ -73,7 +73,9 @@
 # Identify expected input:
 # a string of a phrase or sentence.
 
-output:
+# output:
+# the middle word.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
