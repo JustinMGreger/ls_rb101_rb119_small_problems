@@ -52,6 +52,10 @@ def penultimate(words)
   words_array[-2]
 end
 
+# tests:
+p penultimate('last word') == 'last'
+p penultimate('Launch School is great!') == 'is'
+
 # Further Exploration
 
 # Our solution ignored a couple of edge cases because we explicitly stated that you didn't have to handle them:
@@ -62,7 +66,3 @@ end
 # How would you handle those edge cases without ignoring them?
 # Write a method that returns the middle word of a phrase or sentence.
 # It should handle all of the edge cases you thought of.
-
-# tests:
-p penultimate('last word') == 'last'
-p penultimate('Launch School is great!') == 'is'
