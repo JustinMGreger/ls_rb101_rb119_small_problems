@@ -44,6 +44,7 @@
 def penultimate(string)
   words = string.split
   words[-2]
+end
 
 # tests:
 p penultimate('last word') == 'last'
