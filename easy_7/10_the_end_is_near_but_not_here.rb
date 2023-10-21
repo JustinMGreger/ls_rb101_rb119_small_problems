@@ -77,8 +77,7 @@
 # the middle word.
 
 # Make the requirements explicit Identify rules:
-
-
+# exeception handling for edge cases: strings containing just 1 word, empty strings, even number strings.
 
 
 
