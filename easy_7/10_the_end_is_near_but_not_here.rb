@@ -83,7 +83,7 @@
 # Mental model of the problem (optional):
 # the middle method accepts the string parameter and is defined as the following:
 # check if the array is empty and handle that by printing the string 'enter a valid string.'
-
+# check if the array is odd if odd then return the middle string.
 
 
 
