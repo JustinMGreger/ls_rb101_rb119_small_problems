@@ -47,10 +47,10 @@
 # end
 
 # LS Solution:
-def penultimate(words)
-  words_array = words.split
-  words_array[-2]
-end
+# def penultimate(words)
+#   words_array = words.split
+#   words_array[-2]
+# end
 
 # tests:
 # p penultimate('last word') == 'last'
