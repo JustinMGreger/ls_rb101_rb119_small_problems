@@ -94,7 +94,22 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+the middle method accepts the string_parameter and is defined as the following:
+break the string_parameter into an array of string elements.
+check if the array is empty and handle that by printing nil.
+check if array is 1 string in total return the string.
+check if the array is odd if odd then return the middle string.
+check if the array is even if even then handle that by returning the 2 middle numbers.
+
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests: 
