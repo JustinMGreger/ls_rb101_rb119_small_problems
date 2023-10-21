@@ -80,7 +80,13 @@
 # exeception handling for edge cases: strings containing just 1 word, empty strings, even number strings.
 # return the middle word in the string_parameter.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the middle method accepts the string parameter and is defined as the following:
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p middle('apple orange banana') == 'orange'
