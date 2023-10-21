@@ -74,7 +74,8 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
 p middle('apple orange banana') == 'orange'
 
 Data Structure, How we represent data that we will work with when converting the input to output:
