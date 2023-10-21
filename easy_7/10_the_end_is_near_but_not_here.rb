@@ -76,7 +76,17 @@
 # output:
 # the middle word.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
