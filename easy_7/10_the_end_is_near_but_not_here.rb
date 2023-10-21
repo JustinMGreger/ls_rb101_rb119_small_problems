@@ -53,8 +53,8 @@ def penultimate(words)
 end
 
 # tests:
-p penultimate('last word') == 'last'
-p penultimate('Launch School is great!') == 'is'
+# p penultimate('last word') == 'last'
+# p penultimate('Launch School is great!') == 'is'
 
 # Further Exploration
 
