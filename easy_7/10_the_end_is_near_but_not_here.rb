@@ -86,6 +86,7 @@
 # check if the array is empty and handle that by printing the string 'enter a valid string.'
 # check if array is 1 string in total if so handle that by printing the string 'enter a string with more words'
 # check if the array is odd if odd then return the middle string.
+# check if the array is even if even then handle that by 
 
 
 
