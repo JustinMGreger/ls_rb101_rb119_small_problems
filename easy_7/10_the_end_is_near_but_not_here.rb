@@ -78,13 +78,7 @@
 
 # Make the requirements explicit Identify rules:
 # exeception handling for edge cases: strings containing just 1 word, empty strings, even number strings.
-
-
-
-
-
-
-
+# return the middle word in the string_parameter.
 
 Mental model of the problem (optional):
 
