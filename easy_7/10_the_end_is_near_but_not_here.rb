@@ -113,6 +113,7 @@ def middle(string_parameter)
   when 0 then nil
   when 1 then words[0]
   when 2 strings then [words[0], words[1]]
+  else
 the middle_index variable is assigned to the number of elements in the words variable divided by 2.
 if the array is odd if odd then return the middle_index variable.
 check if the array is even if even then handle that by return the value located at the middle_index variable - 1 index
