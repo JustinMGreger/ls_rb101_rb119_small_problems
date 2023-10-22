@@ -115,13 +115,7 @@ def middle(string_parameter)
   when 2 strings then [words[0], words[1]]
   else
     middle_index = words.length / 2
-if the array is odd if odd then return the middle_index variable.
-check if the array is even if even then handle that by return the value located at the middle_index variable - 1 index
-location of the words variable and the middle_index variable index locaiton of the words variable.
-
-
-
-
+    words.length.odd? ? words[middle_index] : [words[middle_index - 1], words[middle_index]]
 
 # tests: 
 p middle('apple orange banana') == 'orange'
