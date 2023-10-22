@@ -100,6 +100,7 @@
 # the middle_word variable is assigned to case expression that follows the number of elements in the words variable.
 # if the array is empty then nil.
 # if array is 1 string in total return the string.
+# if the array contains 2 strings then return both strings.
 check if the array is odd if odd then return the middle string.
 check if the array is even if even then handle that by returning the 2 middle numbers.
 
