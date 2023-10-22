@@ -107,7 +107,7 @@
 # location of the words variable and the middle_index variable index locaiton of the words variable.
 
 # and Code.” Implementation of Algorithm:
-
+def middle(string_parameter)
 
 
 
