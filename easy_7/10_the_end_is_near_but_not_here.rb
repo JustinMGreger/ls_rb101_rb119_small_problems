@@ -101,6 +101,7 @@
 # if the array is empty then nil.
 # if array is 1 string in total return the string.
 # if the array contains 2 strings then return both strings.
+# the middle_index variable is assigned to the number of elements in the words variable divided by 2.
 check if the array is odd if odd then return the middle string.
 check if the array is even if even then handle that by returning the 2 middle numbers.
 
