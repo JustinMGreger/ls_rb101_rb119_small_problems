@@ -111,7 +111,7 @@ def middle(string_parameter)
   words = string_parameter.split
   case words.length
   when 0 then nil
-if array is 1 string in total return the string.
+  when 1 then words[0]
 if the array contains 2 strings then return both strings.
 the middle_index variable is assigned to the number of elements in the words variable divided by 2.
 if the array is odd if odd then return the middle_index variable.
