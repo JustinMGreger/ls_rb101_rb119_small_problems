@@ -103,15 +103,8 @@
 # if the array contains 2 strings then return both strings.
 # the middle_index variable is assigned to the number of elements in the words variable divided by 2.
 # if the array is odd if odd then return the middle_index variable.
-check if the array is even if even then handle that by returning the 2 middle numbers.
-
-
-
-
-
-
-
-
+# check if the array is even if even then handle that by return the value located at the middle_index variable - 1 index
+# location of the words variable and the middle_index variable index locaiton of the words variable.
 
 and Code.” Implementation of Algorithm:
 
