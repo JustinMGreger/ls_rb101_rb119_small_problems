@@ -106,7 +106,12 @@
 # check if the array is even if even then handle that by return the value located at the middle_index variable - 1 index
 # location of the words variable and the middle_index variable index locaiton of the words variable.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+
+
+
+
+
 
 # tests: 
 p middle('apple orange banana') == 'orange'
