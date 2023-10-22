@@ -116,6 +116,8 @@ def middle(string_parameter)
   else
     middle_index = words.length / 2
     words.length.odd? ? words[middle_index] : [words[middle_index - 1], words[middle_index]]
+  end
+end
 
 # tests: 
 p middle('apple orange banana') == 'orange'
