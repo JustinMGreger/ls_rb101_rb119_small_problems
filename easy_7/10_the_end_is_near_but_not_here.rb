@@ -97,7 +97,7 @@
 # Algorithm, Steps for converting input to output:
 # the middle method accepts the string_parameter and is defined as the following:
 # break the string_parameter into an array of string elements and assign this to the words variable.
-# the middle_word variable is assigned to case expression that follows the number of elements in the words variable.
+# case expression that follows the number of elements in the words variable.
 # if the array is empty then nil.
 # if array is 1 string in total return the string.
 # if the array contains 2 strings then return both strings.
@@ -109,7 +109,7 @@
 # and Code.” Implementation of Algorithm:
 def middle(string_parameter)
   words = string_parameter.split
-the middle_word variable is assigned to case expression that follows the number of elements in the words variable.
+  case words.length
 if the array is empty then nil.
 if array is 1 string in total return the string.
 if the array contains 2 strings then return both strings.
