@@ -119,5 +119,5 @@ def middle(string_parameter)
   end
 end
 
-# tests: 
+# tests:
 p middle('apple orange banana') == 'orange'
