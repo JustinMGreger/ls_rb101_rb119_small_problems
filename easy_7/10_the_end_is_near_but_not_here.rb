@@ -112,7 +112,7 @@ def middle(string_parameter)
   case words.length
   when 0 then nil
   when 1 then words[0]
-  when 2 strings then [words[0], words[1]]
+  when 2 then [words[0], words[1]]
   else
     middle_index = words.length / 2
     words.length.odd? ? words[middle_index] : [words[middle_index - 1], words[middle_index]]
