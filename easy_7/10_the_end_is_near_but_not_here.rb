@@ -122,4 +122,5 @@ end
 # tests:
 p middle('').nil? == true
 p middle('orange') == 'orange'
+p middle('apple orange') == ["apple", "orange"]
 p middle('apple orange banana') == 'orange'
