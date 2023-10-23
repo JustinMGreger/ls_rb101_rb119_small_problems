@@ -121,3 +121,4 @@ end
 
 # tests:
 p middle('apple orange banana') == 'orange'
+p middle('').nil? == true
