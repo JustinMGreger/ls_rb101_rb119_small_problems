@@ -36,3 +36,10 @@ Mental model of the problem (optional):
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# test:
+# count_occurrences(vehicles)
+# car => 4
+# truck => 3
+# SUV => 1
+# motorcycle => 2
