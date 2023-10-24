@@ -27,10 +27,11 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-car => 4
-truck => 3
-SUV => 1
-motorcycle => 2
+# count_occurrences(vehicles)
+# car => 4
+# truck => 3
+# SUV => 1
+# motorcycle => 2
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
