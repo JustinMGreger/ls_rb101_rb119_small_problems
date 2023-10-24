@@ -33,7 +33,14 @@
 # SUV => 1
 # motorcycle => 2
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+Write a method that counts the number of occurrences of each element in a given array.
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
