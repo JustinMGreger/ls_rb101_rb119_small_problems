@@ -8,3 +8,8 @@
 # ]
 
 # count_occurrences(vehicles)
+
+# The words in the array are case-sensitive: 'suv' != 'SUV'.
+# Once counted, print each element alongside the number of occurrences.
+
+# Expected output:
