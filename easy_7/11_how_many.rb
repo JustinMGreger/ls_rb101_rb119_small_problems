@@ -35,7 +35,7 @@
 
 # Make the requirements explicit Identify rules:
 # the count_occurrences method that counts the number of occurrences of each element in the vehicles array parameter.
-The words in the array are case-sensitive: 'suv' != 'SUV'.
+# The words in the vehicles array parameter are case-sensitive: 'suv' != 'SUV'.
 Once counted, print each element alongside the number of occurrences.
 
 
