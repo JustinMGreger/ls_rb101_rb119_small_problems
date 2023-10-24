@@ -27,7 +27,12 @@
 #   'motorcycle', 'motorcycle', 'car', 'truck'
 # ]
 
-output:
+# output:
+# car => 4
+# truck => 3
+# SUV => 1
+# motorcycle => 2
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
