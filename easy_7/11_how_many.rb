@@ -13,3 +13,7 @@
 # Once counted, print each element alongside the number of occurrences.
 
 # Expected output:
+# car => 4
+# truck => 3
+# SUV => 1
+# motorcycle => 2
