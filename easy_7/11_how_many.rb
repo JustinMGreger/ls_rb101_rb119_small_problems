@@ -34,7 +34,7 @@
 # motorcycle => 2
 
 # Make the requirements explicit Identify rules:
-# Write the count_occurrences method that counts the number of occurrences of each element in a given array.
+# the count_occurrences method that counts the number of occurrences of each element in the vehicles array parameter.
 The words in the array are case-sensitive: 'suv' != 'SUV'.
 Once counted, print each element alongside the number of occurrences.
 
