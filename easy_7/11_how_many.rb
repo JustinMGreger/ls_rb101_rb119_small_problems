@@ -18,8 +18,9 @@
 # SUV => 1
 # motorcycle => 2
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem,
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem,
+
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
