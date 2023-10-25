@@ -60,9 +60,9 @@
 # print each element alongside the number of occurrences.
 
 # and Code.” Implementation of Algorithm:
-vehicles = [
-  'car', 'car', 'truck', 'car', 'SUV', 'truck',
-  'motorcycle', 'motorcycle', 'car', 'truck'
+vehicles = %w[
+  car, car, truck, car, SUV, truck,
+  motorcycle, motorcycle, car, truck
 ]
 
 def count_occurrences(vehicles)
