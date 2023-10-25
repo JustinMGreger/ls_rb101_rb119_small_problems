@@ -69,6 +69,8 @@ def count_occurrences(vehicles)
   unique_vehicles = vehicles.uniq
   unique_vehicles.each do |vehicle|
     puts "#{vehicle} => #{vehicles.count(vehicle)}"
+  end
+end
 
 # test:
 count_occurrences(vehicles)
