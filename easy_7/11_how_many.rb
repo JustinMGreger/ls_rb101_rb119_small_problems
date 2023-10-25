@@ -53,7 +53,21 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
+count the number of case-sensitive occurrences of each element in the vehicles parameter.
+print each element alongside the number of occurrences.
+
+
+
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # test:
