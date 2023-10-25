@@ -66,7 +66,7 @@ vehicles = [
 ]
 
 def count_occurrences(vehicles)
-determine the unique elements in the vehicles parameter and assign this to a varible.
+  unique_vehicles = vehicles.uniq
 count the number of case-sensitive occurrences of each element in the vehicles parameter.
 print each element alongside the number of occurrences.
 
