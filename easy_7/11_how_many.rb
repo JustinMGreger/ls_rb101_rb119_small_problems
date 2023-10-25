@@ -56,18 +56,8 @@
 # Algorithm, Steps for converting input to output:
 # the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
 # determine the unique elements in the vehicles parameter and assign this to a varible.
-count the number of case-sensitive occurrences of each element in the vehicles parameter.
-print each element alongside the number of occurrences.
-
-
-
-
-
-
-
-
-
-
+# count the number of case-sensitive occurrences of each element in the vehicles parameter.
+# print each element alongside the number of occurrences.
 
 and Code.” Implementation of Algorithm:
 
