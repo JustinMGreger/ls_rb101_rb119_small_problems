@@ -70,7 +70,7 @@ print each element alongside the number of occurrences.
 
 
 # test:
-# count_occurrences(vehicles)
+count_occurrences(vehicles)
 # car => 4
 # truck => 3
 # SUV => 1
