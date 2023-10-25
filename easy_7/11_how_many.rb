@@ -41,8 +41,7 @@
 # Mental model of the problem (optional):
 # the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
 # count the number of case-sensitive occurrences of each element in the vehicles parameter.
-
-
+# print each element alongside the number of occurrences.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # count_occurrences(vehicles)
