@@ -60,6 +60,11 @@
 # print each element alongside the number of occurrences.
 
 # and Code.” Implementation of Algorithm:
+vehicles = [
+  'car', 'car', 'truck', 'car', 'SUV', 'truck',
+  'motorcycle', 'motorcycle', 'car', 'truck'
+]
+
 def count_occurrences(vehicles)
 determine the unique elements in the vehicles parameter and assign this to a varible.
 count the number of case-sensitive occurrences of each element in the vehicles parameter.
