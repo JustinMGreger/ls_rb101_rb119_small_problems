@@ -60,7 +60,7 @@
 # print each element alongside the number of occurrences.
 
 # and Code.” Implementation of Algorithm:
-the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
+def count_occurrences(vehicles)
 determine the unique elements in the vehicles parameter and assign this to a varible.
 count the number of case-sensitive occurrences of each element in the vehicles parameter.
 print each element alongside the number of occurrences.
