@@ -61,8 +61,8 @@
 
 # and Code.” Implementation of Algorithm:
 vehicles = %w[
-  car, car, truck, car, SUV, truck,
-  motorcycle, motorcycle, car, truck
+  car car truck car SUV truck
+  motorcycle motorcycle car truck
 ]
 
 def count_occurrences(vehicles)
