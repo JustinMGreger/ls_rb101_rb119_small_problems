@@ -38,7 +38,11 @@
 # The words in the vehicles array parameter are case-sensitive: 'suv' != 'SUV'.
 # Once counted, print each element alongside the number of occurrences.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # count_occurrences(vehicles)
