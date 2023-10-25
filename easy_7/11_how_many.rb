@@ -40,7 +40,7 @@
 
 # Mental model of the problem (optional):
 # the count_occurrences method accepts the (vehicles) parameter and is defined as the following:
-# count the number of occurrences of each element in the vehicles parameter.
+# count the number of case-sensitive occurrences of each element in the vehicles parameter.
 
 
 
