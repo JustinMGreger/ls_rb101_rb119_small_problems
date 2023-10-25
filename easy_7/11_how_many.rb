@@ -69,12 +69,6 @@ def count_occurrences(vehicles)
   unique_vehicles = vehicles.uniq
   unique_vehicles.each do |vehicle|
     puts "#{vehicle} => #{vehicles.count(vehicle)}"
-count the number of case-sensitive occurrences of each element in the vehicles parameter.
-print each element alongside the number of occurrences.
-
-
-
-
 
 # test:
 count_occurrences(vehicles)
