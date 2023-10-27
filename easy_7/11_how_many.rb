@@ -93,7 +93,10 @@
 #   'motorcycle', 'motorcycle', 'car', 'truck'
 # ]
 
-output:
+# output:
+# Once counted, print each element alongside the number of occurrences.
+
+
 Make the requirements explicit Identify rules:
 # Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
 
