@@ -98,7 +98,8 @@
 
 
 Make the requirements explicit Identify rules:
-# Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
+# Write a method that counts the number of occurrences of each element in a given array.
+# words are case insensitive, e.g. "suv" == "SUV".
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
