@@ -126,7 +126,7 @@ and Code.” Implementation of Algorithm:
 # test:
 vehicles = %w[
   car car truck car SUV truck
-  motorcycle motorcycle car truck
+  motorcycle motorcycle car suv truck
 ]
 
 count_occurrences(vehicles)
