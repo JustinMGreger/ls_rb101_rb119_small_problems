@@ -87,7 +87,12 @@
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# vehicles = [
+#   'car', 'car', 'truck', 'car', 'SUV', 'truck',
+#   'motorcycle', 'motorcycle', 'car', 'truck'
+# ]
+
 output:
 Make the requirements explicit Identify rules:
 # Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
