@@ -90,6 +90,8 @@
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
+# Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
