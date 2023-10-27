@@ -97,9 +97,10 @@
 # Once counted, print each element alongside the number of occurrences.
 
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
 # Write a method that counts the number of occurrences of each element in a given array.
 # words are case insensitive, e.g. "suv" == "SUV".
+# Once counted, print each element alongside the number of occurrences.
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
