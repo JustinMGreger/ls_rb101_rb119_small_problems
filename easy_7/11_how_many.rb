@@ -80,6 +80,11 @@
 #   end
 # end
 
+# Further Exploration
+
+# Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
+
+
 # test:
 vehicles = %w[
   car car truck car SUV truck
