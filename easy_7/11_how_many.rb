@@ -104,7 +104,6 @@
 # Mental model of the problem (optional):
 # the count_occurrences accepts the (vehicles) array parameter.
 # count the number of case insensitive occurrences of each element in the (vehicles) array parameter.
-words are case insensitive, e.g. "suv" == "SUV".
 Once counted, print each element alongside the number of occurrences.
 
 
