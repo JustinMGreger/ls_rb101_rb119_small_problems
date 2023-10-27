@@ -102,6 +102,9 @@
 # Once counted, print each element alongside the number of occurrences.
 
 # Mental model of the problem (optional):
+# the count_occurrences accepts the (vehicles) array parameter.
+
+
 Write a method that counts the number of occurrences of each element in a given array.
 words are case insensitive, e.g. "suv" == "SUV".
 Once counted, print each element alongside the number of occurrences.
