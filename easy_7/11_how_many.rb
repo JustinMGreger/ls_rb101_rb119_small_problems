@@ -83,7 +83,12 @@
 # Further Exploration
 
 # Try to solve the problem when words are case insensitive, e.g. "suv" == "SUV".
-
+def count_occurrences(vehicles)
+  unique_vehicles = vehicles.uniq
+  unique_vehicles.each do |vehicle|
+    puts "#{vehicle} => #{vehicles.count(vehicle)}"
+  end
+end
 
 # test:
 vehicles = %w[
