@@ -96,13 +96,23 @@
 # output:
 # Once counted, print each element alongside the number of occurrences.
 
-
 # Make the requirements explicit Identify rules:
 # Write a method that counts the number of occurrences of each element in a given array.
 # words are case insensitive, e.g. "suv" == "SUV".
 # Once counted, print each element alongside the number of occurrences.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+Write a method that counts the number of occurrences of each element in a given array.
+words are case insensitive, e.g. "suv" == "SUV".
+Once counted, print each element alongside the number of occurrences.
+
+
+
+
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
