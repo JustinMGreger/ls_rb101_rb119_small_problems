@@ -104,14 +104,7 @@
 # Mental model of the problem (optional):
 # the count_occurrences accepts the (vehicles) array parameter.
 # count the number of case insensitive occurrences of each element in the (vehicles) array parameter.
-Once counted, print each element alongside the number of occurrences.
-
-
-
-
-
-
-
+# print each element alongside the number of occurrences.
 
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
