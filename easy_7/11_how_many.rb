@@ -126,7 +126,7 @@
 
 # and Code.” Implementation of Algorithm:
 def count_occurrences(vehicles)
-assign the an empty hash to the occurrences varible.
+  occurrences = {}
 assign the result of converting the vehicles array to lowercase to the downcased_vehicles varible.
 count the occurrences of the vehicle block parameter in the downcased_vehicles varible.
 assign the count to the occurrences varible.
