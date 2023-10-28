@@ -122,13 +122,7 @@
 # count the occurrences of the vehicle block parameter in the downcased_vehicles varible.
 # assign the count to the occurrences varible.
 # skip the vehicle block parameter if the count has already been set.
-print each element alongside the number of occurrences.
-
-
-
-
-
-
+# print each element alongside the number of occurrences.
 
 and Code.” Implementation of Algorithm:
 
