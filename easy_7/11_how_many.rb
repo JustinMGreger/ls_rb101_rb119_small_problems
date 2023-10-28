@@ -106,7 +106,12 @@
 # count the number of case insensitive occurrences of each element in the (vehicles) array parameter.
 # print each element alongside the number of occurrences.
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+# vehicles = %w[
+#   car car truck car SUV truck
+#   motorcycle motorcycle car suv truck
+# ]
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
