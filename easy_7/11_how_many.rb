@@ -116,7 +116,8 @@
 # array & hash.
 
 # Algorithm, Steps for converting input to output:
-the count_occurrences accepts the (vehicles) array parameter.
+# the count_occurrences accepts the (vehicles) array parameter.
+# assign the an empty hash to the occurrences varible.
 count the number of case insensitive occurrences of each element in the (vehicles) array parameter.
 print each element alongside the number of occurrences.
 
