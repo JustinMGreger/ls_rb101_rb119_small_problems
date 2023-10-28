@@ -113,7 +113,7 @@
 # ]
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
-# array.
+# array & hash.
 
 # Algorithm, Steps for converting input to output:
 the count_occurrences accepts the (vehicles) array parameter.
