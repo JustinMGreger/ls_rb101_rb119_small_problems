@@ -119,6 +119,9 @@
 # the count_occurrences accepts the (vehicles) array parameter.
 # assign the an empty hash to the occurrences varible.
 # assign the result of converting the vehicles array to lowercase to the downcased_vehicles varible.
+# count the occurrences of the vehicle block parameter in the downcased_vehicles varible.
+
+
 count the number of case insensitive occurrences of each element in the (vehicles) array parameter.
 print each element alongside the number of occurrences.
 
