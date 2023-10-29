@@ -144,6 +144,7 @@ vehicles = %w[
 ]
 
 count_occurrences(vehicles)
+# expected output:
 # car => 4
 # truck => 3
 # suv => 2
