@@ -131,6 +131,8 @@ def count_occurrences(vehicles)
   downcased_vehicles.each do |vehicle|
     occurrences[vehicle] ||= downcased_vehicles.count(vehicle)
   end
+
+  occurrences.each do |vehicle, count|
 print each element alongside the number of occurrences.
 
 
