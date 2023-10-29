@@ -133,7 +133,9 @@ def count_occurrences(vehicles)
   end
 
   occurrences.each do |vehicle, count|
-print each element alongside the number of occurrences.
+    puts "#{vehicle} => #{count}"
+  end
+end
 
 
 
