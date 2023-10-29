@@ -129,9 +129,8 @@ def count_occurrences(vehicles)
   occurrences = {}
   downcased_vehicles = vehicles.map(&:downcase)
   downcased_vehicles.each do |vehicle|
-count the occurrences of the vehicle block parameter in the downcased_vehicles varible.
-assign the count to the occurrences varible.
-skip the vehicle block parameter if the count has already been set.
+    occurrences[vehicle] ||= downcased_vehicles.count(vehicle)
+  end
 print each element alongside the number of occurrences.
 
 
