@@ -127,7 +127,7 @@
 # and Code.” Implementation of Algorithm:
 def count_occurrences(vehicles)
   occurrences = {}
-assign the result of converting the vehicles array to lowercase to the downcased_vehicles varible.
+  downcased_vehicles = vehicles.map(&:downcase)
 count the occurrences of the vehicle block parameter in the downcased_vehicles varible.
 assign the count to the occurrences varible.
 skip the vehicle block parameter if the count has already been set.
