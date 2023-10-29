@@ -137,17 +137,6 @@ def count_occurrences(vehicles)
   end
 end
 
-
-
-
-
-
-
-
-
-
-
-
 # test:
 vehicles = %w[
   car car truck car SUV truck
