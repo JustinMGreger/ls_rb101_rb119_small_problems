@@ -149,3 +149,9 @@ count_occurrences(vehicles)
 # truck => 3
 # suv => 2
 # motorcycle => 2
+
+# output result:
+# car => 4
+# truck => 3
+# suv => 2
+# motorcycle => 2
