@@ -10,8 +10,9 @@ p sum_of_sums([1, 5, 7, 3]) == 1 + (1 + 5) + (1 + 5 + 7) + (1 + 5 + 7 + 3) # -> 
 p sum_of_sums([4]) == 4
 p sum_of_sums([1, 2, 3, 4, 5]) == 35
 
-PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
-PEDAC stands for “[Understand the] Problem,
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for “[Understand the] Problem,
+
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
