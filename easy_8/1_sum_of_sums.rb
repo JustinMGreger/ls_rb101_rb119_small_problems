@@ -22,12 +22,7 @@
 # Make the requirements explicit Identify rules:
 # Write a method that takes an Array of numbers.
 # return the sum of the sums of each leading subsequence for that Array.
- You may assume that the Array always contains at least one number.
-
-
-
-
-
+# You may assume that the Array always contains at least one number.
 
 Mental model of the problem (optional):
 
