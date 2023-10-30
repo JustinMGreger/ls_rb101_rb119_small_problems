@@ -26,7 +26,7 @@
 
 # Mental model of the problem (optional):
 # def sum_of_sums(numbers)
-"(#{element_one}) + (#{element_one} + #{element_two}) + (#{element_one} + #{element_two} + #{element_three})"
+# "(#{element_one}) + (#{element_one} + #{element_two}) + (#{element_one} + #{element_two} + #{element_three})"
 return the sum of the sums of each leading subsequence for that Array.
 
 # Examples / Test Cases, Validate understanding of the problem:
