@@ -19,7 +19,16 @@
 # output:
 # the sum of the sums of each leading subsequence for that Array.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that takes an Array of numbers.
+
+and then returns the sum of the sums of each leading subsequence for that Array. You may assume that the Array always contains at least one number.
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
