@@ -25,7 +25,7 @@
 # You may assume that the Array always contains at least one number.
 
 # Mental model of the problem (optional):
-Write a method that takes an Array of numbers.
+# def sum_of_sums(numbers)
 return the sum of the sums of each leading subsequence for that Array.
 You may assume that the Array always contains at least one number.
 
