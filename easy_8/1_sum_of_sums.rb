@@ -16,7 +16,9 @@
 # Identify expected input:
 # an Array of numbers that always contains at least one number.
 
-output:
+# output:
+# the sum of the sums of each leading subsequence for that Array.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
