@@ -55,7 +55,7 @@ def sum_of_sums(numbers)
     running_total += num
     sum += running_total
   end
-  
+
   sum
 end
 
