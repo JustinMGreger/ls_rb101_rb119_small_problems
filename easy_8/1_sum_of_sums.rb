@@ -43,6 +43,7 @@
 # the sum_of_sums method accepts the (numbers) array parameter.
 # assign the sum varible to the integer 0.
 # assign the running_total varible to the integer 0.
+# iterate through the elements in the numbers adding them and reassigning the running_total and sum varibles.
 return the sum of the sums of each leading subsequence for that Array.
 
 
