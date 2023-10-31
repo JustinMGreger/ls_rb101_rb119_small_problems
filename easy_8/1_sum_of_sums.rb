@@ -50,7 +50,7 @@
 def sum_of_sums(numbers)
   sum = 0
   running_total = 0
-  
+
   numbers.each do |num|
     running_total += num
     sum += running_total
