@@ -40,9 +40,11 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def sum_of_sums(numbers)
+# the sum_of_sums method accepts the (numbers) array parameter.
+# assign the sum varible to the integer 0.
 determine how many elements are the numbers parameter.
 return the sum of the sums of each leading subsequence for that Array.
+
 
 
 
