@@ -46,7 +46,18 @@
 # iterate through the elements in the numbers adding them and reassigning the running_total and sum varibles.
 # return the value assigned to the sum varible.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+
+
+
+
+
+
+
+
+
+
+
 
 # tests:
 p sum_of_sums([3, 5, 2]) == 3 + (3 + 5) + (3 + 5 + 2) # -> (21)
