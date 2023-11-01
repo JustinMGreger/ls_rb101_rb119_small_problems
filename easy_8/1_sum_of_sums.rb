@@ -84,7 +84,8 @@ end
 # Can you see how these two solutions model the problem slightly differently?
 # answer: yes.
 
-Which model did you use in your own solution?
+# Which model did you use in your own solution?
+# answer: the first model.
 
 # tests:
 p sum_of_sums([3, 5, 2]) == 3 + (3 + 5) + (3 + 5 + 2) # -> (21)
