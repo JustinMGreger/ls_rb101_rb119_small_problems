@@ -60,17 +60,17 @@
 # end
 
 # LS Solution 1:
-def sum_of_sums(numbers)
-  sum_total = 0
-  accumulator = 0
+# def sum_of_sums(numbers)
+#   sum_total = 0
+#   accumulator = 0
 
-  numbers.each do |num|
-    accumulator += num
-    sum_total += accumulator
-  end
+#   numbers.each do |num|
+#     accumulator += num
+#     sum_total += accumulator
+#   end
 
-  sum_total
-end
+#   sum_total
+# end
 
 # tests:
 p sum_of_sums([3, 5, 2]) == 3 + (3 + 5) + (3 + 5 + 2) # -> (21)
