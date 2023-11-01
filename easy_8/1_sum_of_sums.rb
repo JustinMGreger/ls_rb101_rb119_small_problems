@@ -82,6 +82,8 @@ def sum_of_sums(numbers)
 end
 
 # Can you see how these two solutions model the problem slightly differently?
+# answer: yes.
+
 Which model did you use in your own solution?
 
 # tests:
