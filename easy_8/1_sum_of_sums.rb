@@ -47,17 +47,17 @@
 # return the value assigned to the sum varible.
 
 # and Code.” Implementation of Algorithm:
-def sum_of_sums(numbers)
-  sum = 0
-  running_total = 0
+# def sum_of_sums(numbers)
+#   sum = 0
+#   running_total = 0
 
-  numbers.each do |num|
-    running_total += num
-    sum += running_total
-  end
+#   numbers.each do |num|
+#     running_total += num
+#     sum += running_total
+#   end
 
-  sum
-end
+#   sum
+# end
 
 # tests:
 p sum_of_sums([3, 5, 2]) == 3 + (3 + 5) + (3 + 5 + 2) # -> (21)
