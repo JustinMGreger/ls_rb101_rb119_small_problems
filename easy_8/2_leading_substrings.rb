@@ -26,7 +26,7 @@
 # the leading_substrings method accepts a string parameter.
 # the string parameter is broken into substrings.
 # the sub strings are assigned to a return_array varible.
-# the elements are sorted.
+
 
 return a list of all substrings of a string that start at the beginning of the original string.
 
@@ -40,7 +40,9 @@ return a list of all substrings of a string that start at the beginning of the o
 # p leading_substrings('a') == ['a']
 # p leading_substrings('xyzzy') == %w[x xy xyz xyzz xyzzy]
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
