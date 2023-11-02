@@ -14,7 +14,10 @@
 # Identify expected input:
 # a string.
 
-output:
+# output:
+# a list of all substrings of a string that start at the beginning of the original string
+# and arranged in order from shortest to longest substring.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
