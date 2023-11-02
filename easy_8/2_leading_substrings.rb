@@ -27,12 +27,7 @@
 # the string parameter is broken into substrings.
 # the sub strings are assigned to a return_array varible.
 # substrings are concatenated into a substring based on the previous substrings.
-return a list of all substrings of a string that start at the beginning of the original string.
-
-
-
-
-
+# return the return_array.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p leading_substrings('abc') == %w[a ab abc]
