@@ -25,9 +25,10 @@
 # Mental model of the problem (optional):
 # the leading_substrings method accepts a string parameter.
 # the string parameter is broken into substrings.
-# the sub strings are assigned to a return array varible.
-returns a list of all substrings of a string that start at the beginning of the original string.
-The return value should be arranged in order from shortest to longest substring.
+# the sub strings are assigned to a return_array varible.
+# the elements are sorted.
+
+return a list of all substrings of a string that start at the beginning of the original string.
 
 
 
