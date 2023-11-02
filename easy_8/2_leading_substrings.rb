@@ -37,7 +37,23 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+the leading_substrings method accepts a string parameter.
+the string parameter is broken into substrings.
+the sub strings are assigned to a return_array varible.
+substrings are concatenated into a substring based on the previous substrings.
+return the return_array.
+
+
+
+
+
+
+
+
+
+
+
 and Code.” Implementation of Algorithm:
 
 # tests:
