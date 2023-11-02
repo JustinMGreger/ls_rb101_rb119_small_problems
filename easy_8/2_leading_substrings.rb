@@ -17,9 +17,9 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p leading_substrings('abc') == %w[a ab abc]
-p leading_substrings('a') == ['a']
-p leading_substrings('xyzzy') == %w[x xy xyz xyzz xyzzy]
+# p leading_substrings('abc') == %w[a ab abc]
+# p leading_substrings('a') == ['a']
+# p leading_substrings('xyzzy') == %w[x xy xyz xyzz xyzzy]
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
