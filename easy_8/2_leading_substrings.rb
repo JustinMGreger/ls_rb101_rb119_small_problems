@@ -50,6 +50,7 @@ def leading_substrings method(string)
 return_array = to the result of iterating through the return_array concatenating the substrings
 into a substring based on the previous substrings.
 return_array.
+end
 
 # tests:
 p leading_substrings('abc') == %w[a ab abc]
