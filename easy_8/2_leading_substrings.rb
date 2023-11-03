@@ -47,7 +47,7 @@
 # and Code.” Implementation of Algorithm:
 def leading_substrings method(string)
   intermediate_array = string.split
-return_array = to the result of iterating through the return_array concatenating the substrings
+return_array = to the result of iterating through the intermediate_array concatenating the substrings
 into a substring based on the previous substrings.
 return_array.
 end
