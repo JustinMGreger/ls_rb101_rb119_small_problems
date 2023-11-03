@@ -48,10 +48,11 @@
 # and Code.” Implementation of Algorithm:
 def leading_substrings(string)
   return_array = []
-  intermediate_array = string.split
+  intermediate_array = string.chars
   intermediate_array.each do |x|
     return_array << (return_array.last.to_s + x)
   end
+  return_array
 end
 
 # tests:
