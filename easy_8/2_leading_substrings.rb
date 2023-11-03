@@ -45,12 +45,12 @@
 # return the return_array.
 
 # and Code.” Implementation of Algorithm:
-def leading_substrings method(string)
+def leading_substrings(string)
   return_array = []
   intermediate_array = string.split
-
-intermediate_array.each do |x|
-  return_array << (return_array.last.to_s + x)
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
 end
 
 # tests:
