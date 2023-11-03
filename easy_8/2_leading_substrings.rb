@@ -47,9 +47,9 @@
 # and Code.” Implementation of Algorithm:
 def leading_substrings method(string)
   intermediate_array = string.split
-the return_array variable is assigned to the result of iterating through the return_array concatenating the substrings
+return_array = to the result of iterating through the return_array concatenating the substrings
 into a substring based on the previous substrings.
-return the return_array.
+return_array.
 
 # tests:
 p leading_substrings('abc') == %w[a ab abc]
