@@ -46,7 +46,7 @@
 
 # and Code.” Implementation of Algorithm:
 def leading_substrings method(string)
-the intermediate_array varible is assigned to the result of splitting the string parameter into an array of substrings.
+  intermediate_array = string.split
 the return_array variable is assigned to the result of iterating through the return_array concatenating the substrings
 into a substring based on the previous substrings.
 return the return_array.
