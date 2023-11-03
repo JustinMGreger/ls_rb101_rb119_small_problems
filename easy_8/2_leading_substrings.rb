@@ -39,8 +39,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the leading_substrings method accepts a string parameter.
-
-string.split
+# the return_array varible is assigned to the result of splitting the string parameter into an array of substrings.
 the sub strings are assigned to a return_array varible.
 substrings are concatenated into a substring based on the previous substrings.
 return the return_array.
