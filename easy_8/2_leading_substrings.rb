@@ -42,17 +42,7 @@
 # the intermediate_array varible is assigned to the result of splitting the string parameter into an array of substrings.
 # the return_array variable is assigned to the result of iterating through the return_array concatenating the substrings
 # into a substring based on the previous substrings.
-return the return_array.
-
-
-
-
-
-
-
-
-
-
+# return the return_array.
 
 and Code.” Implementation of Algorithm:
 
