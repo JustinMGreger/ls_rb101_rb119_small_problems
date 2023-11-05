@@ -27,7 +27,31 @@ p substrings('abcde') == %w[
 # output:
 # an array of a list of all substrings of the string parameter. 
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# use the leading_substrings method you wrote in the previous exercise.
+
+
+
+
+
+
+Write a method that returns a list of all substrings of a string. The returned list should be ordered by where in the string the substring begins. This means that all substrings that start at position 0 should come first, then all substrings that start at position 1, and so on. Since multiple substrings will occur at each position, the substrings at a given position should be returned in order from shortest to longest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
