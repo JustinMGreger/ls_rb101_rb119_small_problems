@@ -11,9 +11,9 @@
 
 # Examples:
 p substrings('abcde') == %w[
-  'a', 'ab', 'abc', 'abcd', 'abcde',
-  'b', 'bc', 'bcd', 'bcde',
-  'c', 'cd', 'cde',
-  'd', 'de',
-  'e'
+  a ab abc abcd abcde
+  b bc bcd bcde
+  c cd cde
+  d de
+  e
 ]
