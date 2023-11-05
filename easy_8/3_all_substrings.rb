@@ -7,6 +7,6 @@
 # Since multiple substrings will occur at each position,
 # the substrings at a given position should be returned in order from shortest to longest.
 
-You may (and should) use the leading_substrings method you wrote in the previous exercise:
+# You may (and should) use the leading_substrings method you wrote in the previous exercise:
 
 Examples:
