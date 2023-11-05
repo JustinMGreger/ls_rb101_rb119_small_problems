@@ -66,3 +66,12 @@ p substrings('abcde') == %w[
 
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
+
+# tests:
+p substrings('abcde') == %w[
+  a ab abc abcd abcde
+  b bc bcd bcde
+  c cd cde
+  d de
+  e
+]
