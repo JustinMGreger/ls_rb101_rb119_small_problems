@@ -24,7 +24,9 @@ p substrings('abcde') == %w[
 # Identify expected input:
 # a string parameter.
 
-output:
+# output:
+# an array of a list of all substrings of the string parameter. 
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
