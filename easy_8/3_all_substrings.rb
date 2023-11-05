@@ -10,13 +10,13 @@
 # You may (and should) use the leading_substrings method you wrote in the previous exercise:
 
 # Examples:
-p substrings('abcde') == %w[
-  a ab abc abcd abcde
-  b bc bcd bcde
-  c cd cde
-  d de
-  e
-]
+# p substrings('abcde') == %w[
+#   a ab abc abcd abcde
+#   b bc bcd bcde
+#   c cd cde
+#   d de
+#   e
+# ]
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for “[Understand the] Problem,
