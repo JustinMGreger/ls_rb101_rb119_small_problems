@@ -10,3 +10,10 @@
 # You may (and should) use the leading_substrings method you wrote in the previous exercise:
 
 # Examples:
+p substrings('abcde') == [
+  'a', 'ab', 'abc', 'abcd', 'abcde',
+  'b', 'bc', 'bcd', 'bcde',
+  'c', 'cd', 'cde',
+  'd', 'de',
+  'e'
+]
