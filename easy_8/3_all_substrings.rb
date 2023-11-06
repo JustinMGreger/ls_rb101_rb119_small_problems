@@ -48,13 +48,10 @@ def leading_substrings(string)
   return_array
 end
 
+# Write a substrings method that accepts a string parameter and returns an array of strings.
 
 
 
-
-
-
-Write a method that accepts a string parameter and returns an array of strings.
 The returned list of all substrings of the string parameter should be ordered
 by where in the string the substring begins.
 This means that all substrings that start at position 0 should come first,
