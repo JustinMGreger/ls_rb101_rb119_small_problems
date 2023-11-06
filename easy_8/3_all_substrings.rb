@@ -38,9 +38,22 @@
 # the substrings at a given position should be returned in order from shortest to longest.
 
 # Mental model of the problem (optional):
+# use the leading_substrings method you wrote in the previous exercise.
+def leading_substrings(string)
+  return_array = []
+  intermediate_array = string.chars
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
+  return_array
+end
 
 
-use the leading_substrings method you wrote in the previous exercise.
+
+
+
+
+
 Write a method that accepts a string parameter and returns an array of strings.
 The returned list of all substrings of the string parameter should be ordered
 by where in the string the substring begins.
