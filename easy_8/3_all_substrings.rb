@@ -53,9 +53,8 @@ The returned list should be ordered by where in the string the substring begins.
 
 
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
 
-# Data Structure, How we represent data that we will work with when converting the input to output:
+# Examples / Test Cases, Validate understanding of the problem:
 # p substrings('abcde') == %w[
 #   a ab abc abcd abcde
 #   b bc bcd bcde
@@ -63,6 +62,9 @@ Examples / Test Cases, Validate understanding of the problem:
 #   d de
 #   e
 # ]
+
+# Data Structure, How we represent data that we will work with when converting the input to output:
+
 
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
