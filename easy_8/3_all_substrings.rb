@@ -50,7 +50,7 @@ end
 
 # Write a substrings method that accepts a string parameter and returns an array of strings.
 def substrings(string)
-
+  leading_substrings(string)
   Since multiple substrings will occur at each position,
   the substrings at a given position should be returned in order from shortest to longest.  
 end
