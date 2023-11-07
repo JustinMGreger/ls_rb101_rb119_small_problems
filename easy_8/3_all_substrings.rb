@@ -49,7 +49,7 @@ def leading_substrings(string)
 end
 
 # Write a substrings method that accepts a string parameter and returns an array of strings.
-def substrings(string)
+# the substrings method accepts the (string) parameter and is defined as the following:
   leading_substrings(string)
   Since multiple substrings will occur at each position,
   the substrings at a given position should be returned in order from shortest to longest.  
