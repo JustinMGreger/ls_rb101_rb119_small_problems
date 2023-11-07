@@ -78,6 +78,14 @@
 # return the value assigned to the all_substrings variable.
 
 # and Code.” Implementation of Algorithm:
+def leading_substrings(string)
+  return_array = []
+  intermediate_array = string.chars
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
+  return_array
+end
 
 use the leading_substrings method you wrote in the previous exercise.
 Write a substrings method that accepts a string parameter and returns an array of strings.
