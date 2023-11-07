@@ -39,15 +39,14 @@
 
 # Mental model of the problem (optional):
 # use the leading_substrings method you wrote in the previous exercise.
-def leading_substrings(string)
-  return_array = []
-  intermediate_array = string.chars
-  intermediate_array.each do |x|
-    return_array << (return_array.last.to_s + x)
-  end
-  return_array
-end
-
+# def leading_substrings(string)
+#   return_array = []
+#   intermediate_array = string.chars
+#   intermediate_array.each do |x|
+#     return_array << (return_array.last.to_s + x)
+#   end
+#   return_array
+# end
 # Write a substrings method that accepts a string parameter and returns an array of strings.
 # the substrings method accepts the (string) parameter and is defined as the following:
 # the all_substrings varible is assigned a new empty array.
@@ -55,16 +54,6 @@ end
 # pass the substring varible to the leading_substrings method that accepts the (string) parameter.
 # concatenate the result of that to the all_substrings variable. 
 # return the value assigned to the all_substrings variable.
-
-
-
-
-
-
-
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p substrings('abcde') == %w[
