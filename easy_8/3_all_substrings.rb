@@ -52,7 +52,8 @@ end
 # the substrings method accepts the (string) parameter and is defined as the following:
 # the all_substrings varible is assigned a new empty array.
 # for each of the elements in the string assign the element to the substring varible.
-# pass the substring varible to the leading_substrings method that accepts the (string) parameter. 
+# pass the substring varible to the leading_substrings method that accepts the (string) parameter.
+# concatenate the result of that to the all_substrings variable. 
 end
 
 
