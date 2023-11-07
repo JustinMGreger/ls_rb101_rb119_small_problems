@@ -87,7 +87,7 @@ def leading_substrings(string)
   return_array
 end
 
-use the leading_substrings method you wrote in the previous exercise.
+
 Write a substrings method that accepts a string parameter and returns an array of strings.
 the substrings method accepts the (string) parameter and is defined as the following:
 the all_substrings varible is assigned a new empty array.
