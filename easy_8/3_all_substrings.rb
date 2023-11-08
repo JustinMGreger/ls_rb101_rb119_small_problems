@@ -90,6 +90,7 @@ end
 def substrings(string)
   all_substrings = []
   (0...string.length).each do |start_pos|
+    substring = string[start_pos..-1]
     all_substrings << (leading_substrings(substring))
   end
   all_substrings
