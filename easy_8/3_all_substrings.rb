@@ -92,16 +92,8 @@ def substrings(string)
   (0...string.length).each do |start_pos|
     all_substrings << (leading_substrings(substring))
   end
-return the value assigned to the all_substrings variable.
-
-
-
-
-
-
-
-
-
+  all_substrings
+end
 
 # tests:
 p substrings('abcde') == %w[
