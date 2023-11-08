@@ -91,7 +91,7 @@ def substrings(string)
   all_substrings = []
   (0...string.length).each do |start_pos|
     substring = string[start_pos..]
-    all_substrings << (leading_substrings(substring))
+    all_substrings.concat(leading_substrings(substring))
   end
   all_substrings
 end
