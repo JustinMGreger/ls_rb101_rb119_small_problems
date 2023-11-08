@@ -25,7 +25,7 @@
 # a string parameter.
 
 # output:
-# an array of a list of all substrings of the string parameter. 
+# an array of a list of all substrings of the string parameter.
 
 # Make the requirements explicit Identify rules:
 # use the leading_substrings method you wrote in the previous exercise.
@@ -52,7 +52,7 @@
 # the all_substrings varible is assigned a new empty array.
 # for each of the elements in the string assign the element to the substring varible.
 # pass the substring varible to the leading_substrings method that accepts the (string) parameter.
-# concatenate the result of that to the all_substrings variable. 
+# concatenate the result of that to the all_substrings variable.
 # return the value assigned to the all_substrings variable.
 
 # Examples / Test Cases, Validate understanding of the problem:
@@ -74,7 +74,7 @@
 # the all_substrings varible is assigned a new empty array.
 # for each of the elements in the string assign the element to the substring varible.
 # pass the substring varible to the leading_substrings method that accepts the (string) parameter.
-# concatenate the result of that to the all_substrings variable.
+# concatenate the result of that to the all_substrings variable. 
 # return the value assigned to the all_substrings variable.
 
 # and Code.” Implementation of Algorithm:
