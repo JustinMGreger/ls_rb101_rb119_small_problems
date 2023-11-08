@@ -89,7 +89,7 @@ end
 
 def substrings(string)
   all_substrings = []
-for each of the elements in the string assign the element to the substring varible.
+  (0...string.length).each do |start_pos|
 pass the substring varible to the leading_substrings method that accepts the (string) parameter.
 concatenate the result of that to the all_substrings variable. 
 return the value assigned to the all_substrings variable.
