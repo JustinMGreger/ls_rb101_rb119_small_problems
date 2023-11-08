@@ -91,6 +91,7 @@ def substrings(string)
   all_substrings = []
   (0...string.length).each do |start_pos|
     all_substrings << (leading_substrings(substring))
+  end
 return the value assigned to the all_substrings variable.
 
 
