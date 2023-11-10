@@ -12,4 +12,4 @@
 # but neither "Abcba" nor "Abc-bA" are.
 # In addition, assume that single characters are not palindromes.
 
-Examples:
+# Examples:
