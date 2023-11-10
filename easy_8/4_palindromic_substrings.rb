@@ -8,6 +8,7 @@
 # You may (and should) use the substrings method you wrote in the previous exercise.
 
 # For the purposes of this exercise, you should consider all characters and pay attention to case;
-that is, "AbcbA" is a palindrome, but neither "Abcba" nor "Abc-bA" are. In addition, assume that single characters are not palindromes.
+# that is, "AbcbA" is a palindrome,
+but neither "Abcba" nor "Abc-bA" are. In addition, assume that single characters are not palindromes.
 
 Examples:
