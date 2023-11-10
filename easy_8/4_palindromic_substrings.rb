@@ -20,6 +20,6 @@ p palindromes('hello-madam-did-madam-goodbye') == [
   'adam-did-mada', 'dam-did-mad', 'am-did-ma', 'm-did-m', '-did-', 'did',
   '-madam-', 'madam', 'ada', 'oo'
 ]
-p palindromes('knitting cassettes') == [
-  'nittin', 'itti', 'tt', 'ss', 'settes', 'ette', 'tt'
+p palindromes('knitting cassettes') == %w[
+  nittin itti tt ss settes ette tt
 ]
