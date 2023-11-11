@@ -40,18 +40,7 @@
 # The return value should be arranged in the same sequence as the substrings appear in the string.
 # Duplicate palindromes should be included multiple times.
 # use the substrings method you wrote in the previous exercise.
-
-  In addition, assume that single characters are not palindromes.
-
-
-
-
-
-
-
-
-
-
+# single characters are not palindromes.
 
 Mental model of the problem (optional):
 
