@@ -44,7 +44,9 @@ Mental model of the problem (optional):
 #   nittin itti tt ss settes ette tt
 # ]
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code.” Implementation of Algorithm:
 
