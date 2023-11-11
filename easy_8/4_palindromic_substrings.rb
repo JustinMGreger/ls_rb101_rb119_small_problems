@@ -43,7 +43,7 @@
 # single characters are not palindromes.
 
 # Mental model of the problem (optional):
-
+# def palindromes(string)
 Write a method that returns a list of all substrings of a string that are palindromic. 
 palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
 including the same case usage.
