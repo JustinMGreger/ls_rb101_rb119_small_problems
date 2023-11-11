@@ -70,7 +70,7 @@
 #   string case sensitive == string.reverse case sensitive
 # end
 # return_value = ['a list of all substrings of a string that are palindromic']
-The return value should be arranged in the same sequence as the substrings appear in the string.
+# return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
 Duplicate palindromes should be included multiple times.
 
 
