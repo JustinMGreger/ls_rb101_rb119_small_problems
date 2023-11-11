@@ -63,13 +63,7 @@
 
 # def palindromes(string)
 #   substrings(string)
-
-
-
-
-# end
-
-
+# sub_string = []
 
 return ['a list of all substrings of a string that are palindromic']
 palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
@@ -79,9 +73,7 @@ Duplicate palindromes should be included multiple times.
 single characters are not palindromes.
 
 
-
-
-
+# end
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p palindromes('abcd') == []
