@@ -62,7 +62,11 @@
 # end
 
 # def palindromes(string)
-#   def substrings(string)
+#   substrings(string)
+
+
+
+
 # end
 
 
