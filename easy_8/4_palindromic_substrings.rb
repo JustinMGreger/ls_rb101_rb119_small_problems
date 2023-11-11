@@ -43,6 +43,24 @@
 # single characters are not palindromes.
 
 # Mental model of the problem (optional):
+# def leading_substrings(string)
+#   return_array = []
+#   intermediate_array = string.chars
+#   intermediate_array.each do |x|
+#     return_array << (return_array.last.to_s + x)
+#   end
+#   return_array
+# end
+
+# def substrings(string)
+#   all_substrings = []
+#   (0...string.length).each do |start_pos|
+#     substring = string[start_pos..]
+#     all_substrings.concat(leading_substrings(substring))
+#   end
+#   all_substrings
+# end
+
 # def palindromes(string)
 
 
@@ -52,7 +70,6 @@
 return ['a list of all substrings of a string that are palindromic']
 palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
 including the same case usage.
-
 The return value should be arranged in the same sequence as the substrings appear in the string.
 Duplicate palindromes should be included multiple times.
 single characters are not palindromes.
