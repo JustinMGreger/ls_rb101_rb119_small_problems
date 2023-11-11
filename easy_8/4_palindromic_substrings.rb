@@ -72,9 +72,6 @@
 # end
 # return_value = ['a list of all substrings of a string that are palindromic']
 # return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
-
-
-
 # end
 
 # Examples / Test Cases, Validate understanding of the problem:
