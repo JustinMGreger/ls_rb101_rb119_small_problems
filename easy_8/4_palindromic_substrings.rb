@@ -69,8 +69,7 @@
 # def palindrome?(string)
 #   string case sensitive == string.reverse case sensitive
 # end
-
-return ['a list of all substrings of a string that are palindromic']
+# return_value = ['a list of all substrings of a string that are palindromic']
 The return value should be arranged in the same sequence as the substrings appear in the string.
 Duplicate palindromes should be included multiple times.
 
