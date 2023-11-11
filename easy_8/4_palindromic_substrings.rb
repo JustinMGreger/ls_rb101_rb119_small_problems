@@ -64,6 +64,9 @@
 # def palindromes(string)
 #   substrings(string)
 # sub_string = []
+# break string into substrings.
+
+
 
 return ['a list of all substrings of a string that are palindromic']
 palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
