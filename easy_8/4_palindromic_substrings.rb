@@ -30,7 +30,8 @@
 # Identify expected input:
 # a string.
 
-output:
+# output:
+# a list of all substrings of a string that are palindromic. 
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
