@@ -66,6 +66,9 @@
 # sub_string = []
 # break string into substrings.
 # not a palindrome = single characters.
+# def palindrome?(string)
+#   string == string.reverse
+# end
 
 return ['a list of all substrings of a string that are palindromic']
 palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
