@@ -42,7 +42,20 @@
 # use the substrings method you wrote in the previous exercise.
 # single characters are not palindromes.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+Write a method that returns a list of all substrings of a string that are palindromic. 
+palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
+including the same case usage.
+The return value should be arranged in the same sequence as the substrings appear in the string.
+Duplicate palindromes should be included multiple times.
+use the substrings method you wrote in the previous exercise.
+single characters are not palindromes.
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p palindromes('abcd') == []
