@@ -67,7 +67,7 @@
 # break string into substrings.
 # not a palindrome = single characters.
 # def palindrome?(string)
-#   string == string.reverse
+#   string case sensitive == string.reverse case sensitive
 # end
 
 return ['a list of all substrings of a string that are palindromic']
