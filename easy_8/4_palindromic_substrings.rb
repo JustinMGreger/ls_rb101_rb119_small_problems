@@ -94,7 +94,8 @@
 # the return_array varible is assigned the [] array.
 # the intermediate_array is assigned to the result of returning an array of string elements from the string parameter.
 # pass the following block of code to each element in the intermediate_array:
-    return_array << (return_array.last.to_s + x)
+# append the result of returning the last element in the return_array which is then transformed to string form which
+# is then concatenated with the block parameter to the return_array varible.
   end
   return_array
 # this is the last line of the leading_substrings method.
