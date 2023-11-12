@@ -109,7 +109,7 @@
 # the all_substrings varible is concatenated with the result of passing the substring varible to the
 # leading_substrings method.
 # this is the last line of the .each method.
-  all_substrings
+# return the value assigned to the all_substrings variable.
 end
 
 def palindromes(string)
