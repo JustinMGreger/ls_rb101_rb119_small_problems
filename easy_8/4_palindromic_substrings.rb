@@ -101,7 +101,7 @@
 # this is the last line of the leading_substrings method.
 
 # the substrings method accepts the (string) parameter and is defined as the following:
-  all_substrings = []
+# the all_substrings varible is assigned the [] array.
   (0...string.length).each do |start_pos|
     substring = string[start_pos..]
     all_substrings.concat(leading_substrings(substring))
