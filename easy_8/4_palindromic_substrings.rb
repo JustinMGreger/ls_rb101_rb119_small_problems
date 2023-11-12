@@ -110,7 +110,7 @@
 # leading_substrings method.
 # this is the last line of the .each method.
 # return the value assigned to the all_substrings variable.
-end
+# this is the last line of the substrings method.
 
 def palindromes(string)
   substrings(string)
