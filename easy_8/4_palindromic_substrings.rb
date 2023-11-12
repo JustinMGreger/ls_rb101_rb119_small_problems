@@ -108,7 +108,7 @@
 # to the end of the string parameter.
 # the all_substrings varible is concatenated with the result of passing the substring varible to the
 # leading_substrings method.
-  end
+# this is the last line of the .each method.
   all_substrings
 end
 
