@@ -118,7 +118,6 @@
 
 # the palindromes method accepts the (string) parameter and is defined as the following:
 
-def palindromes(string)
   substrings(string)
 sub_string = []
 break string into substrings.
