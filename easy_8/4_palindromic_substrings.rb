@@ -116,6 +116,8 @@
 # determine if the string parameter is a palindrome and greater than the integer 1.
 # this is the last line of the palindrome? method.
 
+# the palindromes method accepts the (string) parameter and is defined as the following:
+
 def palindromes(string)
   substrings(string)
 sub_string = []
