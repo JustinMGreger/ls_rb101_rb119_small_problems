@@ -97,7 +97,7 @@
     return_array << (return_array.last.to_s + x)
   end
   return_array
-end
+# this is the last line of the leading_substrings method.
 
 def substrings(string)
   all_substrings = []
