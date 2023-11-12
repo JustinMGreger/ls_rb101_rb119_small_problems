@@ -106,7 +106,8 @@
 # to the number of elements in the string parameter:
 # the substring varible is assigned the value located in the inclusive range from the start_pos block parameter
 # to the end of the string parameter.
-    all_substrings.concat(leading_substrings(substring))
+# the all_substrings varible is concatenated with the result of passing the substring varible to the
+# leading_substrings method.
   end
   all_substrings
 end
