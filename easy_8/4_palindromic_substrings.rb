@@ -104,7 +104,8 @@
 # the all_substrings varible is assigned the [] array.
 # pass the following block of code to each element in the exlusive range from the integer 0
 # to the number of elements in the string parameter:
-    substring is assigned string[start_pos..]
+# the substring varible is assigned the value located in the inclusive range from the start_pos block parameter
+# to the end of the string parameter.
     all_substrings.concat(leading_substrings(substring))
   end
   all_substrings
