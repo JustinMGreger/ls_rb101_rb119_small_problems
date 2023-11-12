@@ -97,7 +97,7 @@
 # append the result of returning the last element in the return_array which is then transformed to string form which
 # is then concatenated with the block parameter to the return_array varible.
 # this is the last line of the .each method.
-  return_array
+# return the value assigned to the return_array.
 # this is the last line of the leading_substrings method.
 
 def substrings(string)
