@@ -91,7 +91,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the leading_substrings method accepts the (string) parameter and is defined as the following:
-  return_array = []
+# the return_array varible is assigned the [] array.
   intermediate_array = string.chars
   intermediate_array.each do |x|
     return_array << (return_array.last.to_s + x)
