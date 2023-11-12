@@ -118,13 +118,7 @@
 
 # the palindromes method accepts the (string) parameter and is defined as the following:
 
-  substrings(string)
-sub_string = []
-break string into substrings.
-not a palindrome = single characters.
 
-return_value = ['a list of all substrings of a string that are palindromic']
-return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
 # this is the last line in the substrings method.
 
 and Code.” Implementation of Algorithm:
