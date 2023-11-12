@@ -89,47 +89,37 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
-# def leading_substrings(string)
-#   return_array = []
-#   intermediate_array = string.chars
-#   intermediate_array.each do |x|
-#     return_array << (return_array.last.to_s + x)
-#   end
-#   return_array
-# end
+# Algorithm, Steps for converting input to output:
+def leading_substrings(string)
+  return_array = []
+  intermediate_array = string.chars
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
+  return_array
+end
 
-# def substrings(string)
-#   all_substrings = []
-#   (0...string.length).each do |start_pos|
-#     substring = string[start_pos..]
-#     all_substrings.concat(leading_substrings(substring))
-#   end
-#   all_substrings
-# end
+def substrings(string)
+  all_substrings = []
+  (0...string.length).each do |start_pos|
+    substring = string[start_pos..]
+    all_substrings.concat(leading_substrings(substring))
+  end
+  all_substrings
+end
 
-# def palindromes(string)
-#   substrings(string)
-# sub_string = []
-# break string into substrings.
-# not a palindrome = single characters.
-# def palindrome?(string)
-#   string case sensitive == string.reverse case sensitive
-#   Duplicate palindromes should be included multiple times.
-# end
-# return_value = ['a list of all substrings of a string that are palindromic']
-# return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
-# end
-
-
-
-
-
-
-
-
-
-
+def palindromes(string)
+  substrings(string)
+sub_string = []
+break string into substrings.
+not a palindrome = single characters.
+def palindrome?(string)
+  string case sensitive == string.reverse case sensitive
+  Duplicate palindromes should be included multiple times.
+end
+return_value = ['a list of all substrings of a string that are palindromic']
+return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
+end
 
 and Code.” Implementation of Algorithm:
 
