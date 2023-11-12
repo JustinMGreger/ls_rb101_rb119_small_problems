@@ -111,6 +111,7 @@
 # this is the last line of the .each method.
 # return the value assigned to the all_substrings variable.
 # this is the last line of the substrings method.
+
 # the palindrome? method accepts the (string) parameter and is defined as the following:
 
 
@@ -120,9 +121,6 @@ sub_string = []
 break string into substrings.
 not a palindrome = single characters.
 
-  string case sensitive == string.reverse case sensitive
-  Duplicate palindromes should be included multiple times.
-  
 return_value = ['a list of all substrings of a string that are palindromic']
 return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
 end
