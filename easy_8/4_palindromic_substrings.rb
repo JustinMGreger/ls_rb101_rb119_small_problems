@@ -93,7 +93,7 @@
 # the leading_substrings method accepts the (string) parameter and is defined as the following:
 # the return_array varible is assigned the [] array.
 # the intermediate_array is assigned to the result of returning an array of string elements from the string parameter.
-  intermediate_array.each do |x|
+# pass the following block of code to each element in the intermediate_array:
     return_array << (return_array.last.to_s + x)
   end
   return_array
