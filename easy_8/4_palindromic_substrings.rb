@@ -119,10 +119,10 @@ def palindromes(string)
 sub_string = []
 break string into substrings.
 not a palindrome = single characters.
-def palindrome?(string)
+
   string case sensitive == string.reverse case sensitive
   Duplicate palindromes should be included multiple times.
-end
+  
 return_value = ['a list of all substrings of a string that are palindromic']
 return_value should be sorted so that it is in the same sequence as the substrings appear in the string.
 end
