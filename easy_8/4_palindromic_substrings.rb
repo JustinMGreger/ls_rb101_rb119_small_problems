@@ -111,6 +111,8 @@
 # this is the last line of the .each method.
 # return the value assigned to the all_substrings variable.
 # this is the last line of the substrings method.
+# the palindrome? method accepts the (string) parameter and is defined as the following:
+
 
 def palindromes(string)
   substrings(string)
