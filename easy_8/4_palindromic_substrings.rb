@@ -90,7 +90,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def leading_substrings(string)
+# the leading_substrings method accepts the (string) parameter and is defined as the following:
   return_array = []
   intermediate_array = string.chars
   intermediate_array.each do |x|
