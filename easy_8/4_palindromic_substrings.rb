@@ -113,7 +113,7 @@
 # this is the last line of the substrings method.
 
 # the palindrome? method accepts the (string) parameter and is defined as the following:
-
+# determine if the string parameter is a palindrome and greater than the integer 1.
 
 def palindromes(string)
   substrings(string)
