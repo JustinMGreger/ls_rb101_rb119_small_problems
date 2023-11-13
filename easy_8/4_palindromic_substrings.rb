@@ -34,7 +34,7 @@
 # a list of all substrings of a string that are palindromic.
 
 # Make the requirements explicit Identify rules:
-# Write a method that returns a list of all substrings of a string that are palindromic. 
+# Write a method that returns a list of all substrings of a string that are palindromic.
 # palandrome = each substring must consist of the same sequence of characters forwards as it does backwards
 # including the same case usage.
 # The return value should be arranged in the same sequence as the substrings appear in the string.
