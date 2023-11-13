@@ -117,7 +117,7 @@
 # this is the last line of the palindrome? method.
 
 # the palindromes method accepts the (string) parameter and is defined as the following:
-
+# the all_substrings variable is assigned the result of passing the string parameter to the substrings method.
 
 # this is the last line in the substrings method.
 
