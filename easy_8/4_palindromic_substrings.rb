@@ -31,7 +31,7 @@
 # a string.
 
 # output:
-# a list of all substrings of a string that are palindromic. 
+# a list of all substrings of a string that are palindromic.
 
 # Make the requirements explicit Identify rules:
 # Write a method that returns a list of all substrings of a string that are palindromic. 
