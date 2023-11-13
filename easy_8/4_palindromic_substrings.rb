@@ -122,7 +122,33 @@
 # the block parameter to the palandrome? method.
 # this is the last line in the substrings method.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+def leading_substrings(string)
+  return_array = []
+  intermediate_array = string.chars
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
+  return_array
+end
+
+def substrings(string)
+  all_substrings = []
+  (0...string.length).each do |start_pos|
+    substring = string[start_pos..]
+    all_substrings.concat(leading_substrings(substring))
+  end
+  all_substrings
+end
+
+def palindrome?(string)
+  string == string.reverse && string.length > 1
+end
+
+def palindromes(string)
+  all_substrings = substrings(string)
+  all_substrings.select { |substring| palindrome?(substring) }
+end
 
 # tests:
 p palindromes('abcd') == []
