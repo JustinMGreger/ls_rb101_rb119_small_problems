@@ -118,7 +118,8 @@
 
 # the palindromes method accepts the (string) parameter and is defined as the following:
 # the all_substrings variable is assigned the result of passing the string parameter to the substrings method.
-
+# return a new array of the elements in the all_substrings that return a truthy value from the result of passing
+# the block parameter to the palandrome? method.
 # this is the last line in the substrings method.
 
 and Code.” Implementation of Algorithm:
