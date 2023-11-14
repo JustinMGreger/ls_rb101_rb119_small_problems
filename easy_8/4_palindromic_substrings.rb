@@ -150,6 +150,20 @@
 #   all_substrings.select { |substring| palindrome?(substring) }
 # end
 
+# LS Solution:
+def palindromes(string)
+  all_substrings = substrings(string)
+  results = []
+  all_substrings.each do |substring|
+    results << substring if palindrome?(substring)
+  end
+  results
+end
+
+def palindrome?(string)
+  string == string.reverse && string.size > 1
+end
+
 # tests:
 p palindromes('abcd') == []
 p palindromes('madam') == %w[madam ada]
