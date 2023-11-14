@@ -164,9 +164,22 @@ def palindrome?(string)
   string == string.reverse && string.size > 1
 end
 
+# tests:
+# p palindromes('abcd') == []
+# p palindromes('madam') == %w[madam ada]
+# p palindromes('hello-madam-did-madam-goodbye') == [
+#   'll', '-madam-', '-madam-did-madam-', 'madam', 'madam-did-madam', 'ada',
+#   'adam-did-mada', 'dam-did-mad', 'am-did-ma', 'm-did-m', '-did-', 'did',
+#   '-madam-', 'madam', 'ada', 'oo'
+# ]
+# p palindromes('knitting cassettes') == %w[
+#   nittin itti tt ss settes ette tt
+# ]
+
 # Further Exploration
 
-Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case? Alphanumeric characters are alphabetic characters(upper and lowercase) and digits.
+# Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case?
+# Alphanumeric characters are alphabetic characters(upper and lowercase) and digits.
 
 # tests:
 p palindromes('abcd') == []
