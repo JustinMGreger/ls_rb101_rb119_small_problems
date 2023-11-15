@@ -230,7 +230,7 @@ p palindromes('hello-madam-did-madam-goodbye') == [
 p palindromes('knitting cassettes') == %w[
   nittin itti tt ss settes ette tt
 ]
-
+p palandrome ignore non-alphanumeric characters and case
 
 
 
