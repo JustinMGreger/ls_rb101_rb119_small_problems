@@ -206,7 +206,18 @@ each substring must consist of the same sequence of characters forwards as it do
 The return value should be arranged in the same sequence as the substrings appear in the string.
 Duplicate palindromes should be included multiple times.
 
+def palindromes(string)
+  all_substrings = substrings(string)
+  results = []
+  all_substrings.each do |substring|
+    results << substring if palindrome?(substring)
+  end
+  results
+end
 
+def palindrome?(string)
+  string == string.reverse && string.size > 1
+end
 
 
 Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case?
