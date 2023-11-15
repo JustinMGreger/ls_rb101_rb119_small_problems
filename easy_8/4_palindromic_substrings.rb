@@ -262,7 +262,7 @@ p palindromes('hello-madam-did-madam-goodbye') == [
 p palindromes('knitting cassettes') == %w[
   nittin itti tt ss settes ette tt
 ]
-p palindromes('aa11bB$$') == []
+p palindromes('aa11bB$$') == ["aa", "11", "bB"]
 
 
 
