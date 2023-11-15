@@ -201,32 +201,23 @@
 # In addition, assume that single characters are not palindromes.
 
 # Mental model of the problem (optional):
-Write a method that returns a list of all substrings of a string that are palindromic.
-each substring must consist of the same sequence of characters forwards as it does backwards.
-The return value should be arranged in the same sequence as the substrings appear in the string.
-Duplicate palindromes should be included multiple times.
-
-def palindromes(string)
-  all_substrings = substrings(string)
-  results = []
-  all_substrings.each do |substring|
-    results << substring if palindrome?(substring)
-  end
-  results
-end
-
-def palindrome?(string)
-  string == string.reverse && string.size > 1
-end
-
-
-Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case?
-Alphanumeric characters are alphabetic characters(upper and lowercase) and digits.
-
-
-
-
-
+# Write a method that returns a list of all substrings of a string that are palindromic.
+# each substring must consist of the same sequence of characters forwards as it does backwards.
+# The return value should be arranged in the same sequence as the substrings appear in the string.
+# Duplicate palindromes should be included multiple times.
+# def palindromes(string)
+#   all_substrings = substrings(string)
+#   results = []
+#   all_substrings.each do |substring|
+#     results << substring if palindrome?(substring)
+#   end
+#   results
+# end
+# def palindrome?(string)
+#   string == string.reverse && string.size > 1
+# end
+# Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case?
+# Alphanumeric characters are alphabetic characters(upper and lowercase) and digits.
 
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
