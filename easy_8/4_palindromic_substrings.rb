@@ -198,12 +198,7 @@
 # You may (and should) use the substrings method you wrote in the previous exercise.
 # Can you modify this method (and/or its predecessors) to ignore non-alphanumeric characters and case?
 # Alphanumeric characters are alphabetic characters(upper and lowercase) and digits.
-
-In addition, assume that single characters are not palindromes.
-
-
-
-
+# In addition, assume that single characters are not palindromes.
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
