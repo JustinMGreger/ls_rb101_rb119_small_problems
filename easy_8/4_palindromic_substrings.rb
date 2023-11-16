@@ -267,8 +267,8 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
-and Code.” Implementation of Algorithm:
+# Algorithm, Steps for converting input to output:
+# and Code.” Implementation of Algorithm:
 
 
 
@@ -284,4 +284,4 @@ p palindromes('hello-madam-did-madam-goodbye') == ["ll", "madam", "madamdidmadam
 p palindromes('knitting cassettes') == %w[
   nittin itti tt ss settes ette tt
 ]
-p palindromes('aa11bB$$') == ["aa", "11", "bB"]
+p palindromes('aa11bB$$') == %w[aa 11 bB]
