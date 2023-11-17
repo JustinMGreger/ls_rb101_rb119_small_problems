@@ -273,8 +273,12 @@
 # tests:
 p palindromes('abcd') == []
 p palindromes('madam') == %w[madam ada]
-p palindromes('hello-madam-did-madam-goodbye') == %w[ll madam madamdidmadam ada adamdidmada damdidmad
- amdidma mdidm did madam ada oo]
+p palindromes('hello-madam-did-madam-goodbye') == %w[
+  ll madam madamdidmadam ada
+  adamdidmada damdidmad amdidma mdidm did
+  madam ada oo
+]
+
 p palindromes('knitting cassettes') == %w[
   nittin itti tt ss settes ette tt
 ]
