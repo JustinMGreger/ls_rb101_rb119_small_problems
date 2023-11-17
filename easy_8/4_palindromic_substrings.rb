@@ -268,6 +268,20 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
+# the clean_string method accepts the (string) parameter and is defined as the following:
+
+
+
+
+
+
+
+
+
+
+
+
+
 # and Code.” Implementation of Algorithm:
 
 # tests:
