@@ -273,7 +273,7 @@
 # this is the end of the clean_string method.
 
 # the leading_substrings method accepts the (string) parameter and is defined as the following:
-
+# the return_array variable is assigned the [] array.
 
 
 
