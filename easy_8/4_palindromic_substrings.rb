@@ -278,7 +278,6 @@ p palindromes('hello-madam-did-madam-goodbye') == %w[
   adamdidmada damdidmad amdidma mdidm did
   madam ada oo
 ]
-
 p palindromes('knitting cassettes') == %w[
   nittin itti tt ss settes ette tt
 ]
