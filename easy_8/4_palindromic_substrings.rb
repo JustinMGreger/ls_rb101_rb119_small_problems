@@ -285,6 +285,8 @@
 # the cleaned_string variable is assigned the result of passing the string parameter to
 # the clean_string method.
 # the results variable is assigned the [] array.
+# pass the following block of code to each element in the range starting at the integer 0
+# and ending before the number of elements in the cleaned_string variable.
 
 
 # and Code.” Implementation of Algorithm:
