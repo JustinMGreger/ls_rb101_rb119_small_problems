@@ -271,7 +271,6 @@
 # the clean_string method accepts the (string) parameter and is defined as the following:
 # remove non alphanumeric characters from the string parameter.
 # this is the end of the clean_string method.
-
 # the leading_substrings method accepts the (string) parameter and is defined as the following:
 # the return_array variable is assigned the [] array.
 # the intermediate_array variable is assigned the array of strings made up of the string parameter.
@@ -283,6 +282,8 @@
 # this is the last line in the leading_substrings method.
 
 # the substrings method accepts the (string) parameter and is defined as the following:
+# the cleaned_string variable is assigned the result of passing the string parameter to
+# the clean_string method.
 
 
 # and Code.” Implementation of Algorithm:
