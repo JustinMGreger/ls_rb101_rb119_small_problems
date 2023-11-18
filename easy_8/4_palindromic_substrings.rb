@@ -276,7 +276,8 @@
 # the return_array variable is assigned the [] array.
 # the intermediate_array variable is assigned the array of strings made up of the string parameter.
 # pass the following code to each element in the intermediate_array variable:
-
+# append the last element in the return_array variable in string form that is concatenated with
+# the block parameter to the return_array variable.
 
 
 # and Code.” Implementation of Algorithm:
