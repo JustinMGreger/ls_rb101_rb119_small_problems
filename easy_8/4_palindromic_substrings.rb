@@ -296,7 +296,7 @@
 # this is the last line of the substrings method.
 
 # the palindrome? method accepts the (string) parameter and is defined as the following:
-
+# the downcased_string variable is assigned to the downcase form of the string parameter.
 
 
 # and Code.” Implementation of Algorithm:
