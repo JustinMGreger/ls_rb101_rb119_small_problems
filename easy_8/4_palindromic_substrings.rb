@@ -304,6 +304,10 @@
 # the palindromes method accepts the (string) parameter and is defined as the following:
 # the all_substrings variable is assigned the result of passing the string parameter to
 # the substrings method.
+# iterate over each element in the all_substrings variable and pass the result of passing
+# the block parameter to the palindrome? method to each element and return a new array
+# containing all the elements for which the block returns a truthy value.
+
 
 # and Code.” Implementation of Algorithm:
 
