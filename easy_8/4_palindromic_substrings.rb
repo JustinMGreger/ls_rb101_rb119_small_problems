@@ -279,6 +279,9 @@
 # append the last element in the return_array variable in string form that is concatenated with
 # the block parameter to the return_array variable.
 # this is the last line of the .each method.
+# return the value assigned to the return_array variable.
+
+
 
 # and Code.” Implementation of Algorithm:
 
