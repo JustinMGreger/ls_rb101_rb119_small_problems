@@ -308,6 +308,38 @@
 # this is the last line of the palindromes method.
 
 # and Code.” Implementation of Algorithm:
+def clean_string(string)
+  string.gsub(/[^a-z0-9]/i, '')
+end
+
+def leading_substrings(string)
+  return_array = []
+  intermediate_array = string.chars
+  intermediate_array.each do |x|
+    return_array << (return_array.last.to_s + x)
+  end
+  return_array
+end
+
+def substrings(string)
+  cleaned_string = clean_string(string)
+  results = []
+  (0...cleaned_string.size).each do |start_index|
+    this_substring = cleaned_string[start_index..]
+    results.concat(leading_substrings(this_substring))
+  end
+  results
+end
+
+def palindrome?(string)
+  downcased_string = string.downcase
+  downcased_string == downcased_string.reverse && downcased_string.size >= 2
+end
+
+def palindromes(string)
+  all_substrings = substrings(string)
+  all_substrings.select { |substring| palindrome?(substring) }
+end
 
 # tests:
 p palindromes('abcd') == []
