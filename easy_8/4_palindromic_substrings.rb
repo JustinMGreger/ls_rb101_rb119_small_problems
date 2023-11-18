@@ -294,7 +294,6 @@
 # this is the last line of the .each method.
 # return the value assigned to the results variable.
 # this is the last line of the substrings method.
-
 # the palindrome? method accepts the (string) parameter and is defined as the following:
 # the downcased_string variable is assigned to the downcase form of the string parameter.
 # return the boolean result of determining if the downcased_string variable is equal to
@@ -303,6 +302,8 @@
 # this is the last line of the palindrome? method.
 
 # the palindromes method accepts the (string) parameter and is defined as the following:
+# the all_substrings variable is assigned the result of passing the string parameter to
+# the substrings method.
 
 # and Code.” Implementation of Algorithm:
 
