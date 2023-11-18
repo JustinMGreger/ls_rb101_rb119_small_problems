@@ -302,6 +302,8 @@
 # downcased_string variable is greater than or equal to the integer 2
 # this is the last line of the palindrome? method.
 
+# the palindromes method accepts the (string) parameter and is defined as the following:
+
 # and Code.” Implementation of Algorithm:
 
 # tests:
