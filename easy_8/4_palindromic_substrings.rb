@@ -292,7 +292,7 @@
 # the results variable is concatenated with the result of passing the this_substring variable
 # to the leading_substrings method.
 # this is the last line of the .each method.
-
+# return the value assigned to the results variable.
 
 # and Code.” Implementation of Algorithm:
 
