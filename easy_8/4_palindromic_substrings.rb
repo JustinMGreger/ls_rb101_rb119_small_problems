@@ -284,6 +284,7 @@
 # the substrings method accepts the (string) parameter and is defined as the following:
 # the cleaned_string variable is assigned the result of passing the string parameter to
 # the clean_string method.
+# the results variable is assigned the [] array.
 
 
 # and Code.” Implementation of Algorithm:
