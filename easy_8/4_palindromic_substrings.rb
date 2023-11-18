@@ -300,7 +300,7 @@
 # return the boolean result of determining if the downcased_string variable is equal to
 # the reversed form of the downcased_string variable and if the number of elements in
 # downcased_string variable is greater than or equal to the integer 2
-
+# this is the last line of the palindrome? method.
 
 # and Code.” Implementation of Algorithm:
 
