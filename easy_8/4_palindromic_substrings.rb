@@ -289,7 +289,8 @@
 # and ending before the number of elements in the cleaned_string variable.
 # the this_substring variable is assigned the result of passing the block parameter to the
 # end of the string to the cleaned_string variable.
-
+# the results variable is concatenated with the result of passing the this_substring variable
+# to the leading_substrings method.
 
 
 
