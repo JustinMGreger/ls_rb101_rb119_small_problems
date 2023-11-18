@@ -291,7 +291,7 @@
 # end of the string to the cleaned_string variable.
 # the results variable is concatenated with the result of passing the this_substring variable
 # to the leading_substrings method.
-
+# this is the last line of the .each method.
 
 
 # and Code.” Implementation of Algorithm:
