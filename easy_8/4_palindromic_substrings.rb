@@ -280,7 +280,6 @@
 # this is the last line of the .each method.
 # return the value assigned to the return_array variable.
 # this is the last line in the leading_substrings method.
-
 # the substrings method accepts the (string) parameter and is defined as the following:
 # the cleaned_string variable is assigned the result of passing the string parameter to
 # the clean_string method.
@@ -300,14 +299,13 @@
 # the reversed form of the downcased_string variable and if the number of elements in
 # downcased_string variable is greater than or equal to the integer 2
 # this is the last line of the palindrome? method.
-
 # the palindromes method accepts the (string) parameter and is defined as the following:
 # the all_substrings variable is assigned the result of passing the string parameter to
 # the substrings method.
 # iterate over each element in the all_substrings variable and pass the result of passing
 # the block parameter to the palindrome? method to each element and return a new array
 # containing all the elements for which the block returns a truthy value.
-
+# this is the last line of the palindromes method.
 
 # and Code.” Implementation of Algorithm:
 
