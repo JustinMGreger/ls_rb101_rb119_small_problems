@@ -282,6 +282,7 @@
 # return the value assigned to the return_array variable.
 # this is the last line in the leading_substrings method.
 
+# the substrings method accepts the (string) parameter and is defined as the following:
 
 
 # and Code.” Implementation of Algorithm:
