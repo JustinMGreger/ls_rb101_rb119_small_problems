@@ -295,6 +295,10 @@
 # return the value assigned to the results variable.
 # this is the last line of the substrings method.
 
+# the palindrome? method accepts the (string) parameter and is defined as the following:
+
+
+
 # and Code.” Implementation of Algorithm:
 
 # tests:
