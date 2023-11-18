@@ -297,6 +297,9 @@
 
 # the palindrome? method accepts the (string) parameter and is defined as the following:
 # the downcased_string variable is assigned to the downcase form of the string parameter.
+# return the boolean result of determining if the downcased_string variable is equal to
+# the reversed form of the downcased_string variable and if the number of elements in
+# downcased_string variable is greater than or equal to the integer 2
 
 
 # and Code.” Implementation of Algorithm:
