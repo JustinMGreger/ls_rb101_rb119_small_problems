@@ -293,6 +293,7 @@
 # to the leading_substrings method.
 # this is the last line of the .each method.
 # return the value assigned to the results variable.
+# this is the last line of the substrings method.
 
 # and Code.” Implementation of Algorithm:
 
