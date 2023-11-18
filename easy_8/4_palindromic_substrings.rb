@@ -278,7 +278,7 @@
 # pass the following code to each element in the intermediate_array variable:
 # append the last element in the return_array variable in string form that is concatenated with
 # the block parameter to the return_array variable.
-
+# this is the last line of the .each method.
 
 # and Code.” Implementation of Algorithm:
 
