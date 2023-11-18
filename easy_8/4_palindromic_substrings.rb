@@ -287,6 +287,10 @@
 # the results variable is assigned the [] array.
 # pass the following block of code to each element in the range starting at the integer 0
 # and ending before the number of elements in the cleaned_string variable.
+# the this_substring variable is assigned the result of passing the block parameter to the
+# end of the string to the cleaned_string variable.
+
+
 
 
 # and Code.” Implementation of Algorithm:
