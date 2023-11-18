@@ -280,6 +280,7 @@
 # the block parameter to the return_array variable.
 # this is the last line of the .each method.
 # return the value assigned to the return_array variable.
+# this is the last line in the leading_substrings method.
 
 
 
