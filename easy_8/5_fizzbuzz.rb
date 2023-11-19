@@ -54,7 +54,7 @@
 # this is the last line of the fizzbuzz method.
 
 # and Code.” Implementation of Algorithm:
-the fizzbuzz method accepts the (starting_number, ending_number) parameters and is defined as:
+def fizzbuzz(starting_number, ending_number)
 iterate over all numbers in the inclusive range from the starting number to the ending number.
 if a number is divisible by 3, print "Fizz"
 if a number is divisible by 5, print "Buzz",
