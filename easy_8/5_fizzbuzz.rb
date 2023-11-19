@@ -45,12 +45,12 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-the fizzbuzz method accepts the (starting_number, ending_number) parameters and is defined as:
-Print out all numbers from the starting number to the ending number
+# the fizzbuzz method accepts the (starting_number, ending_number) parameters and is defined as:
+Print out all numbers in the inclusive range from the starting number to the ending number.
 if a number is divisible by 3, print "Fizz"
 if a number is divisible by 5, print "Buzz",
 if a number is divisible by 3 and 5, print "FizzBuzz".
-
+else print the block parameter.
 
 
 
