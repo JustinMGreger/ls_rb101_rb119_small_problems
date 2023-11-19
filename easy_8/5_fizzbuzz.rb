@@ -51,10 +51,7 @@ if a number is divisible by 3, print "Fizz"
 if a number is divisible by 5, print "Buzz",
 if a number is divisible by 3 and 5, print "FizzBuzz".
 else print the block parameter.
-
-
-
-
+# this is the last line of the fizzbuzz method.
 
 and Code.” Implementation of Algorithm:
 
