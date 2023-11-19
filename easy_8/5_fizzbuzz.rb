@@ -53,7 +53,20 @@
 # else print the block parameter.
 # this is the last line of the fizzbuzz method.
 
-and Code.” Implementation of Algorithm:
+# and Code.” Implementation of Algorithm:
+the fizzbuzz method accepts the (starting_number, ending_number) parameters and is defined as:
+iterate over all numbers in the inclusive range from the starting number to the ending number.
+if a number is divisible by 3, print "Fizz"
+if a number is divisible by 5, print "Buzz",
+if a number is divisible by 3 and 5, print "FizzBuzz".
+else print the block parameter.
+this is the last line of the fizzbuzz method.
+
+
+
+
+
+
 
 # test:
 p fizzbuzz(1, 15) # -> 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
