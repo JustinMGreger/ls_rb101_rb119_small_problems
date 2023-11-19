@@ -41,8 +41,11 @@
 # Examples / Test Cases, Validate understanding of the problem:
 # p fizzbuzz(1, 15) # -> 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
+
 and Code.” Implementation of Algorithm:
 
 # test:
