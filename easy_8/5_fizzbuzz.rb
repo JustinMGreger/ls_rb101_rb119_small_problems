@@ -55,7 +55,7 @@
 
 # and Code.” Implementation of Algorithm:
 def fizzbuzz(starting_number, ending_number)
-iterate over all numbers in the inclusive range from the starting number to the ending number.
+iterate over all numbers in the inclusive range from the starting_number ending_number
 if a number is divisible by 3, print "Fizz"
 if a number is divisible by 5, print "Buzz",
 if a number is divisible by 3 and 5, print "FizzBuzz".
