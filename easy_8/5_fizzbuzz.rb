@@ -44,7 +44,17 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+the fizzbuzz method accepts the (starting_number, ending_number) parameters and is defined as:
+Print out all numbers from the starting number to the ending number
+if a number is divisible by 3, print "Fizz"
+if a number is divisible by 5, print "Buzz",
+if a number is divisible by 3 and 5, print "FizzBuzz".
+
+
+
+
+
 
 and Code.” Implementation of Algorithm:
 
