@@ -67,7 +67,8 @@ def fizzbuzz(starting_number, ending_number)
       result << x
       end
     end
-    
+
+    result.join(", ")
 end
 
 # test:
