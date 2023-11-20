@@ -59,7 +59,7 @@ def fizzbuzz(starting_number, ending_number)
   if x % 3 == 0 print "Fizz"
     if x % 5 == 0 print "Buzz"
 if x % 3 == 0 && x % 5 == 0 print "FizzBuzz".
-else print the block parameter.
+else print x
 end
 
 
