@@ -54,23 +54,23 @@
 # this is the last line of the fizzbuzz method.
 
 # and Code.” Implementation of Algorithm:
-def fizzbuzz(starting_number, ending_number)
-  result = [] #
+# def fizzbuzz(starting_number, ending_number)
+#   result = [] #
 
-  (starting_number..ending_number).each do |x|
-    if x % 3 == 0 && x % 5 == 0
-      result << "FizzBuzz"
-    elsif x % 3 == 0
-      result << "Fizz"
-    elsif x % 5 == 0
-      result << "Buzz"
-    else
-      result << x
-    end
-  end
+#   (starting_number..ending_number).each do |x|
+#     if x % 3 == 0 && x % 5 == 0
+#       result << "FizzBuzz"
+#     elsif x % 3 == 0
+#       result << "Fizz"
+#     elsif x % 5 == 0
+#       result << "Buzz"
+#     else
+#       result << x
+#     end
+#   end
 
-  result.join(", ")
-end
+#   result.join(", ")
+# end
 
 # test:
 puts fizzbuzz(1, 15) # -> 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
