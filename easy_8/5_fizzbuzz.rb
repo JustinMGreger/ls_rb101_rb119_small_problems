@@ -63,7 +63,8 @@ def fizzbuzz(starting_number, ending_number)
       result << "Fizz"
     elsif x % 5 == 0
       result << "Buzz"
-else print x
+    else
+      print x
 end
 
 # test:
