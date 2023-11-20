@@ -55,7 +55,8 @@
 
 # and Code.” Implementation of Algorithm:
 def fizzbuzz(starting_number, ending_number)
-  result = []
+  result = [] #
+
   (starting_number..ending_number).each do |x|
     if x % 3 == 0 && x % 5 == 0
       result << "FizzBuzz"
@@ -65,11 +66,11 @@ def fizzbuzz(starting_number, ending_number)
       result << "Buzz"
     else
       result << x
-      end
     end
+  end
 
-    result.join(", ")
+  result.join(", ")
 end
 
 # test:
-p fizzbuzz(1, 15) # -> 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
+puts fizzbuzz(1, 15) # -> 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
