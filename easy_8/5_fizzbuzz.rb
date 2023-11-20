@@ -62,7 +62,7 @@ def fizzbuzz(starting_number, ending_number)
     elsif x % 3 == 0
       result << "Fizz"
     elsif x % 5 == 0
-      print "Buzz"
+      result << "Buzz"
 else print x
 end
 
