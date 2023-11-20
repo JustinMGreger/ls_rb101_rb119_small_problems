@@ -59,7 +59,6 @@ def fizzbuzz(starting_number, ending_number)
   (starting_number..ending_number).each do |x|
   if x % 3 == 0 print "Fizz"
     if x % 5 == 0 print "Buzz"
-if x % 3 == 0 && x % 5 == 0 print "FizzBuzz".
 else print x
 end
 
