@@ -57,7 +57,7 @@
 def fizzbuzz(starting_number, ending_number)
 [starting_number..ending_number].each do |x|
   if x % 3 == 0 print "Fizz"
-if a number is divisible by 5, print "Buzz",
+    if x % 5 == 0, print "Buzz"
 if a number is divisible by 3 and 5, print "FizzBuzz".
 else print the block parameter.
 end
