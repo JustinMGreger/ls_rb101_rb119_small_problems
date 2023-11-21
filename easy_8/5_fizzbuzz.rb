@@ -56,7 +56,7 @@
 # and Code.” Implementation of Algorithm:
 def fizzbuzz(starting_number, ending_number)
   (starting_number..ending_number).map do |x|
-    (x % 15).zero? ? 'FizzBuzz' : (x % 3).zero? 'Fizz' : x % 5 == 0 ? 'Buzz' : x
+    (x % 15).zero? ? 'FizzBuzz' : (x % 3).zero? 'Fizz' : (x % 5).zero? ? 'Buzz' : x
   end.join(', ')
 end
 
