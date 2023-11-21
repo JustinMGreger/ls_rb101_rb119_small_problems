@@ -54,10 +54,16 @@
 # this is the last line of the fizzbuzz method.
 
 # and Code.” Implementation of Algorithm:
+def fizzbuzz_value(num)
+  return 'FizzBuzz' if (num % 15).zero?
+  return 'Fizz' if (num % 3).zero?
+  return 'Buzz' if (num % 5).zero?
+
+  num
+end
+
 def fizzbuzz(starting_number, ending_number)
-  (starting_number..ending_number).map do |x|
-    (x % 15).zero? ? 'FizzBuzz' : (x % 3).zero? 'Fizz' : (x % 5).zero? ? 'Buzz' : x
-  end.join(', ')
+  (starting_number..ending_number).map { |num| fizzbuzz_value(num) }.join(', ')
 end
 
 # LS Solution:
