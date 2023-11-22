@@ -3,9 +3,9 @@
 # Write a method that takes a string, and returns a new string in which every character is doubled.
 
 # Examples:
-p repeater('Hello') == 'HHeelllloo'
-p repeater('Good job!') == 'GGoooodd  jjoobb!!'
-p repeater('') == ''
+# p repeater('Hello') == 'HHeelllloo'
+# p repeater('Good job!') == 'GGoooodd  jjoobb!!'
+# p repeater('') == ''
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
