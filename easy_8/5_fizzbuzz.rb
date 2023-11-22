@@ -14,7 +14,7 @@
 # PEDAC stands for “[Understand the] Problem,
 
 # Identify expected input:
-# two arguments: the first is the starting number, and the second is the ending number. 
+# two arguments: the first is the starting number, and the second is the ending number.
 
 # output:
 # Print out all numbers from the starting number to the ending number,
