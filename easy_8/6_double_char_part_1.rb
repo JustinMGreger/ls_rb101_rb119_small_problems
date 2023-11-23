@@ -34,9 +34,7 @@
 # Algorithm, Steps for converting input to output:
 # the repeater method accepts the (string) parameter and is defined as the following:
 # the new_string varible is assigned to the [] array.
-
-
-
+# pass each character of the string parameter to the following block of code:
 
 
 
