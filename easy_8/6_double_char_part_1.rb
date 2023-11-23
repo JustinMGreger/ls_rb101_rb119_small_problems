@@ -38,7 +38,12 @@
 # append the result of concatenating the block parameter with the block parameter to the new_string varible.
 # return the result of joining the elements in the new_string varible into a single string.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+the repeater method accepts the (string) parameter and is defined as the following:
+the new_string varible is assigned to the [] array.
+pass each character of the string parameter to the following block of code:
+append the result of concatenating the block parameter with the block parameter to the new_string varible.
+return the result of joining the elements in the new_string varible into a single string.
 
 # tests:
 p repeater('Hello') == 'HHeelllloo'
