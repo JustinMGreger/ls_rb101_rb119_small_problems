@@ -36,7 +36,7 @@
 # the new_string varible is assigned to the [] array.
 
 
-return new_string = in which every character is doubled.
+
 
 
 
