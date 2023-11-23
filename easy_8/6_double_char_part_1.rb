@@ -40,8 +40,8 @@
 
 # and Code. Implementation of Algorithm:
 def repeater(string)
-the new_string varible is assigned to the [] array.
-pass each character of the string parameter to the following block of code:
+  new_string = []
+  string.each_char do |char|
 append the result of concatenating the block parameter with the block parameter to the new_string varible.
 return the result of joining the elements in the new_string varible into a single string.
 
