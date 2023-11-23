@@ -18,9 +18,9 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p repeater('Hello') == 'HHeelllloo'
-p repeater('Good job!') == 'GGoooodd  jjoobb!!'
-p repeater('') == ''
+# p repeater('Hello') == 'HHeelllloo'
+# p repeater('Good job!') == 'GGoooodd  jjoobb!!'
+# p repeater('') == ''
 
 
 Data Structure, How we represent data that we will work with when converting the input to output:
