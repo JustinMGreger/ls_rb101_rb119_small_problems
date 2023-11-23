@@ -26,3 +26,8 @@ p repeater('') == ''
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+p repeater('Hello') == 'HHeelllloo'
+p repeater('Good job!') == 'GGoooodd  jjoobb!!'
+p repeater('') == ''
