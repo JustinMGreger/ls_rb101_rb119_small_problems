@@ -31,7 +31,14 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the repeater method accepts the (string) parameter and is defined as the following:
+return new_string = in which every character is doubled.
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
