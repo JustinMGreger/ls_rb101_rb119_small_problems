@@ -19,7 +19,12 @@
 # Make the requirements explicit Identify rules:
 # Write a method that takes a string, and returns a new string in which every character is doubled.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# def repeater(string)
+  , and returns a new string in which every character is doubled.
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p repeater('Hello') == 'HHeelllloo'
