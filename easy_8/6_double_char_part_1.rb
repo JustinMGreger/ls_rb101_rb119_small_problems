@@ -21,10 +21,7 @@
 
 # Mental model of the problem (optional):
 # def repeater(string)
-  , and returns a new string in which every character is doubled.
-
-
-
+# return new_string = in which every character is doubled.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p repeater('Hello') == 'HHeelllloo'
