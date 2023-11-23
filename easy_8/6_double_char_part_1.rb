@@ -42,7 +42,7 @@
 def repeater(string)
   new_string = []
   string.each_char do |char|
-append the result of concatenating the block parameter with the block parameter to the new_string varible.
+    new_string << char + char
 return the result of joining the elements in the new_string varible into a single string.
 
 # tests:
