@@ -27,6 +27,7 @@
 # Mental model of the problem (optional):
 # def double_consonants(string)
 # determine if the string parameter is a consonant.
+# Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 return a new string in which every consonant character is doubled.
 Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 
