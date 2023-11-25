@@ -45,6 +45,7 @@ def repeater(string)
     new_string << char + char
   end
   new_string.join
+end
 
 # tests:
 p repeater('Hello') == 'HHeelllloo'
