@@ -39,13 +39,13 @@
 # return the result of joining the elements in the new_string varible into a single string.
 
 # and Code. Implementation of Algorithm:
-def repeater(string)
-  new_string = []
-  string.each_char do |char|
-    new_string << char + char
-  end
-  new_string.join
-end
+# def repeater(string)
+#   new_string = []
+#   string.each_char do |char|
+#     new_string << char + char
+#   end
+#   new_string.join
+# end
 
 # tests:
 p repeater('Hello') == 'HHeelllloo'
