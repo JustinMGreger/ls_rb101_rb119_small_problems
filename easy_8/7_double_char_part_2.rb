@@ -22,10 +22,16 @@
 # Make the requirements explicit Identify rules:
 # Write a method that takes a string.
 # return a new string in which every consonant character is doubled.
+# Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
+
+# Mental model of the problem (optional):
+
+
+Write a method that takes a string.
+return a new string in which every consonant character is doubled.
 Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 
 
-Mental model of the problem (optional):
 
 #Examples / Test Cases, Validate understanding of the problem:
 # p double_consonants('String') == 'SSttrrinngg'
