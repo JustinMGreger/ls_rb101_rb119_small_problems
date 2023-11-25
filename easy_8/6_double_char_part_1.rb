@@ -43,6 +43,7 @@ def repeater(string)
   new_string = []
   string.each_char do |char|
     new_string << char + char
+  end
 return the result of joining the elements in the new_string varible into a single string.
 
 # tests:
