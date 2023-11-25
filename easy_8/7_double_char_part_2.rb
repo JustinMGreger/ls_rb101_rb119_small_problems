@@ -5,10 +5,10 @@
 # Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 
 # Examples:
-p double_consonants('String') == 'SSttrrinngg'
-p double_consonants('Hello-World!') == 'HHellllo-WWorrlldd!'
-p double_consonants('July 4th') == 'JJullyy 4tthh'
-p double_consonants('') == ''
+# p double_consonants('String') == 'SSttrrinngg'
+# p double_consonants('Hello-World!') == 'HHellllo-WWorrlldd!'
+# p double_consonants('July 4th') == 'JJullyy 4tthh'
+# p double_consonants('') == ''
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
