@@ -19,7 +19,11 @@
 # output:
 # a new string in which every consonant character is doubled.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+Write a method that takes a string
+ and returns a new string in which every consonant character is doubled. Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
+
+
 Mental model of the problem (optional):
 
 #Examples / Test Cases, Validate understanding of the problem:
