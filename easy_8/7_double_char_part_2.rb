@@ -25,7 +25,7 @@
 # Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 
 # Mental model of the problem (optional):
-
+# def double_consonants(string)
 
 Write a method that takes a string.
 return a new string in which every consonant character is doubled.
