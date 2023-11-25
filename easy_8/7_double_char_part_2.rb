@@ -27,3 +27,9 @@ p double_consonants('') == ''
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+p double_consonants('String') == 'SSttrrinngg'
+p double_consonants('Hello-World!') == 'HHellllo-WWorrlldd!'
+p double_consonants('July 4th') == 'JJullyy 4tthh'
+p double_consonants('') == ''
