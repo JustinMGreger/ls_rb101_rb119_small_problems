@@ -16,7 +16,9 @@
 # Identify expected input:
 # a string
 
-output:
+# output:
+# a new string in which every consonant character is doubled.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
