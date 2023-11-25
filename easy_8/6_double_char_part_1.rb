@@ -44,7 +44,7 @@ def repeater(string)
   string.each_char do |char|
     new_string << char + char
   end
-return the result of joining the elements in the new_string varible into a single string.
+  new_string.join
 
 # tests:
 p repeater('Hello') == 'HHeelllloo'
