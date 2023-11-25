@@ -43,6 +43,8 @@
 # Algorithm, Steps for converting input to output:
 # the double_consonants method accepts the (string) parameter and is defined as the following:
 # the new_string varible is assigned to the [] array.
+# pass the following block of code to each character in the string parameter.
+
 determine if the string parameter is a consonant.
 Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 assign the result of doubling the consonants to the new_string varible.
