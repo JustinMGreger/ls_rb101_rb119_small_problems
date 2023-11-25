@@ -40,7 +40,20 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def double_consonants(string)
+determine if the string parameter is a consonant.
+Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
+assign the result of doubling the consonants to the new_string varible.
+return the value assigned to the new string varible.
+
+
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
