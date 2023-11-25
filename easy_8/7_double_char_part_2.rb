@@ -29,7 +29,7 @@
 # determine if the string parameter is a consonant.
 # Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 # assign the result of doubling the consonants to the new_string varible.
-return a new string in which every consonant character is doubled.
+# return the value assigned to the new string varible.
 
 #Examples / Test Cases, Validate understanding of the problem:
 # p double_consonants('String') == 'SSttrrinngg'
