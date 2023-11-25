@@ -47,6 +47,15 @@
 #   new_string.join
 # end
 
+# LS Solution:
+def repeater(string)
+  result = ''
+  string.each_char do |char|
+    result << char << char
+  end
+  result
+end
+
 # tests:
 p repeater('Hello') == 'HHeelllloo'
 p repeater('Good job!') == 'GGoooodd  jjoobb!!'
