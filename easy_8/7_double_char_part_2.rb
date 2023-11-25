@@ -41,7 +41,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def double_consonants(string)
+# the double_consonants method accepts the (string) parameter and is defined as the following:
 determine if the string parameter is a consonant.
 Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 assign the result of doubling the consonants to the new_string varible.
