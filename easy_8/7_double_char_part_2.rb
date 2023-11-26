@@ -58,13 +58,6 @@ def double_consonants(string)
   end.join
 end
 
-  return the value assigned to the new string varible.
-  this is the last line of the double_consonants method.
-
-
-
-
-
 # tests:
 p double_consonants('String') == 'SSttrrinngg'
 p double_consonants('Hello-World!') == 'HHellllo-WWorrlldd!'
