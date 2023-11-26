@@ -56,9 +56,6 @@ def double_consonants(string)
   string.each_char.map do |char|
     char =~ /[bcdfghjklmnpqrstvwxyz]/i ? (char + char) : char
 
-
-
-  else append the block parameter to the new_string varible.
   return the value assigned to the new string varible.
   this is the last line of the double_consonants method.
 
