@@ -48,6 +48,7 @@
 # which is appended to the new_string.
 # else append the block parameter to the new_string varible.
 # return the value assigned to the new string varible.
+# this is the last line of the double_consonants method.
 
 and Code. Implementation of Algorithm:
 
