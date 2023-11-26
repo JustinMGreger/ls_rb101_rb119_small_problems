@@ -31,7 +31,7 @@
 # assign the result of doubling the consonants to the new_string varible.
 # return the value assigned to the new string varible.
 
-#Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
 # p double_consonants('String') == 'SSttrrinngg'
 # p double_consonants('Hello-World!') == 'HHellllo-WWorrlldd!'
 # p double_consonants('July 4th') == 'JJullyy 4tthh'
