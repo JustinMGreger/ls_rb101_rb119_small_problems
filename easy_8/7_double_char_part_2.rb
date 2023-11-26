@@ -54,6 +54,9 @@
 def double_consonants(string)
   new_string = []
   string.each_char.map do |char|
+    char =~ /[bcdfghjklmnpqrstvwxyz]/i ? (char + char) : char
+
+    
   if the block parameter is a consonant then block parameter concatenated with the block parameter which is appended
   to the new_string.
   else append the block parameter to the new_string varible.
