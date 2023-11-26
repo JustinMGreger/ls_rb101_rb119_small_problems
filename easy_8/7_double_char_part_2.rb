@@ -50,7 +50,19 @@
 # return the value assigned to the new string varible.
 # this is the last line of the double_consonants method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def double_consonants(string)
+  new_string = []
+  pass the following block of code to each character in the string parameter.
+  if the block parameter is a consonant then block parameter concatenated with the block parameter which is appended
+  to the new_string.
+  else append the block parameter to the new_string varible.
+  return the value assigned to the new string varible.
+  this is the last line of the double_consonants method.
+
+
+
+
 
 # tests:
 p double_consonants('String') == 'SSttrrinngg'
