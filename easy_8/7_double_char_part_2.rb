@@ -47,15 +47,7 @@
 # if the block parameter is a consonant then block parameter concatenated with the block parameter
 # which is appended to the new_string.
 # else append the block parameter to the new_string varible.
-
-
-
-
-
-
-
-
-
+# return the value assigned to the new string varible.
 
 and Code. Implementation of Algorithm:
 
