@@ -46,6 +46,7 @@
 # pass the following block of code to each character in the string parameter.
 # if the block parameter is a consonant then block parameter concatenated with the block parameter
 # which is appended to the new_string.
+# else append the block parameter to the new_string varible.
 
 Vowels (a,e,i,o,u), digits, punctuation, and whitespace should not be doubled.
 assign the result of doubling the consonants to the new_string varible.
