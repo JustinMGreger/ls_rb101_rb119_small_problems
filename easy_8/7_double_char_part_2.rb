@@ -52,7 +52,6 @@
 
 # and Code. Implementation of Algorithm:
 def double_consonants(string)
-  new_string = []
   string.each_char.map do |char|
     char =~ /[bcdfghjklmnpqrstvwxyz]/i ? (char + char) : char
   end.join
