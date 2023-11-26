@@ -53,7 +53,7 @@
 # and Code. Implementation of Algorithm:
 def double_consonants(string)
   new_string = []
-  string.each_character do |char|
+  string.each_char do |char|
   if the block parameter is a consonant then block parameter concatenated with the block parameter which is appended
   to the new_string.
   else append the block parameter to the new_string varible.
