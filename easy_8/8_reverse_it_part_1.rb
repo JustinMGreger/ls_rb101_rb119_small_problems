@@ -18,7 +18,9 @@
 # Identify expected input:
 # a string.
 
-output:
+# output:
+# a new string with the words in reverse order.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
