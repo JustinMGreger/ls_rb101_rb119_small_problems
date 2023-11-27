@@ -21,7 +21,10 @@
 # output:
 # a new string with the words in reverse order.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that takes a string argument
+# and returns a new string with the words in reverse order.
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
