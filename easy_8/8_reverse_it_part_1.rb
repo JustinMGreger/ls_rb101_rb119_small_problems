@@ -28,3 +28,9 @@ puts reverse_sentence('    ') == '' # Any number of spaces results in ''
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+puts reverse_sentence('Hello World') == 'World Hello'
+puts reverse_sentence('Reverse these words') == 'words these Reverse'
+puts reverse_sentence('') == ''
+puts reverse_sentence('    ') == '' # Any number of spaces results in ''
