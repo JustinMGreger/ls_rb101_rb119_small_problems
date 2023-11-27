@@ -10,6 +10,8 @@ puts reverse_sentence('Reverse these words') == 'words these Reverse'
 puts reverse_sentence('') == ''
 puts reverse_sentence('    ') == '' # Any number of spaces results in ''
 
+# The tests above should print true.
+
 PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 PEDAC stands for [Understand the] Problem,
 Identify expected input:
