@@ -50,6 +50,11 @@
 #   string.split.reverse.join(' ')
 # end
 
+# LS Solution:
+def reverse_sentence(string)
+  string.split.reverse.join(' ')
+end
+
 # tests:
 puts reverse_sentence('Hello World') == 'World Hello'
 puts reverse_sentence('Reverse these words') == 'words these Reverse'
