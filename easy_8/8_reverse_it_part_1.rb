@@ -43,6 +43,7 @@
 # the reverse_sentence method accepts the (string) parameter and is defined as the following:
 # split the string parameter into an array of substrings.
 # reverse the array of substrings.
+# return the result of joining the array of substrings into a single string with a space between the words.
 
 and Code. Implementation of Algorithm:
 
