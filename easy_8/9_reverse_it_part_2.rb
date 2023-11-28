@@ -6,4 +6,4 @@
 # Each string will consist of only letters and spaces.
 # Spaces should be included only when more than one word is present.
 
-Examples:
+# Examples:
