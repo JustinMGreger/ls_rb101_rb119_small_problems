@@ -46,9 +46,9 @@
 # return the result of joining the array of substrings into a single string with a space between the words.
 
 # and Code. Implementation of Algorithm:
-def reverse_sentence(string)
-  string.split.reverse.join(' ')
-end
+# def reverse_sentence(string)
+#   string.split.reverse.join(' ')
+# end
 
 # tests:
 puts reverse_sentence('Hello World') == 'World Hello'
