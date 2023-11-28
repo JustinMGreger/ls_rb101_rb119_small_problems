@@ -41,6 +41,12 @@
 
 # Algorithm, Steps for converting input to output:
 # the reverse_sentence method accepts the (string) parameter and is defined as the following:
+# split the string parameter into an array of substrings.
+
+
+
+
+
 with the words from string parameter in reverse order.
 
 
