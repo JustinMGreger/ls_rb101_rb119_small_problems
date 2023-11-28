@@ -27,7 +27,8 @@
 
 # Mental model of the problem (optional):
 # def reverse_sentence(string)
-and returns a new string with the words in reverse order.
+# new_string = with the words from string parameter in reverse order.
+and returns a 
 
 
 
