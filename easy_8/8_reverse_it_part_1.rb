@@ -42,7 +42,7 @@
 # Algorithm, Steps for converting input to output:
 # the reverse_sentence method accepts the (string) parameter and is defined as the following:
 with the words from string parameter in reverse order.
-return new_string
+
 
 
 
