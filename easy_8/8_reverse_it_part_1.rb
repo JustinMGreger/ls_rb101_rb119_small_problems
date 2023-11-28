@@ -39,7 +39,16 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def reverse_sentence(string)
+new_string = with the words from string parameter in reverse order.
+return new_string
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
