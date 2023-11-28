@@ -25,7 +25,12 @@
 # Write a method that takes a string argument
 # and returns a new string with the words in reverse order.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# def reverse_sentence(string)
+Write a method that takes a string argument
+and returns a new string with the words in reverse order.
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts reverse_sentence('Hello World') == 'World Hello'
