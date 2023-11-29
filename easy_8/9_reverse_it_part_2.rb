@@ -27,7 +27,16 @@
 # Each string will consist of only letters and spaces.
 # Spaces should be included only when more than one word is present.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+reverse_words
+the argument is a string containing one or more words.
+return the given string with words that contain five or more characters reversed.
+Each string will consist of only letters and spaces.
+Spaces should be included only when more than one word is present.
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts reverse_words('Professional')          # => lanoisseforP
