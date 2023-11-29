@@ -17,7 +17,9 @@
 # Identify expected input:
 # a string argument containing one or more words.
 
-output:
+# output:
+# the given string with words that contain five or more characters reversed.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
