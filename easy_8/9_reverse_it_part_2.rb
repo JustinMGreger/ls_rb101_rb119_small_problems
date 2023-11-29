@@ -33,12 +33,6 @@
 # if substrings are > 5 characters then reverse the substrings.
 # combine substrings into a single string.
 # return the single string.
-Each string will consist of only letters and spaces.
-Spaces should be included only when more than one word is present.
-
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts reverse_words('Professional')          # => lanoisseforP
