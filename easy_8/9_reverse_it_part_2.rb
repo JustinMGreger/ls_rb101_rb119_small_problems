@@ -18,7 +18,12 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+puts reverse_words('Professional')          # => lanoisseforP
+puts reverse_words('Walk around the block') # => Walk dnuora the kcolb
+puts reverse_words('Launch School')         # => hcnuaL loohcS
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
