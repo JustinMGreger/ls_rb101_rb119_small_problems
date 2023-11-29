@@ -43,7 +43,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-
+# the reverse_words method accepts the (string) parameter and is defined as the following:
 
 
 
