@@ -58,6 +58,18 @@
 #   words.join(' ')
 # end
 
+# LS Solution:
+def reverse_words(string)
+  words = []
+
+  string.split.each do |word|
+    word.reverse! if word.size >= 5
+    words << word
+  end
+
+  words.join(' ')
+end
+
 # tests:
 puts reverse_words('Professional') == 'lanoisseforP' # => lanoisseforP
 puts reverse_words('Walk around the block') == 'Walk dnuora the kcolb' # => Walk dnuora the kcolb
