@@ -46,6 +46,7 @@
 # the reverse_words method accepts the (string) parameter and is defined as the following:
 # the words varible is assigned to the result of splitting the string parameter into an array of substrings
 # and then passing the following block of code to each element:
+# if the word block parameter has a number of characters greater than 5 then reverse the word block parameter
 
 
 
