@@ -50,7 +50,13 @@
 # and if it does not then return the word block parameter.
 # return the result of joining the words varible into a single string.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def reverse_words(string)
+  words = string.split.map do |word|
+    word.length > 5 ? word.reverse : word
+  end
+  words.join(' ')
+end
 
 # tests:
 puts reverse_words('Professional') == 'lanoisseforP' # => lanoisseforP
