@@ -48,8 +48,7 @@
 # and then passing the following block of code to each element:
 # if the word block parameter has a number of characters greater than 5 then reverse the word block parameter
 # and if it does not then return the word block parameter.
-
-
+# return the result of joining the words varible into a single string.
 
 and Code. Implementation of Algorithm:
 
