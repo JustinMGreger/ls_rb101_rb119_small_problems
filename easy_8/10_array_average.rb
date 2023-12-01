@@ -29,7 +29,19 @@
 # Don't use the Array#sum method for your solution
 # - see if you can solve this problem using iteration more directly.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+Write a method that takes one argument, an array containing integers,
+return the average of all numbers in the array.
+The array will never be empty and the numbers will always be positive integers.
+Your result should also be an integer.
+Don't use the Array#sum method for your solution
+- see if you can solve this problem using iteration more directly.
+
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
