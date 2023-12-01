@@ -31,7 +31,7 @@
 
 # Mental model of the problem (optional):
 # def average(array_parameter)
-return the average of all numbers in the array.
+# return the average of all numbers in the array.
 The array will never be empty and the numbers will always be positive integers.
 Your result should also be an integer.
 Don't use the Array#sum method for your solution
