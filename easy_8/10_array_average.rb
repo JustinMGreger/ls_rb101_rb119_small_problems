@@ -18,7 +18,9 @@
 # Identify expected input:
 # one argument that is an array containing integers
 
-output:
+# output:
+# the average of all numbers in the array.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
