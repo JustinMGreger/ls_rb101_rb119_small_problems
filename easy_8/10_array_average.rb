@@ -28,3 +28,8 @@ puts average([9, 47, 23, 95, 16, 52]) == 40
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
+puts average([1, 5, 87, 45, 8, 8]) == 25
+puts average([9, 47, 23, 95, 16, 52]) == 40
