@@ -32,7 +32,7 @@
 # Mental model of the problem (optional):
 # def average(array_parameter)
 # return the average of all numbers in the array.
-solve this problem using iteration more directly.
+# solve this problem using iteration more directly.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
