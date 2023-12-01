@@ -42,7 +42,14 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def average(array_parameter)
+return the average of all numbers in the array.
+solve this problem using iteration more directly.
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
