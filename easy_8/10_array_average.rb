@@ -7,4 +7,4 @@
 
 # Don't use the Array#sum method for your solution - see if you can solve this problem using iteration more directly.
 
-Examples:
+# Examples:
