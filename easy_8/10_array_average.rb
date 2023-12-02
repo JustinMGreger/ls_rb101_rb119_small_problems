@@ -43,7 +43,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def average(array_parameter)
+# the average method accepts the (array_parameter) and is defined as the following:
 return the average of all numbers in the array.
 solve this problem using iteration more directly.
 
