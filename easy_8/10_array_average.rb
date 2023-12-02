@@ -48,7 +48,6 @@
 # pass the following block of code to each element in the array_parameter:
 # the sum variable is assigned the result of adding the num block parameter to the sum variable.
 # return the result of dividing the sum variable by the number of elements in the array_parameter.
-return the average of all numbers in the array.
 
 and Code. Implementation of Algorithm:
 
