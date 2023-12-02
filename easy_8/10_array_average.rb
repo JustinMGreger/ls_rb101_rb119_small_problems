@@ -50,10 +50,6 @@
 
 
 return the average of all numbers in the array.
-solve this problem using iteration more directly.
-
-
-
 
 and Code. Implementation of Algorithm:
 
