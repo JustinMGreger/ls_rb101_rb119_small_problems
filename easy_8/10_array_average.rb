@@ -64,6 +64,11 @@ def average(numbers)
   sum / numbers.count
 end
 
+# Further Exploration
+
+Currently, the return value of average is an Integer. When dividing numbers, sometimes the quotient isn't a whole number, therefore, it might make more sense to return a Float. Can you change the return value of average from an Integer to a Float?
+
+
 # tests:
 puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
 puts average([1, 5, 87, 45, 8, 8]) == 25
