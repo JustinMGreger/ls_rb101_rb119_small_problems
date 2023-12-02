@@ -49,7 +49,14 @@
 # the sum variable is assigned the result of adding the num block parameter to the sum variable.
 # return the result of dividing the sum variable by the number of elements in the array_parameter.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def average(array_parameter)
+  sum = 0
+  array_parameter.each do |num|
+    sum += num
+  end
+  sum / array_parameter.size
+end
 
 # tests:
 puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
