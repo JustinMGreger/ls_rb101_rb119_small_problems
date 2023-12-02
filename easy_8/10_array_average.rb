@@ -44,6 +44,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the average method accepts the (array_parameter) and is defined as the following:
+# the sum variable is assigned the integer 0.
 return the average of all numbers in the array.
 solve this problem using iteration more directly.
 
