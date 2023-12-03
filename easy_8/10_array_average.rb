@@ -64,13 +64,18 @@
 #   sum / numbers.count
 # end
 
-# Further Exploration
+# Further Exploration:
 
 # Currently, the return value of average is an Integer.
 # When dividing numbers, sometimes the quotient isn't a whole number,
 # therefore, it might make more sense to return a Float.
 # Can you change the return value of average from an Integer to a Float?
 
+# Further Solution:
+def average(numbers)
+  sum = numbers.reduce { |sum, number| sum + number }
+  sum.to_f / numbers.count
+end
 
 # tests:
 puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
