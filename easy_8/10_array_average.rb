@@ -66,7 +66,8 @@
 
 # Further Exploration
 
-Currently, the return value of average is an Integer. When dividing numbers, sometimes the quotient isn't a whole number, therefore, it might make more sense to return a Float. Can you change the return value of average from an Integer to a Float?
+# Currently, the return value of average is an Integer.
+When dividing numbers, sometimes the quotient isn't a whole number, therefore, it might make more sense to return a Float. Can you change the return value of average from an Integer to a Float?
 
 
 # tests:
