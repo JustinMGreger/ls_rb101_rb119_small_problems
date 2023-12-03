@@ -7,4 +7,4 @@
 # Your method should return a greeting that uses the person's full name,
 # and mentions the person's title and occupation.
 
-Example:
+# Example:
