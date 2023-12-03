@@ -8,7 +8,7 @@
 # and mentions the person's title and occupation.
 
 # Example:
-p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
+# p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
 # => "Hello, John Q Doe! Nice to have a Master Plumber around."
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
