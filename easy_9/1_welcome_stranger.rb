@@ -14,7 +14,11 @@ p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# 2 arguments, an array and a hash. 
+# The array will contain 2 or more elements that, when combined with adjoining spaces, will produce a person's name.
+# The hash will contain two keys, :title and :occupation, and the appropriate values. 
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
