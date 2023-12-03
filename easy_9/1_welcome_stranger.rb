@@ -19,7 +19,9 @@ p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
 # The array will contain 2 or more elements that, when combined with adjoining spaces, will produce a person's name.
 # The hash will contain two keys, :title and :occupation, and the appropriate values. 
 
-output:
+# output:
+# a greeting that uses the person's full name, and mentions the person's title and occupation.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
