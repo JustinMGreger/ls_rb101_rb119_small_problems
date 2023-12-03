@@ -64,6 +64,11 @@
 #   sum / numbers.count
 # end
 
+# tests:
+# puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
+# puts average([1, 5, 87, 45, 8, 8]) == 25
+# puts average([9, 47, 23, 95, 16, 52]) == 40
+
 # Further Exploration:
 
 # Currently, the return value of average is an Integer.
@@ -77,7 +82,4 @@ def average(numbers)
   sum.to_f / numbers.count
 end
 
-# tests:
-puts average([1, 6]) == 3 # integer division: (1 + 6) / 2 -> 3
-puts average([1, 5, 87, 45, 8, 8]) == 25
-puts average([9, 47, 23, 95, 16, 52]) == 40
+
