@@ -31,7 +31,6 @@
 
 # Mental model of the problem (optional):
 # def greetings(array_parameter, hash_parameter)
-Create a method that takes 2 arguments, an array and a hash.
 The array will contain 2 or more elements that,
 when combined with adjoining spaces, will produce a person's name.
 The hash will contain two keys, :title and :occupation, and the appropriate values.
