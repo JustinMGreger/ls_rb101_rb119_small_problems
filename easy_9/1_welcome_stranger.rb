@@ -44,7 +44,9 @@ Your method should return a greeting that uses the person's full name, and menti
 # p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
 # => "Hello, John Q Doe! Nice to have a Master Plumber around."
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array and hash.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
