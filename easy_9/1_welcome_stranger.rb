@@ -8,3 +8,5 @@
 # and mentions the person's title and occupation.
 
 # Example:
+greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
+=> "Hello, John Q Doe! Nice to have a Master Plumber around."
