@@ -82,4 +82,7 @@ def average(numbers)
   sum.to_f / numbers.count
 end
 
-
+# tests:
+puts average([1, 6]) == 3.5 # (1 + 6) / 2 -> 3.5
+puts average([1, 5, 87, 45, 8, 8]) == 25.666666666666668 # (1 + 5 + 87 + 45 + 8 + 8) / 6
+puts average([9, 47, 23, 95, 16, 52]) == 40.333333333333336 # (9 + 47 + 23 + 95 + 16 + 52) / 6
