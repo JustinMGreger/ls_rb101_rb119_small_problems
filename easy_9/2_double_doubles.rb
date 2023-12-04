@@ -6,6 +6,6 @@
 # 444, 334433, and 107 are not.
 
 # Write a method that returns 2 times the number provided as an argument,
-unless the argument is a double number; double numbers should be returned as-is.
+# unless the argument is a double number; double numbers should be returned as-is.
 
 Examples:
