@@ -55,6 +55,6 @@ occupation = hash_parameter[:occupation]
 
 and Code. Implementation of Algorithm:
 
-# tests:
+# test:
 p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
 # => "Hello, John Q Doe! Nice to have a Master Plumber around."
