@@ -75,7 +75,7 @@ def greetings(name, status)
   name = name.join(' ')
   title = status[:title]
   occupation = status[:occupation]
-  "Hello, #{name}! Nice to have a #{title} #{status[:occupation]} around."
+  "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 end
 
 # test:
