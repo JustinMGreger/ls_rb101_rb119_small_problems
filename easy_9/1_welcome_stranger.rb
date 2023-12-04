@@ -44,6 +44,7 @@
 # array and hash.
 
 # Algorithm, Steps for converting input to output:
+# the greetings method accepts the array_parameter and hash_parameter and is defined as the following:
 def greetings(array_parameter, hash_parameter)
 name = array_parameter combined with adjoining spaces into a single string.
 title = hash_parameter[:title]
