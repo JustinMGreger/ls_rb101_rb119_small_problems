@@ -35,10 +35,6 @@
 # title = hash_parameter[:title]
 # occupation = hash_parameter[:occupation]
 
-The hash will contain two keys, :title and :occupation, and the appropriate values.
-Your method should return a greeting that uses the person's full name, and mentions the person's title and occupation.
-
-
 
 
 
