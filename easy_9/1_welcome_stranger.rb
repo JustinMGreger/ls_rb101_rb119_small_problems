@@ -61,5 +61,5 @@ def greetings(array_parameter, hash_parameter)
 end
 
 # test:
-p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
+p greetings(%w[John Q Doe], { title: 'Master', occupation: 'Plumber' })
 # => "Hello, John Q Doe! Nice to have a Master Plumber around."
