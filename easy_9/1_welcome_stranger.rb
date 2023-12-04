@@ -34,9 +34,7 @@
 # name = array_parameter combined with adjoining spaces into a single string.
 # title = hash_parameter[:title]
 # occupation = hash_parameter[:occupation]
-
-
-
+# "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p greetings(['John', 'Q', 'Doe'], { title: 'Master', occupation: 'Plumber' })
