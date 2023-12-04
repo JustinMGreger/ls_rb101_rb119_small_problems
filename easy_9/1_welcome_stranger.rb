@@ -61,16 +61,19 @@
 # end
 
 # LS Solution:
-def greetings(name, status)
-  name = name.join(' ')
-  title = status[:title]
-  "Hello, #{name}! Nice to have a #{status[:title]} #{status[:occupation]} around."
-end
+
 
 # Further Exploration
 
 # This method doesn't actually pass rubocop!
 # What is the best way to shorten the lines in this method so it doesn't exceed the 80 maximum characters to a line?
+
+# Further Exploration:
+def greetings(name, status)
+  name = name.join(' ')
+  title = status[:title]
+  "Hello, #{name}! Nice to have a #{status[:title]} #{status[:occupation]} around."
+end
 
 # test:
 p greetings(%w[John Q Doe], { title: 'Master', occupation: 'Plumber' })
