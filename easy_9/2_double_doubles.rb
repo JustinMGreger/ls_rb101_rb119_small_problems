@@ -23,5 +23,5 @@ p twice(5) == 10
 # Note: underscores are used for clarity above.
 # Ruby lets you use underscores when writing long numbers;
 # however, it does not print the underscores when printing long numbers.
-Don't be alarmed if you don't see the underscores when running your tests.
+# Don't be alarmed if you don't see the underscores when running your tests.
 
