@@ -43,7 +43,16 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array and hash.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def greetings(array_parameter, hash_parameter)
+name = array_parameter combined with adjoining spaces into a single string.
+title = hash_parameter[:title]
+occupation = hash_parameter[:occupation]
+"Hello, #{name}! Nice to have a #{title} #{occupation} around."
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
