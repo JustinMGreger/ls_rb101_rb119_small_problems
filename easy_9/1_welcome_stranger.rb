@@ -60,6 +60,11 @@
 #   "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 # end
 
+# LS Solution:
+def greetings(name, status)
+  "Hello, #{name.join(' ')}! Nice to have a #{status[:title]} #{status[:occupation]} around."
+end
+
 # test:
 p greetings(%w[John Q Doe], { title: 'Master', occupation: 'Plumber' })
 # => "Hello, John Q Doe! Nice to have a Master Plumber around."
