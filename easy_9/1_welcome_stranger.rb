@@ -50,10 +50,7 @@
 # the title varible is assigned to the result of returning the value assigned to the title: in the hash_parameter.
 # the occupation varible is assigned to the result of returning the value assigned to the occupation: in the
 # hash_parameter.
-"Hello, #{name}! Nice to have a #{title} #{occupation} around."
-
-
-
+# return the string with string interpolation: "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 
 and Code. Implementation of Algorithm:
 
