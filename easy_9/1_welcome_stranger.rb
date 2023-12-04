@@ -62,8 +62,8 @@
 
 # LS Solution:
 def greetings(name, status)
-  name = array_parameter.join(' ')
-  "Hello, #{name.join(' ')}! Nice to have a #{status[:title]} #{status[:occupation]} around."
+  name = name.join(' ')
+  "Hello, #{name}! Nice to have a #{status[:title]} #{status[:occupation]} around."
 end
 
 # Further Exploration
