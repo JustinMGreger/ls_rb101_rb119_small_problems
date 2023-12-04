@@ -53,12 +53,12 @@
 # return the string with string interpolation: "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 
 # and Code. Implementation of Algorithm:
-def greetings(array_parameter, hash_parameter)
-  name = array_parameter.join(' ')
-  title = hash_parameter[:title]
-  occupation = hash_parameter[:occupation]
-  "Hello, #{name}! Nice to have a #{title} #{occupation} around."
-end
+# def greetings(array_parameter, hash_parameter)
+#   name = array_parameter.join(' ')
+#   title = hash_parameter[:title]
+#   occupation = hash_parameter[:occupation]
+#   "Hello, #{name}! Nice to have a #{title} #{occupation} around."
+# end
 
 # test:
 p greetings(%w[John Q Doe], { title: 'Master', occupation: 'Plumber' })
