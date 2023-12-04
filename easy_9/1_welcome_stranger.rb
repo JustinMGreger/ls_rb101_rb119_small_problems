@@ -47,8 +47,8 @@
 # the greetings method accepts the array_parameter and hash_parameter and is defined as the following:
 # the name varible is assigned to the result of joining the elements in the array_parameter into a single string
 # seperated by each word with the ' ' string.
+# the title varible is assigned to returning the value assigned to the title: in the hash_parameter.
 
-title = hash_parameter[:title]
 occupation = hash_parameter[:occupation]
 "Hello, #{name}! Nice to have a #{title} #{occupation} around."
 
