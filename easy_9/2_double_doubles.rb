@@ -19,3 +19,7 @@ p twice(3333) == 3333
 p twice(7676) == 7676
 p twice(123_456_789_123_456_789) == 123_456_789_123_456_789
 p twice(5) == 10
+
+# Note: underscores are used for clarity above.
+Ruby lets you use underscores when writing long numbers; however, it does not print the underscores when printing long numbers. Don't be alarmed if you don't see the underscores when running your tests.
+
