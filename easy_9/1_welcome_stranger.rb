@@ -63,6 +63,7 @@
 # LS Solution:
 def greetings(name, status)
   name = name.join(' ')
+  title = status[:title]
   "Hello, #{name}! Nice to have a #{status[:title]} #{status[:occupation]} around."
 end
 
