@@ -46,8 +46,7 @@
 # double_number = number even number of digits && whose left-side digits are exactly the same as
 # its right-side digits.
 # if number == double_number return number.
-
-Write a method that returns 2 times the number provided as an argument,
+# else return 2 x number
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p twice(37) == 74
