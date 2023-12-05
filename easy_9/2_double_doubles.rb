@@ -48,10 +48,6 @@
 # if number == double_number return number.
 
 Write a method that returns 2 times the number provided as an argument,
-unless the argument is a double number; double numbers should be returned as-is.
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p twice(37) == 74
