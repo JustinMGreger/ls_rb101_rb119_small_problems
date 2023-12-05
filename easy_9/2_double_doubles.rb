@@ -45,7 +45,7 @@
 # def twice(number)
 # double_number = number even number of digits && whose left-side digits are exactly the same as
 # its right-side digits.
-
+# if number == double_number return number.
 
 Write a method that returns 2 times the number provided as an argument,
 unless the argument is a double number; double numbers should be returned as-is.
