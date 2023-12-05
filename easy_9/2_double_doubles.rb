@@ -67,6 +67,7 @@
 # the double_number? method accepts the (number) parameter and is defined as the following:
 # the num_str varible is assigned to the result of transforming the number parameter into string form.
 # the len varible is assigned to the result of returning the number of characters in the num_str varible.
+# return false if len is not even.
 
 double_number = number even number of digits && whose left-side digits are exactly the same as
 its right-side digits.
