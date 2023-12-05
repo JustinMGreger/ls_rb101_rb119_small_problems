@@ -31,7 +31,9 @@ p twice(5) == 10
 # Identify expected input:
 # a number argument.
 
-output:
+# output:
+# 2 times the number argument, unless the argument is a double number; double numbers should be returned as-is.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
