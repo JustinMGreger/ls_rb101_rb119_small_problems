@@ -60,7 +60,9 @@
 # p twice(123_456_789_123_456_789) == 123_456_789_123_456_789
 # p twice(5) == 10
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
