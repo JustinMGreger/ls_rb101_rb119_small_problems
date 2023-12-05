@@ -63,7 +63,15 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def twice(number)
+double_number = number even number of digits && whose left-side digits are exactly the same as
+its right-side digits.
+if number == double_number return number.
+else return 2 x number
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
