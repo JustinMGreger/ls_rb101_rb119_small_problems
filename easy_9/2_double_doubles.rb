@@ -81,25 +81,25 @@
 # this is the last line of the twice method.
 
 # and Code. Implementation of Algorithm:
-def double_number?(number)
-  num_str = number.to_s
-  len = num_str.length
+# def double_number?(number)
+#   num_str = number.to_s
+#   len = num_str.length
 
-  return false unless len.even?
+#   return false unless len.even?
 
-  left_side = num_str[0, len / 2]
-  right_side = num_str[len / 2, len]
+#   left_side = num_str[0, len / 2]
+#   right_side = num_str[len / 2, len]
 
-  left_side == right_side
-end
+#   left_side == right_side
+# end
 
-def twice(number)
-  if double_number?(number)
-    number
-  else
-    2 * number
-  end
-end
+# def twice(number)
+#   if double_number?(number)
+#     number
+#   else
+#     2 * number
+#   end
+# end
 
 # tests:
 p twice(37) == 74
