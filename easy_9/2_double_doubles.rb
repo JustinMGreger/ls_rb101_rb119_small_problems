@@ -80,7 +80,23 @@
 # else return the result of multiplying the number variable by the integer 2.
 # this is the last line of the twice method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+the double_number? method accepts the (number) parameter and is defined as the following:
+the num_str varible is assigned to the result of transforming the number parameter into string form.
+the len varible is assigned to the result of returning the number of characters in the num_str varible.
+return false if len is not even.
+the left_side varible is assigned to the result of returning the value located from the index location
+of the 0 integer to the result of dividing the len varible by the integer 2 in the num_str varible.
+the right_side varible is assigned the result of returning the value located from the index location of
+dividing the len varible by the integer 2 to the len varible in the num_str varible.
+return the boolean result of determining if the left_side varible is equal to the right_side varible.
+this is the last line of the double_number? method.
+the twice method accepts the number parameter and is defined as the following:
+if the result of passing the number parameter to the double_number? method returns true then return the
+number parameter.
+else return the result of multiplying the number variable by the integer 2.
+this is the last line of the twice method.
+
 
 # tests:
 p twice(37) == 74
