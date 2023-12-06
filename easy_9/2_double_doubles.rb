@@ -77,10 +77,7 @@
 # the twice method accepts the number parameter and is defined as the following:
 # if the result of passing the number parameter to the double_number? method returns true then return the
 # number parameter.
-
-
-
-else return 2 x number
+# else return the result of multiplying the number variable by the integer 2.
 
 
 
