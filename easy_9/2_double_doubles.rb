@@ -75,8 +75,7 @@
 # return the boolean result of determining if the left_side varible is equal to the right_side varible.
 # this is the last line of the double_number? method.
 
-double_number = number even number of digits && whose left-side digits are exactly the same as
-its right-side digits.
+
 
 def twice(number)
 if number == double_number return number.
