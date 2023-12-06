@@ -74,8 +74,7 @@
 # dividing the len varible by the integer 2 to the len varible in the num_str varible.
 # return the boolean result of determining if the left_side varible is equal to the right_side varible.
 # this is the last line of the double_number? method.
-
-
+# the twice method accepts the number parameter and is defined as the following:
 
 def twice(number)
 if number == double_number return number.
