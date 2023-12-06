@@ -75,6 +75,10 @@
 # return the boolean result of determining if the left_side varible is equal to the right_side varible.
 # this is the last line of the double_number? method.
 # the twice method accepts the number parameter and is defined as the following:
+# if the result of passing the number parameter to the double_number? method returns true then return the
+# number parameter.
+
+
 
 if number == double_number return number.
 else return 2 x number
