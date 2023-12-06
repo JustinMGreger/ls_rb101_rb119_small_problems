@@ -68,6 +68,10 @@
 # the num_str varible is assigned to the result of transforming the number parameter into string form.
 # the len varible is assigned to the result of returning the number of characters in the num_str varible.
 # return false if len is not even.
+# the left_side varible is assigned to the result of returning the value located from the index location
+# of the 0 integer to the result of dividing the len varible by the integer 2 in the num_str varible.
+
+
 
 double_number = number even number of digits && whose left-side digits are exactly the same as
 its right-side digits.
