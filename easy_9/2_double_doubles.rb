@@ -80,7 +80,6 @@
 
 
 
-if number == double_number return number.
 else return 2 x number
 
 
