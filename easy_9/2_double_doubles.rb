@@ -76,7 +76,6 @@
 # this is the last line of the double_number? method.
 # the twice method accepts the number parameter and is defined as the following:
 
-def twice(number)
 if number == double_number return number.
 else return 2 x number
 
