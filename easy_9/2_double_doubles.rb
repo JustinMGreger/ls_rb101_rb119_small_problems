@@ -70,6 +70,8 @@
 # return false if len is not even.
 # the left_side varible is assigned to the result of returning the value located from the index location
 # of the 0 integer to the result of dividing the len varible by the integer 2 in the num_str varible.
+# the right_side varible is assigned the result of returning the value located from the index location of
+# dividing the len varible by the integer 2 to the len varible in the num_str varible.
 
 
 
