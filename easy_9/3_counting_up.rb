@@ -6,3 +6,6 @@
 # You may assume that the argument will always be a valid integer that is greater than 0.
 
 # Examples:
+p sequence(5) == [1, 2, 3, 4, 5]
+p sequence(3) == [1, 2, 3]
+p sequence(1) == [1]
