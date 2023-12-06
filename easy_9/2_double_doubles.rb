@@ -78,8 +78,7 @@
 # if the result of passing the number parameter to the double_number? method returns true then return the
 # number parameter.
 # else return the result of multiplying the number variable by the integer 2.
-
-
+# this is the last line of the twice method.
 
 and Code. Implementation of Algorithm:
 
