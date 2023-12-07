@@ -42,9 +42,9 @@
 # this is the last line of the sequence method.
 
 # and Code. Implementation of Algorithm:
-def sequence(integer)
-  (1..integer).to_a
-end
+# def sequence(integer)
+#   (1..integer).to_a
+# end
 
 # tests:
 p sequence(5) == [1, 2, 3, 4, 5]
