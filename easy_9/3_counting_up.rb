@@ -16,7 +16,9 @@ p sequence(1) == [1]
 # Identify expected input:
 # integer argument.
 
-output:
+# output:
+# returns an Array of all integers, in sequence, between 1 and the argument.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
