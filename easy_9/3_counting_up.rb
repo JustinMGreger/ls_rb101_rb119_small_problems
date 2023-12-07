@@ -39,6 +39,7 @@
 # Algorithm, Steps for converting input to output:
 # the sequence method accepts the integer parameter and is defined as the following:
 # the inclusive range from the integer 1 to the integer parameter is converted to array form.
+# this is the last line of the sequence method.
 
 and Code. Implementation of Algorithm:
 
