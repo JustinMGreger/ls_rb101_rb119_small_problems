@@ -37,6 +37,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
+# the sequence method accepts the integer parameter and is defined as the following:
 def sequence (integer)
 new_array = [1..integer]
 
