@@ -46,6 +46,11 @@
 #   (1..integer).to_a
 # end
 
+# LS Solution:
+def sequence(number)
+  (1..number).to_a
+end
+
 # tests:
 p sequence(5) == [1, 2, 3, 4, 5]
 p sequence(3) == [1, 2, 3]
