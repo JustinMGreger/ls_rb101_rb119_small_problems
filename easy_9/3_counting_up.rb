@@ -27,7 +27,6 @@
 # Mental model of the problem (optional):
 # def sequence (integer)
 # new_array = [1..integer]
-You may assume that the argument will always be a valid integer that is greater than 0.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p sequence(5) == [1, 2, 3, 4, 5]
