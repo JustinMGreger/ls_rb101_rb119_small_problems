@@ -41,7 +41,10 @@
 # the inclusive range from the integer 1 to the integer parameter is converted to array form.
 # this is the last line of the sequence method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def sequence(integer)
+  (1..integer).to_a
+end
 
 # tests:
 p sequence(5) == [1, 2, 3, 4, 5]
