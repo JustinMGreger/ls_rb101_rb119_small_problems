@@ -26,7 +26,8 @@
 
 # Mental model of the problem (optional):
 # def sequence (integer)
-and returns an Array of all integers, in sequence, between 1 and the argument.
+# new_array = [1..integer]
+and return an Array of all integers, in sequence, between 1 and the argument.
 You may assume that the argument will always be a valid integer that is greater than 0.
 
 # Examples / Test Cases, Validate understanding of the problem:
