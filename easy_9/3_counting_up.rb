@@ -38,7 +38,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the sequence method accepts the integer parameter and is defined as the following:
-new_array = [1..integer]
+# the inclusive range from the integer 1 to the integer parameter is converted to array form.
 
 and Code. Implementation of Algorithm:
 
