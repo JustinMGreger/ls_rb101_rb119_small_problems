@@ -26,7 +26,9 @@ p word_lengths('') == []
 # Identify expected input:
 # a string argument.
 
-output:
+# output:
+# returns an Array that contains every word from the string, to which you have appended a space and the word length.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
