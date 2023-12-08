@@ -57,6 +57,11 @@
 # For instance, what should you do if the argument is -1?
 # Can you alter your method to handle this case?
 
+# Further Exploration Solution:
+def sequence(number)
+  number > 0 ? (1..number).to_a : (number..1).to_a.reverse
+end
+
 # tests:
 p sequence(5) == [1, 2, 3, 4, 5]
 p sequence(3) == [1, 2, 3]
