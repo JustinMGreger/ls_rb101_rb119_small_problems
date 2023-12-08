@@ -59,7 +59,7 @@
 
 # Further Exploration Solution:
 def sequence(number)
-  number > 0 ? (1..number).to_a : (number..1).to_a.reverse
+  number.positive? ? (1..number).to_a : (number..1).to_a.reverse
 end
 
 # tests:
