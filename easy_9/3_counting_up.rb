@@ -47,9 +47,9 @@
 # end
 
 # LS Solution:
-def sequence(number)
-  (1..number).to_a
-end
+# def sequence(number)
+#   (1..number).to_a
+# end
 
 # Further Exploration
 
