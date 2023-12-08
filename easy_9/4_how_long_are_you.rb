@@ -15,7 +15,6 @@ p word_lengths('baseball hot dogs and apple pie') ==
 
 p word_lengths('It ain\'t easy, is it?') == ['It 2', 'ain\'t 5', 'easy, 5', 'is 2', 'it? 3']
 
-
 p word_lengths('Supercalifragilisticexpialidocious') ==
   ['Supercalifragilisticexpialidocious 34']
 
