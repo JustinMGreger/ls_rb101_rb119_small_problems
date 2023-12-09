@@ -55,7 +55,11 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def word_lengths(string)
+[every word from the string to which you have appended a space and the word length]
+end
+
 and Code. Implementation of Algorithm:
 
 # tests:
