@@ -62,7 +62,16 @@
 # return the string with string interpolation containing the word block parameter and the
 # number of letters in the word block parameter.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+the word_lengths method accepts the string parameter and is defined as the following:
+the string parameter is split into an array of substrings which has the following
+block of code passed to each element:
+return the string with string interpolation containing the word block parameter and the
+number of letters in the word block parameter.
+
+
+
+
 
 # tests:
 p word_lengths('cow sheep chicken') == ['cow 3', 'sheep 5', 'chicken 7']
