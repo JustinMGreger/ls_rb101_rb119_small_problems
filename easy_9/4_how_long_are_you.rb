@@ -37,7 +37,7 @@
 # Mental model of the problem (optional):
 # def word_lengths(string)
 # [every word from the string to which you have appended a space and the word length]
-
+# end
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p word_lengths('cow sheep chicken') == ['cow 3', 'sheep 5', 'chicken 7']
