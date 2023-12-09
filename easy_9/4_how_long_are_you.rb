@@ -62,11 +62,6 @@
 # return the string with string interpolation containing the word block parameter and the
 # number of letters in the word block parameter.
 
-
-
-[every word from the string to which you have appended a space and the word length]
-end
-
 and Code. Implementation of Algorithm:
 
 # tests:
