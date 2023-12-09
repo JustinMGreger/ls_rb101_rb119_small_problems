@@ -35,6 +35,7 @@
 # to which you have appended a space and the word length.
 
 # Mental model of the problem (optional):
+# def word_lengths(string)
 Write a method that takes a string as an argument,
 and returns an Array that contains every word from the string,
 to which you have appended a space and the word length.
