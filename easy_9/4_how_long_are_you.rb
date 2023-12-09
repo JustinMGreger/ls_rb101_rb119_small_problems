@@ -66,7 +66,6 @@
 def word_lengths(string)
   string.split.map do |word|
     "#{word} #{word.length}"
-number of letters in the word block parameter.
 
 
 
