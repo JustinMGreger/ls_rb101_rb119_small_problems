@@ -56,7 +56,10 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
+# the word_lengths method accepts the string parameter and is defined as the following:
 def word_lengths(string)
+
+
 [every word from the string to which you have appended a space and the word length]
 end
 
