@@ -36,8 +36,7 @@
 
 # Mental model of the problem (optional):
 # def word_lengths(string)
-and returns an Array that contains every word from the string,
-to which you have appended a space and the word length.
+# [every word from the string to which you have appended a space and the word length]
 
 
 # Examples / Test Cases, Validate understanding of the problem:
