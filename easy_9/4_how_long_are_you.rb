@@ -34,7 +34,11 @@
 # and returns an Array that contains every word from the string,
 # to which you have appended a space and the word length.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+Write a method that takes a string as an argument,
+and returns an Array that contains every word from the string,
+to which you have appended a space and the word length.
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p word_lengths('cow sheep chicken') == ['cow 3', 'sheep 5', 'chicken 7']
