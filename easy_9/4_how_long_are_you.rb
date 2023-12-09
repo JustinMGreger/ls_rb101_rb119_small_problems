@@ -65,7 +65,6 @@
 # and Code. Implementation of Algorithm:
 def word_lengths(string)
   string.split.map do |word|
-block of code passed to each element:
 return the string with string interpolation containing the word block parameter and the
 number of letters in the word block parameter.
 
