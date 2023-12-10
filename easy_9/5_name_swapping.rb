@@ -12,7 +12,9 @@
 # Identify expected input:
 # first name, a space, and a last name passed as a single String argument.
 
-output:
+# output:
+# a string that contains the last name, a comma, a space, and the first name.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
