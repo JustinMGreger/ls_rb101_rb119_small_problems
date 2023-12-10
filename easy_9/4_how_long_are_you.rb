@@ -63,11 +63,11 @@
 # number of letters in the word block parameter.
 
 # and Code. Implementation of Algorithm:
-def word_lengths(string)
-  string.split.map do |word|
-    "#{word} #{word.length}"
-  end
-end
+# def word_lengths(string)
+#   string.split.map do |word|
+#     "#{word} #{word.length}"
+#   end
+# end
 
 # tests:
 p word_lengths('cow sheep chicken') == ['cow 3', 'sheep 5', 'chicken 7']
