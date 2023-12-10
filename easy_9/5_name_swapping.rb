@@ -20,3 +20,6 @@ p swap_name('Joe Roberts') == 'Roberts, Joe'
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+p swap_name('Joe Roberts') == 'Roberts, Joe'
