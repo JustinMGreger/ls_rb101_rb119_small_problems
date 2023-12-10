@@ -4,7 +4,7 @@
 # and returns a string that contains the last name, a comma, a space, and the first name.
 
 # Examples
-p swap_name('Joe Roberts') == 'Roberts, Joe'
+# p swap_name('Joe Roberts') == 'Roberts, Joe'
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
