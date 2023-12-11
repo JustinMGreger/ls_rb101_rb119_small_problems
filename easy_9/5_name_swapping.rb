@@ -31,6 +31,8 @@
 
 # Algorithm, Steps for converting input to output:
 # the swap_name method accepts the string parameter and is defined as the following:
+# the swap varible is assigned to the result of splitting the string parameter
+# to an array of substrings which is reversed.
 
 return a string that contains (the last name, a comma, a space, and the first name)
 
