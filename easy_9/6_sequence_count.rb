@@ -14,3 +14,15 @@ p sequence(5, 1) == [1, 2, 3, 4, 5]
 p sequence(4, -7) == [-7, -14, -21, -28]
 p sequence(3, 0) == [0, 0, 0]
 p sequence(0, 1000000) == []
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
