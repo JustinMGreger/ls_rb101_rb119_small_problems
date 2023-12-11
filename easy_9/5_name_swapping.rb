@@ -29,7 +29,10 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def swap_name(first name, a space, and a last name passed as a single String argument)
+return a string that contains (the last name, a comma, a space, and the first name)
+
 and Code. Implementation of Algorithm:
 
 # tests:
