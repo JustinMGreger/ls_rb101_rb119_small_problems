@@ -33,10 +33,14 @@
 # the swap_name method accepts the string parameter and is defined as the following:
 # the swap varible is assigned to the result of splitting the string parameter
 # to an array of substrings which is reversed.
+# return the result of joining the value assigned to the swap varible into a single string
+# seperated by a comma and a space.
 
-
-
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def swap_name(string)
+  swap = string.split.reverse
+  swap.join(', ')
+end
 
 # tests:
 p swap_name('Joe Roberts') == 'Roberts, Joe'
