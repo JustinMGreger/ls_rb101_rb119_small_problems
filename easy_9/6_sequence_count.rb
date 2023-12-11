@@ -22,7 +22,10 @@
 # two integers as arguments.
 # The first argument is a count, and the second is the first number of a sequence that your method will create. 
 
-output:
+# output:
+# an Array that contains the same number of elements as the count argument,
+# while the values of each element will be multiples of the starting number.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
