@@ -7,6 +7,6 @@
 
 # You may assume that the count argument will always have a value of 0 or greater,
 # while the starting number can be any integer value.
-If the count is 0, an empty list should be returned.
+# If the count is 0, an empty list should be returned.
 
 Examples:
