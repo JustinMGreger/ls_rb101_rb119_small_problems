@@ -37,10 +37,10 @@
 # seperated by a comma and a space.
 
 # and Code. Implementation of Algorithm:
-def swap_name(string)
-  swap = string.split.reverse
-  swap.join(', ')
-end
+# def swap_name(string)
+#   swap = string.split.reverse
+#   swap.join(', ')
+# end
 
 # tests:
 p swap_name('Joe Roberts') == 'Roberts, Joe'
