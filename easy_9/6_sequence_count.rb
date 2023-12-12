@@ -61,6 +61,19 @@
 #   (1..count).map { |i| i * start }
 # end
 
+# Solution 1:
+def sequence(count, first)
+  sequence = []
+  number = first
+
+  count.times do
+    sequence << number
+    number += first
+  end
+
+  sequence
+end
+
 # tests:
 p sequence(5, 1) == [1, 2, 3, 4, 5]
 p sequence(4, -7) == [-7, -14, -21, -28]
