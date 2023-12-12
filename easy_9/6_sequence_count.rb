@@ -62,17 +62,17 @@
 # end
 
 # Solution 1:
-def sequence(count, first)
-  sequence = []
-  number = first
+# def sequence(count, first)
+#   sequence = []
+#   number = first
 
-  count.times do
-    sequence << number
-    number += first
-  end
+#   count.times do
+#     sequence << number
+#     number += first
+#   end
 
-  sequence
-end
+#   sequence
+# end
 
 # tests:
 p sequence(5, 1) == [1, 2, 3, 4, 5]
