@@ -74,6 +74,11 @@
 #   sequence
 # end
 
+# Solution 2:
+def sequence(count, first)
+  (1..count).map { |value| value * first }
+end
+
 # tests:
 p sequence(5, 1) == [1, 2, 3, 4, 5]
 p sequence(4, -7) == [-7, -14, -21, -28]
