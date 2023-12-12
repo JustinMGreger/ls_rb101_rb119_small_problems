@@ -35,14 +35,14 @@
 # while the starting number can be any integer value. If the count is 0, an empty list should be returned.
 
 # Mental model of the problem (optional):
-# def sequence(count, sequence)
+# def sequence(count, start)
 # If the count is 0, an empty list should be returned.
 The method should return an Array that contains the same number of elements as the count argument,
 while the values of each element will be multiples of the starting number.
 You may assume that the count argument will always have a value of 0 or greater,
 while the starting number can be any integer value. 
 
-
+  def sequence(count, start)
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p sequence(5, 1) == [1, 2, 3, 4, 5]
