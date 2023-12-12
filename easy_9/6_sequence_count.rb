@@ -57,9 +57,9 @@
 # inclusive range from the integer 1 to the count parameter and return a new array of the results.
 
 # and Code. Implementation of Algorithm:
-the sequence method accepts the count and start parameters and is defined as the following:
-pass the result of multiplying the block parameter by the start parameter to each element in the
-inclusive range from the integer 1 to the count parameter and return a new array of the results.
+def sequence(count, start)
+  (1..count).map { |i| i * start }
+end
 
 # tests:
 p sequence(5, 1) == [1, 2, 3, 4, 5]
