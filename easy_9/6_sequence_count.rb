@@ -51,7 +51,10 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the sequence method accepts the count and start parameters and is defined as the following:
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
