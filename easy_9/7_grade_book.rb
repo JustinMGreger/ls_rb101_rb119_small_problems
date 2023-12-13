@@ -46,6 +46,8 @@
 # p get_grade(50, 50, 95) == 'D'
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 # Algorithm, Steps for converting input to output:
 # and Code. Implementation of Algorithm:
 
