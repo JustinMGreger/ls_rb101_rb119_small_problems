@@ -31,7 +31,7 @@
 # and returns the letter value associated with that grade.
 
 # Mental model of the problem (optional):
-Write a method that determines the mean (average) of the three scores passed to it,
+def get_grade that determines the mean (average) of the three_scores passed to it,
 and returns the letter value associated with that grade.
 
 
