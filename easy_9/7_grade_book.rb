@@ -50,7 +50,7 @@
 
 # Algorithm, Steps for converting input to output:
 def get_grade(grade_one, grade_two, grade_three)
-score = the (average) of the three_scores
+score = the (average) of the grade_one, grade_two, grade_three
 Numerical Score Letter	Grade
 90 <= score <= 100	'A'
 80 <= score < 90	'B'
