@@ -14,8 +14,8 @@
 # There is no need to check for negative values or values greater than 100.
 
 # Example:
-p get_grade(95, 90, 93) == "A"
-p get_grade(50, 50, 95) == "D"
+p get_grade(95, 90, 93) == 'A'
+p get_grade(50, 50, 95) == 'D'
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
