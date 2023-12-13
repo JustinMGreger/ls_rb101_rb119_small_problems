@@ -39,9 +39,7 @@
 # 70 <= score < 80	'C'
 # 60 <= score < 70	'D'
 # 0 <= score < 60	'F'
-and returns the letter value associated with that grade.
-
-
+# return the letter value associated with that grade.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p get_grade(95, 90, 93) == 'A'
