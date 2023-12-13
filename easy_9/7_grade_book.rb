@@ -11,7 +11,7 @@
 # 0 <= score < 60	'F'
 
 # Tested values are all between 0 and 100.
-There is no need to check for negative values or values greater than 100.
+# There is no need to check for negative values or values greater than 100.
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
