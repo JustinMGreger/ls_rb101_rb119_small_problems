@@ -32,8 +32,7 @@
 
 # Mental model of the problem (optional):
 # def get_grade(three_scores)
-  
-  that determines the mean (average) of the three_scores passed to it,
+# determine the mean (average) of the three_scores.
 and returns the letter value associated with that grade.
 
 
