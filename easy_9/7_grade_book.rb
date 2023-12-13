@@ -28,7 +28,7 @@
 
 # Make the requirements explicit Identify rules:
 # Write a method that determines the mean (average) of the three scores passed to it,
-and returns the letter value associated with that grade.
+# and returns the letter value associated with that grade.
 
 # Mental model of the problem (optional):
 
