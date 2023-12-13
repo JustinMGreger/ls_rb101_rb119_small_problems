@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Write a method that determines the mean (average) of the three scores passed to it,
-and returns the letter value associated with that grade.
+# and returns the letter value associated with that grade.
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
