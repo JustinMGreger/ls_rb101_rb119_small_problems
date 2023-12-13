@@ -32,7 +32,7 @@
 
 # Mental model of the problem (optional):
 # def get_grade(three_scores)
-# determine the mean (average) of the three_scores.
+# score = the (average) of the three_scores
 
 # Numerical Score Letter	Grade
 90 <= score <= 100	'A'
