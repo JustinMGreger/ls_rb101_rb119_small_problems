@@ -24,6 +24,8 @@
 # three scores.
 
 # output:
+# the letter value associated with that grade.
+
 # Make the requirements explicit Identify rules:
 # Mental model of the problem (optional):
 
