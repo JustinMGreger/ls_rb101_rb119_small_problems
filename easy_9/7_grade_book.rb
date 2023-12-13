@@ -26,8 +26,8 @@
 # Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p get_grade(95, 90, 93) == 'A'
-p get_grade(50, 50, 95) == 'D'
+# p get_grade(95, 90, 93) == 'A'
+# p get_grade(50, 50, 95) == 'D'
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Algorithm, Steps for converting input to output:
