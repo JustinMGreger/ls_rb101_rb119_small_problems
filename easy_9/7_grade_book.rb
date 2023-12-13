@@ -31,6 +31,10 @@
 # and returns the letter value associated with that grade.
 
 # Mental model of the problem (optional):
+Write a method that determines the mean (average) of the three scores passed to it,
+and returns the letter value associated with that grade.
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p get_grade(95, 90, 93) == 'A'
