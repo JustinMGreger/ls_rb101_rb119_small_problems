@@ -21,6 +21,8 @@
 # PEDAC stands for [Understand the] Problem,
 
 # Identify expected input:
+# three scores.
+
 # output:
 # Make the requirements explicit Identify rules:
 # Mental model of the problem (optional):
