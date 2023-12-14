@@ -50,6 +50,8 @@
 
 # Algorithm, Steps for converting input to output:
 # the get_grade method accepts the (num1, num2, num3) parameters and is defined as the following:
+# when the result of dividing the result of adding num1 by num2 by num3 by 3.0 is the following:
+
 
 Numerical Score Letter	Grade
 90 <= score <= 100	'A'
