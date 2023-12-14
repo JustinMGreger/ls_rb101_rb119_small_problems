@@ -58,15 +58,15 @@
 # else return the 'F' string.
 
 # and Code. Implementation of Algorithm:
-def get_grade(num1, num2, num3)
-  case (num1 + num2 + num3) / 3.0
-  when 90..100 then 'A'
-  when 80...90 then 'B'
-  when 70...80 then 'C'
-  when 60...70 then 'D'
-  else 'F'
-  end
-end
+# def get_grade(num1, num2, num3)
+#   case (num1 + num2 + num3) / 3.0
+#   when 90..100 then 'A'
+#   when 80...90 then 'B'
+#   when 70...80 then 'C'
+#   when 60...70 then 'D'
+#   else 'F'
+#   end
+# end
 
 # tests:
 p get_grade(95, 90, 93) == 'A'
