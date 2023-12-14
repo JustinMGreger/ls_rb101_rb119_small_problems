@@ -54,7 +54,7 @@
 # in the inclusive range from the integer 90 to 100 return the 'A' string.
 # in the exclusive range from the integer 80 to 90 then return the 'B' string.
 # in the exclusive range from the integer 70 to 80 then return the 'C' string.
-70 <= score < 80	'C'
+
 60 <= score < 70	'D'
 0 <= score < 60	'F'
 return the letter value associated with that grade.
