@@ -51,9 +51,8 @@
 # Algorithm, Steps for converting input to output:
 # the get_grade method accepts the (num1, num2, num3) parameters and is defined as the following:
 # when the result of dividing the result of adding num1 by num2 by num3 by 3.0 is the following:
-# in the inclusive range from the integer 90 to 100 return the 'A'.
-
-
+# in the inclusive range from the integer 90 to 100 return the 'A' string.
+# in the exclusive range from the integer 80 to 90 then return the 'B' string.
 80 <= score < 90	'B'
 70 <= score < 80	'C'
 60 <= score < 70	'D'
