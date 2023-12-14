@@ -53,8 +53,7 @@
 # when the result of dividing the result of adding num1 by num2 by num3 by 3.0 is the following:
 # in the inclusive range from the integer 90 to 100 return the 'A'.
 
-Numerical Score Letter	Grade
-90 <= score <= 100	'A'
+
 80 <= score < 90	'B'
 70 <= score < 80	'C'
 60 <= score < 70	'D'
