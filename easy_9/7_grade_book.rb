@@ -56,8 +56,6 @@
 # in the exclusive range from the integer 70 to 80 then return the 'C' string.
 # in the exclusive range from the integer 60 to 70 then return the 'D' string.
 # else return the 'F' string.
-0 <= score < 60	'F'
-return the letter value associated with that grade.
 
 # and Code. Implementation of Algorithm:
 
