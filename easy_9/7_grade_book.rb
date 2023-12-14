@@ -50,7 +50,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the get_grade method accepts the (num1, num2, num3) parameters and is defined as the following:
-score = the (average) of the grade_one, grade_two, grade_three
+
 Numerical Score Letter	Grade
 90 <= score <= 100	'A'
 80 <= score < 90	'B'
