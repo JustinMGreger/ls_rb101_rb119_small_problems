@@ -87,7 +87,7 @@
 
 # Further exploration Solution:
 def get_grade(*grades)
-  result = (score1 + score2 + score3) / 3
+  result = grades.sum / grades.size
 
   case result
   when 90.. then 'A'
