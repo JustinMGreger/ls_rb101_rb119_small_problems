@@ -86,7 +86,7 @@
 # How would you handle this if there was a possibility of extra credit grades causing it to exceed 100 points?
 
 # Further exploration Solution:
-def get_grade(score1, score2, score3)
+def get_grade(*grades)
   result = (score1 + score2 + score3) / 3
 
   case result
