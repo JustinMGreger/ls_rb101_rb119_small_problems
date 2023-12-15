@@ -68,6 +68,10 @@
 #   end
 # end
 
+# tests:
+# p get_grade(95, 90, 93) == 'A'
+# p get_grade(50, 50, 95) == 'D'
+
 # LS Solution:
 # def get_grade(s1, s2, s3)
 #   result = (s1 + s2 + s3)/3
@@ -80,6 +84,10 @@
 #   else              'F'
 #   end
 # end
+
+# tests:
+# p get_grade(95, 90, 93) == 'A'
+# p get_grade(50, 50, 95) == 'D'
 
 # Further exploration
 
