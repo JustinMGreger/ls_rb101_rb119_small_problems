@@ -81,6 +81,10 @@
 #   end
 # end
 
+# Further exploration
+
+How would you handle this if there was a possibility of extra credit grades causing it to exceed 100 points?
+
 # tests:
 p get_grade(95, 90, 93) == 'A'
 p get_grade(50, 50, 95) == 'D'
