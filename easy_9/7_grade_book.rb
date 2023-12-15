@@ -101,4 +101,4 @@ end
 # tests:
 p get_grade(95, 90, 93) == 'A'
 p get_grade(50, 50, 95) == 'D'
-p get_grade(95, 90, 93, 100) == 'A'
+p get_grade(101, 101, 101) == 'A'
