@@ -13,7 +13,9 @@ p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
 # Identify expected input:
 # a grocery list (array) of fruits with quantities.
 
-output:
+# output:
+# an array of the correct number of each fruit.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
