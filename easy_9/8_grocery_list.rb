@@ -21,7 +21,8 @@
 # and converts it into an array of the correct number of each fruit.
 
 # Mental model of the problem (optional):
-Write a method which takes a grocery list (array) of fruits with quantities
+# def buy_fruit(grocery_list)
+
 and converts it into an array of the correct number of each fruit.
 
 
