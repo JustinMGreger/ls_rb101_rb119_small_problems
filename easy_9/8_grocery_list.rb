@@ -17,6 +17,13 @@ p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
 # an array of the correct number of each fruit.
 
 Make the requirements explicit Identify rules:
+# Write a method which takes a grocery list (array) of fruits with quantities
+and converts it into an array of the correct number of each fruit.
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
