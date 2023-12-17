@@ -26,7 +26,10 @@ and converts it into an array of the correct number of each fruit.
 
 
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
+  %w[apples apples apples orange bananas bananas]
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
