@@ -41,5 +41,4 @@ new_array = grocery_list in a single array of the result of fruit count times.
 and Code. Implementation of Algorithm:
 
 # tests:
-p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
-  %w[apples apples apples orange bananas bananas]
+p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) == %w[apples apples apples orange bananas bananas]
