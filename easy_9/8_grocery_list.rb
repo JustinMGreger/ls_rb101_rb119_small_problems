@@ -38,7 +38,16 @@
 # for count block parameter times append the fruit block parameter to the new_array varible.
 # return the value assigned to the new_array varible.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def buy_fruit(grocery_list)
+  new_array = []
+
+  grocery_list.each do |fruit, count|
+    count.times { new_array << fruit }
+  end
+
+  new_array
+end
 
 # tests:
 p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) == %w[apples apples apples orange bananas bananas]
