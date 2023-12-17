@@ -33,7 +33,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the buy_fruit method accepts the (grocery_list) parameter and is defined as the following:
-
+# the new_array varible is assigned the [] array.
 
 
 
