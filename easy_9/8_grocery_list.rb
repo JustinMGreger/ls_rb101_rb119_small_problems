@@ -36,6 +36,7 @@
 # the new_array varible is assigned the [] array.
 # pass the following block of code to each element in the grocery_list parameter:
 # for count block parameter times append the fruit block parameter to the new_array varible.
+# return the value assigned to the new_array varible.
 
 and Code. Implementation of Algorithm:
 
