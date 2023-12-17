@@ -4,8 +4,8 @@
 # and converts it into an array of the correct number of each fruit.
 
 # Example:
-p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
-  %w[apples apples apples orange bananas bananas]
+# p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
+# %w[apples apples apples orange bananas bananas]
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
