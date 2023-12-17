@@ -31,7 +31,13 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def buy_fruit(grocery_list)
+new_array = grocery_list in a single array of the result of fruit count times.
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
