@@ -39,15 +39,15 @@
 # return the value assigned to the new_array varible.
 
 # and Code. Implementation of Algorithm:
-def buy_fruit(grocery_list)
-  new_array = []
+# def buy_fruit(grocery_list)
+#   new_array = []
 
-  grocery_list.each do |fruit, count|
-    count.times { new_array << fruit }
-  end
+#   grocery_list.each do |fruit, count|
+#     count.times { new_array << fruit }
+#   end
 
-  new_array
-end
+#   new_array
+# end
 
 # tests:
 p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) == %w[apples apples apples orange bananas bananas]
