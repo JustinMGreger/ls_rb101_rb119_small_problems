@@ -33,3 +33,7 @@ p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
+  %w[apples apples apples orange bananas bananas]
