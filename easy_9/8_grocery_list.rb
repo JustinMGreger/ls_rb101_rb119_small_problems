@@ -22,10 +22,7 @@
 
 # Mental model of the problem (optional):
 # def buy_fruit(grocery_list)
-
-and converts it into an array of the correct number of each fruit.
-
-
+# new_array = grocery_list in a single array of the result of fruit count times.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) ==
