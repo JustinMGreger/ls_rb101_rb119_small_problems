@@ -16,7 +16,9 @@
 # Identify expected input:
 # words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 
-output:
+# output:
+# groups of words that are anagrams.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
