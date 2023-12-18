@@ -20,11 +20,8 @@
 # groups of words that are anagrams.
 
 # Make the requirements explicit Identify rules:
-
-Write a program that prints out groups of words that are anagrams.
-Anagrams are words that have the same exact letters in them but in a different order.
-Your output should look something like this:
-
+# Write a program that prints out groups of words that are anagrams.
+# Anagrams are words that have the same exact letters in them but in a different order.
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
