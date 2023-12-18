@@ -32,13 +32,10 @@
 # create all combinations of the letters that are words.
 # print out groups of words that are anagrams.
 # Anagrams are words that have the same exact letters in them but in a different order.
-
-p anagrams(words) ==
-%w[demo dome mode]
-%w[neon none]
-(etc)
-
-
+# p anagrams(words) ==
+# %w[demo dome mode]
+# %w[neon none]
+# (etc)
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p anagrams(words) ==
