@@ -24,7 +24,13 @@
 # Anagrams are words that have the same exact letters in them but in a different order.
 
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+# p anagrams(words) ==
+# %w[demo dome mode]
+# %w[neon none]
+# (etc)
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
