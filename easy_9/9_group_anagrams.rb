@@ -24,7 +24,7 @@
 # Anagrams are words that have the same exact letters in them but in a different order.
 
 # Mental model of the problem (optional):
-words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
+# words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 # def anagrams(words)
 # extract words from the words parameter.
 # a new array is created for each of the words.
