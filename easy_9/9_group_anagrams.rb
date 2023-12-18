@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # Given the array...
-
 # words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 
 # Write a program that prints out groups of words that are anagrams.
@@ -10,3 +9,15 @@
 # %w[demo dome mode]
 # %w[neon none]
 # (etc)
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
