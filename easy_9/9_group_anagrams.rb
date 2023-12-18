@@ -8,5 +8,5 @@
 # Anagrams are words that have the same exact letters in them but in a different order.
 # Your output should look something like this:
 ["demo", "dome", "mode"]
-%w["neon", "none"]
+%w[neon none]
 # (etc)
