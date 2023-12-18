@@ -19,7 +19,13 @@
 # output:
 # groups of words that are anagrams.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+Write a program that prints out groups of words that are anagrams.
+Anagrams are words that have the same exact letters in them but in a different order.
+Your output should look something like this:
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
