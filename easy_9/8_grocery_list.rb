@@ -61,5 +61,10 @@
 #   expanded_list
 # end
 
+# Solution 2:
+def buy_fruit(list)
+  list.map { |fruit, quantity| [fruit] * quantity }.flatten
+end
+
 # tests:
 p buy_fruit([['apples', 3], ['orange', 1], ['bananas', 2]]) == %w[apples apples apples orange bananas bananas]
