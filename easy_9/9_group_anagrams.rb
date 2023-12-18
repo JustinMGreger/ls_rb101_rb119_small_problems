@@ -31,7 +31,7 @@ words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide
 # the words are then broken into letters.
 # create all combinations of the letters that are words.
 # print out groups of words that are anagrams.
-Anagrams are words that have the same exact letters in them but in a different order.
+# Anagrams are words that have the same exact letters in them but in a different order.
 
 p anagrams(words) ==
 %w[demo dome mode]
