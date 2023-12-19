@@ -49,8 +49,7 @@
 # the key varible is assigned the expected_result of breaking the word block parameter into
 # an array of letters which is then sorted into alphabetic order then joined into a single string.
 # if the value assigned to the key varible in the anagram_groups is undefined then assign it the [] array.
-
-
+# append the word block parameter value assigned to the key varible in the anagram_groups.
 
 and Code. Implementation of Algorithm:
 
