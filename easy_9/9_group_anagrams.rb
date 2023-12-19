@@ -45,8 +45,10 @@
 # Algorithm, Steps for converting input to output:
 # the anagrams method accepts the words parameter and is defined as the following:
 # the anagram_groups is assigned to the {} hash.
+# pass the following block of code to each element in the words parameter:
 
 
+words.each do |word|
 words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 def anagrams(words)
 extract words from the words parameter.
