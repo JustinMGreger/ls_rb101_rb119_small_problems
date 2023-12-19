@@ -50,6 +50,8 @@
 # an array of letters which is then sorted into alphabetic order then joined into a single string.
 # if the value assigned to the key varible in the anagram_groups is undefined then assign it the [] array.
 # append the word block parameter value assigned to the key varible in the anagram_groups.
+# return an array containing all the values from the anagram_groups hash that select only those
+# whose block parameter contains a number of elements greater than the integer 1.
 
 and Code. Implementation of Algorithm:
 
