@@ -48,7 +48,7 @@ def anagrams(words)
 extract words from the words parameter.
 a new array is created for each of the words.
 the words are then broken into letters.
-create all combinations of the letters that are words.
+# determine which words in the words varible contain the same letters.
 print out groups of words that are anagrams.
 Anagrams are words that have the same exact letters in them but in a different order.
 
