@@ -50,14 +50,7 @@
 # an array of letters which is then sorted into alphabetic order then joined into a single string.
 # if the value assigned to the key varible in the anagram_groups is undefined then assign it the [] array.
 
-words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
-def anagrams(words)
-extract words from the words parameter.
-a new array is created for each of the words.
-the words are then broken into letters.
-# determine which words in the words varible contain the same letters.
-print out groups of words that are anagrams.
-Anagrams are words that have the same exact letters in them but in a different order.
+
 
 and Code. Implementation of Algorithm:
 
