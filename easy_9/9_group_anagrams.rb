@@ -44,8 +44,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the anagrams method accepts the words parameter and is defined as the following:
-
-
+# the anagram_groups is assigned to the {} hash.
 
 
 words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
