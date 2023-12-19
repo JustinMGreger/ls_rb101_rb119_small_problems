@@ -46,9 +46,10 @@
 # the anagrams method accepts the words parameter and is defined as the following:
 # the anagram_groups is assigned to the {} hash.
 # pass the following block of code to each element in the words parameter:
+# the key varible is assigned the expected_result of breaking the word block parameter into
+# an array of letters which is then sorted into alphabetic order then joined into a single string.
 
 
-words.each do |word|
 words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 def anagrams(words)
 extract words from the words parameter.
