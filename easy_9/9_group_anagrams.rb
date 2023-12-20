@@ -54,27 +54,27 @@
 # whose block parameter contains a number of elements greater than the integer 1.
 
 # and Code. Implementation of Algorithm:
-def anagrams(words)
-  anagram_groups = {}
+# def anagrams(words)
+#   anagram_groups = {}
 
-  words.each do |word|
-    key = word.chars.sort.join
-    anagram_groups[key] ||= []
-    anagram_groups[key] << word
-  end
+#   words.each do |word|
+#     key = word.chars.sort.join
+#     anagram_groups[key] ||= []
+#     anagram_groups[key] << word
+#   end
 
-  anagram_groups.values.select { |group| group.size > 1 }
-end
+#   anagram_groups.values.select { |group| group.size > 1 }
+# end
 
-words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
+# words = %w[demo none tied evil dome mode live fowl veil wolf diet vile edit tide flow neon]
 
-expected_result = [
-  %w[demo dome mode],
-  %w[none neon],
-  %w[tied diet edit tide],
-  %w[evil live veil vile],
-  %w[fowl wolf flow]
-]
+# expected_result = [
+#   %w[demo dome mode],
+#   %w[none neon],
+#   %w[tied diet edit tide],
+#   %w[evil live veil vile],
+#   %w[fowl wolf flow]
+# ]
 
 # test:
 p anagrams(words).sort == expected_result.sort
