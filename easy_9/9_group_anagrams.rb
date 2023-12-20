@@ -76,4 +76,5 @@ expected_result = [
   %w[fowl wolf flow]
 ]
 
-# p anagrams(words).sort == expected_result.sort
+# test:
+p anagrams(words).sort == expected_result.sort
