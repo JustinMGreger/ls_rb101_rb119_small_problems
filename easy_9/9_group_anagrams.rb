@@ -77,9 +77,3 @@ expected_result = [
 ]
 
 p anagrams(words).sort == expected_result.sort
-
-# test:
-# p anagrams(words) ==
-# %w[demo dome mode]
-# %w[neon none]
-# (etc)
