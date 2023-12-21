@@ -17,7 +17,9 @@ puts sum(123_456_789) == 45
 # Identify expected input:
 # a positive integer argument.
 
-output:
+# output:
+# the sum of its digits.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
