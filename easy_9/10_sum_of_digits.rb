@@ -38,3 +38,8 @@ puts sum(123_456_789) == 45
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+puts sum(23) == 5
+puts sum(496) == 19
+puts sum(123_456_789) == 45
