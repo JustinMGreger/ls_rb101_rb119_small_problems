@@ -21,7 +21,7 @@ puts sum(123_456_789) == 45
 # the sum of its digits.
 
 # Make the requirements explicit Identify rules:
-Write a method that takes one argument, a positive integer, and returns the sum of its digits.
+# Write a method that takes one argument, a positive integer, and returns the sum of its digits.
 For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
 
 Mental model of the problem (optional):
