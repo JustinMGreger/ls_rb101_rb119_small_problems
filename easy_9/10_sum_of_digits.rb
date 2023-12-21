@@ -25,9 +25,7 @@ puts sum(123_456_789) == 45
 # For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
 
 # Mental model of the problem (optional):
-
-
-
+# def sum(integer)
 Write a method that takes one argument, a positive integer, and returns the sum of its digits.
 Examples:
 puts sum(23) == 5
