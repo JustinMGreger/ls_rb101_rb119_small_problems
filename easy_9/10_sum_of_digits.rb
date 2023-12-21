@@ -28,7 +28,7 @@
 # def sum(integer)
 # seperate the integer parameter into a collection of integers.
 # return the sum of the collection of integers.
-For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
+# Write this without any basic looping constructs (while, until, loop, and each).
 
 # Examples / Test Cases, Validate understanding of the problem:
 puts sum(23) == 5
