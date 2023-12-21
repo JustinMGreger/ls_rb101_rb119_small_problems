@@ -28,10 +28,6 @@ puts sum(123_456_789) == 45
 # def sum(integer)
 # seperate the integer parameter into a collection of integers.
 # return the sum of the collection of integers.
-Examples:
-puts sum(23) == 5
-puts sum(496) == 19
-puts sum(123_456_789) == 45
 For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
 
 # Examples / Test Cases, Validate understanding of the problem:
