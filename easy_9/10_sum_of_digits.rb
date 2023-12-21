@@ -9,4 +9,4 @@ puts sum(123_456_789) == 45
 
 # The tests above should print true.
 
-For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
+# For a challenge, try writing this without any basic looping constructs (while, until, loop, and each).
