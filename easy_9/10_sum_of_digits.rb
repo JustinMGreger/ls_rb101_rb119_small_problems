@@ -27,7 +27,7 @@ puts sum(123_456_789) == 45
 # Mental model of the problem (optional):
 # def sum(integer)
 # seperate the integer parameter into a collection of integers.
-returns the sum of its digits.
+# return the sum of the collection of integers.
 Examples:
 puts sum(23) == 5
 puts sum(496) == 19
