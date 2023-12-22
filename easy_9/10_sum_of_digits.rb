@@ -38,7 +38,16 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def sum(integer)
+seperate the integer parameter into a collection of integers.
+return the sum of the collection of integers.
+Write this without any basic looping constructs (while, until, loop, and each).
+
+
+
+
+
 
 and Code. Implementation of Algorithm:
 
