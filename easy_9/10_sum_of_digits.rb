@@ -39,15 +39,11 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def sum(integer)
-seperate the integer parameter into a collection of integers.
-return the sum of the collection of integers.
-Write this without any basic looping constructs (while, until, loop, and each).
-
-
-
-
-
+# the sum method accepts the (integer) parameter and is defined as the following:
+# the integer parameter is broken into an array containing
+# each digit of the integer as an element, in reverse order which then passes
+# the result of adding the current element to the accumulator.
+# this is the last line of the sum method.
 
 and Code. Implementation of Algorithm:
 
