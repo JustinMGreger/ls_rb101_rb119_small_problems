@@ -45,7 +45,10 @@
 # the result of adding the current element to the accumulator.
 # this is the last line of the sum method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def sum(integer)
+  integer.digits.reduce(0) { |acc, digit| acc + digit }
+end
 
 # tests:
 puts sum(23) == 5
