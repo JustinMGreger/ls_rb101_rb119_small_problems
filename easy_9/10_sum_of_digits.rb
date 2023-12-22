@@ -50,6 +50,18 @@
 #   integer.digits.reduce(0) { |acc, digit| acc + digit }
 # end
 
+# Solution 1:
+def sum(number)
+  sum = 0
+  str_digits = number.to_s.chars
+
+  str_digits.each do |str_digit|
+    sum += str_digit.to_i
+  end
+
+  sum
+end
+
 # tests:
 puts sum(23) == 5
 puts sum(496) == 19
