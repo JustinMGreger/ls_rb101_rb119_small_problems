@@ -46,9 +46,9 @@
 # this is the last line of the sum method.
 
 # and Code. Implementation of Algorithm:
-def sum(integer)
-  integer.digits.reduce(0) { |acc, digit| acc + digit }
-end
+# def sum(integer)
+#   integer.digits.reduce(0) { |acc, digit| acc + digit }
+# end
 
 # tests:
 puts sum(23) == 5
