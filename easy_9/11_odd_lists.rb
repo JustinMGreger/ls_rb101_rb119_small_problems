@@ -19,7 +19,9 @@
 # Identify expected input:
 # Array argument.
 
-output:
+# output:
+# an Array that contains every other element of an Array that is passed in as an argument.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
