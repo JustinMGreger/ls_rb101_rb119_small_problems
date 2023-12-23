@@ -20,7 +20,15 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+p oddities([2, 3, 4, 5, 6]) == [2, 4, 6]
+p oddities([1, 2, 3, 4, 5, 6]) == [1, 3, 5]
+p oddities(%w[abc def]) == ['abc']
+p oddities([123]) == [123]
+p oddities([]) == []
+p oddities([1, 2, 3, 4, 1]) == [1, 3, 1]
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
