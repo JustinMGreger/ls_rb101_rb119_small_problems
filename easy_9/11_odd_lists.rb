@@ -29,7 +29,9 @@ Mental model of the problem (optional):
 # p oddities([]) == []
 # p oddities([1, 2, 3, 4, 1]) == [1, 3, 1]
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# Array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
