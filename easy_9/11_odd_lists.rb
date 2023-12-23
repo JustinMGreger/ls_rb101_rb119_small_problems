@@ -5,4 +5,4 @@
 # The values in the returned list should be those values that are in the 1st, 3rd, 5th, and so on
 # elements of the argument Array.
 
-Examples:
+# Examples:
