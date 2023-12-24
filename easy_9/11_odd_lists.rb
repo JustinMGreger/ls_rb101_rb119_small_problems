@@ -45,9 +45,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the oddities method accepts the (array) parameter and is defined as the following:
-# return a new array containing the values from the array parameter located at the index locations
-
-
+# return a new array containing the values from the array parameter located at the even index locations.
 
 and Code. Implementation of Algorithm:
 
