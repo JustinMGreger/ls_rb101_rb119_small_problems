@@ -30,7 +30,7 @@
 
 # Mental model of the problem (optional):
 # def oddities(Array_parameter)
-# [every other element of an Array_parameter]
+# [every other such as odd element of an Array_parameter]
 The values in the returned list should be those values that are in the 1st, 3rd, 5th,
 and so on elements of the argument Array.
 
