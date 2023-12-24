@@ -44,7 +44,7 @@
 # Array.
 
 # Algorithm, Steps for converting input to output:
-def oddities(Array_parameter)
+# the oddities method accepts the (array) parameter and is defined as the following:
 [every other such as odd element of an Array_parameter]
 
 
