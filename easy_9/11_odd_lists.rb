@@ -43,7 +43,12 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def oddities(Array_parameter)
+[every other such as odd element of an Array_parameter]
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
