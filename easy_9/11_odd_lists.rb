@@ -47,7 +47,10 @@
 # the oddities method accepts the (array) parameter and is defined as the following:
 # return a new array containing the values from the array parameter located at the even index locations.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def oddities(array)
+  array.values_at(*array.each_index.select(&:even?))
+end
 
 # tests:
 p oddities([2, 3, 4, 5, 6]) == [2, 4, 6]
