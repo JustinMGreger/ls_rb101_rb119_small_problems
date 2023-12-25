@@ -77,7 +77,7 @@
 
 def evens(array)
   even_elements = []
-  index = 0
+  index = 1
   while index < array.size
     odd_elements << array[index]
     index += 2
