@@ -87,6 +87,8 @@ def evens(array)
   even_elements
 end
 
+# Further Exploration Solution 2:
+
 # tests:
 p evens([2, 3, 4, 5, 6]) == [3, 5]
 p evens([1, 2, 3, 4, 5, 6]) == [2, 4, 6]
