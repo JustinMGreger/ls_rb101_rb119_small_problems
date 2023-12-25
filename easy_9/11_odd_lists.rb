@@ -87,9 +87,9 @@ def evens(array)
 end
 
 # tests:
-p oddities([2, 3, 4, 5, 6])
-p oddities([1, 2, 3, 4, 5, 6])
-p oddities(%w[abc def]) == ['abc']
-p oddities([123]) == [123]
-p oddities([]) == []
-p oddities([1, 2, 3, 4, 1]) == [1, 3, 1]
+p evens([2, 3, 4, 5, 6])
+p evens([1, 2, 3, 4, 5, 6])
+p evens(%w[abc def]) == ['abc']
+p evens([123]) == [123]
+p evens([]) == []
+p evens([1, 2, 3, 4, 1]) == [1, 3, 1]
