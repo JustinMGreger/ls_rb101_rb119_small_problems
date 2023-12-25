@@ -79,10 +79,10 @@ def evens(array)
   even_elements = []
   index = 1
   while index < array.size
-    odd_elements << array[index]
+    even_elements << array[index]
     index += 2
   end
-  odd_elements
+  even_elements
 end
 
 Try to solve this exercise in at least 2 additional ways.
