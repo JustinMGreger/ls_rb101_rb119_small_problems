@@ -76,7 +76,7 @@
 # Write a companion method that returns the 2nd, 4th, 6th, and so on elements of an array.
 
 def oddities(array)
-  odd_elements = []
+  even_elements = []
   index = 0
   while index < array.size
     odd_elements << array[index]
