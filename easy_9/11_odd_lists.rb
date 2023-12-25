@@ -89,7 +89,7 @@ end
 # tests:
 p evens([2, 3, 4, 5, 6])
 p evens([1, 2, 3, 4, 5, 6])
-p evens(%w[abc def])
+p evens(%w[abc def]) == ["def"]
 p evens([123])
 p evens([]) == []
 p evens([1, 2, 3, 4, 1]) == [2, 4]
