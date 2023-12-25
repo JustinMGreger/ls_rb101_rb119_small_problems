@@ -73,7 +73,17 @@
 
 # Further Exploration
 
-Write a companion method that returns the 2nd, 4th, 6th, and so on elements of an array.
+# Write a companion method that returns the 2nd, 4th, 6th, and so on elements of an array.
+
+def oddities(array)
+  odd_elements = []
+  index = 0
+  while index < array.size
+    odd_elements << array[index]
+    index += 2
+  end
+  odd_elements
+end
 
 Try to solve this exercise in at least 2 additional ways.
 
