@@ -63,6 +63,12 @@
 #   odd_elements
 # end
 
+# Further Exploration
+
+Write a companion method that returns the 2nd, 4th, 6th, and so on elements of an array.
+
+Try to solve this exercise in at least 2 additional ways.
+
 # tests:
 p oddities([2, 3, 4, 5, 6]) == [2, 4, 6]
 p oddities([1, 2, 3, 4, 5, 6]) == [1, 3, 5]
