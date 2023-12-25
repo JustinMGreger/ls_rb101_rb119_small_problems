@@ -76,6 +76,7 @@
 # Write a companion method that returns the 2nd, 4th, 6th, and so on elements of an array.
 # Try to solve this exercise in at least 2 additional ways.
 
+# Further Exploration Solution 1:
 def evens(array)
   even_elements = []
   index = 1
