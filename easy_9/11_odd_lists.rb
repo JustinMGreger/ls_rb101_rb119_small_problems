@@ -77,15 +77,15 @@
 # Try to solve this exercise in at least 2 additional ways.
 
 # Further Exploration Solution 1:
-def evens(array)
-  even_elements = []
-  index = 1
-  while index < array.size
-    even_elements << array[index]
-    index += 2
-  end
-  even_elements
-end
+# def evens(array)
+#   even_elements = []
+#   index = 1
+#   while index < array.size
+#     even_elements << array[index]
+#     index += 2
+#   end
+#   even_elements
+# end
 
 # Further Exploration Solution 2:
 
