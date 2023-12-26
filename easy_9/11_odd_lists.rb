@@ -93,6 +93,9 @@
 # end
 
 # Further Exploration Solution 3:
+def evens(array)
+  array.select.with_index { |_, index| index.odd? }
+end
 
 # tests:
 p evens([2, 3, 4, 5, 6]) == [3, 5]
