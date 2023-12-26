@@ -88,6 +88,9 @@
 # end
 
 # Further Exploration Solution 2:
+def evens(array)
+  array.each_with_index.map { |element, index| element if index.odd? }.compact
+end
 
 # Further Exploration Solution 3:
 
