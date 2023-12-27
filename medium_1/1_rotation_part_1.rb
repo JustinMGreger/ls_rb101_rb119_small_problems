@@ -5,4 +5,4 @@
 
 # Do not use the method Array#rotate or Array#rotate! for your implementation.
 
-Example:
+# Example:
