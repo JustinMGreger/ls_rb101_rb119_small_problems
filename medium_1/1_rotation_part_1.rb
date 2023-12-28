@@ -28,7 +28,8 @@
 # Do not use the method Array#rotate or Array#rotate! for your implementation.
 
 # Mental model of the problem (optional):
-Write a method that rotates an array by moving the first element to the end of the array.
+# def rotate_array(array)
+that rotates an array by moving the first element to the end of the array.
 The original array should not be modified.
 Do not use the method Array#rotate or Array#rotate! for your implementation.
 
