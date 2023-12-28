@@ -19,7 +19,9 @@
 # Identify expected input:
 # an array.
 
-output:
+# output:
+# rotated array where the first element was moved to the end of the array. 
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
