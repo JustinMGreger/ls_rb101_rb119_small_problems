@@ -22,7 +22,14 @@
 # output:
 # rotated array where the first element was moved to the end of the array. 
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+Write a method that rotates an array by moving the first element to the end of the array. The original array should not be modified.
+
+Do not use the method Array#rotate or Array#rotate! for your implementation.
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
