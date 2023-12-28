@@ -44,7 +44,21 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+def rotate_array(array)
+move the first element to the end of the array.
+The original array should not be modified.
+Do not use the method Array#rotate or Array#rotate! for your implementation.
+
+
+
+
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # tests:
