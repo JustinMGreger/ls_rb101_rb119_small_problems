@@ -51,14 +51,10 @@
 # new array made of the values located at the index location of the integer 0 of the array parameter.
 # this is the last line of the rotate_array method.
 
-
-
-
-
-
-
-
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
 
 # tests:
 p rotate_array([7, 3, 5, 2, 9, 1]) == [3, 5, 2, 9, 1, 7]
