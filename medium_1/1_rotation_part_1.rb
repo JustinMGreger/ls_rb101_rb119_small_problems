@@ -45,7 +45,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-def rotate_array(array)
+# the rotate_array method accepts the (array) parameter and is defined as the following:
 move the first element to the end of the array.
 The original array should not be modified.
 Do not use the method Array#rotate or Array#rotate! for your implementation.
