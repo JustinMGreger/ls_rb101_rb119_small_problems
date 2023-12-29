@@ -46,7 +46,10 @@
 
 # Algorithm, Steps for converting input to output:
 # the rotate_array method accepts the (array) parameter and is defined as the following:
-
+# return the result of concatenating a new array made of the values located at the index
+# location from the integer 1 to the end of the index of the array parameter with the
+# new array made of the values located at the index location of the integer 0 of the array parameter.
+# this is the last line of the rotate_array method.
 
 
 
