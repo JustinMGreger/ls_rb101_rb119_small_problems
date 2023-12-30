@@ -85,3 +85,12 @@ end
 
 # Do the same thing for integers.
 # You may use rotate_array from inside your new method.
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_integer(integer)
+  # Some logic
+  rotated_integer = rotate_array(array)
+  # Additional logic using rotated_array
+end
