@@ -72,4 +72,5 @@
 # Further Exploration
 
 # Write a method that rotates a string instead of an array.
-Do the same thing for integers. You may use rotate_array from inside your new method.
+# Do the same thing for integers.
+You may use rotate_array from inside your new method.
