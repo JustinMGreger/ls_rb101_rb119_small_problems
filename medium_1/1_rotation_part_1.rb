@@ -72,5 +72,16 @@
 # Further Exploration
 
 # Write a method that rotates a string instead of an array.
+# You may use rotate_array from inside your new method.
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_string(string)
+  # Some logic
+  rotated_string = rotate_array(array)
+  # Additional logic using rotated_array
+end
+
 # Do the same thing for integers.
 # You may use rotate_array from inside your new method.
