@@ -78,10 +78,14 @@ def rotate_array(array)
 end
 
 def rotate_string(string)
-  # Some logic
+  char_array = string.chars
   rotated_string = rotate_array(array)
   # Additional logic using rotated_array
 end
+
+
+
+
 
 # Do the same thing for integers.
 # You may use rotate_array from inside your new method.
