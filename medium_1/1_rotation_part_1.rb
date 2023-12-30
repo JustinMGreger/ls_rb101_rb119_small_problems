@@ -68,3 +68,7 @@
 # p x = [1, 2, 3, 4]
 # p rotate_array(x) == [2, 3, 4, 1]   # => true
 # p x == [1, 2, 3, 4]                 # => true
+
+# Further Exploration
+
+Write a method that rotates a string instead of an array. Do the same thing for integers. You may use rotate_array from inside your new method.
