@@ -57,9 +57,9 @@
 # end
 
 # LS Solution:
-def rotate_array(array)
-  array[1..-1] + [array[0]]
-end
+# def rotate_array(array)
+#   array[1..-1] + [array[0]]
+# end
 
 # tests:
 # p rotate_array([7, 3, 5, 2, 9, 1]) == [3, 5, 2, 9, 1, 7]
