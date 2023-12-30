@@ -80,7 +80,7 @@ end
 def rotate_string(string)
   char_array = string.chars
   rotated_array = rotate_array(char_array)
-  # Additional logic using rotated_array
+  rotated_string = rotated_array.join
 end
 
 
