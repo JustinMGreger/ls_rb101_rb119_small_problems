@@ -7,4 +7,4 @@ p rotate_rightmost_digits(735_291, 2) == 735_219
 p rotate_rightmost_digits(735_291, 3) == 735_912
 p rotate_rightmost_digits(735_291, 4) == 732_915
 p rotate_rightmost_digits(735_291, 5) == 752_913
-p rotate_rightmost_digits(735_291, 6) == 352917
+p rotate_rightmost_digits(735_291, 6) == 352_917
