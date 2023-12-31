@@ -26,7 +26,7 @@
 
 # Make the requirements explicit Identify rules:
 # Write a method that can rotate the last n digits of a number.
-
+# Note that rotating just 1 digit results in the original number being returned.
 
 
 
