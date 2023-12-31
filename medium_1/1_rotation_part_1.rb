@@ -100,7 +100,7 @@ end
 def rotate_integer(integer)
   digit_array = integer.to_s.chars.map(&:to_i)
   rotated_array = rotate_array(digit_array)
-  rotated_integer = rotated_array.join.to_i
+  rotated_array.join.to_i
 end
 
 # tests:
