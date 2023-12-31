@@ -98,9 +98,9 @@ def rotate_array(array)
 end
 
 def rotate_integer(integer)
-  # Some logic
-  rotated_integer = rotate_array(array)
-  # Additional logic using rotated_array
+  digit_array = integer.to_s.chars.map(&:to_i)
+  rotated_array = rotate_array(digit_array)
+  rotated_integer = rotated_array.join.to_i
 end
 
 # tests:
