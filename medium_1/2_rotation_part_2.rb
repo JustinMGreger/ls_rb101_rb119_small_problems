@@ -24,7 +24,19 @@
 # output:
 # rotated number.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that can rotate the last n digits of a number.
+
+
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
