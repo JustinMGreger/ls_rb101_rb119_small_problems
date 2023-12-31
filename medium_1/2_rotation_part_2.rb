@@ -14,3 +14,15 @@ p rotate_rightmost_digits(735_291, 6) == 352_917
 # You may use the rotate_array method from the previous exercise if you want. (Recommended!)
 
 # You may assume that n is always a positive integer.
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
