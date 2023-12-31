@@ -21,7 +21,9 @@
 # Identify expected input:
 # (number, digits)
 
-output:
+# output:
+# rotated number.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
