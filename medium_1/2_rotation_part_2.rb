@@ -3,7 +3,7 @@
 # Write a method that can rotate the last n digits of a number.
 # For example:
 p rotate_rightmost_digits(735_291, 1) == 735_291
-p rotate_rightmost_digits(735_291, 2) == 735219
+p rotate_rightmost_digits(735_291, 2) == 735_219
 p rotate_rightmost_digits(735_291, 3) == 735912
 p rotate_rightmost_digits(735_291, 4) == 732915
 p rotate_rightmost_digits(735_291, 5) == 752913
