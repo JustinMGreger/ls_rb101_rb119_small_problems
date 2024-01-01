@@ -32,7 +32,7 @@
 
 # Mental model of the problem (optional):
 # def rotate_rightmost_digits(number, digits)
- that can rotate the last n digits of a number.
+# rotate the last n digits of a number.
 Note that rotating just 1 digit results in the original number being returned.
 You may use the rotate_array method from the previous exercise if you want. (Recommended!)
 You may assume that n is always a positive integer.
