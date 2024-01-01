@@ -30,7 +30,15 @@
 # You may use the rotate_array method from the previous exercise if you want. (Recommended!)
 # You may assume that n is always a positive integer.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+Write a method that can rotate the last n digits of a number.
+Note that rotating just 1 digit results in the original number being returned.
+You may use the rotate_array method from the previous exercise if you want. (Recommended!)
+You may assume that n is always a positive integer.
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p rotate_rightmost_digits(735_291, 1) == 735_291
