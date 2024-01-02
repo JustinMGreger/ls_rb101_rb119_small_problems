@@ -45,7 +45,9 @@
 # p rotate_rightmost_digits(735_291, 5) == 752_913
 # p rotate_rightmost_digits(735_291, 6) == 352_917
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
