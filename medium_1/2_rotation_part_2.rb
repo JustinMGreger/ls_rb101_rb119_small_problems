@@ -58,6 +58,7 @@
 # the digit_array varible is assigned the result of integer parameter in string form 
 # then return an array where each element of this array is a single character from the string
 # then return a new array that is the result of converting every element to integer form.
+# the rotated_array varible is assigned the result of passing the digit_array varible to the rotate_array method.
 
 
 and Code. Implementation of Algorithm:
