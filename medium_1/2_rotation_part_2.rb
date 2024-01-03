@@ -61,6 +61,7 @@
 # the rotated_array varible is assigned the result of passing the digit_array varible to the rotate_array method.
 # the rotated_array varible is joined into a single string then converted to integer form.
 # this is the last line of the rotate_integer method.
+# the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
