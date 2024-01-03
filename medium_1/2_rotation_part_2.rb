@@ -57,6 +57,7 @@
 # the rotate_integer method accepts the (integer) parameter and is defined as the following:
 # the digit_array varible is assigned the result of integer parameter in string form 
 # then return an array where each element of this array is a single character from the string
+# then return a new array that is the result of converting every element to integer form.
 
 
 and Code. Implementation of Algorithm:
