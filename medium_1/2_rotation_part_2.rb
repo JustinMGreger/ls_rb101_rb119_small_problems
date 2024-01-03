@@ -83,11 +83,11 @@
 #   array[1..] + [array[0]]
 # end
 
-def rotate_integer(integer)
-  digit_array = integer.to_s.chars.map(&:to_i)
-  rotated_array = rotate_array(digit_array)
-  rotated_array.join.to_i
-end
+# def rotate_integer(integer)
+#   digit_array = integer.to_s.chars.map(&:to_i)
+#   rotated_array = rotate_array(digit_array)
+#   rotated_array.join.to_i
+# end
 
 def rotate_rightmost_digits(number, digits)
   return number if digits == 1
