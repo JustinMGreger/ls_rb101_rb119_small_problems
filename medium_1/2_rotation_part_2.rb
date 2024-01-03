@@ -76,8 +76,30 @@
 #return the result of the unchanged_part varible is joined into a single string which is
 # concatenated with the rotated_part varible which is converted to string form all of which is
 # then converted to integer form.
+# this is the last line of the rotate_rightmost_digits method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_integer(integer)
+  digit_array = integer.to_s.chars.map(&:to_i)
+  rotated_array = rotate_array(digit_array)
+  rotated_array.join.to_i
+end
+
+def rotate_rightmost_digits(number, digits)
+  return number if digits == 1
+
+  all_digits = number.to_s.chars
+  unchanged_part = all_digits[0...-digits]
+  part_to_rotate = all_digits[-digits..]
+
+  rotated_part = rotate_integer(part_to_rotate.join.to_i)
+
+  (unchanged_part.join + rotated_part.to_s).to_i
+end
 
 # tests:
 p rotate_rightmost_digits(735_291, 1) == 735_291
