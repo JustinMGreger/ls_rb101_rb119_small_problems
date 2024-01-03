@@ -73,7 +73,7 @@
 # the rotated_part varible is assigned the result of passing the result of joining the
 # part_to_rotate varible into a single string which is then converted to integer form
 # to the rotate_integer method.
-#return the result of the unchanged_part varible is joined into a single string which is
+# return the result of the unchanged_part varible is joined into a single string which is
 # concatenated with the rotated_part varible which is converted to string form all of which is
 # then converted to integer form.
 # this is the last line of the rotate_rightmost_digits method.
