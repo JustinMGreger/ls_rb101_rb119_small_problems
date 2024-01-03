@@ -70,6 +70,9 @@
 # in the all_digits varible.
 # the part_to_rotate varible is assigned the new array created by extracting the values located
 # from just before the digits index located to the end of the all_digits varible.
+# the rotated_part varible is assigned the result of passing the result of joining the
+# part_to_rotate varible into a single string which is then converted to integer form
+# to the rotate_integer method.
 
 and Code. Implementation of Algorithm:
 
