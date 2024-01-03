@@ -54,6 +54,9 @@
 # the index location at the integer 1 to the end of the index in the array parameter with
 # the new array created by returning the value located at the index location 0 in the array parameter.
 # this is the last line of the rotate_array method.
+# the rotate_integer method accepts the (integer) parameter and is defined as the following:
+
+
 
 
 and Code. Implementation of Algorithm:
