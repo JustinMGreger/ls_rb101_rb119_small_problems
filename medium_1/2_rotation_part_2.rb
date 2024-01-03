@@ -55,7 +55,7 @@
 # the new array created by returning the value located at the index location 0 in the array parameter.
 # this is the last line of the rotate_array method.
 # the rotate_integer method accepts the (integer) parameter and is defined as the following:
-
+# the digit_array varible is assigned the result of integer parameter in string form 
 
 
 
