@@ -62,6 +62,7 @@
 # the rotated_array varible is joined into a single string then converted to integer form.
 # this is the last line of the rotate_integer method.
 # the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
+# return the number parameter if the digits parameter is equal to the integer 1.
 
 and Code. Implementation of Algorithm:
 
