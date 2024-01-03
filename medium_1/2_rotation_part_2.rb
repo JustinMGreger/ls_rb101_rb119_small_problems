@@ -64,6 +64,7 @@
 # the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
 # return the number parameter if the digits parameter is equal to the integer 1.
 # the all_digits varible is assigned to the result of the number parameter converted to string form
+# which is then split into an array of string characters.
 
 and Code. Implementation of Algorithm:
 
