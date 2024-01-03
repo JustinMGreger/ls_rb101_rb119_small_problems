@@ -56,7 +56,7 @@
 # this is the last line of the rotate_array method.
 # the rotate_integer method accepts the (integer) parameter and is defined as the following:
 # the digit_array varible is assigned the result of integer parameter in string form 
-
+# then return an array where each element of this array is a single character from the string
 
 
 and Code. Implementation of Algorithm:
