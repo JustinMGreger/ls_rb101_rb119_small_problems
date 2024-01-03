@@ -60,6 +60,7 @@
 # then return a new array that is the result of converting every element to integer form.
 # the rotated_array varible is assigned the result of passing the digit_array varible to the rotate_array method.
 # the rotated_array varible is joined into a single string then converted to integer form.
+# this is the last line of the rotate_integer method.
 
 and Code. Implementation of Algorithm:
 
