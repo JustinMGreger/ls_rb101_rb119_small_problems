@@ -53,7 +53,7 @@
 # return the result of concatenating the new array created by returning the values from
 # the index location at the integer 1 to the end of the index in the array parameter with
 # the new array created by returning the value located at the index location 0 in the array parameter.
-
+# this is the last line of the rotate_array method.
 
 
 and Code. Implementation of Algorithm:
