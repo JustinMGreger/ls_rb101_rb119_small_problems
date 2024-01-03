@@ -101,6 +101,13 @@
 #   (unchanged_part.join + rotated_part.to_s).to_i
 # end
 
+# LS Solution:
+def rotate_rightmost_digits(number, n)
+  all_digits = number.to_s.chars
+  all_digits[-n..-1] = rotate_array(all_digits[-n..-1])
+  all_digits.join.to_i
+end
+
 # tests:
 p rotate_rightmost_digits(735_291, 1) == 735_291
 p rotate_rightmost_digits(735_291, 2) == 735_219
