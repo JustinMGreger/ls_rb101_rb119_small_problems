@@ -68,6 +68,8 @@
 # the unchanged_part varible is assigned the new array created by returning the values located from
 # the index locations at the integer 0 before digits index location from the last index location
 # in the all_digits varible.
+# the part_to_rotate varible is assigned the new array created by extracting the values located
+# from just before the digits index located to the end of the all_digits varible.
 
 and Code. Implementation of Algorithm:
 
