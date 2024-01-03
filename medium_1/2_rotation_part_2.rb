@@ -89,17 +89,17 @@
 #   rotated_array.join.to_i
 # end
 
-def rotate_rightmost_digits(number, digits)
-  return number if digits == 1
+# def rotate_rightmost_digits(number, digits)
+#   return number if digits == 1
 
-  all_digits = number.to_s.chars
-  unchanged_part = all_digits[0...-digits]
-  part_to_rotate = all_digits[-digits..]
+#   all_digits = number.to_s.chars
+#   unchanged_part = all_digits[0...-digits]
+#   part_to_rotate = all_digits[-digits..]
 
-  rotated_part = rotate_integer(part_to_rotate.join.to_i)
+#   rotated_part = rotate_integer(part_to_rotate.join.to_i)
 
-  (unchanged_part.join + rotated_part.to_s).to_i
-end
+#   (unchanged_part.join + rotated_part.to_s).to_i
+# end
 
 # tests:
 p rotate_rightmost_digits(735_291, 1) == 735_291
