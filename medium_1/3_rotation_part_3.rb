@@ -25,11 +25,8 @@
 # Identify expected input:
 # an integer as argument.
 
-output:
-
-
-
-
+# output:
+# the maximum rotation of that argument.
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
