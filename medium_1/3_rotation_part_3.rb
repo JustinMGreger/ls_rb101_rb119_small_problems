@@ -56,9 +56,7 @@
 #   all_digits[-n..-1] = rotate_array(all_digits[-n..-1])
 #   all_digits.join.to_i
 # end
-
-Note that you do not have to handle multiple 0s.
-
+# Note that you do not have to handle multiple 0s.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p max_rotation(735_291) == 321_579
