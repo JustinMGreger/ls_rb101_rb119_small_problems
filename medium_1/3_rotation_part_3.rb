@@ -13,7 +13,7 @@
 # Note that you do not have to handle multiple 0s.
 
 # Example:
-p max_rotation(735291) == 321579
+p max_rotation(735_291) == 321_579
 p max_rotation(3) == 3
 p max_rotation(35) == 53
 p max_rotation(105) == 15 # the leading zero gets dropped
