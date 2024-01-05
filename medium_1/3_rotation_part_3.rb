@@ -10,6 +10,6 @@
 # Write a method that takes an integer as argument, and returns the maximum rotation of that argument.
 # You can (and probably should) use the rotate_rightmost_digits method from the previous exercise.
 
-Note that you do not have to handle multiple 0s.
+# Note that you do not have to handle multiple 0s.
 
 Example:
