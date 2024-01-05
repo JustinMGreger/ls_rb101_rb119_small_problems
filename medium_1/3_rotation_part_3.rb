@@ -48,7 +48,17 @@ Keep the first 3 digits fixed in place and rotate again to get 321597.
 Finally, keep the first 4 digits fixed in place and rotate the final 2 digits to get 321579.
 The resulting number is called the maximum rotation of the original number.
 Write a method that takes an integer as argument, and returns the maximum rotation of that argument.
-You can (and probably should) use the rotate_rightmost_digits method from the previous exercise.
+
+# You can (and probably should) use the rotate_rightmost_digits method from the previous exercise.
+# def rotate_array(array)
+#   array[1..] + [array[0]]
+# end
+# def rotate_rightmost_digits(number, n)
+#   all_digits = number.to_s.chars
+#   all_digits[-n..-1] = rotate_array(all_digits[-n..-1])
+#   all_digits.join.to_i
+# end
+
 Note that you do not have to handle multiple 0s.
 
 
