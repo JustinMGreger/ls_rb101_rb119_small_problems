@@ -86,6 +86,9 @@
 # the max_rotation method accepts the (integer) parameter and is defined as the following:
 # the length varible is assigned to the result of the integer parameter converted to string
 # form which then returns the number of elements in the string.
+# for the length varible downto the integer 2 execute the block of code
+# the integer varible is assigned the result of passing the integer parameter and n block
+# parameter to the rotate_rightmost_digits method.
 
 and Code. Implementation of Algorithm:
 
