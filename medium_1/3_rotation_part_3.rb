@@ -75,7 +75,7 @@
 # returning the values from the index location 0 in the array parameter.
 # this is the last line of the rotate_array method.
 # the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
-# the all_digits varible is assigned the result of the number converted to string form 
+# the all_digits varible is assigned the result of the number converted to string form
 # then return a new array of string elements.
 # the new array created by returning the values located from the digits index location
 # to the end of the all_digits varible is assigned the result of passing the new array
