@@ -81,6 +81,7 @@
 # to the end of the all_digits varible is assigned the result of passing the new array
 # created by returning the values located from the digits index location to the end
 # of the all_digits varible to the rotate_array method.
+# return the result of joining the all_digits varible into a single string which is then converted to integer form.
 
 and Code. Implementation of Algorithm:
 
