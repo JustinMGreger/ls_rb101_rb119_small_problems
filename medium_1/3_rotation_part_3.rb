@@ -70,7 +70,9 @@
 
 # Algorithm, Steps for converting input to output:
 # the rotate_array method accepts the (array) parameter and is defined as the following:
-
+# return the result of concatenating the new array created by returning the values from
+# the index location 1 to the end of the array parameter with the new array created by
+# returning the values from the index location 0 in the array parameter.
 
 
 
