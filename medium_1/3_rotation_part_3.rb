@@ -84,6 +84,8 @@
 # return the result of joining the all_digits varible into a single string which is then converted to integer form.
 # this is the last line of the rotate_rightmost_digits method.
 # the max_rotation method accepts the (integer) parameter and is defined as the following:
+# the length varible is assigned to the result of the integer parameter converted to string
+# form which then returns the number of elements in the string.
 
 and Code. Implementation of Algorithm:
 
