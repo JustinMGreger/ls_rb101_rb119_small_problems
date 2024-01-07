@@ -83,6 +83,7 @@
 # of the all_digits varible to the rotate_array method.
 # return the result of joining the all_digits varible into a single string which is then converted to integer form.
 # this is the last line of the rotate_rightmost_digits method.
+# the max_rotation method accepts the (integer) parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
