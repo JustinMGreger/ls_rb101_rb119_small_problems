@@ -82,6 +82,7 @@
 # created by returning the values located from the digits index location to the end
 # of the all_digits varible to the rotate_array method.
 # return the result of joining the all_digits varible into a single string which is then converted to integer form.
+# this is the last line of the rotate_rightmost_digits method.
 
 and Code. Implementation of Algorithm:
 
