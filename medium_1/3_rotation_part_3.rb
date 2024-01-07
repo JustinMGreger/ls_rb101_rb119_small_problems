@@ -74,7 +74,7 @@
 # the index location 1 to the end of the array parameter with the new array created by
 # returning the values from the index location 0 in the array parameter.
 # this is the last line of the rotate_array method.
-
+# the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
 
 
 and Code. Implementation of Algorithm:
