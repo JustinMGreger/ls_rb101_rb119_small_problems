@@ -89,6 +89,7 @@
 # for the length varible downto the integer 2 execute the block of code
 # the integer varible is assigned the result of passing the integer parameter and n block
 # parameter to the rotate_rightmost_digits method.
+# this is the last line of the .downto method.
 
 and Code. Implementation of Algorithm:
 
