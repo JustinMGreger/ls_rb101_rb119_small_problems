@@ -110,6 +110,25 @@
 #   integer
 # end
 
+# LS Solution:
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_rightmost_digits(number, digits)
+  all_digits = number.to_s.chars
+  all_digits[-digits..] = rotate_array(all_digits[-digits..])
+  all_digits.join.to_i
+end
+
+def max_rotation(number)
+  number_digits = number.to_s.size
+  number_digits.downto(2) do |n|
+    number = rotate_rightmost_digits(number, n)
+  end
+  number
+end
+
 # tests:
 p max_rotation(735_291) == 321_579
 p max_rotation(3) == 3
