@@ -111,9 +111,9 @@
 # end
 
 # LS Solution:
-def rotate_array(array)
-  array[1..] + [array[0]]
-end
+# def rotate_array(array)
+#   array[1..] + [array[0]]
+# end
 
 def rotate_rightmost_digits(number, digits)
   all_digits = number.to_s.chars
