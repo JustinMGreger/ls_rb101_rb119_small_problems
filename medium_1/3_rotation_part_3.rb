@@ -138,6 +138,28 @@ p max_rotation(8_703_529_146) == 7_321_609_845
 
 # Assume you do not have the rotate_rightmost_digits or rotate_array methods.
 # How would you approach this problem?
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
+
+
+
+
+
+
+
+
+
+
+
 # Would your solution look different?
 # Does this 3 part approach make the problem easier to understand or harder?
 
