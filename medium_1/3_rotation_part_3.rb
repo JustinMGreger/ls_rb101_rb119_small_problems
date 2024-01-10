@@ -144,7 +144,8 @@
 # Identify expected input:
 # an integer.
 
-output:
+# output:
+# the maximum rotation of that argument.
 
 # Make the requirements explicit Identify rules:
 # If you take a number like 735291, and rotate it to the left, you get 352917.
