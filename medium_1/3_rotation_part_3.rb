@@ -160,7 +160,7 @@
 # Mental model of the problem (optional):
 # def max_rotation(integer)
 #  returns the maximum rotation of that argument.
-If you take a number like 735291, and rotate it to the left, you get 352917.
+# rotate it to the left.
 If you now keep the first digit fixed in place, and rotate the remaining digits, you get 329175.
 Keep the first 2 digits fixed in place and rotate again to 321759.
 Keep the first 3 digits fixed in place and rotate again to get 321597.
