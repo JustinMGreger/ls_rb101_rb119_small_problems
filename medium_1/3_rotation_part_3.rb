@@ -165,7 +165,7 @@ If you now keep the first digit fixed in place, and rotate the remaining digits,
 Keep the first 2 digits fixed in place and rotate again to 321759.
 Keep the first 3 digits fixed in place and rotate again to get 321597.
 Finally, keep the first 4 digits fixed in place and rotate the final 2 digits to get 321579.
-The resulting number is called the maximum rotation of the original number.
+# return the resulting number which is the maximum rotation of the original number.
 Note that you do not have to handle multiple 0s.
 
 
