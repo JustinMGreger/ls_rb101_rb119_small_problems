@@ -161,7 +161,7 @@
 # def max_rotation(integer)
 #  returns the maximum rotation of that argument.
 # rotate it to the left.
-If you now keep the first digit fixed in place, and rotate the remaining digits, you get 329175.
+# Keep the first digit fixed in place, and rotate the remaining digits.
 Keep the first 2 digits fixed in place and rotate again to 321759.
 Keep the first 3 digits fixed in place and rotate again to get 321597.
 Finally, keep the first 4 digits fixed in place and rotate the final 2 digits to get 321579.
