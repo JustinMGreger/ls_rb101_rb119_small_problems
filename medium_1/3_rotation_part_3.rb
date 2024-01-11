@@ -184,7 +184,7 @@
 # the values located at the index location from the integer 1 to the end of the array
 # parameter with the new array created by returning the value located the index location
 # integer 0 in the array parameter.
-
+# this is the last line of the rotate_array method.
 
 
 and Code. Implementation of Algorithm:
