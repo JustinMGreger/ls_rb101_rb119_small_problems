@@ -194,6 +194,7 @@
 # of the array in the all_digits variable to the rotate_array method.
 # return the result of joining the values in the all_digits variable into a single string that is then
 # converted to integer form.
+# this is the last line of the rotate_rightmost_digits method.
 
 and Code. Implementation of Algorithm:
 
