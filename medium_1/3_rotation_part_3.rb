@@ -202,6 +202,7 @@
 # the integer variable is assigned the result of passing the integer and n parameters
 # to the rotate_rightmost_digits method.
 # this is the last line of the downto method.
+# return the value assigned to the integer variable.
 
 and Code. Implementation of Algorithm:
 
