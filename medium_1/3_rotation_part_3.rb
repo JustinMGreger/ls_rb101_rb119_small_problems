@@ -232,6 +232,8 @@ p max_rotation(105) == 15 # the leading zero gets dropped
 p max_rotation(8_703_529_146) == 7_321_609_845
 
 # Would your solution look different?
+# No.
+
 # Does this 3 part approach make the problem easier to understand or harder?
 
 # There is an edge case in our problem when the number passed in as the argument has multiple consecutive zeros.
