@@ -192,6 +192,8 @@
 # to then end of the array in the all_digits variable is assigned to the result of passing the new array
 # created by extracting the values located at the index location after the digits parameter to then end
 # of the array in the all_digits variable to the rotate_array method.
+# return the result of joining the values in the all_digits variable into a single string that is then
+# converted to integer form.
 
 and Code. Implementation of Algorithm:
 
