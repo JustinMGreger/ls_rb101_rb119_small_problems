@@ -201,6 +201,7 @@
 # from the number_digits variable downto the integer 2 execute the following code:
 # the integer variable is assigned the result of passing the integer and n parameters
 # to the rotate_rightmost_digits method.
+# this is the last line of the downto method.
 
 and Code. Implementation of Algorithm:
 
