@@ -186,6 +186,8 @@
 # integer 0 in the array parameter.
 # this is the last line of the rotate_array method.
 # the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
+# the all_digits variable is assigned the result of converting the number parameter to string form
+# then return an array of substrings.
 
 and Code. Implementation of Algorithm:
 
