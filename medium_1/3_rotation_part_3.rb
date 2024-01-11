@@ -203,6 +203,7 @@
 # to the rotate_rightmost_digits method.
 # this is the last line of the downto method.
 # return the value assigned to the integer variable.
+# this is the last line of the max_rotation method.
 
 and Code. Implementation of Algorithm:
 
