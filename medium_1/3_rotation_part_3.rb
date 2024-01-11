@@ -196,6 +196,8 @@
 # converted to integer form.
 # this is the last line of the rotate_rightmost_digits method.
 # the max_rotation method accepts the (integer) parameter and is defined as the following:
+# the number_digits variable is assigned the result of converting the integer parameter to string form
+# then return the number of elements in that.
 
 and Code. Implementation of Algorithm:
 
