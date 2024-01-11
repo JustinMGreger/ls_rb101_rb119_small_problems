@@ -205,7 +205,24 @@
 # return the value assigned to the integer variable.
 # this is the last line of the max_rotation method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_rightmost_digits(number, digits)
+  all_digits = number.to_s.chars
+  all_digits[-digits..] = rotate_array(all_digits[-digits..])
+  all_digits.join.to_i
+end
+
+def max_rotation(integer)
+  number_digits = integer.to_s.size
+  number_digits.downto(2) do |n|
+    integer = rotate_rightmost_digits(integer, n)
+  end
+  integer
+end
 
 # tests:
 p max_rotation(735_291) == 321_579
