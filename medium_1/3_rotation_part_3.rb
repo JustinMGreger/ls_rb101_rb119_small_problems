@@ -199,6 +199,8 @@
 # the number_digits variable is assigned the result of converting the integer parameter to string form
 # then return the number of elements in that.
 # from the number_digits variable downto the integer 2 execute the following code:
+# the integer variable is assigned the result of passing the integer and n parameters
+# to the rotate_rightmost_digits method.
 
 and Code. Implementation of Algorithm:
 
