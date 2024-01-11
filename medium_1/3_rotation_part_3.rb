@@ -180,7 +180,10 @@
 
 # Algorithm, Steps for converting input to output:
 # the rotate_array method accepts the (array) method and is defined as the following:
-
+# return the result of concatenating the result of creating a new array from returning
+# the values located at the index location from the integer 1 to the end of the array
+# parameter with the new array created by returning the value located the index location
+# integer 0 in the array parameter.
 
 
 
