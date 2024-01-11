@@ -179,7 +179,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-
+# the rotate_array method accepts the (array) method and is defined as the following:
 
 
 
