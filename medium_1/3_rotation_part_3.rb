@@ -231,14 +231,6 @@ p max_rotation(35) == 53
 p max_rotation(105) == 15 # the leading zero gets dropped
 p max_rotation(8_703_529_146) == 7_321_609_845
 
-
-
-
-
-
-
-
-
 # Would your solution look different?
 # Does this 3 part approach make the problem easier to understand or harder?
 
