@@ -188,6 +188,10 @@
 # the rotate_rightmost_digits method accepts the (number, digits) parameters and is defined as the following:
 # the all_digits variable is assigned the result of converting the number parameter to string form
 # then return an array of substrings.
+# the new array created by extracting the values located at the index location after the digits parameter
+# to then end of the array in the all_digits variable is assigned to the result of passing the new array
+# created by extracting the values located at the index location after the digits parameter to then end
+# of the array in the all_digits variable to the rotate_array method.
 
 and Code. Implementation of Algorithm:
 
