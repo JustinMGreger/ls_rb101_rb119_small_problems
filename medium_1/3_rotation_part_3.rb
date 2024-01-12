@@ -209,12 +209,11 @@
 # def rotate_array(array)
 #   array[1..] + [array[0]]
 # end
-
-def rotate_rightmost_digits(number, digits)
-  all_digits = number.to_s.chars
-  all_digits[-digits..] = rotate_array(all_digits[-digits..])
-  all_digits.join.to_i
-end
+# def rotate_rightmost_digits(number, digits)
+#   all_digits = number.to_s.chars
+#   all_digits[-digits..] = rotate_array(all_digits[-digits..])
+#   all_digits.join.to_i
+# end
 
 def max_rotation(integer)
   number_digits = integer.to_s.size
