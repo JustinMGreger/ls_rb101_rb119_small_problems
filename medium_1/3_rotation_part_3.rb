@@ -206,9 +206,9 @@
 # this is the last line of the max_rotation method.
 
 # and Code. Implementation of Algorithm:
-def rotate_array(array)
-  array[1..] + [array[0]]
-end
+# def rotate_array(array)
+#   array[1..] + [array[0]]
+# end
 
 def rotate_rightmost_digits(number, digits)
   all_digits = number.to_s.chars
@@ -239,3 +239,4 @@ p max_rotation(8_703_529_146) == 7_321_609_845
 
 # There is an edge case in our problem when the number passed in as the argument has multiple consecutive zeros.
 # Can you create a solution that preserves zeros?
+
