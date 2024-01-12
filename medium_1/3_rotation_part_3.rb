@@ -237,6 +237,24 @@
 
 # There is an edge case in our problem when the number passed in as the argument has multiple consecutive zeros.
 # Can you create a solution that preserves zeros?
+def rotate_array(array)
+  array[1..] + [array[0]]
+end
+
+def rotate_rightmost_digits(str_number, digits)
+  all_digits = str_number.chars
+  all_digits[-digits..] = rotate_array(all_digits[-digits..])
+  all_digits.join
+end
+
+def max_rotation(integer)
+  str_number = integer.to_s
+  number_digits = str_number.size
+  number_digits.downto(2) do |n|
+    str_number = rotate_rightmost_digits(str_number, n)
+  end
+  str_number
+end
 
 # Tests
 p max_rotation(735_291) == '321579'
