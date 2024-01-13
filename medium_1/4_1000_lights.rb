@@ -9,3 +9,5 @@
 
 # Write a method that takes one argument, the total number of switches, and returns an Array
 # that identifies which lights are on after n repetitions.
+
+# Example with n = 5 lights:
