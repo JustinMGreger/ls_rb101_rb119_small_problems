@@ -18,3 +18,5 @@
 # round 5: lights 2, 3, and 5 are now off; 1 and 4 are on
 
 # The result is that 2 lights are left on, lights 1 and 4. The return value is [1, 4].
+
+# With 10 lights, 3 lights are left on: lights 1, 4, and 9. The return value is [1, 4, 9].
