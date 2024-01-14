@@ -20,3 +20,15 @@
 # The result is that 2 lights are left on, lights 1 and 4. The return value is [1, 4].
 
 # With 10 lights, 3 lights are left on: lights 1, 4, and 9. The return value is [1, 4, 9].
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
