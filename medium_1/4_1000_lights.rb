@@ -28,7 +28,15 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+# Test the function with n = 5 and n = 10
+test_n_5 = toggle_switches(5)
+test_n_10 = toggle_switches(10)
+
+puts "With 5 lights: #{test_n_5}"
+puts "With 10 lights: #{test_n_10}"
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
