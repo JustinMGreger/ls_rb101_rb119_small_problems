@@ -36,7 +36,9 @@ Mental model of the problem (optional):
 # puts "With 5 lights: #{test_n_5}"
 # puts "With 10 lights: #{test_n_10}"
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
