@@ -95,8 +95,7 @@
 # end
 
 # Test the function with integer = 5 and integer = 10
-testinteger5 = toggle_switches(5)
-testinteger10 = toggle_switches(10)
-
-puts "With 5 lights: #{testinteger5}"
-puts "With 10 lights: #{testinteger10}"
+# testinteger5 = toggle_switches(5)
+# testinteger10 = toggle_switches(10)
+# puts "With 5 lights: #{testinteger5}"
+# puts "With 10 lights: #{testinteger10}"
