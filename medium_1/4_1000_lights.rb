@@ -75,6 +75,9 @@
 # not version of the value located at the j block parameter index location in the lights varible
 # this is the last line of the .step method.
 # this is the last line of the .each method.
+# apply the following block of code to each element in the lights varible and returns a new array
+# containing the results of running that block once for every element: iterate over the array, and
+# for each element, it executes the following block providing both the element and its index.
 
 
 
