@@ -92,6 +92,7 @@ def toggle_switches(integer)
     end
   end
   lights.map.with_index { |light, index| index + 1 if light }.compact
+end
 
 # Test the function with n = 5 and n = 10
 test_n_5 = toggle_switches(5)
