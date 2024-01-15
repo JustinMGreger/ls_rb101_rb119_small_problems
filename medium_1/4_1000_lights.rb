@@ -78,7 +78,9 @@
 # apply the following block of code to each element in the lights varible and returns a new array
 # containing the results of running that block once for every element: iterate over the array, and
 # for each element, it executes the following block providing both the element and its index.
-
+# The block then prints both the index and the element: { |light, index| index + 1 if light }
+# which if light is true then add the integer 1 to the index block parameter then iterate over the
+# array and remove every nil element.
 
 
 
