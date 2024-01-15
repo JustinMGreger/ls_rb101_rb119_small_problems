@@ -99,3 +99,5 @@
 # testinteger10 = toggle_switches(10)
 # puts "With 5 lights: #{testinteger5}"
 # puts "With 10 lights: #{testinteger10}"
+
+# LS Solution:
