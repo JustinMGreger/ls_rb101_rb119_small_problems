@@ -43,7 +43,8 @@
 # On the third pass, you go back again to the beginning and toggle switches 3, 6, 9, and so on.
 # You repeat this process and keep going until you have been through n repetitions.
 # Write a method that takes one argument,
-the total number of switches, and returns an Array that identifies which lights are on after n repetitions.
+# the total number of switches,
+and returns an Array that identifies which lights are on after n repetitions.
 
 Example with n = 5 lights:
 
