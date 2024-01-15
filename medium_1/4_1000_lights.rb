@@ -30,8 +30,11 @@
 # output:
 # an Array that identifies which lights are on after n repetitions.
 
+# Make the requirements explicit Identify rules:
+# Write a method that takes one argument,
+# the total number of switches,
+# and returns an Array that identifies which lights are on after n repetitions.
 
-Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
