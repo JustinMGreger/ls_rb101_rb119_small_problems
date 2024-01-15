@@ -84,7 +84,7 @@
 # this is the last line of the toggle_switches method.
 
 # and Code. Implementation of Algorithm:
-def toggle_switches(integer)
+# def toggle_switches(integer)
   lights = Array.new(integer, false)
   (1..integer).each do |i|
     (i - 1).step(integer - 1, i) do |j|
