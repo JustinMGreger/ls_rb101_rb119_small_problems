@@ -74,8 +74,7 @@
 # the value located at the j block parameter index location in the lights varible is assinged logical
 # not version of the value located at the j block parameter index location in the lights varible
 # this is the last line of the .step method.
-
-
+# this is the last line of the .each method.
 
 
 
