@@ -88,6 +88,7 @@ def toggle_switches(integer)
   lights = Array.new(integer, false)
   (1..integer).each do |i|
     (i - 1).step(integer - 1, i) do |j|
+      lights[j] = !lights[j]
 
 # Test the function with n = 5 and n = 10
 test_n_5 = toggle_switches(5)
