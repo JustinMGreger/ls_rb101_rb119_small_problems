@@ -91,6 +91,7 @@ def toggle_switches(integer)
       lights[j] = !lights[j]
     end
   end
+  lights.map.with_index { |light, index| index + 1 if light }.compact
 
 # Test the function with n = 5 and n = 10
 test_n_5 = toggle_switches(5)
