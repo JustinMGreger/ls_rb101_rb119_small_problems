@@ -85,14 +85,14 @@
 
 # and Code. Implementation of Algorithm:
 # def toggle_switches(integer)
-  lights = Array.new(integer, false)
-  (1..integer).each do |i|
-    (i - 1).step(integer - 1, i) do |j|
-      lights[j] = !lights[j]
-    end
-  end
-  lights.map.with_index { |light, index| index + 1 if light }.compact
-end
+#  lights = Array.new(integer, false)
+#  (1..integer).each do |i|
+#    (i - 1).step(integer - 1, i) do |j|
+#      lights[j] = !lights[j]
+#    end
+#  end
+#  lights.map.with_index { |light, index| index + 1 if light }.compact
+# end
 
 # Test the function with integer = 5 and integer = 10
 testinteger5 = toggle_switches(5)
