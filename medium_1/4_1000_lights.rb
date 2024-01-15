@@ -68,6 +68,12 @@
 # the toggle_switches method accepts the (n) parameter and is defined as the following:
 # the lights varible is assinged the result of creating a new array that contains n and false elements.
 # execute the following code for each element in the inclusive range from the integer 1 to n parameter:
+# execute the following block of code when begin iteration at the result of the i block parameter
+# subtracted by the integer 1 add the i block parameter to the current value in each step the iteration
+# will go up to, but not include the result of the n parameter subtracted by the integer 1
+# the value located at the j block parameter index location in the lights varible is assinged logical
+# not version of the value located at the j block parameter index location in the lights varible
+# this is the last line of the .step method.
 
 
 
