@@ -27,7 +27,9 @@
 # Identify expected input:
 # the total number of switches.
 
-output:
+# output:
+# an Array that identifies which lights are on after n repetitions.
+
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
