@@ -67,7 +67,7 @@
 # Algorithm, Steps for converting input to output:
 # the toggle_switches method accepts the (n) parameter and is defined as the following:
 # the lights varible is assinged the result of creating a new array that contains n and false elements.
-
+# execute the following code for each element in the inclusive range from the integer 1 to n parameter:
 
 
 
