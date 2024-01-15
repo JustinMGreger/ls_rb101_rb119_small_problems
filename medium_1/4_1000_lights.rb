@@ -54,13 +54,6 @@
 # The result is that 2 lights are left on, lights 1 and 4. The return value is [1, 4].
 # With 10 lights, 3 lights are left on: lights 1, 4, and 9. The return value is [1, 4, 9].
 
-
-
-
-
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
 # Test the function with n = 5 and n = 10
 # test_n_5 = toggle_switches(5)
@@ -71,7 +64,16 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the toggle_switches method accepts the (n) parameter and is defined as the following:
+
+
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # Test the function with n = 5 and n = 10
