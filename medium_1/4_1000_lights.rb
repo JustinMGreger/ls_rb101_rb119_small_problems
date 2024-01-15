@@ -81,8 +81,7 @@
 # The block then prints both the index and the element: { |light, index| index + 1 if light }
 # which if light is true then add the integer 1 to the index block parameter then iterate over the
 # array and remove every nil element.
-
-
+# this is the last line of the toggle_switches method.
 
 and Code. Implementation of Algorithm:
 
