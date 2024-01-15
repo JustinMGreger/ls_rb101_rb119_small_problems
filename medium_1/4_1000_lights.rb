@@ -84,7 +84,7 @@
 # this is the last line of the toggle_switches method.
 
 # and Code. Implementation of Algorithm:
-
+def toggle_switches(integer)
 
 # Test the function with n = 5 and n = 10
 test_n_5 = toggle_switches(5)
