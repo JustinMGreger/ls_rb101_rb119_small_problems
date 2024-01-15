@@ -25,7 +25,7 @@
 # PEDAC stands for [Understand the] Problem,
 
 # Identify expected input:
-# integer.
+# the total number of switches.
 
 output:
 
