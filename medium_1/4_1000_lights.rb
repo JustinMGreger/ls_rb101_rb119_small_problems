@@ -134,6 +134,8 @@
 # There are a few interesting points about this exercise that we can explore:
 
 # Do you notice the pattern in our answer?
-Every light that is on is a perfect square. Why is that?
+# Yes.
+Every light that is on is a perfect square.
+Why is that?
 What are some alternatives for solving this exercise? What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
 We could have a method that replicates the output from the description of this problem (i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.") How would we go about writing that code?
