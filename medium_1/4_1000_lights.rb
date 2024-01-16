@@ -109,9 +109,9 @@
 # end
 
 # return list of light numbers that are on
-def on_lights(lights)
-  lights.select { |_position, state| state == "on" }.keys
-end
+# def on_lights(lights)
+#   lights.select { |_position, state| state == "on" }.keys
+# end
 
 # toggle every nth light in lights hash
 def toggle_every_nth_light!(lights, nth)
