@@ -120,16 +120,14 @@
 #   end
 # end
 # Run entire program for number of lights
-def toggle_lights(number_of_lights)
-  lights = initialize_lights(number_of_lights)
-  1.upto(lights.size) do |iteration_number|
-    toggle_every_nth_light!(lights, iteration_number)
-  end
-
-  on_lights(lights)
-end
-
-p toggle_lights(1000)
+# def toggle_lights(number_of_lights)
+#   lights = initialize_lights(number_of_lights)
+#   1.upto(lights.size) do |iteration_number|
+#     toggle_every_nth_light!(lights, iteration_number)
+#   end
+#   on_lights(lights)
+# end
+# p toggle_lights(1000)
 
 # Further Exploration
 
