@@ -131,7 +131,7 @@
 
 # Further Exploration
 
-There are a few interesting points about this exercise that we can explore:
+# There are a few interesting points about this exercise that we can explore:
 
 Do you notice the pattern in our answer? Every light that is on is a perfect square. Why is that?
 What are some alternatives for solving this exercise? What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
