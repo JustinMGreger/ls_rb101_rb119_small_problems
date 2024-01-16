@@ -119,7 +119,6 @@
 #     end
 #   end
 # end
-
 # Run entire program for number of lights
 def toggle_lights(number_of_lights)
   lights = initialize_lights(number_of_lights)
