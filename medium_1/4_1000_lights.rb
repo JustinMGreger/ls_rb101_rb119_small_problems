@@ -102,11 +102,11 @@
 
 # LS Solution:
 # initialize the lights hash
-def initialize_lights(number_of_lights)
-  lights = Hash.new
-  1.upto(number_of_lights) { |number| lights[number] = "off" }
-  lights
-end
+# def initialize_lights(number_of_lights)
+#   lights = Hash.new
+#   1.upto(number_of_lights) { |number| lights[number] = "off" }
+#   lights
+# end
 
 # return list of light numbers that are on
 def on_lights(lights)
