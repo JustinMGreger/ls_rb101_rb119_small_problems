@@ -148,7 +148,9 @@
 # Parallelizing the toggling computation.
 # If the number of lights is fixed and known in advance, you could pre-calculate the results and store them.
 
-What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
+# What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
+
+
 We could have a method that replicates the output from the description of this problem 
 (i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.")
 How would we go about writing that code?
