@@ -144,6 +144,7 @@
 # Calculate the square of each integer up to the square root of the total number of lights.
 # Object-Oriented Approach: create a `Light` class that has an `on` state and a `toggle` method. 
 # Create an array or hash of `Light` objects and iterate over them, toggling them as per the rules.
+# Use map and reduce functions to might make the code more concise and expressive.
 
 What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
 We could have a method that replicates the output from the description of this problem 
