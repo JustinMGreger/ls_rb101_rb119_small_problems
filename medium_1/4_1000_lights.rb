@@ -141,6 +141,7 @@
 # A number is a perfect square if and only if it has an odd number of factors. 
 
 # What are some alternatives for solving this exercise?
+# Calculate the square of each integer up to the square root of the total number of lights.
 
 
 What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
