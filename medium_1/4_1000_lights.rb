@@ -149,7 +149,32 @@
 # If the number of lights is fixed and known in advance, you could pre-calculate the results and store them.
 
 # What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
+def initialize_lights(number_of_lights)
+  Array.new(number_of_lights, 'off')
+end
 
+def toggle_every_nth_light!(lights, nth)
+  lights.each_with_index do |state, index|
+    if ((index + 1) % nth).zero?
+      lights[index] = state == 'off' ? 'on' : 'off'
+    end
+  end
+end
+
+def on_lights(lights)
+  lights.map.with_index { |state, index| index + 1 if state == 'on' }.compact
+end
+
+def toggle_lights(number_of_lights)
+  lights = initialize_lights(number_of_lights)
+  1.upto(lights.size) do |iteration_number|
+    toggle_every_nth_light!(lights, iteration_number)
+  end
+
+  on_lights(lights)
+end
+
+p toggle_lights(1000)
 
 We could have a method that replicates the output from the description of this problem 
 (i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.")
