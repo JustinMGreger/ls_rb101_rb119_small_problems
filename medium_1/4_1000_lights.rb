@@ -171,6 +171,6 @@
 # end
 # p toggle_lights(1000)
 
-We could have a method that replicates the output from the description of this problem 
-(i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.")
-How would we go about writing that code?
+# We could have a method that replicates the output from the description of this problem 
+# (i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.")
+# How would we go about writing that code?
