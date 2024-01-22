@@ -162,15 +162,13 @@
 # def on_lights(lights)
 #   lights.map.with_index { |state, index| index + 1 if state == 'on' }.compact
 # end
-
-def toggle_lights(number_of_lights)
-  lights = initialize_lights(number_of_lights)
-  1.upto(lights.size) do |iteration_number|
-    toggle_every_nth_light!(lights, iteration_number)
-  end
-
-  on_lights(lights)
-end
+# def toggle_lights(number_of_lights)
+#   lights = initialize_lights(number_of_lights)
+#   1.upto(lights.size) do |iteration_number|
+#     toggle_every_nth_light!(lights, iteration_number)
+#   end
+#   on_lights(lights)
+# end
 
 p toggle_lights(1000)
 
