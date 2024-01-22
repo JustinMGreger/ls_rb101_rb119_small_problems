@@ -137,12 +137,12 @@
 # Yes.
 # Every light that is on is a perfect square.
 # Why is that?
-# Factors come in pairs, and toggling occurs for each factor. 
-# A number is a perfect square if and only if it has an odd number of factors. 
+# Factors come in pairs, and toggling occurs for each factor.
+# A number is a perfect square if and only if it has an odd number of factors.
 
 # What are some alternatives for solving this exercise?
 # Calculate the square of each integer up to the square root of the total number of lights.
-# Object-Oriented Approach: create a `Light` class that has an `on` state and a `toggle` method. 
+# Object-Oriented Approach: create a `Light` class that has an `on` state and a `toggle` method.
 # Create an array or hash of `Light` objects and iterate over them, toggling them as per the rules.
 # Use map and reduce functions to might make the code more concise and expressive.
 # Parallelizing the toggling computation.
