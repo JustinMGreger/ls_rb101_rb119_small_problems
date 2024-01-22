@@ -152,14 +152,13 @@
 # def initialize_lights(number_of_lights)
 #   Array.new(number_of_lights, 'off')
 # end
-
-def toggle_every_nth_light!(lights, nth)
-  lights.each_with_index do |state, index|
-    if ((index + 1) % nth).zero?
-      lights[index] = state == 'off' ? 'on' : 'off'
-    end
-  end
-end
+# def toggle_every_nth_light!(lights, nth)
+#   lights.each_with_index do |state, index|
+#     if ((index + 1) % nth).zero?
+#       lights[index] = state == 'off' ? 'on' : 'off'
+#     end
+#   end
+# end
 
 def on_lights(lights)
   lights.map.with_index { |state, index| index + 1 if state == 'on' }.compact
