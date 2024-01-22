@@ -149,9 +149,9 @@
 # If the number of lights is fixed and known in advance, you could pre-calculate the results and store them.
 
 # What if we used an Array to represent our 1000 lights instead of a Hash, how would that change our code?
-def initialize_lights(number_of_lights)
-  Array.new(number_of_lights, 'off')
-end
+# def initialize_lights(number_of_lights)
+#   Array.new(number_of_lights, 'off')
+# end
 
 def toggle_every_nth_light!(lights, nth)
   lights.each_with_index do |state, index|
