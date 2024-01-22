@@ -159,10 +159,9 @@
 #     end
 #   end
 # end
-
-def on_lights(lights)
-  lights.map.with_index { |state, index| index + 1 if state == 'on' }.compact
-end
+# def on_lights(lights)
+#   lights.map.with_index { |state, index| index + 1 if state == 'on' }.compact
+# end
 
 def toggle_lights(number_of_lights)
   lights = initialize_lights(number_of_lights)
