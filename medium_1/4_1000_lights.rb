@@ -174,3 +174,31 @@
 # We could have a method that replicates the output from the description of this problem 
 # (i.e. "lights 2, 3, and 5 are now off; 1 and 4 are on.")
 # How would we go about writing that code?
+def initialize_lights(number_of_lights)
+  Array.new(number_of_lights, 'off')
+end
+
+def toggle_every_nth_light!(lights, nth)
+  lights.each_with_index do |state, index|
+    if ((index + 1) % nth).zero?
+      lights[index] = state == 'off' ? 'on' : 'off'
+    end
+  end
+end
+
+def format_lights_output(lights)
+  on_lights = lights.each_with_index.map { |state, index| index + 1 if state == 'on' }.compact
+  off_lights = lights.each_with_index.map { |state, index| index + 1 if state == 'off' }.compact
+
+  "lights #{off_lights.join(', ')} are now off; #{on_lights.join(', ')} are on"
+end
+
+def toggle_lights(number_of_lights)
+  lights = initialize_lights(number_of_lights)
+  1.upto(lights.size) do |iteration_number|
+    toggle_every_nth_light!(lights, iteration_number)
+    puts "After pass #{iteration_number}: #{format_lights_output(lights)}"
+  end
+end
+
+toggle_lights(5)
