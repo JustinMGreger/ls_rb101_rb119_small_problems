@@ -5,3 +5,5 @@
 # You may assume that the argument will always be an odd integer.
 
 # Examples:
+diamond(1)
+*
