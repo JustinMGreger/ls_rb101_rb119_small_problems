@@ -6,4 +6,11 @@
 
 # Examples:
 diamond(1)
+
 *
+
+diamond(3)
+
+ *
+***
+ *
