@@ -11,18 +11,16 @@
 #  *
 # ***
 #  *
-
-diamond(9)
-
-    *
-   ***
-  *****
- *******
-*********
- *******
-  *****
-   ***
-    *
+# diamond(9)
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+#  *******
+#   *****
+#    ***
+#     *
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
