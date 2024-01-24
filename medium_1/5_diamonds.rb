@@ -36,9 +36,9 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-diamond(1)
-diamond(3)
-diamond(9)
+# diamond(1)
+# diamond(3)
+# diamond(9)
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
