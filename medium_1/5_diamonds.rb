@@ -7,12 +7,10 @@
 # Examples:
 # diamond(1)
 # *
-
-diamond(3)
-
- *
-***
- *
+# diamond(3)
+#  *
+# ***
+#  *
 
 diamond(9)
 
