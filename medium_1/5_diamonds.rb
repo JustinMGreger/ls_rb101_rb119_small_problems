@@ -28,7 +28,9 @@
 # Identify expected input:
 # the n odd integer.
 
-output:
+# output:
+# a 4-pointed diamond in an n x n grid.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
