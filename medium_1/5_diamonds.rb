@@ -39,15 +39,8 @@
 # Mental model of the problem (optional):
 # n will always be an odd integer.
 # def diamond(n)
-displays a 4-pointed diamond in an n x n grid,
-where n is an odd integer that is supplied as an argument to the method.
-
-
-
-
-
-
-
+# displays a 4-pointed diamond in an n x n grid,
+# where n is an odd integer that is supplied as an argument to the method.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # diamond(1)
