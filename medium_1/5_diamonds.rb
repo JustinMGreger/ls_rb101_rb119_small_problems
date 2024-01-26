@@ -54,6 +54,8 @@
 # the diamond method accepts the (n) parameter and is defined as the following:
 # execute the following block of code to at each element starting from the range
 # from the integer 1 to the n parameter upto the integer 2:
+# print to the screen the result of centering the '*' string multiplied by the
+# i block parameter with n block parameter number of spaces.
 
 
 
