@@ -51,7 +51,7 @@
 # Array.
 
 # Algorithm, Steps for converting input to output:
-
+# the diamond method accepts the (n) parameter and is defined as the following:
 
 
 
