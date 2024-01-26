@@ -52,7 +52,8 @@
 
 # Algorithm, Steps for converting input to output:
 # the diamond method accepts the (n) parameter and is defined as the following:
-
+# execute the following block of code to at each element starting from the range
+# from the integer 1 to the n parameter upto the integer 2:
 
 
 
