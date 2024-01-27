@@ -63,6 +63,7 @@
 # print to the screen the result of centering the '*' string multiplied by the
 # i block parameter with n block parameter number of spaces.
 # this is the last line of the .step method.
+# this is the last line fo the diamond method.
 
 and Code. Implementation of Algorithm:
 
