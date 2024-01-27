@@ -62,6 +62,7 @@
 # and subtract the integer 2 at each step:
 # print to the screen the result of centering the '*' string multiplied by the
 # i block parameter with n block parameter number of spaces.
+# this is the last line of the .step method.
 
 and Code. Implementation of Algorithm:
 
