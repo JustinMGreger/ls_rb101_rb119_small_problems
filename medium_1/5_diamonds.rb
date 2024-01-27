@@ -66,14 +66,14 @@
 # this is the last line fo the diamond method.
 
 # and Code. Implementation of Algorithm:
-def diamond(odd)
-  (1..odd).step(2).each do |i|
-    puts ('*' * i).center(odd)
-  end
-  (odd - 2).step(1, -2).each do |i|
-    puts ('*' * i).center(odd)
-  end
-end
+# def diamond(odd)
+#   (1..odd).step(2).each do |i|
+#     puts ('*' * i).center(odd)
+#   end
+#   (odd - 2).step(1, -2).each do |i|
+#     puts ('*' * i).center(odd)
+#   end
+# end
 
 # LS Solution:
 
