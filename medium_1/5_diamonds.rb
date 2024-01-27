@@ -67,12 +67,9 @@
 
 # and Code. Implementation of Algorithm:
 def diamond(n)
-  # Upper part of diamond
   (1..n).step(2).each do |i|
     puts ('*' * i).center(n)
   end
-
-  # Lower part of diamond
   (n-2).step(1, -2).each do |i|
     puts ('*' * i).center(n)
   end
