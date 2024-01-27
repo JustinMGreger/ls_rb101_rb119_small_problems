@@ -65,7 +65,18 @@
 # this is the last line of the .step method.
 # this is the last line fo the diamond method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def diamond(n)
+  # Upper part of diamond
+  (1..n).step(2).each do |i|
+    puts ('*' * i).center(n)
+  end
+
+  # Lower part of diamond
+  (n-2).step(1, -2).each do |i|
+    puts ('*' * i).center(n)
+  end
+end
 
 # tests:
 diamond(1)
