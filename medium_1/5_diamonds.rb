@@ -70,7 +70,7 @@ def diamond(odd)
   (1..odd).step(2).each do |i|
     puts ('*' * i).center(odd)
   end
-  (odd-2).step(1, -2).each do |i|
+  (odd - 2).step(1, -2).each do |i|
     puts ('*' * i).center(odd)
   end
 end
