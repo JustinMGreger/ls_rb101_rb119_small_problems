@@ -66,12 +66,12 @@
 # this is the last line fo the diamond method.
 
 # and Code. Implementation of Algorithm:
-def diamond(n)
-  (1..n).step(2).each do |i|
-    puts ('*' * i).center(n)
+def diamond(odd)
+  (1..odd).step(2).each do |i|
+    puts ('*' * i).center(odd)
   end
-  (n-2).step(1, -2).each do |i|
-    puts ('*' * i).center(n)
+  (odd-2).step(1, -2).each do |i|
+    puts ('*' * i).center(odd)
   end
 end
 
