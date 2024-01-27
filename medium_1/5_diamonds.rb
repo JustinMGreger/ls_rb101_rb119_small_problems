@@ -75,6 +75,11 @@ def diamond(odd)
   end
 end
 
+# LS Solution:
+
+
+
+
 # tests:
 diamond(1)
 diamond(3)
