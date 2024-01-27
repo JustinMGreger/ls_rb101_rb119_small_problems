@@ -57,7 +57,9 @@
 # print to the screen the result of centering the '*' string multiplied by the
 # i block parameter with n block parameter number of spaces.
 # this is the last line of the .step method.
-
+# execute the following block of code to at each element starting from the range
+# from the result of subtract the n parameter by the integer 2 upto the integer 1
+# and subtract the integer 2 at each step:
 
 and Code. Implementation of Algorithm:
 
