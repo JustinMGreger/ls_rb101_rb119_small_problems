@@ -91,11 +91,30 @@
 
 # Try modifying your solution or our solution so it prints only the outline of the diamond:
 
+# frozen_string_literal: true
 
+def print_star_line(spaces_before, spaces_between = 0)
+  spaces_between = [0, spaces_between].max
+  line = "#{' ' * spaces_before}*"
+  line += "#{' ' * spaces_between}*" if spaces_between.positive?
+  puts line
+end
 
+def diamond(grid_size)
+  half_size = grid_size / 2
+  0.upto(half_size) do |i|
+    spaces_between = i * 2 - 1
+    print_star_line(half_size - i, spaces_between)
+  end
 
+  (half_size - 1).downto(0) do |i|
+    spaces_between = i * 2 - 1
+    print_star_line(half_size - i, spaces_between)
+  end
+end
 
 # tests:
 diamond(1)
 diamond(3)
+diamond(5)
 diamond(9)
