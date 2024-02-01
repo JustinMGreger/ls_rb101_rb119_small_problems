@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # A stack is a list of values that grows and shrinks dynamically.
-In ruby, a stack is easily implemented as an Array that just uses the #push and #pop methods.
+# In ruby, a stack is easily implemented as an Array that just uses the #push and #pop methods.
 
 A stack-and-register programming language is a language that uses a stack of values. Each operation in the language operates on a register, which can be thought of as the current value. The register is not part of the stack. Operations that require two values pop the topmost item from the stack (that is, the operation removes the most recently pushed value from the stack), perform the operation using the popped value and the register value, and then store the result back in the register.
 
