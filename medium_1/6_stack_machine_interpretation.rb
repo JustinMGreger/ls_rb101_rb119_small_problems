@@ -21,7 +21,8 @@
 # then the stack is transformed to 3,
 # and the register is left with the value 168.
 
-Write a method that implements a miniature stack-and-register-based programming language that has the following commands:
+# Write a method that implements a miniature stack-and-register-based programming language
+# that has the following commands:
 
 n Place a value n in the "register". Do not modify the stack.
 PUSH Push the register value on to the stack. Leave the value in the register.
