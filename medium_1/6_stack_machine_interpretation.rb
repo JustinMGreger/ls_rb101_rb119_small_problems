@@ -17,7 +17,9 @@
 # and a register value of 7,
 # then the MULT operation will transform things to 3 6 on the stack (the 4 is removed),
 # and the result of the multiplication, 28, is left in the register.
-If we do another MULT at this point, then the stack is transformed to 3, and the register is left with the value 168.
+# If we do another MULT at this point,
+# then the stack is transformed to 3,
+# and the register is left with the value 168.
 
 Write a method that implements a miniature stack-and-register-based programming language that has the following commands:
 
