@@ -32,7 +32,7 @@
 # DIV Pops a value from the stack and divides it into the register value, storing the integer result in the register.
 # MOD Pops a value from the stack and divides it into the register value,
 # storing the integer remainder of the division in the register.
-POP Remove the topmost item from the stack and place in register
+# POP Remove the topmost item from the stack and place in register
 PRINT Print the register value
 All operations are integer operations (which is only important with DIV and MOD).
 
