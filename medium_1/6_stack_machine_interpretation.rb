@@ -38,7 +38,8 @@
 
 # Programs will be supplied to your language method via a string passed in as an argument.
 # Your program may assume that all programs are correct programs;
-that is, they won't do anything like try to pop a non-existent value from the stack, and they won't contain unknown tokens.
+# that is, they won't do anything like try to pop a non-existent value from the stack,
+and they won't contain unknown tokens.
 
 You should initialize the register to 0.
 
