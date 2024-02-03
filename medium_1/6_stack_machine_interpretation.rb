@@ -82,7 +82,10 @@ minilang('6 PUSH')
 # Identify expected input:
 # a string.
 
-output:
+# output:
+# any integer values resulting from arithmetic operations on the stack and register that are
+# printed to the console when the 'PRINT' command is executed.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
