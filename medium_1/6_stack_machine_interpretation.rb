@@ -48,8 +48,7 @@
 # 0
 # minilang('5 PUSH 3 MULT PRINT')
 # 15
-
-minilang('5 PRINT PUSH 3 PRINT ADD PRINT')
+# minilang('5 PRINT PUSH 3 PRINT ADD PRINT')
 # 5
 # 3
 # 8
