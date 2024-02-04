@@ -78,7 +78,39 @@
 # any integer values resulting from arithmetic operations on the stack and register that are
 # printed to the console when the 'PRINT' command is executed.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that implements a miniature stack-and-register-based programming language
+# that has the following commands:
+
+n Place a value n in the "register". Do not modify the stack.
+PUSH Push the register value on to the stack. Leave the value in the register.
+ADD Pops a value from the stack and adds it to the register value, storing the result in the register.
+SUB Pops a value from the stack and subtracts it from the register value, storing the result in the register.
+MULT Pops a value from the stack and multiplies it by the register value, storing the result in the register.
+DIV Pops a value from the stack and divides it into the register value, storing the integer result in the register.
+MOD Pops a value from the stack and divides it into the register value,
+storing the integer remainder of the division in the register.
+POP Remove the topmost item from the stack and place in register
+PRINT Print the register value
+All operations are integer operations (which is only important with DIV and MOD).
+
+Programs will be supplied to your language method via a string passed in as an argument.
+Your program may assume that all programs are correct programs;
+that is, they won't do anything like try to pop a non-existent value from the stack,
+and they won't contain unknown tokens.
+
+You should initialize the register to 0.
+
+
+
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
