@@ -59,8 +59,7 @@
 # 10
 # 4
 # 7
-
-minilang('3 PUSH PUSH 7 DIV MULT PRINT ')
+# minilang('3 PUSH PUSH 7 DIV MULT PRINT ')
 # 6
 
 minilang('4 PUSH PUSH 7 MOD MULT PRINT ')
