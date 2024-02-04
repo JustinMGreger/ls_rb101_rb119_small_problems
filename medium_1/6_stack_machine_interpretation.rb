@@ -44,7 +44,7 @@
 # You should initialize the register to 0.
 
 # Examples:
-minilang('PRINT')
+# minilang('PRINT')
 # 0
 
 minilang('5 PUSH 3 MULT PRINT')
