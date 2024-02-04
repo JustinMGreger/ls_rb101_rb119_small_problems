@@ -101,8 +101,7 @@ Mental model of the problem (optional):
 # 6
 # minilang('4 PUSH PUSH 7 MOD MULT PRINT ')
 # 12
-
-minilang('-3 PUSH 5 SUB PRINT')
+# minilang('-3 PUSH 5 SUB PRINT')
 # 8
 
 minilang('6 PUSH')
