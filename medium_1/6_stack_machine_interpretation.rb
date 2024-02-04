@@ -82,7 +82,7 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-minilang('PRINT')
+# minilang('PRINT')
 # 0
 
 minilang('5 PUSH 3 MULT PRINT')
