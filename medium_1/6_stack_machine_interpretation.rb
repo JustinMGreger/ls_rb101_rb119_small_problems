@@ -52,8 +52,7 @@
 # 5
 # 3
 # 8
-
-minilang('5 PUSH POP PRINT')
+# minilang('5 PUSH POP PRINT')
 # 5
 
 minilang('3 PUSH 4 PUSH 5 PUSH PRINT ADD PRINT POP PRINT ADD PRINT')
