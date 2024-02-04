@@ -65,8 +65,7 @@
 # 12
 # minilang('-3 PUSH 5 SUB PRINT')
 # 8
-
-minilang('6 PUSH')
+# minilang('6 PUSH')
 # (nothing printed; no PRINT commands)
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
