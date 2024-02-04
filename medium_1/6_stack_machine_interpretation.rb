@@ -82,7 +82,7 @@
 # Write a method that implements a miniature stack-and-register-based programming language
 # that has the following commands:
 
-n Place a value n in the "register". Do not modify the stack.
+# n Place a value n in the "register". Do not modify the stack.
 PUSH Push the register value on to the stack. Leave the value in the register.
 ADD Pops a value from the stack and adds it to the register value, storing the result in the register.
 SUB Pops a value from the stack and subtracts it from the register value, storing the result in the register.
