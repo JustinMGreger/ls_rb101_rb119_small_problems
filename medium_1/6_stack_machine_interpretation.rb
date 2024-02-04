@@ -103,8 +103,7 @@ Mental model of the problem (optional):
 # 12
 # minilang('-3 PUSH 5 SUB PRINT')
 # 8
-
-minilang('6 PUSH')
+# minilang('6 PUSH')
 # (nothing printed; no PRINT commands)
 
 Data Structure, How we represent data that we will work with when converting the input to output:
