@@ -87,7 +87,7 @@
 # ADD Pops a value from the stack and adds it to the register value, storing the result in the register.
 # SUB Pops a value from the stack and subtracts it from the register value, storing the result in the register.
 # MULT Pops a value from the stack and multiplies it by the register value, storing the result in the register.
-DIV Pops a value from the stack and divides it into the register value, storing the integer result in the register.
+# DIV Pops a value from the stack and divides it into the register value, storing the integer result in the register.
 MOD Pops a value from the stack and divides it into the register value,
 storing the integer remainder of the division in the register.
 POP Remove the topmost item from the stack and place in register
