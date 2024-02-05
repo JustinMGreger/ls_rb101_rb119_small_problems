@@ -92,7 +92,7 @@
 # storing the integer remainder of the division in the register.
 # POP Remove the topmost item from the stack and place in register
 # PRINT Print the register value
-All operations are integer operations (which is only important with DIV and MOD).
+# All operations are integer operations (which is only important with DIV and MOD).
 
 Programs will be supplied to your language method via a string passed in as an argument.
 Your program may assume that all programs are correct programs;
