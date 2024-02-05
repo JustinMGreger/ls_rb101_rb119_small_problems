@@ -98,17 +98,7 @@
 # that is, they won't do anything like try to pop a non-existent value from the stack,
 # and they won't contain unknown tokens.
 
-You should initialize the register to 0.
-
-
-
-
-
-
-
-
-
-
+# You should initialize the register to 0.
 
 Mental model of the problem (optional):
 
