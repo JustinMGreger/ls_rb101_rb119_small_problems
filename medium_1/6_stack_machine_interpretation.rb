@@ -94,7 +94,7 @@
 # PRINT Print the register value
 # All operations are integer operations (which is only important with DIV and MOD).
 # Programs will be supplied to your language method via a string passed in as an argument.
-Your program may assume that all programs are correct programs;
+# Your program may assume that all programs are correct programs;
 that is, they won't do anything like try to pop a non-existent value from the stack,
 and they won't contain unknown tokens.
 
