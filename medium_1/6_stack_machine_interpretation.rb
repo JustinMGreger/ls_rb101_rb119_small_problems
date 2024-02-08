@@ -152,7 +152,28 @@
 # (nothing printed; no PRINT commands)
 
 Data Structure, How we represent data that we will work with when converting the input to output:
-Algorithm, Steps for converting input to output:
+
+# Algorithm, Steps for converting input to output:
+# the initialize_commands method is defined as the following:
+# the hash contains: the 'PUSH' string key which is assigned the value that is the
+# result of passing the :cmd_push symbol to the method method
+# which is followed by the 'ADD' string key which is assigned the value that is the
+# result of passing the :cmd_add symbol to the method method
+# which is followed by the 'SUB' string key which is assigned the value that is
+# the result of passing the :cmd_sub symbol to the method method
+# which is followed by the 'MULT' string ke which is assigned the value that is
+# the result of passing the :cmd_mult symbol to the method method
+# which is followed by the 'DIV' string key which is assigned the value that is the
+# result of passing the :cmd_div symbol to the method method
+# which is followed by the 'MOD' string key which is assigned the value that is the
+# result of passing the :cmd_mod symbol to the method method
+# which is followed by the 'POP' string key which is assigned the value that is the
+# result of passing the :cmd_pop symbol to the method method
+# which is followed by the 'PRINT' string key which is assigned the value that
+# is the result of passing the :cmd_print symbol to the method method and this is the
+# end of the hash.
+# this is the last line of the initialize_commands method.
+
 and Code. Implementation of Algorithm:
 
 # tests:
