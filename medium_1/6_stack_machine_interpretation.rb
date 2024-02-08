@@ -170,7 +170,7 @@
 # this is the last line of the initialize_commands method.
 # the cmd_push method accepts the (stack, register) parameters and is defined as the following:
 # add the register parameter to the end of the stack parameter
-
+# return the value assigned to the register parameter.
 
 
 and Code. Implementation of Algorithm:
