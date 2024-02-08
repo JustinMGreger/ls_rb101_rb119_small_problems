@@ -174,6 +174,11 @@
 # this is the last line of the cmd_push method.
 # the cmd_add method accepts the (stack, register) parameters and is defined as the following:
 # return the result of concatenating the register parameter with the result of removing and
+# returning the last element of the stack parameter.
+
+
+
+
 
 and Code. Implementation of Algorithm:
 
