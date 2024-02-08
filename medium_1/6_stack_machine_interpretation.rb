@@ -151,7 +151,8 @@
 # minilang('6 PUSH')
 # (nothing printed; no PRINT commands)
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# hash.
 
 # Algorithm, Steps for converting input to output:
 # the initialize_commands method is defined as the following:
