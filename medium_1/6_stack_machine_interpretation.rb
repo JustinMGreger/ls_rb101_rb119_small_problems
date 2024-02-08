@@ -100,7 +100,24 @@
 
 # You should initialize the register to 0.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# the initialize_commands method is defined as the following:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # minilang('PRINT')
