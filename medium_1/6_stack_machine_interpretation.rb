@@ -104,7 +104,8 @@
 # the initialize_commands method is defined as the following:
 # the hash contains: the 'PUSH' string key which is assigned the value that is the
 # result of passing the :cmd_push symbol to the method method
-
+# which is followed by the 'ADD' string key which is assigned the value that is the
+# result of passing the :cmd_add symbol to the method method
 
 
 
