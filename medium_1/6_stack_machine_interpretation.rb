@@ -106,8 +106,8 @@
 # result of passing the :cmd_push symbol to the method method
 # which is followed by the 'ADD' string key which is assigned the value that is the
 # result of passing the :cmd_add symbol to the method method
-
-
+# which is followed by the 'SUB' string key which is assigned the value that is
+# the result of passing the :cmd_sub symbol to the method method
 
 
 
