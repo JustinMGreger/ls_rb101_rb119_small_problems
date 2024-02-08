@@ -116,7 +116,9 @@
 # result of passing the :cmd_mod symbol to the method method
 # which is followed by the 'POP' string key which is assigned the value that is the
 # result of passing the :cmd_pop symbol to the method method
-
+# which is followed by the 'PRINT' string key which is assigned the value that
+# is the result of passing the :cmd_print symbol to the method method and this is the
+# end of the hash.
 
 
 
