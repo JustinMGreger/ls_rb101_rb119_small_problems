@@ -178,7 +178,7 @@
 # this is the last line of the cmd_add method.
 # the cmd_sub method accepts the (stack, register) parameters and is defined as the following:
 # return the result of subtracting the register parameter by the result of removing and
-
+# returning the last element of the stack parameter.
 
 and Code. Implementation of Algorithm:
 
