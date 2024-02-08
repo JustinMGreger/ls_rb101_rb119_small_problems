@@ -169,7 +169,7 @@
 # end of the hash.
 # this is the last line of the initialize_commands method.
 # the cmd_push method accepts the (stack, register) parameters and is defined as the following:
-
+# add the register parameter to the end of the stack parameter
 
 
 
