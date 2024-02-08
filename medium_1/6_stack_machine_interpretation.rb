@@ -188,9 +188,7 @@
 # return the result of dividing the register parameter by the result of removing and
 # returning the last element of the stack parameter.
 # this is the last line of the cmd_div method.
-
-
-
+# the cmd_mod method accepts the (stack, register) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
