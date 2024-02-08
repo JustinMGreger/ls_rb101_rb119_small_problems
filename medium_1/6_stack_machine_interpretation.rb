@@ -120,10 +120,6 @@
 # and they won't contain unknown tokens.
 # You should initialize the register to 0.
 
-
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
 # minilang('PRINT')
 # 0
@@ -172,6 +168,10 @@
 # is the result of passing the :cmd_print symbol to the method method and this is the
 # end of the hash.
 # this is the last line of the initialize_commands method.
+# the cmd_push method accepts the (stack, register) parameters and is defined as the following:
+
+
+
 
 and Code. Implementation of Algorithm:
 
