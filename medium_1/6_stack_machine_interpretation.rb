@@ -183,7 +183,7 @@
 # the cmd_mult method accepts the (stack, register) parameter and is defined as the following:
 # return the result of multiplying the register parameter by the result of removing and
 # returning the last element of the stack parameter.
-
+# this is the last line fo the cmd_mult method.
 
 
 
