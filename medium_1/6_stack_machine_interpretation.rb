@@ -208,7 +208,7 @@
 # and pass the stack and register parameters to this.
 # this is the last line of the if statement.
 # return the value assigned to the register parameter.
-
+# this is the last line of the process_command method.
 
 and Code. Implementation of Algorithm:
 
