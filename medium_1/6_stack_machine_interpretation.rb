@@ -200,7 +200,7 @@
 # return the value assigned to the register parameter.
 # this is the last line of the cmd_print line.
 # the process_command method accepts the (command, stack, register) parameters and is defined as the following:
-
+# the commands varible is assigned the result of calling the initialize_commands method.
 
 
 and Code. Implementation of Algorithm:
