@@ -239,10 +239,9 @@
 # def cmd_add(stack, register)
 #   register + stack.pop
 # end
-
-def cmd_sub(stack, register)
-  register - stack.pop
-end
+# def cmd_sub(stack, register)
+#   register - stack.pop
+# end
 
 def cmd_mult(stack, register)
   register * stack.pop
