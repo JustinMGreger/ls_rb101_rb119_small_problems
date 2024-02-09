@@ -201,6 +201,8 @@
 # this is the last line of the cmd_print line.
 # the process_command method accepts the (command, stack, register) parameters and is defined as the following:
 # the commands varible is assigned the result of calling the initialize_commands method.
+# if the command parameter matches the /\A-?\d+\z/ reg ex then the register parameter is assigned to
+# the command parameter converted to integer form.
 
 
 and Code. Implementation of Algorithm:
