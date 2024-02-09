@@ -232,11 +232,10 @@
 #     'PRINT' => method(:cmd_print)
 #   }
 # end
-
-def cmd_push(stack, register)
-  stack.push(register)
-  register
-end
+# def cmd_push(stack, register)
+#   stack.push(register)
+#   register
+# end
 
 def cmd_add(stack, register)
   register + stack.pop
