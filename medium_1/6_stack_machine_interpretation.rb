@@ -216,6 +216,7 @@
 # code for each element:
 # the register parameter is assigned to the result of passing command block parameter, the varible
 # and the register parameter to the process_command method.
+# this is the last line of the .each method.
 
 
 
