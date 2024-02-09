@@ -267,14 +267,13 @@
 #   end
 #   register
 # end
-
-def minilang(program)
-  stack = []
-  register = 0
-  program.split.each do |command|
-    register = process_command(command, stack, register)
-  end
-end
+# def minilang(program)
+#   stack = []
+#   register = 0
+#   program.split.each do |command|
+#     register = process_command(command, stack, register)
+#   end
+# end
 
 # tests:
 minilang('PRINT')
