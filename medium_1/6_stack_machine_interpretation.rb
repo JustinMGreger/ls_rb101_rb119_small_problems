@@ -214,7 +214,8 @@
 # the register parameter is assigned the 0 integer.
 # divide the program parameter into an array of substrings then execute the following
 # code for each element:
-
+# the register parameter is assigned to the result of passing command block parameter, the varible
+# and the register parameter to the process_command method.
 
 
 
