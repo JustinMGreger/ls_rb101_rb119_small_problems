@@ -209,6 +209,9 @@
 # this is the last line of the if statement.
 # return the value assigned to the register parameter.
 # this is the last line of the process_command method.
+# the minilang method accepts the (program) parameter and is defined as the following:
+
+
 
 and Code. Implementation of Algorithm:
 
