@@ -220,18 +220,18 @@
 # this is the last line of the minilang method.
 
 # and Code. Implementation of Algorithm:
-def initialize_commands
-  {
-    'PUSH' => method(:cmd_push),
-    'ADD' => method(:cmd_add),
-    'SUB' => method(:cmd_sub),
-    'MULT' => method(:cmd_mult),
-    'DIV' => method(:cmd_div),
-    'MOD' => method(:cmd_mod),
-    'POP' => method(:cmd_pop),
-    'PRINT' => method(:cmd_print)
-  }
-end
+# def initialize_commands
+#   {
+#     'PUSH' => method(:cmd_push),
+#     'ADD' => method(:cmd_add),
+#     'SUB' => method(:cmd_sub),
+#     'MULT' => method(:cmd_mult),
+#     'DIV' => method(:cmd_div),
+#     'MOD' => method(:cmd_mod),
+#     'POP' => method(:cmd_pop),
+#     'PRINT' => method(:cmd_print)
+#   }
+# end
 
 def cmd_push(stack, register)
   stack.push(register)
