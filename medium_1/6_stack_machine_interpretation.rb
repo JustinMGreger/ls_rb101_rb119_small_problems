@@ -206,6 +206,8 @@
 # elsif the commands varible contains the command parameter key then the register parameter is assigned
 # the result of accessing the value from the commands hash using the command parameter as the key
 # and pass the stack and register parameters to this.
+# this is the last line of the if statement.
+
 
 
 and Code. Implementation of Algorithm:
