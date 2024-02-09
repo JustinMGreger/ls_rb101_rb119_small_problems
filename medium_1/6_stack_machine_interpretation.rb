@@ -219,7 +219,71 @@
 # this is the last line of the .each method.
 # this is the last line of the minilang method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def initialize_commands
+  {
+    'PUSH' => method(:cmd_push),
+    'ADD' => method(:cmd_add),
+    'SUB' => method(:cmd_sub),
+    'MULT' => method(:cmd_mult),
+    'DIV' => method(:cmd_div),
+    'MOD' => method(:cmd_mod),
+    'POP' => method(:cmd_pop),
+    'PRINT' => method(:cmd_print)
+  }
+end
+
+def cmd_push(stack, register)
+  stack.push(register)
+  register
+end
+
+def cmd_add(stack, register)
+  register + stack.pop
+end
+
+def cmd_sub(stack, register)
+  register - stack.pop
+end
+
+def cmd_mult(stack, register)
+  register * stack.pop
+end
+
+def cmd_div(stack, register)
+  register / stack.pop
+end
+
+def cmd_mod(stack, register)
+  register % stack.pop
+end
+
+def cmd_pop(stack, _register)
+  stack.pop
+end
+
+def cmd_print(_stack, register)
+  puts register
+  register
+end
+
+def process_command(command, stack, register)
+  commands = initialize_commands
+  if command.match?(/\A-?\d+\z/)
+    register = command.to_i
+  elsif commands.key?(command)
+    register = commands[command].call(stack, register)
+  end
+  register
+end
+
+def minilang(program)
+  stack = []
+  register = 0
+  program.split.each do |command|
+    register = process_command(command, stack, register)
+  end
+end
 
 # tests:
 minilang('PRINT')
