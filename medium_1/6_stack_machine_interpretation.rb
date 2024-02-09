@@ -203,6 +203,9 @@
 # the commands varible is assigned the result of calling the initialize_commands method.
 # if the command parameter matches the /\A-?\d+\z/ reg ex then the register parameter is assigned to
 # the command parameter converted to integer form.
+# elsif the commands varible contains the command parameter key then the register parameter is assigned
+# the result of accessing the value from the commands hash using the command parameter as the key
+# and pass the stack and register parameters to this.
 
 
 and Code. Implementation of Algorithm:
