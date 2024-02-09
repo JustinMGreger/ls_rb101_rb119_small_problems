@@ -258,16 +258,15 @@
 #   puts register
 #   register
 # end
-
-def process_command(command, stack, register)
-  commands = initialize_commands
-  if command.match?(/\A-?\d+\z/)
-    register = command.to_i
-  elsif commands.key?(command)
-    register = commands[command].call(stack, register)
-  end
-  register
-end
+# def process_command(command, stack, register)
+#   commands = initialize_commands
+#   if command.match?(/\A-?\d+\z/)
+#     register = command.to_i
+#   elsif commands.key?(command)
+#     register = commands[command].call(stack, register)
+#   end
+#   register
+# end
 
 def minilang(program)
   stack = []
