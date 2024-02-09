@@ -251,10 +251,9 @@
 # def cmd_mod(stack, register)
 #   register % stack.pop
 # end
-
-def cmd_pop(stack, _register)
-  stack.pop
-end
+# def cmd_pop(stack, _register)
+#   stack.pop
+# end
 
 def cmd_print(_stack, register)
   puts register
