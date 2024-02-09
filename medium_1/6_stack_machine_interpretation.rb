@@ -210,7 +210,7 @@
 # return the value assigned to the register parameter.
 # this is the last line of the process_command method.
 # the minilang method accepts the (program) parameter and is defined as the following:
-
+# the stack varible is assigned the [] Array.
 
 
 and Code. Implementation of Algorithm:
