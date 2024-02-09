@@ -207,7 +207,7 @@
 # the result of accessing the value from the commands hash using the command parameter as the key
 # and pass the stack and register parameters to this.
 # this is the last line of the if statement.
-
+# return the value assigned to the register parameter.
 
 
 and Code. Implementation of Algorithm:
