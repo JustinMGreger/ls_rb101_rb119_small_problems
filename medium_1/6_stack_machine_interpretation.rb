@@ -195,7 +195,7 @@
 # the cmd_pop method accepts the (stack, _register) parameters and is defined as the following:
 # return the result of removing and returning the last element of the stack parameter.
 # this is the last line of the cmd_pop method.
-
+# the cmd_print method accepts the (_stack, register) parameters and is defined as the following:
 
 
 and Code. Implementation of Algorithm:
