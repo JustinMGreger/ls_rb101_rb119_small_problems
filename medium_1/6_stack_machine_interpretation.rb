@@ -212,6 +212,10 @@
 # the minilang method accepts the (program) parameter and is defined as the following:
 # the stack varible is assigned the [] Array.
 # the register parameter is assigned the 0 integer.
+# divide the program parameter into an array of substrings then execute the following
+# code for each element:
+
+
 
 
 and Code. Implementation of Algorithm:
