@@ -254,11 +254,10 @@
 # def cmd_pop(stack, _register)
 #   stack.pop
 # end
-
-def cmd_print(_stack, register)
-  puts register
-  register
-end
+# def cmd_print(_stack, register)
+#   puts register
+#   register
+# end
 
 def process_command(command, stack, register)
   commands = initialize_commands
