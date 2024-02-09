@@ -245,10 +245,9 @@
 # def cmd_mult(stack, register)
 #   register * stack.pop
 # end
-
-def cmd_div(stack, register)
-  register / stack.pop
-end
+# def cmd_div(stack, register)
+#   register / stack.pop
+# end
 
 def cmd_mod(stack, register)
   register % stack.pop
