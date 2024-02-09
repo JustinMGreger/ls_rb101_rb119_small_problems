@@ -211,6 +211,7 @@
 # this is the last line of the process_command method.
 # the minilang method accepts the (program) parameter and is defined as the following:
 # the stack varible is assigned the [] Array.
+# the register parameter is assigned the 0 integer.
 
 
 and Code. Implementation of Algorithm:
