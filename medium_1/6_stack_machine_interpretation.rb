@@ -318,3 +318,7 @@ minilang('-3 PUSH 5 SUB PRINT')
 # 8
 minilang('6 PUSH')
 # (nothing printed; no PRINT commands)
+
+# Further Exploration
+
+Try writing a minilang program to evaluate and print the result of this expression:
