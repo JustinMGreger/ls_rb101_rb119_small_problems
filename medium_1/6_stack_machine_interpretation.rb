@@ -322,7 +322,7 @@
 
 # Try writing a minilang program to evaluate and print the result of this expression:
 # (3 + (4 * 5) - 7) / (5 % 3)
-The answer should be 8.
+# The answer should be 8.
 This is trickier than it sounds!
 Note that we aren't asking you to modify the #minilang method;
 we want you to write a Minilang program that can be passed to #minilang and evaluated.
