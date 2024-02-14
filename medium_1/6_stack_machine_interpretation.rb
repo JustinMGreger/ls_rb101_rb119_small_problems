@@ -325,4 +325,4 @@
 # The answer should be 8.
 # This is trickier than it sounds!
 # Note that we aren't asking you to modify the #minilang method;
-we want you to write a Minilang program that can be passed to #minilang and evaluated.
+# we want you to write a Minilang program that can be passed to #minilang and evaluated.
