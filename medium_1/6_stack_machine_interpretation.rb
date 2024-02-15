@@ -339,6 +339,7 @@
 # Make the requirements explicit Identify rules:
 # Try writing a minilang program to evaluate and print the result of this expression:
 # (3 + (4 * 5) - 7) / (5 % 3)
+# The answer should be 8.
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
