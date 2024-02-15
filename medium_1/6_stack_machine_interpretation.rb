@@ -333,7 +333,9 @@
 # Identify expected input:
 # the '3 4 5 * + 7 - 5 3 % /' string.
 
-output:
+# output:
+# the number result of the operation.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
