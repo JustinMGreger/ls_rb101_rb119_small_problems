@@ -336,7 +336,9 @@
 # output:
 # the number result of the operation.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Try writing a minilang program to evaluate and print the result of this expression:
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
