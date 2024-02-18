@@ -366,6 +366,7 @@
 # the initialize method is defined as the following:
 # the @stack instance varible is defined as the [] array.
 # this is the last line of the initialize method.
+# the run method accepts the (commands) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
