@@ -385,6 +385,9 @@
 # append the number parameter to the end of the @stack instance varible.
 # this is the last line of the push method.
 # the add method is defined as the following:
+# append the result of removing the last two elements from @stack instance varible
+# and returns them as a new array then add all elements of the array into
+# a single value to the end of the @stack instance varible.
 
 and Code. Implementation of Algorithm:
 
