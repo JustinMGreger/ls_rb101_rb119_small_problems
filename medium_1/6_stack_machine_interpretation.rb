@@ -390,6 +390,9 @@
 # a single value to the end of the @stack instance varible.
 # this is the last line of the add method.
 # the sub method is defined as the following:
+# append the result of removing the last two elements from the @stack instance
+# varible and returns them as a new array then substract all elements of the array
+# into a single value to the end of the @stack instance varible.
 
 and Code. Implementation of Algorithm:
 
