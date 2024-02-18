@@ -381,6 +381,7 @@
 # print to the console the last element of the @stack insance varible array
 # this is the last line of the run method.
 # the following are hidden from external access:
+# the push method accepts the (number) parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
