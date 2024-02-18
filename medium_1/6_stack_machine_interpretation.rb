@@ -389,6 +389,7 @@
 # and returns them as a new array then add all elements of the array into
 # a single value to the end of the @stack instance varible.
 # this is the last line of the add method.
+# the sub method is defined as the following:
 
 and Code. Implementation of Algorithm:
 
