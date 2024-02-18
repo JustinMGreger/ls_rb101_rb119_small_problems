@@ -365,6 +365,7 @@
 # the class MiniLang is defined as the following:
 # the initialize method is defined as the following:
 # the @stack instance varible is defined as the [] array.
+# this is the last line of the initialize method.
 
 and Code. Implementation of Algorithm:
 
