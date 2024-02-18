@@ -380,6 +380,7 @@
 # this is the last line of the .each method.
 # print to the console the last element of the @stack insance varible array
 # this is the last line of the run method.
+# the following are hidden from external access:
 
 and Code. Implementation of Algorithm:
 
