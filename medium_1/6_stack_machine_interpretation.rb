@@ -341,7 +341,13 @@
 # (3 + (4 * 5) - 7) / (5 % 3)
 # The answer should be 8.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# Try writing a minilang program to evaluate and print the result of this expression:
+# (3 + (4 * 5) - 7) / (5 % 3)
+# The answer should be 8.
+# minilang 
+# stack = []
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
