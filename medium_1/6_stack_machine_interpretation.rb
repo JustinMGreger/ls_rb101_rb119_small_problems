@@ -382,6 +382,7 @@
 # this is the last line of the run method.
 # the following are hidden from external access:
 # the push method accepts the (number) parameter and is defined as the following:
+# append the number parameter to the end of the @stack instance varible.
 
 and Code. Implementation of Algorithm:
 
