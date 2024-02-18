@@ -376,6 +376,7 @@
 # else raise the "Invalid command: #{command}" string error message which contains:
 # the Invalid command: string followed by the #{command} string interpolation
 # which contains the command block parameter.
+# this is the last line of the if statement.
 
 and Code. Implementation of Algorithm:
 
