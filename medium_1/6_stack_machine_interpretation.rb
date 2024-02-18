@@ -347,6 +347,11 @@
 # The answer should be 8.
 # minilang 
 # stack = []
+# MULT
+# ADD
+# SUB
+# MOD
+# DIV
 
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
