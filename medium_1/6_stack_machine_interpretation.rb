@@ -370,6 +370,7 @@
 # execute the following block of code to each of the elements in the commands parameter:
 # if the command block parameter is a Integer then pass the command block parameter to the
 # push method.
+# elsif the %w[ADD SUB MULT DIV MOD] array includes the (command) block parameter
 
 and Code. Implementation of Algorithm:
 
