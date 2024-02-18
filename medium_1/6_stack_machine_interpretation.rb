@@ -368,6 +368,8 @@
 # this is the last line of the initialize method.
 # the run method accepts the (commands) parameters and is defined as the following:
 # execute the following block of code to each of the elements in the commands parameter:
+# if the command block parameter is a Integer then pass the command block parameter to the
+# push method.
 
 and Code. Implementation of Algorithm:
 
