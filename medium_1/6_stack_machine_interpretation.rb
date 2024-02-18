@@ -377,6 +377,7 @@
 # the Invalid command: string followed by the #{command} string interpolation
 # which contains the command block parameter.
 # this is the last line of the if statement.
+# this is the last line of the .each method.
 
 and Code. Implementation of Algorithm:
 
