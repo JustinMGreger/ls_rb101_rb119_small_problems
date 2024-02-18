@@ -378,6 +378,7 @@
 # which contains the command block parameter.
 # this is the last line of the if statement.
 # this is the last line of the .each method.
+# print to the console the last element of the @stack insance varible array
 
 and Code. Implementation of Algorithm:
 
