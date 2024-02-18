@@ -360,4 +360,8 @@
 # Array.
 
 Algorithm, Steps for converting input to output:
+
 and Code. Implementation of Algorithm:
+
+# Test:
+minilang('(3 + (4 * 5) - 7) / (5 % 3)')
