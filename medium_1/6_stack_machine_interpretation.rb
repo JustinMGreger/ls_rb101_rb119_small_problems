@@ -379,6 +379,7 @@
 # this is the last line of the if statement.
 # this is the last line of the .each method.
 # print to the console the last element of the @stack insance varible array
+# this is the last line of the run method.
 
 and Code. Implementation of Algorithm:
 
