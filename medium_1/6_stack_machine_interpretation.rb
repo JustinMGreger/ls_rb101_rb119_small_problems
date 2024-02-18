@@ -362,6 +362,7 @@
 # Algorithm, Steps for converting input to output:
 # all string literals in the file are automatically frozen.
 # Implement a simple stack-based mini language for arithmetic operations.
+# the class MiniLang is defined as the following:
 
 and Code. Implementation of Algorithm:
 
