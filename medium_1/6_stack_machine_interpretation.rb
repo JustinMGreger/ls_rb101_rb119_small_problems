@@ -373,6 +373,7 @@
 # elsif the %w[ADD SUB MULT DIV MOD] array includes the (command) block parameter
 # then pass the downcase version of the command block parameter to the send mentod
 # which executes the command block parameter method.
+# else raise the "Invalid command: #{command}" string error message which contains:
 
 and Code. Implementation of Algorithm:
 
