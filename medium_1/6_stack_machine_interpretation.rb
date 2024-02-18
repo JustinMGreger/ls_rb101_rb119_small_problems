@@ -364,6 +364,7 @@
 # Implement a simple stack-based mini language for arithmetic operations.
 # the class MiniLang is defined as the following:
 # the initialize method is defined as the following:
+# the @stack instance varible is defined as the [] array.
 
 and Code. Implementation of Algorithm:
 
