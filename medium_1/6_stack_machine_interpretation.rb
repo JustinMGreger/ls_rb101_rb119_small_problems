@@ -374,6 +374,8 @@
 # then pass the downcase version of the command block parameter to the send mentod
 # which executes the command block parameter method.
 # else raise the "Invalid command: #{command}" string error message which contains:
+# the Invalid command: string followed by the #{command} string interpolation
+# which contains the command block parameter.
 
 and Code. Implementation of Algorithm:
 
