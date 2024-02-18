@@ -353,7 +353,9 @@
 # MOD
 # DIV
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
+# minilang('(3 + (4 * 5) - 7) / (5 % 3)')
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
