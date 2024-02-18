@@ -384,6 +384,7 @@
 # the push method accepts the (number) parameter and is defined as the following:
 # append the number parameter to the end of the @stack instance varible.
 # this is the last line of the push method.
+# the add method is defined as the following:
 
 and Code. Implementation of Algorithm:
 
