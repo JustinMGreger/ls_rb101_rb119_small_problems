@@ -422,6 +422,7 @@
 # 7, followed by the 'SUB', string followed by the integer 5, followed by the integer 3,
 # followed by the 'MOD', string followed by the 'DIV' string which closes the array.
 # pass the commands varible to the .run method which is called on the result of creating a new MiniLang class
+# this is the last line of the minilang method.
 
 and Code. Implementation of Algorithm:
 
