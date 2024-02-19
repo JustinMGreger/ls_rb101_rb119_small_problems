@@ -424,7 +424,69 @@
 # pass the commands varible to the .run method which is called on the result of creating a new MiniLang class
 # this is the last line of the minilang method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+
+# Implements a simple stack-based mini language for arithmetic operations.
+class MiniLang
+  def initialize
+    @stack = []
+  end
+
+  def run(commands)
+    commands.each do |command|
+      if command.is_a?(Integer)
+        push(command)
+      elsif %w[ADD SUB MULT DIV MOD].include?(command)
+        send(command.downcase)
+      else
+        raise "Invalid command: #{command}"
+      end
+    end
+    self.print
+  end
+
+  private
+
+  def push(number)
+    @stack << number
+  end
+
+  def add
+    @stack << (@stack.pop(2).reduce(:+))
+  end
+
+  def sub
+    @stack << (@stack.pop(2).reduce(:-))
+  end
+
+  def mult
+    @stack << (@stack.pop(2).reduce(:*))
+  end
+
+  def div
+    @stack << (@stack.pop(2).reduce(:/))
+  end
+
+  def mod
+    @stack << (@stack.pop(2).reduce(:%))
+  end
+
+  def print
+    puts @stack.last unless @stack.empty?
+  end
+end
+
+def minilang(_expression)
+  commands = [
+    4, 5, 'MULT',
+    3, 'ADD',
+    7, 'SUB',
+    5, 3, 'MOD',
+    'DIV'
+  ]
+
+  MiniLang.new.run(commands)
+end
 
 # Test:
 minilang('(3 + (4 * 5) - 7) / (5 % 3)')
