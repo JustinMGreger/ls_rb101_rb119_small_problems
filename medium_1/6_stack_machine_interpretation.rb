@@ -404,6 +404,7 @@
 # varible and returns them as a new array then divide all elements of the array
 # into a single value to the end of the @stack instance varible.
 # this is the last line of the div method.
+# the mod method is defined as the following:
 
 and Code. Implementation of Algorithm:
 
