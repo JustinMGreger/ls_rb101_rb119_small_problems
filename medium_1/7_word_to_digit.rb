@@ -39,3 +39,6 @@ p word_to_digit('Please call me at five five five one two three four. Thanks.') 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# test:
+p word_to_digit('Please call me at five five five one two three four. Thanks.') == 'Please call me at 5 5 5 1 2 3 4. Thanks.'
