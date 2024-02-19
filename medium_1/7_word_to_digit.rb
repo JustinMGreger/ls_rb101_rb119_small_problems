@@ -10,4 +10,5 @@ word_to_digit('Please call me at five five five one two three four. Thanks.') ==
 # Hint 2: String#gsub! requires a "pattern" argument, which is typically expressed as a regular expression (regex).
 # Regular expressions (regex) are very useful for string operations, but we don't cover them in any detail until RB130.
 # If you haven't already read our book, Introduction to Regular Expressions, you may do so now,
-but it isn't necessary - this hint provides the only regular expression you need for this problem: if you have a variable named foo that contains some sort of word and want to match that word in a longer string, you can use the regex /\b#{foo}\b/.
+# but it isn't necessary - this hint provides the only regular expression you need for this problem:
+if you have a variable named foo that contains some sort of word and want to match that word in a longer string, you can use the regex /\b#{foo}\b/.
