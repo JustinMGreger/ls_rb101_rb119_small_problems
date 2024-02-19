@@ -410,6 +410,7 @@
 # dividing all elements of the array into a single value to the end of the
 # @stack instance varible.
 # this is the last line of the mod method.
+# the print method is defined as the following:
 
 and Code. Implementation of Algorithm:
 
