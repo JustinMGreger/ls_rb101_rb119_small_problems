@@ -414,6 +414,7 @@
 # if the @stack instance varible is not empty print to the screen the last
 # element in the @stack instance varible
 # this is the last line of the print method.
+# this is the last line of the class MiniLang.
 
 and Code. Implementation of Algorithm:
 
