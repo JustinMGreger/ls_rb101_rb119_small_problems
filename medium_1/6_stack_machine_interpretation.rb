@@ -416,6 +416,7 @@
 # this is the last line of the print method.
 # this is the last line of the class MiniLang.
 # the minilang method accepts the (_expression) parameter and is defined as the following:
+# the commands varible is assigned the array which contains the:
 
 and Code. Implementation of Algorithm:
 
