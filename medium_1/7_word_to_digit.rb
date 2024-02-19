@@ -20,7 +20,9 @@ word_to_digit('Please call me at five five five one two three four. Thanks.') ==
 # Identify expected input:
 # a sentence string.
 
-output:
+# output:
+# a string of digits.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
