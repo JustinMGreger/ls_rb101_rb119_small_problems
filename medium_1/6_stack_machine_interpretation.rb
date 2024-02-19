@@ -411,6 +411,9 @@
 # @stack instance varible.
 # this is the last line of the mod method.
 # the print method is defined as the following:
+# if the @stack instance varible is not empty print to the screen the last
+# element in the @stack instance varible
+# this is the last line of the print method.
 
 and Code. Implementation of Algorithm:
 
