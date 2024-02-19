@@ -29,7 +29,7 @@ word_to_digit('Please call me at five five five one two three four. Thanks.') ==
 # 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine' converted to a string of digits.
 
 # Mental model of the problem (optional):
-# Write a method that takes a sentence string as input,
+# def word_to_digit(sentence_string)
 # and returns the same string with any sequence of the words
 # 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine' converted to a string of digits.
 
