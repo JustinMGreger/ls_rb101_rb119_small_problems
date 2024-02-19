@@ -345,7 +345,7 @@
 # Try writing a minilang program to evaluate and print the result of this expression:
 # (3 + (4 * 5) - 7) / (5 % 3)
 # The answer should be 8.
-# minilang 
+# minilang
 # stack = []
 # MULT
 # ADD
