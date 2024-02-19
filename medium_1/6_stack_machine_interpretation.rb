@@ -415,6 +415,7 @@
 # element in the @stack instance varible
 # this is the last line of the print method.
 # this is the last line of the class MiniLang.
+# the minilang method accepts the (_expression) parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
