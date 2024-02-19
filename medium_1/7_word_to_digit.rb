@@ -23,7 +23,11 @@ word_to_digit('Please call me at five five five one two three four. Thanks.') ==
 # output:
 # a string of digits.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+# Write a method that takes a sentence string as input,
+# and returns the same string with any sequence of the words
+# 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine' converted to a string of digits.
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
