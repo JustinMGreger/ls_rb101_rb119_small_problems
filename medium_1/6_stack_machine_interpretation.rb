@@ -417,6 +417,10 @@
 # this is the last line of the class MiniLang.
 # the minilang method accepts the (_expression) parameter and is defined as the following:
 # the commands varible is assigned the array which contains the:
+# integer 4, followed by the integer 5, followed by the 'MULT',
+# string followed by the integer 3, followed by the 'ADD', string followed by the integer
+# 7, followed by the 'SUB', string followed by the integer 5, followed by the integer 3,
+# followed by the 'MOD', string followed by the 'DIV' string which closes the array.
 
 and Code. Implementation of Algorithm:
 
