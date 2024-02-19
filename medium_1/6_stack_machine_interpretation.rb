@@ -409,6 +409,7 @@
 # varible and returns them as a new array then return the remainder of
 # dividing all elements of the array into a single value to the end of the
 # @stack instance varible.
+# this is the last line of the mod method.
 
 and Code. Implementation of Algorithm:
 
