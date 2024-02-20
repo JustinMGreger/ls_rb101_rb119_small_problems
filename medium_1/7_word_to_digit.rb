@@ -50,6 +50,7 @@
 # followed by the 'three' string key is assigned the '3' string value,
 # followed by the 'four' string key is assigned the '4' string value,
 # followed by the 'five' string key is assigned the  '5' string value,
+# followed by the 'six' string key is assigned the '6' string value,
 
 and Code. Implementation of Algorithm:
 
