@@ -39,7 +39,9 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # Hash.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# freeze all string literals present in the file this makes it immutable, meaning it cannot be modified
+# in any way once it is initialized. 
 
 
 and Code. Implementation of Algorithm:
