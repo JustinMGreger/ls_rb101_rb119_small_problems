@@ -56,6 +56,7 @@
 # followed by the 'nine' string key is assigned the '9' string value
 # which closes the hash.
 # the modified_sentence variable is assigned the sentence parameter.
+# pass the following block of code to each element in the number_words_to_digits variable
 
 and Code. Implementation of Algorithm:
 
