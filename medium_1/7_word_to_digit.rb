@@ -55,6 +55,7 @@
 # followed by the 'eight' string key is assigned the '8' string value,
 # followed by the 'nine' string key is assigned the '9' string value
 # which closes the hash.
+# the modified_sentence variable is assigned the sentence parameter.
 
 and Code. Implementation of Algorithm:
 
