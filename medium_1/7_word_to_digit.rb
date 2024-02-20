@@ -53,6 +53,8 @@
 # followed by the 'six' string key is assigned the '6' string value,
 # followed by the 'seven' string key is assigned the '7' string value,
 # followed by the 'eight' string key is assigned the '8' string value,
+# followed by the 'nine' string key is assigned the '9' string value
+# which closes the hash.
 
 and Code. Implementation of Algorithm:
 
