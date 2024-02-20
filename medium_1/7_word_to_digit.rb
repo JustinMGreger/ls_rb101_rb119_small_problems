@@ -52,6 +52,7 @@
 # followed by the 'five' string key is assigned the  '5' string value,
 # followed by the 'six' string key is assigned the '6' string value,
 # followed by the 'seven' string key is assigned the '7' string value,
+# followed by the 'eight' string key is assigned the '8' string value,
 
 and Code. Implementation of Algorithm:
 
