@@ -57,6 +57,10 @@
 # which closes the hash.
 # the modified_sentence variable is assigned the sentence parameter.
 # pass the following block of code to each element in the number_words_to_digits variable
+# the modified_sentence variable is assigned the result of globally substituting the
+# modified_sentence variable by the (/\b#{word}\b/, digit) which contains the
+# #{word} string interpolation which contains the word block parameter which is the string
+# key that is assigned the digit block parameter which is the string value.
 
 and Code. Implementation of Algorithm:
 
