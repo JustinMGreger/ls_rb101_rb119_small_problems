@@ -42,7 +42,7 @@
 # Algorithm, Steps for converting input to output:
 # freeze all string literals present in the file this makes it immutable, meaning it cannot be modified
 # in any way once it is initialized. 
-
+# the word_to_digit method accepts the (sentence) parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
