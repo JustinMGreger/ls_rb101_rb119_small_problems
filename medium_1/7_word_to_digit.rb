@@ -47,6 +47,7 @@
 # the 'zero' string key assigned the '0' string value ,
 # followed by the 'one' string key assigned the '1' string value,
 # followed by the 'two' string key is assigned the '2' string value,
+# followed by the 'three' string key is assigned the '3' string value,
 
 and Code. Implementation of Algorithm:
 
