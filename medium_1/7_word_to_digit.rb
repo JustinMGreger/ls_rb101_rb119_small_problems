@@ -63,6 +63,7 @@
 # key that is assigned the digit block parameter which is the string value.
 # this is the last line of the .each method.
 # return the value assigned to the modified_sentence variable.
+# this is the last line of the word_to_digit method.
 
 and Code. Implementation of Algorithm:
 
