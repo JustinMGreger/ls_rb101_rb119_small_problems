@@ -61,6 +61,7 @@
 # modified_sentence variable by the (/\b#{word}\b/, digit) which contains the
 # #{word} string interpolation which contains the word block parameter which is the string
 # key that is assigned the digit block parameter which is the string value.
+# this is the last line of the .each method.
 
 and Code. Implementation of Algorithm:
 
