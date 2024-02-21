@@ -65,7 +65,28 @@
 # return the value assigned to the modified_sentence variable.
 # this is the last line of the word_to_digit method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def word_to_digit(sentence)
+  number_words_to_digits = {
+    'zero' => '0',
+    'one' => '1',
+    'two' => '2',
+    'three' => '3',
+    'four' => '4',
+    'five' => '5',
+    'six' => '6',
+    'seven' => '7',
+    'eight' => '8',
+    'nine' => '9'
+  }
+
+  modified_sentence = sentence
+  number_words_to_digits.each do |word, digit|
+    modified_sentence = modified_sentence.gsub(/\b#{word}\b/, digit)
+  end
+
+  modified_sentence
+end
 
 # test:
 p word_to_digit('Please call me at five five five one two three four. Thanks.') == 'Please call me at 5 5 5 1 2 3 4. Thanks.'
