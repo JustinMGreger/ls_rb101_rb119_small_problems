@@ -62,6 +62,7 @@
 # #{word} string interpolation which contains the word block parameter which is the string
 # key that is assigned the digit block parameter which is the string value.
 # this is the last line of the .each method.
+# return the value assigned to the modified_sentence variable.
 
 and Code. Implementation of Algorithm:
 
