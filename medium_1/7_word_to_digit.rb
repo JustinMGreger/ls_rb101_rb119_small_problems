@@ -106,5 +106,5 @@ p word_to_digit('Please call me at five five five one two three four. Thanks.') 
 
 # Further Exploration
 
-There are many ways to solve this problem and different varieties of it.
+# There are many ways to solve this problem and different varieties of it.
 Suppose, for instance, that we also want to replace uppercase and capitalized words.
