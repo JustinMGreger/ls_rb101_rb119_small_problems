@@ -103,3 +103,8 @@ end
 
 # test:
 p word_to_digit('Please call me at five five five one two three four. Thanks.') == 'Please call me at 5 5 5 1 2 3 4. Thanks.'
+
+# Further Exploration
+
+There are many ways to solve this problem and different varieties of it.
+Suppose, for instance, that we also want to replace uppercase and capitalized words.
