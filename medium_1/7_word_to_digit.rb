@@ -41,7 +41,7 @@
 
 # Algorithm, Steps for converting input to output:
 # freeze all string literals present in the file this makes it immutable, meaning it cannot be modified
-# in any way once it is initialized. 
+# in any way once it is initialized.
 # the word_to_digit method accepts the (sentence) parameter and is defined as the following:
 # the number_words_to_digits variable is assigned to the hash which contains:
 # the 'zero' string key assigned the '0' string value ,
