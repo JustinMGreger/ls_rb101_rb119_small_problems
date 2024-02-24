@@ -125,13 +125,13 @@
 #   modified_sentence
 # end
 
-def match_case(match, digit)
-  case match
-  when match.upcase then digit.upcase
-  when match.capitalize then digit
-  else digit.downcase
-  end
-end
+# def match_case(match, digit)
+#   case match
+#   when match.upcase then digit.upcase
+#   when match.capitalize then digit
+#   else digit.downcase
+#   end
+# end
 
 # Test cases
 puts word_to_digit('Please call me at five five five one two three four. Thanks.') ==
