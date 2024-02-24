@@ -5,7 +5,8 @@
 # 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine' converted to a string of digits.
 
 # Example:
-# word_to_digit('Please call me at five five five one two three four. Thanks.') == 'Please call me at 5 5 5 1 2 3 4. Thanks.'
+# word_to_digit('Please call me at five five five one two three four. Thanks.') ==
+# 'Please call me at 5 5 5 1 2 3 4. Thanks.'
 # Hint 1: The String#gsub! method may prove useful in this problem.
 # Hint 2: String#gsub! requires a "pattern" argument, which is typically expressed as a regular expression (regex).
 # Regular expressions (regex) are very useful for string operations, but we don't cover them in any detail until RB130.
