@@ -117,13 +117,13 @@
 #   'five' => '5', 'six' => '6', 'seven' => '7', 'eight' => '8', 'nine' => '9'
 # }.freeze
 
-def word_to_digit(sentence)
-  modified_sentence = sentence.dup # Create a modifiable copy of the sentence
-  DIGIT_HASH.each do |word, digit|
-    modified_sentence.gsub!(/\b#{word}\b/i) { |match| match_case(match, digit) }
-  end
-  modified_sentence
-end
+# def word_to_digit(sentence)
+#   modified_sentence = sentence.dup # Create a modifiable copy of the sentence
+#   DIGIT_HASH.each do |word, digit|
+#     modified_sentence.gsub!(/\b#{word}\b/i) { |match| match_case(match, digit) }
+#   end
+#   modified_sentence
+# end
 
 def match_case(match, digit)
   case match
