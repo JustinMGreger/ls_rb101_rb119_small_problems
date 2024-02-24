@@ -107,4 +107,33 @@
 # Further Exploration
 
 # There are many ways to solve this problem and different varieties of it.
-Suppose, for instance, that we also want to replace uppercase and capitalized words.
+
+# Suppose, for instance, that we also want to replace uppercase and capitalized words.
+DIGIT_HASH = {
+  'zero' => '0', 'one' => '1', 'two' => '2', 'three' => '3', 'four' => '4',
+  'five' => '5', 'six' => '6', 'seven' => '7', 'eight' => '8', 'nine' => '9'
+}.freeze
+
+def word_to_digit(sentence)
+  modified_sentence = sentence.dup # Create a modifiable copy of the sentence
+  DIGIT_HASH.each do |word, digit|
+    modified_sentence.gsub!(/\b#{word}\b/i) { |match| match_case(match, digit) }
+  end
+  modified_sentence
+end
+
+def match_case(match, digit)
+  case match
+  when match.upcase then digit.upcase
+  when match.capitalize then digit
+  else digit.downcase
+  end
+end
+
+# Test cases
+puts word_to_digit('Please call me at five five five one two three four. Thanks.') ==
+     'Please call me at 5 5 5 1 2 3 4. Thanks.'
+puts word_to_digit('Please call me at FIVE FIVE FIVE ONE TWO THREE FOUR. Thanks.') ==
+     'Please call me at 5 5 5 1 2 3 4. Thanks.'
+puts word_to_digit('Please call me at Five Five Five One Two Three Four. Thanks.') ==
+     'Please call me at 5 5 5 1 2 3 4. Thanks.'
