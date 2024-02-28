@@ -206,4 +206,5 @@ puts word_to_digit('Please dial nine one one for emergency. Call five five five 
      'Please dial 911 for emergency. Call 5551234 for non-emergencies. Dial 9 1 1 for direct emergencies.'
 
 # Further Exploration
-What about dealing with phone numbers? Is there any easy way to format the result to account for phone numbers? For our purposes, assume that any 10 digit number is a phone number, and that the proper format should be "(123) 456-7890".
+# What about dealing with phone numbers?
+Is there any easy way to format the result to account for phone numbers? For our purposes, assume that any 10 digit number is a phone number, and that the proper format should be "(123) 456-7890".
