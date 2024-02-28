@@ -197,10 +197,7 @@ def word_to_digit(sentence)
 end
 
 # tests:
-puts word_to_digit('Please call me at five five five one two three four. Thanks.') == "Please call me at 5551234. Thanks."
-puts word_to_digit('My number is four one five two three. Please call.')
-# Expected: "My number is 41523. Please call."
-puts word_to_digit('Call me on 123 456 or at seven eight nine.')
-# Expected: "Call me on 123 456 or at 789."
-puts word_to_digit('Please dial nine one one for emergency. Call five five five one two three four for non-emergencies. Dial 9 1 1 for direct emergencies.')
-# Expected: "Please dial 911 for emergency. Call 5551234 for non-emergencies. Dial 9 1 1 for direct emergencies."
+puts word_to_digit('Please call me at five five five one two three four. Thanks.') == 'Please call me at 5551234. Thanks.'
+puts word_to_digit('My number is four one five two three. Please call.') == 'My number is 41523. Please call.'
+puts word_to_digit('Call me on 123 456 or at seven eight nine.') == 'Call me on 123 456 or at 789.'
+puts word_to_digit('Please dial nine one one for emergency. Call five five five one two three four for non-emergencies. Dial 9 1 1 for direct emergencies.') == 'Please dial 911 for emergency. Call 5551234 for non-emergencies. Dial 9 1 1 for direct emergencies.'
