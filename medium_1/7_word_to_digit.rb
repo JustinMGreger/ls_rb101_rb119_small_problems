@@ -174,6 +174,7 @@ puts word_to_digit('Please call me at FIVE FIVE FIVE ONE TWO THREE FOUR. Thanks.
 puts word_to_digit('Please call me at Five Five Five One Two Three Four. Thanks.') ==
      'Please call me at 5551234. Thanks.'
 
+# Further Exploration
 # Suppose the string already contains two or more space separated numbers (not words);
 # can you leave those spaces alone, while removing any spaces between numbers that you
 # create?
