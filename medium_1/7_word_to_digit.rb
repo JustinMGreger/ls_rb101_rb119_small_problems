@@ -183,18 +183,18 @@
 #   'five' => '5', 'six' => '6', 'seven' => '7', 'eight' => '8', 'nine' => '9'
 # }.freeze
 
-def word_to_digit(sentence)
-  modified_sentence = sentence.dup
+# def word_to_digit(sentence)
+#   modified_sentence = sentence.dup
 
-  DIGIT_HASH.each do |word, digit|
-    modified_sentence.gsub!(/\b#{word}\b/i) { "|#{digit}|" }
-  end
+#   DIGIT_HASH.each do |word, digit|
+#     modified_sentence.gsub!(/\b#{word}\b/i) { "|#{digit}|" }
+#   end
 
-  modified_sentence.gsub!(/\|\s+\|/, '||')
-  modified_sentence.gsub!(/\|(\d)\|/, '\1')
+#   modified_sentence.gsub!(/\|\s+\|/, '||')
+#   modified_sentence.gsub!(/\|(\d)\|/, '\1')
 
-  modified_sentence
-end
+#   modified_sentence
+# end
 
 # tests:
 puts word_to_digit('Please call me at five five five one two three four. Thanks.') == \
