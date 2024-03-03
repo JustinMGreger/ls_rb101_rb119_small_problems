@@ -41,7 +41,16 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+fibonacci(1) == 1
+fibonacci(2) == 1
+fibonacci(3) == 2
+fibonacci(4) == 3
+fibonacci(5) == 5
+fibonacci(12) == 144
+fibonacci(20) == 6765
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
