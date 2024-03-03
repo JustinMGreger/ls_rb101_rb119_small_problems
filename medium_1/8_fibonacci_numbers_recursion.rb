@@ -40,7 +40,9 @@
 # Identify expected input:
 # nth integer.
 
-output:
+# output:
+# the nth Fibonacci number.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
