@@ -6,3 +6,6 @@
 # the 4th is 1 + 2 = 3,
 # the 5th is 2 + 3 = 5, and so on.
 # In mathematical terms:
+# F(1) = 1
+# F(2) = 1
+# F(n) = F(n - 1) + F(n - 2) where n > 2
