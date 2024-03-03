@@ -43,13 +43,13 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
-p fibonacci(1) == 1
-p fibonacci(2) == 1
-p fibonacci(3) == 2
-p fibonacci(4) == 3
-p fibonacci(5) == 5
-p fibonacci(12) == 144
-p fibonacci(20) == 6765
+# p fibonacci(1) == 1
+# p fibonacci(2) == 1
+# p fibonacci(3) == 2
+# p fibonacci(4) == 3
+# p fibonacci(5) == 5
+# p fibonacci(12) == 144
+# p fibonacci(20) == 6765
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
