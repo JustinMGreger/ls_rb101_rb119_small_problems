@@ -12,3 +12,7 @@
 # Sequences like this translate naturally as "recursive" methods.
 # A recursive method is one in which the method calls itself.
 # For example:
+# def sum(n)
+#   return 1 if n == 1
+#   n + sum(n - 1)
+# end
