@@ -16,3 +16,4 @@
 #   return 1 if n == 1
 #   n + sum(n - 1)
 # end
+# sum is a recursive method that computes the sum of all integers between 1 and n.
