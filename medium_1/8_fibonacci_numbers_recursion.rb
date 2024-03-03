@@ -54,3 +54,12 @@ p fibonacci(20) == 6765
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# tests:
+p fibonacci(1) == 1
+p fibonacci(2) == 1
+p fibonacci(3) == 2
+p fibonacci(4) == 3
+p fibonacci(5) == 5
+p fibonacci(12) == 144
+p fibonacci(20) == 6765
