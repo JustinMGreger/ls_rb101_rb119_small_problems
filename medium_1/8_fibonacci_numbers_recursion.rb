@@ -23,3 +23,5 @@
 # They use the result returned by themselves.
 # In the code above, sum calls itself once; it uses a condition of n == 1 to stop recursing;
 # and, n + sum(n - 1) uses the return value of the recursive call to compute a new return value.
+
+# Write a recursive method that computes the nth Fibonacci number, where nth is an argument to the method.
