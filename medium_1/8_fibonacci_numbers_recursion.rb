@@ -19,5 +19,5 @@
 # sum is a recursive method that computes the sum of all integers between 1 and n.
 # Recursive methods have three primary qualities:
 # They call themselves at least once.
-They have a condition that stops the recursion (n == 1 above).
+# They have a condition that stops the recursion (n == 1 above).
 They use the result returned by themselves.
