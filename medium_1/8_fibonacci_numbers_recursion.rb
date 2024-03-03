@@ -26,13 +26,13 @@
 
 # Write a recursive method that computes the nth Fibonacci number, where nth is an argument to the method.
 # Examples:
-fibonacci(1) == 1
-fibonacci(2) == 1
-fibonacci(3) == 2
-fibonacci(4) == 3
-fibonacci(5) == 5
-fibonacci(12) == 144
-fibonacci(20) == 6765
+# fibonacci(1) == 1
+# fibonacci(2) == 1
+# fibonacci(3) == 2
+# fibonacci(4) == 3
+# fibonacci(5) == 5
+# fibonacci(12) == 144
+# fibonacci(20) == 6765
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
