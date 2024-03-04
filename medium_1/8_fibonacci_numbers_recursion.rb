@@ -86,6 +86,8 @@
 #   fibonacci(number - 1) + fibonacci(number - 2)
 # end
 
+# LS Solution:
+
 # tests:
 p fibonacci(1) == 1
 p fibonacci(2) == 1
