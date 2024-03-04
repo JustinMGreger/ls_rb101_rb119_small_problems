@@ -50,7 +50,8 @@
 # They have a condition that stops the recursion (n == 1 above).
 # They use the result returned by themselves.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# def fibonacci(number)
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p fibonacci(1) == 1
