@@ -45,15 +45,10 @@
 
 # Make the requirements explicit Identify rules:
 # Write a recursive method that computes the nth Fibonacci number, where nth is an argument to the method.
-
-
-
-
-
-
-
-
-
+# Recursive methods have three primary qualities:
+# They call themselves at least once.
+# They have a condition that stops the recursion (n == 1 above).
+# They use the result returned by themselves.
 
 Mental model of the problem (optional):
 
