@@ -67,7 +67,9 @@
 # p fibonacci(12) == 144
 # p fibonacci(20) == 6765
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# none.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
