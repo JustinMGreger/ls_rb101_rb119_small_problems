@@ -52,6 +52,11 @@
 
 # Mental model of the problem (optional):
 # def fibonacci(number)
+# computes the (number)th Fibonacci number, where (number)th is the parameter.
+# Recursive methods have three primary qualities:
+# They call themselves at least once.
+# They have a condition that stops the recursion (n == 1 above).
+# They use the result returned by themselves.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p fibonacci(1) == 1
