@@ -80,11 +80,11 @@
 # this is the last line of the fibonacci method.
 
 # and Code. Implementation of Algorithm:
-def fibonacci(number)
-  return number if number <= 1
+# def fibonacci(number)
+#   return number if number <= 1
 
-  fibonacci(number - 1) + fibonacci(number - 2)
-end
+#   fibonacci(number - 1) + fibonacci(number - 2)
+# end
 
 # tests:
 p fibonacci(1) == 1
