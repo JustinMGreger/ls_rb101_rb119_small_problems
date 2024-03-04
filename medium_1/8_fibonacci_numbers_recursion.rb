@@ -70,7 +70,15 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # none.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+# the fibonacci method accepts the (number) parameter and is defined as the following:
+# if the number parameter is less than or equal to the integer 1 return the number
+# parameter.
+# return the sum of adding the result of passing the result of subtracting the number
+# parameter by the integer 1 to the fibonacci method with the result of passing the
+# result of subtracting the number parameter by the integer 2 to the fibonacci method.
+# this is the last line of the fibonacci method.
+
 and Code. Implementation of Algorithm:
 
 # tests:
