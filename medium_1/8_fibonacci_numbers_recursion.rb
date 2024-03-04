@@ -71,7 +71,7 @@
 # none.
 
 # Algorithm, Steps for converting input to output:
-# the fibonacci method accepts the (number) parameter and is defined as the following:
+# the fibonacci method accepts the number parameter and is defined as the following:
 # if the number parameter is less than or equal to the integer 1 return the number
 # parameter.
 # return the sum of adding the result of passing the result of subtracting the number
