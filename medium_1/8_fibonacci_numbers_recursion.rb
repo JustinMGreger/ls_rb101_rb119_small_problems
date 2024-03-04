@@ -79,7 +79,12 @@
 # result of subtracting the number parameter by the integer 2 to the fibonacci method.
 # this is the last line of the fibonacci method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
+def fibonacci(number)
+  return number if number <= 1
+
+  fibonacci(number - 1) + fibonacci(number - 2)
+end
 
 # tests:
 p fibonacci(1) == 1
