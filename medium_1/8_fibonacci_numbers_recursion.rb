@@ -123,4 +123,5 @@ p fibonacci(20) == 6765
 # Before you move on, take some time to think about our solution (not the tail recursive solution).
 # Can you identify any faults with it? 
 # Not bugs, but problems that impact its usability.
-How might you try to repair the issues you identify? Don't do any coding right now.
+# How might you try to repair the issues you identify?
+Don't do any coding right now.
