@@ -124,4 +124,4 @@ p fibonacci(20) == 6765
 # Can you identify any faults with it? 
 # Not bugs, but problems that impact its usability.
 # How might you try to repair the issues you identify?
-Don't do any coding right now.
+# Don't do any coding right now.
