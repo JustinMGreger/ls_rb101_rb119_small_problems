@@ -108,13 +108,13 @@ def fibonacci(nth)
 end
 
 # tests:
-# p fibonacci(1) == 1
-# p fibonacci(2) == 1
-# p fibonacci(3) == 2
-# p fibonacci(4) == 3
-# p fibonacci(5) == 5
-# p fibonacci(12) == 144
-# p fibonacci(20) == 6765
+p fibonacci(1) == 1
+p fibonacci(2) == 1
+p fibonacci(3) == 2
+p fibonacci(4) == 3
+p fibonacci(5) == 5
+p fibonacci(12) == 144
+p fibonacci(20) == 6765
 
 # Further Exploration
 
@@ -125,3 +125,4 @@ end
 # Not bugs, but problems that impact its usability.
 # How might you try to repair the issues you identify?
 # Don't do any coding right now.
+# response:
