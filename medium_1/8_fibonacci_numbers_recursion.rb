@@ -133,3 +133,6 @@ p fibonacci(20) == 6765
 # store the results of each calculation the first time they are computed in a hash or array.
 # this enables the stored result to be returned immediately when it is called.
 # this would eliminate the need for calculating the same fibonacci values multiple times.
+# solution iterate:
+# another way to solve this is to iterate through the numbers from 0 up to nth,
+# storing only the last two calculated values at any time.
