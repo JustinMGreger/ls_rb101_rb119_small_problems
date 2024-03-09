@@ -129,3 +129,7 @@ p fibonacci(20) == 6765
 # fault efficiency:
 # this performs calculations more than once which increases as the nth parameter increases
 # which is highly inefficient for larger values of 'nth'.
+# solution memoization:
+# store the results of each calculation the first time they are computed in a hash or array.
+# this enables the stored result to be returned immediately when it is called.
+# this would eliminate the need for calculating the same fibonacci values multiple times.
