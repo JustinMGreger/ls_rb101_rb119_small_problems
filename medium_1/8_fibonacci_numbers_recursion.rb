@@ -149,3 +149,7 @@ p fibonacci(20) == 6765
 # store the results of each calculation the first time they are computed in a hash or array
 # this enables the stored result to be returned immediately when it is called.
 # this would eliminate the need for calculating the same fibonacci values.
+# fault handling of the sequence start:
+# the method starts the fibonacci sequence with two 1s,
+# the traditional fibonacci sequence starts with 0 and 1.
+# this could be an issue if specific applications expect the sequence to start with 0.
