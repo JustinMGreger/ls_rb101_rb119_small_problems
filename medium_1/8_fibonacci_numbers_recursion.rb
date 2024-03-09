@@ -153,3 +153,6 @@ p fibonacci(20) == 6765
 # the method starts the fibonacci sequence with two 1s,
 # the traditional fibonacci sequence starts with 0 and 1.
 # this could be an issue if specific applications expect the sequence to start with 0.
+# solution:
+# adjust the base case to return 0 for nth == 1 and 1 for nth == 2,
+# and modify the recursive call accordingly.
