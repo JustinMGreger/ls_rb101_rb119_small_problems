@@ -136,3 +136,9 @@ p fibonacci(20) == 6765
 # solution iterate:
 # another way to solve this is to iterate through the numbers from 0 up to nth,
 # storing only the last two calculated values at any time.
+# fault stack overflow risk:
+# each recursive call consumes a certain amount of stack space.
+# this method makes two recursive calls for each non-base case.
+# as the nth number grows so does the number of recursive calls
+# this can quickly exhaust the available stack space resulting
+# in a stack overflow error.
