@@ -126,3 +126,6 @@ p fibonacci(20) == 6765
 # How might you try to repair the issues you identify?
 # Don't do any coding right now.
 # response:
+# fault efficiency:
+# this performs calculations more than once which increases as the nth parameter increases
+# which is highly inefficient for larger values of 'nth'.
