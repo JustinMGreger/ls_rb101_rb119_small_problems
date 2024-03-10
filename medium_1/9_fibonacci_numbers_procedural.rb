@@ -20,7 +20,9 @@
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
 
-Identify expected input:
+# Identify expected input:
+# number.
+
 output:
 Make the requirements explicit Identify rules:
 # Rewrite your recursive fibonacci method so that it computes its results without recursion.
