@@ -24,7 +24,12 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+p fibonacci(20) == 6765
+p fibonacci(100) == 354224848179261915075
+p fibonacci(100_001) # => 4202692702.....8285979669707537501
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
