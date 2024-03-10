@@ -8,7 +8,7 @@
 # With higher values of nth, the recursive solution is impractical.
 # (Our tail recursive solution did much better, but even that failed at around fibonacci(8200).)
 
-Fortunately, every recursive method can be rewritten as a non-recursive (procedural) method.
+# Fortunately, every recursive method can be rewritten as a non-recursive (procedural) method.
 
 Rewrite your recursive fibonacci method so that it computes its results without recursion.
 
