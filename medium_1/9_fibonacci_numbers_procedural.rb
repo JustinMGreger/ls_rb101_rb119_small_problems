@@ -10,6 +10,6 @@
 
 # Fortunately, every recursive method can be rewritten as a non-recursive (procedural) method.
 
-Rewrite your recursive fibonacci method so that it computes its results without recursion.
+# Rewrite your recursive fibonacci method so that it computes its results without recursion.
 
 Examples:
