@@ -23,6 +23,12 @@
 Identify expected input:
 output:
 Make the requirements explicit Identify rules:
+# def fibonacci(number)
+#   return number if number <= 1
+
+#   fibonacci(number - 1) + fibonacci(number - 2)
+# end
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
