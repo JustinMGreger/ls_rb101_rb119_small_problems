@@ -26,7 +26,7 @@
 # output:
 # the nth Fibonacci number.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
 # Rewrite your recursive fibonacci method so that it computes its results without recursion.
 # def fibonacci(number)
 #   return number if number <= 1
