@@ -37,7 +37,7 @@
 # Mental model of the problem (optional):
 # def fibonacci(number)
 #  return number if number <= 1
-  Rewrite your recursive fibonacci method so that it computes its results without recursion.
+#  Rewrite your recursive fibonacci method so that it computes its results without recursion.
   fibonacci(number - 1) + fibonacci(number - 2)
 end
 
