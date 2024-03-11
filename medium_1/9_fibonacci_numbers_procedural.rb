@@ -38,8 +38,8 @@
 # def fibonacci(number)
 #  return number if number <= 1
 #  Rewrite your recursive fibonacci method so that it computes its results without recursion.
-  fibonacci(number - 1) + fibonacci(number - 2)
-end
+#   fibonacci(number - 1) + fibonacci(number - 2)
+# end
 
 
 # Examples / Test Cases, Validate understanding of the problem:
