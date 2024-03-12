@@ -67,18 +67,18 @@
 # this is the last line of the fibonacci method.
 
 # and Code. Implementation of Algorithm:
-def fibonacci(number)
-  return number if number <= 1
+# def fibonacci(number)
+#   return number if number <= 1
 
-  prev = 0
-  current = 1
-  (number - 1).times do
-    temp = current
-    current = prev + current
-    prev = temp
-  end
-  current
-end
+#   prev = 0
+#   current = 1
+#   (number - 1).times do
+#     temp = current
+#     current = prev + current
+#     prev = temp
+#   end
+#   current
+# end
 
 # tests:
 p fibonacci(20) == 6765
