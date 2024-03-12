@@ -55,6 +55,7 @@
 # if the number parameter is less than or equal to the integer 1 return the value
 # assigned to the number parameter.
 # the prev varible is assigned the integer 0
+# the current varible is assigned the integer 1
 
 
 and Code. Implementation of Algorithm:
