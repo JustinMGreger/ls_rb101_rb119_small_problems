@@ -80,6 +80,16 @@
 #   current
 # end
 
+# LS Solution:
+def fibonacci(nth)
+  first, last = [1, 1]
+  3.upto(nth) do
+    first, last = [last, first + last]
+  end
+
+  last
+end
+
 # tests:
 p fibonacci(20) == 6765
 p fibonacci(100) == 354_224_848_179_261_915_075
