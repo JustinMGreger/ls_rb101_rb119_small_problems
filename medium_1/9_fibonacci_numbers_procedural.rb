@@ -62,6 +62,7 @@
 # the current varible is assigned the result of adding the prev varible to the
 # current varible
 # the prev varible is assigned the temp varible
+# this is the last line of the .times method.
 
 
 and Code. Implementation of Algorithm:
