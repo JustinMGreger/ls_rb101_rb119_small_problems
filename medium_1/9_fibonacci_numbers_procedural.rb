@@ -51,7 +51,9 @@
 # none beyond varibles.
 
 # Algorithm, Steps for converting input to output:
-
+# the fibonacci method accepts the (number) parameter and is defined as the following:
+# if the number parameter is less than or equal to the integer 1 return the value
+# assigned to the number parameter.
 
 
 
