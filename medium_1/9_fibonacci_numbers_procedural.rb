@@ -59,6 +59,8 @@
 # for the result of subtracting the number parameter by the integer 1 times execute
 # the following code:
 # the temp varible is assigned the current varible
+# the current varible is assigned the result of adding the prev varible to the
+# current varible
 
 
 and Code. Implementation of Algorithm:
