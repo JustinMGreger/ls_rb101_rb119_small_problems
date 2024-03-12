@@ -56,6 +56,8 @@
 # assigned to the number parameter.
 # the prev varible is assigned the integer 0
 # the current varible is assigned the integer 1
+# for the result of subtracting the number parameter by the integer 1 times execute
+# the following code:
 
 
 and Code. Implementation of Algorithm:
