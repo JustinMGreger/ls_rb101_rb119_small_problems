@@ -64,7 +64,7 @@
 # the prev varible is assigned the temp varible
 # this is the last line of the .times method.
 # return the value assigned to the current varible.
-
+# this is the last line of the fibonacci method.
 
 and Code. Implementation of Algorithm:
 
