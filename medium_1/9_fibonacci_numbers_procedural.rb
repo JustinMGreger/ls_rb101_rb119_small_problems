@@ -58,6 +58,7 @@
 # the current varible is assigned the integer 1
 # for the result of subtracting the number parameter by the integer 1 times execute
 # the following code:
+# the temp varible is assigned the current varible
 
 
 and Code. Implementation of Algorithm:
