@@ -61,6 +61,7 @@
 # the temp varible is assigned the current varible
 # the current varible is assigned the result of adding the prev varible to the
 # current varible
+# the prev varible is assigned the temp varible
 
 
 and Code. Implementation of Algorithm:
