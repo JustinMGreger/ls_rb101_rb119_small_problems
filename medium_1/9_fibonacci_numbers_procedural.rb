@@ -66,7 +66,7 @@
 # return the value assigned to the current varible.
 # this is the last line of the fibonacci method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 # tests:
 p fibonacci(20) == 6765
