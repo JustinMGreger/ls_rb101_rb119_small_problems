@@ -22,7 +22,9 @@
 # Identify expected input:
 # nth fibonacci number.
 
-output:
+# output:
+# the last digit of the nth Fibonacci number.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
