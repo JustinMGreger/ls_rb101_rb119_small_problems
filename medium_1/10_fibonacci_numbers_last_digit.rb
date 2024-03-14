@@ -6,6 +6,6 @@
 # computing the 20899 digit 100,001st Fibonacci sequence almost instantly.
 
 # In this exercise,
-you are going to compute a method that returns the last digit of the nth Fibonacci number.
+# you are going to compute a method that returns the last digit of the nth Fibonacci number.
 
 Examples:
