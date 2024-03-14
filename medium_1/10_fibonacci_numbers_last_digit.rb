@@ -20,10 +20,19 @@ fibonacci_last(123456789) # -> 4
 # PEDAC stands for [Understand the] Problem,
 
 Identify expected input:
+
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
+fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
+fibonacci_last(20)        # -> 5 (the 20th Fibonacci number is 6765)
+fibonacci_last(100)       # -> 5 (the 100th Fibonacci number is 354224848179261915075)
+fibonacci_last(100_001)   # -> 1 (this is a 20899 digit number)
+fibonacci_last(1_000_007) # -> 3 (this is a 208989 digit number)
+fibonacci_last(123456789) # -> 4
+
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
