@@ -24,7 +24,8 @@ Identify expected input:
 output:
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
 p fibonacci_last(20)        # -> 5 (the 20th Fibonacci number is 6765)
 p fibonacci_last(100)       # -> 5 (the 100th Fibonacci number is 354224848179261915075)
