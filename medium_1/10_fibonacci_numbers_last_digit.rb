@@ -15,3 +15,15 @@ fibonacci_last(100)       # -> 5 (the 100th Fibonacci number is 3542248481792619
 fibonacci_last(100_001)   # -> 1 (this is a 20899 digit number)
 fibonacci_last(1_000_007) # -> 3 (this is a 208989 digit number)
 fibonacci_last(123456789) # -> 4
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
