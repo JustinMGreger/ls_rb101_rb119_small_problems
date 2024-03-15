@@ -28,10 +28,10 @@
 # Make the requirements explicit Identify rules:
 # write a method that returns the last digit of the nth Fibonacci number.
 
-
-
-
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+# write def fibonacci_last method(nth)
+#  that returns the last digit of the nth Fibonacci number.
+# end
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
