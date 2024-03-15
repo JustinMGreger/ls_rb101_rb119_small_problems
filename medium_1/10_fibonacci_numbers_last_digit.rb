@@ -41,7 +41,9 @@
 # p fibonacci_last(1_000_007) # -> 3 (this is a 208989 digit number)
 # p fibonacci_last(123456789) # -> 4
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
