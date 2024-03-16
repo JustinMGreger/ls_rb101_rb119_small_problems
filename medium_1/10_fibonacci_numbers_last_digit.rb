@@ -49,6 +49,7 @@
 # the first, last varibles are parallel assigned the elements in the [1, 1] array
 # that is the first varible is assigned the integer 1 and the last varible is
 # assigned the integer 1.
+# from the integer 3 upto the nth parameter execute the following block of code:
 
 
 
