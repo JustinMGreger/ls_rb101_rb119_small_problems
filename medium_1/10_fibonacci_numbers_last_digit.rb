@@ -60,7 +60,7 @@
 # this is the last line of the fibonacci method.
 
 # and Code. Implementation of Algorithm:
-def fibonacci(nth)
+def fibonacci_last(nth)
   first, last = [1, 1]
   3.upto(nth) do
     first, last = [last, first + last]
