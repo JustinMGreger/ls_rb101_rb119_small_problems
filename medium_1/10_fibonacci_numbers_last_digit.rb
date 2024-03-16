@@ -54,6 +54,10 @@
 # array that is the first varible is assigned the last varible and the last varible is
 # assigned the result of adding the first varible with the last varible.
 # this is the last line of the .upto method.
+# return the value assigned to the last_number varible which is assigned to the result
+# of converting the last varible to the string form then select the element at the 
+# -1 index location which is the last element which is then converted to integer form
+# this is the last line of the fibonacci method.
 
 
 
