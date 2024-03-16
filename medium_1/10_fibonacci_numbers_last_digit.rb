@@ -66,7 +66,7 @@ def fibonacci_last(nth)
     first, last = [last, first + last]
   end
 
-  last_number = last.to_s[-1].to_i
+  last.to_s[-1].to_i
 end
 
 # tests:
