@@ -45,7 +45,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-
+# the fibonacci method accepts the (nth) parameter and is defined as the following:
 
 
 
