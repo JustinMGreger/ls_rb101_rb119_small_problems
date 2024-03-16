@@ -60,6 +60,14 @@
 # this is the last line of the fibonacci method.
 
 # and Code. Implementation of Algorithm:
+def fibonacci(nth)
+  first, last = [1, 1]
+  3.upto(nth) do
+    first, last = [last, first + last]
+  end
+
+  last_number = last.to_s[-1].to_i
+end
 
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
