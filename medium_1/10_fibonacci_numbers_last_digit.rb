@@ -70,8 +70,9 @@
 # end
 
 # LS Solution Part 1:
-
-
+def fibonacci_last(nth)
+  fibonacci(nth).to_s[-1].to_i
+end
 
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
