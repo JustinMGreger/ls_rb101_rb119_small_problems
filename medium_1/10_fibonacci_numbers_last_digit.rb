@@ -59,12 +59,7 @@
 # -1 index location which is the last element which is then converted to integer form
 # this is the last line of the fibonacci method.
 
-
-
-
-
-
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
