@@ -46,6 +46,9 @@
 
 # Algorithm, Steps for converting input to output:
 # the fibonacci method accepts the (nth) parameter and is defined as the following:
+# the first, last varibles are parallel assigned the elements in the [1, 1] array
+# that is the first varible is assigned the integer 1 and the last varible is
+# assigned the integer 1.
 
 
 
