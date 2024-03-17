@@ -83,6 +83,8 @@
 #   fibonacci(nth).to_s[-1].to_i
 # end
 
+# LS Solution Part 2:
+
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
 p fibonacci_last(20)        # -> 5 (the 20th Fibonacci number is 6765)
