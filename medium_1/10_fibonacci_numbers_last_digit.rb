@@ -114,7 +114,9 @@
 # Identify expected input:
 # the (nth) parameter.
 
-output:
+# output:
+# the last digit of the nth Fibonacci number.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
