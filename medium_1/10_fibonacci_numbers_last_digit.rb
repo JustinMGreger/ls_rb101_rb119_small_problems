@@ -100,6 +100,21 @@
 # You should be able to return results almost instantly.
 # For example, the 123,456,789,987,745th Fibonacci number ends in 5.
 
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
+
+
+
+
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
 p fibonacci_last(20)        # -> 5 (the 20th Fibonacci number is 6765)
