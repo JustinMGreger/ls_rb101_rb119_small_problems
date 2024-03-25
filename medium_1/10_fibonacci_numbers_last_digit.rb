@@ -145,6 +145,7 @@
 # the pisano_period variable is assigned the integer 60.
 # the nth_mod_pisano variable is assigned the remainder of dividing the nth parameter
 # by the pisano_period variable.
+# the first variable is assigned the integer 0.
 
 
 
