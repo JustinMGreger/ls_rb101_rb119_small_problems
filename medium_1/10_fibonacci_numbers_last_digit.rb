@@ -152,6 +152,7 @@
 # the temp variable is assigned the last variable.
 # the last variable is assigned the remainder of dividing the result of adding
 # the first variable with the last variable by the integer 10
+# the first variable is assigned the temp variable.
 
 
 
