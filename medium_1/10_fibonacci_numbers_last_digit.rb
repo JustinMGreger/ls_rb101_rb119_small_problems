@@ -143,6 +143,8 @@
 # Algorithm, Steps for converting input to output:
 # the fibonacci_last method accepts the (nth) parameter and is defined as the following:
 # the pisano_period variable is assigned the integer 60.
+# the nth_mod_pisano variable is assigned the remainder of dividing the nth parameter
+# by the pisano_period variable.
 
 
 
