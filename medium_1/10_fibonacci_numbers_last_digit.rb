@@ -117,7 +117,12 @@
 # output:
 # the last digit of the nth Fibonacci number.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
