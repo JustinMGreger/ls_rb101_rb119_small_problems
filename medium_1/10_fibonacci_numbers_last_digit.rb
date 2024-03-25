@@ -157,7 +157,7 @@
 # return the value assigned to the last variable.
 # this is the last line of the fibonacci_last method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 
 
