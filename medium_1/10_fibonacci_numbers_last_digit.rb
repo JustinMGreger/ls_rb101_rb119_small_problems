@@ -158,9 +158,21 @@
 # this is the last line of the fibonacci_last method.
 
 # and Code. Implementation of Algorithm:
+def fibonacci_last(nth)
+  pisano_period = 60
+  nth_mod_pisano = nth % pisano_period
 
+  first = 0
+  last = 1
 
+  1.upto(nth_mod_pisano - 1) do
+    temp = last
+    last = (first + last) % 10
+    first = temp
+  end
 
+  last
+end
 
 # tests:
 p fibonacci_last(15)        # -> 0  (the 15th Fibonacci number is 610)
