@@ -147,7 +147,8 @@
 # by the pisano_period variable.
 # the first variable is assigned the integer 0.
 # the last variable is assigned the integer 1.
-
+# from the integer 1 upto the result of subtracting the nth_mod_pisano variable by
+# the integer 1 execute the following block of code:
 
 
 
