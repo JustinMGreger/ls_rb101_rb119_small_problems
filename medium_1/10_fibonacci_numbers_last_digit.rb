@@ -149,6 +149,7 @@
 # the last variable is assigned the integer 1.
 # from the integer 1 upto the result of subtracting the nth_mod_pisano variable by
 # the integer 1 execute the following block of code:
+# the temp variable is assigned the last variable.
 
 
 
