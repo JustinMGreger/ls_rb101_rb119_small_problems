@@ -141,7 +141,7 @@
 # variables. no arrays or hashes.
 
 # Algorithm, Steps for converting input to output:
-
+# the fibonacci_last method accepts the (nth) parameter and is defined as the following:
 
 
 
