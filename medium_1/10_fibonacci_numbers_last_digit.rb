@@ -155,16 +155,7 @@
 # the first variable is assigned the temp variable.
 # this is the last line of the .upto method.
 # return the value assigned to the last variable.
-
-
-
-
-
-
-
-
-
-
+# this is the last line of the fibonacci_last method.
 
 and Code. Implementation of Algorithm:
 
