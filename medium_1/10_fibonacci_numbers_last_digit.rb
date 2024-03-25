@@ -123,7 +123,7 @@
 # For example, the 123,456,789,987,745th Fibonacci number ends in 5.
 
 # Mental model of the problem (optional):
-
+# def fibonacci_last(nth)
 
 
 
@@ -139,7 +139,7 @@
 # p fibonacci_last(100_001)   # -> 1 (this is a 20899 digit number)
 # p fibonacci_last(1_000_007) # -> 3 (this is a 208989 digit number)
 # p fibonacci_last(123_456_789) # -> 4
-# p fibonacci_last(123_456_789_987) # -> 5
+# p fibonacci_last(123_456_789_987_745) # -> 5
 
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # variables. no arrays or hashes.
