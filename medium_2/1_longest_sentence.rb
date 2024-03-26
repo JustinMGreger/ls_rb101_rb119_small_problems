@@ -6,4 +6,4 @@
 # Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
 # You should also print the number of words in the longest sentence.
 
-Example text:
+# Example text:
