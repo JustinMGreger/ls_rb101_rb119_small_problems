@@ -20,7 +20,7 @@
 # that that nation might live. It is altogether fitting and
 # proper that we should do this.
 
-But, in a larger sense, we can not dedicate, we can not
+# But, in a larger sense, we can not dedicate, we can not
 consecrate, we can not hallow this ground. The brave
 men, living and dead, who struggled here, have
 consecrated it, far above our poor power to add or
