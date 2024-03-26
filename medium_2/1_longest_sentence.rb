@@ -24,7 +24,7 @@
 # consecrate, we can not hallow this ground. The brave
 # men, living and dead, who struggled here, have
 # consecrated it, far above our poor power to add or
-detract. The world will little note, nor long remember
+# detract. The world will little note, nor long remember
 what we say here, but it can never forget what they
 did here. It is for us the living, rather, to be dedicated
 here to the unfinished work which they who fought
