@@ -26,7 +26,7 @@
 # consecrated it, far above our poor power to add or
 # detract. The world will little note, nor long remember
 # what we say here, but it can never forget what they
-did here. It is for us the living, rather, to be dedicated
+# did here. It is for us the living, rather, to be dedicated
 here to the unfinished work which they who fought
 here have thus far so nobly advanced. It is rather for
 us to be here dedicated to the great task remaining
