@@ -49,4 +49,4 @@
 
 # Hint:
 # If you have a variable str that contains a bunch of sentences,
-you can split into an array of sentences like this:
+# you can split into an array of sentences like this:
