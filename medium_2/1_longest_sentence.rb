@@ -76,7 +76,7 @@
 # You should also print the number of words in the longest sentence.
 
 # Mental model of the problem (optional):
-# def program(the content of a text file)
+# def program(text)
 # and then prints the longest sentence in the file based on number of words.
 # Sentences may end with periods (.), exclamation points (!), or question marks (?).
 # Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
