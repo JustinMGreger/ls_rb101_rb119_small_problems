@@ -64,7 +64,9 @@
 # Identify expected input:
 # the content of a text file.
 
-output:
+# output:
+# the longest sentence in the file based on number of words.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
