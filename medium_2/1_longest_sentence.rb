@@ -75,6 +75,7 @@
 # Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
 # You should also print the number of words in the longest sentence.
 
+# Mental model of the problem (optional):
 
 
 
@@ -87,7 +88,10 @@
 
 
 
-Mental model of the problem (optional):
+
+
+
+
 
 Examples / Test Cases, Validate understanding of the problem:
 
