@@ -77,25 +77,10 @@
 
 # Mental model of the problem (optional):
 # def program(text)
+# sentences = text.split(/\.|\?|!/)
+# Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
 # prints the longest sentence in the file based on number of words and
 # print the number of words in the longest sentence.
-# Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
-
-# sentences = text.split(/\.|\?|!/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 
