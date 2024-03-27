@@ -53,4 +53,5 @@
 # sentences = text.split(/\.|\?|!/)
 # This statement uses a regular expression (regex).
 # Regex are very useful for string operations,
-but we don't cover them in any detail until RB130. If you haven't already read our book, Introduction to Regular Expressions, you may do so now, but it isn't necessary - this hint is all you need to know about regex for this problem.
+# but we don't cover them in any detail until RB130.
+If you haven't already read our book, Introduction to Regular Expressions, you may do so now, but it isn't necessary - this hint is all you need to know about regex for this problem.
