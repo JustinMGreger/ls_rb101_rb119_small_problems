@@ -130,5 +130,17 @@
 # this is the last line of the split_into_sentences method.
 # the count_words method accepts the (sentence) parameter
 # and is defined as the following:
+# the word_pattern variable is assigned the /(--|\b[\w-]+\b)/ regex
+# which contains: the / which opens the regex which is followed by
+# (--|\b[\w-]+\b) grouping which contains: ( which opens the
+# grouping followed by the -- literal -- string followed by the
+# | logical or followed by the \b word boundary followed by the
+# [\w-]+ character class that contains: the [ which opens the
+# character class which is followed by the \w which matches
+# any alphanumeric character and the underscore which is
+# followed by the - hyphen followed by the ] which closes the
+# character class followed by the + character which means 1 or
+# more followed the \b word boundary followed by the ) which
+# closes the grouping followed by the / which closes the regex.
 
 and Code. Implementation of Algorithm:
