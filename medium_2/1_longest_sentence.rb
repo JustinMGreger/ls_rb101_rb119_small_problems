@@ -149,5 +149,6 @@
 # this is the last line of the count_words method.
 # the find_longest_sentence method accepts the (sentences)
 # parameter and is defined as the following:
+# the longest_sentence variable is assigned the '' string.
 
 and Code. Implementation of Algorithm:
