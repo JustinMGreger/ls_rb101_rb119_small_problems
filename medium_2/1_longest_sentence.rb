@@ -146,5 +146,6 @@
 # takes the word_pattern variable as an argument  and returns
 # an array of all occurrences in the string that match the
 # word_pattern then return the number of elements in the array.
+# this is the last line of the count_words method.
 
 and Code. Implementation of Algorithm:
