@@ -151,5 +151,7 @@
 # parameter and is defined as the following:
 # the longest_sentence variable is assigned the '' string.
 # the max_word_count variable is assigned the integer 0.
+# pass the following block of code to each element in the
+# sentences parameter:
 
 and Code. Implementation of Algorithm:
