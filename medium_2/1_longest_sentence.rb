@@ -153,5 +153,7 @@
 # the max_word_count variable is assigned the integer 0.
 # pass the following block of code to each element in the
 # sentences parameter:
+# the word_count variable is assigned the result of passing
+# the sentence block parameter to the count_words method.
 
 and Code. Implementation of Algorithm:
