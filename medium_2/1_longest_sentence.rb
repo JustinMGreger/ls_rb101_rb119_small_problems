@@ -155,5 +155,8 @@
 # sentences parameter:
 # the word_count variable is assigned the result of passing
 # the sentence block parameter to the count_words method.
+# if the word_count variable is greater than the max_word_count
+# variable then the longest_sentence variable is assigned
+# the sentence block parameter.
 
 and Code. Implementation of Algorithm:
