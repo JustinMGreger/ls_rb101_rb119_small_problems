@@ -142,5 +142,9 @@
 # character class followed by the + character which means 1 or
 # more followed the \b word boundary followed by the ) which
 # closes the grouping followed by the / which closes the regex.
+# The scan method is called on the sentence parameter which
+# takes the word_pattern variable as an argument  and returns
+# an array of all occurrences in the string that match the
+# word_pattern then return the number of elements in the array.
 
 and Code. Implementation of Algorithm:
