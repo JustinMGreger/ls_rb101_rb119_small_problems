@@ -122,5 +122,6 @@
 # an array.
 
 # Algorithm, Steps for converting input to output:
+# the split_into_sentences method accepts the (text) parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
