@@ -127,5 +127,6 @@
 # which contains: the / which starts the regex which is followed by the \. which is the literal .
 # followed by the | logical or followed by the \? which is the literal ? followed by the | logical or
 # followed by the ! followed by the / which closes the regex.
+# this is the last line of the split_into_sentences method.
 
 and Code. Implementation of Algorithm:
