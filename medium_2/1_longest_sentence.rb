@@ -123,5 +123,9 @@
 
 # Algorithm, Steps for converting input to output:
 # the split_into_sentences method accepts the (text) parameter and is defined as the following:
+# split the text parameter into an array of substrings based on the /\.|\?|!/ regular expression
+# which contains: the / which starts the regex which is followed by the \. which is the literal .
+# followed by the | logical or followed by the \? which is the literal ? followed by the | logical or
+# followed by the ! followed by the / which closes the regex.
 
 and Code. Implementation of Algorithm:
