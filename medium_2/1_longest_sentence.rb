@@ -147,5 +147,7 @@
 # an array of all occurrences in the string that match the
 # word_pattern then return the number of elements in the array.
 # this is the last line of the count_words method.
+# the find_longest_sentence method accepts the (sentences)
+# parameter and is defined as the following:
 
 and Code. Implementation of Algorithm:
