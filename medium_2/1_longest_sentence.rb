@@ -209,5 +209,7 @@
 # of freedom -- and that government of the people, by
 # the people, for the people, shall not perish from the
 # earth.' string.
+# return the result of passing the test_text variable
+# to the analyze_text method.
 
 and Code. Implementation of Algorithm:
