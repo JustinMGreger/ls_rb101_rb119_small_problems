@@ -174,5 +174,9 @@
 # string which contains: the The longest sentence is:\n string followed by the
 # #{longest_sentence.strip} string interpolation which contains: the result
 # of removing leading and trailing whitespace from the longest_sentence variable.
+# print to the screen the "The number of words in the longest sentence: #{max_word_count}"
+# string which contains: the The number of words in the longest sentence: string
+# followed by the #{max_word_count} string interpolation which contains:
+# the max_word_count variable.
 
 and Code. Implementation of Algorithm:
