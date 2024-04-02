@@ -217,10 +217,10 @@
 #   text.split(/\.|\?|!/)
 # end
 
-def count_words(sentence)
-  word_pattern = /(--|\b[\w-]+\b)/
-  sentence.scan(word_pattern).count
-end
+# def count_words(sentence)
+#   word_pattern = /(--|\b[\w-]+\b)/
+#   sentence.scan(word_pattern).count
+# end
 
 def find_longest_sentence(sentences)
   longest_sentence = ''
