@@ -161,5 +161,7 @@
 # the max_word_count variable is assigned the word_count variable.
 # this is the last line of the if statement method.
 # this is the last line of the .each method.
+# return the [longest_sentence, max_word_count] new array with
+# the longest_sentence and max_word_count as the elements of the array.
 
 and Code. Implementation of Algorithm:
