@@ -237,13 +237,13 @@
 #   [longest_sentence, max_word_count]
 # end
 
-def analyze_text(text)
-  sentences = split_into_sentences(text)
-  longest_sentence, max_word_count = find_longest_sentence(sentences)
+# def analyze_text(text)
+#   sentences = split_into_sentences(text)
+#   longest_sentence, max_word_count = find_longest_sentence(sentences)
 
-  puts "The longest sentence is:\n#{longest_sentence.strip}"
-  puts "The number of words in the longest sentence: #{max_word_count}"
-end
+#   puts "The longest sentence is:\n#{longest_sentence.strip}"
+#   puts "The number of words in the longest sentence: #{max_word_count}"
+# end
 
 test_text = 'Four score and seven years ago our fathers brought forth
 on this continent a new nation, conceived in liberty, and
