@@ -164,5 +164,7 @@
 # return the [longest_sentence, max_word_count] new array with
 # the longest_sentence and max_word_count as the elements of the array.
 # this is the last line of the find_longest_sentence method.
+# the analyze_text method accepts the (text) parameter and is defined
+# as the following:
 
 and Code. Implementation of Algorithm:
