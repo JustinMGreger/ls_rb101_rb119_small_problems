@@ -222,20 +222,20 @@
 #   sentence.scan(word_pattern).count
 # end
 
-def find_longest_sentence(sentences)
-  longest_sentence = ''
-  max_word_count = 0
+# def find_longest_sentence(sentences)
+#   longest_sentence = ''
+#   max_word_count = 0
 
-  sentences.each do |sentence|
-    word_count = count_words(sentence)
-    if word_count > max_word_count
-      longest_sentence = sentence
-      max_word_count = word_count
-    end
-  end
+#   sentences.each do |sentence|
+#     word_count = count_words(sentence)
+#     if word_count > max_word_count
+#       longest_sentence = sentence
+#       max_word_count = word_count
+#     end
+#   end
 
-  [longest_sentence, max_word_count]
-end
+#   [longest_sentence, max_word_count]
+# end
 
 def analyze_text(text)
   sentences = split_into_sentences(text)
