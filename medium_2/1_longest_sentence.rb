@@ -168,5 +168,7 @@
 # as the following:
 # the sentences variable is assigned to the result of passing the text
 # parameter to the split_into_sentences method.
+# the longest_sentence, max_word_count are dual assigned the result
+# of passing the sentences variable to the find_longest_sentence method.
 
 and Code. Implementation of Algorithm:
