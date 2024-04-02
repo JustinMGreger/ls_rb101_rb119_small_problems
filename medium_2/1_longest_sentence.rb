@@ -178,5 +178,6 @@
 # string which contains: the The number of words in the longest sentence: string
 # followed by the #{max_word_count} string interpolation which contains:
 # the max_word_count variable.
+# this is the last line of the analyze_text method.
 
 and Code. Implementation of Algorithm:
