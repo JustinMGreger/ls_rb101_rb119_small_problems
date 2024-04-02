@@ -213,9 +213,9 @@
 # to the analyze_text method.
 
 # and Code. Implementation of Algorithm:
-def split_into_sentences(text)
-  text.split(/\.|\?|!/)
-end
+# def split_into_sentences(text)
+#   text.split(/\.|\?|!/)
+# end
 
 def count_words(sentence)
   word_pattern = /(--|\b[\w-]+\b)/
