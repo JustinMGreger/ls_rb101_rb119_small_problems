@@ -163,5 +163,6 @@
 # this is the last line of the .each method.
 # return the [longest_sentence, max_word_count] new array with
 # the longest_sentence and max_word_count as the elements of the array.
+# this is the last line of the find_longest_sentence method.
 
 and Code. Implementation of Algorithm:
