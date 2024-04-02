@@ -160,5 +160,6 @@
 # the sentence block parameter.
 # the max_word_count variable is assigned the word_count variable.
 # this is the last line of the if statement method.
+# this is the last line of the .each method.
 
 and Code. Implementation of Algorithm:
