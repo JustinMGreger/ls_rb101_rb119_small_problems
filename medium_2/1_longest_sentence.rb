@@ -170,5 +170,9 @@
 # parameter to the split_into_sentences method.
 # the longest_sentence, max_word_count are dual assigned the result
 # of passing the sentences variable to the find_longest_sentence method.
+# print to the screen the "The longest sentence is:\n#{longest_sentence.strip}"
+# string which contains: the The longest sentence is:\n string followed by the
+# #{longest_sentence.strip} string interpolation which contains: the result
+# of removing leading and trailing whitespace from the longest_sentence variable.
 
 and Code. Implementation of Algorithm:
