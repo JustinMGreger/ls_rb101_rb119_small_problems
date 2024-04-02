@@ -166,5 +166,7 @@
 # this is the last line of the find_longest_sentence method.
 # the analyze_text method accepts the (text) parameter and is defined
 # as the following:
+# the sentences variable is assigned to the result of passing the text
+# parameter to the split_into_sentences method.
 
 and Code. Implementation of Algorithm:
