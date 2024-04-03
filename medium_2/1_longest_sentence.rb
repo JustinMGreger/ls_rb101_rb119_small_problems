@@ -275,4 +275,4 @@
 # the people, for the people, shall not perish from the
 # earth.'
 
-analyze_text(test_text)
+# analyze_text(test_text)
