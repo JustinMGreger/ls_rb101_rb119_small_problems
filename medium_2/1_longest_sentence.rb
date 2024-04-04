@@ -278,7 +278,7 @@
 # analyze_text(test_text)
 
 # LS Solution:
-text = File.read('sample_text.txt')
+# text = File.read('sample_text.txt')
 sentences = text.split(/\.|\?|!/)
 largest_sentence = sentences.max_by { |sentence| sentence.split.size }
 largest_sentence = largest_sentence.strip
