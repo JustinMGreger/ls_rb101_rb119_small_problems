@@ -290,4 +290,4 @@
 # Further Exploration:
 
 # You may have noticed that our solution fails to print the period at the end of the sentence.
-Can you write a solution that keeps the period printed at the end of each sentence?
+# Can you write a solution that keeps the period printed at the end of each sentence?
