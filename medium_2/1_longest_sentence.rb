@@ -299,6 +299,10 @@
 # sample_text.txt
 
 output:
+# the longest sentence in the file based on number of words.
+# You should also print the number of words in the longest sentence.
+
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
