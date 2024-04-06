@@ -301,6 +301,7 @@
 output:
 # the longest sentence in the file based on number of words.
 # You should also print the number of words in the longest sentence.
+# keep the period printed at the end of each sentence.
 
 
 Make the requirements explicit Identify rules:
