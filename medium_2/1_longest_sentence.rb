@@ -309,7 +309,7 @@
 # Sentences may end with periods (.), exclamation points (!), or question marks (?).
 # Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
 # You should also print the number of words in the longest sentence.
-# write a solution that keeps the period printed at the end of each sentence.
+# keep the period printed at the end of each sentence.
 
 
 
