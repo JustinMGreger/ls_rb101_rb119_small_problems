@@ -303,8 +303,7 @@
 # You should also print the number of words in the longest sentence.
 # keep the period printed at the end of each sentence.
 
-
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
 # write a solution that keeps the period printed at the end of each sentence.
 
 
