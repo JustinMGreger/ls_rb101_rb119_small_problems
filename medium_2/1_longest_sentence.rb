@@ -319,12 +319,10 @@
 # You should also print the number of words in the longest sentence.
 # keep the period printed at the end of each sentence.
 
+# Examples / Test Cases, Validate understanding of the problem:
+# sample_text.txt contains:
 
 
-
-
-
-Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
