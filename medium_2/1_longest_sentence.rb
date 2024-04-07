@@ -373,6 +373,10 @@
 # pass the elements in the sentences variable to the following block
 # of code and permentalty modify the result into an array assigned to the sentences variable:
 # permanently remove the leading and trailing whitespace from the sentence block parameter.
+# permanently remove the '!' string from the end of the sentence block parameter
+# or permanently remove the '?' string from the end of the sentence block parameter.
+# return the value assigned to the sentence block parameter
+# this is the last line of the .map method.
 
 and Code. Implementation of Algorithm:
 
