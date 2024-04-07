@@ -411,3 +411,6 @@ puts "Containing #{number_of_words} words"
 # Further Exploration:
 # What about finding the longest paragraph or longest word?
 # How would we go about solving that problem?
+
+puts "#{largest_sentence}"
+puts "Containing #{number_of_words} words"
