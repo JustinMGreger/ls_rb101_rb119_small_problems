@@ -388,6 +388,8 @@
 # print to the screeen the "#{largest_sentence}" string which contains: the
 # #{largest_sentence} string interpolation which contains the largest_sentence variable.
 # print to the screen the "Containing #{number_of_words} words" string which contains:
+# the Containing string followed by the #{number_of_words} string interpolation which
+# contains: the number_of_words variable followed by the words string.
 
 and Code. Implementation of Algorithm:
 
