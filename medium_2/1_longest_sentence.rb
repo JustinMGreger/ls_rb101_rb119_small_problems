@@ -385,6 +385,8 @@
 # block return value.
 # the number_of_words variable is assigned the result of splitting the largest_sentence
 # variable into an array of substrings then return the number of elements in the array.
+# print to the screeen the "#{largest_sentence}" string which contains: the
+# #{largest_sentence} string interpolation which contains the largest_sentence variable.
 
 and Code. Implementation of Algorithm:
 
