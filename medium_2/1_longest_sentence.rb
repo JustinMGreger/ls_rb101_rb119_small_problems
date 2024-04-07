@@ -383,6 +383,8 @@
 # of element in that array and evaluate its result by keeping track of the element for
 # which the block returns the highest value and return the element that had the highest
 # block return value.
+# the number_of_words variable is assigned the result of splitting the largest_sentence
+# variable into an array of substrings then return the number of elements in the array.
 
 and Code. Implementation of Algorithm:
 
