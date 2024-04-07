@@ -392,7 +392,7 @@
 # contains: the number_of_words variable followed by the words string.
 
 # and Code. Implementation of Algorithm:
-text = File.read('sample_text.txt')
+# text = File.read('sample_text.txt')
 
 sentences = text.split(/(?<=[.?!])/)
 
