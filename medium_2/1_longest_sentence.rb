@@ -357,6 +357,12 @@
 # an array.
 
 # Algorithm, Steps for converting input to output:
+# the text variable is assigned the result of calling the .read method
+# on the File class in Ruby that provides methods for handling files,
+# such as reading from or writing to them to opens the sample_text.txt
+# file in read-only mode, reads the entire content of the file, and
+# then automatically closes the file and return the content as a single
+# string.
 
 and Code. Implementation of Algorithm:
 
