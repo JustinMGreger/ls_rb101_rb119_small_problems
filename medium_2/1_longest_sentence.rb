@@ -363,6 +363,13 @@
 # file in read-only mode, reads the entire content of the file, and
 # then automatically closes the file and return the content as a single
 # string.
+# the sentences variable is assigned the result of splitting the text
+# variable into an array of substrings by the /(?<=[.?!])/ regex which
+# contains: the / which opens the regex followed by (?<=[.?!]) which
+# contains (?<= ) which looks for a position in the string that is
+# preceded by a certain pattern which contains: [.?!] which matches
+# one of the punctuation marks ., ? or ! which is then followed
+# by the / which closes the regex.
 
 and Code. Implementation of Algorithm:
 
