@@ -372,6 +372,7 @@
 # by the / which closes the regex.
 # pass the elements in the sentences variable to the following block
 # of code and permentalty modify the result into an array assigned to the sentences variable:
+# permanently remove the leading and trailing whitespace from the sentence block parameter.
 
 and Code. Implementation of Algorithm:
 
