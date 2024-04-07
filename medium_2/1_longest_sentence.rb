@@ -387,6 +387,7 @@
 # variable into an array of substrings then return the number of elements in the array.
 # print to the screeen the "#{largest_sentence}" string which contains: the
 # #{largest_sentence} string interpolation which contains the largest_sentence variable.
+# print to the screen the "Containing #{number_of_words} words" string which contains:
 
 and Code. Implementation of Algorithm:
 
