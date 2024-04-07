@@ -394,7 +394,7 @@
 # and Code. Implementation of Algorithm:
 # text = File.read('sample_text.txt')
 
-sentences = text.split(/(?<=[.?!])/)
+# sentences = text.split(/(?<=[.?!])/)
 
 sentences.map! do |sentence|
   sentence.strip!
