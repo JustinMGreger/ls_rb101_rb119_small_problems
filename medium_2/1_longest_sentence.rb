@@ -370,6 +370,8 @@
 # preceded by a certain pattern which contains: [.?!] which matches
 # one of the punctuation marks ., ? or ! which is then followed
 # by the / which closes the regex.
+# pass the elements in the sentences variable to the following block
+# of code and permentalty modify the result into an array assigned to the sentences variable:
 
 and Code. Implementation of Algorithm:
 
