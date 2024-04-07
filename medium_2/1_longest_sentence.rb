@@ -379,6 +379,10 @@
 # this is the last line of the .map method.
 # the largest_sentence variable is assigned the result of iterating through each element
 # in the sentences variable for each element, execute the following block of code:
+# split the sentence block parameter into an array of substrings then return the number
+# of element in that array and evaluate its result by keeping track of the element for
+# which the block returns the highest value and return the element that had the highest
+# block return value.
 
 and Code. Implementation of Algorithm:
 
