@@ -377,6 +377,8 @@
 # or permanently remove the '?' string from the end of the sentence block parameter.
 # return the value assigned to the sentence block parameter
 # this is the last line of the .map method.
+# the largest_sentence variable is assigned the result of iterating through each element
+# in the sentences variable for each element, execute the following block of code:
 
 and Code. Implementation of Algorithm:
 
