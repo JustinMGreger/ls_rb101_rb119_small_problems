@@ -421,6 +421,12 @@ Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
+puts "the longest sentence is: #{largest_sentence}"
+puts "Containing #{number_of_words} words"
+puts "The longest paragraph is: #{longest_paragraph}"
+puts "Containing #{number_paragraph_words} words"
+puts "The longest word is: #{longest_word}"
+puts "Containing #{number_longest_word} characters"
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
