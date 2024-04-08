@@ -431,6 +431,7 @@ Make the requirements explicit Identify rules:
 # Any sequence of characters that are not spaces or sentence-ending characters should be treated as a word.
 # You should also print the number of words in the longest sentence.
 # keep the period printed at the end of each sentence.
+# print the longest paragraph and the longest word.
 
 Mental model of the problem (optional):
 
