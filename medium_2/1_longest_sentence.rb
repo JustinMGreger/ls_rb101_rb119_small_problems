@@ -403,7 +403,7 @@
 # end
 
 # largest_sentence = sentences.max_by { |sentence| sentence.split.size }
-number_of_words = largest_sentence.split.size
+# number_of_words = largest_sentence.split.size
 
 puts "#{largest_sentence}"
 puts "Containing #{number_of_words} words"
