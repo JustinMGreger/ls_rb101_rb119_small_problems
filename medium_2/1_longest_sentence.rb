@@ -419,6 +419,9 @@
 # sample_text.txt
 
 output:
+# the longest sentence in the file based on number of words.
+# You should also print the number of words in the longest sentence.
+# keep the period printed at the end of each sentence.
 # the longest paragraph and the longest word.
 
 Make the requirements explicit Identify rules:
