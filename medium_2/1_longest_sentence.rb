@@ -424,7 +424,7 @@
 # keep the period printed at the end of each sentence.
 # the longest paragraph and the longest word.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
 # Write a program that reads the content of a text file
 # and then prints the longest sentence in the file based on number of words.
 # Sentences may end with periods (.), exclamation points (!), or question marks (?).
