@@ -436,6 +436,8 @@ Mental model of the problem (optional):
 # puts "Containing #{number_longest_word} characters"
 
 Data Structure, How we represent data that we will work with when converting the input to output:
+# an array.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
