@@ -419,6 +419,8 @@
 # sample_text.txt
 
 output:
+# the longest paragraph and the longest word.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
