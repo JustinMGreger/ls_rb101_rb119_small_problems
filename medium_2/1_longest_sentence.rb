@@ -396,13 +396,13 @@
 
 # sentences = text.split(/(?<=[.?!])/)
 
-sentences.map! do |sentence|
-  sentence.strip!
-  sentence.chomp!('!') || sentence.chomp!('?')
-  sentence
-end
+# sentences.map! do |sentence|
+#   sentence.strip!
+#   sentence.chomp!('!') || sentence.chomp!('?')
+#   sentence
+# end
 
-largest_sentence = sentences.max_by { |sentence| sentence.split.size }
+# largest_sentence = sentences.max_by { |sentence| sentence.split.size }
 number_of_words = largest_sentence.split.size
 
 puts "#{largest_sentence}"
