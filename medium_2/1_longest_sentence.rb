@@ -320,11 +320,8 @@
 # keep the period printed at the end of each sentence.
 
 # Examples / Test Cases, Validate understanding of the problem:
-# sample_text.txt contains:
-# 'Four score and seven years ago our fathers brought forth
-# on this continent a new nation, conceived in liberty, and
-# dedicated to the proposition that all men are created
-# equal.
+# puts "#{largest_sentence}"
+# puts "Containing #{number_of_words} words"
 
 # Now we are engaged in a great civil war, testing whether
 # that nation, or any nation so conceived and so dedicated,
