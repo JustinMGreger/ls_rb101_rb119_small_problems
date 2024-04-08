@@ -433,7 +433,7 @@
 # keep the period printed at the end of each sentence.
 # print the longest paragraph and the longest word.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
 # Write a program that reads the content of a text file
 # and then prints the longest sentence in the file based on number of words.
 # Sentences may end with periods (.), exclamation points (!), or question marks (?).
