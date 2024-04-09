@@ -442,13 +442,6 @@
 # keep the period printed at the end of each sentence.
 # print the longest paragraph and the longest word.
 
-
-
-
-
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
 # puts "the longest sentence is: #{largest_sentence}"
 # puts "Containing #{number_of_words} words"
@@ -460,7 +453,13 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # an array.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 puts "the longest sentence is: #{largest_sentence}"
