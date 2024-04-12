@@ -497,6 +497,8 @@
 # variable to match the /\w+/ regex which contains: the / which opens the
 # regex followed by the \w+ which means 1 or more word characters in sequence
 # followed by the / which closes the regex.
+# the longest_word variable is assigned the result of finding the highest number
+# that results from returning the number of elements in the words variable.
 
 # and Code. Implementation of Algorithm:
 
