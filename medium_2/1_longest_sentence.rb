@@ -471,8 +471,7 @@
 # permanently remove the trailing and preceding white space in the sentence block parameter.
 # permanently remove the '!' or the '?' from the end of the sentence block parameter.
 # return the value assigned to the sentence block parameter.
-
-
+# this is the last line of the .map method.
 
 
 # and Code. Implementation of Algorithm:
