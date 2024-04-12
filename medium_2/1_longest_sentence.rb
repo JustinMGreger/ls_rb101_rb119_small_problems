@@ -499,6 +499,8 @@
 # followed by the / which closes the regex.
 # the longest_word variable is assigned the result of finding the highest number
 # that results from returning the number of elements in the words variable.
+# the number_longest_word is assigned the result of returning the number of
+# elements in the longest_word variable.
 
 # and Code. Implementation of Algorithm:
 
