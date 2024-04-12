@@ -475,6 +475,8 @@
 # the largest_sentence variable is assigned the result of finding the highest number that
 # results from splitting the sentence block parameter in the sentences variable into an
 # array of substrings then return the number of elements in the array.
+# the number_of_words variable is assigned the result of splitting the largest_sentence
+# variable into an array of substrings then return the amount of elements in the array.
 
 # and Code. Implementation of Algorithm:
 
