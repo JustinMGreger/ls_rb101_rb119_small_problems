@@ -477,6 +477,11 @@
 # array of substrings then return the number of elements in the array.
 # the number_of_words variable is assigned the result of splitting the largest_sentence
 # variable into an array of substrings then return the amount of elements in the array.
+# the paragraphs variable is assigned the result of splitting the text variable into
+# an array of substrings based on the regex /\n\n+/ which contains: the / which starts
+# the regex followed by the \n which represents a new line character followed by the
+# \n+ which represents 1 or more new line charactersimmediately following the first
+# followed by the / which closes the regex.
 
 # and Code. Implementation of Algorithm:
 
