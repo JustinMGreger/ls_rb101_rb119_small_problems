@@ -482,6 +482,12 @@
 # the regex followed by the \n which represents a new line character followed by the
 # \n+ which represents 1 or more new line charactersimmediately following the first
 # followed by the / which closes the regex.
+# the longest_paragraph is assigned the result of finding the highest number that
+# results from splitting the paragraph block parameter in the paragraphs variable
+# into an array of substrings based on the /\s+/ regex which contains: the / which
+# opens the regex followed by the \s+ which means 1 or more consecutive whitespace
+# characters followed by the / which closes the regex then return the number of
+# elements in the array.
 
 # and Code. Implementation of Algorithm:
 
