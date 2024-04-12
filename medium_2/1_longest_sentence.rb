@@ -472,7 +472,9 @@
 # permanently remove the '!' or the '?' from the end of the sentence block parameter.
 # return the value assigned to the sentence block parameter.
 # this is the last line of the .map method.
-
+# the largest_sentence variable is assigned the result of finding the highest number that
+# results from splitting the sentence block parameter in the sentences variable into an
+# array of substrings then return the number of elements in the array.
 
 # and Code. Implementation of Algorithm:
 
