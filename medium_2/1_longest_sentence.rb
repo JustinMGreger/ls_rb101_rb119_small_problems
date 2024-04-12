@@ -462,7 +462,7 @@
 
 
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 puts "the longest sentence is: #{largest_sentence}"
 puts "Containing #{number_of_words} words"
