@@ -493,6 +493,10 @@
 # regex which contains: the / which opens the regex followed by the \s+ which
 # means 1 or more consecutive whitespace characters followed by the / which
 # closes the regex then return the number of elements in the array.
+# the words variable is assigned the result of searching through the text
+# variable to match the /\w+/ regex which contains: the / which opens the
+# regex followed by the \w+ which means 1 or more word characters in sequence
+# followed by the / which closes the regex.
 
 # and Code. Implementation of Algorithm:
 
