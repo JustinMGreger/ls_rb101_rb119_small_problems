@@ -488,6 +488,11 @@
 # opens the regex followed by the \s+ which means 1 or more consecutive whitespace
 # characters followed by the / which closes the regex then return the number of
 # elements in the array.
+# the number_paragraph_words variable is assigned the result of splitting the
+# longest_paragraph variable into an array of substrings based on the /\s+/
+# regex which contains: the / which opens the regex followed by the \s+ which
+# means 1 or more consecutive whitespace characters followed by the / which
+# closes the regex then return the number of elements in the array.
 
 # and Code. Implementation of Algorithm:
 
