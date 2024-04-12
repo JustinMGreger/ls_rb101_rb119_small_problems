@@ -466,6 +466,9 @@
 # matches exactly one of any characters inside the brackets which are a period (.),
 # an exclamation mark (!), or a question mark (?) followed by the / which closes
 # the regex.
+# pass the following block of code to each element in the sentences variable modify
+# it permanently and return an array of the result:
+# permanently remove the trailing and preceding white space in the sentence block parameter.
 
 
 
