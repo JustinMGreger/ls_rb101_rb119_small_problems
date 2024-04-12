@@ -454,7 +454,9 @@
 # an array.
 
 # Algorithm, Steps for converting input to output:
-
+# the text variable is assigned the result of calling .read on the File class
+# to read the contents of the 'sample_text.txt' string which contains: the
+# sample_text.txt
 
 
 
