@@ -469,6 +469,8 @@
 # pass the following block of code to each element in the sentences variable modify
 # it permanently and return an array of the result:
 # permanently remove the trailing and preceding white space in the sentence block parameter.
+# permanently remove the '!' or the '?' from the end of the sentence block parameter.
+# return the value assigned to the sentence block parameter.
 
 
 
