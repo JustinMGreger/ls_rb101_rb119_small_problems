@@ -503,6 +503,28 @@
 # elements in the longest_word variable.
 
 # and Code. Implementation of Algorithm:
+text = File.read('sample_text.txt')
+
+sentences = text.split(/(?<=[.?!])/)
+
+sentences.map! do |sentence|
+  sentence.strip!
+  sentence.chomp!('!') || sentence.chomp!('?')
+  sentence
+end
+
+largest_sentence = sentences.max_by { |sentence| sentence.split.size }
+number_of_words = largest_sentence.split.size
+
+paragraphs = text.split(/\n\n+/)
+
+longest_paragraph = paragraphs.max_by { |paragraph| paragraph.split(/\s+/).size }
+number_paragraph_words = longest_paragraph.split(/\s+/).size
+
+words = text.scan(/\w+/)
+
+longest_word = words.max_by(&:length)
+number_longest_word = longest_word.length
 
 puts "the longest sentence is: #{largest_sentence}"
 puts "Containing #{number_of_words} words"
