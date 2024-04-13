@@ -461,7 +461,7 @@
 # into an array of substrings based on matching the regex /(?<=[.?!])/
 # which contains: the / which opens the regex followed by the
 # (?<=[.?!]) which contains: the (?<= ) positive lookbehind assertion which
-# attempts to match a position in the string that is preceded by whatever pattern 
+# attempts to match a position in the string that is preceded by whatever pattern
 # is inside the parentheses which is followed by the [.?!] character class which
 # matches exactly one of any characters inside the brackets which are a period (.),
 # an exclamation mark (!), or a question mark (?) followed by the / which closes
