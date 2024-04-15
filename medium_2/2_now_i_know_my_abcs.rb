@@ -38,7 +38,8 @@
 
 
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
 # p block_word?('BATCH') == true
 # p block_word?('BUTCH') == false
 # p block_word?('jest') == true
