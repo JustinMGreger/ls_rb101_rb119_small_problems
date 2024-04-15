@@ -13,3 +13,6 @@
 # spelled from this set of blocks, false otherwise.
 
 # Examples:
+# block_word?('BATCH') == true
+# block_word?('BUTCH') == false
+# block_word?('jest') == true
