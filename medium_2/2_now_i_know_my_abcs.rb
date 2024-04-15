@@ -39,6 +39,10 @@
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
+# p block_word?('BATCH') == true
+# p block_word?('BUTCH') == false
+# p block_word?('jest') == true
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
