@@ -27,7 +27,8 @@
 # true or false
 
 # Make the requirements explicit Identify rules:
-
+# Write a method that returns true if the word passed in as an argument can be
+# spelled from this set of blocks, false otherwise.
 
 
 
