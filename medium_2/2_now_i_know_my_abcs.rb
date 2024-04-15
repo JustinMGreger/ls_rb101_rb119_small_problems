@@ -23,7 +23,9 @@
 # Identify expected input:
 # word
 
-output:
+# output:
+# true or false
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
