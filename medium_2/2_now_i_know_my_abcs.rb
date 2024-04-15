@@ -9,6 +9,7 @@
 # not use both letters from any given block.
 # Each letter in each block can only be used once.
 
-  Write a method that returns true if the word passed in as an argument can be spelled from this set of blocks, false otherwise.
+# Write a method that returns true if the word passed in as an argument can be
+spelled from this set of blocks, false otherwise.
   
   Examples:
