@@ -56,7 +56,7 @@
 # p block_word?('BUTCH') == false
 # p block_word?('jest') == true
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
 # array.
 
 Algorithm, Steps for converting input to output:
