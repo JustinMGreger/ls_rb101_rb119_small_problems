@@ -38,7 +38,6 @@
 # Each letter in each block can only be used once.
 
 # Mental model of the problem (optional):
-
 # def block_word?(word)
 # compare word to blocks.
 # A collection of spelling blocks has two letters per block, as shown in this list:
