@@ -41,7 +41,7 @@
 
 # def block_word?(word)
 # return true if the word can be spelled from this set of blocks.
-, false otherwise.
+# return false otherwise.
 # A collection of spelling blocks has two letters per block, as shown in this list:
 # B:O   X:K   D:Q   C:P   N:A
 # G:T   R:E   F:S   J:W   H:U
