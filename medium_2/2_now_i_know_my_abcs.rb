@@ -39,7 +39,8 @@
 
 # Mental model of the problem (optional):
 
-# Write a method that returns true if the word passed in as an argument can be
+# def block_word?(word)
+ returns true if the word passed in as an argument can be
 # spelled from this set of blocks, false otherwise.
 # A collection of spelling blocks has two letters per block, as shown in this list:
 # B:O   X:K   D:Q   C:P   N:A
