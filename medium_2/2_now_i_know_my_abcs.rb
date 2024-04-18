@@ -71,6 +71,7 @@
 
 and Code. Implementation of Algorithm:
 
+# tests:
 p block_word?('BATCH') == true
 p block_word?('BUTCH') == false
 p block_word?('jest') == true
