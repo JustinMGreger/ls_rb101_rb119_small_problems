@@ -72,6 +72,7 @@
 # this is the last line of the if statement.
 # this is the last line of the .each method.
 # return true.
+# this is the last line of the block_word? method.
 
 and Code. Implementation of Algorithm:
 
