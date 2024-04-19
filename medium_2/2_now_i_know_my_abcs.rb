@@ -62,6 +62,7 @@
 # the block_word? method accepts the (word) parameter and is defined as the following:
 # the blocks varible is assigned to the %w[BO XK DQ CP NA GT RE FS JW HU VI LY ZM] array
 # of single quote strings.
+# pass the following block of code to each element in the blocks varible:
 
 
 
