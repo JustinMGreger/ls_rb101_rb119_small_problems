@@ -80,8 +80,7 @@ def block_word?(word)
 
   blocks.each do |block|
     letter1, letter2 = block.split('')
-    if word.upcase.count(letter1).positive? && word.upcase.count(letter2).positive?
-      return false
+      return false if word.upcase.count(letter1).positive? && word.upcase.count(letter2).positive?
     end
   end
 
