@@ -65,6 +65,10 @@
 # pass the following block of code to each element in the blocks varible:
 # the letter1, letter2 are assigned the result of splitting the block block parameter
 # into an array of elements based on the '' character.
+# if the result of counting the occurrence of the letter1 varible in 
+# the word parameter in upcase form is positive
+# and the result of counting the occurrence of of the letter2 varible in
+# the word parameter in upcase form is positive return false
 
 and Code. Implementation of Algorithm:
 
