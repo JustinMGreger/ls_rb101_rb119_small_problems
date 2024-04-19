@@ -60,6 +60,8 @@
 
 # Algorithm, Steps for converting input to output:
 # the block_word? method accepts the (word) parameter and is defined as the following:
+# the blocks varible is assigned to the %w[BO XK DQ CP NA GT RE FS JW HU VI LY ZM] array
+# of single quote strings.
 
 
 
