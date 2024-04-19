@@ -59,7 +59,7 @@
 # array.
 
 # Algorithm, Steps for converting input to output:
-
+# the block_word? method accepts the (word) parameter and is defined as the following:
 
 
 
