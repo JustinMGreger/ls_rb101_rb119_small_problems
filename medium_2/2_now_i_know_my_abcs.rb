@@ -71,6 +71,7 @@
 # the word parameter in upcase form is positive return false.
 # this is the last line of the if statement.
 # this is the last line of the .each method.
+# return true.
 
 and Code. Implementation of Algorithm:
 
