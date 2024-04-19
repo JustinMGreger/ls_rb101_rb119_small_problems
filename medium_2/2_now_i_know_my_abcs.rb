@@ -63,14 +63,8 @@
 # the blocks varible is assigned to the %w[BO XK DQ CP NA GT RE FS JW HU VI LY ZM] array
 # of single quote strings.
 # pass the following block of code to each element in the blocks varible:
-
-
-
-
-
-
-
-
+# the letter1, letter2 are assigned the result of splitting the block block parameter
+# into an array of elements based on the '' character.
 
 and Code. Implementation of Algorithm:
 
