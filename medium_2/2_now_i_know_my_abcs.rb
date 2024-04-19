@@ -68,7 +68,8 @@
 # if the result of counting the occurrence of the letter1 varible in 
 # the word parameter in upcase form is positive
 # and the result of counting the occurrence of of the letter2 varible in
-# the word parameter in upcase form is positive return false
+# the word parameter in upcase form is positive return false.
+# this is the last line of the if statement.
 
 and Code. Implementation of Algorithm:
 
