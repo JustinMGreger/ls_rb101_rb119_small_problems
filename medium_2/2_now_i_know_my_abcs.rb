@@ -75,16 +75,16 @@
 # this is the last line of the block_word? method.
 
 # and Code. Implementation of Algorithm:
-def block_word?(word)
-  blocks = %w[BO XK DQ CP NA GT RE FS JW HU VI LY ZM]
+# def block_word?(word)
+#   blocks = %w[BO XK DQ CP NA GT RE FS JW HU VI LY ZM]
 
-  blocks.each do |block|
-    letter1, letter2 = block.split('')
-    return false if word.upcase.count(letter1).positive? && word.upcase.count(letter2).positive?
-  end
+#   blocks.each do |block|
+#     letter1, letter2 = block.split('')
+#     return false if word.upcase.count(letter1).positive? && word.upcase.count(letter2).positive?
+#   end
 
-  true
-end
+#   true
+# end
 
 # tests:
 p block_word?('BATCH') == true
