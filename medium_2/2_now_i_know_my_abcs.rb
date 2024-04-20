@@ -86,6 +86,8 @@
 #   true
 # end
 
+# LS Solution:
+
 # tests:
 p block_word?('BATCH') == true
 p block_word?('BUTCH') == false
