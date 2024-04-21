@@ -101,6 +101,7 @@
 
 # Further Exploration:
 # Did you use a different data structure for organizing your blocks?
+# no.
 # Were those blocks 2 letter strings or something else?
 # What method did you use to check if a string had 2 letters from a single block?
 # There are several different possibilities for solving this exercise.
