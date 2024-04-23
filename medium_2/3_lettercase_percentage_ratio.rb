@@ -43,7 +43,7 @@
 # and then returns a hash that contains 3 entries:
 # the percentage of characters in the string that are lowercase letters are assigned to the lowercase: symbol.
 # the percentage of characters that are uppercase letters are assigned to the uppercase: symbol.
-# and one the percentage of characters that are neither.
+# the percentage of characters that are neither are assigned to the neither: symbol.
 # You may assume that the string will always contain at least one character.
 # { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
 
