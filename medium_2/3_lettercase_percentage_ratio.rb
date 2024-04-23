@@ -39,7 +39,7 @@
 # You may assume that the string will always contain at least one character.
 
 # Mental model of the problem (optional):
-# Write a method that takes a string,
+# def letter_percentages(string)
 # and then returns a hash that contains 3 entries:
 # one represents the percentage of characters in the string that are lowercase letters,
 # one the percentage of characters that are uppercase letters,
