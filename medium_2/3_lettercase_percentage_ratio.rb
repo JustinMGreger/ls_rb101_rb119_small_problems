@@ -17,3 +17,15 @@
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
 p letter_percentages('AbCd +Ef') == { lowercase: 37.5, uppercase: 37.5, neither: 25.0 }
 p letter_percentages('123') == { lowercase: 0.0, uppercase: 0.0, neither: 100.0 }
+
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
