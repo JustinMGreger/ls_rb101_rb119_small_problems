@@ -56,7 +56,8 @@
 # a hash.
 
 Algorithm, Steps for converting input to output:
-and Code. Implementation of Algorithm:
+
+# and Code. Implementation of Algorithm:
 
 # Tests:
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
