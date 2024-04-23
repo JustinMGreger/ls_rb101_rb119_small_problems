@@ -31,7 +31,12 @@
 # and one the percentage of characters that are neither.
 
 # Make the requirements explicit Identify rules:
-
+# Write a method that takes a string,
+# and then returns a hash that contains 3 entries:
+# one represents the percentage of characters in the string that are lowercase letters,
+# one the percentage of characters that are uppercase letters,
+# and one the percentage of characters that are neither.
+# You may assume that the string will always contain at least one character.
 
 Mental model of the problem (optional):
 
