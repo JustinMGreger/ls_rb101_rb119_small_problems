@@ -52,7 +52,9 @@
 # p letter_percentages('AbCd +Ef') == { lowercase: 37.5, uppercase: 37.5, neither: 25.0 }
 # p letter_percentages('123') == { lowercase: 0.0, uppercase: 0.0, neither: 100.0 }
 
-Data Structure, How we represent data that we will work with when converting the input to output:
+# Data Structure, How we represent data that we will work with when converting the input to output:
+# a hash.
+
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
 
