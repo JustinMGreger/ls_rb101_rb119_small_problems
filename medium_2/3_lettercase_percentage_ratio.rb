@@ -41,7 +41,7 @@
 # Mental model of the problem (optional):
 # def letter_percentages(string)
 # and then returns a hash that contains 3 entries:
-# one represents the percentage of characters in the string that are lowercase letters,
+# the percentage of characters in the string that are lowercase letters are assigned to the lowercase: symbol.
 # one the percentage of characters that are uppercase letters,
 # and one the percentage of characters that are neither.
 # You may assume that the string will always contain at least one character.
