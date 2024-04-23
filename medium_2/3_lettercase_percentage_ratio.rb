@@ -11,6 +11,6 @@
 # one the percentage of characters that are uppercase letters,
 # and one the percentage of characters that are neither.
 
-You may assume that the string will always contain at least one character.
+# You may assume that the string will always contain at least one character.
 
 Examples
