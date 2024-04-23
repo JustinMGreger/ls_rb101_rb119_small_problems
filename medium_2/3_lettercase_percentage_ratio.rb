@@ -24,7 +24,12 @@
 # Identify expected input:
 # a string that will always contain at least one character.
 
-output:
+# output:
+# a hash that contains 3 entries:
+# one represents the percentage of characters in the string that are lowercase letters,
+# one the percentage of characters that are uppercase letters,
+# and one the percentage of characters that are neither.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 
