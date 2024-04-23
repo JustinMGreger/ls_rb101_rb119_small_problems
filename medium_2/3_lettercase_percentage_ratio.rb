@@ -39,7 +39,12 @@
 # You may assume that the string will always contain at least one character.
 
 # Mental model of the problem (optional):
-
+# Write a method that takes a string,
+# and then returns a hash that contains 3 entries:
+# one represents the percentage of characters in the string that are lowercase letters,
+# one the percentage of characters that are uppercase letters,
+# and one the percentage of characters that are neither.
+# You may assume that the string will always contain at least one character.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
