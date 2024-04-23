@@ -30,7 +30,9 @@
 # one the percentage of characters that are uppercase letters,
 # and one the percentage of characters that are neither.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
