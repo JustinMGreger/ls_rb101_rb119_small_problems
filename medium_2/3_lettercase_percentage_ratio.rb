@@ -22,7 +22,7 @@
 # PEDAC stands for [Understand the] Problem,
 
 # Identify expected input:
-# a string.
+# a string that will always contain at least one character.
 
 output:
 Make the requirements explicit Identify rules:
