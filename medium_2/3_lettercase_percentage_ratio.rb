@@ -72,6 +72,7 @@
 # the calculate_percentage method accepts the (count, total) parameters and is defined as the following:
 # round to the 1 decimal point float the result of dividing the count parameter converted to float form
 # by the total parameter which the result is then multiplied by the integer 100.
+# this is the last line of the calculate_percentage method.
 
 
 # and Code. Implementation of Algorithm:
