@@ -75,18 +75,18 @@
 # this is the last line of the calculate_percentage method.
 
 # and Code. Implementation of Algorithm:
-def letter_percentages(string)
-  total = string.length.to_f
-  {
-    lowercase: calculate_percentage(string.count('a-z'), total),
-    uppercase: calculate_percentage(string.count('A-Z'), total),
-    neither: calculate_percentage(string.count('^A-Za-z'), total)
-  }
-end
+# def letter_percentages(string)
+#   total = string.length.to_f
+#   {
+#     lowercase: calculate_percentage(string.count('a-z'), total),
+#     uppercase: calculate_percentage(string.count('A-Z'), total),
+#     neither: calculate_percentage(string.count('^A-Za-z'), total)
+#   }
+# end
 
-def calculate_percentage(count, total)
-  (count.to_f / total * 100).round(1)
-end
+# def calculate_percentage(count, total)
+#   (count.to_f / total * 100).round(1)
+# end
 
 # Tests:
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
