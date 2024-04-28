@@ -88,6 +88,8 @@
 #   (count.to_f / total * 100).round(1)
 # end
 
+# LS Solution:
+
 # Tests:
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
 p letter_percentages('AbCd +Ef') == { lowercase: 37.5, uppercase: 37.5, neither: 25.0 }
