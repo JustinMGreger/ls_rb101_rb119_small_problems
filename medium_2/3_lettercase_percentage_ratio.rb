@@ -59,7 +59,15 @@
 # the letter_percentages method accepts the (string) parameter and is defined as the following:
 # the total variable is assigned the result of returning the number of characters in the string parameter
 # that is in float form.
-
+# return the hash that contains: the { symbol which opens the hash followed by the lowercase: symbol
+# which is assigned the result of passing the parameter that is the result of counting all characters in
+# the string parameter that are lowercase letters from 'a' to 'z', and the total parameter to the
+# calculate_percentage method key value, followed by the uppercase: symbol which is assigned the result
+# of passing the parameter that is the result of counting all characters in the string parameter that are
+# uppercase letters from 'A' to 'Z', and the total parameter to the calculate_percentage method key value,
+# followed by the neither: symbol which is assigned the result of passing the parameter that is the result of 
+# counting all characters in the string parameter that are not 'A' to 'Z' and 'a' to 'z', and the total parameter
+# to the calculate_percentage method key value followed by the } character which closes the hash.
 
 
 
