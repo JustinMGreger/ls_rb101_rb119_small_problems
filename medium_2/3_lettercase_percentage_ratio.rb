@@ -57,7 +57,8 @@
 
 # Algorithm, Steps for converting input to output:
 # the letter_percentages method accepts the (string) parameter and is defined as the following:
-
+# the total variable is assigned the result of returning the number of characters in the string parameter
+# that is in float form.
 
 
 
