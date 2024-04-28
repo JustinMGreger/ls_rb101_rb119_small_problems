@@ -56,6 +56,13 @@
 # a hash.
 
 # Algorithm, Steps for converting input to output:
+# the letter_percentages method accepts the (string) parameter and is defined as the following:
+
+
+
+
+
+
 
 # and Code. Implementation of Algorithm:
 
