@@ -68,7 +68,7 @@
 # followed by the neither: symbol which is assigned the result of passing the parameter that is the result of 
 # counting all characters in the string parameter that are not 'A' to 'Z' and 'a' to 'z', and the total parameter
 # to the calculate_percentage method key value followed by the } character which closes the hash.
-
+# this is the last line of the letter_percentages method.
 
 
 
