@@ -136,9 +136,9 @@ def letter_percentages(string)
   }
 end
 
-# def calculate_percentage(count, total)
-#   (count.to_f / total * 100).round(1)
-# end
+def calculate_percentage(count, total)
+  (count.to_f / total * 100).round(1)
+end
 
 # Tests:
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
