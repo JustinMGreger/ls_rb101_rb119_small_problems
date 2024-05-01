@@ -94,20 +94,20 @@
 # p letter_percentages('123') == { lowercase: 0.0, uppercase: 0.0, neither: 100.0 }
 
 # LS Solution:
-def letter_percentages(string)
-  counts = {}
-  percentages = {}
-  characters = string.chars
-  length = string.length
+# def letter_percentages(string)
+#   counts = {}
+#   percentages = {}
+#   characters = string.chars
+#   length = string.length
 
-  counts[:lowercase] = characters.count { |char| char =~ /[a-z]/ }
-  counts[:uppercase] = characters.count { |char| char =~ /[A-Z]/ }
-  counts[:neither] = characters.count { |char| char =~ /[^A-Za-z]/ }
+#   counts[:lowercase] = characters.count { |char| char =~ /[a-z]/ }
+#   counts[:uppercase] = characters.count { |char| char =~ /[A-Z]/ }
+#   counts[:neither] = characters.count { |char| char =~ /[^A-Za-z]/ }
 
-  calculate(percentages, counts, length)
+#   calculate(percentages, counts, length)
 
-  percentages
-end
+#   percentages
+# end
 
 # def calculate(percentages, counts, length)
 #   percentages[:lowercase] = (counts[:lowercase] / length.to_f) * 100
