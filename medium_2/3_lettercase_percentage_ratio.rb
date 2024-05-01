@@ -121,3 +121,5 @@ p letter_percentages('123') == { lowercase: 0.0, uppercase: 0.0, neither: 100.0 
 # It would be nicer if we could round these float numbers so that our solution looks like this
 # {:lowercase=>66.7, :uppercase=>33.3, :neither=>0.0}. 
 # Try creating that solution on your own.
+
+p letter_percentages('abcdefGHI') == { lowercase: 66.7, :uppercase: 33.3, neither: 0.0 }
