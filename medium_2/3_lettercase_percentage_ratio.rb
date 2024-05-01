@@ -127,6 +127,19 @@
 # {:lowercase=>66.7, :uppercase=>33.3, :neither=>0.0}. 
 # Try creating that solution on your own.
 
+# def letter_percentages(string)
+#   total = string.length.to_f
+#   {
+#     lowercase: calculate_percentage(string.count('a-z'), total),
+#     uppercase: calculate_percentage(string.count('A-Z'), total),
+#     neither: calculate_percentage(string.count('^A-Za-z'), total)
+#   }
+# end
+
+# def calculate_percentage(count, total)
+#   (count.to_f / total * 100).round(1)
+# end
+
 # Tests:
 p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
 p letter_percentages('AbCd +Ef') == { lowercase: 37.5, uppercase: 37.5, neither: 25.0 }
