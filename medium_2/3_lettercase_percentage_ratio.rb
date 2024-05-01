@@ -117,4 +117,5 @@ p letter_percentages('123') == { lowercase: 0.0, uppercase: 0.0, neither: 100.0 
 
 # Further Exploration:
 # If we passed a string 'abcdefGHI' as an argument to our method call the solution would be
- {:lowercase=>66.66666666666666, :uppercase=>33.33333333333333, :neither=>0.0}. It would be nicer if we could round these float numbers so that our solution looks like this {:lowercase=>66.7, :uppercase=>33.3, :neither=>0.0}. Try creating that solution on your own.
+# {:lowercase=>66.66666666666666, :uppercase=>33.33333333333333, :neither=>0.0}.
+  It would be nicer if we could round these float numbers so that our solution looks like this {:lowercase=>66.7, :uppercase=>33.3, :neither=>0.0}. Try creating that solution on your own.
