@@ -109,11 +109,11 @@ def letter_percentages(string)
   percentages
 end
 
-def calculate(percentages, counts, length)
-  percentages[:lowercase] = (counts[:lowercase] / length.to_f) * 100
-  percentages[:uppercase] = (counts[:uppercase] / length.to_f) * 100
-  percentages[:neither] = (counts[:neither] / length.to_f) * 100
-end
+# def calculate(percentages, counts, length)
+#   percentages[:lowercase] = (counts[:lowercase] / length.to_f) * 100
+#   percentages[:uppercase] = (counts[:uppercase] / length.to_f) * 100
+#   percentages[:neither] = (counts[:neither] / length.to_f) * 100
+# end
 
 # Tests:
 # p letter_percentages('abCdef 123') == { lowercase: 50.0, uppercase: 10.0, neither: 40.0 }
