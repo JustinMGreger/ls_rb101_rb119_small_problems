@@ -22,6 +22,7 @@
 # PEDAC stands for [Understand the] Problem,
 
 # Identify expected input:
+# a string.
 
 output:
 Make the requirements explicit Identify rules:
