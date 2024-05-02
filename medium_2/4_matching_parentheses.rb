@@ -24,7 +24,8 @@
 # Identify expected input:
 # a string.
 
-output:
+# output:
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
