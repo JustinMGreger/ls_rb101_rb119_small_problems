@@ -33,10 +33,7 @@
 # and returns true if all parentheses in the string are properly balanced,
 # false otherwise.
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
-
-
-
-
+# Note that balanced pairs must each start with a (, not a ).
 
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
