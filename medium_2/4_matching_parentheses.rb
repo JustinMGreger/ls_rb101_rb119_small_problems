@@ -35,7 +35,15 @@
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
 # Note that balanced pairs must each start with a (, not a ).
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+
+
+
+
+
+
+
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
