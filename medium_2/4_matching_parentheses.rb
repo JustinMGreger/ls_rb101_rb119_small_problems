@@ -28,7 +28,12 @@
 # true if all parentheses in the string are properly balanced
 # false otherwise.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+
+
+
+
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
 Data Structure, How we represent data that we will work with when converting the input to output:
