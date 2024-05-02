@@ -25,6 +25,8 @@
 # a string.
 
 # output:
+# true if all parentheses in the string are properly balanced
+# false otherwise.
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
