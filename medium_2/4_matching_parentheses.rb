@@ -6,3 +6,12 @@
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
 
 # Examples:
+balanced?('What (is) this?') == true
+balanced?('What is) this?') == false
+balanced?('What (is this?') == false
+balanced?('((What) (is this))?') == true
+balanced?('((What)) (is this))?') == false
+balanced?('Hey!') == true
+balanced?(')Hey!(') == false
+balanced?('What ((is))) up(') == false
+balanced?('What ())(is() up') == false
