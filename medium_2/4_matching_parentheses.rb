@@ -16,6 +16,8 @@
 # balanced?('What ((is))) up(') == false
 # balanced?('What ())(is() up') == false
 
+# Note that balanced pairs must each start with a (, not a ).
+
 # Tests:
 p balanced?('What (is) this?') == true
 p balanced?('What is) this?') == false
