@@ -17,3 +17,12 @@ balanced?('What ((is))) up(') == false
 balanced?('What ())(is() up') == false
 
 # Tests:
+balanced?('What (is) this?') == true
+balanced?('What is) this?') == false
+balanced?('What (is this?') == false
+balanced?('((What) (is this))?') == true
+balanced?('((What)) (is this))?') == false
+balanced?('Hey!') == true
+balanced?(')Hey!(') == false
+balanced?('What ((is))) up(') == false
+balanced?('What ())(is() up') == false
