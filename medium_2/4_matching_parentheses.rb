@@ -48,7 +48,7 @@
 
 
 
-Examples / Test Cases, Validate understanding of the problem:
+# Examples / Test Cases, Validate understanding of the problem:
 p balanced?('What (is) this?') == true
 p balanced?('What is) this?') == false
 p balanced?('What (is this?') == false
