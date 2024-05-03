@@ -49,15 +49,15 @@
 
 
 # Examples / Test Cases, Validate understanding of the problem:
-p balanced?('What (is) this?') == true
-p balanced?('What is) this?') == false
-p balanced?('What (is this?') == false
-p balanced?('((What) (is this))?') == true
-p balanced?('((What)) (is this))?') == false
-p balanced?('Hey!') == true
-p balanced?(')Hey!(') == false
-p balanced?('What ((is))) up(') == false
-p balanced?('What ())(is() up') == false
+# p balanced?('What (is) this?') == true
+# p balanced?('What is) this?') == false
+# p balanced?('What (is this?') == false
+# p balanced?('((What) (is this))?') == true
+# p balanced?('((What)) (is this))?') == false
+# p balanced?('Hey!') == true
+# p balanced?(')Hey!(') == false
+# p balanced?('What ((is))) up(') == false
+# p balanced?('What ())(is() up') == false
 
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
