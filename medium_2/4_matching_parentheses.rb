@@ -37,7 +37,7 @@
 
 # Mental model of the problem (optional):
 # def balanced?(string)
-# and returns true if all parentheses in the string are properly balanced,
+# true if all parentheses in the string are properly balanced
 # false otherwise.
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
 # Note that balanced pairs must each start with a (, not a ).
