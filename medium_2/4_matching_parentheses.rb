@@ -42,12 +42,6 @@
 # Note that balanced pairs must each start with a (, not a ).
 # else false.
 
-
-
-
-
-
-
 # Examples / Test Cases, Validate understanding of the problem:
 # p balanced?('What (is) this?') == true
 # p balanced?('What is) this?') == false
