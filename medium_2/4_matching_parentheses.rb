@@ -59,7 +59,7 @@
 # Algorithm, Steps for converting input to output:
 
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 # Tests:
 p balanced?('What (is) this?') == true
