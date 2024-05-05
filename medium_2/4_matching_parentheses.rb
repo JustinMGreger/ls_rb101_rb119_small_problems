@@ -66,6 +66,7 @@
 # remove and return the last element from the stack variable modifying the stack variable itself in the process.
 # this is the last line of the if statement.
 # this is the last line of the .each_char method.
+# return true if the stack variable is empty and false otherwise.
 
 # and Code. Implementation of Algorithm:
 
