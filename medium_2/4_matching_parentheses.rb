@@ -70,6 +70,20 @@
 # this is the last line of the balanced? method.
 
 # and Code. Implementation of Algorithm:
+def balanced?(string)
+  stack = []
+
+  string.each_char do |char|
+    if char == '('
+      stack.push(char)
+    elsif char == ')'
+      return false if stack.empty?
+
+      stack.pop
+    end
+  end
+  stack.empty?
+end
 
 # Tests:
 p balanced?('What (is) this?') == true
