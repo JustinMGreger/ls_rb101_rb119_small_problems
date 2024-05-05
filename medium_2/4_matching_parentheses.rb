@@ -62,6 +62,8 @@
 # pass the following block of code to each character in the string parameter:
 # if the char block parameter is equal to the '(' string then prepend the char block parameter to the end of the stack
 # variable.
+# elsif the char block parameter is equal to the ')' string then return false if the stack variable is empty then
+# remove and return the last element from the stack variable modifying the stack variable itself in the process.
 
 # and Code. Implementation of Algorithm:
 
