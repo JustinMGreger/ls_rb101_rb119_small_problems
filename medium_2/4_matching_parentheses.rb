@@ -60,6 +60,8 @@
 # the balanced? method accepts the (string) parameter and is defined as the following:
 # the stack variable is assigned the [] array.
 # pass the following block of code to each character in the string parameter:
+# if the char block parameter is equal to the '(' string then prepend the char block parameter to the end of the stack
+# variable.
 
 # and Code. Implementation of Algorithm:
 
