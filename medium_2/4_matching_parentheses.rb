@@ -67,6 +67,7 @@
 # this is the last line of the if statement.
 # this is the last line of the .each_char method.
 # return true if the stack variable is empty and false otherwise.
+# this is the last line of the balanced? method.
 
 # and Code. Implementation of Algorithm:
 
