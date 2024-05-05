@@ -65,6 +65,7 @@
 # elsif the char block parameter is equal to the ')' string then return false if the stack variable is empty then
 # remove and return the last element from the stack variable modifying the stack variable itself in the process.
 # this is the last line of the if statement.
+# this is the last line of the .each_char method.
 
 # and Code. Implementation of Algorithm:
 
