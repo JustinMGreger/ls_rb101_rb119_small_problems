@@ -85,6 +85,8 @@ def balanced?(string)
   stack.empty?
 end
 
+# LS Solution:
+
 # Tests:
 p balanced?('What (is) this?') == true
 p balanced?('What is) this?') == false
