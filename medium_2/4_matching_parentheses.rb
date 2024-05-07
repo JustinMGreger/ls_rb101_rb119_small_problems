@@ -97,16 +97,16 @@
 # p balanced?('What ())(is() up') == false
 
 # LS Solution:
-def balanced?(string)
-  parens = 0
-  string.each_char do |char|
-    parens += 1 if char == '('
-    parens -= 1 if char == ')'
-    break if parens < 0
-  end
+# def balanced?(string)
+#   parens = 0
+#   string.each_char do |char|
+#     parens += 1 if char == '('
+#     parens -= 1 if char == ')'
+#     break if parens < 0
+#   end
 
-  parens.zero?
-end
+#   parens.zero?
+# end
 
 # Tests:
 p balanced?('What (is) this?') == true
