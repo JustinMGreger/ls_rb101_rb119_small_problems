@@ -121,4 +121,5 @@ p balanced?('What ())(is() up') == false
 
 # Further Exploration
 
-There are a few other characters that should be matching as well. Square brackets and curly brackets normally come in pairs. Quotation marks(single and double) also typically come in pairs and should be balanced. Can you expand this method to take into account those characters?
+# There are a few other characters that should be matching as well.
+Square brackets and curly brackets normally come in pairs. Quotation marks(single and double) also typically come in pairs and should be balanced. Can you expand this method to take into account those characters?
