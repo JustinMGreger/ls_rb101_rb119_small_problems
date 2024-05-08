@@ -125,3 +125,26 @@
 # Square brackets and curly brackets normally come in pairs.
 # Quotation marks(single and double) also typically come in pairs and should be balanced.
 # Can you expand this method to take into account those characters?
+
+# Tests
+puts balanced?('What (is) this?') == true
+puts balanced?('What is) this?') == false
+puts balanced?('What (is this?') == false
+puts balanced?('((What) (is this))?') == true
+puts balanced?('((What)) (is this))?') == false
+puts balanced?('Hey!') == true
+puts balanced?(')Hey!(') == false
+puts balanced?('What ((is))) up(') == false
+puts balanced?('What ())(is() up') == false
+puts balanced?('What [is] this?') == true
+puts balanced?('What is] this?') == false
+puts balanced?('What [is this?') == false
+puts balanced?('What {is} this?') == true
+puts balanced?('What is} this?') == false
+puts balanced?('What {is this?') == false
+puts balanced?("What 'is' this?") == true
+puts balanced?("What is' this?") == false
+puts balanced?("What 'is this?") == false
+puts balanced?('What "is" this?') == true
+puts balanced?('What is" this?') == false
+puts balanced?('What "is this?') == false
