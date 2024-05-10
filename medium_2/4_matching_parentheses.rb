@@ -153,12 +153,12 @@
 # and returns true if all parentheses 
 
 in the string are properly balanced,
-
+# To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
+# Note that balanced pairs must each start with a (, not a ).
 
 
 # false otherwise.
-# To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
-# Note that balanced pairs must each start with a (, not a ).
+
 # There are a few other characters that should be matching as well.
 # Square brackets and curly brackets normally come in pairs.
 # Quotation marks(single and double) also typically come in pairs and should be balanced.
