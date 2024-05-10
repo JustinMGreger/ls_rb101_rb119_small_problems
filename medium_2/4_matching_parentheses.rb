@@ -150,9 +150,8 @@
 
 # Mental model of the problem (optional):
 # def balanced?(string)
-# and returns true if all parentheses, Square brackets and curly brackets
-
-in the string are properly balanced,
+# and returns true if all parentheses, Square brackets, curly brackets and Quotation marks(single and double)
+# in the string are properly balanced.
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
 # Note that balanced pairs must each start with a (, not a ).
 # To be properly balanced, Square brackets must occur in matching '[' and ']' pairs.
