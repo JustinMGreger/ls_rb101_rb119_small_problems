@@ -138,23 +138,15 @@
 # false otherwise.
 
 # Make the requirements explicit Identify rules:
+# Write a method that takes a string as an argument,
+# and returns true if all parentheses in the string are properly balanced,
+# false otherwise.
+# To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
+# Note that balanced pairs must each start with a (, not a ).
 # There are a few other characters that should be matching as well.
 # Square brackets and curly brackets normally come in pairs.
 # Quotation marks(single and double) also typically come in pairs and should be balanced.
 # Can you expand this method to take into account those characters?
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Mental model of the problem (optional):
 
