@@ -148,7 +148,13 @@
 # Quotation marks(single and double) also typically come in pairs and should be balanced.
 # Can you expand this method to take into account those characters?
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts balanced?('What (is) this?') == true
