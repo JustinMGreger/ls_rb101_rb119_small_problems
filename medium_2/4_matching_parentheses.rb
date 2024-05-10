@@ -139,7 +139,30 @@
 
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
-Examples / Test Cases, Validate understanding of the problem:
+
+# Examples / Test Cases, Validate understanding of the problem:
+puts balanced?('What (is) this?') == true
+puts balanced?('What is) this?') == false
+puts balanced?('What (is this?') == false
+puts balanced?('((What) (is this))?') == true
+puts balanced?('((What)) (is this))?') == false
+puts balanced?('Hey!') == true
+puts balanced?(')Hey!(') == false
+puts balanced?('What ((is))) up(') == false
+puts balanced?('What ())(is() up') == false
+puts balanced?('What [is] this?') == true
+puts balanced?('What is] this?') == false
+puts balanced?('What [is this?') == false
+puts balanced?('What {is} this?') == true
+puts balanced?('What is} this?') == false
+puts balanced?('What {is this?') == false
+puts balanced?("What 'is' this?") == true
+puts balanced?("What is' this?") == false
+puts balanced?("What 'is this?") == false
+puts balanced?('What "is" this?') == true
+puts balanced?('What is" this?') == false
+puts balanced?('What "is this?') == false
+
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
