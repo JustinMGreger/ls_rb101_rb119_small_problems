@@ -132,7 +132,11 @@
 # Identify expected input:
 # a string.
 
-output:
+# output:
+# true if all parentheses, Square brackets, curly brackets, Quotation marks(single and double)
+# in the string are properly balanced
+# false otherwise.
+
 Make the requirements explicit Identify rules:
 Mental model of the problem (optional):
 Examples / Test Cases, Validate understanding of the problem:
