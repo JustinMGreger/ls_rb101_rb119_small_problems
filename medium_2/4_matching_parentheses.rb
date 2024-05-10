@@ -126,6 +126,18 @@
 # Quotation marks(single and double) also typically come in pairs and should be balanced.
 # Can you expand this method to take into account those characters?
 
+# PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
+# PEDAC stands for [Understand the] Problem,
+
+Identify expected input:
+output:
+Make the requirements explicit Identify rules:
+Mental model of the problem (optional):
+Examples / Test Cases, Validate understanding of the problem:
+Data Structure, How we represent data that we will work with when converting the input to output:
+Algorithm, Steps for converting input to output:
+and Code. Implementation of Algorithm:
+
 # Tests
 puts balanced?('What (is) this?') == true
 puts balanced?('What is) this?') == false
