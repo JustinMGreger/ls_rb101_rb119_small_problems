@@ -155,6 +155,8 @@
 in the string are properly balanced,
 # To be properly balanced, parentheses must occur in matching '(' and ')' pairs.
 # Note that balanced pairs must each start with a (, not a ).
+# To be properly balanced, Square brackets must occur in matching '[' and ']' pairs.
+# Note that balanced pairs must each start with a [, not a ].
 
 
 # false otherwise.
