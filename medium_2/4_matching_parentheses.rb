@@ -192,6 +192,7 @@
 
 # Algorithm, Steps for converting input to output:
 # the balanced? method accepts the (string) parameter and is defined as the following:
+# the stack variable is assigned the [] array.
 
 
 
