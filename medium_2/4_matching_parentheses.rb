@@ -162,17 +162,7 @@
 # Note that balanced pairs must each start with a ', not a '.
 # To be properly balanced, double Quotation marks must occur in matching '"' and '"' pairs.
 # Note that balanced pairs must each start with a ", not a ".
-
 # false otherwise.
-
-
-# ( and ) also typically come in pairs and should be balanced.
-# Can you expand this method to take into account those characters?
-
-
-
-
-
 
 # Examples / Test Cases, Validate understanding of the problem:
 # puts balanced?('What (is) this?') == true
