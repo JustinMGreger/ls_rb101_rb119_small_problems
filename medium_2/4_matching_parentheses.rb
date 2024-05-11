@@ -218,6 +218,7 @@
 # this is the last line of the quote? method.
 # the match_for_opening method accepts the (char) parameter and is defined as the following:
 # return the value assigned to the [char] key in the { '(' => ')', '[' => ']', '{' => '}' } hash.
+# this is the last line of the match_for_opening method.
 
 and Code. Implementation of Algorithm:
 
