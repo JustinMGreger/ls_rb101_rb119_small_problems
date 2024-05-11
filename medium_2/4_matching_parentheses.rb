@@ -197,6 +197,7 @@
 # return false if the result of passing the char and stack parameter to the process_char method
 # is false.
 # return true if the stack variable is empty.
+# this is the last line fo the balanced? method.
 
 
 
