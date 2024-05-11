@@ -214,6 +214,7 @@
 # return true if the [')', ']', '}'] array includes the (char) parameter.
 # this is the last line of the closing? method.
 # the quote? method accepts the (char) parameter and is defined as the following:
+# return true if the ["'", '"'] array includes the (char) parameter.
 
 
 and Code. Implementation of Algorithm:
