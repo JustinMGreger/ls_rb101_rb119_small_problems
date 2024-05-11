@@ -198,6 +198,7 @@
 # is false.
 # return true if the stack variable is empty.
 # this is the last line fo the balanced? method.
+# the process_char method accepts the (char, stack) parameters and is defined as the following:
 
 
 
