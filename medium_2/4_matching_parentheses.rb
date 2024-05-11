@@ -201,6 +201,8 @@
 # the process_char method accepts the (char, stack) parameters and is defined as the following:
 # if the result of passing the char block parameter to the opening? method returns true return the result of passing the
 # char and stack block parameters to the push_if_opening method.
+# if the result of passing the char block parameter to the closing? method returns true return the result of passing the
+# char and stack block parameters to the pop_if_closing method.
 
 
 
