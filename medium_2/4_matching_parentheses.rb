@@ -233,6 +233,7 @@
 # if the stack parameter is not empty return true and if the last element in the stack parameter is equal
 # to the char block parameter return true then return a new array that is the result of removing the last
 # element in the stack parameter.
+# else append the char block parameter to the end of the stack block parameter.
 
 and Code. Implementation of Algorithm:
 
