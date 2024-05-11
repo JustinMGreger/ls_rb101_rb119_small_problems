@@ -228,6 +228,7 @@
 # if the stack parameter is empty? return true or return true if the result of removing the last
 # element from the stack parameter and checking if it is not the char parameter then return false.
 # return true.
+# this is the last line of the pop_if_closing method.
 
 and Code. Implementation of Algorithm:
 
