@@ -207,6 +207,7 @@
 # char and stack block parameters to the handle_quote_if_quote method.
 # return true.
 # this is the last line of the process_char method.
+# the opening? method accepts the (char) parameter and is defined as the following:
 
 
 
