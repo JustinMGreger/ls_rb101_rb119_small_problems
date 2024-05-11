@@ -229,6 +229,7 @@
 # element from the stack parameter and checking if it is not the char parameter then return false.
 # return true.
 # this is the last line of the pop_if_closing method.
+# the handle_quote_if_quote method accepts the (char, stack) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
