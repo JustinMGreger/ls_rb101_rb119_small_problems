@@ -222,6 +222,7 @@
 # the push_if_opening method accepts the (char, stack) parameters and is defined as the following:
 # append the result of passing the char block parameter to the match_for_opening method to the end
 # of the stack parameter.
+# return true.
 
 and Code. Implementation of Algorithm:
 
