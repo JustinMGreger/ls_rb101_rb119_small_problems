@@ -199,6 +199,8 @@
 # return true if the stack variable is empty.
 # this is the last line fo the balanced? method.
 # the process_char method accepts the (char, stack) parameters and is defined as the following:
+# if the result of passing the char block parameter to the opening? method returns true return the result of passing the
+# char and stack block parameters to the push_if_opening method.
 
 
 
