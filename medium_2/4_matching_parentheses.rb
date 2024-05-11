@@ -196,6 +196,7 @@
 # pass the following block of code to each character in the string parameter:
 # return false if the result of passing the char and stack parameter to the process_char method
 # is false.
+# return true if the stack variable is empty.
 
 
 
