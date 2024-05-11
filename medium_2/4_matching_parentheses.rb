@@ -217,6 +217,7 @@
 # return true if the ["'", '"'] array includes the (char) parameter.
 # this is the last line of the quote? method.
 # the match_for_opening method accepts the (char) parameter and is defined as the following:
+# return the value assigned to the [char] key in the { '(' => ')', '[' => ']', '{' => '}' } hash.
 
 and Code. Implementation of Algorithm:
 
