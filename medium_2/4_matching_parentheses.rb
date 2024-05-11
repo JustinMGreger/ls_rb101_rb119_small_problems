@@ -230,6 +230,9 @@
 # return true.
 # this is the last line of the pop_if_closing method.
 # the handle_quote_if_quote method accepts the (char, stack) parameters and is defined as the following:
+# if the stack parameter is not empty return true and if the last element in the stack parameter is equal
+# to the char block parameter return true then return a new array that is the result of removing the last
+# element in the stack parameter.
 
 and Code. Implementation of Algorithm:
 
