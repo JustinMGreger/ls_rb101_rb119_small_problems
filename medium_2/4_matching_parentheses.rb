@@ -235,6 +235,7 @@
 # element in the stack parameter.
 # else append the char block parameter to the end of the stack block parameter.
 # this is the last line of the if statement.
+# return true
 
 and Code. Implementation of Algorithm:
 
