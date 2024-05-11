@@ -206,6 +206,7 @@
 # if the result of passing the char block parameter to the quote? method returns true return the result of passing the
 # char and stack block parameters to the handle_quote_if_quote method.
 # return true.
+# this is the last line of the process_char method.
 
 
 
