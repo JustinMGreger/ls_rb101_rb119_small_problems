@@ -194,6 +194,8 @@
 # the balanced? method accepts the (string) parameter and is defined as the following:
 # the stack variable is assigned the [] array.
 # pass the following block of code to each character in the string parameter:
+# return false if the result of passing the char and stack parameter to the process_char method
+# is false.
 
 
 
