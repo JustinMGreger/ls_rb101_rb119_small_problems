@@ -223,6 +223,7 @@
 # append the result of passing the char block parameter to the match_for_opening method to the end
 # of the stack parameter.
 # return true.
+# this is the last line of the push_if_opening method.
 
 and Code. Implementation of Algorithm:
 
