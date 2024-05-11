@@ -234,6 +234,7 @@
 # to the char block parameter return true then return a new array that is the result of removing the last
 # element in the stack parameter.
 # else append the char block parameter to the end of the stack block parameter.
+# this is the last line of the if statement.
 
 and Code. Implementation of Algorithm:
 
