@@ -190,7 +190,13 @@
 # Data Structure, How we represent data that we will work with when converting the input to output:
 # arrays & hashes.
 
-Algorithm, Steps for converting input to output:
+# Algorithm, Steps for converting input to output:
+
+
+
+
+
+
 and Code. Implementation of Algorithm:
 
 # Tests
