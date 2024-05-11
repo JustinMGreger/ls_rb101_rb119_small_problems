@@ -224,6 +224,7 @@
 # of the stack parameter.
 # return true.
 # this is the last line of the push_if_opening method.
+# the pop_if_closing method accepts the (char, stack) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
