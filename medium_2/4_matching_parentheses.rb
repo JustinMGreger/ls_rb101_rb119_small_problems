@@ -203,6 +203,8 @@
 # char and stack block parameters to the push_if_opening method.
 # if the result of passing the char block parameter to the closing? method returns true return the result of passing the
 # char and stack block parameters to the pop_if_closing method.
+# if the result of passing the char block parameter to the quote? method returns true return the result of passing the
+# char and stack block parameters to the handle_quote_if_quote method.
 
 
 
