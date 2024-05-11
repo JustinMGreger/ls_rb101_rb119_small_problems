@@ -219,6 +219,8 @@
 # the match_for_opening method accepts the (char) parameter and is defined as the following:
 # return the value assigned to the [char] key in the { '(' => ')', '[' => ']', '{' => '}' } hash.
 # this is the last line of the match_for_opening method.
+# the push_if_opening method accepts the (char, stack) parameters and is defined as the following:
+
 
 and Code. Implementation of Algorithm:
 
