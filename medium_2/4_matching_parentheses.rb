@@ -238,7 +238,7 @@
 # return true
 # this is the last line of the handle_quote_if_quote method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 # Tests
 puts balanced?('What (is) this?') == true
