@@ -236,6 +236,7 @@
 # else append the char block parameter to the end of the stack block parameter.
 # this is the last line of the if statement.
 # return true
+# this is the last line of the handle_quote_if_quote method.
 
 and Code. Implementation of Algorithm:
 
