@@ -239,6 +239,55 @@
 # this is the last line of the handle_quote_if_quote method.
 
 # and Code. Implementation of Algorithm:
+def balanced?(string)
+  stack = []
+  string.each_char { |char| return false unless process_char(char, stack) }
+  stack.empty?
+end
+
+def process_char(char, stack)
+  return push_if_opening(char, stack) if opening?(char)
+  return pop_if_closing(char, stack) if closing?(char)
+  return handle_quote_if_quote(char, stack) if quote?(char)
+
+  true
+end
+
+def opening?(char)
+  ['(', '[', '{'].include?(char)
+end
+
+def closing?(char)
+  [')', ']', '}'].include?(char)
+end
+
+def quote?(char)
+  ["'", '"'].include?(char)
+end
+
+def match_for_opening(char)
+  { '(' => ')', '[' => ']', '{' => '}' }[char]
+end
+
+def push_if_opening(char, stack)
+  stack.push(match_for_opening(char))
+  true
+end
+
+def pop_if_closing(char, stack)
+  return false if stack.empty? || stack.pop != char
+
+  true
+end
+
+def handle_quote_if_quote(char, stack)
+  if !stack.empty? && stack.last == char
+    stack.pop
+  else
+    stack.push(char)
+  end
+  true
+end
 
 # Tests
 puts balanced?('What (is) this?') == true
