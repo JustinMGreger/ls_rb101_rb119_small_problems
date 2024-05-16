@@ -11,6 +11,7 @@
 # if either of these conditions is not satisfied, the triangle is invalid.
 
 # Write a method that takes the lengths of the 3 sides of a triangle as arguments,
-and returns a symbol :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is equilateral, isosceles, scalene, or invalid.
+# and returns a symbol :equilateral, :isosceles, :scalene,
+or :invalid depending on whether the triangle is equilateral, isosceles, scalene, or invalid.
 
 Examples:
