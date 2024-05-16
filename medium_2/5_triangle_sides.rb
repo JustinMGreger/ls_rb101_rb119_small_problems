@@ -14,4 +14,4 @@
 # and returns a symbol :equilateral, :isosceles, :scalene,
 # or :invalid depending on whether the triangle is equilateral, isosceles, scalene, or invalid.
 
-Examples:
+# Examples:
