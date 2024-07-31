@@ -31,7 +31,15 @@
 # returns a symbol :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is equilateral,
 # isosceles, scalene, or invalid.
 
-Make the requirements explicit Identify rules:
+# Make the requirements explicit Identify rules:
+
+
+
+
+
+
+
+
 Mental model of the problem (optional):
 
 # Examples / Test Cases, Validate understanding of the problem:
