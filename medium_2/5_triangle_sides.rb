@@ -15,11 +15,11 @@
 # or :invalid depending on whether the triangle is equilateral, isosceles, scalene, or invalid.
 
 # Examples:
-triangle(3, 3, 3) == :equilateral
-triangle(3, 3, 1.5) == :isosceles
-triangle(3, 4, 5) == :scalene
-triangle(0, 3, 3) == :invalid
-triangle(3, 1, 1) == :invalid
+# triangle(3, 3, 3) == :equilateral
+# triangle(3, 3, 1.5) == :isosceles
+# triangle(3, 4, 5) == :scalene
+# triangle(0, 3, 3) == :invalid
+# triangle(3, 1, 1) == :invalid
 
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
