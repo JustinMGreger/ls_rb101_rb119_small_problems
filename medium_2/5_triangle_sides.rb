@@ -32,7 +32,9 @@
 # isosceles, scalene, or invalid.
 
 # Make the requirements explicit Identify rules:
-
+# Write a method that takes the lengths of the 3 sides of a triangle as arguments, and returns a symbol
+# :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
+# equilateral, isosceles, scalene, or invalid.
 
 
 
