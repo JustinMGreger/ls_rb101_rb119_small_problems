@@ -44,7 +44,7 @@
 # these conditions is not satisfied, the triangle is invalid.
 
 # Mental model of the problem (optional):
-# def triangle (takes the lengths of the 3 sides of a triangle as arguments)
+# def triangle (side_a, side_b, side_c)
 # A triangle is classified as follows:
 # equilateral All 3 sides are of equal length
 # isosceles 2 sides are of equal length, while the 3rd is different
@@ -52,8 +52,6 @@
 # valid triangle = sum of the lengths of the two shortest sides > the length of the longest side 
 # && all sides must have lengths > 0
 # if either of these conditions is not satisfied, the triangle is invalid.
-
-
 # return :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
 # equilateral, isosceles, scalene, or invalid.
 
