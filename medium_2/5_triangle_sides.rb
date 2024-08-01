@@ -47,7 +47,7 @@
 # def triangle (side_a, side_b, side_c)
 # A triangle is classified as follows:
 # equilateral All 3 sides are of equal length
-# isosceles 2 sides are of equal length, while the 3rd is different
+# :isosceles = 2 sides are of equal length, while the 3rd is different
 # scalene All 3 sides are of different length
 # valid triangle = sum of the lengths of the two shortest sides > the length of the longest side 
 # && all sides must have lengths > 0
