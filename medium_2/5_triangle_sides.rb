@@ -52,8 +52,7 @@
 # valid triangle = sum of the lengths of the two shortest sides > the length of the longest side 
 # && all sides must have lengths > 0
 # if either of these conditions is not satisfied, the triangle is invalid.
-# return :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
-# equilateral, isosceles, scalene, or invalid.
+# return :equilateral, :isosceles, :scalene, or :invalid
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p triangle(3, 3, 3) == :equilateral
