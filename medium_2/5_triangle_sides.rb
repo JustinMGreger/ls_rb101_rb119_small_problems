@@ -43,7 +43,14 @@
 # the length of the longest side, and all sides must have lengths greater than 0: if either of
 # these conditions is not satisfied, the triangle is invalid.
 
-Mental model of the problem (optional):
+# Mental model of the problem (optional):
+
+
+
+
+
+
+
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p triangle(3, 3, 3) == :equilateral
