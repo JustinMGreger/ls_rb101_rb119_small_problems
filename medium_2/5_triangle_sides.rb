@@ -44,7 +44,8 @@
 # these conditions is not satisfied, the triangle is invalid.
 
 # Mental model of the problem (optional):
-# Write a method that takes the lengths of the 3 sides of a triangle as arguments, and returns a symbol
+# def triangle (takes the lengths of the 3 sides of a triangle as arguments)
+# returns a symbol
 # :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
 # equilateral, isosceles, scalene, or invalid.
 # A triangle is classified as follows:
