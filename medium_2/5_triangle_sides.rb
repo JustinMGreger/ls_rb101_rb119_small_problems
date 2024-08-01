@@ -45,9 +45,6 @@
 
 # Mental model of the problem (optional):
 # def triangle (takes the lengths of the 3 sides of a triangle as arguments)
-# returns a symbol
-# :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
-# equilateral, isosceles, scalene, or invalid.
 # A triangle is classified as follows:
 # equilateral All 3 sides are of equal length
 # isosceles 2 sides are of equal length, while the 3rd is different
@@ -57,10 +54,8 @@
 # these conditions is not satisfied, the triangle is invalid.
 
 
-
-
-
-
+# return :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is
+# equilateral, isosceles, scalene, or invalid.
 
 # Examples / Test Cases, Validate understanding of the problem:
 # p triangle(3, 3, 3) == :equilateral
