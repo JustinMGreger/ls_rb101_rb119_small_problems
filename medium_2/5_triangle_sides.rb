@@ -48,7 +48,7 @@
 # A triangle is classified as follows:
 # equilateral All 3 sides are of equal length
 # :isosceles = 2 sides are of equal length, while the 3rd is different
-# scalene All 3 sides are of different length
+# :scalene = All 3 sides are of different length
 # valid triangle = sum of the lengths of the two shortest sides > the length of the longest side 
 # && all sides must have lengths > 0
 # if either of these conditions is not satisfied, the triangle is invalid.
