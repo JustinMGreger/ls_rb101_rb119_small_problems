@@ -55,3 +55,10 @@ p triangle(3, 1, 1) == :invalid
 Data Structure, How we represent data that we will work with when converting the input to output:
 Algorithm, Steps for converting input to output:
 and Code. Implementation of Algorithm:
+
+# Tests:
+p triangle(3, 3, 3) == :equilateral
+p triangle(3, 3, 1.5) == :isosceles
+p triangle(3, 4, 5) == :scalene
+p triangle(0, 3, 3) == :invalid
+p triangle(3, 1, 1) == :invalid
