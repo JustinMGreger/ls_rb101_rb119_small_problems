@@ -65,7 +65,7 @@
 # array
 
 # Algorithm, Steps for converting input to output:
-
+# the triangle method accepts the (side_a, side_b, side_c) parameters and is defined as the following:
 
 and Code. Implementation of Algorithm:
 
