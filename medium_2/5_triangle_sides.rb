@@ -70,6 +70,7 @@
 # the element_one varible, the element_two variable, the element_three variable are intialized as the value at the
 # 0 index location in the sides variable, the value at the 1 index location in the sides variable, value at the 2 index
 # location in the sides variable.
+# the sum_sides variable is intialized the sum of adding the element_one variable with the element_two variable.
 
 and Code. Implementation of Algorithm:
 
