@@ -76,6 +76,8 @@
 # is greater than the integer 0:
 # start an if statement checking if the side_a parameter is equal to the side_b parameter and the side_b parameter
 # is equal to the side_c parameter: return the :equilateral.
+# start an elsif statement checking if the side_a is equal to the side_b parameter or the side_b parameter is
+# equal to the side_c parameter or the side_a parameter is equal to the side_c parameter: return the :isosceles.
 
 and Code. Implementation of Algorithm:
 
