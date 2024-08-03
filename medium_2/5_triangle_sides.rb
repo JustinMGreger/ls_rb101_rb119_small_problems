@@ -74,6 +74,8 @@
 # start an if statement checking if the sum_sides variable is greater than the element_three variable and the side_a 
 # parameter is greater than the integer 0 and the side_b parameter is greater than the 0 integer and the side_c parameter
 # is greater than the integer 0:
+# start an if statement checking if the side_a parameter is equal to the side_b parameter and the side_b parameter
+# is equal to the side_c parameter: return the :equilateral.
 
 and Code. Implementation of Algorithm:
 
