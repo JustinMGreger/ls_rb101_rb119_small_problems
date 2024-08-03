@@ -71,6 +71,9 @@
 # 0 index location in the sides variable, the value at the 1 index location in the sides variable, value at the 2 index
 # location in the sides variable.
 # the sum_sides variable is intialized the sum of adding the element_one variable with the element_two variable.
+# start an if statement checking if the sum_sides variable is greater than the element_three variable and the side_a 
+# parameter is greater than the integer 0 and the side_b parameter is greater than the 0 integer and the side_c parameter
+# is greater than the integer 0:
 
 and Code. Implementation of Algorithm:
 
