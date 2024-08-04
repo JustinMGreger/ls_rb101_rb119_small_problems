@@ -82,6 +82,7 @@
 # side_b parameter is not equal to the side_c parameter and the side_a parameter is not equal to the side_c parameter:
 # return the :scalene.
 # this is the end of the if statement.
+# start an else statement return the :invalid.
 
 and Code. Implementation of Algorithm:
 
