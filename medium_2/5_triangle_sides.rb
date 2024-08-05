@@ -49,7 +49,7 @@
 # :equilateral = All 3 sides are of equal length
 # :isosceles = 2 sides are of equal length, while the 3rd is different
 # :scalene = All 3 sides are of different length
-# valid triangle = sum of the lengths of the two shortest sides > the length of the longest side 
+# valid triangle = sum of the lengths of the two shortest sides > the length of the longest side
 # && all sides must have lengths > 0
 # if either of these conditions is not satisfied, the triangle is invalid.
 # return :equilateral, :isosceles, :scalene, or :invalid
@@ -71,7 +71,7 @@
 # 0 index location in the sides variable, the value at the 1 index location in the sides variable, value at the 2 index
 # location in the sides variable.
 # the sum_sides variable is intialized the sum of adding the element_one variable with the element_two variable.
-# start an if statement checking if the sum_sides variable is greater than the element_three variable and the side_a 
+# start an if statement checking if the sum_sides variable is greater than the element_three variable and the side_a
 # parameter is greater than the integer 0 and the side_b parameter is greater than the 0 integer and the side_c parameter
 # is greater than the integer 0:
 # start an if statement checking if the side_a parameter is equal to the side_b parameter and the side_b parameter
