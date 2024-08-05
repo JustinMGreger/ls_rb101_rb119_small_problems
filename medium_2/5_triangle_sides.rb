@@ -88,7 +88,6 @@
 
 # and Code. Implementation of Algorithm:
 def triangle(side_a, side_b, side_c)
-
   sides = [side_a, side_b, side_c].sort
 
   element_one, element_two, element_three = sides[0], sides[1], sides[2]
