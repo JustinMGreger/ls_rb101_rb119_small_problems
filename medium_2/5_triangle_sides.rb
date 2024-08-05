@@ -88,22 +88,23 @@
 
 # and Code. Implementation of Algorithm:
 def triangle(side_a, side_b, side_c)
+  return :invalid unless valid_triangle?(side_a, side_b, side_c)
+
+  classify_triangle(side_a, side_b, side_c)
+end
+
+def valid_triangle?(side_a, side_b, side_c)
   sides = [side_a, side_b, side_c].sort
+  sides[0] + sides[1] > sides[2] && side_a.positive? && side_b.positive? && side_c.positive?
+end
 
-  element_one, element_two, element_three = sides[0], sides[1], sides[2]
-
-  sum_sides = element_one + element_two
-  if sum_sides > element_three && side_a.positive? && side_b.positive? && side_c.positive?
-
-    if side_a == side_b && side_b == side_c
-      :equilateral
-    elsif side_a == side_b || side_b == side_c || side_a == side_c
-      :isosceles
-    elsif side_a != side_b && side_b != side_c && side_a != side_c
-      :scalene
-    end
+def classify_triangle(side_a, side_b, side_c)
+  if side_a == side_b && side_b == side_c
+    :equilateral
+  elsif side_a == side_b || side_b == side_c || side_a == side_c
+    :isosceles
   else
-    :invalid
+    :scalene
   end
 end
 
