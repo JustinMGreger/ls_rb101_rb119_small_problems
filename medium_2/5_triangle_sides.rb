@@ -87,26 +87,26 @@
 # this is the end of the triangle method.
 
 # and Code. Implementation of Algorithm:
-# def triangle(side_a, side_b, side_c)
+def triangle(side_a, side_b, side_c)
 
-#   sides = [side_a, side_b, side_c].sort
+  sides = [side_a, side_b, side_c].sort
 
-#   element_one, element_two, element_three = sides[0], sides[1], sides[2]
+  element_one, element_two, element_three = sides[0], sides[1], sides[2]
 
-#   sum_sides = element_one + element_two
-#   if sum_sides > element_three && side_a > 0 && side_b > 0 && side_c > 0
+  sum_sides = element_one + element_two
+  if sum_sides > element_three && side_a > 0 && side_b > 0 && side_c > 0
 
-#     if side_a == side_b && side_b == side_c
-#       return :equilateral
-#     elsif side_a == side_b || side_b == side_c || side_a == side_c
-#       return :isosceles
-#     elsif side_a != side_b && side_b != side_c && side_a != side_c
-#       return :scalene
-#     end
-#   else
-#     return :invalid
-#   end
-# end
+    if side_a == side_b && side_b == side_c
+      :equilateral
+    elsif side_a == side_b || side_b == side_c || side_a == side_c
+      :isosceles
+    elsif side_a != side_b && side_b != side_c && side_a != side_c
+      :scalene
+    end
+  else
+    :invalid
+  end
+end
 
 # Tests:
 p triangle(3, 3, 3) == :equilateral
