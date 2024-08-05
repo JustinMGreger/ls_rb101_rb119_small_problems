@@ -94,7 +94,7 @@ def triangle(side_a, side_b, side_c)
   element_one, element_two, element_three = sides[0], sides[1], sides[2]
 
   sum_sides = element_one + element_two
-  if sum_sides > element_three && side_a > 0 && side_b > 0 && side_c > 0
+  if sum_sides > element_three && side_a.positive? && side_b.positive? && side_c.positive?
 
     if side_a == side_b && side_b == side_c
       :equilateral
