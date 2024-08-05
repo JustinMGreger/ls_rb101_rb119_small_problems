@@ -86,7 +86,7 @@
 # this is the end of the if statement.
 # this is the end of the triangle method.
 
-and Code. Implementation of Algorithm:
+# and Code. Implementation of Algorithm:
 
 # Tests:
 p triangle(3, 3, 3) == :equilateral
