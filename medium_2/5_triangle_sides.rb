@@ -24,10 +24,10 @@
 # PEDAC has two primary objectives: process the problem (PEDA) and code with intent (C).
 # PEDAC stands for [Understand the] Problem,
 
-# Identify expected input: 
+# Identify expected input:
 # the lengths of the 3 sides of a triangle as arguments.
 
-# output: 
+# output:
 # returns a symbol :equilateral, :isosceles, :scalene, or :invalid depending on whether the triangle is equilateral,
 # isosceles, scalene, or invalid.
 
